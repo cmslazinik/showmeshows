@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Every live music show in St. Louis and the Metro East, updated every morning. Times, ticket links, venue reviews.">
+<meta property="og:title" content="Show Me Shows: St. Louis live music, every night">
+<meta property="og:description" content="Every live show in St. Louis & the Metro East, updated daily with times and ticket links.">
+<title>Show Me Shows</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a risograph gig-poster listing — day-by-day columns of shows, ink on newsprint, pink and blue spot colors. */
+:root{
+  --paper:#ECEBE6;
+  --card:#F7F6F2;
+  --ink:#16161A;
+  --muted:#5C5C66;
+  --line:#CBC9C1;
+  --pink:#FF3D8B;
+  --blue:#1F4FD8;
+  --on-pink:#16161A;
+  --font-display:"Anton", Impact, "Arial Narrow", sans-serif;
+  --font-body:"Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#131317; --card:#1C1C22; --ink:#EDECE7; --muted:#A3A3AD; --line:#30303A;
+    --pink:#FF5C9E; --blue:#86A6FF; --on-pink:#131317; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#131317; --card:#1C1C22; --ink:#EDECE7; --muted:#A3A3AD; --line:#30303A;
+  --pink:#FF5C9E; --blue:#86A6FF; --on-pink:#131317; color-scheme: dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.45}
+a{color:var(--blue)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* Masthead */
+header.mast{border-bottom:4px solid var(--ink);padding:22px 0 0}
+.mast-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.logo{font-family:var(--font-display);font-size:clamp(48px,9vw,104px);line-height:.88;letter-spacing:.5px;margin:0;text-transform:uppercase}
+.logo span{background:var(--pink);color:var(--on-pink);padding:0 .08em}
+.tag{font-family:var(--font-mono);font-size:13px;color:var(--muted);max-width:30ch;text-align:right}
+.tag strong{color:var(--ink);display:block;font-size:14px}
+nav.tabs{display:flex;gap:0;margin-top:18px;overflow-x:auto}
+nav.tabs a{font-family:var(--font-display);text-transform:uppercase;font-size:20px;letter-spacing:.5px;text-decoration:none;color:var(--ink);padding:8px 14px 6px;border:2px solid transparent;border-bottom:none;white-space:nowrap}
+nav.tabs a[aria-current="page"]{background:var(--ink);color:var(--paper)}
+nav.tabs a:hover:not([aria-current="page"]){border-color:var(--ink)}
+nav.tabs a.admin-tab{color:var(--blue)}
+
+main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;padding-top:24px;padding-bottom:60px}
+@media (max-width:900px){main.grid{grid-template-columns:1fr}}
+
+/* Filters */
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.filters input[type="search"]{flex:1 1 200px;min-width:0;padding:9px 12px;border:2px solid var(--ink);background:var(--card);border-radius:0}
+.filters select{padding:9px 10px;border:2px solid var(--ink);background:var(--card);border-radius:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+.chip{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;padding:5px 9px;border:1.5px solid var(--ink);background:transparent;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.toggle{display:flex;align-items:center;gap:6px;font-size:14px;cursor:pointer}
+.count{font-family:var(--font-mono);font-size:13px;color:var(--muted);margin:12px 0 4px}
+
+/* Day groups */
+.day{display:grid;grid-template-columns:92px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:2px solid var(--ink)}
+@media (max-width:520px){.day{grid-template-columns:1fr;gap:8px}}
+.day-label{font-family:var(--font-display);text-transform:uppercase;line-height:.95}
+.day-label .dow{font-size:22px;display:block}
+.day-label .dnum{font-size:46px;display:block}
+.day-label .mon{font-family:var(--font-mono);font-size:12px;letter-spacing:1px}
+.day-label .tonight{display:inline-block;background:var(--pink);color:var(--on-pink);font-family:var(--font-mono);font-size:11px;padding:2px 6px;margin-top:6px}
+@media (max-width:520px){.day-label{display:flex;gap:10px;align-items:baseline}.day-label .dnum{font-size:28px}}
+.shows{display:flex;flex-direction:column;gap:12px}
+.show{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 14px;padding:12px 14px;background:var(--card);border:1px solid var(--line)}
+.show.featured{border:2px solid var(--pink);box-shadow:5px 5px 0 var(--pink)}
+.feat-badge{grid-column:1/-1;font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--pink);font-weight:600}
+.artist{font-family:var(--font-display);font-size:26px;line-height:1.05;text-transform:uppercase;margin:0;letter-spacing:.3px;overflow-wrap:anywhere}
+.support{font-size:14px;color:var(--muted);margin:2px 0 0}
+.meta{font-size:14px;margin-top:6px;display:flex;flex-wrap:wrap;gap:4px 12px}
+.meta .venue{font-weight:600}
+.side-tags{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+@media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
+.pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
+.pill.free{background:var(--ink);color:var(--paper)}
+.pill.genre{border-color:var(--blue);color:var(--blue)}
+.link{font-size:13px;font-weight:600}
+.empty{padding:28px 0;color:var(--muted)}
+.empty strong{color:var(--ink);display:block;font-family:var(--font-display);text-transform:uppercase;font-size:24px}
+
+/* Sidebar */
+aside{display:flex;flex-direction:column;gap:20px}
+.box{border:2px solid var(--ink);padding:16px;background:var(--card)}
+.box h2{font-family:var(--font-display);text-transform:uppercase;font-size:24px;margin:0 0 6px;letter-spacing:.3px;line-height:1}
+.box p{margin:0 0 10px;font-size:14px}
+.box.pink{background:var(--pink);color:var(--on-pink);border-color:var(--pink)}
+.box.pink a{color:var(--on-pink)}
+.field{display:flex;flex-direction:column;gap:4px;margin-bottom:10px}
+.field label{font-size:13px;font-weight:600}
+.field input,.field select,.field textarea{padding:8px 10px;border:2px solid var(--ink);background:var(--paper);border-radius:0;width:100%}
+.btn{display:inline-block;font-family:var(--font-display);text-transform:uppercase;font-size:18px;letter-spacing:.5px;padding:8px 16px;background:var(--ink);color:var(--paper);border:2px solid var(--ink);cursor:pointer;text-decoration:none}
+.btn:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.small{font-size:14px;padding:5px 10px}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.note{font-family:var(--font-mono);font-size:12px;color:var(--muted)}
+.status{font-size:13px;margin-top:8px;min-height:1em}
+.status.ok{color:var(--blue);font-weight:600}
+.status.err{color:#C42A2A;font-weight:600}
+
+/* Map */
+.map-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+.seg{display:flex}
+.seg button{padding:6px 12px;border:2px solid var(--ink);background:transparent;cursor:pointer;font-family:var(--font-mono);font-size:12px;text-transform:uppercase}
+.seg button+button{border-left:none}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.mapbox{border:2px solid var(--ink);background:var(--card);overflow-x:auto}
+.mapbox svg{display:block;width:100%;min-width:560px;height:auto}
+.map-river{fill:none;stroke:var(--blue);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;opacity:.55}
+.map-label{font-family:var(--font-mono);font-size:13px;fill:var(--muted)}
+.map-river-label{font-family:var(--font-mono);font-size:12px;fill:var(--blue);font-style:italic}
+.pin{cursor:pointer}
+.pin circle{fill:var(--pink);stroke:var(--ink);stroke-width:2}
+.pin text{font-family:var(--font-mono);font-size:13px;font-weight:600;fill:var(--on-pink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.pin .pin-name{fill:var(--ink);font-size:12px;font-weight:600;paint-order:stroke;stroke:var(--card);stroke-width:4px}
+.pin.active circle{fill:var(--blue)}
+.pin:focus-visible circle{stroke:var(--blue);stroke-width:4}
+.map-panel{margin-top:14px}
+.map-panel h3{font-family:var(--font-display);text-transform:uppercase;font-size:26px;margin:0}
+
+/* Venues */
+.venue-area{margin-top:18px}
+.venue-area h3{font-family:var(--font-display);text-transform:uppercase;font-size:28px;margin:0 0 8px;border-bottom:2px solid var(--ink)}
+.vrow{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) auto;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);align-items:baseline}
+@media (max-width:600px){.vrow{grid-template-columns:1fr}}
+.vrow .vname{font-weight:700}
+.vrow .vaddr{font-size:14px;color:var(--muted)}
+
+/* Forms page */
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 14px}
+@media (max-width:600px){.form-grid{grid-template-columns:1fr}}
+.form-grid .full{grid-column:1/-1}
+h2.page-title{font-family:var(--font-display);text-transform:uppercase;font-size:40px;line-height:1;margin:0 0 8px}
+.lede{max-width:62ch;margin:0 0 18px}
+.mine{margin-top:22px}
+.mine li{margin-bottom:6px;font-size:14px}
+
+.meta .time{font-family:var(--font-mono);font-weight:600;background:var(--ink);color:var(--paper);padding:0 6px}
+.stars-link{font-family:var(--font-mono);font-size:13px;font-weight:600;color:var(--blue);text-decoration:none}
+.btn.tix{white-space:nowrap}
+.scoreboard{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-bottom:22px}
+.score{border:2px solid var(--ink);background:var(--card);padding:10px 12px;cursor:pointer;text-align:left}
+.score[aria-pressed="true"]{border-color:var(--blue);box-shadow:4px 4px 0 var(--blue)}
+.score .sname{font-weight:700;display:block}
+.score .savg{font-family:var(--font-display);font-size:30px;line-height:1}
+.score .stags{font-size:12px;color:var(--muted);display:block;margin-top:2px}
+.rev-cols{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:760px){.rev-cols{grid-template-columns:1fr}}
+.rev-h{font-family:var(--font-display);text-transform:uppercase;font-size:26px;margin:0}
+fieldset.field{border:none;padding:0;margin:0 0 10px}
+fieldset.field legend{font-size:13px;font-weight:600;margin-bottom:4px;padding:0}
+.star-row{display:flex;gap:4px}
+.star-btn{font-size:28px;line-height:1;background:none;border:none;cursor:pointer;color:var(--line);padding:0 2px}
+.star-btn[aria-checked="true"]{color:var(--pink)}
+.review{border-bottom:1px solid var(--line);padding:12px 0}
+.review .rstars{color:var(--pink);font-size:18px;letter-spacing:1px}
+.review .rmeta{font-size:13px;color:var(--muted)}
+.review p{margin:6px 0 0;max-width:65ch;white-space:pre-wrap}
+.review .rtags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+/* Admin */
+.admin-item{border:1px solid var(--line);background:var(--card);padding:12px;margin-bottom:10px}
+.admin-item .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+textarea.digest{width:100%;min-height:220px;font-family:var(--font-mono);font-size:12px;padding:10px;border:2px solid var(--ink);background:var(--paper)}
+footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:var(--muted)}
+.hidden{display:none !important}
+@media (prefers-reduced-motion: reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <h1 class="logo">Show Me <span>Shows</span></h1>
+      <p class="tag"><strong id="today-line">Tuesday, Nov 10</strong>Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</p>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <a href="#tonight" data-view="tonight">Tonight</a>
+      <a href="#week" data-view="week">This Week</a>
+      <a href="#all" data-view="all">All Shows</a>
+      <a href="#map" data-view="map">Map</a>
+      <a href="#venues" data-view="venues">Venues</a>
+      <a href="#reviews" data-view="reviews">Reviews</a>
+      <a href="#submit" data-view="submit">Submit a Show</a>
+      <a href="#admin" data-view="admin" class="admin-tab hidden" id="admin-tab">Admin</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap grid">
+  <section id="content" aria-live="polite">
+    <!-- List views -->
+    <div id="view-list">
+      <div class="filters" role="search">
+        <label for="q" class="hidden">Search</label>
+        <input type="search" id="q" placeholder="Search artist, venue, neighborhood">
+        <label for="f-area" class="hidden">Area</label>
+        <select id="f-area">
+          <option value="">All areas</option>
+          <option>City</option><option>County</option><option>St. Charles</option><option>Metro East</option>
+        </select>
+        <label for="f-type" class="hidden">Venue type</label>
+        <select id="f-type">
+          <option value="">All venue types</option>
+          <option>Bar/Restaurant</option><option>Brewery</option><option>Club</option><option>Theater</option><option>Arena</option><option>Festival</option>
+        </select>
+        <label class="toggle" for="f-free"><input type="checkbox" id="f-free"> Free shows only</label>
+        <div class="chips" id="genre-chips" aria-label="Genres"></div>
+      </div>
+      <p class="count" id="count"></p>
+      <div id="list"></div>
+    </div>
+
+    <!-- Map -->
+    <div id="view-map" class="hidden">
+      <div class="map-head">
+        <h2 class="page-title" style="margin:0">Where the music is</h2>
+        <div class="seg" role="group" aria-label="Map zoom">
+          <button type="button" id="z-core" aria-pressed="true">City core</button>
+          <button type="button" id="z-metro" aria-pressed="false">Whole metro</button>
+        </div>
+      </div>
+      <div class="mapbox"><svg id="map" viewBox="0 0 900 620" role="img" aria-label="Map of venues with upcoming shows"></svg></div>
+      <p class="note">Schematic map: rivers and towns are approximate. Pin numbers are upcoming shows. Tap a pin to see them.</p>
+      <div class="map-panel" id="map-panel"></div>
+      <p class="note" id="unmapped"></p>
+    </div>
+
+    <!-- Venues -->
+    <div id="view-venues" class="hidden">
+      <h2 class="page-title">Venues</h2>
+      <p class="lede">Every place on the calendar so far, by area. Bars, restaurants and breweries that host music belong here too. If yours is missing, submit a show and it gets added.</p>
+      <div id="venue-list"></div>
+    </div>
+
+    <!-- Reviews -->
+    <div id="view-reviews" class="hidden">
+      <h2 class="page-title">Reviews</h2>
+      <p class="lede">How's the sound? Is parking a nightmare? Rate the venues and the shows you've been to, and check what other fans say before you buy a ticket.</p>
+      <div class="scoreboard" id="scoreboard"></div>
+      <div class="rev-cols">
+        <form id="rev-form" class="box" novalidate>
+          <h2>Write a review</h2>
+          <div class="field"><label for="r-venue">Venue *</label><select id="r-venue" required></select></div>
+          <div class="field"><label for="r-show">Show you saw (optional)</label><select id="r-show"><option value="">Just reviewing the venue</option></select></div>
+          <fieldset class="field"><legend>Your rating *</legend>
+            <div class="star-row" id="r-stars" role="radiogroup" aria-label="Rating"></div></fieldset>
+          <fieldset class="field"><legend>Quick takes</legend><div class="chips" id="r-tags"></div></fieldset>
+          <div class="field"><label for="r-text">What was it like?</label><textarea id="r-text" rows="4" maxlength="1200" placeholder="Sound, crowd, drinks, sightlines, getting in and out…"></textarea></div>
+          <div class="field"><label for="r-name">Name to show</label><input id="r-name" maxlength="40" placeholder="Anonymous"></div>
+          <button class="btn" type="submit" id="r-btn">Post review</button>
+          <p class="status" id="r-status" role="status"></p>
+        </form>
+        <div>
+          <div class="map-head" style="margin-bottom:6px"><h3 class="rev-h">Latest reviews</h3>
+            <label for="r-filter" class="hidden">Show reviews for</label>
+            <select id="r-filter"><option value="">All venues</option></select></div>
+          <div id="rev-feed"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Submit -->
+    <div id="view-submit" class="hidden">
+      <h2 class="page-title">Submit a show</h2>
+      <p class="lede">Playing a gig, or hosting one? Add it here. Bands, bars, restaurants, breweries, festivals and house-show hosts are all welcome. Each submission is checked before it goes live, usually within a day.</p>
+      <form id="submit-form" novalidate>
+        <div class="form-grid">
+          <div class="field full"><label for="s-artist">Artist or band *</label><input id="s-artist" required maxlength="120"></div>
+          <div class="field full"><label for="s-support">Also playing</label><input id="s-support" maxlength="160" placeholder="Openers, guests"></div>
+          <div class="field"><label for="s-date">Date *</label><input id="s-date" type="date" required></div>
+          <div class="field"><label for="s-time">Start time</label><input id="s-time" type="time"></div>
+          <div class="field"><label for="s-venue">Venue *</label><input id="s-venue" required maxlength="120" list="venue-names"><datalist id="venue-names"></datalist></div>
+          <div class="field"><label for="s-addr">Venue address</label><input id="s-addr" maxlength="160"></div>
+          <div class="field"><label for="s-area">Area *</label>
+            <select id="s-area" required><option value="">Choose…</option><option>City</option><option>County</option><option>St. Charles</option><option>Metro East</option></select></div>
+          <div class="field"><label for="s-type">Type of place *</label>
+            <select id="s-type" required><option value="">Choose…</option><option>Bar/Restaurant</option><option>Brewery</option><option>Club</option><option>Theater</option><option>Arena</option><option>Festival</option></select></div>
+          <div class="field"><label for="s-genre">Genre *</label><select id="s-genre" required></select></div>
+          <div class="field"><label for="s-price">Cover</label>
+            <select id="s-price"><option>Ticketed</option><option>Free</option></select></div>
+          <div class="field full"><label for="s-url">Ticket link</label><input id="s-url" type="url" placeholder="https://"></div>
+          <div class="field full"><label for="s-contact">Your email (so we can confirm) *</label><input id="s-contact" type="email" required></div>
+          <label class="toggle full" for="s-feature" style="margin-bottom:14px"><input type="checkbox" id="s-feature"> I'd like this show featured at the top of the list (we'll email you the details)</label>
+        </div>
+        <button class="btn" type="submit" id="s-btn">Send for review</button>
+        <p class="status" id="s-status" role="status"></p>
+      </form>
+      <div class="mine hidden" id="mine"><h3 class="box-title">Your submissions</h3><ul id="mine-list"></ul></div>
+    </div>
+
+    <!-- Admin -->
+    <div id="view-admin" class="hidden">
+      <h2 class="page-title">Admin</h2>
+      <p class="lede">Only you see this tab. Approve submissions to put them on the calendar, feature shows you want at the top, remove reviews that break the rules, and copy the weekly email.</p>
+      <h3>Waiting for review</h3>
+      <div id="adm-pending"><p class="note">Loading…</p></div>
+      <h3>Approved listings</h3>
+      <div id="adm-approved"><p class="note">Loading…</p></div>
+      <h3>Recent reviews</h3>
+      <div id="adm-reviews"><p class="note">Loading…</p></div>
+      <h3>Email subscribers <span id="sub-count" class="note"></span></h3>
+      <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" type="button" id="copy-emails">Copy all emails</button></div>
+      <p class="status" id="adm-sub-status"></p>
+      <h3>This week's email</h3>
+      <p class="note">Paste into your email tool (Mailchimp, Buttondown…) to send to subscribers.</p>
+      <textarea class="digest" id="digest" readonly aria-label="Weekly email text"></textarea>
+      <div style="margin-top:8px"><button class="btn small" type="button" id="copy-digest">Copy email text</button> <span class="status" id="digest-status"></span></div>
+    </div>
+  </section>
+
+  <aside>
+    <div class="box pink">
+      <h2>The weekly lineup</h2>
+      <p>Every Thursday: the week's best shows in your inbox, picked for the parts of town you care about.</p>
+      <form id="sub-form" novalidate>
+        <div class="field"><label for="sub-email">Email</label><input id="sub-email" type="email" required placeholder="you@example.com"></div>
+        <div class="field"><label for="sub-area">Your side of town</label>
+          <select id="sub-area"><option value="">Everywhere</option><option>City</option><option>County</option><option>St. Charles</option><option>Metro East</option></select></div>
+        <button class="btn" type="submit" id="sub-btn">Sign me up</button>
+        <p class="status" id="sub-status" role="status"></p>
+      </form>
+    </div>
+    <div class="box">
+      <h2>Get featured</h2>
+      <p>Venues, bars and bands: put your show at the top of every list, pinned on the map and in the weekly email.</p>
+      <p><a class="btn small" href="#submit">Submit &amp; ask to feature</a></p>
+    </div>
+    <div class="box">
+      <h2>Where listings come from</h2>
+      <p>Refreshed every morning from public venue and ticketing listings, plus shows submitted by bands and venues. Last updated <strong id="updated-at">today</strong>.</p>
+      <p class="note">Times and lineups change. Confirm with the venue before you go.</p>
+    </div>
+  </aside>
+</main>
+
+<footer><div class="wrap">Show Me Shows · St. Louis, MO &amp; Metro East IL · Made for people who'd rather be at a show. · <a href="#" id="admin-link">Admin sign in</a></div></footer>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="firebase-config.js"></script>
+<script>
+(function(){
+"use strict";
+
+/* ---------- Data ---------- */
+const GENRES = ["Rock","Indie/Punk","Metal","Country/Americana","Blues/Jazz/Funk","Hip-Hop","Latin/Roots","Folk/Singer-Songwriter","Electronic","Cover/Tribute","Other"];
+
+// Listings and venues live in listings.json / venues.json, refreshed every morning by a scheduled task.
+let VENUES = {};
+let CURATED = [];
+let UPDATED = "";
+async function loadData(){
+  const [v,l] = await Promise.all([fetch("venues.json",{cache:"no-store"}).then(r=>r.json()), fetch("listings.json",{cache:"no-store"}).then(r=>r.json())]);
+  VENUES = (v && typeof v==="object") ? v : {};
+  CURATED = (l && Array.isArray(l.shows)) ? l.shows.filter(s=>s && typeof s.artist==="string" && /^\d{4}-\d{2}-\d{2}$/.test(s.date||"")) : [];
+  UPDATED = (l && l.updated) || "";
+}
+
+/* ---------- State ---------- */
+const state = {
+  view:"week", q:"", area:"", type:"", free:false, genres:new Set(),
+  approved:[],          // shows approved through the admin (from db)
+  mapZoom:"core", mapVenue:null,
+  db:null, user:null, uid:null, isOwner:false, canWrite:null,
+  mySubs:[], allSubmissions:[], subscribers:[]
+};
+
+/* ---------- Helpers ---------- */
+const $ = (s, el=document) => el.querySelector(s);
+const el = (tag, attrs={}, ...kids) => {
+  const n = document.createElement(tag);
+  for (const [k,v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "class") n.className = v;
+    else if (k === "text") n.textContent = v;
+    else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v === true ? "" : v);
+  }
+  for (const k of kids.flat()) if (k != null) n.append(k.nodeType ? k : document.createTextNode(String(k)));
+  return n;
+};
+function localISO(d){ const z=new Date(d.getTime()-d.getTimezoneOffset()*60000); return z.toISOString().slice(0,10); }
+const TODAY = localISO(new Date());
+function addDays(iso,n){ const [y,m,d]=iso.split("-").map(Number); const t=new Date(y,m-1,d+n); return localISO(t); }
+function parseISO(iso){ const [y,m,d]=iso.split("-").map(Number); return new Date(y,m-1,d); }
+function fmtTime(t){ if(!t) return ""; const [h,m]=t.split(":").map(Number); const ap=h>=12?"PM":"AM"; const hh=((h+11)%12)+1; return hh+(m?":"+String(m).padStart(2,"0"):"")+" "+ap; }
+function safeUrl(u){ try{ const x=new URL(u); return (x.protocol==="https:"||x.protocol==="http:")?x.href:null; }catch(e){ return null; } }
+function slug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40); }
+
+$("#today-line").textContent = parseISO(TODAY).toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"});
+
+// Normalize a show from either source into one shape.
+function venueOf(s){
+  if (s.venue && VENUES[s.venue]) return Object.assign({key:s.venue}, VENUES[s.venue]);
+  return {key:"sub-"+slug(s.venueName||"venue"), name:s.venueName||"Venue TBA", addr:s.venueAddr||"", hood:"", area:s.area||"", type:s.type||""};
+}
+function allShows(includePast){
+  const list = CURATED.map(s => Object.assign({featured:false}, s, {origin:"listings"}));
+  for (const a of state.approved) list.push(Object.assign({}, a, {origin:"submitted", tickets:a.tickets||a.url||""}));
+  return list.map(s => Object.assign(s,{v:venueOf(s)}))
+    .filter(s => includePast ? true : s.date >= TODAY)
+    .sort((a,b) => (b.featured?1:0)-(a.featured?1:0) || a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
+}
+function filtered(range){
+  const q = state.q.trim().toLowerCase();
+  return allShows().filter(s=>{
+    if (range==="tonight" && s.date!==TODAY) return false;
+    if (range==="week" && s.date>addDays(TODAY,6)) return false;
+    if (state.area && s.v.area!==state.area) return false;
+    if (state.type && s.v.type!==state.type) return false;
+    if (state.free && s.price!=="Free") return false;
+    if (state.genres.size && !state.genres.has(s.genre)) return false;
+    if (q){ const hay=[s.artist,s.support,s.v.name,s.v.hood,s.v.area,s.genre].join(" ").toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+}
+
+/* ---------- Rendering: list ---------- */
+function showCard(s){
+  const url = safeUrl(s.tickets || s.url);
+  const t = fmtTime(s.time);
+  const vr = venueRating(s.v.key);
+  return el("article",{class:"show"+(s.featured?" featured":"")},
+    s.featured ? el("div",{class:"feat-badge",text:"★ Featured"}) : null,
+    el("div",{},
+      el("h3",{class:"artist",text:s.artist}),
+      s.support ? el("p",{class:"support",text:"with "+s.support}) : null,
+      el("div",{class:"meta"},
+        el("span",{class:"time",text: t ? (s.timeNote? t+" "+s.timeNote : t) : "Time TBA"}),
+        el("span",{class:"venue",text:s.v.name}),
+        el("span",{text:[s.v.hood,s.v.area].filter(Boolean).join(" · ")}),
+        vr.count ? el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=s.v.key;},text:"★ "+vr.avg.toFixed(1)+" ("+vr.count+")","aria-label":s.v.name+" rated "+vr.avg.toFixed(1)+" out of 5 from "+vr.count+" reviews"}) : null
+      )
+    ),
+    el("div",{class:"side-tags"},
+      el("span",{class:"pill genre",text:s.genre}),
+      s.price==="Free" ? el("span",{class:"pill free",text:"Free"}) : null,
+      url ? el("a",{class:"btn small tix",href:url,target:"_blank",rel:"noopener",text:s.price==="Free"?"Event info ↗":"Get tickets ↗"}) : el("span",{class:"note",text:"Ticket link coming soon"})
+    )
+  );
+}
+function renderList(){
+  const range = state.view;
+  const shows = filtered(range);
+  const label = range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : "coming up";
+  $("#count").textContent = shows.length + (shows.length===1?" show ":" shows ") + label;
+  const box = $("#list"); box.replaceChildren();
+  if (!shows.length){
+    const msg = range==="tonight"
+      ? ["Nothing listed tonight yet", "Try This Week, or loosen the filters. Playing tonight? Submit your show."]
+      : ["No shows match", "Clear a filter or two. Know a show we're missing? Submit it."];
+    box.append(el("div",{class:"empty"}, el("strong",{text:msg[0]}), msg[1], " ", el("a",{href:"#submit",text:"Submit a show →"})));
+    return;
+  }
+  const featured = shows.filter(s=>s.featured);
+  const rest = shows.filter(s=>!s.featured);
+  if (featured.length){
+    box.append(el("section",{class:"day","aria-label":"Featured shows"},
+      el("div",{class:"day-label"}, el("span",{class:"dow",text:"Featured"})),
+      el("div",{class:"shows"}, featured.map(s=>{ const c=showCard(s); c.querySelector(".meta").prepend(el("span",{text:parseISO(s.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})})); return c; }))
+    ));
+  }
+  const byDay = new Map();
+  for (const s of rest){ if(!byDay.has(s.date)) byDay.set(s.date,[]); byDay.get(s.date).push(s); }
+  for (const [date, list] of byDay){
+    const d = parseISO(date);
+    box.append(el("section",{class:"day"},
+      el("div",{class:"day-label"},
+        el("span",{class:"dow",text:d.toLocaleDateString("en-US",{weekday:"short"})}),
+        el("span",{class:"dnum",text:String(d.getDate())}),
+        el("span",{class:"mon",text:d.toLocaleDateString("en-US",{month:"short"}).toUpperCase()}),
+        date===TODAY ? el("span",{class:"tonight",text:"TONIGHT"}) : null
+      ),
+      el("div",{class:"shows"}, list.map(showCard))
+    ));
+  }
+}
+function buildChips(){
+  const box = $("#genre-chips");
+  for (const g of GENRES.filter(g=>g!=="Other")){
+    box.append(el("button",{type:"button",class:"chip","aria-pressed":"false",text:g,onclick:(e)=>{
+      if (state.genres.has(g)) state.genres.delete(g); else state.genres.add(g);
+      e.currentTarget.setAttribute("aria-pressed", state.genres.has(g)?"true":"false");
+      renderList();
+    }}));
+  }
+}
+
+/* ---------- Rendering: map ---------- */
+const MAP_W=900, MAP_H=620, KLAT=0.78; // cos(latitude) to keep proportions honest
+const ZOOMS = {
+  core:{lon:[-90.335,-90.165]},
+  metro:{lon:[-90.72,-89.86]}
+};
+function bounds(z){
+  const [l0,l1]=ZOOMS[z].lon; const lonSpan=l1-l0;
+  const latSpan = lonSpan*KLAT*MAP_H/MAP_W;
+  const latC = z==="core" ? 38.630 : 38.690;
+  return {l0,l1,latMax:latC+latSpan/2,latMin:latC-latSpan/2};
+}
+function proj(lat,lon,b){ return [ (lon-b.l0)/(b.l1-b.l0)*MAP_W, (b.latMax-lat)/(b.latMax-b.latMin)*MAP_H ]; }
+const RIVERS = {
+  Mississippi:[[39.00,-90.50],[38.93,-90.32],[38.89,-90.18],[38.82,-90.12],[38.76,-90.17],[38.70,-90.18],[38.655,-90.180],[38.627,-90.183],[38.600,-90.195],[38.565,-90.225],[38.52,-90.27],[38.44,-90.36]],
+  Missouri:[[38.64,-90.80],[38.72,-90.62],[38.78,-90.48],[38.81,-90.36],[38.85,-90.22],[38.82,-90.12]]
+};
+const PLACES = {
+  core:[["Downtown",38.631,-90.193],["Soulard",38.606,-90.208],["Grand Center",38.643,-90.236],["Central West End",38.643,-90.262],["The Loop",38.661,-90.302],["Forest Park",38.638,-90.290],["Cherokee St",38.596,-90.236],["Tower Grove",38.608,-90.260]],
+  metro:[["St. Louis",38.627,-90.20],["Clayton",38.632,-90.345],["Kirkwood",38.583,-90.41],["Chesterfield",38.663,-90.58],["St. Charles",38.79,-90.50],["Alton",38.89,-90.18],["Edwardsville",38.82,-89.95],["Collinsville",38.67,-89.98],["Belleville",38.52,-89.98]]
+};
+const SVGNS="http://www.w3.org/2000/svg";
+function s(tag,attrs={},text){ const n=document.createElementNS(SVGNS,tag); for(const[k,v] of Object.entries(attrs)) n.setAttribute(k,v); if(text!=null) n.textContent=text; return n; }
+function renderMap(){
+  const svg=$("#map"); svg.replaceChildren();
+  const b=bounds(state.mapZoom);
+  for (const [name,pts] of Object.entries(RIVERS)){
+    const d = pts.map((p,i)=>{ const [x,y]=proj(p[0],p[1],b); return (i?"L":"M")+x.toFixed(1)+" "+y.toFixed(1); }).join(" ");
+    svg.append(s("path",{d,class:"map-river"}));
+    const mid = pts[Math.floor(pts.length/2)]; const [mx,my]=proj(mid[0],mid[1],b);
+    if (mx>20 && mx<MAP_W-120 && my>20 && my<MAP_H-20) svg.append(s("text",{x:mx+10,y:my+28,class:"map-river-label"},name+" River"));
+  }
+  for (const [name,lat,lon] of PLACES[state.mapZoom]){
+    const [x,y]=proj(lat,lon,b); if (x<0||x>MAP_W||y<0||y>MAP_H) continue;
+    svg.append(s("text",{x,y,class:"map-label","text-anchor":"middle"},name));
+  }
+  // Group upcoming shows by venue
+  const groups=new Map();
+  for (const sh of allShows()){ const k=sh.v.key; if(!groups.has(k)) groups.set(k,{v:sh.v,shows:[]}); groups.get(k).shows.push(sh); }
+  const unmapped=[];
+  const pins=[...groups.values()].filter(g=>{ if(g.v.lat==null){unmapped.push(g.v.name); return false;} return true; });
+  // On the whole-metro view, venues that sit on top of each other merge into one cluster pin.
+  let drawn=[];
+  for (const g of pins){
+    const [x,y]=proj(g.v.lat,g.v.lon,b); if (x<-10||x>MAP_W+10||y<-10||y>MAP_H+10) continue;
+    const near = state.mapZoom==="metro" && drawn.find(d=>Math.hypot(d.x-x,d.y-y)<34);
+    if (near){ near.groups.push(g); near.count+=g.shows.length; } else drawn.push({x,y,groups:[g],count:g.shows.length});
+  }
+  for (const d of drawn){
+    const cluster=d.groups.length>1, g=d.groups[0], x=d.x, y=d.y;
+    const r = 13 + Math.min(d.count,6)*2;
+    const name = cluster ? d.groups.length+" venues" : g.v.name;
+    const gEl = s("g",{class:"pin"+(!cluster&&state.mapVenue===g.v.key?" active":""),tabindex:"0",role:"button","aria-label":name+", "+d.count+" upcoming shows"});
+    gEl.append(s("circle",{cx:x,cy:y,r}));
+    gEl.append(s("text",{x,y},String(d.count)));
+    const lab = cluster ? "e" : (g.v.lab||"e");
+    let lx=x+r+5, ly=y+4, anchor="start";
+    if (lab==="n"){ lx=x; ly=y-r-7; anchor="middle"; }
+    else if (lab==="s"){ lx=x; ly=y+r+15; anchor="middle"; }
+    else if (lab==="w"){ lx=x-r-5; anchor="end"; }
+    else if (lab==="nw"){ lx=x-r+2; ly=y-r-7; anchor="end"; }
+    else if (lab==="ne"){ lx=x+r-2; ly=y-r-7; }
+    gEl.append(s("text",{x:lx,y:ly,class:"pin-name",style:"text-anchor:"+anchor},name));
+    const pick=()=>{ if (cluster){ state.mapZoom="core"; $("#z-core").setAttribute("aria-pressed","true"); $("#z-metro").setAttribute("aria-pressed","false"); state.mapVenue=null; } else state.mapVenue=g.v.key; renderMap(); };
+    gEl.addEventListener("click",pick);
+    gEl.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();} });
+    svg.append(gEl);
+  }
+  const panel=$("#map-panel"); panel.replaceChildren();
+  const sel = state.mapVenue && groups.get(state.mapVenue);
+  if (sel){
+    panel.append(el("h3",{text:sel.v.name}), el("p",{class:"note",text:sel.v.addr}),
+      el("div",{class:"shows"}, sel.shows.map(sh=>{ const c=showCard(sh); c.querySelector(".meta").prepend(el("span",{text:parseISO(sh.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})})); return c; })));
+  } else {
+    panel.append(el("p",{class:"note",text: state.mapZoom==="core" ? "Switch to Whole metro to see St. Charles and the Metro East." : "Tap a pin to see that venue's shows."}));
+  }
+  $("#unmapped").textContent = unmapped.length ? "Not on the map yet: "+unmapped.join(", ")+"." : "";
+}
+$("#z-core").addEventListener("click",()=>{ state.mapZoom="core"; $("#z-core").setAttribute("aria-pressed","true"); $("#z-metro").setAttribute("aria-pressed","false"); renderMap(); });
+$("#z-metro").addEventListener("click",()=>{ state.mapZoom="metro"; $("#z-metro").setAttribute("aria-pressed","true"); $("#z-core").setAttribute("aria-pressed","false"); renderMap(); });
+
+/* ---------- Rendering: venues ---------- */
+function renderVenues(){
+  const counts=new Map(); const extra=new Map();
+  for (const sh of allShows()){ counts.set(sh.v.key,(counts.get(sh.v.key)||0)+1); if(!VENUES[sh.v.key]) extra.set(sh.v.key,sh.v); }
+  const all = Object.entries(VENUES).map(([k,v])=>Object.assign({key:k},v)).concat([...extra.values()]);
+  const box=$("#venue-list"); box.replaceChildren();
+  for (const area of ["City","County","St. Charles","Metro East"]){
+    const vs = all.filter(v=>v.area===area).sort((a,b)=>(counts.get(b.key)||0)-(counts.get(a.key)||0)||a.name.localeCompare(b.name));
+    box.append(el("div",{class:"venue-area"}, el("h3",{text:area==="City"?"St. Louis City":area}),
+      vs.length ? vs.map(v=>{ const n=counts.get(v.key)||0; return el("div",{class:"vrow"},
+        el("div",{}, el("div",{class:"vname",text:v.name}), el("div",{class:"vaddr",text:[v.addr,v.cap?"capacity "+v.cap.toLocaleString():""].filter(Boolean).join(" · ")})),
+        el("div",{class:"vaddr",text:[v.type,v.hood].filter(Boolean).join(" · ")}),
+        el("div",{style:"display:flex;gap:8px;align-items:center;flex-wrap:wrap"},
+          el("span",{class:"pill",text: n ? n+" upcoming" : "No shows listed yet"}),
+          (()=>{ const r=venueRating(v.key); return el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=v.key;},text: r.count ? "★ "+r.avg.toFixed(1)+" · "+r.count+" review"+(r.count===1?"":"s") : "Review it"}); })()
+        )
+      ); }) : el("p",{class:"empty",text:"No venues here yet. Breweries, bars and restaurants with live music: submit your next show to get listed."})
+    ));
+  }
+}
+
+/* ---------- Views & routing ---------- */
+const VIEWS=["tonight","week","all","map","venues","reviews","submit","admin"];
+function setView(v){
+  if (!VIEWS.includes(v)) v="week";
+  if (v==="admin" && !state.isOwner) v="week";
+  state.view=v;
+  document.querySelectorAll("nav.tabs a").forEach(a=>{ if(a.dataset.view===v) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  const list = ["tonight","week","all"].includes(v);
+  $("#view-list").classList.toggle("hidden",!list);
+  $("#view-map").classList.toggle("hidden",v!=="map");
+  $("#view-venues").classList.toggle("hidden",v!=="venues");
+  $("#view-submit").classList.toggle("hidden",v!=="submit");
+  $("#view-reviews").classList.toggle("hidden",v!=="reviews");
+  $("#view-admin").classList.toggle("hidden",v!=="admin");
+  render();
+}
+function render(){
+  const v=state.view;
+  if (["tonight","week","all"].includes(v)) renderList();
+  else if (v==="map") renderMap();
+  else if (v==="venues") renderVenues();
+  else if (v==="submit") renderMine();
+  else if (v==="reviews") renderReviews();
+  else if (v==="admin") renderAdmin();
+}
+window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
+
+$("#q").addEventListener("input",e=>{ state.q=e.target.value; renderList(); });
+$("#f-area").addEventListener("change",e=>{ state.area=e.target.value; renderList(); });
+$("#f-type").addEventListener("change",e=>{ state.type=e.target.value; renderList(); });
+$("#f-free").addEventListener("change",e=>{ state.free=e.target.checked; renderList(); });
+
+// Form setup
+const gSel=$("#s-genre"); gSel.append(el("option",{value:"",text:"Choose…"})); for(const g of GENRES) gSel.append(el("option",{text:g}));
+$("#s-date").min = TODAY;
+function fillVenueInputs(){
+  const dl=$("#venue-names"); dl.replaceChildren(); for(const v of Object.values(VENUES)) dl.append(el("option",{value:v.name}));
+  const names = Object.entries(VENUES).sort((a,b)=>a[1].name.localeCompare(b[1].name));
+  const rv=$("#r-venue"); rv.replaceChildren(el("option",{value:"",text:"Choose a venue…"}));
+  const rf=$("#r-filter"); rf.replaceChildren(el("option",{value:"",text:"All venues"}));
+  for (const [k,v] of names){ rv.append(el("option",{value:k,text:v.name})); rf.append(el("option",{value:k,text:v.name})); }
+}
+
+/* ---------- Data layer (db) ---------- */
+function setStatus(id,msg,kind){ const n=$(id); n.textContent=msg; n.className="status"+(kind?" "+kind:""); }
+const NO_WRITE_MSG = "Couldn't send that. Refresh the page and try again.";
+
+async function initDb(){
+  // Firebase: everyone gets a silent anonymous sign-in so they can post reviews and submit shows.
+  // The site owner signs in with Google ("Admin sign in" in the footer); admins are listed in the Firestore "admins" collection.
+  const cfg = window.FIREBASE_CONFIG;
+  if (!window.firebase || !cfg || !cfg.apiKey || String(cfg.apiKey).startsWith("PASTE")){
+    const msg="Coming soon: this part of the site isn't switched on yet.";
+    setStatus("#s-status",msg,""); setStatus("#sub-status",msg,""); setStatus("#r-status",msg,"");
+    $("#s-btn").disabled=true; $("#sub-btn").disabled=true; $("#r-btn").disabled=true;
+    return;
+  }
+  firebase.initializeApp(cfg);
+  const auth=firebase.auth();
+  state.db=firebase.firestore();
+  state.auth=auth;
+  let started=false;
+  auth.onAuthStateChanged(async u=>{
+    if (!u){ try{ await auth.signInAnonymously(); }catch(e){ setStatus("#r-status","Couldn't connect. Refresh to try again.","err"); } return; }
+    state.uid=u.uid;
+    state.isOwner=false;
+    if (!u.isAnonymous){ try{ state.isOwner=(await state.db.doc("admins/"+u.uid).get()).exists; }catch(e){} }
+    $("#admin-tab").classList.toggle("hidden",!state.isOwner);
+    $("#admin-link").textContent = u.isAnonymous ? "Admin sign in" : (state.isOwner ? "Sign out" : "Sign out (not an admin)");
+    if (!started){ started=true; subscribePublic(); }
+    subscribeUser();
+    if (location.hash.slice(1)==="admin") setView("admin"); else render();
+  });
+}
+let unsubUser=[];
+function subscribePublic(){
+  state.db.collection("shows").onSnapshot(snap=>{
+    state.approved = snap.docs.map(d=>Object.assign({id:d.id}, d.data()))
+      .filter(x=>x && typeof x.artist==="string" && typeof x.date==="string" && /^\d{4}-\d{2}-\d{2}$/.test(x.date));
+    render();
+  }, ()=>{});
+  state.db.collection("reviews").onSnapshot(snap=>{
+    const out=[];
+    for (const d of snap.docs){ const items=d.data().items; if(!Array.isArray(items)) continue;
+      for (const r of items){ if (r && typeof r.venue==="string" && Number.isInteger(r.stars) && r.stars>=1 && r.stars<=5) out.push(Object.assign({uid:d.id},r)); } }
+    state.reviews=out; render();
+  }, ()=>{});
+}
+function subscribeUser(){
+  unsubUser.forEach(f=>f()); unsubUser=[];
+  unsubUser.push(state.db.doc("submissions/"+state.uid).onSnapshot(d=>{
+    state.mySubs = (d.exists && Array.isArray(d.data().items)) ? d.data().items : [];
+    if (state.view==="submit") renderMine();
+  }, ()=>{}));
+  if (state.isOwner){
+    unsubUser.push(state.db.collection("submissions").onSnapshot(snap=>{
+      state.allSubmissions = snap.docs.map(d=>({uid:d.id, items:Array.isArray(d.data().items)?d.data().items:[]}));
+      if (state.view==="admin") renderAdmin();
+    }, ()=>{}));
+    unsubUser.push(state.db.collection("subscribers").onSnapshot(snap=>{
+      state.subscribers = snap.docs.map(d=>Object.assign({uid:d.id}, d.data()));
+      if (state.view==="admin") renderAdmin();
+    }, ()=>{}));
+  }
+}
+document.addEventListener("click",async e=>{
+  if (e.target && e.target.id==="admin-link"){
+    e.preventDefault();
+    if (!state.auth) return;
+    const u=state.auth.currentUser;
+    try{
+      if (u && !u.isAnonymous){ await state.auth.signOut(); location.hash="week"; }
+      else await state.auth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
+    }catch(err){ /* popup closed */ }
+  }
+});
+
+/* Submit a show */
+$("#submit-form").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const f = id=>$(id).value.trim();
+  const item = {artist:f("#s-artist"),support:f("#s-support"),date:f("#s-date"),time:f("#s-time"),venueName:f("#s-venue"),venueAddr:f("#s-addr"),
+    area:f("#s-area"),type:f("#s-type"),genre:f("#s-genre"),price:f("#s-price"),url:f("#s-url"),contact:f("#s-contact"),wantsFeature:$("#s-feature").checked};
+  const missing = [["Artist",item.artist],["Date",item.date],["Venue",item.venueName],["Area",item.area],["Type of place",item.type],["Genre",item.genre],["Your email",item.contact]].filter(x=>!x[1]).map(x=>x[0]);
+  if (missing.length) return setStatus("#s-status","Please fill in: "+missing.join(", ")+".","err");
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(item.contact)) return setStatus("#s-status","That email address doesn't look right.","err");
+  if (item.date < TODAY) return setStatus("#s-status","That date has already passed.","err");
+  if (item.url && !safeUrl(item.url)) return setStatus("#s-status","The event link should start with https://","err");
+  // Known venue? Attach its key so it lands on the map.
+  const known = Object.entries(VENUES).find(([k,v])=>v.name.toLowerCase()===item.venueName.toLowerCase());
+  if (known){ item.venue=known[0]; }
+  if (!state.db || !state.uid) return setStatus("#s-status","Still connecting. Try again in a few seconds.","err");
+  item.id = "s"+Date.now().toString(36)+Math.random().toString(36).slice(2,6);
+  item.status="pending"; item.submittedAt=new Date().toISOString();
+  $("#s-btn").disabled=true; setStatus("#s-status","Sending…","");
+  try{
+    const ref=state.db.doc("submissions/"+state.uid);
+    const cur=await ref.get();
+    const items=(cur.exists && Array.isArray(cur.data().items)) ? cur.data().items.slice() : [];
+    items.push(item);
+    await ref.set({items});
+    $("#submit-form").reset();
+    setStatus("#s-status","Got it. Your show is in the review queue.","ok");
+  }catch(err){
+    setStatus("#s-status", err && err.code==="permission-denied" ? NO_WRITE_MSG : "Couldn't send that just now. Try again in a minute.","err");
+  }finally{ $("#s-btn").disabled=false; }
+});
+function renderMine(){
+  const box=$("#mine"), ul=$("#mine-list");
+  box.classList.toggle("hidden",!state.mySubs.length); ul.replaceChildren();
+  for (const it of state.mySubs.slice().reverse()){
+    const label = it.status==="approved"?"Live on the calendar":it.status==="rejected"?"Not listed":"Waiting for review";
+    ul.append(el("li",{}, el("strong",{text:it.artist}), " · "+(it.venueName||"")+" · "+it.date+" — ", el("em",{text:label})));
+  }
+}
+
+/* Email signup */
+$("#sub-form").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const email=$("#sub-email").value.trim(), area=$("#sub-area").value;
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return setStatus("#sub-status","Enter a valid email address.","err");
+  if (!state.db || !state.uid) return setStatus("#sub-status","Still connecting. Try again in a few seconds.","err");
+  $("#sub-btn").disabled=true;
+  try{
+    await state.db.doc("subscribers/"+state.uid).set({email,area,joinedAt:new Date().toISOString()});
+    setStatus("#sub-status","You're on the list. See you Thursday.","ok"); $("#sub-form").reset();
+  }catch(err){
+    setStatus("#sub-status", err && err.code==="permission-denied" ? "Couldn't save that. Refresh the page and try again." : "Couldn't save that just now. Try again in a minute.","err");
+  }finally{ $("#sub-btn").disabled=false; }
+});
+
+/* ---------- Reviews ---------- */
+const TAGS = ["Great sound","Good sightlines","Friendly staff","Cheap drinks","Pricey drinks","Easy parking","Hard parking","Accessible","Too crowded","Good food"];
+state.reviews = []; state.reviewVenue = ""; state.rStars = 0; state.rTags = new Set();
+function venueRating(key){
+  const rs = state.reviews.filter(r=>r.venue===key);
+  if (!rs.length) return {avg:0,count:0,tags:[]};
+  const tagCount = {}; for (const r of rs) for (const t of (r.tags||[])) tagCount[t]=(tagCount[t]||0)+1;
+  const tags = Object.entries(tagCount).sort((a,b)=>b[1]-a[1]).slice(0,2).map(x=>x[0]);
+  return {avg: rs.reduce((a,r)=>a+r.stars,0)/rs.length, count: rs.length, tags};
+}
+function buildReviewForm(){
+  const row=$("#r-stars");
+  for (let i=1;i<=5;i++){
+    row.append(el("button",{type:"button",class:"star-btn",role:"radio","aria-checked":"false","aria-label":i+" star"+(i>1?"s":""),text:"★",onclick:()=>{
+      state.rStars=i; row.querySelectorAll(".star-btn").forEach((b,j)=>b.setAttribute("aria-checked", j<i?"true":"false"));
+    }}));
+  }
+  const tg=$("#r-tags");
+  for (const t of TAGS) tg.append(el("button",{type:"button",class:"chip","aria-pressed":"false",text:t,onclick:(e)=>{
+    if (state.rTags.has(t)) state.rTags.delete(t); else state.rTags.add(t);
+    e.currentTarget.setAttribute("aria-pressed", state.rTags.has(t)?"true":"false");
+  }}));
+  $("#r-venue").addEventListener("change",fillShowOptions);
+  $("#r-filter").addEventListener("change",e=>{ state.reviewVenue=e.target.value; renderReviews(); });
+}
+function fillShowOptions(){
+  const key=$("#r-venue").value, sel=$("#r-show");
+  sel.replaceChildren(el("option",{value:"",text:"Just reviewing the venue"}));
+  const past = allShows(true).filter(s=>s.v.key===key && s.date<=TODAY).sort((a,b)=>b.date.localeCompare(a.date));
+  for (const s of past) sel.append(el("option",{value:s.id,text:s.artist+" — "+parseISO(s.date).toLocaleDateString("en-US",{month:"short",day:"numeric"})}));
+}
+function renderReviews(){
+  if (state.reviewVenue && $("#r-filter").value!==state.reviewVenue){ $("#r-filter").value=state.reviewVenue; if(!$("#r-venue").value){ $("#r-venue").value=state.reviewVenue; fillShowOptions(); } }
+  const sb=$("#scoreboard"); sb.replaceChildren();
+  const rated = Object.keys(VENUES).map(k=>({k,v:VENUES[k],r:venueRating(k)})).filter(x=>x.r.count).sort((a,b)=>b.r.avg-a.r.avg||b.r.count-a.r.count);
+  if (!rated.length) sb.append(el("p",{class:"note",text:"No venue ratings yet. Be the first to rate a venue."}));
+  for (const x of rated){
+    sb.append(el("button",{type:"button",class:"score","aria-pressed":state.reviewVenue===x.k?"true":"false",onclick:()=>{ state.reviewVenue = state.reviewVenue===x.k ? "" : x.k; $("#r-filter").value=state.reviewVenue; renderReviews(); }},
+      el("span",{class:"sname",text:x.v.name}),
+      el("span",{class:"savg",text:"★ "+x.r.avg.toFixed(1)}),
+      el("span",{class:"stags",text:x.r.count+" review"+(x.r.count===1?"":"s")+(x.r.tags.length?" · "+x.r.tags.join(", "):"")})
+    ));
+  }
+  const feed=$("#rev-feed"); feed.replaceChildren();
+  const list = state.reviews.filter(r=>!state.reviewVenue || r.venue===state.reviewVenue).sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,60);
+  if (!list.length) feed.append(el("p",{class:"empty",text: "No reviews here yet. Be the first."}));
+  const showsById = new Map(allShows(true).map(s=>[s.id,s]));
+  for (const r of list){
+    const v=VENUES[r.venue]; const sh=r.show && showsById.get(r.show);
+    feed.append(el("article",{class:"review"},
+      el("div",{class:"rstars","aria-label":r.stars+" out of 5",text:"★".repeat(r.stars)+"☆".repeat(5-r.stars)}),
+      el("div",{class:"rmeta"}, el("strong",{text:(v?v.name:"Venue")}), sh ? " · "+sh.artist+", "+parseISO(sh.date).toLocaleDateString("en-US",{month:"short",day:"numeric"}) : "", " · by "+(r.name||"Anonymous")+" · "+new Date(r.at).toLocaleDateString("en-US",{month:"short",day:"numeric"})),
+      r.text ? el("p",{text:r.text}) : null,
+      (r.tags&&r.tags.length) ? el("div",{class:"rtags"}, r.tags.map(t=>el("span",{class:"pill",text:t}))) : null
+    ));
+  }
+}
+$("#rev-form").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const venue=$("#r-venue").value;
+  if (!venue) return setStatus("#r-status","Pick the venue you're reviewing.","err");
+  if (!state.rStars) return setStatus("#r-status","Tap the stars to give a rating.","err");
+  if (!state.db || !state.uid) return setStatus("#r-status","Still connecting. Try again in a few seconds.","err");
+  const item={id:"r"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),venue,show:$("#r-show").value||"",stars:state.rStars,tags:[...state.rTags],
+    text:$("#r-text").value.trim(),name:$("#r-name").value.trim().slice(0,40),at:new Date().toISOString()};
+  $("#r-btn").disabled=true; setStatus("#r-status","Posting…","");
+  try{
+    const ref=state.db.doc("reviews/"+state.uid); const cur=await ref.get();
+    const items=(cur.exists && Array.isArray(cur.data().items)) ? cur.data().items.slice() : [];
+    items.push(item); await ref.set({items});
+    $("#rev-form").reset(); state.rStars=0; state.rTags.clear();
+    document.querySelectorAll("#r-stars .star-btn").forEach(b=>b.setAttribute("aria-checked","false"));
+    document.querySelectorAll("#r-tags .chip").forEach(b=>b.setAttribute("aria-pressed","false"));
+    setStatus("#r-status","Thanks! Your review is up.","ok");
+  }catch(err){
+    setStatus("#r-status", err && err.code==="permission-denied" ? "Couldn't post that. Refresh the page and try again." : "Couldn't post that just now. Try again in a minute.","err");
+  }finally{ $("#r-btn").disabled=false; }
+});
+
+/* ---------- Admin ---------- */
+async function setSubmissionStatus(uid,id,status){
+  const ref=state.db.doc("submissions/"+uid); const cur=await ref.get();
+  if(!cur.exists) return;
+  const items=(cur.data().items||[]).map(x=>x.id===id?Object.assign({},x,{status}):x);
+  await ref.set({items});
+}
+function renderAdmin(){
+  if (!state.isOwner) return;
+  const pend=$("#adm-pending"); pend.replaceChildren();
+  const pending=[]; for(const s of state.allSubmissions) for(const it of s.items) if(it.status==="pending") pending.push({uid:s.uid,it});
+  if (!pending.length) pend.append(el("p",{class:"note",text:"Nothing waiting. New submissions show up here."}));
+  for (const {uid,it} of pending){
+    const url=safeUrl(it.url);
+    const box=el("div",{class:"admin-item"},
+      el("strong",{text:it.artist}), it.support?" with "+it.support:"", el("br"),
+      el("span",{class:"note",text:[it.date,fmtTime(it.time),it.venueName,it.area,it.type,it.genre,it.price].filter(Boolean).join(" · ")}), el("br"),
+      el("span",{class:"note",text:"Contact: "+it.contact+(it.wantsFeature?" · WANTS FEATURED":"")}),
+      url? el("div",{}, el("a",{href:url,target:"_blank",rel:"noopener",text:"Event link ↗"})):null
+    );
+    const row=el("div",{class:"row"});
+    const approve=async(featured)=>{
+      row.querySelectorAll("button").forEach(b=>b.disabled=true);
+      try{
+        const show={artist:it.artist,support:it.support||"",date:it.date,time:it.time||"",venue:it.venue||"",venueName:it.venueName,venueAddr:it.venueAddr||"",
+          area:it.area,type:it.type,genre:it.genre,price:it.price,tickets:it.url||"",featured:!!featured,approvedAt:new Date().toISOString()};
+        await state.db.doc("shows/"+it.id).set(show);
+        await setSubmissionStatus(uid,it.id,"approved");
+      }catch(e){ row.querySelectorAll("button").forEach(b=>b.disabled=false); }
+    };
+    row.append(
+      el("button",{class:"btn small",type:"button",text:"Approve",onclick:()=>approve(false)}),
+      el("button",{class:"btn small",type:"button",text:"Approve + feature",onclick:()=>approve(true)}),
+      el("button",{class:"btn small ghost",type:"button",text:"Reject",onclick:async()=>{ try{ await setSubmissionStatus(uid,it.id,"rejected"); }catch(e){} }})
+    );
+    box.append(row); pend.append(box);
+  }
+  const appr=$("#adm-approved"); appr.replaceChildren();
+  if (!state.approved.length) appr.append(el("p",{class:"note",text:"No approved submissions yet."}));
+  for (const sh of state.approved.slice().sort((a,b)=>a.date.localeCompare(b.date))){
+    appr.append(el("div",{class:"admin-item"},
+      el("strong",{text:sh.artist}), " · "+(sh.venueName||"")+" · "+sh.date+(sh.featured?" · ★ featured":""),
+      el("div",{class:"row"},
+        el("button",{class:"btn small",type:"button",text:sh.featured?"Unfeature":"Feature",onclick:async()=>{ try{ await state.db.doc("shows/"+sh.id).update({featured:!sh.featured}); }catch(e){} }}),
+        el("button",{class:"btn small ghost",type:"button",text:"Remove",onclick:async()=>{ try{ await state.db.doc("shows/"+sh.id).delete(); }catch(e){} }})
+      )));
+  }
+  const rv=$("#adm-reviews"); rv.replaceChildren();
+  const recent=state.reviews.slice().sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,30);
+  if (!recent.length) rv.append(el("p",{class:"note",text:"No reviews yet."}));
+  for (const r of recent){
+    rv.append(el("div",{class:"admin-item"},
+      el("strong",{text:"★".repeat(r.stars)+" "+((VENUES[r.venue]||{}).name||r.venue)}), " · "+(r.name||"Anonymous"),
+      r.text ? el("div",{class:"note",text:r.text.slice(0,200)}) : null,
+      el("div",{class:"row"}, el("button",{class:"btn small ghost",type:"button",text:"Remove review",onclick:async()=>{
+        try{ const ref=state.db.doc("reviews/"+r.uid); const cur=await ref.get(); if(!cur.exists) return;
+          await ref.set({items:(cur.data().items||[]).filter(x=>x.id!==r.id)}); }catch(e){} }}))
+    ));
+  }
+  $("#sub-count").textContent = "("+state.subscribers.length+")";
+  $("#digest").value = buildDigest();
+}
+function buildDigest(){
+  const week = allShows().filter(s=>s.date<=addDays(TODAY,6));
+  const lines=["SHOW ME SHOWS — This week in St. Louis live music",""];
+  const feat=week.filter(s=>s.featured);
+  if (feat.length){ lines.push("★ FEATURED"); for(const s of feat) lines.push("  "+s.artist+" — "+s.v.name+", "+parseISO(s.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})); lines.push(""); }
+  let cur="";
+  for (const s of week.filter(s=>!s.featured)){
+    if (s.date!==cur){ cur=s.date; lines.push(parseISO(s.date).toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"}).toUpperCase()); }
+    lines.push("  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+(s.time?" · "+fmtTime(s.time):"")+(s.price==="Free"?" · FREE":""));
+  }
+  if (!week.length) lines.push("Quiet week! Check the site for what's coming up.");
+  lines.push("","Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
+  return lines.join("\n");
+}
+async function copyText(text,statusId){
+  try{ await navigator.clipboard.writeText(text); setStatus(statusId,"Copied.","ok"); }
+  catch(e){ setStatus(statusId,"Couldn't copy automatically. Select the text and copy it.","err"); }
+}
+$("#copy-digest").addEventListener("click",()=>copyText($("#digest").value,"#digest-status"));
+$("#copy-emails").addEventListener("click",()=>{
+  const emails=state.subscribers.map(x=>x.email).filter(Boolean);
+  if(!emails.length) return setStatus("#adm-sub-status","No subscribers yet.","");
+  copyText(emails.join(", "),"#adm-sub-status");
+});
+
+/* ---------- Start ---------- */
+buildChips();
+buildReviewForm();
+$("#count").textContent="Loading shows…";
+loadData().catch(()=>{ $("#count").textContent="Couldn't load the listings. Refresh the page to try again."; })
+  .finally(()=>{
+    fillVenueInputs();
+    if (UPDATED){ const d=new Date(UPDATED); if(!isNaN(d)) $("#updated-at").textContent=d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); }
+    setView(location.hash.slice(1) || "week");
+    initDb();
+  });
+})();
+</script>
+</body>
+</html>
