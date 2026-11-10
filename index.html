@@ -99,6 +99,9 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .announced li:last-child{border-bottom:0}
 .announced .a-date{font-family:var(--font-mono);font-size:12px;color:var(--muted);min-width:9ch}
 .announced a{color:inherit}
+.announced .see-all{margin:8px 0 0;font-weight:600}
+.announced .see-all a{color:var(--pink)}
+.page-head{font-family:var(--font-display);text-transform:uppercase;font-size:34px;margin:0 0 4px;color:var(--pink)}
 .meta .date{font-weight:600}
 .pill.genre{border-color:var(--blue);color:var(--blue)}
 .link{font-size:13px;font-weight:600}
@@ -258,6 +261,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
         <div class="chips" id="genre-chips" aria-label="Genres"></div>
       </div>
       <div id="announced"></div>
+      <h2 id="new-head" class="page-head hidden">Just announced</h2>
       <p class="count" id="count"></p>
       <div id="list"></div>
     </div>
@@ -468,6 +472,7 @@ function filtered(range){
     if (range==="all" && s.date>addDays(TODAY,NEAR_DAYS)) return false;
     if (range==="coming" && (s.date<=addDays(TODAY,NEAR_DAYS) || s.date>addDays(TODAY,FAR_DAYS))) return false;
     if (range==="announced" && !(s.added && s.added>=addDays(TODAY,-6))) return false;
+    if (range==="new" && !(s.added && s.added>=addDays(TODAY,-13))) return false;
     if (state.area && s.v.area!==state.area) return false;
     if (state.type && s.v.type!==state.type) return false;
     if (state.free && s.price!=="Free") return false;
@@ -514,16 +519,29 @@ function showCard(s){
 function renderList(){
   const range = state.view;
   const shows = filtered(range);
-  const label = range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
+  const label = range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="new" ? "announced in the last 2 weeks" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
   renderAnnounced(range);
+  $("#new-head").classList.toggle("hidden", range!=="new");
   $("#count").textContent = shows.length + (shows.length===1?" show ":" shows ") + label;
   const box = $("#list"); box.replaceChildren();
   if (!shows.length){
     const msg = range==="tonight"
       ? ["Nothing listed tonight yet", "Try This Week, or loosen the filters. Playing tonight? Submit your show."]
+      : range==="new" ? ["Nothing newly announced yet", "New shows land here as venues announce them. Check back in a day or two."]
       : range==="coming" ? ["Nothing announced that far out yet", "We check for newly announced shows every week. Booking a show months out? Submit it."]
       : ["No shows match", "Clear a filter or two. Know a show we're missing? Submit it."];
     box.append(el("div",{class:"empty"}, el("strong",{text:msg[0]}), msg[1], " ", el("a",{href:"#submit",text:"Submit a show →"})));
+    return;
+  }
+  if (range==="new"){
+    const byAdded=new Map();
+    for (const s of [...shows].sort((a,b)=>b.added.localeCompare(a.added)||a.date.localeCompare(b.date))){ if(!byAdded.has(s.added)) byAdded.set(s.added,[]); byAdded.get(s.added).push(s); }
+    for (const [d,list] of byAdded){
+      const dd=parseISO(d);
+      box.append(el("section",{class:"day"},
+        el("div",{class:"day-label"}, el("span",{class:"dow",text:d===TODAY?"Added":"Added "+dd.toLocaleDateString("en-US",{weekday:"short"})}), el("span",{class:"dnum",text:String(dd.getDate())}), el("span",{class:"mon",text:dd.toLocaleDateString("en-US",{month:"short"}).toUpperCase()}), d===TODAY ? el("span",{class:"tonight",text:"TODAY"}) : null),
+        el("div",{class:"shows"}, list.map(datedShowCard))));
+    }
     return;
   }
   if (range==="coming"){
@@ -564,10 +582,10 @@ function shortMonth(iso){ return parseISO(iso).toLocaleDateString("en-US",{month
 function datedShowCard(s){ const c=showCard(s); c.querySelector(".meta").prepend(el("span",{class:"date",text:shortDate(s.date)})); return c; }
 function renderAnnounced(range){
   const box=$("#announced"); box.replaceChildren();
-  if (!["all","coming"].includes(range)) return;
-  const fresh=filtered("announced").filter(s=>s.date>addDays(TODAY,6)).sort((a,b)=>a.date.localeCompare(b.date));
+  if (!["week","all","coming"].includes(range)) return;
+  const fresh=filtered("announced").filter(s=>s.date>addDays(TODAY,6)).sort((a,b)=>b.added.localeCompare(a.added)||a.date.localeCompare(b.date));
   if (!fresh.length) return;
-  const MAX=8;
+  const MAX=5;
   box.append(el("section",{class:"announced","aria-label":"Just announced"},
     el("h2",{text:"Just announced"}),
     el("ul",{}, fresh.slice(0,MAX).map(s=>el("li",{},
@@ -575,7 +593,7 @@ function renderAnnounced(range){
       el("strong",{text:s.artist}),
       el("a",{href:"#venue-"+s.v.key,text:s.v.name}),
       onSaleLabel(s) ? el("span",{class:"pill onsale",text:onSaleLabel(s)}) : null))),
-    fresh.length>MAX ? el("p",{class:"note",text:"+"+(fresh.length-MAX)+" more added this week"}) : null));
+    el("p",{class:"see-all"}, el("a",{href:"#new",text: fresh.length>MAX ? "See all "+fresh.length+" just announced →" : "See everything just announced →"}))));
 }
 function buildChips(){
   const box = $("#genre-chips");
@@ -788,7 +806,7 @@ function renderVenuePage(){
 }
 
 /* ---------- Views & routing ---------- */
-const VIEWS=["tonight","week","all","coming","map","venues","reviews","submit","admin"];
+const VIEWS=["tonight","week","all","coming","new","map","venues","reviews","submit","admin"];
 function setView(v){
   if (typeof v==="string" && v.startsWith("venue-")){ state.venueKey=v.slice(6); v="venue"; }
   else if (!VIEWS.includes(v)) v="week";
@@ -796,7 +814,7 @@ function setView(v){
   state.view=v;
   const tab = v==="venue" ? "venues" : v;
   document.querySelectorAll("nav.tabs a").forEach(a=>{ if(a.dataset.view===tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
-  const list = ["tonight","week","all","coming"].includes(v);
+  const list = ["tonight","week","all","coming","new"].includes(v);
   $("#view-list").classList.toggle("hidden",!list);
   $("#view-map").classList.toggle("hidden",v!=="map");
   $("#view-venues").classList.toggle("hidden",v!=="venues");
@@ -809,7 +827,7 @@ function setView(v){
 }
 function render(){
   const v=state.view;
-  if (["tonight","week","all","coming"].includes(v)) renderList();
+  if (["tonight","week","all","coming","new"].includes(v)) renderList();
   else if (v==="map") renderMap();
   else if (v==="venues") renderVenues();
   else if (v==="venue") renderVenuePage();
@@ -1137,7 +1155,7 @@ function buildDigest(){
   if (fresh.length){
     lines.push("","JUST ANNOUNCED");
     for (const s of fresh.slice(0,10)) lines.push("  "+s.artist+" — "+s.v.name+", "+shortDate(s.date)+(onSaleLabel(s)?" ("+onSaleLabel(s)+")":""));
-    if (fresh.length>10) lines.push("  +"+(fresh.length-10)+" more at showmeshows.net/#coming");
+    lines.push("  "+(fresh.length>10?"+"+(fresh.length-10)+" more — ":"")+"see them all at showmeshows.net/#new");
   }
   lines.push("","Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
   return lines.join("\n");
