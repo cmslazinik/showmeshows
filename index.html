@@ -296,7 +296,8 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
         <form id="rev-form" class="box" novalidate>
           <h2>Write a review</h2>
           <div class="field"><label for="r-venue">Venue *</label><select id="r-venue" required></select></div>
-          <div class="field"><label for="r-show">Show you saw (optional)</label><select id="r-show"><option value="">Just reviewing the venue</option></select></div>
+          <div class="field"><label for="r-show">Show you saw (optional)</label><select id="r-show"><option value="">Just reviewing the venue</option></select>
+            <input id="r-show-text" class="hidden" maxlength="80" placeholder="Who did you see? e.g. The Bottle Rockets, Oct 24" aria-label="Show you saw" style="margin-top:6px"></div>
           <fieldset class="field"><legend>Your rating *</legend>
             <div class="star-row" id="r-stars" role="radiogroup" aria-label="Rating"></div></fieldset>
           <fieldset class="field"><legend>Quick takes</legend><div class="chips" id="r-tags"></div></fieldset>
@@ -985,6 +986,8 @@ function buildReviewForm(){
     e.currentTarget.setAttribute("aria-pressed", state.rTags.has(t)?"true":"false");
   }}));
   $("#r-venue").addEventListener("change",fillShowOptions);
+  $("#r-show").addEventListener("change",toggleShowText);
+  fillShowOptions();
   $("#r-filter").addEventListener("change",e=>{ state.reviewVenue=e.target.value; renderReviews(); });
 }
 function fillShowOptions(){
@@ -992,6 +995,13 @@ function fillShowOptions(){
   sel.replaceChildren(el("option",{value:"",text:"Just reviewing the venue"}));
   const past = allShows(true).filter(s=>s.v.key===key && s.date<=TODAY).sort((a,b)=>b.date.localeCompare(a.date));
   for (const s of past) sel.append(el("option",{value:s.id,text:s.artist+" — "+parseISO(s.date).toLocaleDateString("en-US",{month:"short",day:"numeric"})}));
+  sel.append(el("option",{value:"__other",text:"A different show (type it in)"}));
+  toggleShowText();
+}
+function toggleShowText(){
+  const other=$("#r-show").value==="__other", inp=$("#r-show-text");
+  inp.classList.toggle("hidden",!other);
+  if (other) inp.focus(); else inp.value="";
 }
 function renderReviews(){
   if (state.reviewVenue && $("#r-filter").value!==state.reviewVenue){ $("#r-filter").value=state.reviewVenue; if(!$("#r-venue").value){ $("#r-venue").value=state.reviewVenue; fillShowOptions(); } }
@@ -1011,9 +1021,10 @@ function renderReviews(){
   const showsById = new Map(allShows(true).map(s=>[s.id,s]));
   for (const r of list){
     const v=VENUES[r.venue]; const sh=r.show && showsById.get(r.show);
+    const showText = sh ? " · "+sh.artist+", "+parseISO(sh.date).toLocaleDateString("en-US",{month:"short",day:"numeric"}) : r.showText ? " · "+r.showText : "";
     feed.append(el("article",{class:"review"},
       el("div",{class:"rstars","aria-label":r.stars+" out of 5",text:"★".repeat(r.stars)+"☆".repeat(5-r.stars)}),
-      el("div",{class:"rmeta"}, el("strong",{text:(v?v.name:"Venue")}), sh ? " · "+sh.artist+", "+parseISO(sh.date).toLocaleDateString("en-US",{month:"short",day:"numeric"}) : "", " · by "+(r.name||"Anonymous")+" · "+new Date(r.at).toLocaleDateString("en-US",{month:"short",day:"numeric"})),
+      el("div",{class:"rmeta"}, el("strong",{text:(v?v.name:"Venue")}), showText, " · by "+(r.name||"Anonymous")+" · "+new Date(r.at).toLocaleDateString("en-US",{month:"short",day:"numeric"})),
       r.text ? el("p",{text:r.text}) : null,
       (r.tags&&r.tags.length) ? el("div",{class:"rtags"}, r.tags.map(t=>el("span",{class:"pill",text:t}))) : null
     ));
@@ -1025,14 +1036,16 @@ $("#rev-form").addEventListener("submit", async e=>{
   if (!venue) return setStatus("#r-status","Pick the venue you're reviewing.","err");
   if (!state.rStars) return setStatus("#r-status","Tap the stars to give a rating.","err");
   if (!state.db || !state.uid) return setStatus("#r-status","Still connecting. Try again in a few seconds.","err");
-  const item={id:"r"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),venue,show:$("#r-show").value||"",stars:state.rStars,tags:[...state.rTags],
+  const pick=$("#r-show").value, typed=$("#r-show-text").value.trim().slice(0,80);
+  if (pick==="__other" && !typed) return setStatus("#r-status","Type the show you saw, or pick \"Just reviewing the venue\".","err");
+  const item={id:"r"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),venue,show:pick==="__other"?"":(pick||""),showText:pick==="__other"?typed:"",stars:state.rStars,tags:[...state.rTags],
     text:$("#r-text").value.trim(),name:$("#r-name").value.trim().slice(0,40),at:new Date().toISOString()};
   $("#r-btn").disabled=true; setStatus("#r-status","Posting…","");
   try{
     const ref=state.db.doc("reviews/"+state.uid); const cur=await ref.get();
     const items=(cur.exists && Array.isArray(cur.data().items)) ? cur.data().items.slice() : [];
     items.push(item); await ref.set({items});
-    $("#rev-form").reset(); state.rStars=0; state.rTags.clear();
+    $("#rev-form").reset(); toggleShowText(); state.rStars=0; state.rTags.clear();
     document.querySelectorAll("#r-stars .star-btn").forEach(b=>b.setAttribute("aria-checked","false"));
     document.querySelectorAll("#r-tags .chip").forEach(b=>b.setAttribute("aria-pressed","false"));
     setStatus("#r-status","Thanks! Your review is up.","ok");
