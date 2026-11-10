@@ -330,5 +330,39 @@
   "hood": "Grand Center",
   "area": "City",
   "type": "Bar/Restaurant"
+ },
+ "hollywoodamp": {
+  "name": "Hollywood Casino Amphitheatre",
+  "addr": "14141 Riverport Dr, Maryland Heights",
+  "hood": "Maryland Heights",
+  "area": "County",
+  "type": "Arena",
+  "lat": 38.7445,
+  "lon": -90.4637
+ },
+ "powell": {
+  "name": "Powell Hall (Jack C. Taylor Music Center)",
+  "addr": "718 N Grand Blvd, St. Louis",
+  "hood": "Grand Center",
+  "area": "City",
+  "type": "Theater",
+  "lat": 38.6403,
+  "lon": -90.2318
+ },
+ "lindenwood": {
+  "name": "J. Scheidegger Center for the Arts (Lindenwood)",
+  "addr": "2300 W Clay St, St. Charles",
+  "hood": "St. Charles",
+  "area": "St. Charles",
+  "type": "Theater"
+ },
+ "soulardmkt": {
+  "name": "Soulard Market Park (Mardi Gras)",
+  "addr": "801 Lafayette Ave, St. Louis",
+  "hood": "Soulard",
+  "area": "City",
+  "type": "Festival",
+  "lat": 38.6106,
+  "lon": -90.2105
  }
 }
