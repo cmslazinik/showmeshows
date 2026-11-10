@@ -63,7 +63,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 /* Filters */
 .filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:8px}
 .filters input[type="search"]{flex:1 1 200px;min-width:0;padding:9px 12px;border:2px solid var(--ink);background:var(--card);border-radius:0}
-.filters select{padding:9px 10px;border:2px solid var(--ink);background:var(--card);border-radius:0}
+.filters select{padding:9px 10px;border:2px solid var(--ink);background:var(--card);color:var(--ink);border-radius:0}
 .chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
 .chip{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;padding:5px 9px;border:1.5px solid var(--ink);background:transparent;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
@@ -101,11 +101,15 @@ aside{display:flex;flex-direction:column;gap:20px}
 .box{border:2px solid var(--ink);padding:16px;background:var(--card)}
 .box h2{font-family:var(--font-display);text-transform:uppercase;font-size:24px;margin:0 0 6px;letter-spacing:.3px;line-height:1}
 .box p{margin:0 0 10px;font-size:14px}
+.sub-list{max-height:320px;overflow:auto;margin:8px 0}
+table.subs{border-collapse:collapse;width:100%;font-size:14px}
+table.subs th,table.subs td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+table.subs th{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:1px}
 .box.pink{background:var(--pink);color:var(--on-pink);border-color:var(--pink)}
 .box.pink a{color:var(--on-pink)}
 .field{display:flex;flex-direction:column;gap:4px;margin-bottom:10px}
 .field label{font-size:13px;font-weight:600}
-.field input,.field select,.field textarea{padding:8px 10px;border:2px solid var(--ink);background:var(--paper);border-radius:0;width:100%}
+.field input,.field select,.field textarea{padding:8px 10px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:0;width:100%}
 .btn{display:inline-block;font-family:var(--font-display);text-transform:uppercase;font-size:18px;letter-spacing:.5px;padding:8px 16px;background:var(--ink);color:var(--paper);border:2px solid var(--ink);cursor:pointer;text-decoration:none}
 .btn:hover{background:var(--blue);border-color:var(--blue);color:#fff}
 .btn.ghost{background:transparent;color:var(--ink)}
@@ -339,7 +343,8 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <h3>Recent reviews</h3>
       <div id="adm-reviews"><p class="note">Loading…</p></div>
       <h3>Email subscribers <span id="sub-count" class="note"></span></h3>
-      <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" type="button" id="copy-emails">Copy all emails</button></div>
+      <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" type="button" id="copy-emails">Copy all emails</button> <button class="btn small ghost" type="button" id="dl-subs">Download list (CSV)</button></div>
+      <div id="adm-subs" class="sub-list"></div>
       <p class="status" id="adm-sub-status"></p>
       <h3>This week's email</h3>
       <p class="note">Paste into your email tool (Mailchimp, Buttondown…) to send to subscribers.</p>
@@ -1041,6 +1046,12 @@ function renderAdmin(){
     ));
   }
   $("#sub-count").textContent = "("+state.subscribers.length+")";
+  const sl=$("#adm-subs"); sl.textContent="";
+  const subs=[...state.subscribers].sort((a,b)=>(b.joinedAt||"").localeCompare(a.joinedAt||""));
+  if(!subs.length) sl.append(el("p",{class:"note",text:"No one has signed up yet."}));
+  else { const t=el("table",{class:"subs"}); t.append(el("tr",{},el("th",{text:"Email"}),el("th",{text:"Side of town"}),el("th",{text:"Signed up"})));
+    for(const x of subs) t.append(el("tr",{},el("td",{text:x.email||""}),el("td",{text:x.area||"Everywhere"}),el("td",{text:x.joinedAt?new Date(x.joinedAt).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):""})));
+    sl.append(t); }
   $("#digest").value = buildDigest();
 }
 function buildDigest(){
@@ -1066,6 +1077,15 @@ $("#copy-emails").addEventListener("click",()=>{
   const emails=state.subscribers.map(x=>x.email).filter(Boolean);
   if(!emails.length) return setStatus("#adm-sub-status","No subscribers yet.","");
   copyText(emails.join(", "),"#adm-sub-status");
+});
+
+$("#dl-subs").addEventListener("click",()=>{
+  if(!state.subscribers.length) return setStatus("#adm-sub-status","No subscribers yet.","");
+  const q=v=>'"'+String(v||"").replace(/"/g,'""')+'"';
+  const rows=[["email","side_of_town","signed_up"]].concat(state.subscribers.map(x=>[x.email,x.area||"Everywhere",x.joinedAt]));
+  const blob=new Blob([rows.map(r=>r.map(q).join(",")).join("\n")],{type:"text/csv"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="showmeshows-subscribers.csv"; a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 });
 
 /* ---------- Start ---------- */
