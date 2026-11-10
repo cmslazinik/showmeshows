@@ -8,10 +8,10 @@ Every live show in St. Louis & the Metro East, updated every morning.
 - `venues.json` – venue directory (name, address, area, map position).
 - `firebase-config.js` – Firebase web settings (public by design).
 - `firestore.rules` – who can read/write reviews, submissions and the email list. Paste into Firebase console → Firestore → Rules.
-- `_headers` – hosting settings for Cloudflare Pages (always serve the latest listings).
+- `_headers` – cache settings so visitors always get the latest listings.
 
 ## How it fits together
-GitHub stores these files → Cloudflare Pages publishes them at your domain and republishes on every change → the daily update commits a fresh `listings.json` each morning → Firebase stores reviews, show submissions and email signups.
+GitHub stores these files → Cloudflare (Workers project "showmeshows") publishes them at showmeshows.net and republishes on every change → the daily update commits a fresh `listings.json` each morning → Firebase stores reviews, show submissions and email signups.
 
 ## Make yourself the admin
 1. Open the live site, click **Admin sign in** (footer) and sign in with Google.
