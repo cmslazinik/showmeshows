@@ -364,5 +364,14 @@
   "type": "Festival",
   "lat": 38.6106,
   "lon": -90.2105
+ },
+ "crackfox": {
+  "name": "The Crack Fox",
+  "addr": "1114 Olive St, St. Louis",
+  "hood": "Downtown",
+  "area": "City",
+  "type": "Bar/Restaurant",
+  "lat": 38.6313,
+  "lon": -90.1938
  }
 }

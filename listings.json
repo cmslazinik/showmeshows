@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T20:28:29Z",
+ "updated": "2026-11-10T22:08:21Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -955,6 +955,20 @@
    "source": "https://www.songkick.com/concerts/43389076-skilla-baby-at-pageant"
   },
   {
+   "id": "2026-11-17-citywinery-rozzi",
+   "date": "2026-11-17",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "Rozzi",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://citywinery.com/pages/events/st-louis",
+   "source": "https://www.songkick.com/concerts/43395263-rozzi-at-city-winery-st-louis",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-11-17-bob-eric-lysaght",
    "date": "2026-11-17",
    "time": "21:00",
@@ -1039,6 +1053,20 @@
    "source": "https://www.metrotix.com/events/detail/jsl-marcus-roberts"
   },
   {
+   "id": "2026-11-18-citywinery-the-prince-experience",
+   "date": "2026-11-18",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "The Prince Experience",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://citywinery.com/pages/events/st-louis",
+   "source": "https://www.songkick.com/concerts/43395265-prince-experience-at-city-winery-st-louis",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-11-18-duck-protomartyr",
    "date": "2026-11-18",
    "time": "20:00",
@@ -1097,6 +1125,20 @@
    "price": "Ticketed",
    "tickets": "http://www.evangelinesstl.com/live-music-events/2026/9/27/kent-on-the-keys",
    "source": "https://www.evangelinesstl.com/live-music-events"
+  },
+  {
+   "id": "2026-11-19-familyarena-sugarland",
+   "date": "2026-11-19",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Sugarland",
+   "support": "Kristian Bush, Payton Sullivan",
+   "venue": "familyarena",
+   "genre": "Country/Americana",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43362990-sugarland-at-family-arena",
+   "source": "https://www.songkick.com/concerts/43362990-sugarland-at-family-arena",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-11-19-jazzstl-marcus-roberts---the-modern-jazz-generation",
@@ -1521,6 +1563,19 @@
    "source": "https://www.songkick.com/concerts/43387992-whipped-cream-at-ava-garden-bar"
   },
   {
+   "id": "2026-11-21-crackfox-en-esch",
+   "date": "2026-11-21",
+   "time": "",
+   "artist": "En Esch",
+   "support": "Die So Fluid",
+   "venue": "crackfox",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43504257-en-esch-at-crack-fox",
+   "source": "https://www.songkick.com/concerts/43504257-en-esch-at-crack-fox",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-11-22-evangelines-jim-manley-jazz-brunch",
    "date": "2026-11-22",
    "time": "11:30",
@@ -1640,6 +1695,19 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketweb.com/event/hawthorne-heights-20th-the-hawthorn-tickets/14781663",
    "source": "https://www.thehawthornstl.com/tickets/hawthorne-heights"
+  },
+  {
+   "id": "2026-11-25-sinkhole-bass-amp---dano",
+   "date": "2026-11-25",
+   "time": "19:30",
+   "artist": "Bass Amp & Dano",
+   "support": "Stay Sane STL, Stinkbomb",
+   "venue": "sinkhole",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43502358-bass-amp-and-dano-at-sinkhole",
+   "source": "https://www.songkick.com/concerts/43502358-bass-amp-and-dano-at-sinkhole",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-11-25-bob-eric-lysaght",
@@ -2050,6 +2118,20 @@
    "price": "Ticketed",
    "tickets": "https://blueberryhill.com/event/the-reverend-peytons-big-damn-band/",
    "source": "https://blueberryhill.com/shows/"
+  },
+  {
+   "id": "2026-11-29-atomic-stevie-stone",
+   "date": "2026-11-29",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Stevie Stone",
+   "support": "",
+   "venue": "atomic",
+   "genre": "Hip-Hop",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43508338-stevie-stone-at-atomic-garage",
+   "source": "https://www.songkick.com/concerts/43508338-stevie-stone-at-atomic-garage",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-11-29-pops-bazooka-joe-reunion-show",
@@ -2692,6 +2774,19 @@
    "source": "https://www.evangelinesstl.com/live-music-events"
   },
   {
+   "id": "2026-12-09-citywinery-jody-nardone-trio--a-charlie-brown-christmas",
+   "date": "2026-12-09",
+   "time": "19:30",
+   "artist": "Jody Nardone Trio: A Charlie Brown Christmas",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://citywinery.com/pages/events/st-louis",
+   "source": "https://www.songkick.com/concerts/43504118-jody-nardone-at-city-winery-st-louis",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-09-bob-matt--the-rattlesnake--lesch-trio",
    "date": "2026-12-09",
    "time": "20:00",
@@ -3094,6 +3189,20 @@
    "source": "https://www.metrotix.com/events/detail/sarah-politte"
   },
   {
+   "id": "2026-12-13-pops-ill-ni-o",
+   "date": "2026-12-13",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Ill Niño",
+   "support": "",
+   "venue": "pops",
+   "genre": "Metal",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43500628-ill-nino-at-pops-old-location",
+   "source": "https://www.songkick.com/concerts/43500628-ill-nino-at-pops-old-location",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-13-offbroadway-colour-revolt",
    "date": "2026-12-13",
    "time": "20:00",
@@ -3130,6 +3239,20 @@
    "source": "https://blueberryhill.com/shows/"
   },
   {
+   "id": "2026-12-14-moshmellow-marbin",
+   "date": "2026-12-14",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Marbin",
+   "support": "",
+   "venue": "moshmellow",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43421318-marbin-at-moshmellow",
+   "source": "https://www.songkick.com/concerts/43421318-marbin-at-moshmellow",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-14-bob-soulard-blues-band",
    "date": "2026-12-14",
    "time": "20:00",
@@ -3140,6 +3263,20 @@
    "price": "Ticketed",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-12-14-sinkhole-porcelain",
+   "date": "2026-12-14",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Porcelain",
+   "support": "",
+   "venue": "sinkhole",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43437655-porcelain-at-sinkhole",
+   "source": "https://www.songkick.com/concerts/43437655-porcelain-at-sinkhole",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-12-15-bob-eric-lysaght",
@@ -3166,6 +3303,19 @@
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
   },
   {
+   "id": "2026-12-16-pops-emo-orchestra",
+   "date": "2026-12-16",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Emo Orchestra",
+   "support": "The Spill Canvas",
+   "venue": "pops",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketweb.com/event/emo-orchestra-with-the-spill-pops-concert-venue-tickets/14326294?pl=pops",
+   "source": "https://www.popsrocks.com/"
+  },
+  {
    "id": "2026-12-16-jazzstl-anita-jackson--holiday-house-party",
    "date": "2026-12-16",
    "time": "19:30",
@@ -3188,18 +3338,6 @@
    "price": "Ticketed",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
-  },
-  {
-   "id": "2026-12-16-pops-emo-orchestra",
-   "date": "2026-12-16",
-   "time": "",
-   "artist": "Emo Orchestra",
-   "support": "The Spill",
-   "venue": "pops",
-   "genre": "Indie/Punk",
-   "price": "Ticketed",
-   "tickets": "https://www.ticketweb.com/event/emo-orchestra-with-the-spill-pops-concert-venue-tickets/14326294?pl=pops",
-   "source": "https://www.popsrocks.com/"
   },
   {
    "id": "2026-12-16-factory-rene-vaca---that-mexican-ot",
@@ -3236,6 +3374,20 @@
    "price": "Free",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-12-17-familyarena-the-gatlin-brothers",
+   "date": "2026-12-17",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "The Gatlin Brothers",
+   "support": "Crystal Gayle",
+   "venue": "familyarena",
+   "genre": "Country/Americana",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43249488-gatlin-brothers-at-family-arena",
+   "source": "https://www.songkick.com/concerts/43249488-gatlin-brothers-at-family-arena",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-12-17-jazzstl-anita-jackson--holiday-house-party",
@@ -3360,6 +3512,48 @@
    "source": "https://www.offbroadwaystl.com/shows"
   },
   {
+   "id": "2026-12-18-sheldon-ricky-skaggs---kentucky-thunder",
+   "date": "2026-12-18",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Ricky Skaggs & Kentucky Thunder",
+   "support": "",
+   "venue": "sheldon",
+   "genre": "Country/Americana",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43395322-ricky-skaggs-and-kentucky-thunder-at-sheldon-concert-hall",
+   "source": "https://www.songkick.com/concerts/43395322-ricky-skaggs-and-kentucky-thunder-at-sheldon-concert-hall",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "2026-12-18-delmar-funky-butt-brass-band",
+   "date": "2026-12-18",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Funky Butt Brass Band",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43475263-funky-butt-brass-band-at-delmar-hall",
+   "source": "https://www.songkick.com/concerts/43475263-funky-butt-brass-band-at-delmar-hall",
+   "added": "2026-11-10"
+  },
+  {
+   "id": "2026-12-18-atomic-six-foot-blonde",
+   "date": "2026-12-18",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Six Foot Blonde",
+   "support": "",
+   "venue": "atomic",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43479983-six-foot-blonde-at-atomic-garage",
+   "source": "https://www.songkick.com/concerts/43479983-six-foot-blonde-at-atomic-garage",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-18-orh-the-taylor-party--taylor-swift-night",
    "date": "2026-12-18",
    "time": "20:30",
@@ -3470,6 +3664,20 @@
    "source": "https://oldrockhouse.com/concert-calendar/"
   },
   {
+   "id": "2026-12-19-delmar-funky-butt-brass-band",
+   "date": "2026-12-19",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Funky Butt Brass Band",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43475351-funky-butt-brass-band-at-delmar-hall",
+   "source": "https://www.songkick.com/concerts/43475351-funky-butt-brass-band-at-delmar-hall",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-19-bob-alligator-wine",
    "date": "2026-12-19",
    "time": "21:00",
@@ -3531,6 +3739,20 @@
    "added": "2026-11-10"
   },
   {
+   "id": "2026-12-20-citywinery-the-bad-plus",
+   "date": "2026-12-20",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "The Bad Plus",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://citywinery.com/pages/events/st-louis",
+   "source": "https://www.songkick.com/concerts/43317800-bad-plus-at-city-winery-st-louis",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-20-bob-broken-jukebox",
    "date": "2026-12-20",
    "time": "20:00",
@@ -3543,6 +3765,20 @@
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
   },
   {
+   "id": "2026-12-20-golden-mu330",
+   "date": "2026-12-20",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "MU330",
+   "support": "Mustard Plug, The Doomstompers",
+   "venue": "golden",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43449491-mu330-at-golden-record",
+   "source": "https://www.songkick.com/concerts/43449491-mu330-at-golden-record",
+   "added": "2026-11-10"
+  },
+  {
    "id": "2026-12-20-factory-grupo-duelo",
    "date": "2026-12-20",
    "time": "",
@@ -3553,6 +3789,19 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/grupo-duelo-saint-louis-missouri-12-20-2026/event/2100654D36B761E5",
    "source": "https://thefactorystl.com/"
+  },
+  {
+   "id": "2026-12-20-delmar-funky-butt-brass-band",
+   "date": "2026-12-20",
+   "time": "",
+   "artist": "Funky Butt Brass Band",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43475330-funky-butt-brass-band-at-delmar-hall",
+   "source": "https://www.songkick.com/concerts/43475330-funky-butt-brass-band-at-delmar-hall",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-12-21-wildey-opera-edwardsville-holiday-concert",
@@ -3649,6 +3898,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43444855-el-monstero-at-pageant",
    "source": "https://www.songkick.com/concerts/43444855-el-monstero-at-pageant"
+  },
+  {
+   "id": "2026-12-23-delmar-funky-butt-brass-band",
+   "date": "2026-12-23",
+   "time": "",
+   "artist": "Funky Butt Brass Band",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43475735-funky-butt-brass-band-at-delmar-hall",
+   "source": "https://www.songkick.com/concerts/43475735-funky-butt-brass-band-at-delmar-hall",
+   "added": "2026-11-10"
   },
   {
    "id": "2026-12-26-wildey-breakfast-in-america",
