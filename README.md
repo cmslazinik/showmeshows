@@ -4,7 +4,7 @@ Every live show in St. Louis & the Metro East, updated every morning.
 
 ## Files
 - `index.html` – the whole site (listings, map, venues, reviews, submit form, admin).
-- `listings.json` – all shows. Rewritten every morning by the daily update.
+- `listings.json` – all shows. Rewritten every morning by the daily update (next 45 days every day; every Monday it also sweeps out to 6 months for the Coming Up tab). Optional show fields: `added` (date first listed, drives "Just announced") and `onSale` (`YYYY-MM-DD` or `YYYY-MM-DDTHH:MM`, local time).
 - `venues.json` – venue directory (name, address, area, map position).
 - `firebase-config.js` – Firebase web settings (public by design).
 - `firestore.rules` – who can read/write reviews, submissions and the email list. Paste into Firebase console → Firestore → Rules.
