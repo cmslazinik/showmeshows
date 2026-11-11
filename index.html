@@ -189,6 +189,7 @@ h2.page-title{font-family:var(--font-display);text-transform:uppercase;font-size
 .mine li{margin-bottom:6px;font-size:14px}
 
 .meta .time{font-family:var(--font-mono);font-weight:600;background:var(--ink);color:var(--paper);padding:0 6px}
+.meta .time.approx{background:transparent;color:var(--ink);border:1px dashed var(--ink);font-weight:400}
 .stars-link{font-family:var(--font-mono);font-size:13px;font-weight:600;color:var(--blue);text-decoration:none}
 .btn.tix{white-space:nowrap}
 .scoreboard{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px;margin-bottom:22px}
@@ -492,6 +493,26 @@ function onSaleLabel(s){
   return "On sale "+when+(t?" "+fmtTime(t):"");
 }
 function shortDate(iso){ return parseISO(iso).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}); }
+// A venue's usual start time: venues.json "usual" (HH:MM) if set, else the most common
+// posted time across that venue's listed shows (needs 3+ shows, and that time on 40%+ of them).
+const _usualCache = {};
+function usualTime(key){
+  if (key in _usualCache) return _usualCache[key];
+  let u = (VENUES[key] && /^\d{2}:\d{2}$/.test(VENUES[key].usual||"")) ? VENUES[key].usual : "";
+  if (!u){
+    const times = allShows(true).filter(x=>x.v.key===key && x.time).map(x=>x.time+(x.timeNote==="doors"?"|doors":""));
+    if (times.length>=3){
+      const c={}; for (const t of times) c[t]=(c[t]||0)+1;
+      const [best,n]=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];
+      if (n/times.length>=0.4) u=best;
+    }
+  }
+  return (_usualCache[key]=u);
+}
+function usualLabel(key){
+  const u=usualTime(key); if(!u) return "";
+  const [t,note]=u.split("|"); return fmtTime(t)+(note?" "+note:"");
+}
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
   const t = fmtTime(s.time);
@@ -502,7 +523,9 @@ function showCard(s){
       el("h3",{class:"artist",text:s.artist}),
       s.support ? el("p",{class:"support",text:"with "+s.support}) : null,
       el("div",{class:"meta"},
-        el("span",{class:"time",text: t ? (s.timeNote? t+" "+s.timeNote : t) : "Time TBA"}),
+        t ? el("span",{class:"time",text: s.timeNote? t+" "+s.timeNote : t})
+          : (usualTime(s.v.key) ? el("span",{class:"time approx",title:"No time posted yet. This is when shows here usually start.",text:"Usually "+usualLabel(s.v.key)})
+          : el("span",{class:"time approx",text:"Time TBA"})),
         el("a",{class:"venue",href:"#venue-"+s.v.key,text:s.v.name}),
         el("span",{text:[s.v.hood,s.v.area].filter(Boolean).join(" · ")}),
         vr.count ? el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=s.v.key;},text:"★ "+vr.avg.toFixed(1)+" ("+vr.count+")","aria-label":s.v.name+" rated "+vr.avg.toFixed(1)+" out of 5 from "+vr.count+" reviews"}) : null
@@ -1148,7 +1171,7 @@ function buildDigest(){
   let cur="";
   for (const s of week.filter(s=>!s.featured)){
     if (s.date!==cur){ cur=s.date; lines.push(parseISO(s.date).toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"}).toUpperCase()); }
-    lines.push("  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+(s.time?" · "+fmtTime(s.time):"")+(s.price==="Free"?" · FREE":""));
+    lines.push("  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+(s.time?" · "+fmtTime(s.time):usualTime(s.v.key)?" · usually "+usualLabel(s.v.key):"")+(s.price==="Free"?" · FREE":""));
   }
   if (!week.length) lines.push("Quiet week! Check the site for what's coming up.");
   const fresh = allShows().filter(s=>s.added && s.added>=addDays(TODAY,-6) && s.date>addDays(TODAY,6)).sort((a,b)=>a.date.localeCompare(b.date));
