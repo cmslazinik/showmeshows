@@ -373,5 +373,23 @@
   "type": "Bar/Restaurant",
   "lat": 38.6313,
   "lon": -90.1938
+ },
+ "venice": {
+  "name": "Venice Cafe",
+  "addr": "1903 Pestalozzi St, St. Louis",
+  "hood": "Benton Park",
+  "area": "City",
+  "type": "Bar/Restaurant",
+  "lat": 38.5975,
+  "lon": -90.2206
+ },
+ "ballpark": {
+  "name": "Ballpark Village",
+  "addr": "601 Clark Ave, St. Louis",
+  "hood": "Downtown",
+  "area": "City",
+  "type": "Bar/Restaurant",
+  "lat": 38.6236,
+  "lon": -90.1913
  }
 }
