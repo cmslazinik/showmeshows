@@ -1,0 +1,33 @@
+{
+ "note": "Every city on Show Me Shows. The update tasks and the morning health check read this. max_age_hours = how stale the listings file may get before the health check raises an alarm.",
+ "cities": [
+  {
+   "key": "stl",
+   "name": "St. Louis",
+   "guide": "updates/stl.md",
+   "listings": "listings.json",
+   "venues": "venues.json",
+   "timezone": "America/Chicago",
+   "schedule": "daily",
+   "deep_day": "Monday",
+   "commit_prefix": "Daily listings update",
+   "task_id": "trig_01FX8Jvsacu1AMxc3HkrKBaJ",
+   "min_shows": 50,
+   "max_age_hours": 30
+  },
+  {
+   "key": "denver",
+   "name": "Denver",
+   "guide": "updates/denver.md",
+   "listings": "listings-denver.json",
+   "venues": "venues-denver.json",
+   "timezone": "America/Denver",
+   "schedule": "Mon/Wed/Fri",
+   "deep_day": "Wednesday",
+   "commit_prefix": "Denver listings update",
+   "task_id": "trig_018jBE79B28YMDBcKEs5ashN",
+   "min_shows": 50,
+   "max_age_hours": 80
+  }
+ ]
+}

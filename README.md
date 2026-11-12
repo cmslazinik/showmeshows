@@ -28,3 +28,7 @@ The site covers more than one city. Each city has its own data files, refreshed 
 - Denver: `listings-denver.json`, `venues-denver.json`
 
 The Cloudflare build command copies every `*.json` file, so a new city's files deploy without changing the build.
+
+## Listings updates
+
+The scheduled updates follow `updates/RULES.md` (one rulebook for every city). Each city has a short file in `updates/` with its venues and sources, and `updates/cities.json` lists every city, its schedule and its weekly deep-sweep day. To add a city: add its data files and site config, a city file, an entry in `cities.json`, and a short scheduled task pointing at them.
