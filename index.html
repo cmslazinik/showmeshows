@@ -104,6 +104,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .meta2 .price{font-family:var(--font-mono);font-weight:600}
 .acts{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px}
 .act{background:none;border:none;padding:6px 0;min-height:32px;font:inherit;font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.listen{display:inline-flex;align-items:center;gap:10px;font-size:13px}
 .act[aria-pressed="true"]{color:var(--pink);font-weight:600;text-decoration:none}
 .show.flash{outline:3px solid var(--pink);outline-offset:2px}
 .vpage-actions{display:flex;flex-wrap:wrap;gap:6px 18px}
@@ -628,7 +629,9 @@ async function shareShow(s,btn){
   try{ await navigator.clipboard.writeText(text+"\n"+url); btn.textContent="Link copied"; setTimeout(()=>btn.textContent="Share",1800); }
   catch(e){ btn.textContent="Couldn't copy"; setTimeout(()=>btn.textContent="Share",1800); }
 }
-function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(s.artist.replace(/\s*[:(\[].*$/,"").trim()); }
+function listenName(s){ return s.artist.replace(/\s*[:(\[].*$/,"").trim(); }
+function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(listenName(s)); }
+function appleMusicUrl(s){ return "https://music.apple.com/us/search?term="+encodeURIComponent(listenName(s)); }
 const STATUS={soldout:"Sold out",cancelled:"Cancelled",postponed:"Postponed"};
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
@@ -658,7 +661,9 @@ function showCard(s){
         st!=="cancelled" ? el("a",{class:"act",href:googleCalUrl(s),target:"_blank",rel:"noopener","aria-label":"Add "+s.artist+" to Google Calendar",text:"+ Google Calendar"}) : null,
         st!=="cancelled" ? el("button",{type:"button",class:"act",text:"+ Apple / Outlook","aria-label":"Download "+s.artist+" as a calendar file for Apple Calendar or Outlook",onclick:()=>addToCalendar(s)}) : null,
         el("button",{type:"button",class:"act",text:"Share","aria-label":"Share "+s.artist,onclick:e=>shareShow(s,e.currentTarget)}),
-        el("a",{class:"act",href:listenUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Spotify",text:"Listen ↗"})
+        el("span",{class:"listen"},"Listen: ",
+          el("a",{class:"act",href:listenUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Spotify",text:"Spotify ↗"}),
+          el("a",{class:"act",href:appleMusicUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Apple Music",text:"Apple Music ↗"}))
       )
     ),
     el("div",{class:"side-tags"},
