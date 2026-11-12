@@ -465,12 +465,48 @@
     "lon": -104.9457
   },
   "moesenglewood": {
-    "name": "Moe's Original BBQ (Englewood)",
+    "name": "Moe's Original Bar B Que Englewood",
     "addr": "3295 S Broadway, Englewood, CO 80113",
     "hood": "Englewood",
     "area": "Suburbs",
     "type": "Bar/Restaurant",
-    "lat": 39.6556,
-    "lon": -104.9877
+    "lat": 39.6553,
+    "lon": -104.9876
+  },
+  "herbs": {
+    "name": "Herb's",
+    "addr": "2057 Larimer St, Denver, CO 80205",
+    "hood": "Ballpark",
+    "area": "Denver",
+    "type": "Bar/Restaurant",
+    "lat": 39.7532,
+    "lon": -104.9918
+  },
+  "dickens": {
+    "name": "Dickens Opera House",
+    "addr": "302 Main St, Longmont, CO 80501",
+    "hood": "Downtown Longmont",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.1683,
+    "lon": -105.1017
+  },
+  "buffalorose": {
+    "name": "Buffalo Rose",
+    "addr": "1119 Washington Ave, Golden, CO 80401",
+    "hood": "Downtown Golden",
+    "area": "Foothills",
+    "type": "Bar/Restaurant",
+    "lat": 39.7553,
+    "lon": -105.2213
+  },
+  "ratiooverland": {
+    "name": "Ratio Beerworks Overland",
+    "addr": "2030 S Cherokee St, Denver, CO 80223",
+    "hood": "Overland",
+    "area": "Denver",
+    "type": "Brewery",
+    "lat": 39.6799,
+    "lon": -104.9915
   }
 }

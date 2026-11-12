@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T15:53:46Z",
+  "updated": "2026-11-12T16:01:12Z",
   "note": "Denver-area listings, refreshed every morning by a scheduled task.",
   "shows": [
     {
@@ -151,6 +151,19 @@
       "price": "Ticketed",
       "tickets": "https://events.blackboxdenver.co/e/brotha-nature-nov12/tickets",
       "source": "https://events.blackboxdenver.co/",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-12-herbs-dave-randon-trio",
+      "date": "2026-11-12",
+      "time": "21:30",
+      "artist": "Dave Randon Trio",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Jazz",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -328,6 +341,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-13-marquis-armand-hammer",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "artist": "Armand Hammer",
+      "support": "Stay Tuned, Sha Ray",
+      "venue": "marquis",
+      "genre": "Hip-Hop/Rap",
+      "price": "Ticketed",
+      "tickets": "https://www.ticketmaster.com/kgnu-presents-armand-hammer-denver-colorado-11-13-2026/event/1E006392A76D6CCF",
+      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-13-hidive-kill-you-club-9-year-anniversary--aurat",
       "date": "2026-11-13",
       "time": "19:00",
@@ -394,6 +420,20 @@
       "source": "https://www.theorientaltheater.com/events",
       "ages": "All ages",
       "priceRange": "$32.56–$176.38",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-13-summit-amtrac",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "artist": "Amtrac",
+      "support": "",
+      "venue": "summit",
+      "genre": "Electronic/DJ",
+      "price": "Ticketed",
+      "tickets": "https://www.ticketmaster.com/amtrac-18-denver-colorado-11-13-2026/event/1E00650B96C2791B",
+      "source": "https://www.summitdenver.com/",
+      "ages": "18+",
       "added": "2026-11-12"
     },
     {
@@ -504,30 +544,16 @@
       "added": "2026-11-12"
     },
     {
-      "id": "2026-11-13-summit-amtrac",
+      "id": "2026-11-13-herbs-alive-on-arrival",
       "date": "2026-11-13",
-      "time": "",
-      "artist": "Amtrac",
+      "time": "21:30",
+      "artist": "Alive on Arrival",
       "support": "",
-      "venue": "summit",
-      "genre": "Electronic/DJ",
-      "price": "Ticketed",
-      "tickets": "https://www.ticketmaster.com/amtrac-18-denver-colorado-11-13-2026/event/1E00650B96C2791B",
-      "source": "https://www.summitdenver.com/",
-      "ages": "18+",
-      "added": "2026-11-12"
-    },
-    {
-      "id": "2026-11-13-marquis-armand-hammer",
-      "date": "2026-11-13",
-      "time": "",
-      "artist": "Armand Hammer",
-      "support": "Stay Tuned, Sha Ray",
-      "venue": "marquis",
-      "genre": "Hip-Hop/Rap",
-      "price": "Ticketed",
-      "tickets": "https://www.marquistheater.com/",
-      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -539,9 +565,10 @@
       "venue": "bluebird",
       "genre": "Singer-Songwriter",
       "price": "Ticketed",
-      "tickets": "https://www.bluebirdtheater.net/",
+      "tickets": "https://www.axs.com/events/1355585/bahamas-tickets",
       "source": "https://www.songkick.com/venues/10459-bluebird-theater/calendar",
-      "added": "2026-11-12"
+      "added": "2026-11-12",
+      "ages": "16+"
     },
     {
       "id": "2026-11-13-gothic-earlybirds-club",
@@ -677,6 +704,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-14-dickens-boulder-opera--dinner-opera-la-traviata",
+      "date": "2026-11-14",
+      "time": "18:30",
+      "artist": "Boulder Opera: Dinner Opera La Traviata",
+      "support": "",
+      "venue": "dickens",
+      "genre": "Classical/Orchestra",
+      "price": "Ticketed",
+      "tickets": "https://www.downtownlongmont.com/do/dinner-opera-la-traviata-1",
+      "source": "https://www.downtownlongmont.com/do/dinner-opera-la-traviata-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-14-swallowhill-3rd-annual-swallow-hill-banjofest--kaia-kater",
       "date": "2026-11-14",
       "time": "19:00",
@@ -717,6 +757,32 @@
       "source": "https://www.theorientaltheater.com/events",
       "ages": "All ages",
       "priceRange": "$34.67–$297.99",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-14-summit-kurt-vile---the-violators",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "artist": "Kurt Vile & the Violators",
+      "support": "",
+      "venue": "summit",
+      "genre": "Indie/Alt",
+      "price": "Ticketed",
+      "tickets": "https://www.ticketmaster.com/kurt-vile-the-violators-denver-colorado-11-14-2026/event/1E006483F693CB02",
+      "source": "https://www.summitdenver.com/",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-14-marquis-surely-tempo",
+      "date": "2026-11-14",
+      "time": "19:00",
+      "artist": "Surely Tempo",
+      "support": "Dogs with Hats, Shadow Work",
+      "venue": "marquis",
+      "genre": "Indie/Alt",
+      "price": "Ticketed",
+      "tickets": "https://www.ticketmaster.com/surely-tempo-denver-colorado-11-14-2026/event/1E0064EFE587CD58",
+      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
       "added": "2026-11-12"
     },
     {
@@ -788,6 +854,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-14-bluebird-half-alive",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "artist": "half•alive",
+      "support": "",
+      "venue": "bluebird",
+      "genre": "Indie/Alt",
+      "price": "Ticketed",
+      "tickets": "https://www.axs.com/events/1589199",
+      "source": "https://www.songkick.com/venues/10459-bluebird-theater/calendar",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-14-blackbox-foxton---friends--lounge-",
       "date": "2026-11-14",
       "time": "21:00",
@@ -828,6 +907,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-14-herbs-alive-on-arrival",
+      "date": "2026-11-14",
+      "time": "21:30",
+      "artist": "Alive on Arrival",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-14-ophelias-dean-johnson",
       "date": "2026-11-14",
       "time": "",
@@ -864,19 +956,6 @@
       "price": "Ticketed",
       "tickets": "https://nocturnejazz.com/music/16-uncategorised/4893-jonathan-powell-quintet-plays-chet-baker-week2",
       "source": "https://nocturnejazz.com/music",
-      "added": "2026-11-12"
-    },
-    {
-      "id": "2026-11-14-summit-kurt-vile---the-violators",
-      "date": "2026-11-14",
-      "time": "",
-      "artist": "Kurt Vile & the Violators",
-      "support": "",
-      "venue": "summit",
-      "genre": "Indie/Alt",
-      "price": "Ticketed",
-      "tickets": "https://www.ticketmaster.com/kurt-vile-the-violators-denver-colorado-11-14-2026/event/1E006483F693CB02",
-      "source": "https://www.summitdenver.com/",
       "added": "2026-11-12"
     },
     {
@@ -932,32 +1011,6 @@
       "added": "2026-11-12"
     },
     {
-      "id": "2026-11-14-marquis-surely-tempo",
-      "date": "2026-11-14",
-      "time": "",
-      "artist": "Surely Tempo",
-      "support": "Dogs with Hats, Shadow Work",
-      "venue": "marquis",
-      "genre": "Indie/Alt",
-      "price": "Ticketed",
-      "tickets": "https://www.marquistheater.com/",
-      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
-      "added": "2026-11-12"
-    },
-    {
-      "id": "2026-11-14-bluebird-half-alive",
-      "date": "2026-11-14",
-      "time": "",
-      "artist": "half•alive",
-      "support": "",
-      "venue": "bluebird",
-      "genre": "Indie/Alt",
-      "price": "Ticketed",
-      "tickets": "https://www.bluebirdtheater.net/",
-      "source": "https://www.songkick.com/venues/10459-bluebird-theater/calendar",
-      "added": "2026-11-12"
-    },
-    {
       "id": "2026-11-15-ellie-opera-colorado--verdi-s-macbeth",
       "date": "2026-11-15",
       "time": "14:00",
@@ -968,6 +1021,19 @@
       "price": "Ticketed",
       "tickets": "https://my.operacolorado.org/events/2180",
       "source": "https://www.artscomplex.com/events/detail/macbeth-2180",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-15-dickens-boulder-opera--dinner-opera-la-traviata",
+      "date": "2026-11-15",
+      "time": "17:30",
+      "artist": "Boulder Opera: Dinner Opera La Traviata",
+      "support": "",
+      "venue": "dickens",
+      "genre": "Classical/Orchestra",
+      "price": "Ticketed",
+      "tickets": "https://www.downtownlongmont.com/do/dinner-opera-la-traviata-2",
+      "source": "https://downtownlongmont.com/go/dickens-opera-house",
       "added": "2026-11-12"
     },
     {
@@ -1038,6 +1104,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-15-marquis-geordie-kieffer",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "artist": "Geordie Kieffer",
+      "support": "",
+      "venue": "marquis",
+      "genre": "Indie/Alt",
+      "price": "Ticketed",
+      "tickets": "https://www.ticketmaster.com/geordie-kieffer-denver-colorado-11-15-2026/event/1E00651B8A8E59BF",
+      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-15-larumba-salsa-sundays-at-la-rumba",
       "date": "2026-11-15",
       "time": "19:00",
@@ -1052,6 +1131,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-15-mission-the-living-tombstone",
+      "date": "2026-11-15",
+      "time": "19:00",
+      "artist": "The Living Tombstone",
+      "support": "",
+      "venue": "mission",
+      "genre": "Electronic/DJ",
+      "price": "Ticketed",
+      "tickets": "https://www.axs.com/events/1350762",
+      "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-15-paramount-arc-ngel",
       "date": "2026-11-15",
       "time": "20:00",
@@ -1063,6 +1155,20 @@
       "tickets": "https://www.paramountdenver.com/",
       "source": "https://www.songkick.com/venues/1171-paramount-theatre/calendar",
       "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-15-lostlake-dogs-on-shady-lane",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "artist": "Dogs on Shady Lane",
+      "support": "Slow Caves, Clove",
+      "venue": "lostlake",
+      "genre": "Indie/Alt",
+      "price": "Ticketed",
+      "tickets": "https://www.etix.com/ticket/p/93294533/dogs-on-shady-lane-wslow-caves-clove-denver-lost-lake-lounge?partner_id=100",
+      "source": "https://www.songkick.com/venues/1016861-lost-lake-lounge/calendar",
+      "added": "2026-11-12",
+      "ages": "16+"
     },
     {
       "id": "2026-11-15-bellco-pedro-fern-ndez",
@@ -1106,6 +1212,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-15-herbs-randy-ricks---the-rescue-dogs",
+      "date": "2026-11-15",
+      "time": "21:30",
+      "artist": "Randy Ricks & The Rescue Dogs",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-15-stampede-coste-o-calentano",
       "date": "2026-11-15",
       "time": "",
@@ -1119,32 +1238,6 @@
       "added": "2026-11-12"
     },
     {
-      "id": "2026-11-15-lostlake-dogs-on-shady-lane",
-      "date": "2026-11-15",
-      "time": "",
-      "artist": "Dogs on Shady Lane",
-      "support": "Slow Caves, Clove",
-      "venue": "lostlake",
-      "genre": "Indie/Alt",
-      "price": "Ticketed",
-      "tickets": "https://www.lostlakelounge.com/",
-      "source": "https://www.songkick.com/venues/1016861-lost-lake-lounge/calendar",
-      "added": "2026-11-12"
-    },
-    {
-      "id": "2026-11-15-marquis-geordie-kieffer",
-      "date": "2026-11-15",
-      "time": "",
-      "artist": "Geordie Kieffer",
-      "support": "",
-      "venue": "marquis",
-      "genre": "Indie/Alt",
-      "price": "Ticketed",
-      "tickets": "https://www.marquistheater.com/",
-      "source": "https://songkick.com/venues/224-marquis-theater/calendar",
-      "added": "2026-11-12"
-    },
-    {
       "id": "2026-11-15-gothic-the-black-angels",
       "date": "2026-11-15",
       "time": "",
@@ -1155,19 +1248,6 @@
       "price": "Ticketed",
       "tickets": "https://www.gothictheatre.com/",
       "source": "https://www.songkick.com/venues/5229-gothic-theatre/calendar",
-      "added": "2026-11-12"
-    },
-    {
-      "id": "2026-11-15-mission-the-living-tombstone",
-      "date": "2026-11-15",
-      "time": "",
-      "artist": "The Living Tombstone",
-      "support": "",
-      "venue": "mission",
-      "genre": "Electronic/DJ",
-      "price": "Ticketed",
-      "tickets": "https://www.missionballroom.com/",
-      "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar",
       "added": "2026-11-12"
     },
     {
@@ -1207,6 +1287,19 @@
       "price": "Ticketed",
       "tickets": "https://www.bluebirdtheater.net/",
       "source": "https://www.songkick.com/venues/10459-bluebird-theater/calendar",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-16-herbs-monday-night-jazz-with-vlad-girshevich",
+      "date": "2026-11-16",
+      "time": "21:00",
+      "artist": "Monday Night Jazz with Vlad Girshevich",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Jazz",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -1582,6 +1675,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-19-herbs-dave-randon-trio",
+      "date": "2026-11-19",
+      "time": "21:30",
+      "artist": "Dave Randon Trio",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Jazz",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-19-nocturne-bobby-wiens-quartet-feat--gabe-mervine--seth-lewis-and-tom-amend",
       "date": "2026-11-19",
       "time": "",
@@ -1889,6 +1995,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-20-herbs-mile-hi-groove",
+      "date": "2026-11-20",
+      "time": "21:30",
+      "artist": "Mile Hi Groove",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Funk/Jam",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-20-ogden-avello",
       "date": "2026-11-20",
       "time": "",
@@ -2112,6 +2231,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-21-ratiooverland-peggy-babcock---tulpa",
+      "date": "2026-11-21",
+      "time": "19:00",
+      "artist": "Peggy Babcock & Tulpa",
+      "support": "",
+      "venue": "ratiooverland",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.milehighonthecheap.com/event/ratio-beerworks",
+      "source": "https://www.milehighonthecheap.com/event/ratio-beerworks",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-21-boettcher-colorado-symphony--elgar-cello-concerto---dvo--k-symphony-no--7-with-peter-oundjian",
       "date": "2026-11-21",
       "time": "19:30",
@@ -2137,6 +2269,19 @@
       "source": "https://www.theorientaltheater.com/events",
       "ages": "All ages",
       "priceRange": "$27.27–$203.87",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-21-swallowhill-johnsmith",
+      "date": "2026-11-21",
+      "time": "20:00",
+      "artist": "Johnsmith",
+      "support": "",
+      "venue": "swallowhill",
+      "genre": "Singer-Songwriter",
+      "price": "Ticketed",
+      "tickets": "https://swallowhillmusic.org/events/johnsmith",
+      "source": "https://swallowhillmusic.org/events/johnsmith",
       "added": "2026-11-12"
     },
     {
@@ -2205,6 +2350,32 @@
       "price": "Ticketed",
       "tickets": "https://events.blackboxdenver.co/e/10-year-nov21/tickets",
       "source": "https://events.blackboxdenver.co/",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-21-herbs-mile-hi-groove",
+      "date": "2026-11-21",
+      "time": "21:30",
+      "artist": "Mile Hi Groove",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Funk/Jam",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-21-buffalorose-6-million-dollar-band",
+      "date": "2026-11-21",
+      "time": "",
+      "artist": "6 Million Dollar Band",
+      "support": "",
+      "venue": "buffalorose",
+      "genre": "Cover/Tribute",
+      "price": "Ticketed",
+      "tickets": "",
+      "source": "https://www.songkick.com/venues/8709-buffalo-rose",
       "added": "2026-11-12"
     },
     {
@@ -2471,6 +2642,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-22-herbs-daddy---company",
+      "date": "2026-11-22",
+      "time": "21:30",
+      "artist": "Daddy & Company",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-22-hidive-gila-teen",
       "date": "2026-11-22",
       "time": "",
@@ -2547,6 +2731,19 @@
       "price": "Ticketed",
       "tickets": "https://nocturnejazz.com/music/16-uncategorised/4903-zach-howarth-quartet-november-2026-nocturne",
       "source": "https://nocturnejazz.com/music",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-23-herbs-monday-night-jazz-with-vlad-girshevich",
+      "date": "2026-11-23",
+      "time": "21:00",
+      "artist": "Monday Night Jazz with Vlad Girshevich",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Jazz",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -2769,6 +2966,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-26-herbs-daddy---company",
+      "date": "2026-11-26",
+      "time": "21:30",
+      "artist": "Daddy & Company",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-27-macky-boulder-philharmonic---boulder-ballet--the-nutcracker",
       "date": "2026-11-27",
       "time": "16:00",
@@ -2915,6 +3125,19 @@
       "tickets": "https://www.etix.com/ticket/p/74277230",
       "source": "https://cervantesmasterpiece.com/events/",
       "ages": "18+",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-27-herbs-the-munchies",
+      "date": "2026-11-27",
+      "time": "21:30",
+      "artist": "The Munchies",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -3201,6 +3424,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-11-28-herbs-the-munchies",
+      "date": "2026-11-28",
+      "time": "21:30",
+      "artist": "The Munchies",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-28-fillmore-big-head-todd---the-monsters",
       "date": "2026-11-28",
       "time": "",
@@ -3439,6 +3675,19 @@
       "timeNote": "doors"
     },
     {
+      "id": "2026-11-29-herbs-dumm-friends-league",
+      "date": "2026-11-29",
+      "time": "21:30",
+      "artist": "Dumm Friends League",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Other",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-11-29-stampede-grupo-kachimba-el-poblan-simo-chilangote",
       "date": "2026-11-29",
       "time": "",
@@ -3475,6 +3724,19 @@
       "price": "Ticketed",
       "tickets": "https://nocturnejazz.com/music/16-uncategorised/4904-the-zach-howarth-quartet-plays-joe-henderson-2",
       "source": "https://nocturnejazz.com/music",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-11-30-herbs-monday-night-jazz-with-vlad-girshevich",
+      "date": "2026-11-30",
+      "time": "21:00",
+      "artist": "Monday Night Jazz with Vlad Girshevich",
+      "support": "",
+      "venue": "herbs",
+      "genre": "Jazz",
+      "price": "Free",
+      "tickets": "https://www.herbsbar.com/live-music-calendar-1",
+      "source": "https://www.herbsbar.com/live-music-calendar-1",
       "added": "2026-11-12"
     },
     {
@@ -4435,6 +4697,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-05-nocturne-the-ben-markley-quintet",
+      "date": "2026-12-05",
+      "time": "",
+      "artist": "The Ben Markley Quintet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-05-lostlake-toadstool",
       "date": "2026-12-05",
       "time": "",
@@ -4618,6 +4893,19 @@
       "price": "Ticketed",
       "tickets": "https://www.gothictheatre.com/",
       "source": "https://www.songkick.com/venues/5229-gothic-theatre/calendar",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-06-nocturne-the-steve-denny-quintet--songs-of-winter",
+      "date": "2026-12-06",
+      "time": "",
+      "artist": "The Steve Denny Quintet: Songs of Winter",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
@@ -5351,6 +5639,20 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-12-swallowhill-the-okee-dokee-brothers--evening-show-",
+      "date": "2026-12-12",
+      "time": "18:00",
+      "artist": "The Okee Dokee Brothers (Evening Show)",
+      "support": "",
+      "venue": "swallowhill",
+      "genre": "Americana/Folk/Bluegrass",
+      "price": "Ticketed",
+      "tickets": "https://swallowhillmusic.org/events/okeedokeebrothers/",
+      "source": "https://swallowhillmusic.org/events/okeedokeebrothers/",
+      "status": "soldout",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-12-oriental-depeche-mode--psychedelic-furs---new-order-tributes--dm101--heaven--low-life",
       "date": "2026-12-12",
       "time": "19:00",
@@ -5509,6 +5811,19 @@
       "price": "Ticketed",
       "tickets": "https://www.ticketmaster.com/drop-dead-gorgeous-denver-colorado-12-12-2026/event/1E0064A5C76EEDAE",
       "source": "https://www.summitdenver.com/",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-12-nocturne-gabriel-mervine-quintet",
+      "date": "2026-12-12",
+      "time": "",
+      "artist": "Gabriel Mervine Quintet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
@@ -5710,6 +6025,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-13-nocturne-the-steve-denny-quintet--songs-of-winter",
+      "date": "2026-12-13",
+      "time": "",
+      "artist": "The Steve Denny Quintet: Songs of Winter",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-13-mission-trivium",
       "date": "2026-12-13",
       "time": "",
@@ -5826,6 +6154,19 @@
       "price": "Ticketed",
       "tickets": "https://www.ticketweb.com/event/ladies-night-2026-stampede-tickets/14153094",
       "source": "https://www.livenation.com/venue/KovZpZAJv61A/stampede-events",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-16-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet",
+      "date": "2026-12-16",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: The David Mesquitic Quintet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
@@ -6124,6 +6465,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-18-nocturne-nocturne-holiday-sessions--peter-sommer-septet",
+      "date": "2026-12-18",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: Peter Sommer Septet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-18-marquis-public-opinion",
       "date": "2026-12-18",
       "time": "",
@@ -6361,6 +6715,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-19-nocturne-nocturne-holiday-sessions--peter-sommer-septet",
+      "date": "2026-12-19",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: Peter Sommer Septet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-19-fillmore-tech-n9ne",
       "date": "2026-12-19",
       "time": "",
@@ -6480,6 +6847,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-20-nocturne-nocturne-holiday-sessions--peter-sommer-septet",
+      "date": "2026-12-20",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: Peter Sommer Septet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-22-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-",
       "date": "2026-12-22",
       "time": "13:00",
@@ -6503,6 +6883,19 @@
       "price": "Ticketed",
       "tickets": "https://tickets.coloradosymphony.org/7863/7876",
       "source": "https://coloradosymphony.org/view-all-events/",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-22-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet",
+      "date": "2026-12-22",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: The David Mesquitic Quintet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
@@ -6542,6 +6935,19 @@
       "price": "Ticketed",
       "tickets": "https://www.ticketweb.com/event/ladies-night-2026-stampede-tickets/14153194",
       "source": "https://www.livenation.com/venue/KovZpZAJv61A/stampede-events",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-23-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet",
+      "date": "2026-12-23",
+      "time": "",
+      "artist": "Nocturne Holiday Sessions: The David Mesquitic Quintet",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
@@ -6597,6 +7003,19 @@
       "added": "2026-11-12"
     },
     {
+      "id": "2026-12-26-nocturne-the-powell-brothers-honor-coltrane-and-miles--jonathan-powell-quintet-",
+      "date": "2026-12-26",
+      "time": "",
+      "artist": "The Powell Brothers honor Coltrane and Miles (Jonathan Powell Quintet)",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
+      "added": "2026-11-12"
+    },
+    {
       "id": "2026-12-27-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-",
       "date": "2026-12-27",
       "time": "13:00",
@@ -6621,6 +7040,19 @@
       "tickets": "",
       "source": "https://www.songkick.com/concerts/42969932-salsa-at-la-rumba",
       "timeNote": "doors",
+      "added": "2026-11-12"
+    },
+    {
+      "id": "2026-12-27-nocturne-drew-s-blues-and-boogaloos-feat--derek-banach",
+      "date": "2026-12-27",
+      "time": "",
+      "artist": "Drew's Blues and Boogaloos feat. Derek Banach",
+      "support": "",
+      "venue": "nocturne",
+      "genre": "Jazz",
+      "price": "Ticketed",
+      "tickets": "https://nocturnejazz.com/music?date=2026-12-01",
+      "source": "https://nocturnejazz.com/music?date=2026-12-01",
       "added": "2026-11-12"
     },
     {
