@@ -352,7 +352,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     <!-- Admin -->
     <div id="view-admin" class="hidden">
       <h2 class="page-title">Admin</h2>
-      <p class="lede">Only you see this tab. Approve submissions to put them on the calendar, feature shows you want at the top, remove reviews that break the rules, and copy the weekly email.</p>
+      <p class="lede">Only you see this tab. Approve submissions to put them on the calendar, feature shows you want at the top, remove reviews that break the rules, and copy the monthly email.</p>
       <h3>Waiting for review</h3>
       <div id="adm-pending"><p class="note">Loading…</p></div>
       <h3>Approved listings</h3>
@@ -363,17 +363,18 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" type="button" id="copy-emails">Copy all emails</button> <button class="btn small ghost" type="button" id="dl-subs">Download list (CSV)</button></div>
       <div id="adm-subs" class="sub-list"></div>
       <p class="status" id="adm-sub-status"></p>
-      <h3>This week's email</h3>
-      <p class="note">Paste into your email tool (Mailchimp, Buttondown…) to send to subscribers.</p>
-      <textarea class="digest" id="digest" readonly aria-label="Weekly email text"></textarea>
+      <h3>Monthly email</h3>
+      <p class="note">Send it in the last few days before the month starts. Paste into your email tool (Buttondown, Mailchimp…) to send to subscribers.</p>
+      <div class="field" style="max-width:260px"><label for="digest-month">Month</label><select id="digest-month"></select></div>
+      <textarea class="digest" id="digest" readonly aria-label="Monthly email text"></textarea>
       <div style="margin-top:8px"><button class="btn small" type="button" id="copy-digest">Copy email text</button> <span class="status" id="digest-status"></span></div>
     </div>
   </section>
 
   <aside>
     <div class="box pink">
-      <h2>The weekly lineup</h2>
-      <p>Every Thursday: the week's best shows in your inbox, picked for the parts of town you care about.</p>
+      <h2>The monthly lineup</h2>
+      <p>Once a month: the month's best shows and newly announced tours in your inbox. No spam, just shows.</p>
       <form id="sub-form" novalidate>
         <div class="field"><label for="sub-email">Email</label><input id="sub-email" type="email" required placeholder="you@example.com"></div>
         <div class="field"><label for="sub-area">Your side of town</label>
@@ -384,7 +385,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     </div>
     <div class="box">
       <h2>Get featured</h2>
-      <p>Venues, bars and bands: put your show at the top of every list, pinned on the map and in the weekly email.</p>
+      <p>Venues, bars and bands: put your show at the top of every list, pinned on the map and in the monthly email.</p>
       <p><a class="btn small" href="#submit">Submit &amp; ask to feature</a></p>
     </div>
     <div class="box">
@@ -998,7 +999,7 @@ $("#sub-form").addEventListener("submit", async e=>{
   $("#sub-btn").disabled=true;
   try{
     await state.db.doc("subscribers/"+state.uid).set({email,area,joinedAt:new Date().toISOString()});
-    setStatus("#sub-status","You're on the list. See you Thursday.","ok"); $("#sub-form").reset();
+    setStatus("#sub-status","You're on the list. Watch for it at the start of the month.","ok"); $("#sub-form").reset();
   }catch(err){
     setStatus("#sub-status", err && err.code==="permission-denied" ? "Couldn't save that. Refresh the page and try again." : "Couldn't save that just now. Try again in a minute.","err");
   }finally{ $("#sub-btn").disabled=false; }
@@ -1161,26 +1162,64 @@ function renderAdmin(){
   else { const t=el("table",{class:"subs"}); t.append(el("tr",{},el("th",{text:"Email"}),el("th",{text:"Side of town"}),el("th",{text:"Signed up"})));
     for(const x of subs) t.append(el("tr",{},el("td",{text:x.email||""}),el("td",{text:x.area||"Everywhere"}),el("td",{text:x.joinedAt?new Date(x.joinedAt).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):""})));
     sl.append(t); }
-  $("#digest").value = buildDigest();
+  fillDigestMonths();
+  $("#digest").value = buildDigest($("#digest-month").value);
 }
-function buildDigest(){
-  const week = allShows().filter(s=>s.date<=addDays(TODAY,6));
-  const lines=["SHOW ME SHOWS — This week in St. Louis live music",""];
-  const feat=week.filter(s=>s.featured);
-  if (feat.length){ lines.push("★ FEATURED"); for(const s of feat) lines.push("  "+s.artist+" — "+s.v.name+", "+parseISO(s.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})); lines.push(""); }
-  let cur="";
-  for (const s of week.filter(s=>!s.featured)){
-    if (s.date!==cur){ cur=s.date; lines.push(parseISO(s.date).toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"}).toUpperCase()); }
-    lines.push("  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+(s.time?" · "+fmtTime(s.time):usualTime(s.v.key)?" · usually "+usualLabel(s.v.key):"")+(s.price==="Free"?" · FREE":""));
+function fillDigestMonths(){
+  const sel=$("#digest-month"); if (sel.options.length) return;
+  const t=parseISO(TODAY);
+  for (let i=0;i<3;i++){
+    const d=new Date(t.getFullYear(), t.getMonth()+i, 1);
+    sel.append(el("option",{value:localISO(d).slice(0,7),text:d.toLocaleDateString("en-US",{month:"long",year:"numeric"})}));
   }
-  if (!week.length) lines.push("Quiet week! Check the site for what's coming up.");
-  const fresh = allShows().filter(s=>s.added && s.added>=addDays(TODAY,-6) && s.date>addDays(TODAY,6)).sort((a,b)=>a.date.localeCompare(b.date));
+  sel.value = t.getDate()>=20 ? sel.options[1].value : sel.options[0].value; // late in the month → prep next month's email
+  sel.addEventListener("change",()=>{ $("#digest").value = buildDigest(sel.value); });
+}
+// Bigger rooms first when picking highlights: arenas, theaters, then clubs, then bars.
+function showWeight(s){ const r={Arena:4,Festival:3.5,Theater:3,Club:2,Brewery:1,"Bar/Restaurant":1}[s.v.type]||1; return r*10000+(s.v.cap||0); }
+function buildDigest(month){
+  month = month || TODAY.slice(0,7);
+  const first = month+"-01", d0=parseISO(first);
+  const last = localISO(new Date(d0.getFullYear(), d0.getMonth()+1, 0));
+  const start = first<TODAY ? TODAY : first;
+  const monthName = d0.toLocaleDateString("en-US",{month:"long"});
+  const shows = allShows().filter(s=>s.date>=start && s.date<=last);
+  const line = s => "  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+", "+shortDate(s.date)+(s.time?" · "+fmtTime(s.time):"")+(s.price==="Free"?" · FREE":"");
+  const lines=["SHOW ME SHOWS — "+monthName.toUpperCase()+" in St. Louis live music","",
+    shows.length+" shows on the calendar for "+monthName+(start>first?" (from "+shortDate(start)+")":"")+". Here are the ones not to miss.",""];
+  const used=new Set();
+  const feat=shows.filter(s=>s.featured);
+  if (feat.length){ lines.push("★ FEATURED"); for(const s of feat){ lines.push(line(s)); used.add(s.id); } lines.push(""); }
+  const big=shows.filter(s=>!used.has(s.id) && ["Arena","Theater","Festival"].includes(s.v.type)).sort((a,b)=>a.date.localeCompare(b.date));
+  if (big.length){ lines.push("BIG SHOWS"); for(const s of big.slice(0,20)){ lines.push(line(s)); used.add(s.id); } if(big.length>20) lines.push("  +"+(big.length-20)+" more on the site"); lines.push(""); }
+  // Week by week: a handful of club and bar picks per week
+  lines.push("CLUB & BAR PICKS, WEEK BY WEEK");
+  let wk=start;
+  while (wk<=last){
+    const wEnd = addDays(wk,6)<last ? addDays(wk,6) : last;
+    const picks = shows.filter(s=>!used.has(s.id) && s.date>=wk && s.date<=wEnd && s.price!=="Free" && !["Arena","Theater","Festival"].includes(s.v.type)).sort((a,b)=>showWeight(b)-showWeight(a));
+    const seenV=new Set(), chosen=[];
+    for (const s of picks){ if (chosen.length>=6) break; if (seenV.has(s.v.key)) continue; seenV.add(s.v.key); chosen.push(s); }
+    if (chosen.length){
+      lines.push(" Week of "+parseISO(wk).toLocaleDateString("en-US",{month:"short",day:"numeric"}));
+      for (const s of chosen.sort((a,b)=>a.date.localeCompare(b.date))){ lines.push(line(s)); used.add(s.id); }
+    }
+    wk = addDays(wk,7);
+  }
+  const free = shows.filter(s=>!used.has(s.id) && s.price==="Free");
+  if (free.length){
+    const fv=new Set(), fc=[]; for (const s of free){ if(fc.length>=8) break; if(fv.has(s.v.key)) continue; fv.add(s.v.key); fc.push(s); }
+    lines.push("","FREE SHOWS"); for (const s of fc) lines.push(line(s));
+    if (free.length>fc.length) lines.push("  +"+(free.length-fc.length)+" more free shows — filter by Free on the site");
+  }
+  if (!shows.length) lines.push("  Quiet month so far — new shows are added every day at showmeshows.net");
+  const fresh = allShows().filter(s=>s.added && s.added>=addDays(TODAY,-30) && s.date>last).sort((a,b)=>a.date.localeCompare(b.date));
   if (fresh.length){
-    lines.push("","JUST ANNOUNCED");
+    lines.push("","JUST ANNOUNCED (later dates)");
     for (const s of fresh.slice(0,10)) lines.push("  "+s.artist+" — "+s.v.name+", "+shortDate(s.date)+(onSaleLabel(s)?" ("+onSaleLabel(s)+")":""));
     lines.push("  "+(fresh.length>10?"+"+(fresh.length-10)+" more — ":"")+"see them all at showmeshows.net/#new");
   }
-  lines.push("","Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
+  lines.push("","Every show, every night: showmeshows.net","Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
   return lines.join("\n");
 }
 async function copyText(text,statusId){
