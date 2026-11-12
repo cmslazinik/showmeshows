@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T10:43:09Z",
+ "updated": "2026-11-12T10:44:07Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -496,6 +496,19 @@
    "source": "https://www.offbroadwaystl.com/shows"
   },
   {
+   "id": "2026-11-13-chapel-fred-tompkins-quartet",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "artist": "Fred Tompkins Quartet",
+   "support": "Kevin Harris (video)",
+   "venue": "chapel",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/fred-tompkins-quartet-featuring-video-artist-kevin-harris-at-the-chapel-tickets-1993794387685",
+   "source": "https://www.eventbrite.com/e/fred-tompkins-quartet-featuring-video-artist-kevin-harris-at-the-chapel-tickets-1993794387685",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-13-bob-funky-butt-brass-band",
    "date": "2026-11-13",
    "time": "21:00",
@@ -506,6 +519,20 @@
    "price": "Ticketed",
    "tickets": "https://broadwayoysterbar.ticketspice.com/funky-butt-brass-band",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-13-atomic-ish-ensemble",
+   "date": "2026-11-13",
+   "time": "22:00",
+   "timeNote": "doors",
+   "artist": "Ish Ensemble",
+   "support": "",
+   "venue": "atomic",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43369180-ish-ensemble-at-atomic-lounge-atomic-by-jamo",
+   "source": "https://www.songkick.com/concerts/43369180-ish-ensemble-at-atomic-lounge-atomic-by-jamo",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-11-14-factory-charles-wesley-godwin",
@@ -593,6 +620,19 @@
    "added": "2026-11-11"
   },
   {
+   "id": "2026-11-14-sinkhole-hyper-tensions",
+   "date": "2026-11-14",
+   "time": "",
+   "artist": "Hyper Tensions",
+   "support": "",
+   "venue": "sinkhole",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43510027-hyper-tensions-at-sinkhole",
+   "source": "https://www.songkick.com/concerts/43510027-hyper-tensions-at-sinkhole",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-14-bob-all-roostered-up",
    "date": "2026-11-14",
    "time": "12:00",
@@ -652,6 +692,19 @@
    "price": "Ticketed",
    "tickets": "http://www.evangelinesstl.com/live-music-events/2026/11/14/sarah-politte-jazz-quartet",
    "source": "https://www.evangelinesstl.com/live-music-events"
+  },
+  {
+   "id": "2026-11-14-miners-ghost-kitchen",
+   "date": "2026-11-14",
+   "time": "19:00",
+   "artist": "Ghost Kitchen",
+   "support": "",
+   "venue": "miners",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/ghost-kitchen-miners-theatre-tickets-1999073298048",
+   "source": "https://www.eventbrite.com/e/ghost-kitchen-miners-theatre-tickets-1999073298048",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-11-14-jazzstl-weather-forever",
@@ -1354,18 +1407,6 @@
    "source": "https://citywinery.com/pages/events/st-louis"
   },
   {
-   "id": "2026-11-20-casaloma-shaun-milli",
-   "date": "2026-11-20",
-   "time": "",
-   "artist": "Shaun Milli",
-   "support": "",
-   "venue": "casaloma",
-   "genre": "Hip-Hop",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43464189-shaun-milli-at-casa-loma-ballroom",
-   "source": "https://www.songkick.com/concerts/43464189-shaun-milli-at-casa-loma-ballroom"
-  },
-  {
    "id": "2026-11-20-powell-st--louis-symphony-orchestra--a-salute-to-america",
    "date": "2026-11-20",
    "time": "",
@@ -1391,6 +1432,18 @@
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
   },
   {
+   "id": "2026-11-20-casaloma-day26",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "artist": "DAY26",
+   "support": "J. Howell, Shaun Milli",
+   "venue": "casaloma",
+   "genre": "Hip-Hop",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/day26-j-howell-shaun-milli-live-in-st-louis-tickets-1999949250044",
+   "source": "https://www.eventbrite.com/e/day26-j-howell-shaun-milli-live-in-st-louis-tickets-1999949250044"
+  },
+  {
    "id": "2026-11-20-evangelines-mary-rodgers-menagerie",
    "date": "2026-11-20",
    "time": "19:00",
@@ -1414,6 +1467,20 @@
    "price": "Ticketed",
    "tickets": "https://jazzstl.evenue.net/events/JSL18NOV26",
    "source": "https://www.metrotix.com/events/detail/jsl-marcus-roberts"
+  },
+  {
+   "id": "2026-11-20-dissonant-dour",
+   "date": "2026-11-20",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "DOUR",
+   "support": "Wess (STL), Aidan Byrnes, B2-B4, half loop, Russian Prada",
+   "venue": "dissonant",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43508196-dour-at-dissonant-works",
+   "source": "https://www.songkick.com/concerts/43508196-dour-at-dissonant-works",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-11-20-orh-victor-wooten---the-wooten-brothers",
@@ -1704,6 +1771,19 @@
    "price": "Free",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-22-treefrog-the-montvales",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "artist": "The Montvales",
+   "support": "",
+   "venue": "treefrog",
+   "genre": "Folk/Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/the-montvales-tickets-1993711911998",
+   "source": "https://www.eventbrite.com/e/the-montvales-tickets-1993711911998",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-11-23-bob-soulard-blues-band",
@@ -1997,6 +2077,19 @@
    "source": "https://oldrockhouse.com/"
   },
   {
+   "id": "2026-11-27-redflag-tea-tairovic",
+   "date": "2026-11-27",
+   "time": "20:00",
+   "artist": "Tea Tairovic",
+   "support": "",
+   "venue": "redflag",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/tea-tairovic-full-band-live-in-st-louis-tickets-2001956927060",
+   "source": "https://www.eventbrite.com/e/tea-tairovic-full-band-live-in-st-louis-tickets-2001956927060",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-27-bob-taylor-steele---the-love-preachers",
    "date": "2026-11-27",
    "time": "21:00",
@@ -2225,6 +2318,19 @@
    "price": "Free",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-29-houseofsoul-ro-james",
+   "date": "2026-11-29",
+   "time": "18:00",
+   "artist": "Ro James",
+   "support": "Terry Rogers",
+   "venue": "houseofsoul",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/ro-james-performing-live-tickets-2000871772333",
+   "source": "https://www.eventbrite.com/e/ro-james-performing-live-tickets-2000871772333",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-11-29-bob-joslyn---the-sweet-compression",
@@ -3179,6 +3285,19 @@
    "source": "https://oldrockhouse.com/concert-calendar/"
   },
   {
+   "id": "2026-12-11-delmar-magic-man---the-music-of-heart",
+   "date": "2026-12-11",
+   "time": "20:00",
+   "artist": "Magic Man - The Music of Heart",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/06006542B551E17E",
+   "source": "https://www.thepageant.com/event/magic-man-121126/",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-12-11-bob-the-drew-project",
    "date": "2026-12-11",
    "time": "21:00",
@@ -3338,6 +3457,19 @@
    "source": "https://www.offbroadwaystl.com/shows"
   },
   {
+   "id": "2026-12-12-pageant-punk-rock-christmas",
+   "date": "2026-12-12",
+   "time": "20:00",
+   "artist": "Punk Rock Christmas",
+   "support": "",
+   "venue": "pageant",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/06006528BDC1F823",
+   "source": "https://www.thepageant.com/event/punk-rock-christmas-121226/",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-12-13-pageant-dexter-and-the-moonrocks",
    "date": "2026-12-13",
    "time": "",
@@ -3389,6 +3521,19 @@
    "price": "Ticketed",
    "tickets": "https://metrotix.evenue.net/cgi-bin/ncommerce3/SEGetEventInfo?ticketCode=GS:METRO:KMZ2526:DRK13DEC26:&linkID=metro",
    "source": "https://www.metrotix.com/events/detail/sarah-politte"
+  },
+  {
+   "id": "2026-12-13-delmar-a-great-day--a-celebration-of-life-for-david-surkamp",
+   "date": "2026-12-13",
+   "time": "17:00",
+   "artist": "A Great Day: A Celebration of Life for David Surkamp",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Rock",
+   "price": "Free",
+   "tickets": "https://www.thepageant.com/event/david-surkamp-121326/",
+   "source": "https://www.thepageant.com/event/david-surkamp-121326/",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-12-13-pops-ill-ni-o",
@@ -3731,6 +3876,21 @@
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
   },
   {
+   "id": "2026-12-18-powercreative-erin-bode",
+   "date": "2026-12-18",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Erin Bode",
+   "support": "",
+   "venue": "powercreative",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43373792-erin-bode-at-power-creative-wespace",
+   "source": "https://www.songkick.com/concerts/43373792-erin-bode-at-power-creative-wespace",
+   "added": "2026-11-12",
+   "onSale": "2026-11-16"
+  },
+  {
    "id": "2026-12-18-powell-slso-mercy-holiday-celebration-with-norm-lewis",
    "date": "2026-12-18",
    "time": "19:30",
@@ -3906,6 +4066,19 @@
    "tickets": "https://slso.org/get-tickets/event-calendar/",
    "source": "https://slso.org/press-261110-holiday-concerts-26/",
    "added": "2026-11-10"
+  },
+  {
+   "id": "2026-12-19-miners-shinsings-orchestra--sinatra-big-band-christmas-celebration",
+   "date": "2026-12-19",
+   "time": "19:00",
+   "artist": "ShinSings Orchestra: Sinatra Big Band Christmas Celebration",
+   "support": "",
+   "venue": "miners",
+   "genre": "Blues/Jazz/Funk",
+   "price": "Ticketed",
+   "tickets": "https://www.eventbrite.com/e/3rd-annual-shinsings-orchestra-sinatra-big-band-christmas-celebration-tickets-1993788771888",
+   "source": "https://www.eventbrite.com/e/3rd-annual-shinsings-orchestra-sinatra-big-band-christmas-celebration-tickets-1993788771888",
+   "added": "2026-11-12"
   },
   {
    "id": "2026-12-19-offbroadway-kris-kringle---the-jolly-jingles",
@@ -5189,6 +5362,20 @@
    "source": "https://www.thefactorystl.com/events"
   },
   {
+   "id": "2027-03-02-offbroadway-carissa-s-wierd",
+   "date": "2027-03-02",
+   "time": "20:00",
+   "artist": "Carissa's Wierd",
+   "support": "",
+   "venue": "offbroadway",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.offbroadwaystl.com/shows/carissa-s-wierd-02-mar",
+   "source": "https://www.offbroadwaystl.com/shows/carissa-s-wierd-02-mar",
+   "added": "2026-11-12",
+   "onSale": "2026-11-13T10:00"
+  },
+  {
    "id": "2027-03-04-sheldon-st--louis-symphony-live-at-the-sheldon--string-quartet",
    "date": "2027-03-04",
    "time": "18:30",
@@ -5425,6 +5612,20 @@
    "source": "https://www.cityofedwardsville.com/769/Wildey-Theatre"
   },
   {
+   "id": "2027-03-13-elvolcan-zacar-as-ferreira",
+   "date": "2027-03-13",
+   "time": "21:00",
+   "timeNote": "doors",
+   "artist": "Zacarías Ferreira",
+   "support": "",
+   "venue": "elvolcan",
+   "genre": "Latin/Roots",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43239351-zacarias-ferreira-at-el-volcan-discoteque",
+   "source": "https://www.songkick.com/concerts/43239351-zacarias-ferreira-at-el-volcan-discoteque",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2027-03-14-powell-wynton-marsalis",
    "date": "2027-03-14",
    "time": "",
@@ -5524,6 +5725,21 @@
    "source": "https://oldrockhouse.com/concert-calendar/"
   },
   {
+   "id": "2027-03-18-sinkhole-truck-violence",
+   "date": "2027-03-18",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "truck violence",
+   "support": "Concrete Vehicles",
+   "venue": "sinkhole",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43512399-truck-violence-at-sinkhole",
+   "source": "https://www.songkick.com/concerts/43512399-truck-violence-at-sinkhole",
+   "added": "2026-11-12",
+   "onSale": "2026-11-13"
+  },
+  {
    "id": "2027-03-19-pageant-michelle-branch",
    "date": "2027-03-19",
    "time": "",
@@ -5546,6 +5762,20 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/event/060064BDC687C82C?brand=delmarhall&camefrom=cfc_delmarhall_webcc",
    "source": "https://www.thepageant.com/calendar/?sf_paged=7"
+  },
+  {
+   "id": "2027-03-19-ethical-avi-avital",
+   "date": "2027-03-19",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "Avi Avital",
+   "support": "Ksenija Sidorova",
+   "venue": "ethical",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43390454-avi-avital-at-ethical-society-of-st-louis",
+   "source": "https://www.songkick.com/concerts/43390454-avi-avital-at-ethical-society-of-st-louis",
+   "added": "2026-11-12"
   },
   {
    "id": "2027-03-19-sovereign-public-image-ltd",
@@ -5735,6 +5965,19 @@
    "source": "https://oldrockhouse.com/concert-calendar/"
   },
   {
+   "id": "2027-04-02-parkwayucc-billy-lockett",
+   "date": "2027-04-02",
+   "time": "",
+   "artist": "Billy Lockett",
+   "support": "",
+   "venue": "parkwayucc",
+   "genre": "Folk/Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43501707-billy-lockett-at-parkway-ucc-auditorium",
+   "source": "https://www.songkick.com/concerts/43501707-billy-lockett-at-parkway-ucc-auditorium",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2027-04-02-sheldon-livingston-taylor",
    "date": "2027-04-02",
    "time": "19:00",
@@ -5845,6 +6088,19 @@
    "tickets": "https://www.songkick.com/concerts/43492707-gyasi-at-golden-record",
    "source": "https://www.songkick.com/concerts/43492707-gyasi-at-golden-record",
    "added": "2026-11-11"
+  },
+  {
+   "id": "2027-04-09-offbroadway-hotel-fiction",
+   "date": "2027-04-09",
+   "time": "20:00",
+   "artist": "Hotel Fiction",
+   "support": "",
+   "venue": "offbroadway",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.offbroadwaystl.com/shows/hotel-fiction-09-apr",
+   "source": "https://www.offbroadwaystl.com/shows/hotel-fiction-09-apr",
+   "added": "2026-11-12"
   },
   {
    "id": "2027-04-11-sinkhole-oscar-lindsey",
@@ -6033,6 +6289,33 @@
    "price": "Ticketed",
    "tickets": "https://www.metrotix.com/events/detail/lizz-wright",
    "source": "https://www.metrotix.com/venues/detail/sheldon-the"
+  },
+  {
+   "id": "2027-05-21-pageant-the-menzingers",
+   "date": "2027-05-21",
+   "time": "19:00",
+   "artist": "The Menzingers",
+   "support": "Hot Water Music, Weakened Friends",
+   "venue": "pageant",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.thepageant.com/event/the-menzingers-052127/",
+   "source": "https://www.thepageant.com/event/the-menzingers-052127/",
+   "added": "2026-11-12",
+   "onSale": "2026-11-13T10:00"
+  },
+  {
+   "id": "2027-05-22-delmar-blondshell",
+   "date": "2027-05-22",
+   "time": "20:00",
+   "artist": "Blondshell",
+   "support": "",
+   "venue": "delmar",
+   "genre": "Indie/Punk",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/0600653983B56D3E",
+   "source": "https://www.thepageant.com/event/blondshell-052227/",
+   "added": "2026-11-12"
   }
  ]
 }

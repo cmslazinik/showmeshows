@@ -391,5 +391,77 @@
   "type": "Bar/Restaurant",
   "lat": 38.6236,
   "lon": -90.1913
+ },
+ "miners": {
+  "name": "Miners Theatre",
+  "addr": "204 W Main St, Collinsville, IL",
+  "hood": "Collinsville",
+  "area": "Metro East",
+  "type": "Theater",
+  "lat": 38.6706,
+  "lon": -89.9856
+ },
+ "treefrog": {
+  "name": "The Tree Frog Music Room",
+  "addr": "3221 Ivanhoe Ave, St. Louis",
+  "hood": "Lindenwood Park",
+  "area": "City",
+  "type": "Club",
+  "lat": 38.6045,
+  "lon": -90.3092
+ },
+ "houseofsoul": {
+  "name": "The House of Soul",
+  "addr": "1204 Washington Ave, St. Louis",
+  "hood": "Downtown",
+  "area": "City",
+  "type": "Club",
+  "lat": 38.6317,
+  "lon": -90.1926
+ },
+ "chapel": {
+  "name": "The Chapel",
+  "addr": "6238 Alexander Dr, St. Louis",
+  "hood": "Skinker-DeBaliviere",
+  "area": "City",
+  "type": "Club",
+  "lat": 38.6478,
+  "lon": -90.3005
+ },
+ "dissonant": {
+  "name": "Dissonant Works",
+  "addr": "2218 S Jefferson Ave, St. Louis",
+  "hood": "McKinley Heights",
+  "area": "City",
+  "type": "Club",
+  "lat": 38.6058,
+  "lon": -90.2208
+ },
+ "powercreative": {
+  "name": "Power Creative WEspace",
+  "addr": "3221 Oak Hill Ave, St. Louis",
+  "hood": "Oak Hill",
+  "area": "City",
+  "type": "Club",
+  "lat": 38.5975,
+  "lon": -90.2655
+ },
+ "ethical": {
+  "name": "Ethical Society of St. Louis",
+  "addr": "9001 Clayton Rd, St. Louis",
+  "hood": "Ladue",
+  "area": "County",
+  "type": "Theater",
+  "lat": 38.6377,
+  "lon": -90.3636
+ },
+ "parkwayucc": {
+  "name": "Parkway United Church of Christ",
+  "addr": "2841 N Ballas Rd, Town and Country",
+  "hood": "Town and Country",
+  "area": "County",
+  "type": "Theater",
+  "lat": 38.647,
+  "lon": -90.4558
  }
 }
