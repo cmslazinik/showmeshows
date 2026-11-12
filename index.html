@@ -104,15 +104,15 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .meta2 .price{font-family:var(--font-mono);font-weight:600}
 .acts{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px}
 .act{background:none;border:none;padding:6px 0;min-height:32px;font:inherit;font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.acts{align-items:center}
+.act{display:inline-flex;align-items:center;gap:5px}
+.ico{display:inline-flex}
 .more{position:relative}
-.more>summary{list-style:none;display:inline-block}
+.more>summary{list-style:none;display:inline-flex}
 .more>summary::-webkit-details-marker{display:none}
 .more[open]>summary{font-weight:600;text-decoration:none}
-.more .menu{position:absolute;left:0;top:100%;z-index:20;min-width:200px;background:var(--card);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:6px 0}
-.more .mgroup{padding:4px 12px}
-.more .mgroup+.mgroup{border-top:1px solid var(--line)}
-.more .mlabel{display:block;font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;opacity:.7;margin:2px 0}
-.more .menu a,.more .menu button{display:block;width:100%;text-align:left;background:none;border:none;padding:7px 0;min-height:36px;font:inherit;font-size:14px;color:var(--ink);text-decoration:none;cursor:pointer}
+.more .menu{position:absolute;left:0;top:100%;z-index:20;min-width:180px;background:var(--card);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:6px 0}
+.more .menu a,.more .menu button{display:block;width:100%;text-align:left;background:none;border:none;padding:7px 14px;min-height:36px;font:inherit;font-size:14px;color:var(--ink);text-decoration:none;cursor:pointer}
 .more .menu a:hover,.more .menu button:hover{color:var(--pink)}
 .act[aria-pressed="true"]{color:var(--pink);font-weight:600;text-decoration:none}
 .show.flash{outline:3px solid var(--pink);outline-offset:2px}
@@ -629,8 +629,20 @@ function addToCalendar(s){
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=(s.artist.replace(/[^a-z0-9]+/gi,"-").slice(0,40)||"show")+".ics";
   document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);
 }
-/* ---------- "More" menus on show cards ---------- */
-document.addEventListener("click",e=>{ for (const d of document.querySelectorAll("details.more[open]")) if (!d.contains(e.target)) d.open=false; });
+/* ---------- Action menus on show cards ---------- */
+const ACT_ICONS={
+  cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  listen:'<path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="1.5"/><rect x="16" y="14" width="5" height="7" rx="1.5"/>',
+  share:'<path d="M12 3v13M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/>'};
+function actIcon(name){ const i=document.createElement("span"); i.className="ico"; i.setAttribute("aria-hidden","true");
+  i.innerHTML='<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+ACT_ICONS[name]+'</svg>'; return i; }
+function actMenu(icon,label,aria,items){
+  const sum=el("summary",{class:"act","aria-label":aria}); sum.append(actIcon(icon),el("span",{text:label+" ▾"}));
+  return el("details",{class:"more"}, sum, el("div",{class:"menu"},...items));
+}
+document.addEventListener("click",e=>{ for (const d of document.querySelectorAll("details.more[open]")) if (!d.contains(e.target)) d.open=false;
+  const t=e.target.closest&&e.target.closest("details.more .menu a, details.more .menu button"); if (t) setTimeout(()=>{ const d=t.closest("details"); if(d) d.open=false; },150); });
+document.addEventListener("toggle",e=>{ if (e.target.matches&&e.target.matches("details.more")&&e.target.open) for (const d of document.querySelectorAll("details.more[open]")) if (d!==e.target) d.open=false; },true);
 document.addEventListener("keydown",e=>{ if (e.key==="Escape") for (const d of document.querySelectorAll("details.more[open]")){ d.open=false; d.querySelector("summary").focus(); } });
 /* ---------- Share ---------- */
 async function shareShow(s,btn,label){ label=label||"Share";
@@ -670,18 +682,14 @@ function showCard(s){
         s.priceRange && s.price!=="Free" ? el("span",{class:"price",text:s.priceRange}) : null) : null,
       el("div",{class:"acts"},
         el("button",{type:"button",class:"act","aria-pressed":saved?"true":"false","aria-label":(saved?"Remove ":"Save ")+s.artist+(saved?" from":" to")+" your saved shows",text:saved?"♥ Saved":"♡ Save",onclick:e=>toggleSave(s,e.currentTarget)}),
-        el("details",{class:"more"},
-          el("summary",{class:"act","aria-label":"More options for "+s.artist,text:"More ▾"}),
-          el("div",{class:"menu"},
-            st!=="cancelled" ? el("div",{class:"mgroup"}, el("span",{class:"mlabel",text:"Add to calendar"}),
-              el("a",{href:googleCalUrl(s),target:"_blank",rel:"noopener",text:"Google Calendar ↗"}),
-              el("button",{type:"button",text:"Apple / Outlook",onclick:()=>addToCalendar(s)})) : null,
-            el("div",{class:"mgroup"}, el("span",{class:"mlabel",text:"Listen"}),
-              el("a",{href:listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
-              el("a",{href:appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})),
-            el("div",{class:"mgroup"},
-              el("button",{type:"button",text:"Share this show",onclick:e=>shareShow(s,e.currentTarget,"Share this show")}))
-          ))
+        st!=="cancelled" ? actMenu("cal","Calendar","Add "+s.artist+" to your calendar",[
+          el("a",{href:googleCalUrl(s),target:"_blank",rel:"noopener",text:"Google Calendar ↗"}),
+          el("button",{type:"button",text:"Apple / Outlook",onclick:()=>addToCalendar(s)})]) : null,
+        actMenu("listen","Listen","Listen to "+s.artist,[
+          el("a",{href:listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
+          el("a",{href:appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})]),
+        (()=>{ const b=el("button",{type:"button",class:"act","aria-label":"Share "+s.artist}); const lbl=el("span",{text:"Share"});
+          b.append(actIcon("share"),lbl); b.onclick=()=>shareShow(s,lbl); return b; })()
       )
     ),
     el("div",{class:"side-tags"},
