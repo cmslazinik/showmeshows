@@ -687,7 +687,7 @@ function buildChips(){
   }
 }
 
-/* ---------- Rendering: map (Leaflet + free CARTO/OpenStreetMap tiles) ---------- */
+/* ---------- Rendering: map (Leaflet + OpenStreetMap tiles) ---------- */
 // Venue badge: a monogram in one of the site colors, or the venue's own logo when venues.json has one (venue-supplied).
 function initials(name){
   const words=String(name||"?").replace(/^the\s+/i,"").split(/[^A-Za-z0-9]+/).filter(Boolean);
@@ -731,9 +731,9 @@ async function renderMap(){
   catch(e){ $("#lmap").textContent="The map couldn't load. Check your connection and try again."; return; }
   if (!LMAP){
     LMAP=L.map("lmap",{scrollWheelZoom:false, zoomControl:true});
-    const dark=window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches;
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/"+(dark?"dark_all":"light_all")+"/{z}/{x}/{y}{r}.png",
-      {maxZoom:19, subdomains:"abcd", attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(LMAP);
+    // Standard OpenStreetMap tiles: free, no key. Fine for a small site under the OSM tile usage policy.
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {maxZoom:19, attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(LMAP);
     LMAP.on("click",()=>{}); // keep focus on map
   } else LMAP.invalidateSize();
   if (LCLUSTER) LMAP.removeLayer(LCLUSTER);
