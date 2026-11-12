@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Every live music show in St. Louis and Denver, updated every morning. Times, ticket links, maps and venue reviews.">
+<meta name="description" content="Every live music show in St. Louis, Denver and Kansas City, updated every morning. Times, ticket links, maps and venue reviews.">
 <meta property="og:title" content="Show Me Shows: St. Louis live music, every night">
 <meta property="og:description" content="Every live show in St. Louis & the Metro East, updated daily with times and ticket links.">
 <title>Show Me Shows</title>
@@ -227,7 +227,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <h1 class="logo">Show Me <span>Shows</span></h1>
       <div class="mast-right">
         <div class="city-switch"><label for="city-pick">City</label>
-          <select id="city-pick"><option value="stl">St. Louis</option><option value="denver">Denver</option></select></div>
+          <select id="city-pick"><option value="stl">St. Louis</option><option value="denver">Denver</option><option value="kc">Kansas City</option></select></div>
         <p class="tag"><strong id="today-line">Tuesday, Nov 10</strong><span id="city-tag">Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</span></p>
       </div>
     </div>
@@ -407,7 +407,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
   </aside>
 </main>
 
-<footer><div class="wrap">Show Me Shows · St. Louis, MO &amp; Metro East IL · Denver, CO · Made for people who'd rather be at a show. · <a href="#" id="admin-link">Admin sign in</a></div></footer>
+<footer><div class="wrap">Show Me Shows · St. Louis, MO &amp; Metro East IL · Denver, CO · Kansas City, MO/KS · Made for people who'd rather be at a show. · <a href="#" id="admin-link">Admin sign in</a></div></footer>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -431,7 +431,11 @@ const CITIES = {
   denver: { name:"Denver", files:["venues-denver.json","listings-denver.json"],
     tag:"Every live show in Denver, Boulder & the Front Range: clubs, bars, breweries, theaters, arenas, Red Rocks.",
     areas:["Denver","Boulder","Suburbs","Foothills"], areaLabel:{Foothills:"Foothills & Red Rocks"},
-    bounds:[[39.69,-105.06],[39.79,-104.93]], center:[39.74,-104.99] }
+    bounds:[[39.69,-105.06],[39.79,-104.93]], center:[39.74,-104.99] },
+  kc: { name:"Kansas City", files:["venues-kc.json","listings-kc.json"],
+    tag:"Every live show in Kansas City, both sides of State Line, plus Lawrence: jazz clubs, bars, theaters, arenas.",
+    areas:["KCMO","Northland","Kansas Side","Lawrence"], areaLabel:{KCMO:"KC & Missouri side","Kansas Side":"Kansas side"},
+    bounds:[[39.03,-94.62],[39.12,-94.54]], center:[39.09,-94.58] }
 };
 const CITY_OF_AREA = {}; for (const [k,c] of Object.entries(CITIES)) for (const a of c.areas) CITY_OF_AREA[a]=k;
 const DATA = {};

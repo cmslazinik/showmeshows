@@ -28,6 +28,20 @@
    "task_id": "trig_018jBE79B28YMDBcKEs5ashN",
    "min_shows": 50,
    "max_age_hours": 80
+  },
+  {
+   "key": "kc",
+   "name": "Kansas City",
+   "guide": "updates/kc.md",
+   "listings": "listings-kc.json",
+   "venues": "venues-kc.json",
+   "timezone": "America/Chicago",
+   "schedule": "Tue/Thu/Sat",
+   "deep_day": "Thursday",
+   "commit_prefix": "Kansas City listings update",
+   "task_id": "trig_01MCWjhD2T4vdWLfEXxrMbfb",
+   "min_shows": 30,
+   "max_age_hours": 80
   }
  ]
 }
