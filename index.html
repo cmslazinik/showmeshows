@@ -427,15 +427,15 @@ const CITIES = {
   stl: { name:"St. Louis", files:["venues.json","listings.json"],
     tag:"Every live show in St. Louis & the Metro East: clubs, bars, breweries, theaters, arenas, festivals.",
     areas:["City","County","St. Charles","Metro East"], areaLabel:{City:"St. Louis City"},
-    bounds:[[38.585,-90.325],[38.665,-90.175]], center:[38.63,-90.20] },
+    bounds:[[38.585,-90.325],[38.665,-90.175]], center:[38.63,-90.20], tz:"America/Chicago" },
   denver: { name:"Denver", files:["venues-denver.json","listings-denver.json"],
     tag:"Every live show in Denver, Boulder & the Front Range: clubs, bars, breweries, theaters, arenas, Red Rocks.",
     areas:["Denver","Boulder","Suburbs","Foothills"], areaLabel:{Foothills:"Foothills & Red Rocks"},
-    bounds:[[39.69,-105.06],[39.79,-104.93]], center:[39.74,-104.99] },
+    bounds:[[39.69,-105.06],[39.79,-104.93]], center:[39.74,-104.99], tz:"America/Denver" },
   kc: { name:"Kansas City", files:["venues-kc.json","listings-kc.json"],
     tag:"Every live show in Kansas City, both sides of State Line, plus Lawrence: jazz clubs, bars, theaters, arenas.",
     areas:["KCMO","Northland","Kansas Side","Lawrence"], areaLabel:{KCMO:"KC & Missouri side","Kansas Side":"Kansas side"},
-    bounds:[[39.03,-94.62],[39.12,-94.54]], center:[39.09,-94.58] }
+    bounds:[[39.03,-94.62],[39.12,-94.54]], center:[39.09,-94.58], tz:"America/Chicago" }
 };
 const CITY_OF_AREA = {}; for (const [k,c] of Object.entries(CITIES)) for (const a of c.areas) CITY_OF_AREA[a]=k;
 const DATA = {};
@@ -586,21 +586,34 @@ function toggleSave(s,btn){
   const on=set.has(s.id); btn.setAttribute("aria-pressed",on?"true":"false"); btn.textContent = on ? "♥ Saved" : "♡ Save";
   if (state.view==="saved" && !on) renderList();
 }
-/* ---------- Add to calendar (.ics) ---------- */
+/* ---------- Add to calendar (Google link + .ics download) ---------- */
 function icsEscape(t){ return String(t||"").replace(/\\/g,"\\\\").replace(/\n/g,"\\n").replace(/([,;])/g,"\\$1"); }
+function calTZ(){ return (CITIES[state.city]&&CITIES[state.city].tz) || "America/Chicago"; }
+// Start/end as local "YYYYMMDDTHHMMSS" (3-hour show), or all-day "YYYYMMDD" dates when no time is posted.
+function calTimes(s){
+  const d=s.date.replace(/-/g,""), next=localISO(new Date(parseISO(s.date).getTime()+86400000)).replace(/-/g,"");
+  if (!s.time) return {allDay:true, start:d, end:next};
+  const [h,m]=s.time.split(":").map(Number), e=new Date(2000,0,1,h+3,m);
+  return {allDay:false, start:d+"T"+s.time.replace(":","")+"00",
+    end:(e.getDate()>1?next:d)+"T"+String(e.getHours()).padStart(2,"0")+String(e.getMinutes()).padStart(2,"0")+"00"};
+}
+function calDetails(s){ const url=safeUrl(s.tickets||s.url)||"";
+  return (s.support?"With "+s.support+". ":"")+(s.time?"":"Time not posted yet. ")+(url?"Tickets: "+url+" ":"")+"Found on showmeshows.net"; }
+function googleCalUrl(s){
+  const c=calTimes(s), q=new URLSearchParams({action:"TEMPLATE", text:s.artist+" at "+s.v.name,
+    dates:c.start+"/"+c.end, details:calDetails(s), location:[s.v.name,s.v.addr].filter(Boolean).join(", ")});
+  if (!c.allDay) q.set("ctz",calTZ());
+  return "https://calendar.google.com/calendar/render?"+q.toString();
+}
 function addToCalendar(s){
-  const d=s.date.replace(/-/g,""), t=(s.time||"").replace(":","");
-  let start, end;
-  if (t){ start="DTSTART;TZID=America/Chicago:"+d+"T"+t+"00";
-    const [h,m]=s.time.split(":").map(Number); const e=new Date(2000,0,1,h+3,m);
-    end="DTEND;TZID=America/Chicago:"+(e.getDate()>1?localISO(new Date(parseISO(s.date).getTime()+86400000)).replace(/-/g,""):d)+"T"+String(e.getHours()).padStart(2,"0")+String(e.getMinutes()).padStart(2,"0")+"00"; }
-  else { start="DTSTART;VALUE=DATE:"+d; end="DTEND;VALUE=DATE:"+localISO(new Date(parseISO(s.date).getTime()+86400000)).replace(/-/g,""); }
-  const url=safeUrl(s.tickets||s.url)||"";
+  const c=calTimes(s), tz=calTZ(), url=safeUrl(s.tickets||s.url)||"";
+  const start=c.allDay ? "DTSTART;VALUE=DATE:"+c.start : "DTSTART;TZID="+tz+":"+c.start;
+  const end=c.allDay ? "DTEND;VALUE=DATE:"+c.end : "DTEND;TZID="+tz+":"+c.end;
   const lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Show Me Shows//showmeshows.net//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
     "UID:"+s.id+"@showmeshows.net","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d+/,""),start,end,
     "SUMMARY:"+icsEscape(s.artist+" at "+s.v.name),
     "LOCATION:"+icsEscape([s.v.name,s.v.addr].filter(Boolean).join(", ")),
-    "DESCRIPTION:"+icsEscape((s.support?"With "+s.support+". ":"")+(t?"":"Time not posted yet. ")+(url?"Tickets: "+url+" ":"")+"Found on showmeshows.net"),
+    "DESCRIPTION:"+icsEscape(calDetails(s)),
     url?"URL:"+url:null,"END:VEVENT","END:VCALENDAR"].filter(Boolean);
   const blob=new Blob([lines.join("\r\n")],{type:"text/calendar;charset=utf-8"});
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=(s.artist.replace(/[^a-z0-9]+/gi,"-").slice(0,40)||"show")+".ics";
@@ -642,7 +655,8 @@ function showCard(s){
         s.priceRange && s.price!=="Free" ? el("span",{class:"price",text:s.priceRange}) : null) : null,
       el("div",{class:"acts"},
         el("button",{type:"button",class:"act","aria-pressed":saved?"true":"false","aria-label":(saved?"Remove ":"Save ")+s.artist+(saved?" from":" to")+" your saved shows",text:saved?"♥ Saved":"♡ Save",onclick:e=>toggleSave(s,e.currentTarget)}),
-        st!=="cancelled" ? el("button",{type:"button",class:"act",text:"Add to calendar","aria-label":"Add "+s.artist+" to your calendar",onclick:()=>addToCalendar(s)}) : null,
+        st!=="cancelled" ? el("a",{class:"act",href:googleCalUrl(s),target:"_blank",rel:"noopener","aria-label":"Add "+s.artist+" to Google Calendar",text:"+ Google Calendar"}) : null,
+        st!=="cancelled" ? el("button",{type:"button",class:"act",text:"+ Apple / Outlook","aria-label":"Download "+s.artist+" as a calendar file for Apple Calendar or Outlook",onclick:()=>addToCalendar(s)}) : null,
         el("button",{type:"button",class:"act",text:"Share","aria-label":"Share "+s.artist,onclick:e=>shareShow(s,e.currentTarget)}),
         el("a",{class:"act",href:listenUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Spotify",text:"Listen ↗"})
       )
