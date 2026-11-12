@@ -104,7 +104,16 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .meta2 .price{font-family:var(--font-mono);font-weight:600}
 .acts{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px}
 .act{background:none;border:none;padding:6px 0;min-height:32px;font:inherit;font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
-.listen{display:inline-flex;align-items:center;gap:10px;font-size:13px}
+.more{position:relative}
+.more>summary{list-style:none;display:inline-block}
+.more>summary::-webkit-details-marker{display:none}
+.more[open]>summary{font-weight:600;text-decoration:none}
+.more .menu{position:absolute;left:0;top:100%;z-index:20;min-width:200px;background:var(--card);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:6px 0}
+.more .mgroup{padding:4px 12px}
+.more .mgroup+.mgroup{border-top:1px solid var(--line)}
+.more .mlabel{display:block;font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.5px;opacity:.7;margin:2px 0}
+.more .menu a,.more .menu button{display:block;width:100%;text-align:left;background:none;border:none;padding:7px 0;min-height:36px;font:inherit;font-size:14px;color:var(--ink);text-decoration:none;cursor:pointer}
+.more .menu a:hover,.more .menu button:hover{color:var(--pink)}
 .act[aria-pressed="true"]{color:var(--pink);font-weight:600;text-decoration:none}
 .show.flash{outline:3px solid var(--pink);outline-offset:2px}
 .vpage-actions{display:flex;flex-wrap:wrap;gap:6px 18px}
@@ -620,14 +629,17 @@ function addToCalendar(s){
   const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=(s.artist.replace(/[^a-z0-9]+/gi,"-").slice(0,40)||"show")+".ics";
   document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);
 }
+/* ---------- "More" menus on show cards ---------- */
+document.addEventListener("click",e=>{ for (const d of document.querySelectorAll("details.more[open]")) if (!d.contains(e.target)) d.open=false; });
+document.addEventListener("keydown",e=>{ if (e.key==="Escape") for (const d of document.querySelectorAll("details.more[open]")){ d.open=false; d.querySelector("summary").focus(); } });
 /* ---------- Share ---------- */
-async function shareShow(s,btn){
+async function shareShow(s,btn,label){ label=label||"Share";
   const url="https://showmeshows.net/#show-"+encodeURIComponent(s.id);
   const when=shortDate(s.date)+(s.time?" at "+fmtTime(s.time):"");
   const text=s.artist+" — "+s.v.name+", "+when;
   if (navigator.share){ try{ await navigator.share({title:s.artist,text,url}); }catch(e){} return; }
-  try{ await navigator.clipboard.writeText(text+"\n"+url); btn.textContent="Link copied"; setTimeout(()=>btn.textContent="Share",1800); }
-  catch(e){ btn.textContent="Couldn't copy"; setTimeout(()=>btn.textContent="Share",1800); }
+  try{ await navigator.clipboard.writeText(text+"\n"+url); btn.textContent="Link copied"; setTimeout(()=>btn.textContent=label,1800); }
+  catch(e){ btn.textContent="Couldn't copy"; setTimeout(()=>btn.textContent=label,1800); }
 }
 function listenName(s){ return s.artist.replace(/\s*[:(\[].*$/,"").trim(); }
 function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(listenName(s)); }
@@ -658,12 +670,18 @@ function showCard(s){
         s.priceRange && s.price!=="Free" ? el("span",{class:"price",text:s.priceRange}) : null) : null,
       el("div",{class:"acts"},
         el("button",{type:"button",class:"act","aria-pressed":saved?"true":"false","aria-label":(saved?"Remove ":"Save ")+s.artist+(saved?" from":" to")+" your saved shows",text:saved?"♥ Saved":"♡ Save",onclick:e=>toggleSave(s,e.currentTarget)}),
-        st!=="cancelled" ? el("a",{class:"act",href:googleCalUrl(s),target:"_blank",rel:"noopener","aria-label":"Add "+s.artist+" to Google Calendar",text:"+ Google Calendar"}) : null,
-        st!=="cancelled" ? el("button",{type:"button",class:"act",text:"+ Apple / Outlook","aria-label":"Download "+s.artist+" as a calendar file for Apple Calendar or Outlook",onclick:()=>addToCalendar(s)}) : null,
-        el("button",{type:"button",class:"act",text:"Share","aria-label":"Share "+s.artist,onclick:e=>shareShow(s,e.currentTarget)}),
-        el("span",{class:"listen"},"Listen: ",
-          el("a",{class:"act",href:listenUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Spotify",text:"Spotify ↗"}),
-          el("a",{class:"act",href:appleMusicUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Apple Music",text:"Apple Music ↗"}))
+        el("details",{class:"more"},
+          el("summary",{class:"act","aria-label":"More options for "+s.artist,text:"More ▾"}),
+          el("div",{class:"menu"},
+            st!=="cancelled" ? el("div",{class:"mgroup"}, el("span",{class:"mlabel",text:"Add to calendar"}),
+              el("a",{href:googleCalUrl(s),target:"_blank",rel:"noopener",text:"Google Calendar ↗"}),
+              el("button",{type:"button",text:"Apple / Outlook",onclick:()=>addToCalendar(s)})) : null,
+            el("div",{class:"mgroup"}, el("span",{class:"mlabel",text:"Listen"}),
+              el("a",{href:listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
+              el("a",{href:appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})),
+            el("div",{class:"mgroup"},
+              el("button",{type:"button",text:"Share this show",onclick:e=>shareShow(s,e.currentTarget,"Share this show")}))
+          ))
       )
     ),
     el("div",{class:"side-tags"},
