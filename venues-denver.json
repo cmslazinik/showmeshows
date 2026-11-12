@@ -224,5 +224,253 @@
     "cap": 625,
     "lat": 40.0084,
     "lon": -105.2763
+  },
+  "otherside": {
+    "name": "Cervantes' The Other Side",
+    "addr": "2637 Welton St, Denver, CO 80205",
+    "hood": "Five Points",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7546,
+    "lon": -104.9789
+  },
+  "oriental": {
+    "name": "The Oriental Theater",
+    "addr": "4335 W 44th Ave, Denver, CO 80212",
+    "hood": "Berkeley / Tennyson",
+    "area": "Denver",
+    "type": "Theater",
+    "lat": 39.7764,
+    "lon": -105.0436
+  },
+  "blackbox": {
+    "name": "The Black Box",
+    "addr": "314 E 13th Ave, Denver, CO 80203",
+    "hood": "Capitol Hill",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7367,
+    "lon": -104.9827
+  },
+  "meowwolf": {
+    "name": "Meow Wolf Denver Convergence Station (Perplexiplex)",
+    "addr": "1338 1st St, Denver, CO 80204",
+    "hood": "Sun Valley",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7424,
+    "lon": -105.0144
+  },
+  "ophelias": {
+    "name": "Ophelia's Electric Soapbox",
+    "addr": "1215 20th St, Denver, CO 80202",
+    "hood": "Ballpark",
+    "area": "Denver",
+    "type": "Bar/Restaurant",
+    "lat": 39.7525,
+    "lon": -104.9915
+  },
+  "swallowhill": {
+    "name": "Swallow Hill Music",
+    "addr": "71 E Yale Ave, Denver, CO 80210",
+    "hood": "Platt Park / University",
+    "area": "Denver",
+    "type": "Theater",
+    "lat": 39.6684,
+    "lon": -104.9867
+  },
+  "newman": {
+    "name": "Newman Center for the Performing Arts (Gates Concert Hall)",
+    "addr": "2344 E Iliff Ave, Denver, CO 80210",
+    "hood": "University of Denver",
+    "area": "Denver",
+    "type": "Theater",
+    "lat": 39.6767,
+    "lon": -104.9614
+  },
+  "ellie": {
+    "name": "Ellie Caulkins Opera House",
+    "addr": "1385 Curtis St, Denver, CO 80204",
+    "hood": "Downtown / Denver Performing Arts Complex",
+    "area": "Denver",
+    "type": "Theater",
+    "lat": 39.7452,
+    "lon": -104.999
+  },
+  "etown": {
+    "name": "eTown Hall",
+    "addr": "1535 Spruce St, Boulder, CO 80302",
+    "hood": "Downtown Boulder",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.0197,
+    "lon": -105.2771
+  },
+  "trident": {
+    "name": "Trident Booksellers & Cafe",
+    "addr": "940 Pearl St, Boulder, CO 80302",
+    "hood": "Downtown Boulder",
+    "area": "Boulder",
+    "type": "Bar/Restaurant",
+    "lat": 40.017,
+    "lon": -105.2836
+  },
+  "velvetelk": {
+    "name": "Velvet Elk Lounge",
+    "addr": "2037 13th St, Boulder, CO 80302",
+    "hood": "Downtown Boulder",
+    "area": "Boulder",
+    "type": "Bar/Restaurant",
+    "lat": 40.0189,
+    "lon": -105.2795
+  },
+  "macky": {
+    "name": "Macky Auditorium",
+    "addr": "1595 Pleasant St, Boulder, CO 80309",
+    "hood": "CU Boulder campus",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.0096,
+    "lon": -105.2725
+  },
+  "stonecottage": {
+    "name": "Stone Cottage Studios",
+    "addr": "Boulder, CO",
+    "hood": "Boulder",
+    "area": "Boulder",
+    "type": "Theater"
+  },
+  "crescentgrange": {
+    "name": "The Crescent Grange",
+    "addr": "Broomfield, CO",
+    "hood": "Broomfield",
+    "area": "Suburbs",
+    "type": "Bar/Restaurant"
+  },
+  "longmontmuseum": {
+    "name": "Longmont Museum",
+    "addr": "400 Quail Rd, Longmont, CO 80501",
+    "hood": "Longmont",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.1436,
+    "lon": -105.104
+  },
+  "fumcboulder": {
+    "name": "First United Methodist Church of Boulder",
+    "addr": "1421 Spruce St, Boulder, CO 80302",
+    "hood": "Downtown Boulder",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.0195,
+    "lon": -105.2786
+  },
+  "dairy": {
+    "name": "Dairy Arts Center (Gordon Gamm Theater)",
+    "addr": "2590 Walnut St, Boulder, CO 80302",
+    "hood": "Central Boulder",
+    "area": "Boulder",
+    "type": "Theater",
+    "lat": 40.019,
+    "lon": -105.262
+  },
+  "caribou": {
+    "name": "The Caribou Room",
+    "addr": "55 Indian Peaks Dr, Nederland, CO 80466",
+    "hood": "Nederland",
+    "area": "Boulder",
+    "type": "Club",
+    "lat": 39.9622,
+    "lon": -105.51
+  },
+  "littlebear": {
+    "name": "Little Bear Saloon",
+    "addr": "28075 CO-74, Evergreen, CO 80439",
+    "hood": "Evergreen",
+    "area": "Foothills",
+    "type": "Bar/Restaurant",
+    "lat": 39.6334,
+    "lon": -105.3173
+  },
+  "lefthand": {
+    "name": "Left Hand Brewing Tasting Room",
+    "addr": "1265 Boston Ave, Longmont, CO 80501",
+    "hood": "Longmont",
+    "area": "Boulder",
+    "type": "Brewery",
+    "lat": 40.1586,
+    "lon": -105.1153
+  },
+  "grizzlyrose": {
+    "name": "Grizzly Rose",
+    "addr": "5450 N Valley Hwy, Denver, CO 80216",
+    "hood": "Globeville / North Denver",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7951,
+    "lon": -104.9876
+  },
+  "stampede": {
+    "name": "Stampede",
+    "addr": "2430 S Havana St, Aurora, CO 80014",
+    "hood": "Aurora",
+    "area": "Suburbs",
+    "type": "Club",
+    "lat": 39.6729,
+    "lon": -104.866
+  },
+  "nationalwestern": {
+    "name": "National Western Complex",
+    "addr": "4655 Humboldt St, Denver, CO 80216",
+    "hood": "Elyria-Swansea",
+    "area": "Denver",
+    "type": "Arena",
+    "lat": 39.7826,
+    "lon": -104.9705
+  },
+  "clubvinyl": {
+    "name": "Club Vinyl",
+    "addr": "1082 Broadway, Denver, CO 80203",
+    "hood": "Golden Triangle",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7337,
+    "lon": -104.9874
+  },
+  "larumba": {
+    "name": "La Rumba",
+    "addr": "99 W 9th Ave, Denver, CO 80204",
+    "hood": "Golden Triangle",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7308,
+    "lon": -104.9885
+  },
+  "missionhillslittleton": {
+    "name": "Mission Hills Church (Littleton Campus)",
+    "addr": "620 Southpark Dr, Littleton, CO 80120",
+    "hood": "Littleton",
+    "area": "Suburbs",
+    "type": "Theater",
+    "lat": 39.5935,
+    "lon": -105.0115
+  },
+  "soileddove": {
+    "name": "The Soiled Dove @ Chopper's Sports Grill",
+    "addr": "80 S Madison St, Denver, CO 80209",
+    "hood": "Cherry Creek",
+    "area": "Denver",
+    "type": "Bar/Restaurant",
+    "lat": 39.7153,
+    "lon": -104.9457
+  },
+  "moesenglewood": {
+    "name": "Moe's Original BBQ (Englewood)",
+    "addr": "3295 S Broadway, Englewood, CO 80113",
+    "hood": "Englewood",
+    "area": "Suburbs",
+    "type": "Bar/Restaurant",
+    "lat": 39.6556,
+    "lon": -104.9877
   }
 }
