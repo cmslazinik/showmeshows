@@ -288,6 +288,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     <div id="view-venues" class="hidden">
       <h2 class="page-title">Venues</h2>
       <p class="lede">Every place on the calendar so far, by area. Bars, restaurants and breweries that host music belong here too. If yours is missing, submit a show and it gets added.</p>
+      <div class="filters" style="margin-bottom:14px"><input type="search" id="vq" placeholder="Search venues by name or neighborhood" aria-label="Search venues"></div>
       <div id="venue-list"></div>
     </div>
 
@@ -800,7 +801,9 @@ $("#near-me").addEventListener("click",()=>{
 function renderVenues(){
   const counts=new Map(); const extra=new Map();
   for (const sh of allShows()){ counts.set(sh.v.key,(counts.get(sh.v.key)||0)+1); if(!VENUES[sh.v.key]) extra.set(sh.v.key,sh.v); }
-  const all = Object.entries(VENUES).map(([k,v])=>Object.assign({key:k},v)).concat([...extra.values()]);
+  const vq=(state.vq||"").trim().toLowerCase();
+  const all = Object.entries(VENUES).map(([k,v])=>Object.assign({key:k},v)).concat([...extra.values()])
+    .filter(v=>!vq || [v.name,v.hood,v.addr,v.type].join(" ").toLowerCase().includes(vq));
   const box=$("#venue-list"); box.replaceChildren();
   for (const area of ["City","County","St. Charles","Metro East"]){
     const vs = all.filter(v=>v.area===area).sort((a,b)=>(counts.get(b.key)||0)-(counts.get(a.key)||0)||a.name.localeCompare(b.name));
@@ -812,7 +815,7 @@ function renderVenues(){
           el("span",{class:"pill",text: n ? n+" upcoming" : "No shows listed yet"}),
           (()=>{ const r=venueRating(v.key); return el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=v.key;},text: r.count ? "★ "+r.avg.toFixed(1)+" · "+r.count+" review"+(r.count===1?"":"s") : "Review it"}); })()
         )
-      ); }) : el("p",{class:"empty",text:"No venues here yet. Breweries, bars and restaurants with live music: submit your next show to get listed."})
+      ); }) : el("p",{class:"empty",text: vq ? "No venues here match \u201c"+state.vq.trim()+"\u201d." : "No venues here yet. Breweries, bars and restaurants with live music: submit your next show to get listed."})
     ));
   }
 }
@@ -909,6 +912,7 @@ function render(){
 window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
 
 $("#q").addEventListener("input",e=>{ state.q=e.target.value; renderList(); });
+$("#vq").addEventListener("input",e=>{ state.vq=e.target.value; renderVenues(); });
 $("#f-area").addEventListener("change",e=>{ state.area=e.target.value; renderList(); });
 $("#f-type").addEventListener("change",e=>{ state.type=e.target.value; renderList(); });
 $("#f-free").addEventListener("change",e=>{ state.free=e.target.checked; renderList(); });
