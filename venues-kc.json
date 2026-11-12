@@ -1,97 +1,97 @@
 {
  "kcuptown": {
   "name": "Uptown Theater",
-  "addr": "3700 Broadway Blvd, Kansas City, MO",
+  "addr": "3700 Broadway, Kansas City, MO 64111",
   "hood": "Midtown",
   "area": "KCMO",
   "type": "Theater",
-  "lat": 39.0613,
-  "lon": -94.588
+  "lat": 39.0611,
+  "lon": -94.5908
  },
  "kcmidland": {
   "name": "The Midland Theatre",
-  "addr": "1228 Main St, Kansas City, MO",
+  "addr": "1228 Main St, Kansas City, MO 64105",
   "hood": "Power & Light",
   "area": "KCMO",
   "type": "Theater",
-  "lat": 39.1,
-  "lon": -94.5833
+  "lat": 39.0988,
+  "lon": -94.5835
  },
  "kctruman": {
   "name": "The Truman",
-  "addr": "1505 Walnut St, Kansas City, MO",
-  "hood": "Crossroads",
-  "area": "KCMO",
-  "type": "Club",
-  "lat": 39.0959,
-  "lon": -94.581
- },
- "recordbar": {
-  "name": "recordBar",
-  "addr": "1520 Grand Blvd, Kansas City, MO",
+  "addr": "601 E Truman Rd, Kansas City, MO 64106",
   "hood": "Crossroads",
   "area": "KCMO",
   "type": "Club",
   "lat": 39.0955,
-  "lon": -94.5795
+  "lon": -94.5761
+ },
+ "recordbar": {
+  "name": "recordBar",
+  "addr": "1520 Grand Blvd, Kansas City, MO 64108",
+  "hood": "Crossroads",
+  "area": "KCMO",
+  "type": "Club",
+  "lat": 39.0949,
+  "lon": -94.5813
  },
  "knuckleheads": {
   "name": "Knuckleheads Saloon",
-  "addr": "2715 Rochester Ave, Kansas City, MO",
+  "addr": "2715 Rochester Ave, Kansas City, MO 64120",
   "hood": "East Bottoms",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.118,
-  "lon": -94.547
+  "lat": 39.1347,
+  "lon": -94.516
  },
  "tmobilecenter": {
   "name": "T-Mobile Center",
-  "addr": "1407 Grand Blvd, Kansas City, MO",
+  "addr": "1407 Grand Blvd, Kansas City, MO 64106",
   "hood": "Downtown",
   "area": "KCMO",
   "type": "Arena",
   "lat": 39.0975,
-  "lon": -94.58
+  "lon": -94.5803
  },
  "kauffman": {
   "name": "Kauffman Center for the Performing Arts",
-  "addr": "1601 Broadway Blvd, Kansas City, MO",
+  "addr": "1601 Broadway Blvd, Kansas City, MO 64108",
   "hood": "Crossroads",
   "area": "KCMO",
   "type": "Theater",
-  "lat": 39.0943,
-  "lon": -94.5867
+  "lat": 39.0937,
+  "lon": -94.5868
  },
  "kcfolly": {
   "name": "Folly Theater",
-  "addr": "300 W 12th St, Kansas City, MO",
+  "addr": "300 W 12th St, Kansas City, MO 64105",
   "hood": "Downtown",
   "area": "KCMO",
   "type": "Theater",
-  "lat": 39.0999,
-  "lon": -94.5868
+  "lat": 39.1002,
+  "lon": -94.5872
  },
  "kcmadrid": {
   "name": "Madrid Theatre",
-  "addr": "3810 Main St, Kansas City, MO",
+  "addr": "3810 Main St, Kansas City, MO 64111",
   "hood": "Midtown",
   "area": "KCMO",
   "type": "Theater",
-  "lat": 39.058,
-  "lon": -94.585
+  "lat": 39.0572,
+  "lon": -94.5857
  },
  "starlightkc": {
   "name": "Starlight Theatre",
-  "addr": "4600 Starlight Rd, Kansas City, MO",
+  "addr": "4600 Starlight Rd, Kansas City, MO 64132",
   "hood": "Swope Park",
   "area": "KCMO",
   "type": "Arena",
-  "lat": 39.023,
-  "lon": -94.526
+  "lat": 39.0078,
+  "lon": -94.5348
  },
  "arrowhead": {
   "name": "GEHA Field at Arrowhead Stadium",
-  "addr": "1 Arrowhead Dr, Kansas City, MO",
+  "addr": "1 Arrowhead Dr, Kansas City, MO 64129",
   "hood": "Truman Sports Complex",
   "area": "KCMO",
   "type": "Arena",
@@ -100,25 +100,25 @@
  },
  "grinderskc": {
   "name": "Grinders KC",
-  "addr": "417 E 18th St, Kansas City, MO",
+  "addr": "417 E 18th St, Kansas City, MO 64108",
   "hood": "Crossroads",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.091,
-  "lon": -94.577
+  "lat": 39.0915,
+  "lon": -94.5785
  },
  "brickkc": {
   "name": "The Brick",
-  "addr": "1727 McGee St, Kansas City, MO",
+  "addr": "1727 McGee St, Kansas City, MO 64108",
   "hood": "Crossroads",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.0928,
-  "lon": -94.5797
+  "lat": 39.092,
+  "lon": -94.5788
  },
  "riotroom": {
   "name": "Riot Room",
-  "addr": "4048 Broadway Blvd, Kansas City, MO",
+  "addr": "4048 Broadway, Kansas City, MO 64111",
   "hood": "Westport",
   "area": "KCMO",
   "type": "Club",
@@ -127,61 +127,61 @@
  },
  "minibarkc": {
   "name": "miniBar",
-  "addr": "3810 Broadway Blvd, Kansas City, MO",
+  "addr": "3810 Broadway, Kansas City, MO 64111",
   "hood": "Westport",
   "area": "KCMO",
   "type": "Club",
-  "lat": 39.0577,
-  "lon": -94.5915
+  "lat": 39.059,
+  "lon": -94.5908
  },
  "uptownartsbar": {
   "name": "Uptown Arts Bar",
-  "addr": "3611 Broadway Blvd, Kansas City, MO",
+  "addr": "3611 Broadway, Kansas City, MO 64111",
   "hood": "Midtown",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.0628,
-  "lon": -94.5878
+  "lat": 39.0617,
+  "lon": -94.5903
  },
  "shipkc": {
   "name": "The Ship",
-  "addr": "1217 Union Ave, Kansas City, MO",
+  "addr": "1221 Union Ave, Kansas City, MO 64101",
   "hood": "West Bottoms",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.1009,
-  "lon": -94.6045
+  "lat": 39.1025,
+  "lon": -94.5992
  },
  "blueroomkc": {
   "name": "The Blue Room",
-  "addr": "1600 E 18th St, Kansas City, MO",
+  "addr": "1616 E 18th St, Kansas City, MO 64108",
   "hood": "18th & Vine",
   "area": "KCMO",
   "type": "Club",
-  "lat": 39.0915,
-  "lon": -94.5615
+  "lat": 39.0908,
+  "lon": -94.564
  },
  "mutualmusicians": {
   "name": "Mutual Musicians Foundation",
-  "addr": "1823 Highland Ave, Kansas City, MO",
+  "addr": "1823 Highland Ave, Kansas City, MO 64108",
   "hood": "18th & Vine",
   "area": "KCMO",
   "type": "Club",
-  "lat": 39.0905,
-  "lon": -94.5605
+  "lat": 39.0903,
+  "lon": -94.5619
  },
  "greenlady": {
   "name": "Green Lady Lounge",
-  "addr": "1809 Grand Blvd, Kansas City, MO",
+  "addr": "1809 Grand Blvd, Kansas City, MO 64108",
   "hood": "Crossroads",
   "area": "KCMO",
   "type": "Bar/Restaurant",
-  "lat": 39.092,
-  "lon": -94.5795
+  "lat": 39.0915,
+  "lon": -94.5808
  },
  "voodookc": {
   "name": "Voodoo Lounge at Harrah's",
-  "addr": "1 Riverboat Dr, North Kansas City, MO",
+  "addr": "1 Riverboat Dr, North Kansas City, MO 64116",
   "hood": "North Kansas City",
   "area": "Northland",
   "type": "Club",
@@ -190,16 +190,16 @@
  },
  "azura": {
   "name": "Azura Amphitheater",
-  "addr": "633 N 130th St, Bonner Springs, KS",
+  "addr": "633 N 130th St, Bonner Springs, KS 66012",
   "hood": "Bonner Springs",
   "area": "Kansas Side",
   "type": "Arena",
-  "lat": 39.0855,
-  "lon": -94.87
+  "lat": 39.1127,
+  "lon": -94.8769
  },
  "midwesttrust": {
   "name": "Midwest Trust Center (JCCC)",
-  "addr": "12345 College Blvd, Overland Park, KS",
+  "addr": "12345 College Blvd, Overland Park, KS 66210",
   "hood": "Overland Park",
   "area": "Kansas Side",
   "type": "Theater",
@@ -208,29 +208,161 @@
  },
  "bottleneck": {
   "name": "The Bottleneck",
-  "addr": "737 New Hampshire St, Lawrence, KS",
+  "addr": "737 New Hampshire St, Lawrence, KS 66044",
   "hood": "Downtown Lawrence",
   "area": "Lawrence",
   "type": "Club",
-  "lat": 38.9715,
+  "lat": 38.9705,
   "lon": -95.235
  },
  "granadalawrence": {
   "name": "The Granada",
-  "addr": "1020 Massachusetts St, Lawrence, KS",
+  "addr": "1020 Massachusetts St, Lawrence, KS 66044",
   "hood": "Downtown Lawrence",
   "area": "Lawrence",
   "type": "Club",
-  "lat": 38.966,
+  "lat": 38.9652,
   "lon": -95.2357
  },
  "libertyhall": {
   "name": "Liberty Hall",
-  "addr": "644 Massachusetts St, Lawrence, KS",
+  "addr": "644 Massachusetts St, Lawrence, KS 66044",
   "hood": "Downtown Lawrence",
   "area": "Lawrence",
   "type": "Theater",
-  "lat": 38.9718,
+  "lat": 38.9715,
+  "lon": -95.2357
+ },
+ "kcbbslawnside": {
+  "name": "BB's Lawnside BBQ",
+  "addr": "1205 E 85th St, Kansas City, MO 64131",
+  "hood": "South KC",
+  "area": "KCMO",
+  "type": "Bar/Restaurant"
+ },
+ "kclevee": {
+  "name": "The Levee",
+  "addr": "16 W 43rd St, Kansas City, MO 64111",
+  "hood": "Westport/Plaza",
+  "area": "KCMO",
+  "type": "Bar/Restaurant"
+ },
+ "kcphoenix": {
+  "name": "The Phoenix",
+  "addr": "302 W 8th St, Kansas City, MO 64105",
+  "hood": "Downtown",
+  "area": "KCMO",
+  "type": "Bar/Restaurant",
+  "lat": 39.1046,
+  "lon": -94.5869
+ },
+ "kcaztecshawnee": {
+  "name": "Aztec Shawnee Theater",
+  "addr": "11119 Johnson Dr, Shawnee, KS 66203",
+  "hood": "Downtown Shawnee",
+  "area": "Kansas Side",
+  "type": "Theater"
+ },
+ "kchideout": {
+  "name": "The Hideout Bar & Grill",
+  "addr": "6948 N Oak Trafficway, Kansas City, MO 64118",
+  "hood": "Gladstone area",
+  "area": "Northland",
+  "type": "Bar/Restaurant"
+ },
+ "kccoryfranks": {
+  "name": "Cory Franks Bar & Grill",
+  "addr": "5410 N Antioch Rd, Kansas City, MO 64118",
+  "hood": "Northland",
+  "area": "Northland",
+  "type": "Bar/Restaurant"
+ },
+ "kcamericanroyal": {
+  "name": "American Royal Complex",
+  "addr": "1800 Genessee St, Kansas City, MO 64102",
+  "hood": "West Bottoms",
+  "area": "KCMO",
+  "type": "Arena",
+  "lat": 39.0918,
+  "lon": -94.6053
+ },
+ "kcrino": {
+  "name": "The Rino",
+  "addr": "314 Armour Rd, North Kansas City, MO 64116",
+  "hood": "North Kansas City",
+  "area": "Northland",
+  "type": "Bar/Restaurant",
+  "lat": 39.1423,
+  "lon": -94.5766
+ },
+ "kcsk8bar": {
+  "name": "Sk8bar",
+  "addr": "209 Westport Rd, Kansas City, MO 64111",
+  "hood": "Westport",
+  "area": "KCMO",
+  "type": "Bar/Restaurant"
+ },
+ "kcoutlawcigar": {
+  "name": "Outlaw Cigar Brewery",
+  "addr": "309 E 10th Ave, North Kansas City, MO 64116",
+  "hood": "North Kansas City",
+  "area": "Northland",
+  "type": "Brewery",
+  "lat": 39.1266,
+  "lon": -94.5768
+ },
+ "kcameristar": {
+  "name": "Ameristar Casino Hotel Kansas City",
+  "addr": "3200 Ameristar Dr, Kansas City, MO 64161",
+  "hood": "Northland",
+  "area": "Northland",
+  "type": "Theater",
+  "lat": 39.1506,
+  "lon": -94.4798
+ },
+ "kccabledahmer": {
+  "name": "Cable Dahmer Arena",
+  "addr": "19100 E Valley View Pkwy, Independence, MO 64050",
+  "hood": "Independence",
+  "area": "KCMO",
+  "type": "Arena",
+  "lat": 39.0399,
+  "lon": -94.3576
+ },
+ "kcencore": {
+  "name": "Encore at the Uptown Theater",
+  "addr": "3700 Broadway, Kansas City, MO 64111",
+  "hood": "Midtown",
+  "area": "KCMO",
+  "type": "Club",
+  "lat": 39.0611,
+  "lon": -94.5908
+ },
+ "kcblackdolphin": {
+  "name": "Black Dolphin",
+  "addr": "1813 Grand Blvd, Kansas City, MO 64108",
+  "hood": "Crossroads",
+  "area": "KCMO",
+  "type": "Bar/Restaurant",
+  "lat": 39.0914,
+  "lon": -94.5808
+ },
+ "kclied": {
+  "name": "Lied Center of Kansas",
+  "addr": "1600 Stewart Dr, Lawrence, KS 66045",
+  "hood": "KU West Campus",
+  "area": "Lawrence",
+  "type": "Theater",
+  "lat": 38.955,
+  "lon": -95.2628
+ },
+ "kcreplay": {
+  "name": "Replay Lounge",
+  "addr": "946 Massachusetts St, Lawrence, KS 66044",
+  "hood": "Downtown Lawrence",
+  "area": "Lawrence",
+  "type": "Bar/Restaurant",
+  "lat": 38.9662,
   "lon": -95.2357
  }
 }
