@@ -410,7 +410,9 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
 "use strict";
 
 /* ---------- Data ---------- */
-const GENRES = ["Rock","Indie/Punk","Metal","Country/Americana","Blues/Jazz/Funk","Hip-Hop","Latin/Roots","Folk/Singer-Songwriter","Electronic","Cover/Tribute","Other"];
+const GENRES = ["Rock","Pop","Indie/Alt","Punk/Emo","Metal/Hardcore","Hip-Hop/Rap","R&B/Soul","Country","Americana/Folk/Bluegrass","Singer-Songwriter","Blues","Jazz","Funk/Jam","Reggae/Ska","Latin","Electronic/DJ","Classical/Orchestra","Gospel/Christian","Cover/Tribute","Other"];
+// Older genre names (from shows submitted before Nov 2026) map onto the current list
+const OLD_GENRES = {"Indie/Punk":"Indie/Alt","Metal":"Metal/Hardcore","Country/Americana":"Country","Blues/Jazz/Funk":"Blues","Hip-Hop":"Hip-Hop/Rap","Latin/Roots":"Latin","Folk/Singer-Songwriter":"Singer-Songwriter","Electronic":"Electronic/DJ"};
 
 // Listings and venues live in listings.json / venues.json, refreshed every morning by a scheduled task.
 let VENUES = {};
@@ -465,7 +467,7 @@ function venueOf(s){
 function allShows(includePast){
   const list = CURATED.map(s => Object.assign({featured:false}, s, {origin:"listings"}));
   for (const a of state.approved) list.push(Object.assign({}, a, {origin:"submitted", tickets:a.tickets||a.url||""}));
-  return list.map(s => Object.assign(s,{v:venueOf(s)}))
+  return list.map(s => Object.assign(s,{v:venueOf(s), genre: OLD_GENRES[s.genre] || (GENRES.includes(s.genre)?s.genre:"Other")}))
     .filter(s => includePast ? true : s.date >= TODAY)
     .sort((a,b) => (b.featured?1:0)-(a.featured?1:0) || a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
 }
