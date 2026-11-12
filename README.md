@@ -18,3 +18,13 @@ GitHub stores these files → Cloudflare (Workers project "showmeshows") publish
 2. Firebase console → Authentication → Users: copy the User UID next to your Google account.
 3. Firestore → Data → Start collection `admins` → Document ID = that UID → add any field (e.g. `role: "owner"`) → Save.
 4. Refresh the site. The **Admin** tab appears.
+
+
+## Cities
+
+The site covers more than one city. Each city has its own data files, refreshed every morning by its own scheduled task:
+
+- St. Louis: `listings.json`, `venues.json`
+- Denver: `listings-denver.json`, `venues-denver.json`
+
+The Cloudflare build command copies every `*.json` file, so a new city's files deploy without changing the build.
