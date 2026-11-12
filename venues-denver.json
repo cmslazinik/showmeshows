@@ -1,0 +1,228 @@
+{
+  "redrocks": {
+    "name": "Red Rocks Amphitheatre",
+    "addr": "18300 W Alameda Pkwy, Morrison, CO",
+    "hood": "Morrison",
+    "area": "Foothills",
+    "type": "Arena",
+    "cap": 9525,
+    "lat": 39.6654,
+    "lon": -105.2057
+  },
+  "ballarena": {
+    "name": "Ball Arena",
+    "addr": "1000 Chopper Cir, Denver, CO",
+    "hood": "Central Platte Valley",
+    "area": "Denver",
+    "type": "Arena",
+    "cap": 19000,
+    "lat": 39.7487,
+    "lon": -105.0077
+  },
+  "fiddlers": {
+    "name": "Fiddler's Green Amphitheatre",
+    "addr": "6350 Greenwood Plaza Blvd, Greenwood Village, CO",
+    "hood": "Greenwood Village",
+    "area": "Suburbs",
+    "type": "Arena",
+    "cap": 18000,
+    "lat": 39.6005,
+    "lon": -104.8892
+  },
+  "mission": {
+    "name": "Mission Ballroom",
+    "addr": "4242 Wynkoop St, Denver, CO",
+    "hood": "RiNo",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 3950,
+    "lat": 39.7765,
+    "lon": -104.9796
+  },
+  "fillmore": {
+    "name": "Fillmore Auditorium",
+    "addr": "1510 Clarkson St, Denver, CO",
+    "hood": "Capitol Hill",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 3700,
+    "lat": 39.74,
+    "lon": -104.9776
+  },
+  "bellco": {
+    "name": "Bellco Theatre",
+    "addr": "700 14th St, Denver, CO",
+    "hood": "Downtown",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 5000,
+    "lat": 39.7425,
+    "lon": -104.9965
+  },
+  "paramount": {
+    "name": "Paramount Theatre",
+    "addr": "1621 Glenarm Pl, Denver, CO",
+    "hood": "Downtown",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 1870,
+    "lat": 39.7449,
+    "lon": -104.9906
+  },
+  "boettcher": {
+    "name": "Boettcher Concert Hall (Colorado Symphony)",
+    "addr": "1400 Curtis St, Denver, CO",
+    "hood": "Downtown",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 2200,
+    "lat": 39.7451,
+    "lon": -104.9989
+  },
+  "ogden": {
+    "name": "Ogden Theatre",
+    "addr": "935 E Colfax Ave, Denver, CO",
+    "hood": "Capitol Hill",
+    "area": "Denver",
+    "type": "Theater",
+    "cap": 1600,
+    "lat": 39.7402,
+    "lon": -104.9757
+  },
+  "gothic": {
+    "name": "Gothic Theatre",
+    "addr": "3263 S Broadway, Englewood, CO",
+    "hood": "Englewood",
+    "area": "Suburbs",
+    "type": "Theater",
+    "cap": 1100,
+    "lat": 39.6563,
+    "lon": -104.9875
+  },
+  "summit": {
+    "name": "Summit",
+    "addr": "1902 Blake St, Denver, CO",
+    "hood": "LoDo",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 1100,
+    "lat": 39.7547,
+    "lon": -104.9947
+  },
+  "cervantes": {
+    "name": "Cervantes' Masterpiece Ballroom",
+    "addr": "2637 Welton St, Denver, CO",
+    "hood": "Five Points",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 1100,
+    "lat": 39.7551,
+    "lon": -104.9798
+  },
+  "bluebird": {
+    "name": "Bluebird Theater",
+    "addr": "3317 E Colfax Ave, Denver, CO",
+    "hood": "East Colfax",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 550,
+    "lat": 39.7404,
+    "lon": -104.9476
+  },
+  "marquis": {
+    "name": "Marquis Theater",
+    "addr": "2009 Larimer St, Denver, CO",
+    "hood": "Ballpark",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 500,
+    "lat": 39.7533,
+    "lon": -104.9922
+  },
+  "larimer": {
+    "name": "Larimer Lounge",
+    "addr": "2721 Larimer St, Denver, CO",
+    "hood": "RiNo",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 250,
+    "lat": 39.7598,
+    "lon": -104.9837
+  },
+  "hidive": {
+    "name": "Hi-Dive",
+    "addr": "7 S Broadway, Denver, CO",
+    "hood": "Baker",
+    "area": "Denver",
+    "type": "Club",
+    "cap": 300,
+    "lat": 39.7159,
+    "lon": -104.9876
+  },
+  "globehall": {
+    "name": "Globe Hall",
+    "addr": "4483 Logan St, Denver, CO",
+    "hood": "Globeville",
+    "area": "Denver",
+    "type": "Bar/Restaurant",
+    "lat": 39.7787,
+    "lon": -104.9824
+  },
+  "lostlake": {
+    "name": "Lost Lake Lounge",
+    "addr": "3602 E Colfax Ave, Denver, CO",
+    "hood": "East Colfax",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7403,
+    "lon": -104.9447
+  },
+  "dazzle": {
+    "name": "Dazzle",
+    "addr": "1512 Curtis St, Denver, CO",
+    "hood": "Downtown",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.7476,
+    "lon": -104.9967
+  },
+  "nocturne": {
+    "name": "Nocturne Jazz",
+    "addr": "1330 27th St, Denver, CO",
+    "hood": "RiNo",
+    "area": "Denver",
+    "type": "Club",
+    "lat": 39.759,
+    "lon": -104.987
+  },
+  "levitt": {
+    "name": "Levitt Pavilion Denver",
+    "addr": "1380 W Florida Ave, Denver, CO",
+    "hood": "Ruby Hill Park",
+    "area": "Denver",
+    "type": "Festival",
+    "cap": 7500,
+    "lat": 39.6893,
+    "lon": -105.004
+  },
+  "bouldertheater": {
+    "name": "Boulder Theater",
+    "addr": "2032 14th St, Boulder, CO",
+    "hood": "Downtown Boulder",
+    "area": "Boulder",
+    "type": "Theater",
+    "cap": 850,
+    "lat": 40.0193,
+    "lon": -105.2777
+  },
+  "foxboulder": {
+    "name": "Fox Theatre (Boulder)",
+    "addr": "1135 13th St, Boulder, CO",
+    "hood": "The Hill",
+    "area": "Boulder",
+    "type": "Club",
+    "cap": 625,
+    "lat": 40.0084,
+    "lon": -105.2763
+  }
+}

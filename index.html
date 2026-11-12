@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Every live music show in St. Louis and the Metro East, updated every morning. Times, ticket links, venue reviews.">
+<meta name="description" content="Every live music show in St. Louis and Denver, updated every morning. Times, ticket links, maps and venue reviews.">
 <meta property="og:title" content="Show Me Shows: St. Louis live music, every night">
 <meta property="og:description" content="Every live show in St. Louis & the Metro East, updated daily with times and ticket links.">
 <title>Show Me Shows</title>
@@ -91,6 +91,10 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 @media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
 .pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
 .pill.free{background:var(--ink);color:var(--paper)}
+.mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.city-switch{display:flex;align-items:center;gap:8px;font-family:var(--font-mono);font-size:12px;text-transform:uppercase;letter-spacing:1px}
+.city-switch select{font-family:var(--font-display);font-size:22px;text-transform:uppercase;padding:4px 10px;border:2px solid var(--ink);background:var(--pink);color:var(--on-pink);cursor:pointer}
+@media (max-width:700px){.mast-right{align-items:flex-start}}
 .pill.status{display:inline-block;margin:2px 0 4px}
 .pill.status.soldout{background:var(--ink);color:var(--paper)}
 .pill.status.cancelled{background:#c8102e;border-color:#c8102e;color:#fff}
@@ -221,7 +225,11 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
   <div class="wrap">
     <div class="mast-top">
       <h1 class="logo">Show Me <span>Shows</span></h1>
-      <p class="tag"><strong id="today-line">Tuesday, Nov 10</strong>Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</p>
+      <div class="mast-right">
+        <div class="city-switch"><label for="city-pick">City</label>
+          <select id="city-pick"><option value="stl">St. Louis</option><option value="denver">Denver</option></select></div>
+        <p class="tag"><strong id="today-line">Tuesday, Nov 10</strong><span id="city-tag">Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</span></p>
+      </div>
     </div>
     <nav class="tabs" aria-label="Sections">
       <a href="#tonight" data-view="tonight">Tonight</a>
@@ -399,7 +407,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
   </aside>
 </main>
 
-<footer><div class="wrap">Show Me Shows · St. Louis, MO &amp; Metro East IL · Made for people who'd rather be at a show. · <a href="#" id="admin-link">Admin sign in</a></div></footer>
+<footer><div class="wrap">Show Me Shows · St. Louis, MO &amp; Metro East IL · Denver, CO · Made for people who'd rather be at a show. · <a href="#" id="admin-link">Admin sign in</a></div></footer>
 
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -414,20 +422,65 @@ const GENRES = ["Rock","Pop","Indie/Alt","Punk/Emo","Metal/Hardcore","Hip-Hop/Ra
 // Older genre names (from shows submitted before Nov 2026) map onto the current list
 const OLD_GENRES = {"Indie/Punk":"Indie/Alt","Metal":"Metal/Hardcore","Country/Americana":"Country","Blues/Jazz/Funk":"Blues","Hip-Hop":"Hip-Hop/Rap","Latin/Roots":"Latin","Folk/Singer-Songwriter":"Singer-Songwriter","Electronic":"Electronic/DJ"};
 
-// Listings and venues live in listings.json / venues.json, refreshed every morning by a scheduled task.
+// Each city has its own listings/venues files, refreshed every morning by its own scheduled task.
+const CITIES = {
+  stl: { name:"St. Louis", files:["venues.json","listings.json"],
+    tag:"Every live show in St. Louis & the Metro East: clubs, bars, breweries, theaters, arenas, festivals.",
+    areas:["City","County","St. Charles","Metro East"], areaLabel:{City:"St. Louis City"},
+    bounds:[[38.585,-90.325],[38.665,-90.175]], center:[38.63,-90.20] },
+  denver: { name:"Denver", files:["venues-denver.json","listings-denver.json"],
+    tag:"Every live show in Denver, Boulder & the Front Range: clubs, bars, breweries, theaters, arenas, Red Rocks.",
+    areas:["Denver","Boulder","Suburbs","Foothills"], areaLabel:{Foothills:"Foothills & Red Rocks"},
+    bounds:[[39.69,-105.06],[39.79,-104.93]], center:[39.74,-104.99] }
+};
+const CITY_OF_AREA = {}; for (const [k,c] of Object.entries(CITIES)) for (const a of c.areas) CITY_OF_AREA[a]=k;
+const DATA = {};
 let VENUES = {};
 let CURATED = [];
 let UPDATED = "";
-async function loadData(){
-  const [v,l] = await Promise.all([fetch("venues.json",{cache:"no-store"}).then(r=>r.json()), fetch("listings.json",{cache:"no-store"}).then(r=>r.json())]);
-  VENUES = (v && typeof v==="object") ? v : {};
-  CURATED = (l && Array.isArray(l.shows)) ? l.shows.filter(s=>s && typeof s.artist==="string" && /^\d{4}-\d{2}-\d{2}$/.test(s.date||"")) : [];
-  UPDATED = (l && l.updated) || "";
+function areaLabel(a){ const c=CITIES[state.city]; return (c.areaLabel&&c.areaLabel[a]) || a; }
+async function loadCity(key){
+  const [vf,lf]=CITIES[key].files;
+  const get=f=>fetch(f,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
+  const [v,l] = await Promise.all([get(vf),get(lf)]);
+  DATA[key] = { VENUES:(v && typeof v==="object") ? v : {},
+    CURATED:(l && Array.isArray(l.shows)) ? l.shows.filter(s=>s && typeof s.artist==="string" && /^\d{4}-\d{2}-\d{2}$/.test(s.date||"")) : [],
+    UPDATED:(l && l.updated) || "" };
 }
+async function loadData(){
+  await Promise.all(Object.keys(CITIES).map(loadCity));
+  if (!DATA.stl.CURATED.length && !Object.keys(DATA.stl.VENUES).length) throw new Error("no data");
+  useCity(state.city, true);
+}
+function useCity(key, quiet){
+  if (!CITIES[key]) key="stl";
+  state.city=key; try{ localStorage.setItem("sms-city",key); }catch(e){}
+  const d=DATA[key]||{VENUES:{},CURATED:[],UPDATED:""};
+  VENUES=d.VENUES; CURATED=d.CURATED; UPDATED=d.UPDATED;
+  const c=CITIES[key];
+  $("#city-pick").value=key;
+  $("#city-tag").textContent=c.tag;
+  document.title = "Show Me Shows · "+c.name+" live music";
+  const opts=(sel,first,val)=>{ const e=$(sel); if(!e) return; e.replaceChildren(el("option",{value:"",text:first})); for (const a of c.areas) e.append(el("option",{value:val?val(a):a,text:areaLabel(a)})); };
+  opts("#f-area","All areas"); opts("#s-area","Choose…");
+  opts("#sub-area", key==="stl"?"Everywhere":"All of "+c.name, a=> key==="stl" ? a : c.name+": "+a);
+  if (key!=="stl") $("#sub-area").options[0].value=c.name;
+  state.area=""; state.mapVenue=null; state.mapFit=true; state.reviewVenue="";
+  for (const k in _usualCache) delete _usualCache[k];
+  if (UPDATED){ const dd=new Date(UPDATED); if(!isNaN(dd)) $("#updated-at").textContent=dd.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); }
+  else $("#updated-at").textContent="soon";
+  if (!quiet){ fillVenueInputs(); if ($("#digest-month")) { $("#digest").value = typeof buildDigest==="function" ? buildDigest($("#digest-month").value) : ""; } }
+}
+function findShowAnyCity(id){
+  for (const key of Object.keys(CITIES)){ const d=DATA[key]; if (d && d.CURATED.some(s=>s.id===id)) return key; }
+  const a=state.approved.find(s=>s.id===id); return a ? (CITY_OF_AREA[a.area]||"stl") : null;
+}
+function cityOfVenue(vkey){ for (const key of Object.keys(CITIES)) if (DATA[key] && DATA[key].VENUES[vkey]) return key; return null; }
 
 /* ---------- State ---------- */
 const state = {
   view:"week", q:"", area:"", type:"", free:false, genres:new Set(),
+  city:(()=>{ try{ return localStorage.getItem("sms-city")||"stl"; }catch(e){ return "stl"; } })(),
   approved:[],          // shows approved through the admin (from db)
   mapWhen:"all", mapVenue:null, mapFit:true,
   db:null, user:null, uid:null, isOwner:false, canWrite:null,
@@ -466,7 +519,7 @@ function venueOf(s){
 }
 function allShows(includePast){
   const list = CURATED.map(s => Object.assign({featured:false}, s, {origin:"listings"}));
-  for (const a of state.approved) list.push(Object.assign({}, a, {origin:"submitted", tickets:a.tickets||a.url||""}));
+  for (const a of state.approved) if ((CITY_OF_AREA[a.area]||"stl")===state.city) list.push(Object.assign({}, a, {origin:"submitted", tickets:a.tickets||a.url||""}));
   return list.map(s => Object.assign(s,{v:venueOf(s), genre: OLD_GENRES[s.genre] || (GENRES.includes(s.genre)?s.genre:"Other")}))
     .filter(s => includePast ? true : s.date >= TODAY)
     .sort((a,b) => (b.featured?1:0)-(a.featured?1:0) || a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
@@ -716,7 +769,7 @@ function loadLeaflet(){
   leafletReady = js("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js").then(()=>js("https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"));
   return leafletReady;
 }
-const CORE_BOUNDS=[[38.585,-90.325],[38.665,-90.175]];
+function coreBounds(){ return CITIES[state.city].bounds; }
 function mapShows(){
   const w=state.mapWhen;
   return allShows().filter(s=> w==="tonight" ? s.date===TODAY : w==="week" ? s.date<=addDays(TODAY,6) : true);
@@ -757,7 +810,7 @@ async function renderMap(){
   LCLUSTER.addLayers(markers); LMAP.addLayer(LCLUSTER);
   if (state.mapVenue && groups.get(state.mapVenue) && groups.get(state.mapVenue).v.lat!=null){
     const v=groups.get(state.mapVenue).v; LMAP.setView([v.lat,v.lon],15); state.mapFit=false;
-  } else if (state.mapFit){ LMAP.fitBounds(CORE_BOUNDS); state.mapFit=false; }
+  } else if (state.mapFit){ LMAP.fitBounds(coreBounds()); state.mapFit=false; }
   renderMapPanel(groups);
   const when={tonight:"tonight",week:"this week",all:"coming up"}[state.mapWhen];
   unmappedEl.textContent = (unmapped.length ? "Also "+when+", not on the map yet: "+unmapped.join(", ")+"." : "");
@@ -793,8 +846,8 @@ $("#near-me").addEventListener("click",()=>{
     const ll=[pos.coords.latitude,pos.coords.longitude];
     if (LME) LMAP.removeLayer(LME);
     LME=L.marker(ll,{icon:L.divIcon({className:"",iconSize:[16,16],html:'<div class="me-dot"></div>'}),title:"You are here",keyboard:false}).addTo(LMAP);
-    const far = Math.abs(ll[0]-38.63)>0.8 || Math.abs(ll[1]+90.2)>1.0;
-    if (far){ note.textContent="You look like you're outside the St. Louis area, so the map stays put."; return; }
+    const cc=CITIES[state.city].center, far = Math.abs(ll[0]-cc[0])>0.8 || Math.abs(ll[1]-cc[1])>1.0;
+    if (far){ note.textContent="You look like you're outside the "+CITIES[state.city].name+" area, so the map stays put."; return; }
     LMAP.setView(ll,14); note.textContent="Blue dot is you. Your location stays on your phone; it isn't saved or sent anywhere.";
   },()=>{ note.textContent="Couldn't get your location. Check that location access is allowed for this site."; },{enableHighAccuracy:false,timeout:10000,maximumAge:300000});
 });
@@ -809,9 +862,9 @@ function renderVenues(){
   const all = Object.entries(VENUES).map(([k,v])=>Object.assign({key:k},v)).concat([...extra.values()])
     .filter(v=>!vq || norm([v.name,v.hood,v.addr,v.type].join(" ")).includes(vq));
   const box=$("#venue-list"); box.replaceChildren();
-  for (const area of ["City","County","St. Charles","Metro East"]){
+  for (const area of CITIES[state.city].areas){
     const vs = all.filter(v=>v.area===area).sort((a,b)=>(counts.get(b.key)||0)-(counts.get(a.key)||0)||a.name.localeCompare(b.name));
-    box.append(el("div",{class:"venue-area"}, el("h3",{text:area==="City"?"St. Louis City":area}),
+    box.append(el("div",{class:"venue-area"}, el("h3",{text:areaLabel(area)}),
       vs.length ? vs.map(v=>{ const n=counts.get(v.key)||0; return el("div",{class:"vrow"},
         el("div",{}, el("a",{class:"vname",href:"#venue-"+v.key,text:v.name}), el("div",{class:"vaddr",text:[v.addr,v.cap?"capacity "+v.cap.toLocaleString():""].filter(Boolean).join(" · ")})),
         el("div",{class:"vaddr",text:[v.type,v.hood].filter(Boolean).join(" · ")}),
@@ -839,7 +892,7 @@ function renderVenuePage(){
       el("div",{},
         el("h2",{class:"page-title",style:"margin:0",text:v.name}),
         el("p",{class:"vpage-meta",text:[v.addr, v.cap?"capacity "+v.cap.toLocaleString():""].filter(Boolean).join(" · ")}),
-        el("p",{class:"vpage-meta",text:[v.type, v.hood, v.area==="City"?"St. Louis City":v.area].filter(Boolean).join(" · ")}),
+        el("p",{class:"vpage-meta",text:[v.type, v.hood, areaLabel(v.area)].filter(Boolean).join(" · ")}),
         el("div",{class:"vpage-actions"},
           el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=v.key;},text: r.count ? "★ "+r.avg.toFixed(1)+" from "+r.count+" review"+(r.count===1?"":"s")+(r.tags.length?" · "+r.tags.join(", "):"") : "No reviews yet · write the first"}),
           v.lat!=null ? el("a",{class:"stars-link",href:"#map",onclick:()=>{state.mapVenue=v.key;},text:"See it on the map"}) : null,
@@ -878,8 +931,11 @@ function renderVenuePage(){
 /* ---------- Views & routing ---------- */
 const VIEWS=["tonight","week","all","coming","new","saved","map","venues","reviews","submit","admin"];
 function setView(v){
+  if (typeof v==="string" && CITIES[v]){ if (v!==state.city){ useCity(v); if(LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; } } v="week"; }
+  if (typeof v==="string" && v.startsWith("venue-")){ const ck=cityOfVenue(v.slice(6)); if (ck && ck!==state.city) useCity(ck); }
   if (typeof v==="string" && v.startsWith("show-")){
-    const id=decodeURIComponent(v.slice(5)), sh=allShows(true).find(x=>x.id===id);
+    const id0=decodeURIComponent(v.slice(5)), ck=findShowAnyCity(id0); if (ck && ck!==state.city) useCity(ck);
+    const id=id0, sh=allShows(true).find(x=>x.id===id);
     if (sh){ state.flash=id; v="venue-"+sh.v.key; } else v="week";
   }
   if (typeof v==="string" && v.startsWith("venue-")){ state.venueKey=v.slice(6); v="venue"; }
@@ -916,6 +972,10 @@ function render(){
 window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
 
 $("#q").addEventListener("input",e=>{ state.q=e.target.value; renderList(); });
+$("#city-pick").addEventListener("change",e=>{
+  useCity(e.target.value); if (LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; }
+  if (location.hash.slice(1)===e.target.value) render(); else location.hash = e.target.value;
+});
 $("#vq").addEventListener("input",e=>{ state.vq=e.target.value; renderVenues(); });
 $("#f-area").addEventListener("change",e=>{ state.area=e.target.value; renderList(); });
 $("#f-type").addEventListener("change",e=>{ state.type=e.target.value; renderList(); });
@@ -1113,7 +1173,7 @@ function renderReviews(){
     ));
   }
   const feed=$("#rev-feed"); feed.replaceChildren();
-  const list = state.reviews.filter(r=>!state.reviewVenue || r.venue===state.reviewVenue).sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,60);
+  const list = state.reviews.filter(r=>VENUES[r.venue] && (!state.reviewVenue || r.venue===state.reviewVenue)).sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,60);
   if (!list.length) feed.append(el("p",{class:"empty",text: "No reviews here yet. Be the first."}));
   const showsById = new Map(allShows(true).map(s=>[s.id,s]));
   for (const r of list){
@@ -1240,7 +1300,7 @@ function buildDigest(month){
   const monthName = d0.toLocaleDateString("en-US",{month:"long"});
   const shows = allShows().filter(s=>s.date>=start && s.date<=last);
   const line = s => "  "+s.artist+(s.support?" w/ "+s.support:"")+" — "+s.v.name+", "+shortDate(s.date)+(s.time?" · "+fmtTime(s.time):"")+(s.price==="Free"?" · FREE":"");
-  const lines=["SHOW ME SHOWS — "+monthName.toUpperCase()+" in St. Louis live music","",
+  const lines=["SHOW ME SHOWS — "+monthName.toUpperCase()+" in "+CITIES[state.city].name+" live music","",
     shows.length+" shows on the calendar for "+monthName+(start>first?" (from "+shortDate(start)+")":"")+". Here are the ones not to miss.",""];
   const used=new Set();
   const feat=shows.filter(s=>s.featured);
@@ -1274,7 +1334,7 @@ function buildDigest(month){
     for (const s of fresh.slice(0,10)) lines.push("  "+s.artist+" — "+s.v.name+", "+shortDate(s.date)+(onSaleLabel(s)?" ("+onSaleLabel(s)+")":""));
     lines.push("  "+(fresh.length>10?"+"+(fresh.length-10)+" more — ":"")+"see them all at showmeshows.net/#new");
   }
-  lines.push("","Every show, every night: showmeshows.net","Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
+  lines.push("","Every show, every night: showmeshows.net"+(state.city==="stl"?"":"/#"+state.city),"Playing a show? Submit it on the site. Want yours featured? Reply to this email.");
   return lines.join("\n");
 }
 async function copyText(text,statusId){
@@ -1304,7 +1364,6 @@ $("#count").textContent="Loading shows…";
 loadData().catch(()=>{ $("#count").textContent="Couldn't load the listings. Refresh the page to try again."; })
   .finally(()=>{
     fillVenueInputs();
-    if (UPDATED){ const d=new Date(UPDATED); if(!isNaN(d)) $("#updated-at").textContent=d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); }
     setView(location.hash.slice(1) || "week");
     initDb();
   });
