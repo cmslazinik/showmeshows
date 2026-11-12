@@ -514,5 +514,41 @@
     "type": "Theater",
     "lat": 38.647,
     "lon": -90.4558
+  },
+  "heavyanchor": {
+    "name": "The Heavy Anchor",
+    "addr": "5226 Gravois Ave, St. Louis",
+    "hood": "Bevo / Holly Hills",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.5745,
+    "lon": -90.261
+  },
+  "cbgb": {
+    "name": "CBGB",
+    "addr": "3163 S Grand Blvd, St. Louis",
+    "hood": "South Grand",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6025,
+    "lon": -90.243
+  },
+  "popsbluemoon": {
+    "name": "Pop's Blue Moon",
+    "addr": "5249 Pattison Ave, St. Louis",
+    "hood": "Southwest Garden",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6145,
+    "lon": -90.277
+  },
+  "attic": {
+    "name": "The Attic Music Bar",
+    "addr": "4247 S Kingshighway Blvd, 2nd floor, St. Louis",
+    "hood": "Southampton",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.5885,
+    "lon": -90.2745
   }
 }
