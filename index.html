@@ -91,6 +91,21 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 @media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
 .pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
 .pill.free{background:var(--ink);color:var(--paper)}
+.pill.status{display:inline-block;margin:2px 0 4px}
+.pill.status.soldout{background:var(--ink);color:var(--paper)}
+.pill.status.cancelled{background:#c8102e;border-color:#c8102e;color:#fff}
+.pill.status.postponed{background:var(--paper);border-style:dashed}
+.show.st-cancelled .artist{text-decoration:line-through;opacity:.7}
+.meta2{display:flex;gap:8px;align-items:center;margin-top:6px;font-size:14px}
+.meta2 .price{font-family:var(--font-mono);font-weight:600}
+.acts{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px}
+.act{background:none;border:none;padding:6px 0;min-height:32px;font:inherit;font-size:13px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.act[aria-pressed="true"]{color:var(--pink);font-weight:600;text-decoration:none}
+.show.flash{outline:3px solid var(--pink);outline-offset:2px}
+.vpage-actions{display:flex;flex-wrap:wrap;gap:6px 18px}
+.getting-there{border:2px solid var(--ink);background:var(--card);padding:10px 14px;margin:14px 0}
+.getting-there h3{font-family:var(--font-display);text-transform:uppercase;font-size:20px;margin:0 0 4px}
+.getting-there p{margin:4px 0}
 .pill.onsale{border-color:var(--pink);color:var(--pink)}
 .announced{border:2px solid var(--pink);padding:10px 14px;margin:0 0 14px;background:var(--card)}
 .announced h2{font-family:var(--font-display);text-transform:uppercase;font-size:22px;margin:0 0 6px;color:var(--pink)}
@@ -138,36 +153,17 @@ table.subs th{font-family:var(--font-mono);font-size:11px;text-transform:upperca
 .seg button{padding:6px 12px;border:2px solid var(--ink);background:transparent;cursor:pointer;font-family:var(--font-mono);font-size:12px;text-transform:uppercase}
 .seg button+button{border-left:none}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-.mapbox{border:2px solid var(--ink);background:var(--card);overflow-x:auto}
-.mapbox svg{display:block;width:100%;min-width:560px;height:auto}
-.map-river{fill:none;stroke:var(--blue);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;opacity:.55}
-.map-label{font-family:var(--font-mono);font-size:13px;fill:var(--muted)}
-.map-river-label{font-family:var(--font-mono);font-size:12px;fill:var(--blue);font-style:italic}
-.pin{cursor:pointer}
-.pin circle{fill:var(--pink);stroke:var(--ink);stroke-width:2}
-.pin text{font-family:var(--font-mono);font-size:13px;font-weight:600;fill:var(--on-pink);text-anchor:middle;dominant-baseline:central;pointer-events:none}
-.pin .pin-name{fill:var(--ink);font-size:12px;font-weight:600;paint-order:stroke;stroke:var(--card);stroke-width:4px}
-.pin .mono{stroke:var(--ink);stroke-width:2}
-.pin .mono.c0{fill:var(--pink)} .pin .mono.c1{fill:var(--blue)} .pin .mono.c2{fill:var(--ink)}
-.pin text.initials{font-family:var(--font-display);font-size:15px;font-weight:400;letter-spacing:.5px}
-.pin text.initials.c0{fill:var(--on-pink)} .pin text.initials.c1{fill:#fff} .pin text.initials.c2{fill:var(--paper)}
-.pin .logo-bg{fill:#fff;stroke:var(--ink);stroke-width:2}
-.pin .badge{fill:var(--paper);stroke:var(--ink);stroke-width:1.5}
-.pin text.badge-n{fill:var(--ink);font-size:11px}
-.pin.active .mono,.pin.active .logo-bg{stroke:var(--blue);stroke-width:4}
-.pin:focus-visible .mono,.pin:focus-visible .logo-bg{stroke:var(--blue);stroke-width:4}
-a.venue,a.vname{color:inherit;text-decoration:none}
-a.vname{display:block}
-a.venue:hover,a.vname:hover{text-decoration:underline}
-.vpage-head{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin:6px 0 18px}
-.vbadge{width:84px;height:84px;border-radius:50%;border:3px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:32px;flex:none;overflow:hidden;background:var(--card)}
-.vbadge.c0{background:var(--pink);color:var(--on-pink)} .vbadge.c1{background:var(--blue);color:#fff} .vbadge.c2{background:var(--ink);color:var(--paper)}
-.vbadge img{width:100%;height:100%;object-fit:contain;background:#fff}
-.vpage-meta{font-size:14px;color:var(--muted);margin:4px 0 0}
-.vpage-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-.back-link{font-family:var(--font-mono);font-size:13px}
-.pin.active circle{fill:var(--blue)}
-.pin:focus-visible circle{stroke:var(--blue);stroke-width:4}
+.map-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.lmap{height:560px;border:2px solid var(--ink);background:var(--card);z-index:0}
+@media (max-width:700px){.lmap{height:440px}}
+.vpin{width:40px;height:40px;border-radius:50%;border:2px solid #16161a;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:15px;letter-spacing:.5px;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.35);overflow:visible}
+.vpin.c0{background:#ff3d8b;color:#16161a}.vpin.c1{background:#2d5bff;color:#fff}.vpin.c2{background:#16161a;color:#f3f2ee}
+.vpin.logo{background:#fff}.vpin img{width:32px;height:32px;border-radius:50%;object-fit:contain}
+.vpin b{position:absolute;top:-8px;right:-10px;min-width:20px;height:20px;padding:0 4px;box-sizing:border-box;border-radius:10px;background:#f3f2ee;color:#16161a;border:1.5px solid #16161a;font-family:var(--font-mono);font-size:11px;line-height:17px;text-align:center}
+.vpin.active{outline:4px solid #2d5bff;outline-offset:1px}
+.vclus{width:46px;height:46px;border-radius:50%;background:#ff3d8b;border:3px solid #16161a;color:#16161a;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--font-mono);font-weight:600;font-size:14px;line-height:1;box-shadow:0 1px 4px rgba(0,0,0,.35)}
+.leaflet-tooltip.vtip{font-family:var(--font-body,inherit);font-weight:600;border:2px solid #16161a;border-radius:0;box-shadow:none}
+.me-dot{width:16px;height:16px;border-radius:50%;background:#2d5bff;border:3px solid #fff;box-shadow:0 0 0 2px #2d5bff}
 .map-panel{margin-top:14px}
 .map-panel h3{font-family:var(--font-display);text-transform:uppercase;font-size:26px;margin:0}
 
@@ -235,6 +231,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <a href="#map" data-view="map">Map</a>
       <a href="#venues" data-view="venues">Venues</a>
       <a href="#reviews" data-view="reviews">Reviews</a>
+      <a href="#saved" data-view="saved">Saved<span id="saved-n"></span></a>
       <a href="#submit" data-view="submit">Submit a Show</a>
       <a href="#admin" data-view="admin" class="admin-tab hidden" id="admin-tab">Admin</a>
     </nav>
@@ -271,13 +268,18 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     <div id="view-map" class="hidden">
       <div class="map-head">
         <h2 class="page-title" style="margin:0">Where the music is</h2>
-        <div class="seg" role="group" aria-label="Map zoom">
-          <button type="button" id="z-core" aria-pressed="true">City core</button>
-          <button type="button" id="z-metro" aria-pressed="false">Whole metro</button>
+        <div class="map-controls">
+          <div class="seg" role="group" aria-label="Which shows to show on the map">
+            <button type="button" data-when="tonight" aria-pressed="false">Tonight</button>
+            <button type="button" data-when="week" aria-pressed="false">This week</button>
+            <button type="button" data-when="all" aria-pressed="true">All</button>
+          </div>
+          <button type="button" class="btn small ghost" id="near-me">Near me</button>
+          <button type="button" class="btn small ghost" id="map-all">Whole area</button>
         </div>
       </div>
-      <div class="mapbox"><svg id="map" viewBox="0 0 900 620" role="img" aria-label="Map of venues with upcoming shows"></svg></div>
-      <p class="note">Schematic map: rivers and towns are approximate. Pin numbers are upcoming shows. Tap a pin to see them.</p>
+      <div id="lmap" class="lmap" role="region" aria-label="Map of venues with shows"></div>
+      <p class="note" id="map-note">Numbers are shows. Pink circles are a few venues grouped together: tap or zoom in to split them, then tap a venue for its lineup.</p>
       <div class="map-panel" id="map-panel"></div>
       <p class="note" id="unmapped"></p>
     </div>
@@ -424,7 +426,7 @@ async function loadData(){
 const state = {
   view:"week", q:"", area:"", type:"", free:false, genres:new Set(),
   approved:[],          // shows approved through the admin (from db)
-  mapZoom:"core", mapVenue:null,
+  mapWhen:"all", mapVenue:null, mapFit:true,
   db:null, user:null, uid:null, isOwner:false, canWrite:null,
   mySubs:[], allSubmissions:[], subscribers:[]
 };
@@ -475,6 +477,7 @@ function filtered(range){
     if (range==="coming" && (s.date<=addDays(TODAY,NEAR_DAYS) || s.date>addDays(TODAY,FAR_DAYS))) return false;
     if (range==="announced" && !(s.added && s.added>=addDays(TODAY,-6))) return false;
     if (range==="new" && !(s.added && s.added>=addDays(TODAY,-13))) return false;
+    if (range==="saved" && !savedIds().has(s.id)) return false;
     if (state.area && s.v.area!==state.area) return false;
     if (state.type && s.v.type!==state.type) return false;
     if (state.free && s.price!=="Free") return false;
@@ -514,14 +517,57 @@ function usualLabel(key){
   const u=usualTime(key); if(!u) return "";
   const [t,note]=u.split("|"); return fmtTime(t)+(note?" "+note:"");
 }
+/* ---------- Saved shows (kept on this device only) ---------- */
+function savedIds(){ try{ return new Set(JSON.parse(localStorage.getItem("sms-saved")||"[]")); }catch(e){ return new Set(state._saved||[]); } }
+function setSaved(set){ state._saved=[...set]; try{ localStorage.setItem("sms-saved",JSON.stringify([...set])); }catch(e){} updateSavedCount(); }
+function updateSavedCount(){ const n=[...savedIds()].filter(id=>allShows().some(s=>s.id===id)).length; const e=$("#saved-n"); if(e) e.textContent = n ? " ("+n+")" : ""; }
+function toggleSave(s,btn){
+  const set=savedIds(); if (set.has(s.id)) set.delete(s.id); else set.add(s.id); setSaved(set);
+  const on=set.has(s.id); btn.setAttribute("aria-pressed",on?"true":"false"); btn.textContent = on ? "♥ Saved" : "♡ Save";
+  if (state.view==="saved" && !on) renderList();
+}
+/* ---------- Add to calendar (.ics) ---------- */
+function icsEscape(t){ return String(t||"").replace(/\\/g,"\\\\").replace(/\n/g,"\\n").replace(/([,;])/g,"\\$1"); }
+function addToCalendar(s){
+  const d=s.date.replace(/-/g,""), t=(s.time||"").replace(":","");
+  let start, end;
+  if (t){ start="DTSTART;TZID=America/Chicago:"+d+"T"+t+"00";
+    const [h,m]=s.time.split(":").map(Number); const e=new Date(2000,0,1,h+3,m);
+    end="DTEND;TZID=America/Chicago:"+(e.getDate()>1?localISO(new Date(parseISO(s.date).getTime()+86400000)).replace(/-/g,""):d)+"T"+String(e.getHours()).padStart(2,"0")+String(e.getMinutes()).padStart(2,"0")+"00"; }
+  else { start="DTSTART;VALUE=DATE:"+d; end="DTEND;VALUE=DATE:"+localISO(new Date(parseISO(s.date).getTime()+86400000)).replace(/-/g,""); }
+  const url=safeUrl(s.tickets||s.url)||"";
+  const lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Show Me Shows//showmeshows.net//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+    "UID:"+s.id+"@showmeshows.net","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d+/,""),start,end,
+    "SUMMARY:"+icsEscape(s.artist+" at "+s.v.name),
+    "LOCATION:"+icsEscape([s.v.name,s.v.addr].filter(Boolean).join(", ")),
+    "DESCRIPTION:"+icsEscape((s.support?"With "+s.support+". ":"")+(t?"":"Time not posted yet. ")+(url?"Tickets: "+url+" ":"")+"Found on showmeshows.net"),
+    url?"URL:"+url:null,"END:VEVENT","END:VCALENDAR"].filter(Boolean);
+  const blob=new Blob([lines.join("\r\n")],{type:"text/calendar;charset=utf-8"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=(s.artist.replace(/[^a-z0-9]+/gi,"-").slice(0,40)||"show")+".ics";
+  document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),2000);
+}
+/* ---------- Share ---------- */
+async function shareShow(s,btn){
+  const url="https://showmeshows.net/#show-"+encodeURIComponent(s.id);
+  const when=shortDate(s.date)+(s.time?" at "+fmtTime(s.time):"");
+  const text=s.artist+" — "+s.v.name+", "+when;
+  if (navigator.share){ try{ await navigator.share({title:s.artist,text,url}); }catch(e){} return; }
+  try{ await navigator.clipboard.writeText(text+"\n"+url); btn.textContent="Link copied"; setTimeout(()=>btn.textContent="Share",1800); }
+  catch(e){ btn.textContent="Couldn't copy"; setTimeout(()=>btn.textContent="Share",1800); }
+}
+function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(s.artist.replace(/\s*[:(\[].*$/,"").trim()); }
+const STATUS={soldout:"Sold out",cancelled:"Cancelled",postponed:"Postponed"};
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
   const t = fmtTime(s.time);
   const vr = venueRating(s.v.key);
-  return el("article",{class:"show"+(s.featured?" featured":"")},
+  const st = STATUS[s.status] ? s.status : "";
+  const saved = savedIds().has(s.id);
+  return el("article",{class:"show"+(s.featured?" featured":"")+(st?" st-"+st:""),"data-id":s.id},
     s.featured ? el("div",{class:"feat-badge",text:"★ Featured"}) : null,
     el("div",{},
       el("h3",{class:"artist",text:s.artist}),
+      st ? el("span",{class:"pill status "+st,text:STATUS[st]}) : null,
       s.support ? el("p",{class:"support",text:"with "+s.support}) : null,
       el("div",{class:"meta"},
         t ? el("span",{class:"time",text: s.timeNote? t+" "+s.timeNote : t})
@@ -530,27 +576,38 @@ function showCard(s){
         el("a",{class:"venue",href:"#venue-"+s.v.key,text:s.v.name}),
         el("span",{text:[s.v.hood,s.v.area].filter(Boolean).join(" · ")}),
         vr.count ? el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=s.v.key;},text:"★ "+vr.avg.toFixed(1)+" ("+vr.count+")","aria-label":s.v.name+" rated "+vr.avg.toFixed(1)+" out of 5 from "+vr.count+" reviews"}) : null
+      ),
+      (s.ages||s.priceRange) ? el("div",{class:"meta2"},
+        s.ages ? el("span",{class:"pill ages",text:s.ages}) : null,
+        s.priceRange && s.price!=="Free" ? el("span",{class:"price",text:s.priceRange}) : null) : null,
+      el("div",{class:"acts"},
+        el("button",{type:"button",class:"act","aria-pressed":saved?"true":"false","aria-label":(saved?"Remove ":"Save ")+s.artist+(saved?" from":" to")+" your saved shows",text:saved?"♥ Saved":"♡ Save",onclick:e=>toggleSave(s,e.currentTarget)}),
+        st!=="cancelled" ? el("button",{type:"button",class:"act",text:"Add to calendar","aria-label":"Add "+s.artist+" to your calendar",onclick:()=>addToCalendar(s)}) : null,
+        el("button",{type:"button",class:"act",text:"Share","aria-label":"Share "+s.artist,onclick:e=>shareShow(s,e.currentTarget)}),
+        el("a",{class:"act",href:listenUrl(s),target:"_blank",rel:"noopener","aria-label":"Listen to "+s.artist+" on Spotify",text:"Listen ↗"})
       )
     ),
     el("div",{class:"side-tags"},
       el("span",{class:"pill genre",text:s.genre}),
       s.price==="Free" ? el("span",{class:"pill free",text:"Free"}) : null,
       onSaleLabel(s) ? el("span",{class:"pill onsale",text:onSaleLabel(s)}) : null,
-      url ? el("a",{class:"btn small tix",href:url,target:"_blank",rel:"noopener",text:s.price==="Free"?"Event info ↗":onSaleLabel(s)?"Ticket info ↗":"Get tickets ↗"}) : el("span",{class:"note",text:"Ticket link coming soon"})
+      st==="cancelled" ? null : url ? el("a",{class:"btn small tix",href:url,target:"_blank",rel:"noopener",text:s.price==="Free"||st==="soldout"?"Event info ↗":onSaleLabel(s)?"Ticket info ↗":"Get tickets ↗"}) : el("span",{class:"note",text:"Ticket link coming soon"})
     )
   );
 }
 function renderList(){
   const range = state.view;
   const shows = filtered(range);
-  const label = range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="new" ? "announced in the last 2 weeks" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
+  const label = range==="saved" ? "saved on this device" : range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="new" ? "announced in the last 2 weeks" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
   renderAnnounced(range);
-  $("#new-head").classList.toggle("hidden", range!=="new");
+  $("#new-head").classList.toggle("hidden", range!=="new" && range!=="saved");
+  $("#new-head").textContent = range==="saved" ? "Your saved shows" : "Just announced";
   $("#count").textContent = shows.length + (shows.length===1?" show ":" shows ") + label;
   const box = $("#list"); box.replaceChildren();
   if (!shows.length){
     const msg = range==="tonight"
       ? ["Nothing listed tonight yet", "Try This Week, or loosen the filters. Playing tonight? Submit your show."]
+      : range==="saved" ? ["No saved shows yet", "Tap ♡ Save on any show to keep it here. Saved shows stay on this phone or computer; no account needed."]
       : range==="new" ? ["Nothing newly announced yet", "New shows land here as venues announce them. Check back in a day or two."]
       : range==="coming" ? ["Nothing announced that far out yet", "We check for newly announced shows every week. Booking a show months out? Submit it."]
       : ["No shows match", "Clear a filter or two. Know a show we're missing? Submit it."];
@@ -630,29 +687,7 @@ function buildChips(){
   }
 }
 
-/* ---------- Rendering: map ---------- */
-const MAP_W=900, MAP_H=620, KLAT=0.78; // cos(latitude) to keep proportions honest
-const ZOOMS = {
-  core:{lon:[-90.335,-90.165]},
-  metro:{lon:[-90.72,-89.86]}
-};
-function bounds(z){
-  const [l0,l1]=ZOOMS[z].lon; const lonSpan=l1-l0;
-  const latSpan = lonSpan*KLAT*MAP_H/MAP_W;
-  const latC = z==="core" ? 38.630 : 38.690;
-  return {l0,l1,latMax:latC+latSpan/2,latMin:latC-latSpan/2};
-}
-function proj(lat,lon,b){ return [ (lon-b.l0)/(b.l1-b.l0)*MAP_W, (b.latMax-lat)/(b.latMax-b.latMin)*MAP_H ]; }
-const RIVERS = {
-  Mississippi:[[39.00,-90.50],[38.93,-90.32],[38.89,-90.18],[38.82,-90.12],[38.76,-90.17],[38.70,-90.18],[38.655,-90.180],[38.627,-90.183],[38.600,-90.195],[38.565,-90.225],[38.52,-90.27],[38.44,-90.36]],
-  Missouri:[[38.64,-90.80],[38.72,-90.62],[38.78,-90.48],[38.81,-90.36],[38.85,-90.22],[38.82,-90.12]]
-};
-const PLACES = {
-  core:[["Downtown",38.631,-90.193],["Soulard",38.606,-90.208],["Grand Center",38.643,-90.236],["Central West End",38.643,-90.262],["The Loop",38.661,-90.302],["Forest Park",38.638,-90.290],["Cherokee St",38.596,-90.236],["Tower Grove",38.608,-90.260]],
-  metro:[["St. Louis",38.627,-90.20],["Clayton",38.632,-90.345],["Kirkwood",38.583,-90.41],["Chesterfield",38.663,-90.58],["St. Charles",38.79,-90.50],["Alton",38.89,-90.18],["Edwardsville",38.82,-89.95],["Collinsville",38.67,-89.98],["Belleville",38.52,-89.98]]
-};
-const SVGNS="http://www.w3.org/2000/svg";
-function s(tag,attrs={},text){ const n=document.createElementNS(SVGNS,tag); for(const[k,v] of Object.entries(attrs)) n.setAttribute(k,v); if(text!=null) n.textContent=text; return n; }
+/* ---------- Rendering: map (Leaflet + free CARTO/OpenStreetMap tiles) ---------- */
 // Venue badge: a monogram in one of the site colors, or the venue's own logo when venues.json has one (venue-supplied).
 function initials(name){
   const words=String(name||"?").replace(/^the\s+/i,"").split(/[^A-Za-z0-9]+/).filter(Boolean);
@@ -668,99 +703,98 @@ function findVenue(key){
   return sh ? sh.v : null;
 }
 function datedCard(sh){ const c=showCard(sh); c.querySelector(".meta").prepend(el("span",{text:parseISO(sh.date).toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"})})); return c; }
-function renderMap(){
-  const svg=$("#map"); svg.replaceChildren();
-  const b=bounds(state.mapZoom);
-  for (const [name,pts] of Object.entries(RIVERS)){
-    const d = pts.map((p,i)=>{ const [x,y]=proj(p[0],p[1],b); return (i?"L":"M")+x.toFixed(1)+" "+y.toFixed(1); }).join(" ");
-    svg.append(s("path",{d,class:"map-river"}));
-    const mid = pts[Math.floor(pts.length/2)]; const [mx,my]=proj(mid[0],mid[1],b);
-    if (mx>20 && mx<MAP_W-120 && my>20 && my<MAP_H-20) svg.append(s("text",{x:mx+10,y:my+28,class:"map-river-label"},name+" River"));
-  }
-  for (const [name,lat,lon] of PLACES[state.mapZoom]){
-    const [x,y]=proj(lat,lon,b); if (x<0||x>MAP_W||y<0||y>MAP_H) continue;
-    svg.append(s("text",{x,y,class:"map-label","text-anchor":"middle"},name));
-  }
-  // Group upcoming shows by venue
+let LMAP=null, LCLUSTER=null, LME=null, leafletReady=null;
+function loadLeaflet(){
+  if (leafletReady) return leafletReady;
+  const css=h=>{ const l=document.createElement("link"); l.rel="stylesheet"; l.href=h; document.head.append(l); };
+  const js=src=>new Promise((ok,bad)=>{ const t=document.createElement("script"); t.src=src; t.onload=ok; t.onerror=bad; document.head.append(t); });
+  css("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+  css("https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css");
+  leafletReady = js("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js").then(()=>js("https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"));
+  return leafletReady;
+}
+const CORE_BOUNDS=[[38.585,-90.325],[38.665,-90.175]];
+function mapShows(){
+  const w=state.mapWhen;
+  return allShows().filter(s=> w==="tonight" ? s.date===TODAY : w==="week" ? s.date<=addDays(TODAY,6) : true);
+}
+function venueIcon(v,count,active){
+  const logo=venueLogo(v), ci=colorIdx(v.key);
+  const inner = logo ? '<img alt="" src="'+logo.replace(/"/g,"&quot;")+'">' : esc(initials(v.name));
+  return L.divIcon({className:"", iconSize:[40,40], iconAnchor:[20,20],
+    html:'<div class="vpin '+(logo?"logo":"c"+ci)+(active?" active":"")+'">'+inner+'<b>'+count+'</b></div>'});
+}
+function esc(t){ return String(t).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+async function renderMap(){
+  const unmappedEl=$("#unmapped");
+  try { await loadLeaflet(); }
+  catch(e){ $("#lmap").textContent="The map couldn't load. Check your connection and try again."; return; }
+  if (!LMAP){
+    LMAP=L.map("lmap",{scrollWheelZoom:false, zoomControl:true});
+    const dark=window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches;
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/"+(dark?"dark_all":"light_all")+"/{z}/{x}/{y}{r}.png",
+      {maxZoom:19, subdomains:"abcd", attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(LMAP);
+    LMAP.on("click",()=>{}); // keep focus on map
+  } else LMAP.invalidateSize();
+  if (LCLUSTER) LMAP.removeLayer(LCLUSTER);
+  LCLUSTER=L.markerClusterGroup({showCoverageOnHover:false, maxClusterRadius:44, spiderfyOnMaxZoom:true,
+    iconCreateFunction:c=>{ const n=c.getAllChildMarkers().reduce((t,m)=>t+m.options.showCount,0);
+      const sz = n>99?56:n>29?50:44;
+      return L.divIcon({className:"", iconSize:[sz,sz], html:'<div class="vclus" style="width:'+sz+'px;height:'+sz+'px" title="'+c.getChildCount()+' venues, '+n+' shows">'+n+'</div>'}); }});
   const groups=new Map();
-  for (const sh of allShows()){ const k=sh.v.key; if(!groups.has(k)) groups.set(k,{v:sh.v,shows:[]}); groups.get(k).shows.push(sh); }
-  const unmapped=[];
-  const pins=[...groups.values()].filter(g=>{ if(g.v.lat==null){unmapped.push(g.v.name); return false;} return true; });
-  // On the whole-metro view, venues that sit on top of each other merge into one cluster pin.
-  let drawn=[];
-  for (const g of pins){
-    const [x,y]=proj(g.v.lat,g.v.lon,b); if (x<-10||x>MAP_W+10||y<-10||y>MAP_H+10) continue;
-    const near = drawn.find(d=>Math.hypot(d.x-x,d.y-y)<(state.mapZoom==="metro"?34:30));
-    if (near){ near.groups.push(g); near.count+=g.shows.length; } else drawn.push({x,y,groups:[g],count:g.shows.length});
+  for (const sh of mapShows()){ const k=sh.v.key; if(!groups.has(k)) groups.set(k,{v:sh.v,shows:[]}); groups.get(k).shows.push(sh); }
+  const unmapped=[], markers=[];
+  for (const g of groups.values()){
+    if (g.v.lat==null || g.v.lon==null){ unmapped.push(g.v.name); continue; }
+    const m=L.marker([g.v.lat,g.v.lon],{icon:venueIcon(g.v,g.shows.length,state.mapVenue===g.v.key), showCount:g.shows.length, keyboard:true, title:g.v.name, alt:g.v.name+", "+g.shows.length+" shows"});
+    m.bindTooltip(g.v.name,{direction:"top",offset:[0,-22],className:"vtip"});
+    m.on("click",()=>{ state.mapVenue=g.v.key; renderMapPanel(groups); refreshPins(groups); $("#map-panel").scrollIntoView({behavior:"smooth",block:"start"}); });
+    markers.push(m);
   }
-  const placed=[]; // label boxes already drawn, to keep names from overlapping
-  const hit=(a,o)=>a.x<o.x+o.w && a.x+a.w>o.x && a.y<o.y+o.h && a.y+a.h>o.y;
-  const pinBoxes=drawn.map(d=>({d,x:d.x-21,y:d.y-21,w:42,h:42}));
-  const fits=(bx,self)=>!placed.some(o=>hit(bx,o)) && !pinBoxes.some(o=>o.d!==self && hit(bx,o)) && bx.x>=0 && bx.x+bx.w<=MAP_W;
-  for (const d of drawn){
-    const cluster=d.groups.length>1, g=d.groups[0], x=d.x, y=d.y;
-    const r = cluster ? 13 + Math.min(d.count,6)*2 : 20;
-    const name = cluster ? d.groups.length+" venues" : g.v.name;
-    const gEl = s("g",{class:"pin"+(!cluster&&state.mapVenue===g.v.key?" active":""),tabindex:"0",role:"button","aria-label":name+", "+d.count+" upcoming shows"});
-    if (cluster){
-      gEl.append(s("circle",{cx:x,cy:y,r}));
-      gEl.append(s("text",{x,y},String(d.count)));
-    } else {
-      const ci=colorIdx(g.v.key), logo=venueLogo(g.v);
-      if (logo){
-        const cid="clip-"+g.v.key.replace(/[^a-z0-9-]/gi,"");
-        const cp=s("clipPath",{id:cid}); cp.append(s("circle",{cx:x,cy:y,r:r-2})); gEl.append(cp);
-        gEl.append(s("circle",{cx:x,cy:y,r,class:"logo-bg"}));
-        gEl.append(s("image",{href:logo,x:x-r+2,y:y-r+2,width:2*r-4,height:2*r-4,"clip-path":"url(#"+cid+")",preserveAspectRatio:"xMidYMid meet"}));
-      } else {
-        gEl.append(s("circle",{cx:x,cy:y,r,class:"mono c"+ci}));
-        gEl.append(s("text",{x,y:y+1,class:"initials c"+ci},initials(g.v.name)));
-      }
-      gEl.append(s("circle",{cx:x+r*0.75,cy:y-r*0.75,r:9,class:"badge"}));
-      gEl.append(s("text",{x:x+r*0.75,y:y-r*0.75,class:"badge-n"},String(d.count)));
-    }
-    const lab = cluster ? "e" : (g.v.lab||"e");
-    let lx=x+r+5, ly=y+4, anchor="start";
-    if (lab==="n"){ lx=x; ly=y-r-7; anchor="middle"; }
-    else if (lab==="s"){ lx=x; ly=y+r+15; anchor="middle"; }
-    else if (lab==="w"){ lx=x-r-5; anchor="end"; }
-    else if (lab==="nw"){ lx=x-r+2; ly=y-r-7; anchor="end"; }
-    else if (lab==="ne"){ lx=x+r-2; ly=y-r-7; }
-    const w=name.length*7.2+6, bx={x: anchor==="start"?lx-3 : anchor==="end"?lx-w+3 : lx-w/2, y:ly-12, w, h:16};
-    const selected = !cluster && state.mapVenue===g.v.key;
-    if (selected || fits(bx,d)){ placed.push(bx); gEl.append(s("text",{x:lx,y:ly,class:"pin-name",style:"text-anchor:"+anchor},name)); }
-    const pick=()=>{
-      if (cluster && state.mapZoom==="metro"){ state.mapZoom="core"; $("#z-core").setAttribute("aria-pressed","true"); $("#z-metro").setAttribute("aria-pressed","false"); state.mapVenue=null; state.mapCluster=null; }
-      else if (cluster){ state.mapCluster=d.groups.map(x=>x.v.key); state.mapVenue=null; }
-      else { state.mapVenue=g.v.key; state.mapCluster=null; }
-      renderMap(); $("#map-panel").scrollIntoView({behavior:"smooth",block:"start"});
-    };
-    gEl.addEventListener("click",pick);
-    gEl.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){e.preventDefault();pick();} });
-    svg.append(gEl);
-  }
+  LCLUSTER.addLayers(markers); LMAP.addLayer(LCLUSTER);
+  if (state.mapVenue && groups.get(state.mapVenue) && groups.get(state.mapVenue).v.lat!=null){
+    const v=groups.get(state.mapVenue).v; LMAP.setView([v.lat,v.lon],15); state.mapFit=false;
+  } else if (state.mapFit){ LMAP.fitBounds(CORE_BOUNDS); state.mapFit=false; }
+  renderMapPanel(groups);
+  const when={tonight:"tonight",week:"this week",all:"coming up"}[state.mapWhen];
+  unmappedEl.textContent = (unmapped.length ? "Also "+when+", not on the map yet: "+unmapped.join(", ")+"." : "");
+  if (!groups.size) unmappedEl.textContent = "No shows listed "+when+" yet.";
+}
+function refreshPins(groups){
+  LCLUSTER.eachLayer(m=>{ const g=[...groups.values()].find(x=>x.v.name===m.options.title); if(g) m.setIcon(venueIcon(g.v,g.shows.length,state.mapVenue===g.v.key)); });
+}
+function renderMapPanel(groups){
   const panel=$("#map-panel"); panel.replaceChildren();
   const sel = state.mapVenue && groups.get(state.mapVenue);
-  const clus = !sel && state.mapCluster ? state.mapCluster.map(k=>groups.get(k)).filter(Boolean) : null;
-  if (clus && clus.length){
-    panel.append(el("h3",{text:clus.length+" venues close together"}),
-      el("p",{class:"note",text:"Pick one to see its shows."}),
-      el("div",{class:"shows"}, clus.sort((a,b)=>b.shows.length-a.shows.length).map(gr=>el("div",{class:"vrow"},
-        el("div",{}, el("a",{class:"vname",href:"#venue-"+gr.v.key,text:gr.v.name}), el("div",{class:"vaddr",text:gr.v.addr||""})),
-        el("div",{class:"vaddr",text:[gr.v.type,gr.v.hood].filter(Boolean).join(" · ")}),
-        el("button",{type:"button",class:"btn small",text:gr.shows.length+" show"+(gr.shows.length===1?"":"s"),onclick:()=>{ state.mapVenue=gr.v.key; state.mapCluster=null; renderMap(); }})
-      ))));
-  } else if (sel){
+  if (sel){
     panel.append(el("h3",{text:sel.v.name}),
-      el("p",{class:"note"}, (sel.v.addr? sel.v.addr+" · ":"")+sel.shows.length+" upcoming show"+(sel.shows.length===1?"":"s")+" · ", el("a",{href:"#venue-"+sel.v.key,text:"Open venue page →"})),
+      el("p",{class:"note"}, (sel.v.addr? sel.v.addr+" · ":"")+sel.shows.length+" show"+(sel.shows.length===1?"":"s")+" "+{tonight:"tonight",week:"this week",all:"coming up"}[state.mapWhen]+" · ", el("a",{href:"#venue-"+sel.v.key,text:"Open venue page →"})),
       el("div",{class:"shows"}, sel.shows.map(datedCard)));
   } else {
-    panel.append(el("p",{class:"note",text: state.mapZoom==="core" ? "Switch to Whole metro to see St. Charles and the Metro East." : "Tap a pin to see that venue's shows."}));
+    panel.append(el("p",{class:"note",text:"Tap a venue on the map to see its shows here."}));
   }
-  $("#unmapped").textContent = unmapped.length ? "Not on the map yet: "+unmapped.join(", ")+"." : "";
 }
-$("#z-core").addEventListener("click",()=>{ state.mapZoom="core"; $("#z-core").setAttribute("aria-pressed","true"); $("#z-metro").setAttribute("aria-pressed","false"); renderMap(); });
-$("#z-metro").addEventListener("click",()=>{ state.mapZoom="metro"; $("#z-metro").setAttribute("aria-pressed","true"); $("#z-core").setAttribute("aria-pressed","false"); renderMap(); });
+for (const b of document.querySelectorAll("#view-map [data-when]")) b.addEventListener("click",()=>{
+  state.mapWhen=b.dataset.when;
+  for (const x of document.querySelectorAll("#view-map [data-when]")) x.setAttribute("aria-pressed", x===b?"true":"false");
+  renderMap();
+});
+$("#map-all").addEventListener("click",()=>{
+  if (!LCLUSTER) return; const bnds=LCLUSTER.getBounds(); if (bnds.isValid()) LMAP.fitBounds(bnds,{padding:[30,30]});
+});
+$("#near-me").addEventListener("click",()=>{
+  const note=$("#map-note");
+  if (!navigator.geolocation){ note.textContent="Your browser can't share your location."; return; }
+  note.textContent="Finding you…";
+  navigator.geolocation.getCurrentPosition(pos=>{
+    const ll=[pos.coords.latitude,pos.coords.longitude];
+    if (LME) LMAP.removeLayer(LME);
+    LME=L.marker(ll,{icon:L.divIcon({className:"",iconSize:[16,16],html:'<div class="me-dot"></div>'}),title:"You are here",keyboard:false}).addTo(LMAP);
+    const far = Math.abs(ll[0]-38.63)>0.8 || Math.abs(ll[1]+90.2)>1.0;
+    if (far){ note.textContent="You look like you're outside the St. Louis area, so the map stays put."; return; }
+    LMAP.setView(ll,14); note.textContent="Blue dot is you. Your location stays on your phone; it isn't saved or sent anywhere.";
+  },()=>{ note.textContent="Couldn't get your location. Check that location access is allowed for this site."; },{enableHighAccuracy:false,timeout:10000,maximumAge:300000});
+});
 
 /* ---------- Rendering: venues ---------- */
 function renderVenues(){
@@ -801,10 +835,15 @@ function renderVenuePage(){
         el("p",{class:"vpage-meta",text:[v.type, v.hood, v.area==="City"?"St. Louis City":v.area].filter(Boolean).join(" · ")}),
         el("div",{class:"vpage-actions"},
           el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=v.key;},text: r.count ? "★ "+r.avg.toFixed(1)+" from "+r.count+" review"+(r.count===1?"":"s")+(r.tags.length?" · "+r.tags.join(", "):"") : "No reviews yet · write the first"}),
-          v.lat!=null ? el("a",{class:"stars-link",href:"#map",onclick:()=>{state.mapVenue=v.key; state.mapZoom=(v.area==="City"||v.area==="County")?"core":"metro"; $("#z-core").setAttribute("aria-pressed",state.mapZoom==="core"?"true":"false"); $("#z-metro").setAttribute("aria-pressed",state.mapZoom==="metro"?"true":"false");},text:"See it on the map"}) : null
+          v.lat!=null ? el("a",{class:"stars-link",href:"#map",onclick:()=>{state.mapVenue=v.key;},text:"See it on the map"}) : null,
+          (v.addr||v.lat!=null) ? el("a",{class:"stars-link",target:"_blank",rel:"noopener",href:"https://www.google.com/maps/dir/?api=1&destination="+encodeURIComponent(v.addr && v.addr.includes(",") ? v.name+", "+v.addr : v.lat+","+v.lon),text:"Directions ↗"}) : null
         )
       )
     ),
+    (v.transit||v.parking) ? el("div",{class:"getting-there"},
+      el("h3",{text:"Getting there"}),
+      v.parking ? el("p",{}, el("strong",{text:"Parking: "}), v.parking) : null,
+      v.transit ? el("p",{}, el("strong",{text:"Transit: "}), v.transit) : null) : "",
     el("p",{class:"count",text: shows.length ? shows.length+" upcoming show"+(shows.length===1?"":"s")+" at "+v.name : "No upcoming shows listed here yet."})
   );
   const byDay=new Map(); for (const s of shows){ if(!byDay.has(s.date)) byDay.set(s.date,[]); byDay.get(s.date).push(s); }
@@ -830,15 +869,19 @@ function renderVenuePage(){
 }
 
 /* ---------- Views & routing ---------- */
-const VIEWS=["tonight","week","all","coming","new","map","venues","reviews","submit","admin"];
+const VIEWS=["tonight","week","all","coming","new","saved","map","venues","reviews","submit","admin"];
 function setView(v){
+  if (typeof v==="string" && v.startsWith("show-")){
+    const id=decodeURIComponent(v.slice(5)), sh=allShows(true).find(x=>x.id===id);
+    if (sh){ state.flash=id; v="venue-"+sh.v.key; } else v="week";
+  }
   if (typeof v==="string" && v.startsWith("venue-")){ state.venueKey=v.slice(6); v="venue"; }
   else if (!VIEWS.includes(v)) v="week";
   if (v==="admin" && !state.isOwner) v="week";
   state.view=v;
   const tab = v==="venue" ? "venues" : v;
   document.querySelectorAll("nav.tabs a").forEach(a=>{ if(a.dataset.view===tab) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
-  const list = ["tonight","week","all","coming","new"].includes(v);
+  const list = ["tonight","week","all","coming","new","saved"].includes(v);
   $("#view-list").classList.toggle("hidden",!list);
   $("#view-map").classList.toggle("hidden",v!=="map");
   $("#view-venues").classList.toggle("hidden",v!=="venues");
@@ -847,11 +890,15 @@ function setView(v){
   $("#view-reviews").classList.toggle("hidden",v!=="reviews");
   $("#view-admin").classList.toggle("hidden",v!=="admin");
   render();
-  if (v==="venue") window.scrollTo(0,0);
+  if (v==="venue" && state.flash){
+    const card=document.querySelector('#view-venue .show[data-id="'+CSS.escape(state.flash)+'"]'); state.flash=null;
+    if (card){ card.classList.add("flash"); setTimeout(()=>card.scrollIntoView({block:"center"}),50); } else window.scrollTo(0,0);
+  } else if (v==="venue") window.scrollTo(0,0);
 }
 function render(){
   const v=state.view;
-  if (["tonight","week","all","coming","new"].includes(v)) renderList();
+  updateSavedCount();
+  if (["tonight","week","all","coming","new","saved"].includes(v)) renderList();
   else if (v==="map") renderMap();
   else if (v==="venues") renderVenues();
   else if (v==="venue") renderVenuePage();

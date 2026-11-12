@@ -1,467 +1,518 @@
 {
- "stifel": {
-  "name": "Stifel Theatre",
-  "addr": "1400 Market St, St. Louis",
-  "hood": "Downtown",
-  "area": "City",
-  "type": "Theater",
-  "lat": 38.6296,
-  "lon": -90.2033,
-  "lab": "n"
- },
- "enterprise": {
-  "name": "Enterprise Center",
-  "addr": "1401 Clark Ave, St. Louis",
-  "hood": "Downtown",
-  "area": "City",
-  "type": "Arena",
-  "lat": 38.6268,
-  "lon": -90.2026,
-  "lab": "s"
- },
- "orh": {
-  "name": "Old Rock House",
-  "addr": "1200 S. Seventh St, St. Louis",
-  "hood": "Downtown / Soulard",
-  "area": "City",
-  "type": "Club",
-  "cap": 400,
-  "lat": 38.6155,
-  "lon": -90.1957
- },
- "offbroadway": {
-  "name": "Off Broadway",
-  "addr": "3509 Lemp Ave, St. Louis",
-  "hood": "Benton Park",
-  "area": "City",
-  "type": "Club",
-  "cap": 400,
-  "lat": 38.594,
-  "lon": -90.22
- },
- "sheldon": {
-  "name": "The Sheldon",
-  "addr": "3648 Washington Blvd, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Theater",
-  "lat": 38.6391,
-  "lon": -90.2331
- },
- "pageant": {
-  "name": "The Pageant",
-  "addr": "6161 Delmar Blvd, St. Louis",
-  "hood": "The Loop",
-  "area": "City",
-  "type": "Theater",
-  "cap": 2300,
-  "lat": 38.6556,
-  "lon": -90.2985,
-  "lab": "s"
- },
- "delmar": {
-  "name": "Delmar Hall",
-  "addr": "6133 Delmar Blvd, St. Louis",
-  "hood": "The Loop",
-  "area": "City",
-  "type": "Club",
-  "cap": 800,
-  "lat": 38.6553,
-  "lon": -90.2955,
-  "lab": "ne"
- },
- "duck": {
-  "name": "Blueberry Hill Duck Room",
-  "addr": "6504 Delmar Blvd, University City",
-  "hood": "The Loop",
-  "area": "County",
-  "type": "Club",
-  "cap": 340,
-  "lat": 38.656,
-  "lon": -90.3075,
-  "lab": "nw"
- },
- "golden": {
-  "name": "The Golden Record",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "wildey": {
-  "name": "Wildey Theatre",
-  "addr": "252 N Main St, Edwardsville, IL",
-  "hood": "Edwardsville",
-  "area": "Metro East",
-  "type": "Theater",
-  "lat": 38.8129,
-  "lon": -89.9532
- },
- "pops": {
-  "name": "Pop's Nightclub & Concert Venue",
-  "addr": "1403 Mississippi Ave, Sauget, IL",
-  "hood": "Sauget",
-  "area": "Metro East",
-  "type": "Club",
-  "lat": 38.5915,
-  "lon": -90.172
- },
- "globalbrew": {
-  "name": "Global Brew Tap House",
-  "addr": "Edwardsville, IL",
-  "hood": "Edwardsville",
-  "area": "Metro East",
-  "type": "Bar/Restaurant"
- },
- "sovereign": {
-  "name": "The Sovereign",
-  "addr": "3306 Washington Blvd, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6385,
-  "lon": -90.2275,
-  "lab": "w"
- },
- "factory": {
-  "name": "The Factory at The District",
-  "addr": "17105 N Outer 40 Rd, Chesterfield",
-  "hood": "Chesterfield",
-  "area": "County",
-  "type": "Club",
-  "lat": 38.667,
-  "lon": -90.605
- },
- "hawthorn": {
-  "name": "The Hawthorn",
-  "addr": "2231 Washington Ave, St. Louis",
-  "hood": "Downtown West",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.634,
-  "lon": -90.2085,
-  "lab": "e"
- },
- "sinkhole": {
-  "name": "The Sinkhole",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "citywinery": {
-  "name": "City Winery St. Louis",
-  "addr": "3730 Foundry Way, St. Louis",
-  "hood": "Midtown / City Foundry",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6315,
-  "lon": -90.2385,
-  "lab": "s"
- },
- "fox": {
-  "name": "The Fabulous Fox Theatre",
-  "addr": "527 N Grand Blvd, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Theater",
-  "lat": 38.6373,
-  "lon": -90.2321,
-  "lab": "e"
- },
- "chaifetz": {
-  "name": "Chaifetz Arena",
-  "addr": "1 S Compton Ave, St. Louis",
-  "hood": "Midtown",
-  "area": "City",
-  "type": "Arena",
-  "lat": 38.6327,
-  "lon": -90.2297,
-  "lab": "sw"
- },
- "familyarena": {
-  "name": "Family Arena",
-  "addr": "2002 Arena Pkwy, St. Charles",
-  "hood": "St. Charles",
-  "area": "St. Charles",
-  "type": "Arena"
- },
- "atomic": {
-  "name": "Atomic by Jamo (Garage / Lounge)",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "redflag": {
-  "name": "Red Flag",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "fubar": {
-  "name": "Fubar",
-  "addr": "3108 Locust St, St. Louis",
-  "hood": "Midtown",
-  "area": "City",
-  "type": "Club"
- },
- "hihat": {
-  "name": "The Hi-Hat",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Bar/Restaurant"
- },
- "avagarden": {
-  "name": "Ava Garden Bar",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Bar/Restaurant"
- },
- "moshmellow": {
-  "name": "MoshMellow",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "missunderground": {
-  "name": "Mississippi Underground",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "bluestrawberry": {
-  "name": "Blue Strawberry",
-  "addr": "364 N Boyle Ave, St. Louis",
-  "hood": "Central West End",
-  "area": "City",
-  "type": "Bar/Restaurant"
- },
- "casaloma": {
-  "name": "Casa Loma Ballroom",
-  "addr": "3354 Iowa Ave, St. Louis",
-  "hood": "Cherokee / Dutchtown",
-  "area": "City",
-  "type": "Club"
- },
- "elvolcan": {
-  "name": "El Volcan Discoteque",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "synoptic": {
-  "name": "Synoptic Frequencies",
-  "addr": "St. Louis",
-  "hood": "",
-  "area": "City",
-  "type": "Club"
- },
- "ryse": {
-  "name": "RYSE Nightclub",
-  "addr": "St. Charles",
-  "hood": "St. Charles",
-  "area": "St. Charles",
-  "type": "Club"
- },
- "rivercity": {
-  "name": "River City Casino",
-  "addr": "777 River City Casino Blvd, St. Louis",
-  "hood": "Lemay",
-  "area": "County",
-  "type": "Theater"
- },
- "peremarquette": {
-  "name": "Pere Marquette Lodge",
-  "addr": "Grafton, IL",
-  "hood": "Grafton",
-  "area": "Metro East",
-  "type": "Bar/Restaurant"
- },
- "bob": {
-  "name": "Broadway Oyster Bar",
-  "addr": "736 S Broadway, St. Louis",
-  "hood": "Downtown / Soulard",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6185,
-  "lon": -90.1925,
-  "lab": "e"
- },
- "evangelines": {
-  "name": "Evangeline's Bistro & Music House",
-  "addr": "512 N Euclid Ave, St. Louis",
-  "hood": "Central West End",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6447,
-  "lon": -90.2617,
-  "lab": "w"
- },
- "jazzstl": {
-  "name": "Jazz St. Louis (Ferring Jazz Bistro)",
-  "addr": "3536 Washington Ave, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6388,
-  "lon": -90.2297,
-  "lab": "s"
- },
- "darkroom": {
-  "name": "The Dark Room (Grandel)",
-  "addr": "3610 Grandel Square, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6402,
-  "lon": -90.2318,
-  "lab": "n"
- },
- "sophies": {
-  "name": "Sophie's Artist Lounge & Cocktail Club",
-  "addr": "3333 Washington Ave, Suite 102, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Bar/Restaurant"
- },
- "hollywoodamp": {
-  "name": "Hollywood Casino Amphitheatre",
-  "addr": "14141 Riverport Dr, Maryland Heights",
-  "hood": "Maryland Heights",
-  "area": "County",
-  "type": "Arena",
-  "lat": 38.7445,
-  "lon": -90.4637
- },
- "powell": {
-  "name": "Powell Hall (Jack C. Taylor Music Center)",
-  "addr": "718 N Grand Blvd, St. Louis",
-  "hood": "Grand Center",
-  "area": "City",
-  "type": "Theater",
-  "lat": 38.6403,
-  "lon": -90.2318
- },
- "lindenwood": {
-  "name": "J. Scheidegger Center for the Arts (Lindenwood)",
-  "addr": "2300 W Clay St, St. Charles",
-  "hood": "St. Charles",
-  "area": "St. Charles",
-  "type": "Theater"
- },
- "soulardmkt": {
-  "name": "Soulard Market Park (Mardi Gras)",
-  "addr": "801 Lafayette Ave, St. Louis",
-  "hood": "Soulard",
-  "area": "City",
-  "type": "Festival",
-  "lat": 38.6106,
-  "lon": -90.2105
- },
- "crackfox": {
-  "name": "The Crack Fox",
-  "addr": "1114 Olive St, St. Louis",
-  "hood": "Downtown",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6313,
-  "lon": -90.1938
- },
- "venice": {
-  "name": "Venice Cafe",
-  "addr": "1903 Pestalozzi St, St. Louis",
-  "hood": "Benton Park",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.5975,
-  "lon": -90.2206
- },
- "ballpark": {
-  "name": "Ballpark Village",
-  "addr": "601 Clark Ave, St. Louis",
-  "hood": "Downtown",
-  "area": "City",
-  "type": "Bar/Restaurant",
-  "lat": 38.6236,
-  "lon": -90.1913
- },
- "miners": {
-  "name": "Miners Theatre",
-  "addr": "204 W Main St, Collinsville, IL",
-  "hood": "Collinsville",
-  "area": "Metro East",
-  "type": "Theater",
-  "lat": 38.6706,
-  "lon": -89.9856
- },
- "treefrog": {
-  "name": "The Tree Frog Music Room",
-  "addr": "3221 Ivanhoe Ave, St. Louis",
-  "hood": "Lindenwood Park",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6045,
-  "lon": -90.3092
- },
- "houseofsoul": {
-  "name": "The House of Soul",
-  "addr": "1204 Washington Ave, St. Louis",
-  "hood": "Downtown",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6317,
-  "lon": -90.1926
- },
- "chapel": {
-  "name": "The Chapel",
-  "addr": "6238 Alexander Dr, St. Louis",
-  "hood": "Skinker-DeBaliviere",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6478,
-  "lon": -90.3005
- },
- "dissonant": {
-  "name": "Dissonant Works",
-  "addr": "2218 S Jefferson Ave, St. Louis",
-  "hood": "McKinley Heights",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.6058,
-  "lon": -90.2208
- },
- "powercreative": {
-  "name": "Power Creative WEspace",
-  "addr": "3221 Oak Hill Ave, St. Louis",
-  "hood": "Oak Hill",
-  "area": "City",
-  "type": "Club",
-  "lat": 38.5975,
-  "lon": -90.2655
- },
- "ethical": {
-  "name": "Ethical Society of St. Louis",
-  "addr": "9001 Clayton Rd, St. Louis",
-  "hood": "Ladue",
-  "area": "County",
-  "type": "Theater",
-  "lat": 38.6377,
-  "lon": -90.3636
- },
- "parkwayucc": {
-  "name": "Parkway United Church of Christ",
-  "addr": "2841 N Ballas Rd, Town and Country",
-  "hood": "Town and Country",
-  "area": "County",
-  "type": "Theater",
-  "lat": 38.647,
-  "lon": -90.4558
- }
+  "stifel": {
+    "name": "Stifel Theatre",
+    "addr": "1400 Market St, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Theater",
+    "lat": 38.6296,
+    "lon": -90.2033,
+    "lab": "n",
+    "transit": "Civic Center MetroLink (about 10 min walk)"
+  },
+  "enterprise": {
+    "name": "Enterprise Center",
+    "addr": "1401 Clark Ave, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Arena",
+    "lat": 38.6268,
+    "lon": -90.2026,
+    "lab": "s",
+    "transit": "Civic Center MetroLink (across the street)"
+  },
+  "orh": {
+    "name": "Old Rock House",
+    "addr": "1200 S. Seventh St, St. Louis",
+    "hood": "Downtown / Soulard",
+    "area": "City",
+    "type": "Club",
+    "cap": 400,
+    "lat": 38.6155,
+    "lon": -90.1957
+  },
+  "offbroadway": {
+    "name": "Off Broadway",
+    "addr": "3509 Lemp Ave, St. Louis",
+    "hood": "Benton Park",
+    "area": "City",
+    "type": "Club",
+    "cap": 400,
+    "lat": 38.594,
+    "lon": -90.22
+  },
+  "sheldon": {
+    "name": "The Sheldon",
+    "addr": "3648 Washington Blvd, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Theater",
+    "lat": 38.6391,
+    "lon": -90.2331,
+    "transit": "Grand MetroLink (about 10–15 min walk)"
+  },
+  "pageant": {
+    "name": "The Pageant",
+    "addr": "6161 Delmar Blvd, St. Louis",
+    "hood": "The Loop",
+    "area": "City",
+    "type": "Theater",
+    "cap": 2300,
+    "lat": 38.6556,
+    "lon": -90.2985,
+    "lab": "s",
+    "transit": "Delmar Loop MetroLink (short walk)"
+  },
+  "delmar": {
+    "name": "Delmar Hall",
+    "addr": "6133 Delmar Blvd, St. Louis",
+    "hood": "The Loop",
+    "area": "City",
+    "type": "Club",
+    "cap": 800,
+    "lat": 38.6553,
+    "lon": -90.2955,
+    "lab": "ne",
+    "transit": "Delmar Loop MetroLink (short walk)"
+  },
+  "duck": {
+    "name": "Blueberry Hill Duck Room",
+    "addr": "6504 Delmar Blvd, University City",
+    "hood": "The Loop",
+    "area": "County",
+    "type": "Club",
+    "cap": 340,
+    "lat": 38.656,
+    "lon": -90.3075,
+    "lab": "nw",
+    "transit": "Delmar Loop MetroLink (short walk)"
+  },
+  "golden": {
+    "name": "The Golden Record",
+    "addr": "2720 Cherokee St, St. Louis",
+    "hood": "Cherokee St",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.5953,
+    "lon": -90.2295
+  },
+  "wildey": {
+    "name": "Wildey Theatre",
+    "addr": "252 N Main St, Edwardsville, IL",
+    "hood": "Edwardsville",
+    "area": "Metro East",
+    "type": "Theater",
+    "lat": 38.8129,
+    "lon": -89.9532
+  },
+  "pops": {
+    "name": "Pop's Nightclub & Concert Venue",
+    "addr": "1403 Mississippi Ave, Sauget, IL",
+    "hood": "Sauget",
+    "area": "Metro East",
+    "type": "Club",
+    "lat": 38.5915,
+    "lon": -90.172
+  },
+  "globalbrew": {
+    "name": "Global Brew Tap House",
+    "addr": "Edwardsville, IL",
+    "hood": "Edwardsville",
+    "area": "Metro East",
+    "type": "Bar/Restaurant",
+    "lat": 38.8115,
+    "lon": -89.954
+  },
+  "sovereign": {
+    "name": "The Sovereign",
+    "addr": "3306 Washington Blvd, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6385,
+    "lon": -90.2275,
+    "lab": "w"
+  },
+  "factory": {
+    "name": "The Factory at The District",
+    "addr": "17105 N Outer 40 Rd, Chesterfield",
+    "hood": "Chesterfield",
+    "area": "County",
+    "type": "Club",
+    "lat": 38.667,
+    "lon": -90.605
+  },
+  "hawthorn": {
+    "name": "The Hawthorn",
+    "addr": "2231 Washington Ave, St. Louis",
+    "hood": "Downtown West",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.634,
+    "lon": -90.2085,
+    "lab": "e"
+  },
+  "sinkhole": {
+    "name": "The Sinkhole",
+    "addr": "7423 S Broadway, St. Louis",
+    "hood": "Carondelet",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.5598,
+    "lon": -90.247
+  },
+  "citywinery": {
+    "name": "City Winery St. Louis",
+    "addr": "3730 Foundry Way, St. Louis",
+    "hood": "Midtown / City Foundry",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6315,
+    "lon": -90.2385,
+    "lab": "s",
+    "transit": "Cortex MetroLink (short walk)"
+  },
+  "fox": {
+    "name": "The Fabulous Fox Theatre",
+    "addr": "527 N Grand Blvd, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Theater",
+    "lat": 38.6373,
+    "lon": -90.2321,
+    "lab": "e",
+    "transit": "Grand MetroLink (about 10–15 min walk)"
+  },
+  "chaifetz": {
+    "name": "Chaifetz Arena",
+    "addr": "1 S Compton Ave, St. Louis",
+    "hood": "Midtown",
+    "area": "City",
+    "type": "Arena",
+    "lat": 38.6327,
+    "lon": -90.2297,
+    "lab": "sw",
+    "transit": "Grand MetroLink (short walk)"
+  },
+  "familyarena": {
+    "name": "Family Arena",
+    "addr": "2002 Arena Pkwy, St. Charles",
+    "hood": "St. Charles",
+    "area": "St. Charles",
+    "type": "Arena",
+    "lat": 38.807,
+    "lon": -90.461
+  },
+  "atomic": {
+    "name": "Atomic by Jamo (Garage / Lounge)",
+    "addr": "4140 Manchester Ave, St. Louis",
+    "hood": "The Grove",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6265,
+    "lon": -90.256
+  },
+  "redflag": {
+    "name": "Red Flag",
+    "addr": "3040 Locust St, St. Louis",
+    "hood": "Midtown",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6355,
+    "lon": -90.2165
+  },
+  "fubar": {
+    "name": "Fubar",
+    "addr": "3108 Locust St, St. Louis",
+    "hood": "Midtown",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6357,
+    "lon": -90.2185
+  },
+  "hihat": {
+    "name": "The Hi-Hat",
+    "addr": "1017 Russell Blvd, St. Louis",
+    "hood": "Soulard",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6036,
+    "lon": -90.2065
+  },
+  "avagarden": {
+    "name": "Ava Garden Bar",
+    "addr": "601 Clark Ave, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.623,
+    "lon": -90.1918,
+    "transit": "Stadium MetroLink (short walk)"
+  },
+  "moshmellow": {
+    "name": "MoshMellow",
+    "addr": "3359 S Jefferson Ave, St. Louis",
+    "hood": "Benton Park West",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.5935,
+    "lon": -90.2222
+  },
+  "missunderground": {
+    "name": "Mississippi Underground",
+    "addr": "1441 N 2nd St, St. Louis",
+    "hood": "North Riverfront",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.64,
+    "lon": -90.184
+  },
+  "bluestrawberry": {
+    "name": "Blue Strawberry",
+    "addr": "364 N Boyle Ave, St. Louis",
+    "hood": "Central West End",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.643,
+    "lon": -90.256
+  },
+  "casaloma": {
+    "name": "Casa Loma Ballroom",
+    "addr": "3354 Iowa Ave, St. Louis",
+    "hood": "Cherokee / Dutchtown",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.5935,
+    "lon": -90.2318
+  },
+  "elvolcan": {
+    "name": "El Volcan Discoteque",
+    "addr": "4920 Northrup Ave, St. Louis",
+    "hood": "Southwest Garden",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6195,
+    "lon": -90.2735
+  },
+  "synoptic": {
+    "name": "Synoptic Frequencies",
+    "addr": "St. Louis",
+    "hood": "",
+    "area": "City",
+    "type": "Club"
+  },
+  "ryse": {
+    "name": "RYSE Nightclub",
+    "addr": "St. Charles",
+    "hood": "St. Charles",
+    "area": "St. Charles",
+    "type": "Club",
+    "lat": 38.795,
+    "lon": -90.4785
+  },
+  "rivercity": {
+    "name": "River City Casino",
+    "addr": "777 River City Casino Blvd, St. Louis",
+    "hood": "Lemay",
+    "area": "County",
+    "type": "Theater",
+    "lat": 38.503,
+    "lon": -90.264
+  },
+  "peremarquette": {
+    "name": "Pere Marquette Lodge",
+    "addr": "Grafton, IL",
+    "hood": "Grafton",
+    "area": "Metro East",
+    "type": "Bar/Restaurant",
+    "lat": 38.972,
+    "lon": -90.543
+  },
+  "bob": {
+    "name": "Broadway Oyster Bar",
+    "addr": "736 S Broadway, St. Louis",
+    "hood": "Downtown / Soulard",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6185,
+    "lon": -90.1925,
+    "lab": "e"
+  },
+  "evangelines": {
+    "name": "Evangeline's Bistro & Music House",
+    "addr": "512 N Euclid Ave, St. Louis",
+    "hood": "Central West End",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6447,
+    "lon": -90.2617,
+    "lab": "w"
+  },
+  "jazzstl": {
+    "name": "Jazz St. Louis (Ferring Jazz Bistro)",
+    "addr": "3536 Washington Ave, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6388,
+    "lon": -90.2297,
+    "lab": "s",
+    "transit": "Grand MetroLink (about 10–15 min walk)"
+  },
+  "darkroom": {
+    "name": "The Dark Room (Grandel)",
+    "addr": "3610 Grandel Square, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6402,
+    "lon": -90.2318,
+    "lab": "n"
+  },
+  "sophies": {
+    "name": "Sophie's Artist Lounge & Cocktail Club",
+    "addr": "3333 Washington Ave, Suite 102, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6395,
+    "lon": -90.2285
+  },
+  "hollywoodamp": {
+    "name": "Hollywood Casino Amphitheatre",
+    "addr": "14141 Riverport Dr, Maryland Heights",
+    "hood": "Maryland Heights",
+    "area": "County",
+    "type": "Arena",
+    "lat": 38.7445,
+    "lon": -90.4637
+  },
+  "powell": {
+    "name": "Powell Hall (Jack C. Taylor Music Center)",
+    "addr": "718 N Grand Blvd, St. Louis",
+    "hood": "Grand Center",
+    "area": "City",
+    "type": "Theater",
+    "lat": 38.6403,
+    "lon": -90.2318,
+    "transit": "Grand MetroLink (about 10–15 min walk)"
+  },
+  "lindenwood": {
+    "name": "J. Scheidegger Center for the Arts (Lindenwood)",
+    "addr": "2300 W Clay St, St. Charles",
+    "hood": "St. Charles",
+    "area": "St. Charles",
+    "type": "Theater",
+    "lat": 38.786,
+    "lon": -90.499
+  },
+  "soulardmkt": {
+    "name": "Soulard Market Park (Mardi Gras)",
+    "addr": "801 Lafayette Ave, St. Louis",
+    "hood": "Soulard",
+    "area": "City",
+    "type": "Festival",
+    "lat": 38.6106,
+    "lon": -90.2105
+  },
+  "crackfox": {
+    "name": "The Crack Fox",
+    "addr": "1114 Olive St, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6313,
+    "lon": -90.1938
+  },
+  "venice": {
+    "name": "Venice Cafe",
+    "addr": "1903 Pestalozzi St, St. Louis",
+    "hood": "Benton Park",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.5975,
+    "lon": -90.2206
+  },
+  "ballpark": {
+    "name": "Ballpark Village",
+    "addr": "601 Clark Ave, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Bar/Restaurant",
+    "lat": 38.6236,
+    "lon": -90.1913,
+    "transit": "Stadium MetroLink (short walk)"
+  },
+  "miners": {
+    "name": "Miners Theatre",
+    "addr": "204 W Main St, Collinsville, IL",
+    "hood": "Collinsville",
+    "area": "Metro East",
+    "type": "Theater",
+    "lat": 38.6706,
+    "lon": -89.9856
+  },
+  "treefrog": {
+    "name": "The Tree Frog Music Room",
+    "addr": "3221 Ivanhoe Ave, St. Louis",
+    "hood": "Lindenwood Park",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6045,
+    "lon": -90.3092
+  },
+  "houseofsoul": {
+    "name": "The House of Soul",
+    "addr": "1204 Washington Ave, St. Louis",
+    "hood": "Downtown",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6317,
+    "lon": -90.1926
+  },
+  "chapel": {
+    "name": "The Chapel",
+    "addr": "6238 Alexander Dr, St. Louis",
+    "hood": "Skinker-DeBaliviere",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6478,
+    "lon": -90.3005
+  },
+  "dissonant": {
+    "name": "Dissonant Works",
+    "addr": "2218 S Jefferson Ave, St. Louis",
+    "hood": "McKinley Heights",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.6058,
+    "lon": -90.2208
+  },
+  "powercreative": {
+    "name": "Power Creative WEspace",
+    "addr": "3221 Oak Hill Ave, St. Louis",
+    "hood": "Oak Hill",
+    "area": "City",
+    "type": "Club",
+    "lat": 38.5975,
+    "lon": -90.2655
+  },
+  "ethical": {
+    "name": "Ethical Society of St. Louis",
+    "addr": "9001 Clayton Rd, St. Louis",
+    "hood": "Ladue",
+    "area": "County",
+    "type": "Theater",
+    "lat": 38.6377,
+    "lon": -90.3636
+  },
+  "parkwayucc": {
+    "name": "Parkway United Church of Christ",
+    "addr": "2841 N Ballas Rd, Town and Country",
+    "hood": "Town and Country",
+    "area": "County",
+    "type": "Theater",
+    "lat": 38.647,
+    "lon": -90.4558
+  }
 }
