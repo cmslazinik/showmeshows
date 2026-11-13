@@ -59,7 +59,32 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 @media (max-width:900px){main.grid{grid-template-columns:1fr}}
 
 /* Filters */
-.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.filters{display:flex;flex-direction:column;gap:10px;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.qwrap{position:relative;display:flex}
+.qwrap input{flex:1}
+.suggest{position:absolute;left:0;right:0;top:100%;z-index:40;list-style:none;margin:0;padding:4px 0;background:var(--card);border:2px solid var(--ink);border-top:none;box-shadow:4px 4px 0 var(--ink)}
+.suggest li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:8px 12px;cursor:pointer}
+.suggest li[aria-selected="true"],.suggest li:hover{background:var(--ink);color:var(--paper)}
+.suggest .stype{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;opacity:.75;white-space:nowrap}
+.suggest .ssub{font-size:12px;opacity:.7;font-family:var(--font-type)}
+.suggest mark{background:none;color:inherit;text-decoration:underline;text-underline-offset:2px}
+.when-dates{display:flex;gap:12px;flex-wrap:wrap;font-family:var(--font-type);font-size:14px}
+.when-dates input{margin-left:6px;padding:6px 8px;border:2px solid var(--ink);background:var(--card);color:var(--ink);border-radius:0}
+.frow{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.fbtn{font-family:var(--font-display);font-size:18px;text-transform:uppercase;letter-spacing:.5px;padding:6px 14px;border:2px solid var(--ink);background:transparent;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.fbtn[aria-expanded="true"]{background:var(--ink);color:var(--paper)}
+.fn{font-family:var(--font-mono);font-size:12px;background:var(--pink);color:var(--on-pink);padding:0 6px;margin-left:2px}
+.sortl{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;margin-left:auto}
+.linkbtn{background:none;border:none;padding:4px 0;font-family:var(--font-type);font-size:14px;color:var(--ink);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.fpanel{display:flex;flex-direction:column;gap:10px;border:2px dashed var(--line);padding:12px}
+.fgroup{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.flabel{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);min-width:56px}
+.fgroup .chips{width:auto;flex:1}
+.fnote{margin:0;font-family:var(--font-type);font-size:13px;color:var(--muted)}
+.fnote:empty{display:none}
+.meta .dist{font-family:var(--font-mono);font-size:12px}
+.frow #f-sort{width:auto;flex:0 0 auto}
+@media (max-width:520px){.sortl{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.frow #f-sort{margin-left:auto;padding:8px 6px}.flabel{width:100%}}
 .filters input[type="search"]{flex:1 1 200px;min-width:0;padding:9px 12px;border:2px solid var(--ink);background:var(--card);border-radius:0}
 .filters select{padding:9px 10px;border:2px solid var(--ink);background:var(--card);color:var(--ink);border-radius:0}
 .chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
@@ -268,20 +293,64 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     <!-- List views -->
     <div id="view-list">
       <div class="filters" role="search">
-        <label for="q" class="hidden">Search</label>
-        <input type="search" id="q" placeholder="Search artist, venue, neighborhood">
-        <label for="f-area" class="hidden">Area</label>
-        <select id="f-area">
-          <option value="">All areas</option>
-          <option>City</option><option>County</option><option>St. Charles</option><option>Metro East</option>
-        </select>
-        <label for="f-type" class="hidden">Venue type</label>
-        <select id="f-type">
-          <option value="">All venue types</option>
-          <option>Bar/Restaurant</option><option>Brewery</option><option>Club</option><option>Theater</option><option>Arena</option><option>Festival</option>
-        </select>
-        <label class="toggle" for="f-free"><input type="checkbox" id="f-free"> Free shows only</label>
-        <div class="chips" id="genre-chips" aria-label="Genres"></div>
+        <div class="qwrap">
+          <label for="q" class="hidden">Search</label>
+          <input type="search" id="q" placeholder="Search bands, venues, genres…" autocomplete="off" spellcheck="false"
+            role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-suggest">
+          <ul id="q-suggest" class="suggest hidden" role="listbox" aria-label="Suggestions"></ul>
+        </div>
+        <div class="when chips" role="group" aria-label="When">
+          <button type="button" class="chip" data-when="" aria-pressed="true">Any day</button>
+          <button type="button" class="chip" data-when="tonight" aria-pressed="false">Tonight</button>
+          <button type="button" class="chip" data-when="tomorrow" aria-pressed="false">Tomorrow</button>
+          <button type="button" class="chip" data-when="weekend" aria-pressed="false">This weekend</button>
+          <button type="button" class="chip" data-when="nextweekend" aria-pressed="false">Next weekend</button>
+          <button type="button" class="chip" data-when="dates" aria-pressed="false">Pick dates</button>
+        </div>
+        <div class="when-dates hidden" id="when-dates">
+          <label>From <input type="date" id="w-from"></label>
+          <label>To <input type="date" id="w-to"></label>
+        </div>
+        <div class="frow">
+          <button type="button" id="f-toggle" class="fbtn" aria-expanded="false" aria-controls="f-panel">Filters<span id="f-n" class="fn hidden"></span> <span aria-hidden="true">▾</span></button>
+          <label for="f-sort" class="sortl">Sort</label>
+          <select id="f-sort" aria-label="Sort shows">
+            <option value="date">Soonest</option>
+            <option value="near">Closest to me</option>
+            <option value="new">Newly announced</option>
+          </select>
+          <button type="button" id="f-clear" class="linkbtn hidden">Clear all</button>
+          <button type="button" id="f-share" class="linkbtn hidden">Copy link to this search</button>
+        </div>
+        <div id="f-panel" class="fpanel hidden">
+          <div class="fgroup"><span class="flabel">Where</span>
+            <label for="f-area" class="hidden">Area</label>
+            <select id="f-area"><option value="">All areas</option></select>
+            <label for="f-type" class="hidden">Venue type</label>
+            <select id="f-type">
+              <option value="">All venue types</option>
+              <option>Bar/Restaurant</option><option>Brewery</option><option>Club</option><option>Theater</option><option>Arena</option><option>Festival</option>
+            </select>
+            <label for="f-dist" class="hidden">Distance from you</label>
+            <select id="f-dist">
+              <option value="0">Any distance</option><option value="2">Within 2 miles</option><option value="5">Within 5 miles</option><option value="10">Within 10 miles</option>
+            </select>
+          </div>
+          <div class="fgroup"><span class="flabel">Price</span>
+            <div class="chips" role="group" aria-label="Price">
+              <button type="button" class="chip" data-price="" aria-pressed="true">Any</button>
+              <button type="button" class="chip" data-price="free" aria-pressed="false">Free shows only</button>
+            </div></div>
+          <div class="fgroup"><span class="flabel">Time</span>
+            <div class="chips" role="group" aria-label="Time of day">
+              <button type="button" class="chip" data-tod="" aria-pressed="true">Any time</button>
+              <button type="button" class="chip" data-tod="early" aria-pressed="false">Early (before 7 PM)</button>
+              <button type="button" class="chip" data-tod="late" aria-pressed="false">Late night (10 PM+)</button>
+            </div></div>
+          <div class="fgroup"><span class="flabel">Genre</span>
+            <div class="chips" id="genre-chips" aria-label="Genres"></div></div>
+          <p class="fnote" id="f-note" aria-live="polite"></p>
+        </div>
       </div>
       <div id="announced"></div>
       <h2 id="new-head" class="page-head hidden">Just announced</h2>
@@ -500,7 +569,8 @@ function cityOfVenue(vkey){ for (const key of Object.keys(CITIES)) if (DATA[key]
 
 /* ---------- State ---------- */
 const state = {
-  view:"week", q:"", area:"", type:"", free:false, genres:new Set(),
+  view:"week", q:"", area:"", type:"", genres:new Set(),
+  when:"", wFrom:"", wTo:"", price:"", tod:"", dist:0, sort:"date", loc:null,
   city:(()=>{ try{ return localStorage.getItem("sms-city")||"stl"; }catch(e){ return "stl"; } })(),
   approved:[],          // shows approved through the admin (from db)
   mapWhen:"all", mapVenue:null, mapFit:true,
@@ -545,21 +615,94 @@ function allShows(includePast){
     .filter(s => includePast ? true : s.date >= TODAY)
     .sort((a,b) => (b.featured?1:0)-(a.featured?1:0) || a.date.localeCompare(b.date) || (a.time||"99").localeCompare(b.time||"99"));
 }
+/* ---------- Search ---------- */
+const GENRE_WORDS = {"Rock":"rock","Pop":"pop","Indie/Alt":"indie alternative alt","Punk/Emo":"punk emo poppunk","Metal/Hardcore":"metal hardcore heavy",
+  "Hip-Hop/Rap":"hip hop hiphop rap","R&B/Soul":"rnb r&b soul motown","Country":"country honkytonk","Americana/Folk/Bluegrass":"americana folk bluegrass roots acoustic",
+  "Singer-Songwriter":"singer songwriter acoustic","Blues":"blues","Jazz":"jazz","Funk/Jam":"funk jam jamband brass","Reggae/Ska":"reggae ska dub",
+  "Latin":"latin salsa cumbia reggaeton bachata tejano mariachi","Electronic/DJ":"electronic dj edm techno house dance bass dubstep rave",
+  "Classical/Orchestra":"classical orchestra symphony opera chamber choir choral philharmonic","Gospel/Christian":"gospel christian worship praise",
+  "Cover/Tribute":"cover tribute","Other":""};
+function norm(t){ return String(t||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^a-z0-9]+/g," ").trim(); }
+function lev(a,b,max){ // edit distance with adjacent swaps, gives up past max
+  if (Math.abs(a.length-b.length)>max) return max+1;
+  let p2=null,p=[...Array(b.length+1).keys()];
+  for (let i=1;i<=a.length;i++){ const c=[i]; let best=i;
+    for (let j=1;j<=b.length;j++){ let v=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1));
+      if (p2 && i>1 && j>1 && a[i-1]===b[j-2] && a[i-2]===b[j-1]) v=Math.min(v,p2[j-2]+1);
+      c.push(v); if(v<best) best=v; }
+    if (best>max) return max+1; p2=p; p=c; }
+  return p[b.length];
+}
+function tokenHits(tok,hayStr,words){
+  if (hayStr.includes(tok)) return true;
+  const max = tok.length>=7 ? 2 : tok.length>=4 ? 1 : 0;
+  if (!max) return false;
+  for (const w of words){ if (lev(tok,w,max)<=max) return true; if (w.length>tok.length && lev(tok,w.slice(0,tok.length),max)<=max-0 && tok.length>=5) return true; }
+  return false;
+}
+function showHay(s){
+  const str=norm([s.artist,s.support,s.v.name,s.v.hood,s.v.area,s.v.type,s.genre,GENRE_WORDS[s.genre]||""].join(" "));
+  return {str:" "+str+" ", words:[...new Set(str.split(" "))]};
+}
+function matchesQuery(s,toks){ if (!toks.length) return true; const h=showHay(s); return toks.every(t=>tokenHits(t,h.str,h.words)); }
+
+/* ---------- Date windows ---------- */
+function weekendFrom(iso){ const dow=parseISO(iso).getDay(); return dow===0 ? addDays(iso,-2) : dow===6 ? addDays(iso,-1) : addDays(iso,5-dow); }
+function whenRange(){
+  switch(state.when){
+    case "tonight": return [TODAY,TODAY];
+    case "tomorrow": { const t=addDays(TODAY,1); return [t,t]; }
+    case "weekend": { const f=weekendFrom(TODAY); return [f<TODAY?TODAY:f, addDays(f,2)]; }
+    case "nextweekend": { const f=addDays(weekendFrom(TODAY),7); return [f, addDays(f,2)]; }
+    case "dates": { const f=state.wFrom||TODAY, t=state.wTo||(state.wFrom?state.wFrom:addDays(TODAY,FAR_DAYS)); return f<=t ? [f,t] : [t,f]; }
+  }
+  return null;
+}
+function whenLabel(){
+  const r=whenRange(); if (!r) return "";
+  const names={tonight:"tonight",tomorrow:"tomorrow",weekend:"this weekend",nextweekend:"next weekend"};
+  const span = r[0]===r[1] ? shortDate(r[0]) : shortDate(r[0])+" – "+shortDate(r[1]);
+  return names[state.when] ? names[state.when]+" ("+span+")" : span;
+}
+
+/* ---------- Distance ---------- */
+function milesTo(v){ if (!state.loc || v.lat==null || v.lon==null) return null;
+  const R=3958.8, t=x=>x*Math.PI/180, dLa=t(v.lat-state.loc[0]), dLo=t(v.lon-state.loc[1]);
+  const h=Math.sin(dLa/2)**2+Math.cos(t(state.loc[0]))*Math.cos(t(v.lat))*Math.sin(dLo/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+function getLocation(){
+  return new Promise((ok,no)=>{
+    if (state.loc) return ok(state.loc);
+    if (!navigator.geolocation) return no(new Error("unsupported"));
+    navigator.geolocation.getCurrentPosition(p=>{ state.loc=[p.coords.latitude,p.coords.longitude]; ok(state.loc); }, no, {enableHighAccuracy:false,timeout:10000,maximumAge:300000});
+  });
+}
+
+/* ---------- Price / time helpers ---------- */
+function effTime(s){ if (s.time) return s.time; const u=usualTime(s.v.key); return u?u.split("|")[0]:""; }
+
 function filtered(range){
-  const q = state.q.trim().toLowerCase();
+  const toks = norm(state.q).split(" ").filter(Boolean);
+  const win = ["tonight","week","all","coming"].includes(range) ? whenRange() : null;
   return allShows().filter(s=>{
-    if (range==="tonight" && s.date!==TODAY) return false;
-    if (range==="week" && s.date>addDays(TODAY,6)) return false;
-    if (range==="all" && s.date>addDays(TODAY,NEAR_DAYS)) return false;
-    if (range==="coming" && (s.date<=addDays(TODAY,NEAR_DAYS) || s.date>addDays(TODAY,FAR_DAYS))) return false;
+    if (win){ if (s.date<win[0] || s.date>win[1] || s.date>addDays(TODAY,FAR_DAYS)) return false; }
+    else {
+      if (range==="tonight" && s.date!==TODAY) return false;
+      if (range==="week" && s.date>addDays(TODAY,6)) return false;
+      if (range==="all" && s.date>addDays(TODAY,NEAR_DAYS)) return false;
+      if (range==="coming" && (s.date<=addDays(TODAY,NEAR_DAYS) || s.date>addDays(TODAY,FAR_DAYS))) return false;
+    }
     if (range==="announced" && !(s.added && s.added>=addDays(TODAY,-6))) return false;
     if (range==="new" && !(s.added && s.added>=addDays(TODAY,-13))) return false;
     if (range==="saved" && !savedIds().has(s.id)) return false;
     if (state.area && s.v.area!==state.area) return false;
     if (state.type && s.v.type!==state.type) return false;
-    if (state.free && s.price!=="Free") return false;
     if (state.genres.size && !state.genres.has(s.genre)) return false;
-    if (q){ const hay=[s.artist,s.support,s.v.name,s.v.hood,s.v.area,s.genre].join(" ").toLowerCase(); if(!hay.includes(q)) return false; }
+    if (state.price==="free" && s.price!=="Free") return false;
+    if (state.tod){ const t=effTime(s); if (!t) return false;
+      if (state.tod==="early" && !(t<"19:00" && t>="06:00")) return false;
+      if (state.tod==="late" && !(t>="22:00" || t<"04:00")) return false; }
+    if (state.dist && state.loc){ const d=milesTo(s.v); if (d==null || d>state.dist) return false; }
+    if (!matchesQuery(s,toks)) return false;
     return true;
   });
 }
@@ -682,6 +825,7 @@ function showCard(s){
           : el("span",{class:"time approx",text:"Time TBA"})),
         el("a",{class:"venue",href:"#venue-"+s.v.key,text:s.v.name}),
         el("span",{text:[s.v.hood,s.v.area].filter(Boolean).join(" · ")}),
+        milesTo(s.v)!=null ? el("span",{class:"dist",text:milesTo(s.v).toFixed(1)+" mi"}) : null,
         vr.count ? el("a",{class:"stars-link",href:"#reviews",onclick:()=>{state.reviewVenue=s.v.key;},text:"★ "+vr.avg.toFixed(1)+" ("+vr.count+")","aria-label":s.v.name+" rated "+vr.avg.toFixed(1)+" out of 5 from "+vr.count+" reviews"}) : null
       ),
       (s.ages||s.priceRange) ? el("div",{class:"meta2"},
@@ -710,20 +854,31 @@ function showCard(s){
 function renderList(){
   const range = state.view;
   const shows = filtered(range);
-  const label = range==="saved" ? "saved on this device" : range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="new" ? "announced in the last 2 weeks" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
+  const wl = ["tonight","week","all","coming"].includes(range) ? whenLabel() : "";
+  const label = wl ? wl : range==="saved" ? "saved on this device" : range==="tonight" ? "tonight" : range==="week" ? "in the next 7 days" : range==="new" ? "announced in the last 2 weeks" : range==="coming" ? "announced for "+shortMonth(addDays(TODAY,NEAR_DAYS+1))+" – "+shortMonth(addDays(TODAY,FAR_DAYS)) : "in the next 6 weeks";
   renderAnnounced(range);
   $("#new-head").classList.toggle("hidden", range!=="new" && range!=="saved");
   $("#new-head").textContent = range==="saved" ? "Your saved shows" : "Just announced";
   $("#count").textContent = shows.length + (shows.length===1?" show ":" shows ") + label;
   const box = $("#list"); box.replaceChildren();
+  syncFilterUI(); updateSearchUrl();
   if (!shows.length){
     const msg = range==="tonight"
       ? ["Nothing listed tonight yet", "Try This Week, or loosen the filters. Playing tonight? Submit your show."]
       : range==="saved" ? ["No saved shows yet", "Tap ♡ Save on any show to keep it here. Saved shows stay on this phone or computer; no account needed."]
       : range==="new" ? ["Nothing newly announced yet", "New shows land here as venues announce them. Check back in a day or two."]
       : range==="coming" ? ["Nothing announced that far out yet", "We check for newly announced shows every week. Booking a show months out? Submit it."]
-      : ["No shows match", "Clear a filter or two. Know a show we're missing? Submit it."];
+      : ["No shows match", (state.dist&&state.loc?"Try a bigger distance, or c":"C")+"lear a filter or two. Know a show we're missing? Submit it."];
     box.append(el("div",{class:"empty"}, el("strong",{text:msg[0]}), msg[1], " ", el("a",{href:"#submit",text:"Submit a show →"})));
+    return;
+  }
+  if (range!=="new" && (state.sort==="new" || (state.sort==="near" && state.loc))){
+    const flat=[...shows].sort(state.sort==="new"
+      ? (a,b)=>(b.added||"").localeCompare(a.added||"")||a.date.localeCompare(b.date)
+      : (a,b)=>(milesTo(a.v)??1e9)-(milesTo(b.v)??1e9)||a.date.localeCompare(b.date)||(a.time||"99").localeCompare(b.time||"99"));
+    box.append(el("section",{class:"day flat"},
+      el("div",{class:"day-label"}, el("span",{class:"dow",text:state.sort==="new"?"Newest":"Closest"})),
+      el("div",{class:"shows"}, flat.map(datedShowCard))));
     return;
   }
   if (range==="new"){
@@ -793,7 +948,6 @@ function buildChips(){
   for (const g of GENRES.filter(g=>g!=="Other")){
     box.append(el("button",{type:"button",class:"chip","aria-pressed":"false",text:g,onclick:(e)=>{
       if (state.genres.has(g)) state.genres.delete(g); else state.genres.add(g);
-      e.currentTarget.setAttribute("aria-pressed", state.genres.has(g)?"true":"false");
       renderList();
     }}));
   }
@@ -984,9 +1138,141 @@ function renderVenuePage(){
   }
 }
 
+/* ---------- Search & filter controls ---------- */
+const LIST_VIEWS=["tonight","week","all","coming","new","saved"];
+function activeFilterCount(){ return (state.area?1:0)+(state.type?1:0)+(state.price?1:0)+(state.tod?1:0)+(state.dist?1:0)+state.genres.size; }
+function anySearch(){ return !!(state.q.trim()||state.when||activeFilterCount()||state.sort!=="date"); }
+function syncFilterUI(){
+  if ($("#q").value!==state.q) $("#q").value=state.q;
+  const press=(sel,attr,val)=>document.querySelectorAll(sel).forEach(b=>b.setAttribute("aria-pressed", b.dataset[attr]===val?"true":"false"));
+  press(".when [data-when]","when",state.when); press("[data-price]","price",state.price); press("[data-tod]","tod",state.tod);
+  $("#when-dates").classList.toggle("hidden", state.when!=="dates");
+  $("#w-from").value=state.wFrom; $("#w-to").value=state.wTo;
+  $("#f-area").value=state.area; $("#f-type").value=state.type; $("#f-dist").value=String(state.dist); $("#f-sort").value=state.sort;
+  document.querySelectorAll("#genre-chips .chip").forEach(b=>b.setAttribute("aria-pressed", state.genres.has(b.textContent)?"true":"false"));
+  const n=activeFilterCount(); $("#f-n").textContent=n; $("#f-n").classList.toggle("hidden",!n);
+  $("#f-clear").classList.toggle("hidden",!anySearch()); $("#f-share").classList.toggle("hidden",!anySearch());
+  document.querySelector(".when").classList.toggle("hidden", state.view==="new" || state.view==="saved");
+}
+function searchParams(){
+  const p=new URLSearchParams();
+  if (state.q.trim()) p.set("q",state.q.trim());
+  if (state.when) p.set("when",state.when);
+  if (state.when==="dates"){ if(state.wFrom) p.set("from",state.wFrom); if(state.wTo) p.set("to",state.wTo); }
+  if (state.genres.size) p.set("genre",[...state.genres].join(","));
+  if (state.area) p.set("area",state.area);
+  if (state.type) p.set("type",state.type);
+  if (state.price) p.set("price",state.price);
+  if (state.tod) p.set("time",state.tod);
+  if (state.sort==="new") p.set("sort","new");
+  if ([...p.keys()].length) p.set("city",state.city);
+  return p.toString();
+}
+function updateSearchUrl(){
+  if (!LIST_VIEWS.includes(state.view)) return;
+  const qs=searchParams(), want="#"+state.view+(qs?"?"+qs:"");
+  if (location.hash!==want) history.replaceState(null,"",want);
+}
+function applySearchParams(qs){
+  const p=new URLSearchParams(qs);
+  if (CITIES[p.get("city")] && p.get("city")!==state.city){ useCity(p.get("city")); if (typeof LCLUSTER!=="undefined" && LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; } }
+  state.q=p.get("q")||""; state.when=["tonight","tomorrow","weekend","nextweekend","dates"].includes(p.get("when"))?p.get("when"):"";
+  state.wFrom=/^\d{4}-\d{2}-\d{2}$/.test(p.get("from")||"")?p.get("from"):""; state.wTo=/^\d{4}-\d{2}-\d{2}$/.test(p.get("to")||"")?p.get("to"):"";
+  state.genres=new Set((p.get("genre")||"").split(",").filter(g=>GENRES.includes(g)));
+  state.area=CITIES[state.city].areas.includes(p.get("area"))?p.get("area"):"";
+  state.type=p.get("type")||""; state.price=p.get("price")==="free"?"free":"";
+  state.tod=["early","late"].includes(p.get("time"))?p.get("time"):"";
+  state.sort=p.get("sort")==="new"?"new":"date"; state.dist=0;
+}
+function clearSearch(){
+  Object.assign(state,{q:"",when:"",wFrom:"",wTo:"",area:"",type:"",price:"",tod:"",dist:0,sort:"date"}); state.genres.clear();
+  $("#f-note").textContent=""; renderList();
+}
+async function needLocation(why){
+  const note=$("#f-note"); note.textContent="Finding you…";
+  try{ await getLocation(); note.textContent="Using your location to "+why+". It stays on your device and isn't saved or sent anywhere."; return true; }
+  catch(e){ note.textContent="Couldn't get your location. Check that location access is allowed for this site."; return false; }
+}
+
+/* Suggestions as you type */
+let SUG=[], SUGI=-1;
+function buildSuggestions(q){
+  const nq=norm(q); if (nq.length<2) return [];
+  const score=name=>{ const n=norm(name); if (!n) return 0; if (n.startsWith(nq)) return 4; if ((" "+n).includes(" "+nq)) return 3; if (n.includes(nq)) return 2;
+    const toks=nq.split(" "), words=n.split(" "); return toks.every(t=>tokenHits(t," "+n+" ",words)) ? 1 : 0; };
+  const out=[], seen=new Set(), shows=allShows();
+  const artists=new Map(); for (const sh of shows) if (!artists.has(sh.artist)) artists.set(sh.artist, sh);
+  const add=(list,max)=>{ list.filter(x=>x.score>0).sort((a,b)=>b.score-a.score||a.label.localeCompare(b.label)).slice(0,max).forEach(x=>{ if(!seen.has(x.kind+x.label)){ seen.add(x.kind+x.label); out.push(x); } }); };
+  add([...artists.values()].map(sh=>({kind:"artist",label:sh.artist,sub:shortDate(sh.date)+" · "+sh.v.name,score:score(sh.artist)})),4);
+  add(Object.entries(VENUES).map(([k,v])=>({kind:"venue",label:v.name,key:k,sub:v.hood||areaLabel(v.area),score:score(v.name)})),3);
+  add([...new Set(Object.values(VENUES).map(v=>v.hood).filter(Boolean))].map(h=>({kind:"hood",label:h,sub:"Neighborhood",score:score(h)})),2);
+  add(GENRES.filter(g=>g!=="Other").map(g=>({kind:"genre",label:g,sub:"Genre",score:Math.max(score(g),score(GENRE_WORDS[g]))})),2);
+  return out.slice(0,8);
+}
+function renderSuggestions(){
+  const ul=$("#q-suggest"), q=$("#q");
+  SUG=buildSuggestions(q.value); SUGI=-1; ul.replaceChildren();
+  if (!SUG.length || document.activeElement!==q){ ul.classList.add("hidden"); q.setAttribute("aria-expanded","false"); q.removeAttribute("aria-activedescendant"); return; }
+  SUG.forEach((x,i)=>ul.append(el("li",{id:"sug-"+i,role:"option","aria-selected":"false",onmousedown:e=>{ e.preventDefault(); pickSuggestion(i); }},
+    el("span",{}, el("strong",{text:x.label}), x.sub?el("span",{class:"ssub",text:"  "+x.sub}):null),
+    el("span",{class:"stype",text:{artist:"Artist",venue:"Venue",hood:"Area",genre:"Genre"}[x.kind]}))));
+  ul.classList.remove("hidden"); q.setAttribute("aria-expanded","true");
+}
+function hideSuggestions(){ $("#q-suggest").classList.add("hidden"); $("#q").setAttribute("aria-expanded","false"); $("#q").removeAttribute("aria-activedescendant"); SUGI=-1; }
+function moveSuggestion(d){
+  if (!SUG.length) return; SUGI=(SUGI+d+SUG.length)%SUG.length;
+  document.querySelectorAll("#q-suggest li").forEach((li,i)=>li.setAttribute("aria-selected",i===SUGI?"true":"false"));
+  $("#q").setAttribute("aria-activedescendant","sug-"+SUGI);
+}
+function pickSuggestion(i){
+  const x=SUG[i]; if (!x) return; hideSuggestions();
+  if (x.kind==="venue"){ state.q=""; location.hash="venue-"+x.key; return; }
+  if (x.kind==="genre"){ state.q=""; state.genres.add(x.label); }
+  else state.q=x.label;
+  renderList();
+}
+
+function wireSearch(){
+  const q=$("#q");
+  q.addEventListener("input",e=>{ state.q=e.target.value; renderList(); renderSuggestions(); });
+  q.addEventListener("focus",renderSuggestions);
+  q.addEventListener("blur",()=>setTimeout(hideSuggestions,120));
+  q.addEventListener("keydown",e=>{
+    if (e.key==="ArrowDown"){ e.preventDefault(); moveSuggestion(1); }
+    else if (e.key==="ArrowUp"){ e.preventDefault(); moveSuggestion(-1); }
+    else if (e.key==="Enter"){ if (SUGI>=0){ e.preventDefault(); pickSuggestion(SUGI); } else { hideSuggestions(); q.blur(); } }
+    else if (e.key==="Escape"){ hideSuggestions(); }
+  });
+  document.querySelectorAll(".when [data-when]").forEach(b=>b.addEventListener("click",()=>{ state.when=b.dataset.when; if (state.when==="dates" && !state.wFrom) state.wFrom=TODAY; renderList(); if (state.when==="dates") $("#w-from").focus(); }));
+  $("#w-from").addEventListener("change",e=>{ state.wFrom=e.target.value; renderList(); });
+  $("#w-to").addEventListener("change",e=>{ state.wTo=e.target.value; renderList(); });
+  $("#w-from").min=TODAY; $("#w-to").min=TODAY;
+  for (const [attr,key] of [["price","price"],["tod","tod"]])
+    document.querySelectorAll("[data-"+attr+"]").forEach(b=>b.addEventListener("click",()=>{ state[key]=b.dataset[attr]; renderList(); }));
+  $("#f-area").addEventListener("change",e=>{ state.area=e.target.value; renderList(); });
+  $("#f-type").addEventListener("change",e=>{ state.type=e.target.value; renderList(); });
+  $("#f-dist").addEventListener("change",async e=>{ const d=Number(e.target.value);
+    if (d && !(await needLocation("show nearby shows"))){ state.dist=0; renderList(); return; }
+    state.dist=d; renderList(); });
+  $("#f-sort").addEventListener("change",async e=>{ const v=e.target.value;
+    if (v==="near" && !(await needLocation("sort by distance"))){ state.sort="date"; renderList(); return; }
+    state.sort=v; renderList(); });
+  $("#f-toggle").addEventListener("click",()=>{ const open=$("#f-panel").classList.toggle("hidden")===false; $("#f-toggle").setAttribute("aria-expanded",open?"true":"false"); });
+  if (window.innerWidth>900){ $("#f-panel").classList.remove("hidden"); $("#f-toggle").setAttribute("aria-expanded","true"); }
+  $("#f-clear").addEventListener("click",clearSearch);
+  $("#f-share").addEventListener("click",async e=>{
+    const btn=e.currentTarget, url=location.href;
+    try{ if (navigator.share && matchMedia("(pointer:coarse)").matches){ await navigator.share({title:"Show Me Shows",url}); return; }
+      await navigator.clipboard.writeText(url); btn.textContent="Link copied ✓"; }
+    catch(err){ if (err && err.name==="AbortError") return; btn.textContent="Copy failed. Use the address bar"; }
+    setTimeout(()=>btn.textContent="Copy link to this search",1800);
+  });
+}
+
 /* ---------- Views & routing ---------- */
 const VIEWS=["tonight","week","all","coming","new","saved","map","venues","reviews","submit","admin"];
 function setView(v){
+  if (typeof v==="string" && v.includes("?")){ const i=v.indexOf("?"), qs=v.slice(i+1); v=v.slice(0,i); if (CITIES[v]) { useCity(v); v="week"; } if (LIST_VIEWS.includes(v)||v==="") applySearchParams(qs); }
   if (typeof v==="string" && CITIES[v]){ if (v!==state.city){ useCity(v); if(LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; } } v="week"; }
   if (typeof v==="string" && v.startsWith("venue-")){ const ck=cityOfVenue(v.slice(6)); if (ck && ck!==state.city) useCity(ck); }
   if (typeof v==="string" && v.startsWith("show-")){
@@ -1027,15 +1313,12 @@ function render(){
 }
 window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
 
-$("#q").addEventListener("input",e=>{ state.q=e.target.value; renderList(); });
+wireSearch();
 $("#city-pick").addEventListener("change",e=>{
   useCity(e.target.value); if (LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; }
   if (location.hash.slice(1)===e.target.value) render(); else location.hash = e.target.value;
 });
 $("#vq").addEventListener("input",e=>{ state.vq=e.target.value; renderVenues(); });
-$("#f-area").addEventListener("change",e=>{ state.area=e.target.value; renderList(); });
-$("#f-type").addEventListener("change",e=>{ state.type=e.target.value; renderList(); });
-$("#f-free").addEventListener("change",e=>{ state.free=e.target.checked; renderList(); });
 
 // Form setup
 const gSel=$("#s-genre"); gSel.append(el("option",{value:"",text:"Choose…"})); for(const g of GENRES) gSel.append(el("option",{text:g}));
