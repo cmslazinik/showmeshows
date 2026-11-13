@@ -1258,7 +1258,6 @@ function wireSearch(){
     if (v==="near" && !(await needLocation("sort by distance"))){ state.sort="date"; renderList(); return; }
     state.sort=v; renderList(); });
   $("#f-toggle").addEventListener("click",()=>{ const open=$("#f-panel").classList.toggle("hidden")===false; $("#f-toggle").setAttribute("aria-expanded",open?"true":"false"); });
-  if (window.innerWidth>900){ $("#f-panel").classList.remove("hidden"); $("#f-toggle").setAttribute("aria-expanded","true"); }
   $("#f-clear").addEventListener("click",clearSearch);
   $("#f-share").addEventListener("click",async e=>{
     const btn=e.currentTarget, url=location.href;
