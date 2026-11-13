@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:19:21Z",
+ "updated": "2026-11-13T14:47:58Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -328,18 +328,6 @@
    "source": "https://www.songkick.com/concerts/43438971-big-bill-at-sinkhole"
   },
   {
-   "id": "2026-11-13-golden-cave-radio",
-   "date": "2026-11-13",
-   "time": "",
-   "artist": "Cave Radio",
-   "support": "",
-   "venue": "golden",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43457427-cave-radio-at-golden-record",
-   "source": "https://www.songkick.com/concerts/43457427-cave-radio-at-golden-record"
-  },
-  {
    "id": "2026-11-13-wildey-heartsfield",
    "date": "2026-11-13",
    "time": "",
@@ -364,30 +352,6 @@
    "source": "https://www.popsrocks.com/"
   },
   {
-   "id": "2026-11-13-elvolcan-los-plebes-de-olancho",
-   "date": "2026-11-13",
-   "time": "",
-   "artist": "Los Plebes de Olancho",
-   "support": "",
-   "venue": "elvolcan",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43486856-los-plebes-de-olancho-at-el-volcan-discoteque",
-   "source": "https://www.songkick.com/concerts/43486856-los-plebes-de-olancho-at-el-volcan-discoteque"
-  },
-  {
-   "id": "2026-11-13-familyarena-micky-dolenz",
-   "date": "2026-11-13",
-   "time": "",
-   "artist": "Micky Dolenz",
-   "support": "",
-   "venue": "familyarena",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43053117-micky-dolenz-at-family-arena",
-   "source": "https://www.songkick.com/concerts/43053117-micky-dolenz-at-family-arena"
-  },
-  {
    "id": "2026-11-13-factory-scott-bradlee-s-postmodern-jukebox",
    "date": "2026-11-13",
    "time": "",
@@ -404,11 +368,11 @@
    "date": "2026-11-13",
    "time": "",
    "artist": "The Amity Affliction",
-   "support": "blessthefall, Orthodox",
+   "support": "blessthefall, Orthodox, Buried In Spring",
    "venue": "pageant",
    "genre": "Metal/Hardcore",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/festivals/3796241-amity-affliction-houses-of-cards/id/43323922-the-amity-affliction-houses-of-cards-2026",
+   "tickets": "https://www.ticketmaster.com/event/060064E6CCEBB814",
    "source": "https://www.songkick.com/festivals/3796241-amity-affliction-houses-of-cards/id/43323922-the-amity-affliction-houses-of-cards-2026"
   },
   {
@@ -422,6 +386,19 @@
    "price": "Free",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-13-familyarena-micky-dolenz",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Micky Dolenz",
+   "support": "",
+   "venue": "familyarena",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43053117-micky-dolenz-at-family-arena",
+   "source": "https://www.songkick.com/concerts/43053117-micky-dolenz-at-family-arena"
   },
   {
    "id": "2026-11-13-evangelines-ask-jazz-trio",
@@ -458,6 +435,19 @@
    "price": "Ticketed",
    "tickets": "https://jazzstl.evenue.net/events/JSL13NOV26",
    "source": "https://www.metrotix.com/events/detail/jsl-kendrick-smith"
+  },
+  {
+   "id": "2026-11-13-golden-cave-radio",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Cave Radio",
+   "support": "",
+   "venue": "golden",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43457427-cave-radio-at-golden-record",
+   "source": "https://www.songkick.com/concerts/43457427-cave-radio-at-golden-record"
   },
   {
    "id": "2026-11-13-sovereign-akeem-ali",
@@ -509,6 +499,20 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-13-elvolcan-los-plebes-de-olancho",
+   "date": "2026-11-13",
+   "time": "21:00",
+   "timeNote": "doors",
+   "artist": "Los Plebes de Olancho",
+   "support": "",
+   "venue": "elvolcan",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43486856-los-plebes-de-olancho-at-el-volcan-discoteque",
+   "source": "https://www.songkick.com/concerts/43486856-los-plebes-de-olancho-at-el-volcan-discoteque",
+   "priceRange": "From $50"
+  },
+  {
    "id": "2026-11-13-bob-funky-butt-brass-band",
    "date": "2026-11-13",
    "time": "21:00",
@@ -547,18 +551,6 @@
    "source": "https://thefactorystl.com/"
   },
   {
-   "id": "2026-11-14-familyarena-hairball",
-   "date": "2026-11-14",
-   "time": "",
-   "artist": "Hairball",
-   "support": "",
-   "venue": "familyarena",
-   "genre": "Cover/Tribute",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43237223-hairball-at-family-arena",
-   "source": "https://www.songkick.com/concerts/43237223-hairball-at-family-arena"
-  },
-  {
    "id": "2026-11-14-synoptic-magic-tuber-stringband",
    "date": "2026-11-14",
    "time": "",
@@ -593,18 +585,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43335874-sqwerv-at-atomic-garage",
    "source": "https://www.songkick.com/concerts/43335874-sqwerv-at-atomic-garage"
-  },
-  {
-   "id": "2026-11-14-delmar-the-jayhawks",
-   "date": "2026-11-14",
-   "time": "",
-   "artist": "The Jayhawks",
-   "support": "Mary Gauthier",
-   "venue": "delmar",
-   "genre": "Country",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43293882-jayhawks-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43293882-jayhawks-at-delmar-hall"
   },
   {
    "id": "2026-11-14-powell-st--louis-symphony-orchestra--shostakovich-s-eighth",
@@ -669,6 +649,19 @@
    "source": "https://www.popsrocks.com/"
   },
   {
+   "id": "2026-11-14-familyarena-hairball",
+   "date": "2026-11-14",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Hairball",
+   "support": "",
+   "venue": "familyarena",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43237223-hairball-at-family-arena",
+   "source": "https://www.songkick.com/concerts/43237223-hairball-at-family-arena"
+  },
+  {
    "id": "2026-11-14-hawthorn-mack-geiger",
    "date": "2026-11-14",
    "time": "19:00",
@@ -717,6 +710,19 @@
    "price": "Ticketed",
    "tickets": "https://jazzstl.evenue.net/events/JSL14NOV26",
    "source": "https://www.metrotix.com/events/detail/jsl-weather-forever"
+  },
+  {
+   "id": "2026-11-14-delmar-the-jayhawks",
+   "date": "2026-11-14",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "The Jayhawks",
+   "support": "Mary Gauthier",
+   "venue": "delmar",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/060064D0D5D5F91F",
+   "source": "https://www.songkick.com/concerts/43293882-jayhawks-at-delmar-hall"
   },
   {
    "id": "2026-11-14-sheldon-jon-cleary",
@@ -768,30 +774,6 @@
    "source": "https://www.metrotix.com/events/detail/grupo-sazon-jazz"
   },
   {
-   "id": "2026-11-15-rivercity-38-special",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "38 Special",
-   "support": "",
-   "venue": "rivercity",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43386502-38-special-at-river-city-casino",
-   "source": "https://www.songkick.com/concerts/43386502-38-special-at-river-city-casino"
-  },
-  {
-   "id": "2026-11-15-delmar-afghan-whigs",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Afghan Whigs",
-   "support": "",
-   "venue": "delmar",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43255707-afghan-whigs-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43255707-afghan-whigs-at-delmar-hall"
-  },
-  {
    "id": "2026-11-15-redflag-gravehuffer",
    "date": "2026-11-15",
    "time": "",
@@ -814,30 +796,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record",
    "source": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record"
-  },
-  {
-   "id": "2026-11-15-citywinery-kamasi-washington",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Kamasi Washington",
-   "support": "Ami Taf Ra",
-   "venue": "citywinery",
-   "genre": "Jazz",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43395258-kamasi-washington-at-city-winery-st-louis",
-   "source": "https://www.songkick.com/concerts/43395258-kamasi-washington-at-city-winery-st-louis"
-  },
-  {
-   "id": "2026-11-15-pageant-shaun-cassidy",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Shaun Cassidy",
-   "support": "",
-   "venue": "pageant",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43333268-shaun-cassidy-at-pageant",
-   "source": "https://www.songkick.com/concerts/43333268-shaun-cassidy-at-pageant"
   },
   {
    "id": "2026-11-15-powell-st--louis-symphony-orchestra--shostakovich-s-eighth",
@@ -890,6 +848,19 @@
    "source": "https://www.metrotix.com/events/detail/tim-schall-sunday-standard-time"
   },
   {
+   "id": "2026-11-15-citywinery-kamasi-washington",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "timeNote": "doors",
+   "artist": "Kamasi Washington",
+   "support": "Ami Taf Ra",
+   "venue": "citywinery",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43395258-kamasi-washington-at-city-winery-st-louis",
+   "source": "https://www.songkick.com/concerts/43395258-kamasi-washington-at-city-winery-st-louis"
+  },
+  {
    "id": "2026-11-15-sheldon-sam-grisman-project",
    "date": "2026-11-15",
    "time": "19:00",
@@ -914,6 +885,45 @@
    "tickets": "https://www.songkick.com/concerts/43484130-pink-stones-at-sinkhole",
    "source": "https://www.songkick.com/concerts/43484130-pink-stones-at-sinkhole",
    "added": "2026-11-11"
+  },
+  {
+   "id": "2026-11-15-rivercity-38-special",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "38 Special",
+   "support": "",
+   "venue": "rivercity",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43386502-38-special-at-river-city-casino",
+   "source": "https://www.songkick.com/concerts/43386502-38-special-at-river-city-casino"
+  },
+  {
+   "id": "2026-11-15-delmar-afghan-whigs",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Afghan Whigs",
+   "support": "Night Moves",
+   "venue": "delmar",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/060064BBD75DC732",
+   "source": "https://www.songkick.com/concerts/43255707-afghan-whigs-at-delmar-hall"
+  },
+  {
+   "id": "2026-11-15-pageant-shaun-cassidy",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Shaun Cassidy",
+   "support": "",
+   "venue": "pageant",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/060064EF962AAF60",
+   "source": "https://www.songkick.com/concerts/43333268-shaun-cassidy-at-pageant"
   },
   {
    "id": "2026-11-15-bob-broken-jukebox",
@@ -980,11 +990,11 @@
    "date": "2026-11-16",
    "time": "",
    "artist": "Skilla Baby",
-   "support": "",
+   "support": "Sada Baby, DJ OC",
    "venue": "pageant",
    "genre": "Hip-Hop/Rap",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43389076-skilla-baby-at-pageant",
+   "tickets": "https://www.ticketmaster.com/event/0600651A94584E0A",
    "source": "https://www.songkick.com/concerts/43389076-skilla-baby-at-pageant"
   },
   {
