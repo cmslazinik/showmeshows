@@ -437,6 +437,9 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
           <div class="field"><label for="s-price">Cover</label>
             <select id="s-price"><option>Ticketed</option><option>Free</option></select></div>
           <div class="field full"><label for="s-url">Ticket link</label><input id="s-url" type="url" placeholder="https://"></div>
+          <div class="field"><label for="s-spotify">Spotify link</label><input id="s-spotify" type="url" inputmode="url" placeholder="https://open.spotify.com/artist/…" aria-describedby="s-music-help"></div>
+          <div class="field"><label for="s-apple">Apple Music link</label><input id="s-apple" type="url" inputmode="url" placeholder="https://music.apple.com/us/artist/…" aria-describedby="s-music-help"></div>
+          <p class="note full" id="s-music-help" style="margin:2px 0 14px">Optional. In the app, open the artist's page, tap Share, then Copy link. We only accept real Spotify and Apple Music links.</p>
           <div class="field full"><label for="s-contact">Your email (so we can confirm) *</label><input id="s-contact" type="email" required></div>
           <label class="toggle full" for="s-feature" style="margin-bottom:14px"><input type="checkbox" id="s-feature"> I'd like this show featured at the top of the list (we'll email you the details)</label>
         </div>
@@ -598,6 +601,18 @@ const NEAR_DAYS = 45, FAR_DAYS = 183; // All Shows = next 45 days; Coming Up = a
 function addDays(iso,n){ const [y,m,d]=iso.split("-").map(Number); const t=new Date(y,m-1,d+n); return localISO(t); }
 function parseISO(iso){ const [y,m,d]=iso.split("-").map(Number); return new Date(y,m-1,d); }
 function fmtTime(t){ if(!t) return ""; const [h,m]=t.split(":").map(Number); const ap=h>=12?"PM":"AM"; const hh=((h+11)%12)+1; return hh+(m?":"+String(m).padStart(2,"0"):"")+" "+ap; }
+/* Only real Spotify / Apple Music pages pass. Returns a clean link (tracking bits removed) or null. */
+function spotifyLink(u){
+  try{ const x=new URL(String(u).trim()); if (x.protocol!=="https:" || x.hostname!=="open.spotify.com") return null;
+    const m=x.pathname.match(/^\/(?:intl-[a-z]{2}(?:-[a-z]{2})?\/)?(artist|album|track|playlist)\/([A-Za-z0-9]{22})\/?$/);
+    return m ? "https://open.spotify.com/"+m[1]+"/"+m[2] : null; }catch(e){ return null; }
+}
+function appleMusicLink(u){
+  try{ const x=new URL(String(u).trim()); if (x.protocol!=="https:" || x.hostname!=="music.apple.com") return null;
+    const m=x.pathname.match(/^\/([a-z]{2})\/(artist|album|song|playlist)\/([^\/]+)\/(\d+|pl\.[A-Za-z0-9-]+)\/?$/);
+    if (!m) return null;
+    const i=x.searchParams.get("i"); return "https://music.apple.com/"+m[1]+"/"+m[2]+"/"+m[3]+"/"+m[4]+(i&&/^\d+$/.test(i)?"?i="+i:""); }catch(e){ return null; }
+}
 function safeUrl(u){ try{ const x=new URL(u); return (x.protocol==="https:"||x.protocol==="http:")?x.href:null; }catch(e){ return null; } }
 function slug(s){ return String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40); }
 
@@ -837,8 +852,8 @@ function showCard(s){
           el("a",{href:googleCalUrl(s),target:"_blank",rel:"noopener",text:"Google Calendar ↗"}),
           el("button",{type:"button",text:"Apple / Outlook",onclick:()=>addToCalendar(s)})]) : null,
         actMenu("listen","Listen","Listen to "+s.artist,[
-          el("a",{href:listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
-          el("a",{href:appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})]),
+          el("a",{href:spotifyLink(s.spotify)||listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
+          el("a",{href:appleMusicLink(s.apple)||appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})]),
         (()=>{ const b=el("button",{type:"button",class:"act","aria-label":"Share "+s.artist}); const lbl=el("span",{text:"Share"});
           b.append(actIcon("share"),lbl); b.onclick=()=>shareShow(s,lbl); return b; })()
       )
@@ -1415,6 +1430,9 @@ $("#submit-form").addEventListener("submit", async e=>{
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(item.contact)) return setStatus("#s-status","That email address doesn't look right.","err");
   if (item.date < TODAY) return setStatus("#s-status","That date has already passed.","err");
   if (item.url && !safeUrl(item.url)) return setStatus("#s-status","The event link should start with https://","err");
+  const sp=f("#s-spotify"), am=f("#s-apple");
+  if (sp){ item.spotify=spotifyLink(sp); if (!item.spotify) return setStatus("#s-status","That Spotify link doesn't look right. It should start with https://open.spotify.com/artist/ (or /album/ or /track/).","err"); }
+  if (am){ item.apple=appleMusicLink(am); if (!item.apple) return setStatus("#s-status","That Apple Music link doesn't look right. It should start with https://music.apple.com/ and point to an artist, album or song.","err"); }
   // Known venue? Attach its key so it lands on the map.
   const known = Object.entries(VENUES).find(([k,v])=>v.name.toLowerCase()===item.venueName.toLowerCase());
   if (known){ item.venue=known[0]; }
@@ -1567,7 +1585,11 @@ function renderAdmin(){
       el("strong",{text:it.artist}), it.support?" with "+it.support:"", el("br"),
       el("span",{class:"note",text:[it.date,fmtTime(it.time),it.venueName,it.area,it.type,it.genre,it.price].filter(Boolean).join(" · ")}), el("br"),
       el("span",{class:"note",text:"Contact: "+it.contact+(it.wantsFeature?" · WANTS FEATURED":"")}),
-      url? el("div",{}, el("a",{href:url,target:"_blank",rel:"noopener",text:"Event link ↗"})):null
+      url? el("div",{}, el("a",{href:url,target:"_blank",rel:"noopener",text:"Event link ↗"})):null,
+      (spotifyLink(it.spotify)||appleMusicLink(it.apple)) ? el("div",{class:"row"},
+        spotifyLink(it.spotify)? el("a",{href:spotifyLink(it.spotify),target:"_blank",rel:"noopener",text:"Spotify link ↗"}):null,
+        appleMusicLink(it.apple)? el("a",{href:appleMusicLink(it.apple),target:"_blank",rel:"noopener",text:"Apple Music link ↗"}):null,
+        el("span",{class:"note",text:"Check these open the right artist before approving."})) : null
     );
     const row=el("div",{class:"row"});
     const approve=async(featured)=>{
@@ -1575,6 +1597,8 @@ function renderAdmin(){
       try{
         const show={artist:it.artist,support:it.support||"",date:it.date,time:it.time||"",venue:it.venue||"",venueName:it.venueName,venueAddr:it.venueAddr||"",
           area:it.area,type:it.type,genre:it.genre,price:it.price,tickets:it.url||"",featured:!!featured,approvedAt:new Date().toISOString()};
+        if (spotifyLink(it.spotify)) show.spotify=spotifyLink(it.spotify);
+        if (appleMusicLink(it.apple)) show.apple=appleMusicLink(it.apple);
         await state.db.doc("shows/"+it.id).set(show);
         await setSubmissionStatus(uid,it.id,"approved");
       }catch(e){ row.querySelectorAll("button").forEach(b=>b.disabled=false); }
