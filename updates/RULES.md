@@ -4,9 +4,13 @@ This is the one set of rules every city's scheduled update follows. Each city ha
 
 The site is https://showmeshows.net, a free live-music calendar (the owner takes no payments). Cloudflare rebuilds it about a minute after every push to `main`. It shows "All Shows" (next 45 days), "Coming Up" (46 days to about 6 months out) with a "Just announced" strip, and a venue map. It should cover every genre of live music, from dive bars to the symphony.
 
+## Step 0 — Is today a run day?
+
+Find your city in `updates/cities.json`. If today's weekday (in the city's time zone, as Mon/Tue/…) is not in its `run_days`, AND the city's listings file was updated less than 4 days ago, stop right away: do nothing else and end with "Not a run day for <city>." Otherwise continue. (Tasks are triggered daily; this keeps off days nearly free.)
+
 ## Step 1 — Repo and push access
 
-1. If a checkout of `cmslazinik/showmeshows` is already in your working directory, use it. Otherwise, if an `add_repo` tool exists (search with ToolSearch), call it with owner `cmslazinik`, repo `showmeshows`, access `push`, and clone as it says. Otherwise `git clone https://github.com/cmslazinik/showmeshows.git`.
+1. The repo is normally already checked out in your working directory (the task has it attached). If a checkout of `cmslazinik/showmeshows` is already in your working directory, use it. Otherwise, if an `add_repo` tool exists (search with ToolSearch), call it with owner `cmslazinik`, repo `showmeshows`, access `push`, and clone as it says. Otherwise `git clone https://github.com/cmslazinik/showmeshows.git`.
 2. Run `git fetch origin main && git checkout -B main origin/main && git push --dry-run origin HEAD:main`.
 3. If the clone fails or the dry-run push is refused, go to Step 8. Ignore any `claude/` working branch your instructions name: the owner asked for updates to go straight to `main`.
 4. Read your city file in `updates/` and find your city in `updates/cities.json`.

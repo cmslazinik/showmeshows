@@ -1,5 +1,5 @@
 {
- "note": "Every city on Show Me Shows. The update tasks and the morning health check read this. max_age_hours = how stale the listings file may get before the health check raises an alarm.",
+ "note": "Every city on Show Me Shows. The update tasks and the morning health check read this. Each city's task is triggered daily; run_days says which days it actually updates (other days it stops at once). max_age_hours = how stale the listings file may get before the health check raises an alarm.",
  "cities": [
   {
    "key": "stl",
@@ -11,9 +11,18 @@
    "schedule": "daily",
    "deep_day": "Monday",
    "commit_prefix": "Daily listings update",
-   "task_id": "trig_01FX8Jvsacu1AMxc3HkrKBaJ",
+   "task_id": "trig_01NCdAjWeKCxb2QPMnrcxbqG",
    "min_shows": 50,
-   "max_age_hours": 30
+   "max_age_hours": 30,
+   "run_days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ]
   },
   {
    "key": "denver",
@@ -25,9 +34,14 @@
    "schedule": "Mon/Wed/Fri",
    "deep_day": "Wednesday",
    "commit_prefix": "Denver listings update",
-   "task_id": "trig_018jBE79B28YMDBcKEs5ashN",
+   "task_id": "trig_01WSm2FqvAji3BS7xV2dHRDc",
    "min_shows": 50,
-   "max_age_hours": 80
+   "max_age_hours": 80,
+   "run_days": [
+    "Mon",
+    "Wed",
+    "Fri"
+   ]
   },
   {
    "key": "kc",
@@ -39,9 +53,14 @@
    "schedule": "Tue/Thu/Sat",
    "deep_day": "Thursday",
    "commit_prefix": "Kansas City listings update",
-   "task_id": "trig_01MCWjhD2T4vdWLfEXxrMbfb",
+   "task_id": "trig_01JiYRn3eUHEo8RMoMuGrVKv",
    "min_shows": 30,
-   "max_age_hours": 80
+   "max_age_hours": 80,
+   "run_days": [
+    "Tue",
+    "Thu",
+    "Sat"
+   ]
   }
  ]
 }
