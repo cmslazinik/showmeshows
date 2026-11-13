@@ -7,10 +7,21 @@
 <meta property="og:title" content="Show Me Shows: St. Louis live music, every night">
 <meta property="og:description" content="Every live show in St. Louis & the Metro East, updated daily with times and ticket links.">
 <title>Show Me Shows</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preload" href="/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/special-elite-400.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+/* Fonts are served from this site (no Google round trip), so they arrive with the page and the layout doesn't jump. */
+@font-face{font-family:"Anton";src:url(/fonts/anton-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Special Elite";src:url(/fonts/special-elite-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Archivo";src:url(/fonts/archivo-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Archivo";src:url(/fonts/archivo-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Archivo";src:url(/fonts/archivo-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Archivo";src:url(/fonts/archivo-700.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(/fonts/plex-mono-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(/fonts/plex-mono-600.woff2) format("woff2");font-weight:600;font-display:swap}
+/* Hold space for the show list while it loads, so the footer doesn't jump up and back down. */
+#list:empty{min-height:110vh}
 /* Layout idea: a risograph gig-poster listing — day-by-day columns of shows, ink on newsprint, pink and blue spot colors. */
 :root{
   /* Xerox flyer: photocopy black, off-white ink, hot pink spot color */
@@ -270,7 +281,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <div class="mast-right">
         <div class="city-switch"><label for="city-pick">City</label>
           <select id="city-pick"><option value="stl">St. Louis</option><option value="denver">Denver</option><option value="kc">Kansas City</option></select></div>
-        <p class="tag"><strong id="today-line">Tuesday, Nov 10</strong><span id="city-tag">Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</span></p>
+        <p class="tag"><strong id="today-line"><script>document.currentScript.parentNode.textContent=new Date().toLocaleDateString("en-US",{weekday:"long",month:"short",day:"numeric"})</script></strong><span id="city-tag">Every live show in St. Louis &amp; the Metro East: clubs, bars, breweries, theaters, arenas, festivals.</span></p>
       </div>
     </div>
     <nav class="tabs" aria-label="Sections">
@@ -1308,7 +1319,10 @@ function setView(v){
   $("#view-submit").classList.toggle("hidden",v!=="submit");
   $("#view-reviews").classList.toggle("hidden",v!=="reviews");
   $("#view-admin").classList.toggle("hidden",v!=="admin");
-  render();
+  const finish=()=>{ render(); afterRender(v); };
+  if (state.booted) requestAnimationFrame(()=>setTimeout(finish,0)); else { state.booted=true; finish(); }
+}
+function afterRender(v){
   if (v==="venue" && state.flash){
     const card=document.querySelector('#view-venue .show[data-id="'+CSS.escape(state.flash)+'"]'); state.flash=null;
     if (card){ card.classList.add("flash"); setTimeout(()=>card.scrollIntoView({block:"center"}),50); } else window.scrollTo(0,0);
@@ -1328,10 +1342,10 @@ function render(){
 window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
 
 wireSearch();
-$("#city-pick").addEventListener("change",e=>{
-  useCity(e.target.value); if (LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; }
-  if (location.hash.slice(1)===e.target.value) render(); else location.hash = e.target.value;
-});
+$("#city-pick").addEventListener("change",e=>{ const val=e.target.value; setTimeout(()=>{
+  useCity(val); if (LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; }
+  if (location.hash.slice(1)===val) render(); else location.hash = val;
+},0); });
 $("#vq").addEventListener("input",e=>{ state.vq=e.target.value; renderVenues(); });
 
 // Form setup
