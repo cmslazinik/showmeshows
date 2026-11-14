@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T14:47:58Z",
+ "updated": "2026-11-14T10:36:11Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -988,14 +988,16 @@
   {
    "id": "2026-11-16-pageant-skilla-baby",
    "date": "2026-11-16",
-   "time": "",
+   "time": "20:00",
    "artist": "Skilla Baby",
    "support": "Sada Baby, DJ OC",
    "venue": "pageant",
    "genre": "Hip-Hop/Rap",
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/event/0600651A94584E0A",
-   "source": "https://www.songkick.com/concerts/43389076-skilla-baby-at-pageant"
+   "source": "https://www.thepageant.com/event/skilla-baby-111626/",
+   "ages": "18+",
+   "priceRange": "$25.50–$39.50"
   },
   {
    "id": "2026-11-16-offbroadway-adult----a-place-to-bury-strangers",
@@ -1046,30 +1048,6 @@
    "source": "https://oldrockhouse.com/"
   },
   {
-   "id": "2026-11-17-delmar-almost-monday",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Almost Monday",
-   "support": "Feel Trip",
-   "venue": "delmar",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43286645-almost-monday-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43286645-almost-monday-at-delmar-hall"
-  },
-  {
-   "id": "2026-11-17-pageant-alter-bridge",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Alter Bridge",
-   "support": "Big Wreck, Tim Montana",
-   "venue": "pageant",
-   "genre": "Metal/Hardcore",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43236036-alter-bridge-at-pageant",
-   "source": "https://www.songkick.com/concerts/43236036-alter-bridge-at-pageant"
-  },
-  {
    "id": "2026-11-17-factory-little-feat",
    "date": "2026-11-17",
    "time": "",
@@ -1080,6 +1058,20 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/little-feat-the-last-farewell-tour-saint-louis-missouri-11-17-2026/event/2100648FD3D92DD5",
    "source": "https://thefactorystl.com/"
+  },
+  {
+   "id": "2026-11-17-pageant-alter-bridge",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "artist": "Alter Bridge",
+   "support": "Big Wreck, Tim Montana",
+   "venue": "pageant",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.thepageant.com/event/alter-bridge-111726/",
+   "source": "https://www.thepageant.com/event/alter-bridge-111726/",
+   "ages": "All ages",
+   "priceRange": "$49.50–$70"
   },
   {
    "id": "2026-11-17-citywinery-rozzi",
@@ -1094,6 +1086,20 @@
    "tickets": "https://citywinery.com/pages/events/st-louis",
    "source": "https://www.songkick.com/concerts/43395263-rozzi-at-city-winery-st-louis",
    "added": "2026-11-10"
+  },
+  {
+   "id": "2026-11-17-delmar-almost-monday",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "artist": "Almost Monday",
+   "support": "Feel Trip",
+   "venue": "delmar",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.thepageant.com/event/almost-monday-111726/",
+   "source": "https://www.thepageant.com/event/almost-monday-111726/",
+   "ages": "All ages",
+   "priceRange": "$25–$30"
   },
   {
    "id": "2026-11-17-bob-eric-lysaght",
@@ -1192,7 +1198,9 @@
    "genre": "Indie/Alt",
    "price": "Ticketed",
    "tickets": "https://blueberryhill.com/event/protomartyr/",
-   "source": "https://blueberryhill.com/shows/"
+   "source": "https://www.thepageant.com/event/protomartyr-111826/",
+   "ages": "All ages",
+   "priceRange": "$29.95–$35.95"
   },
   {
    "id": "2026-11-18-bob-steve-bauer---matt-rudolf",
@@ -1333,18 +1341,6 @@
    "source": "https://www.riversandroutes.com/events/anthology-at-the-wildey-theatre/"
   },
   {
-   "id": "2026-11-20-delmar-ax-and-the-hatchetmen",
-   "date": "2026-11-20",
-   "time": "",
-   "artist": "Ax and the Hatchetmen",
-   "support": "John-Robert",
-   "venue": "delmar",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43226602-ax-and-the-hatchetmen-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43226602-ax-and-the-hatchetmen-at-delmar-hall"
-  },
-  {
    "id": "2026-11-20-pops-black-stone-cherry--bonfire-nights-acoustic-",
    "date": "2026-11-20",
    "time": "",
@@ -1367,18 +1363,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43364899-don-trip-at-golden-record",
    "source": "https://www.songkick.com/concerts/43364899-don-trip-at-golden-record"
-  },
-  {
-   "id": "2026-11-20-pageant-foghat",
-   "date": "2026-11-20",
-   "time": "",
-   "artist": "Foghat",
-   "support": "",
-   "venue": "pageant",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43363593-foghat-at-pageant",
-   "source": "https://www.songkick.com/concerts/43363593-foghat-at-pageant"
   },
   {
    "id": "2026-11-20-atomic-justin-rose",
@@ -1479,6 +1463,35 @@
    "tickets": "https://www.songkick.com/concerts/43508196-dour-at-dissonant-works",
    "source": "https://www.songkick.com/concerts/43508196-dour-at-dissonant-works",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-20-delmar-ax-and-the-hatchetmen",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "artist": "Ax and the Hatchetmen",
+   "support": "John-Robert",
+   "venue": "delmar",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.thepageant.com/event/ax-and-the-hatchetmen-112026/",
+   "source": "https://www.thepageant.com/event/ax-and-the-hatchetmen-112026/",
+   "ages": "All ages",
+   "status": "soldout"
+  },
+  {
+   "id": "2026-11-20-pageant-foghat",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "artist": "Foghat",
+   "support": "Spark Thugs",
+   "venue": "pageant",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.thepageant.com/event/foghat-112026/",
+   "source": "https://www.thepageant.com/event/foghat-112026/",
+   "ages": "All ages",
+   "priceRange": "$30–$60",
+   "status": "soldout"
   },
   {
    "id": "2026-11-20-orh-victor-wooten---the-wooten-brothers",
