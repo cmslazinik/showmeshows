@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T21:10:20Z",
+ "updated": "2026-11-14T11:51:50Z",
  "note": "Kansas City listings. Refreshed by the Kansas City scheduled update (see updates/RULES.md).",
  "shows": [
   {
@@ -461,6 +461,20 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-15-recordbar-mike-baggetta",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Mike Baggetta",
+   "support": "Eli Winter",
+   "venue": "recordbar",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/concerts/43342908-mike-baggetta-at-recordbar",
+   "source": "https://songkick.com/concerts/43342908-mike-baggetta-at-recordbar",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-15-kcamericanroyal-los-huracanes-del-norte",
    "date": "2026-11-15",
    "time": "",
@@ -484,19 +498,6 @@
    "price": "Ticketed",
    "tickets": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
    "source": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-15-recordbar-mike-baggetta",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Mike Baggetta",
-   "support": "Eli Winter",
-   "venue": "recordbar",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/concerts/43342908-mike-baggetta-at-recordbar",
-   "source": "https://songkick.com/concerts/43342908-mike-baggetta-at-recordbar",
    "added": "2026-11-12"
   },
   {
@@ -566,6 +567,20 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-17-knuckleheads-bahamas",
+   "date": "2026-11-17",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Bahamas",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43091508-bahamas-at-knuckleheads",
+   "source": "https://www.songkick.com/concerts/43091508-bahamas-at-knuckleheads",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-17-kcblackdolphin-reyes-brothers-organ-trio",
    "date": "2026-11-17",
    "time": "20:00",
@@ -576,6 +591,20 @@
    "price": "Ticketed",
    "tickets": "https://kclive411.com/venue/entry/6999/?venue=Black+Dolphin",
    "source": "https://kclive411.com/venue/entry/6999/?venue=Black+Dolphin",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-17-kcuptown-switchfoot",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Switchfoot",
+   "support": "Anberlin",
+   "venue": "kcuptown",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43208812-switchfoot-at-uptown-theater",
+   "source": "https://www.songkick.com/concerts/43208812-switchfoot-at-uptown-theater",
    "added": "2026-11-12"
   },
   {
@@ -592,32 +621,6 @@
    "added": "2026-11-12"
   },
   {
-   "id": "2026-11-17-kcuptown-switchfoot",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Switchfoot",
-   "support": "Anberlin",
-   "venue": "kcuptown",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
-   "source": "https://songkick.com/venues/631-uptown-theater/calendar",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-17-knuckleheads-bahamas",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Bahamas",
-   "support": "",
-   "venue": "knuckleheads",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/58273-knuckleheads",
-   "source": "https://songkick.com/venues/58273-knuckleheads",
-   "added": "2026-11-12"
-  },
-  {
    "id": "2026-11-18-kcbbslawnside-hudspeth---taylor",
    "date": "2026-11-18",
    "time": "19:00",
@@ -628,6 +631,20 @@
    "price": "Ticketed",
    "tickets": "https://blueskc.org/events/month",
    "source": "https://blueskc.org/events/month",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-18-kctruman-almost-monday",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "Almost Monday",
+   "support": "Feel Trip",
+   "venue": "kctruman",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43287694-almost-monday-at-truman",
+   "source": "https://www.songkick.com/concerts/43287694-almost-monday-at-truman",
    "added": "2026-11-12"
   },
   {
@@ -654,19 +671,6 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/venues/1297-bottleneck",
    "source": "https://songkick.com/venues/1297-bottleneck",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-18-kctruman-almost-monday",
-   "date": "2026-11-18",
-   "time": "",
-   "artist": "Almost Monday",
-   "support": "Feel Trip",
-   "venue": "kctruman",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
-   "source": "https://songkick.com/venues/3600214-truman/calendar",
    "added": "2026-11-12"
   },
   {
@@ -709,6 +713,20 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-19-knuckleheads-vincent",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "timeNote": "doors",
+   "artist": "Vincent",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43434481-vincent-at-knuckleheads",
+   "source": "https://www.songkick.com/concerts/43434481-vincent-at-knuckleheads",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-19-kcblackdolphin-mark-slimm-duo",
    "date": "2026-11-19",
    "time": "20:00",
@@ -732,19 +750,6 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/venues/11287-replay-lounge",
    "source": "https://songkick.com/venues/11287-replay-lounge",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-19-knuckleheads-vincent",
-   "date": "2026-11-19",
-   "time": "",
-   "artist": "Vincent",
-   "support": "",
-   "venue": "knuckleheads",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/58273-knuckleheads",
-   "source": "https://songkick.com/venues/58273-knuckleheads",
    "added": "2026-11-12"
   },
   {
@@ -997,6 +1002,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-21-knuckleheads-katy-guillen-and-the-drive",
+   "date": "2026-11-21",
+   "time": "",
+   "artist": "Katy Guillen and The Drive",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43434513-katy-guillen-and-the-drive-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2026-11-22-kauffman-kansas-city-symphony--brahms--german-requiem",
    "date": "2026-11-22",
    "time": "14:00",
@@ -1023,6 +1041,20 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-22-kcuptown-brandi-carlile",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Brandi Carlile",
+   "support": "",
+   "venue": "kcuptown",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
+   "source": "https://www.songkick.com/concerts/43438098-brandi-carlile-at-uptown-theater",
+   "added": "2026-11-12"
+  },
+  {
    "id": "2026-11-22-granadalawrence-chat-pile",
    "date": "2026-11-22",
    "time": "",
@@ -1046,19 +1078,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-22-kcuptown-brandi-carlile",
-   "date": "2026-11-22",
-   "time": "",
-   "artist": "Brandi Carlile",
-   "support": "",
-   "venue": "kcuptown",
-   "genre": "Americana/Folk/Bluegrass",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
-   "source": "https://songkick.com/venues/631-uptown-theater/calendar",
    "added": "2026-11-12"
   },
   {
@@ -1180,6 +1199,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-25-knuckleheads-found-a-job",
+   "date": "2026-11-25",
+   "time": "",
+   "artist": "Found a Job",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43434522-found-a-job-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2026-11-26-kcblackdolphin-mark-slimm-duo",
    "date": "2026-11-26",
    "time": "20:00",
@@ -1271,6 +1303,19 @@
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/2026/06/15/kansas-city-symphony-announces-single-tickets-on-sale-for-2026-27-season/",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-27-kctruman-reggaeton-rave",
+   "date": "2026-11-27",
+   "time": "",
+   "artist": "Reggaeton Rave",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43490425-reggaeton-rave-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-11-28-kcblackdolphin-sam-platt-trio",
@@ -1429,6 +1474,20 @@
    "tickets": "https://kclive411.com/venue/entry/6999/?venue=Black+Dolphin",
    "source": "https://kclive411.com/venue/entry/6999/?venue=Black+Dolphin",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-30-kcencore-chrissy-chlapecka",
+   "date": "2026-11-30",
+   "time": "20:00",
+   "timeNote": "doors",
+   "artist": "Chrissy Chlapecka",
+   "support": "",
+   "venue": "kcencore",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43314308-chrissy-chlapecka-at-encore-uptown-theater",
+   "source": "https://www.songkick.com/concerts/43314308-chrissy-chlapecka-at-encore-uptown-theater",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-11-30-libertyhall-your-arms-are-my-cocoon",
@@ -1654,6 +1713,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-04-knuckleheads-jeff-black",
+   "date": "2026-12-04",
+   "time": "",
+   "artist": "Jeff Black",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43434536-jeff-black-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2026-12-05-kcblackdolphin-sam-platt-trio",
    "date": "2026-12-05",
    "time": "18:30",
@@ -1733,6 +1805,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-05-kctruman-ahee",
+   "date": "2026-12-05",
+   "time": "",
+   "artist": "Ahee",
+   "support": "Green Matter",
+   "venue": "kctruman",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43455386-ahee-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2026-12-06-kcfolly-heartland-men-s-chorus--don-we-now-",
    "date": "2026-12-06",
    "time": "15:30",
@@ -1809,6 +1894,19 @@
    "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
    "source": "https://songkick.com/venues/631-uptown-theater/calendar",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-06-knuckleheads-david-cook",
+   "date": "2026-12-06",
+   "time": "",
+   "artist": "David Cook",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43401039-david-cook-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-12-07-blueroomkc-monday-night-jam-session--chris-hazelton",
@@ -1956,6 +2054,19 @@
    "tickets": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
    "source": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-12-kctruman-king-s-x",
+   "date": "2026-12-12",
+   "time": "",
+   "artist": "King's X",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43498946-kings-x-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-12-13-kcfolly-preservation-hall-jazz-band",
@@ -2609,6 +2720,19 @@
    "priceRange": "$14–$25"
   },
   {
+   "id": "2027-02-06-knuckleheads-bumpin-uglies",
+   "date": "2027-02-06",
+   "time": "",
+   "artist": "Bumpin Uglies",
+   "support": "Jakobs Castle",
+   "venue": "knuckleheads",
+   "genre": "Reggae/Ska",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43487159-bumpin-uglies-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-02-07-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4",
    "date": "2027-02-07",
    "time": "14:00",
@@ -2632,6 +2756,19 @@
    "tickets": "https://lied.ku.edu/event/ku-symphony-orchestra-liberty-north/",
    "source": "https://lied.ku.edu/events-all/page/2",
    "priceRange": "$8–$11"
+  },
+  {
+   "id": "2027-02-11-knuckleheads-lydia-loveless",
+   "date": "2027-02-11",
+   "time": "",
+   "artist": "Lydia Loveless",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43497987-lydia-loveless-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2027-02-12-kauffman-kansas-city-symphony--clouds-in-my-coffee--the-music-of-joni-mitchell--carole-king-and-carly-simon",
@@ -2668,6 +2805,19 @@
    "price": "Ticketed",
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/pops-series-2026-27/"
+  },
+  {
+   "id": "2027-02-15-kctruman-public-image-ltd--pil-",
+   "date": "2027-02-15",
+   "time": "",
+   "artist": "Public Image Ltd (PiL)",
+   "support": "Plague Vendor",
+   "venue": "kctruman",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43450635-public-image-ltd-pil-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2027-02-16-kclied-rhiannon-giddens",
@@ -2803,6 +2953,19 @@
    "source": "https://songkick.com/venues/631-uptown-theater/calendar"
   },
   {
+   "id": "2027-02-25-kctruman-grace-potter",
+   "date": "2027-02-25",
+   "time": "",
+   "artist": "Grace Potter",
+   "support": "Langhorne Slim",
+   "venue": "kctruman",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43510505-grace-potter-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-02-26-kcuptown-wheeler-walker--jr-",
    "date": "2027-02-26",
    "time": "",
@@ -2863,6 +3026,19 @@
    "source": "https://www.kcsymphony.org/2026-27-special-presentation-concerts/"
   },
   {
+   "id": "2027-03-04-kctruman-liquid-stranger",
+   "date": "2027-03-04",
+   "time": "",
+   "artist": "Liquid Stranger",
+   "support": "Sully, TWOPERCENT",
+   "venue": "kctruman",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43497763-liquid-stranger-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-03-05-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life",
    "date": "2027-03-05",
    "time": "20:00",
@@ -2885,6 +3061,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
+  },
+  {
+   "id": "2027-03-05-knuckleheads-james-mcmurtry",
+   "date": "2027-03-05",
+   "time": "",
+   "artist": "James McMurtry",
+   "support": "",
+   "venue": "knuckleheads",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43511971-james-mcmurtry-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2027-03-06-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life",
@@ -3007,6 +3196,19 @@
    "source": "https://www.kcsymphony.org/pops-series-2026-27/"
   },
   {
+   "id": "2027-03-14-kctruman-boundaries",
+   "date": "2027-03-14",
+   "time": "",
+   "artist": "Boundaries",
+   "support": "Spite, Callous Daoboys",
+   "venue": "kctruman",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43511601-boundaries-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-03-18-kcmadrid-effin",
    "date": "2027-03-18",
    "time": "",
@@ -3067,6 +3269,19 @@
    "source": "https://www.songkick.com/metro-areas/5961-us-kansas-city/2026/genre/electronic"
   },
   {
+   "id": "2027-03-24-kctruman-beach-bunny",
+   "date": "2027-03-24",
+   "time": "",
+   "artist": "Beach Bunny",
+   "support": "Daisy Grenade",
+   "venue": "kctruman",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43511613-beach-bunny-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-03-27-midwesttrust-yamato",
    "date": "2027-03-27",
    "time": "19:30",
@@ -3079,6 +3294,19 @@
    "source": "https://www.jccc.edu/midwest-trust-center/events/"
   },
   {
+   "id": "2027-03-27-kcmidland-sullivan-king",
+   "date": "2027-03-27",
+   "time": "",
+   "artist": "Sullivan King",
+   "support": "INFEKT, 2DY4",
+   "venue": "kcmidland",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43514999-sullivan-king-at-midland-theatre",
+   "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-04-01-kcmidland-warren-zeiders",
    "date": "2027-04-01",
    "time": "",
@@ -3089,6 +3317,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
+  },
+  {
+   "id": "2027-04-01-kctruman-elderbrook",
+   "date": "2027-04-01",
+   "time": "",
+   "artist": "Elderbrook",
+   "support": "Arlo and Rules",
+   "venue": "kctruman",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43467205-elderbrook-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2027-04-02-kauffman-kansas-city-symphony--brahms--second-symphony---conrad-tao-plays-matthias-pintscher",
@@ -3259,6 +3500,19 @@
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
   },
   {
+   "id": "2027-04-14-kcmidland-todd-rundgren",
+   "date": "2027-04-14",
+   "time": "",
+   "artist": "Todd Rundgren",
+   "support": "",
+   "venue": "kcmidland",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43511631-todd-rundgren-at-midland-theatre",
+   "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-04-16-kauffman-kansas-city-symphony--the-voice-of-whitney--a-symphonic-celebration",
    "date": "2027-04-16",
    "time": "20:00",
@@ -3365,6 +3619,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43500588-twrp-at-madrid-theatre",
    "source": "https://www.songkick.com/metro-areas/5961-us-kansas-city/2026/genre/electronic"
+  },
+  {
+   "id": "2027-04-30-knuckleheads-max-cooper-iii",
+   "date": "2027-04-30",
+   "time": "",
+   "artist": "Max Cooper III",
+   "support": "Noah James",
+   "venue": "knuckleheads",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43505953-max-cooper-iii-at-knuckleheads",
+   "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2027-05-02-kcuptown-scott-bradlee-s-postmodern-jukebox",
