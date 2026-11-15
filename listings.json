@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:36:11Z",
+ "updated": "2026-11-15T10:37:27Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -774,30 +774,6 @@
    "source": "https://www.metrotix.com/events/detail/grupo-sazon-jazz"
   },
   {
-   "id": "2026-11-15-redflag-gravehuffer",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Gravehuffer",
-   "support": "Hollow Eyes, Alien Parasite, VeinRot",
-   "venue": "redflag",
-   "genre": "Metal/Hardcore",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43379590-gravehuffer-at-red-flag",
-   "source": "https://www.songkick.com/concerts/43379590-gravehuffer-at-red-flag"
-  },
-  {
-   "id": "2026-11-15-golden-gully-boys",
-   "date": "2026-11-15",
-   "time": "",
-   "artist": "Gully Boys",
-   "support": "Pollyanna",
-   "venue": "golden",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record",
-   "source": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record"
-  },
-  {
    "id": "2026-11-15-powell-st--louis-symphony-orchestra--shostakovich-s-eighth",
    "date": "2026-11-15",
    "time": "",
@@ -861,6 +837,20 @@
    "source": "https://www.songkick.com/concerts/43395258-kamasi-washington-at-city-winery-st-louis"
   },
   {
+   "id": "2026-11-15-redflag-gravehuffer",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "artist": "Gravehuffer",
+   "support": "Hollow Eyes, Alien Parasite, VeinRot",
+   "venue": "redflag",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43379590-gravehuffer-at-red-flag",
+   "source": "https://www.songkick.com/concerts/43379590-gravehuffer-at-red-flag",
+   "timeNote": "doors",
+   "priceRange": "$12"
+  },
+  {
    "id": "2026-11-15-sheldon-sam-grisman-project",
    "date": "2026-11-15",
    "time": "19:00",
@@ -885,6 +875,19 @@
    "tickets": "https://www.songkick.com/concerts/43484130-pink-stones-at-sinkhole",
    "source": "https://www.songkick.com/concerts/43484130-pink-stones-at-sinkhole",
    "added": "2026-11-11"
+  },
+  {
+   "id": "2026-11-15-golden-gully-boys",
+   "date": "2026-11-15",
+   "time": "20:00",
+   "artist": "Gully Boys",
+   "support": "Pollyanna",
+   "venue": "golden",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record",
+   "source": "https://www.songkick.com/de/concerts/43346257-gully-boys-at-golden-record",
+   "timeNote": "doors"
   },
   {
    "id": "2026-11-15-rivercity-38-special",
@@ -984,6 +987,20 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43293863-journey-at-enterprise-center",
    "source": "https://www.songkick.com/concerts/43293863-journey-at-enterprise-center"
+  },
+  {
+   "id": "2026-11-16-moodlounge-454",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "timeNote": "doors",
+   "artist": "454",
+   "support": "",
+   "venue": "moodlounge",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43471529-454-at-mood-lounge",
+   "source": "https://www.songkick.com/concerts/43471529-454-at-mood-lounge",
+   "added": "2026-11-15"
   },
   {
    "id": "2026-11-16-pageant-skilla-baby",
@@ -1229,18 +1246,6 @@
    "added": "2026-11-11"
   },
   {
-   "id": "2026-11-19-citywinery-patti-austin",
-   "date": "2026-11-19",
-   "time": "",
-   "artist": "Patti Austin",
-   "support": "",
-   "venue": "citywinery",
-   "genre": "Jazz",
-   "price": "Ticketed",
-   "tickets": "https://citywinery.com/pages/genre/patti-austin-st-louis-multishow",
-   "source": "https://citywinery.com/pages/events/st-louis"
-  },
-  {
    "id": "2026-11-19-factory-the-orchestra-starring-elo-former-members",
    "date": "2026-11-19",
    "time": "",
@@ -1303,6 +1308,19 @@
    "tickets": "https://www.songkick.com/concerts/43362990-sugarland-at-family-arena",
    "source": "https://www.songkick.com/concerts/43362990-sugarland-at-family-arena",
    "added": "2026-11-10"
+  },
+  {
+   "id": "2026-11-19-citywinery-patti-austin",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "artist": "Patti Austin",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://citywinery.com/pages/genre/patti-austin-st-louis-multishow",
+   "source": "https://citywinery.com/pages/events/st-louis",
+   "timeNote": "doors"
   },
   {
    "id": "2026-11-19-jazzstl-marcus-roberts---the-modern-jazz-generation",
@@ -1490,8 +1508,7 @@
    "tickets": "https://www.thepageant.com/event/foghat-112026/",
    "source": "https://www.thepageant.com/event/foghat-112026/",
    "ages": "All ages",
-   "priceRange": "$30–$60",
-   "status": "soldout"
+   "priceRange": "$30–$60"
   },
   {
    "id": "2026-11-20-orh-victor-wooten---the-wooten-brothers",
@@ -1530,18 +1547,6 @@
    "source": "https://oldrockhouse.com/"
   },
   {
-   "id": "2026-11-21-delmar-chat-pile",
-   "date": "2026-11-21",
-   "time": "",
-   "artist": "Chat Pile",
-   "support": "Soul Glo, Shallowater",
-   "venue": "delmar",
-   "genre": "Metal/Hardcore",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43259394-chat-pile-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43259394-chat-pile-at-delmar-hall"
-  },
-  {
    "id": "2026-11-21-ryse-ian-asher",
    "date": "2026-11-21",
    "time": "",
@@ -1552,18 +1557,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43439073-ian-asher-at-ryse-nightclub",
    "source": "https://www.songkick.com/concerts/43439073-ian-asher-at-ryse-nightclub"
-  },
-  {
-   "id": "2026-11-21-pageant-jake-s-leg",
-   "date": "2026-11-21",
-   "time": "",
-   "artist": "Jake's Leg",
-   "support": "",
-   "venue": "pageant",
-   "genre": "Cover/Tribute",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43394177-jakes-leg-at-pageant",
-   "source": "https://www.songkick.com/concerts/43394177-jakes-leg-at-pageant"
   },
   {
    "id": "2026-11-21-atomic-murder-city-players",
@@ -1688,6 +1681,34 @@
    "source": "https://www.evangelinesstl.com/live-music-events"
   },
   {
+   "id": "2026-11-21-delmar-chat-pile",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "artist": "Chat Pile",
+   "support": "Soul Glo, Shallowater",
+   "venue": "delmar",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/060064C49EAD8693?brand=delmarhall&camefrom=cfc_delmarhall_webcc",
+   "source": "https://www.thepageant.com/event/chat-pile-112126/",
+   "ages": "All ages",
+   "priceRange": "$30"
+  },
+  {
+   "id": "2026-11-21-pageant-jake-s-leg",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "artist": "Jake's Leg",
+   "support": "",
+   "venue": "pageant",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/0600651AB8F28B3D?brand=thepageant&camefrom=cfc_pageant_webcc",
+   "source": "https://www.thepageant.com/event/jakes-leg-112126/",
+   "ages": "All ages",
+   "priceRange": "$5–$25"
+  },
+  {
    "id": "2026-11-21-sovereign-android-paranoid--a-radiohead-tribute",
    "date": "2026-11-21",
    "time": "20:00",
@@ -1748,18 +1769,6 @@
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
   },
   {
-   "id": "2026-11-22-pageant-dweezil-zappa",
-   "date": "2026-11-22",
-   "time": "",
-   "artist": "Dweezil Zappa",
-   "support": "",
-   "venue": "pageant",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43251160-dweezil-zappa-at-pageant",
-   "source": "https://www.songkick.com/concerts/43251160-dweezil-zappa-at-pageant"
-  },
-  {
    "id": "2026-11-22-evangelines-jim-manley-jazz-brunch",
    "date": "2026-11-22",
    "time": "11:30",
@@ -1782,6 +1791,20 @@
    "price": "Free",
    "tickets": "https://www.broadwayoysterbar.com/musicsched.html",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-22-pageant-dweezil-zappa",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "artist": "Dweezil Zappa",
+   "support": "",
+   "venue": "pageant",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/event/060064BAA7FC86B0?brand=thepageant&camefrom=cfc_pageant_webcc",
+   "source": "https://www.thepageant.com/event/dweezil-zappa-112226/",
+   "ages": "All ages",
+   "priceRange": "$39–$89"
   },
   {
    "id": "2026-11-22-treefrog-the-montvales",
@@ -4734,6 +4757,20 @@
    "source": "https://oldrockhouse.com/concert-calendar/"
   },
   {
+   "id": "2027-01-23-orh-ghost-kitchen",
+   "date": "2027-01-23",
+   "time": "20:00",
+   "artist": "Ghost Kitchen",
+   "support": "",
+   "venue": "orh",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/61236087/ghost-kitchen-stlouis-old-rock-house?partner_id=100",
+   "source": "https://oldrockhouse.com/concert-calendar",
+   "added": "2026-11-15",
+   "onSale": "2026-11-16"
+  },
+  {
    "id": "2027-01-24-factory-kameron-marlowe",
    "date": "2027-01-24",
    "time": "",
@@ -4843,6 +4880,19 @@
    "source": "https://www.thepageant.com/calendar/?sf_paged=6",
    "added": "2026-11-11",
    "onSale": "2026-11-13T10:00"
+  },
+  {
+   "id": "2027-01-31-orh-the-seven-wonders--a-tribute-to-fleetwood-mac",
+   "date": "2027-01-31",
+   "time": "19:00",
+   "artist": "The Seven Wonders: A Tribute to Fleetwood Mac",
+   "support": "",
+   "venue": "orh",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/37319128/the-seven-wondersa-tribute-to-fleetwood-mac-stlouis-old-rock-house?partner_id=100",
+   "source": "https://oldrockhouse.com/concert-calendar",
+   "added": "2026-11-15"
   },
   {
    "id": "2027-01-31-stifel-william-shakespeare-s-romeo---juliet-film-in-concert",

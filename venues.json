@@ -550,5 +550,12 @@
     "type": "Bar/Restaurant",
     "lat": 38.5885,
     "lon": -90.2745
+  },
+  "moodlounge": {
+    "name": "Mood Lounge",
+    "addr": "2001 Locust St, St. Louis",
+    "hood": "Downtown West",
+    "area": "City",
+    "type": "Club"
   }
 }
