@@ -1,0 +1,227 @@
+{
+ "footprint": {
+  "name": "Footprint Center",
+  "addr": "201 E Jefferson St, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Arena",
+  "lat": 33.4457,
+  "lon": -112.0712
+ },
+ "azfinancial": {
+  "name": "Arizona Financial Theatre",
+  "addr": "400 W Washington St, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Theater",
+  "lat": 33.4482,
+  "lon": -112.0791
+ },
+ "orpheumphx": {
+  "name": "Orpheum Theatre",
+  "addr": "203 W Adams St, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Theater",
+  "lat": 33.449,
+  "lon": -112.0763
+ },
+ "phxsymphonyhall": {
+  "name": "Symphony Hall (Phoenix Symphony)",
+  "addr": "75 N 2nd St, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Theater",
+  "lat": 33.4495,
+  "lon": -112.0705
+ },
+ "vanburen": {
+  "name": "The Van Buren",
+  "addr": "401 W Van Buren St, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4517,
+  "lon": -112.0793
+ },
+ "crescentballroom": {
+  "name": "Crescent Ballroom",
+  "addr": "308 N 2nd Ave, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4513,
+  "lon": -112.0763
+ },
+ "valleybar": {
+  "name": "Valley Bar",
+  "addr": "130 N Central Ave, Phoenix, AZ",
+  "hood": "Downtown",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4497,
+  "lon": -112.0738
+ },
+ "lastexit": {
+  "name": "Last Exit Live",
+  "addr": "717 S Central Ave, Phoenix, AZ",
+  "hood": "Warehouse District",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4396,
+  "lon": -112.0738
+ },
+ "thenash": {
+  "name": "The Nash",
+  "addr": "110 E Roosevelt St, Phoenix, AZ",
+  "hood": "Roosevelt Row",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4588,
+  "lon": -112.0721
+ },
+ "rebellounge": {
+  "name": "The Rebel Lounge",
+  "addr": "2303 E Indian School Rd, Phoenix, AZ",
+  "hood": "Arcadia Lite",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.495,
+  "lon": -112.0326
+ },
+ "rhythmroom": {
+  "name": "The Rhythm Room",
+  "addr": "1019 E Indian School Rd, Phoenix, AZ",
+  "hood": "Central Phoenix",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4947,
+  "lon": -112.0602
+ },
+ "charsblues": {
+  "name": "Char's Has the Blues",
+  "addr": "4631 N 7th Ave, Phoenix, AZ",
+  "hood": "Central Phoenix",
+  "area": "Phoenix",
+  "type": "Bar/Restaurant",
+  "lat": 33.5056,
+  "lon": -112.0832
+ },
+ "lingerlonger": {
+  "name": "Linger Longer Lounge",
+  "addr": "6522 N 16th St, Phoenix, AZ",
+  "hood": "North Central",
+  "area": "Phoenix",
+  "type": "Bar/Restaurant",
+  "lat": 33.531,
+  "lon": -112.0475
+ },
+ "celebrityphx": {
+  "name": "Celebrity Theatre",
+  "addr": "440 N 32nd St, Phoenix, AZ",
+  "hood": "East Phoenix",
+  "area": "Phoenix",
+  "type": "Theater",
+  "lat": 33.4527,
+  "lon": -112.0127
+ },
+ "mimtheater": {
+  "name": "MIM Music Theater",
+  "addr": "4725 E Mayo Blvd, Phoenix, AZ",
+  "hood": "Desert Ridge",
+  "area": "Phoenix",
+  "type": "Theater",
+  "lat": 33.6683,
+  "lon": -111.9786
+ },
+ "talkingstickamp": {
+  "name": "Talking Stick Resort Amphitheatre",
+  "addr": "2121 N 83rd Ave, Phoenix, AZ",
+  "hood": "Maryvale",
+  "area": "West Valley",
+  "type": "Arena",
+  "lat": 33.473,
+  "lon": -112.233
+ },
+ "desertdiamond": {
+  "name": "Desert Diamond Arena",
+  "addr": "9400 W Maryland Ave, Glendale, AZ",
+  "hood": "Westgate",
+  "area": "West Valley",
+  "type": "Arena",
+  "lat": 33.532,
+  "lon": -112.2611
+ },
+ "marqueetempe": {
+  "name": "The Marquee Theatre",
+  "addr": "730 N Mill Ave, Tempe, AZ",
+  "hood": "Tempe",
+  "area": "East Valley",
+  "type": "Club",
+  "lat": 33.4386,
+  "lon": -111.9395
+ },
+ "gammage": {
+  "name": "ASU Gammage",
+  "addr": "1200 S Forest Ave, Tempe, AZ",
+  "hood": "Tempe",
+  "area": "East Valley",
+  "type": "Theater",
+  "lat": 33.4194,
+  "lon": -111.9387
+ },
+ "yucca": {
+  "name": "Yucca Tap Room",
+  "addr": "29 W Southern Ave, Tempe, AZ",
+  "hood": "Tempe",
+  "area": "East Valley",
+  "type": "Bar/Restaurant",
+  "lat": 33.3929,
+  "lon": -111.9415
+ },
+ "mesaarts": {
+  "name": "Mesa Arts Center",
+  "addr": "1 E Main St, Mesa, AZ",
+  "hood": "Downtown Mesa",
+  "area": "East Valley",
+  "type": "Theater",
+  "lat": 33.4153,
+  "lon": -111.8314
+ },
+ "thenile": {
+  "name": "The Nile Theater",
+  "addr": "105 W Main St, Mesa, AZ",
+  "hood": "Downtown Mesa",
+  "area": "East Valley",
+  "type": "Club",
+  "lat": 33.415,
+  "lon": -111.8335
+ },
+ "mesaamp": {
+  "name": "Mesa Amphitheatre",
+  "addr": "263 N Center St, Mesa, AZ",
+  "hood": "Downtown Mesa",
+  "area": "East Valley",
+  "type": "Arena",
+  "lat": 33.4196,
+  "lon": -111.833
+ },
+ "scottsdalearts": {
+  "name": "Scottsdale Center for the Performing Arts",
+  "addr": "7380 E 2nd St, Scottsdale, AZ",
+  "hood": "Old Town",
+  "area": "Scottsdale",
+  "type": "Theater",
+  "lat": 33.493,
+  "lon": -111.923
+ },
+ "wastedgrain": {
+  "name": "Wasted Grain",
+  "addr": "7295 E Stetson Dr, Scottsdale, AZ",
+  "hood": "Old Town",
+  "area": "Scottsdale",
+  "type": "Club",
+  "lat": 33.4985,
+  "lon": -111.925
+ }
+}
