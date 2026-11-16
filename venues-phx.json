@@ -1,6 +1,6 @@
 {
  "footprint": {
-  "name": "Footprint Center",
+  "name": "Mortgage Matchup Center",
   "addr": "201 E Jefferson St, Phoenix, AZ",
   "hood": "Downtown",
   "area": "Phoenix",
@@ -223,5 +223,120 @@
   "type": "Club",
   "lat": 33.4985,
   "lon": -111.925
+ },
+ "walterstudios": {
+  "name": "Walter Studios",
+  "addr": "747 W Roosevelt St, Phoenix, AZ",
+  "hood": "Roosevelt Row",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4583,
+  "lon": -112.0838
+ },
+ "walterwherehouse": {
+  "name": "Walter Where?House",
+  "addr": "702 N 21st Ave, Phoenix, AZ",
+  "hood": "West of Downtown",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4561,
+  "lon": -112.1036
+ },
+ "ninthjackson": {
+  "name": "9th & Jackson",
+  "addr": "317 S 9th Ave, Phoenix, AZ",
+  "hood": "Warehouse District",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4437,
+  "lon": -112.0846
+ },
+ "sunbartempe": {
+  "name": "Sunbar Tempe",
+  "addr": "24 W 5th St, Tempe, AZ",
+  "hood": "Downtown Tempe",
+  "area": "East Valley",
+  "type": "Club",
+  "lat": 33.4253,
+  "lon": -111.9407
+ },
+ "luckys": {
+  "name": "Lucky's Indoor Outdoor",
+  "addr": "817 N 2nd St, Phoenix, AZ",
+  "hood": "Roosevelt Row",
+  "area": "Phoenix",
+  "type": "Bar/Restaurant",
+  "lat": 33.4569,
+  "lon": -112.0711
+ },
+ "ranchoochoa": {
+  "name": "Rancho Ochoa",
+  "addr": "6638 W Broadway Rd, Phoenix, AZ",
+  "hood": "Laveen",
+  "area": "West Valley",
+  "type": "Club",
+  "lat": 33.4073,
+  "lon": -112.2003
+ },
+ "dirtydrummer": {
+  "name": "The Dirty Drummer",
+  "addr": "2303 N 44th St, Phoenix, AZ",
+  "hood": "Arcadia",
+  "area": "Phoenix",
+  "type": "Bar/Restaurant",
+  "lat": 33.4738,
+  "lon": -111.9862
+ },
+ "thunderbird": {
+  "name": "Thunderbird Lounge",
+  "addr": "710 W Montecito Ave, Phoenix, AZ",
+  "hood": "Melrose",
+  "area": "Phoenix",
+  "type": "Bar/Restaurant"
+ },
+ "classico": {
+  "name": "Classico Phoenix",
+  "addr": "5030 W McDowell Rd, Phoenix, AZ",
+  "hood": "Maryvale",
+  "area": "Phoenix",
+  "type": "Club",
+  "lat": 33.4655,
+  "lon": -112.1677
+ },
+ "mullettarena": {
+  "name": "Mullett Arena",
+  "addr": "411 S Packard Dr, Tempe, AZ",
+  "hood": "ASU",
+  "area": "East Valley",
+  "type": "Arena",
+  "lat": 33.4244,
+  "lon": -111.9327
+ },
+ "tempebeachpark": {
+  "name": "Tempe Beach Park",
+  "addr": "80 W Rio Salado Pkwy, Tempe, AZ",
+  "hood": "Tempe Town Lake",
+  "area": "East Valley",
+  "type": "Festival",
+  "lat": 33.4318,
+  "lon": -111.9424
+ },
+ "steelepark": {
+  "name": "Steele Indian School Park",
+  "addr": "300 E Indian School Rd, Phoenix, AZ",
+  "hood": "Midtown",
+  "area": "Phoenix",
+  "type": "Festival",
+  "lat": 33.4985,
+  "lon": -112.069
+ },
+ "hancepark": {
+  "name": "Margaret T. Hance Park",
+  "addr": "67 W Culver St, Phoenix, AZ",
+  "hood": "Roosevelt Row",
+  "area": "Phoenix",
+  "type": "Festival",
+  "lat": 33.4612,
+  "lon": -112.0752
  }
 }
