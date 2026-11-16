@@ -8,20 +8,17 @@
    "listings": "listings.json",
    "venues": "venues.json",
    "timezone": "America/Chicago",
-   "schedule": "daily",
+   "schedule": "Mon/Wed/Fri/Sat",
    "deep_day": "Monday",
    "commit_prefix": "Daily listings update",
    "task_id": "trig_01NCdAjWeKCxb2QPMnrcxbqG",
    "min_shows": 50,
-   "max_age_hours": 30,
+   "max_age_hours": 60,
    "run_days": [
     "Mon",
-    "Tue",
     "Wed",
-    "Thu",
     "Fri",
-    "Sat",
-    "Sun"
+    "Sat"
    ]
   },
   {
@@ -31,16 +28,15 @@
    "listings": "listings-denver.json",
    "venues": "venues-denver.json",
    "timezone": "America/Denver",
-   "schedule": "Mon/Wed/Fri",
-   "deep_day": "Wednesday",
+   "schedule": "Mon/Thu",
+   "deep_day": "Thursday",
    "commit_prefix": "Denver listings update",
    "task_id": "trig_01WSm2FqvAji3BS7xV2dHRDc",
    "min_shows": 50,
-   "max_age_hours": 80,
+   "max_age_hours": 110,
    "run_days": [
     "Mon",
-    "Wed",
-    "Fri"
+    "Thu"
    ]
   },
   {
@@ -50,16 +46,15 @@
    "listings": "listings-kc.json",
    "venues": "venues-kc.json",
    "timezone": "America/Chicago",
-   "schedule": "Tue/Thu/Sat",
-   "deep_day": "Thursday",
+   "schedule": "Tue/Fri",
+   "deep_day": "Friday",
    "commit_prefix": "Kansas City listings update",
    "task_id": "trig_01JiYRn3eUHEo8RMoMuGrVKv",
    "min_shows": 30,
-   "max_age_hours": 80,
+   "max_age_hours": 110,
    "run_days": [
     "Tue",
-    "Thu",
-    "Sat"
+    "Fri"
    ]
   },
   {
@@ -69,16 +64,15 @@
    "listings": "listings-phx.json",
    "venues": "venues-phx.json",
    "timezone": "America/Phoenix",
-   "schedule": "Sun/Tue/Thu",
+   "schedule": "Sun/Wed",
    "deep_day": "Sunday",
    "commit_prefix": "Phoenix listings update",
    "task_id": "trig_01Mp5rPBpFiXZ3t7T6aKQ325",
    "min_shows": 30,
-   "max_age_hours": 80,
+   "max_age_hours": 110,
    "run_days": [
     "Sun",
-    "Tue",
-    "Thu"
+    "Wed"
    ]
   }
  ]

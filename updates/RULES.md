@@ -6,7 +6,7 @@ The site is https://showmeshows.net, a free live-music calendar (the owner takes
 
 ## Step 0 — Is today a run day?
 
-Find your city in `updates/cities.json`. If today's weekday (in the city's time zone, as Mon/Tue/…) is not in its `run_days`, AND the city's listings file was updated less than 4 days ago, stop right away: do nothing else and end with "Not a run day for <city>." Otherwise continue. (Tasks are triggered daily; this keeps off days nearly free.)
+Find your city in `updates/cities.json`. If today's weekday (in the city's time zone, as Mon/Tue/…) is not in its `run_days`, AND the city's listings file was updated less than 5 days ago, stop right away: do nothing else and end with "Not a run day for <city>." Otherwise continue. (Tasks are triggered daily; this keeps off days nearly free.)
 
 ## Step 1 — Repo and push access
 
@@ -20,16 +20,16 @@ You may edit ONLY your city's listings file and venues file (named in `cities.js
 ## Step 2 — Light or deep?
 
 Use today's date in the city's time zone.
-- **Deep sweep** if today is the city's `deep_day` in `cities.json`, OR the listings file has no shows dated more than 45 days out, OR the file's `updated` time is more than 6 days old.
+- **Deep sweep** (every other week) if today is the city's `deep_day` in `cities.json` AND the listings file's `lastDeep` date is missing or at least 13 days ago; OR the listings file has no shows dated more than 45 days out; OR the file's `updated` time is more than 8 days old. When you do a deep sweep, set the listings file's top-level `"lastDeep"` to today's date (YYYY-MM-DD).
 - Otherwise a **light pass**.
 
 ## Step 3 — Find shows
 
-### Light pass (about 10–15 searches/fetches total)
-1. **High-yield sources** from the city file: ticket-seller city pages and the busiest venue calendars. Add new shows in the next 45 days, plus anything newly announced up to 6 months out. Catch cancellations, postponements and sell-outs.
+### Light pass (about 6–8 searches/fetches total — keep it tight to save usage)
+1. **High-yield sources** from the city file, starting with the 3–4 that list the most shows: ticket-seller city pages and the busiest venue calendars. Add new shows in the next 45 days, plus anything newly announced up to 6 months out. Catch cancellations, postponements and sell-outs.
 2. **Every-run venues** listed in the city file (if any): check each one.
-3. **Rotation:** check 3 venues from the city's checklist, choosing those with the fewest upcoming shows first.
-4. **Show times:** open the event page for up to 10 upcoming shows with an empty time, soonest first, and fill in time, ages, price, status and genre where the page states them.
+3. **Rotation:** check 1–2 venues from the city's checklist, choosing those with the fewest upcoming shows first.
+4. **Show times:** open the event page for up to 5 upcoming shows with an empty time, soonest first, and fill in time, ages, price, status and genre where the page states them.
 
 ### Deep sweep (about 35–50 searches/fetches total)
 Everything in the light pass, plus:
@@ -40,7 +40,7 @@ Everything in the light pass, plus:
 
 ## Step 4 — Data format
 
-**Listings file** = `{"updated": ISO UTC timestamp, "note": keep existing text, "shows": [...]}`, written with `json.dump(..., indent=1, ensure_ascii=False)`.
+**Listings file** = `{"updated": ISO UTC timestamp, "note": keep existing text, "lastDeep": "YYYY-MM-DD" (optional, see Step 2), "shows": [...]}`, written with `json.dump(..., indent=1, ensure_ascii=False)`.
 
 Each show, keys in this order:
 - `id`: date + "-" + venue key + "-" + artist lowercased with every non-alphanumeric character replaced by "-". **Never change an existing id** (people save and share shows by id).
