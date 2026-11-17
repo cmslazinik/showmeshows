@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-17T22:56:56.066Z",
+ "updated": "2026-11-17T23:42:10.007Z",
  "artists": {
   "a killers confession": {
    "none": true,
@@ -21,6 +21,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "alex sampson": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/b6/ec/84b6ecd6-262e-3771-ebfe-edd770c18df8/054391271075.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/alex-sampson/1486112083",
+   "checked": "2026-11-17",
+   "last": "2027-04-04"
+  },
   "almost monday": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a8/63/78a863dd-67fc-8cdc-6132-938c3941675e/20UMGIM81624.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -28,9 +35,24 @@
    "checked": "2026-11-17",
    "last": "2026-11-18"
   },
+  "amerifloyd": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "andrew mcmahon with the kansas city symphony": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "ashley davis": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "atmosphere": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/17/a9/66/17a966c4-467f-a0db-32e2-79082bdaa4a9/19871.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/atmosphere/2556490",
+   "checked": "2026-11-17",
+   "last": "2027-02-04"
   },
   "bach s musical offering": {
    "none": true,
@@ -40,7 +62,22 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "basso vox": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "beach bunny": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/d6/c6/5ad6c63d-a5b2-7a38-023d-4e45bd1e031c/199066752685.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/beach-bunny/1147783278",
+   "checked": "2026-11-17",
+   "last": "2027-03-24"
+  },
   "bernadette peters": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "bethel music": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -51,9 +88,24 @@
    "checked": "2026-11-17",
    "last": "2026-11-28"
   },
+  "black panther in concert": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "blue october": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "boundaries": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "brakence": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/aa/db/1d/aadb1d21-85f1-057a-f308-6f0ac84809dc/196589611031.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/brakence/1345560251",
+   "checked": "2026-11-17",
+   "last": "2027-04-10"
   },
   "brandi carlile": {
    "none": true,
@@ -67,12 +119,30 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "bumpin uglies": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/95/fb/ea/95fbea43-0f16-a889-9c86-43b27d03b060/195729787070_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/bumpin-uglies/445871157",
+   "checked": "2026-11-17",
+   "last": "2027-02-06"
+  },
+  "cantus": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "chat pile": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/c1/cc/99c1ccf0-5ac1-201e-e448-f026b24bb173/733102722630.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chat-pile/1467043756",
    "checked": "2026-11-17",
    "last": "2026-11-22"
+  },
+  "chicken wire empire": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/8c/5c/c6/8c5cc6af-7e0c-6b42-2f7f-7c8db9cd913d/888295827584.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/chicken-wire-empire/1155298124",
+   "checked": "2026-11-17",
+   "last": "2027-02-27"
   },
   "chris hazelton": {
    "none": true,
@@ -89,12 +159,23 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "conor oberst": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/61/41/c6/6141c622-ed23-baed-e618-a1f640fcaee6/075597956054.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/conor-oberst/202642374",
+   "checked": "2026-11-17",
+   "last": "2027-02-19"
+  },
   "crobot": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a3/c5/3c/a3c53c88-0392-9b92-f22b-6d24e3f92839/810020507201.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/crobot/568294157",
    "checked": "2026-11-17",
    "last": "2026-11-19"
+  },
+  "cultural crossroads": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "cyclops": {
    "none": true,
@@ -115,12 +196,41 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "def leppard": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0f/76/fa/0f76fa8d-8341-c0af-84d8-543b9193c728/17UM1IM41552.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/def-leppard/117554",
+   "checked": "2026-11-17",
+   "last": "2027-04-26"
+  },
+  "dexter and the moonrocks": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "dinosaur jr": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/c9/1e/d9/c91ed923-7667-6a0a-0659-4259c8c3a06f/656605228563.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/dinosaur-jr/509577",
+   "checked": "2026-11-17",
+   "last": "2027-03-02"
+  },
+  "disco dick and the mirrorballs": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "drum and dye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/5f/c1/4a5fc1d4-9f6b-d29b-17be-19a79df11b6b/195269421670.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/drum-dye/6798429935",
    "checked": "2026-11-17",
    "last": "2026-11-22"
+  },
+  "dylan gossett": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/dylan-gossett/1526025679",
+   "checked": "2026-11-17",
+   "last": "2027-05-07"
   },
   "easy tiger": {
    "none": true,
@@ -137,7 +247,29 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "effin": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6e/a7/f5/6ea7f5c0-2325-1777-691d-0d5d43e044f4/5056017302939.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/effin/963912636",
+   "checked": "2026-11-17",
+   "last": "2027-03-18"
+  },
+  "elderbrook": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/55/6c/e0556cdc-2162-2a4a-cd10-5715f4e8eed7/190296481123.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/elderbrook/736829657",
+   "checked": "2026-11-17",
+   "last": "2027-04-01"
+  },
+  "elton dan and the rocket band": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "ethan regan": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "flans": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -148,6 +280,13 @@
   "four on the floor": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "from ashes to new": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/from-ashes-to-new/688645097",
+   "checked": "2026-11-17",
+   "last": "2027-04-04"
   },
   "gavin adcock": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/c3/27/7ec3273d-ca19-46b0-01e6-0ba13c4ddd81/093624829638.jpg/400x400bb.jpg",
@@ -197,6 +336,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-18"
   },
+  "hum": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "imminence": {
    "none": true,
    "checked": "2026-11-17"
@@ -206,6 +349,10 @@
    "checked": "2026-11-17"
   },
   "jackson dean": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "james mcmurtry": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -220,6 +367,17 @@
   "jeff black": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "jesse and joy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "josh meloy": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f0/da/00/f0da006d-234c-49a3-5fc2-c62a1cae83d9/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/josh-meloy/1373834116",
+   "checked": "2026-11-17",
+   "last": "2027-02-05"
   },
   "kansas city jazz orchestra": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/5f/0a/b15f0a56-bef7-7bc9-a66e-d144b2a3e141/mzi.ltkzbqdy.jpg/400x400bb.jpg",
@@ -243,6 +401,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "kenny g": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/c8/f9/8f/c8f98f47-e8cf-2de4-7618-9a2782ee4c9f/dj.wwlvfoqt.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/kenny-g/17026",
+   "checked": "2026-11-17",
+   "last": "2027-01-17"
+  },
   "king s x": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/fd/6a/mzi.fslyylga.jpg/400x400bb.jpg",
    "src": "apple",
@@ -250,9 +415,20 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
+  "ku symphony orchestra with liberty north high school": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "les arts florissants": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "liquid stranger": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e2/c2/37/mzi.ychqjrxu.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/liquid-stranger/69003009",
+   "checked": "2026-11-17",
+   "last": "2027-03-04"
   },
   "little river band": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/da/60/59/da60596b-293e-81be-6e3c-f93bb6d10b96/22UMGIM58250.rgb.jpg/400x400bb.jpg",
@@ -265,7 +441,18 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "lsdream": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/55/fe/f755fee1-c6ad-12e2-4755-2ee1b97cde60/cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/lsdream/1380448832",
+   "checked": "2026-11-17",
+   "last": "2027-04-04"
+  },
   "lupita infante": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "lydia loveless": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -276,6 +463,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "marc broussard": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "mark slimm duo": {
    "none": true,
    "checked": "2026-11-17"
@@ -284,7 +475,22 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "max cooper iii": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "meshuggah": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/b4/02/f3/mzi.jvtibiiu.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/meshuggah/17304969",
+   "checked": "2026-11-17",
+   "last": "2027-02-20"
+  },
   "mikole kaar and the kaar club": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "modeling": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -292,6 +498,10 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "mtc kids jam": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "needtobreathe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/cc/c0/80ccc0b3-ffd8-7937-27e5-297f0588d86b/075679946003.jpg/400x400bb.jpg",
@@ -311,6 +521,20 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "pepper": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7c/03/22/7c032210-7906-7f19-062a-34253d4b5a55/mzi.tdhupgdh.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/pepper/237301",
+   "checked": "2026-11-17",
+   "last": "2027-03-09"
+  },
+  "petey pablo": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/75/fd/77/75fd771a-aa69-f5ec-f016-2c2cb9f753a2/mzi.hsybivcb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/petey-pablo/401558",
+   "checked": "2026-11-17",
+   "last": "2027-01-15"
+  },
   "prairie winds festival with special guest boston brass": {
    "none": true,
    "checked": "2026-11-17",
@@ -323,6 +547,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-13"
   },
+  "public image ltd": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/36/eb/9136eb83-208c-f9a5-37d0-1cff4672913f/dj.mbmyeirs.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/public-image-ltd/20942761",
+   "checked": "2026-11-17",
+   "last": "2027-02-15"
+  },
   "rat tally": {
    "none": true,
    "checked": "2026-11-17"
@@ -331,9 +562,35 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "remi wolf": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/c6/db/9ec6db05-040b-4e63-c099-42406602a4e7/26UMGIM96852.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/remi-wolf/1223869670",
+   "checked": "2026-11-17",
+   "last": "2027-05-11"
+  },
+  "revisiting creedence": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "reyes brothers organ trio": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "rhiannon giddens": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "richard thompson": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "rick springfield": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/f0/97/fa/f097fae2-a1a3-67b3-54c7-c52c023ea32f/dj.rldfaeas.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/rick-springfield/197658",
+   "checked": "2026-11-17",
+   "last": "2027-03-06"
   },
   "road to memphis fundraiser": {
    "none": true,
@@ -346,12 +603,23 @@
    "checked": "2026-11-17",
    "last": "2026-12-09"
   },
+  "rodney marsalis with bach aria soloists": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "rss trio": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/d4/94/72d49420-e9bc-0eea-b19b-bf42bcfe220e/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rss-trio/1480618718",
    "checked": "2026-11-17",
    "last": "2026-11-20"
+  },
+  "ruby waters": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/c9/53/e3c953f6-740f-9280-2c4d-4786ff51e006/276059.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ruby-waters/1441595388",
+   "checked": "2026-11-17",
+   "last": "2027-03-22"
   },
   "sally s tomato": {
    "none": true,
@@ -365,6 +633,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "samara joy": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3c/1f/b8/3c1fb8bc-0b20-19c0-0993-250b8091b7d9/22UMGIM80456.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/samara-joy/1538636625",
+   "checked": "2026-11-17",
+   "last": "2027-03-02"
+  },
   "saving abel": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/6b/e8/08/6be80855-b381-5286-ee00-166fd93683c0/dj.qkpyrdrj.jpg/400x400bb.jpg",
    "src": "apple",
@@ -372,12 +647,23 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "scott bradlee s postmodern jukebox": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/c1/a6/84c1a613-e5f7-6bbf-2037-751fce74795a/dj.qbwflfub.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/scott-bradlees-postmodern-jukebox/636865970",
+   "checked": "2026-11-17",
+   "last": "2027-05-02"
+  },
   "skerryvore": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/12/24/d01224d2-5b6a-1cb1-e1d6-06732a3f260d/mzi.uclwnoqc.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/skerryvore/300881652",
    "checked": "2026-11-17",
    "last": "2027-01-24"
+  },
+  "slash featuring myles kennedy and the conspirators": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "slide summit 2026": {
    "none": true,
@@ -390,6 +676,13 @@
    "checked": "2026-11-17",
    "last": "2027-01-19"
   },
+  "staind": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/b9/a2/6eb9a297-89af-f85e-49d0-ef1d62b8d259/mzi.ifagooar.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/staind/613161",
+   "checked": "2026-11-17",
+   "last": "2027-04-10"
+  },
   "stone cutters union": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/68/cc/a8/68cca857-afa7-abd1-ed55-0d903b20884c/888295024723.jpg/400x400bb.jpg",
    "src": "apple",
@@ -400,6 +693,13 @@
   "stranded in the city": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "sullivan king": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/61/21/da/6121da90-1175-b86b-ce38-4480d375f3f8/742779546258.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sullivan-king/833869649",
+   "checked": "2026-11-17",
+   "last": "2027-03-27"
   },
   "switchfoot": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/a1/9c/63/a19c63b2-5a14-c3d7-36d5-f3de471efadf/075679950536.jpg/400x400bb.jpg",
@@ -422,6 +722,24 @@
   "tetsuya nishiyama trio": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "the chats": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/63/be/09/63be0925-4c14-cc7d-db27-c0a36778f254/dj.clrfvlwp.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-chats/1321961023",
+   "checked": "2026-11-17",
+   "last": "2027-04-18"
+  },
+  "the electric light orchestra experience featuring evil woman the american elo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "the plot in you": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/7f/a7/ec/7fa7ec70-c31b-1eba-7f59-bdb2a9bc363e/886445450606.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-plot-in-you/378491136",
+   "checked": "2026-11-17",
+   "last": "2027-04-12"
   },
   "the r and j playerz band": {
    "none": true,
@@ -449,7 +767,29 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "tinashe": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/1c/5e/431c5e0f-140b-bf2f-9678-8790c369987a/886444673228.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/tinashe/464835513",
+   "checked": "2026-11-17",
+   "last": "2027-04-18"
+  },
+  "todd rundgren": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/77/7d/26/777d2609-67c6-4e5e-9dde-a6e13877d5d4/081227281168.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/todd-rundgren/482336",
+   "checked": "2026-11-17",
+   "last": "2027-04-14"
+  },
   "trans siberian orchestra": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "trombone shorty and orleans avenue": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "twrp": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -460,6 +800,20 @@
   "vincent": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "warren zeiders": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/3e/32/733e326f-9a5b-dc51-5117-e49524c304b3/093624874614.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/warren-zeiders/1545729343",
+   "checked": "2026-11-17",
+   "last": "2027-04-01"
+  },
+  "wheeler walker jr": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/1e/55/871e558b-7fd4-fe4d-fa01-9858bfea820b/712758988478_WWJRamFINALpx.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/wheeler-walker-jr/1031980513",
+   "checked": "2026-11-17",
+   "last": "2027-02-26"
   },
   "winterlude jazz festival": {
    "none": true,
@@ -472,6 +826,17 @@
    "link": "https://music.apple.com/us/artist/wonkywilla/1508461892",
    "checked": "2026-11-17",
    "last": "2026-11-25"
+  },
+  "wynonna": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d10/h18/s06.tbjhjtkx.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/wynonna/59936",
+   "checked": "2026-11-17",
+   "last": "2027-02-18"
+  },
+  "yamato": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "your arms are my cocoon": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/e2/34/71e23481-d74d-9384-25ec-5b866a82eebe/artwork.jpg/400x400bb.jpg",
@@ -488,5 +853,531 @@
    "last": "2026-11-24"
   }
  },
- "shows": {}
+ "shows": {
+  "2026-11-17-bottleneck-a-killers-confession": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-17-kcbbslawnside-kelsey-miles": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-17-kcblackdolphin-reyes-brothers-organ-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-17-kcuptown-switchfoot": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-17-knuckleheads-bahamas": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-18-bottleneck-ethan-regan": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-18-kcbbslawnside-hudspeth---taylor": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-18-kcblackdolphin-sally-s-tomato": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-18-kctruman-almost-monday": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-19-kcaztecshawnee-four-on-the-floor": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-19-kcbbslawnside-the-supermatics": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-19-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-19-kcfolly-les-arts-florissants--the-magic-of-monteverdi": {
+   "img": "https://images.squarespace-cdn.com/content/v1/591e0181d1758e2a47efdd88/1775578013233-RKFBIZ81D5OGRVB30AN3/3.png?format=500w",
+   "src": "venue"
+  },
+  "2026-11-19-kcreplay-crobot": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-19-knuckleheads-vincent": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-blueroomkc-indigo-hour--lauren-ashley": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197788124%252F2197883838193%252F1%252Foriginal.20261111-184840%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D18aafca0e5e5a572de245ff128861a94&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-20-granadalawrence-mainliners": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kauffman-kansas-city-symphony--brahms--german-requiem": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kcbbslawnside-stone-cutters-union": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kccoryfranks-brody-buster": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-kchideout-the-redbeards": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-20-voodookc-easy-tiger": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-blueroomkc-alex-abramovitz-and-his-swing-n-kansas-city-jazz-band": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197822630%252F2197883838193%252F1%252Foriginal.20261112-045049%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dec1e49d8b70b66676771531ec8425059&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-21-kauffman-kansas-city-symphony--brahms--german-requiem": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kcbbslawnside-nick-schnebelen": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kcblackdolphin-sam-platt-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kcfolly-bernadette-peters": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/07/ATT00002-scaled-e1776104656370-600x600-1.jpg",
+   "src": "venue"
+  },
+  "2026-11-21-kcoutlawcigar-saving-abel": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kctruman-nightlite": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-kcuptown-little-river-band": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-knuckleheads-katy-guillen-and-the-drive": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-21-midwesttrust-take3--where-rock-meets-bach": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-22-granadalawrence-chat-pile": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-22-kauffman-kansas-city-symphony--brahms--german-requiem": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-22-kcbbslawnside-drum---dye": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-22-kcmidland-udit-narayan": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-22-kcuptown-brandi-carlile": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-23-blueroomkc-monday-night-jam-session--stan-kessler-quartet": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885350%252F2197883838193%252F1%252Foriginal.20261015-174923%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D3dfa20038d3fa1df76a32c3091590ccb&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-23-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-24-kcbbslawnside-road-to-memphis-fundraiser": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-24-kcblackdolphin-reyes-brothers-organ-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-24-libertyhall-yung-gravy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-25-kcbbslawnside-howard-mahan-s-turkey-eve-bash": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-25-kcblackdolphin-sally-s-tomato": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-25-kcmadrid-wonkywilla": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-25-knuckleheads-found-a-job": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-25-recordbar-ha-ha-tonka": {
+   "img": "https://s3.amazonaws.com/opendate-aws-assets/confirms/main_event_images/000/682/959/compressed/Tonka2025_%281%29.jpg?1787867522",
+   "src": "venue"
+  },
+  "2026-11-26-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-27-blueroomkc-indigo-hour--the-lori-tucker-quartet": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885384%252F2197883838193%252F1%252Foriginal.20261015-174945%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D17efbd2aff655b0be269b8127540b403&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-27-blueroomkc-mikole-kaar---the-kaar-club": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197932785%252F2197883838193%252F1%252Foriginal.20261113-173036%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dc7ffcb42f0a7da68783ed26b0327a32e&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-27-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-27-kcbbslawnside-stranded-in-the-city": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-27-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-27-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-27-kctruman-reggaeton-rave": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-blueroomkc-jazzy-jazz-miyagi": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885441%252F2197883838193%252F1%252Foriginal.20261015-175021%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D8b437646a4ff3d52de8d496a25ca63b2&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-28-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kcbbslawnside-slide-summit-2026": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kcblackdolphin-sam-platt-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kccoryfranks-stranded-in-the-city": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kcphoenix-big-luke---the-soul-disciples": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-28-kcuptown-danielle-nicole": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-29-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-29-kcbbslawnside-brody-buster-one-man-band": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-30-blueroomkc-monday-night-jam-session": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885469%252F2197883838193%252F1%252Foriginal.20261015-175040%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dec0a966ad1f37799260012d03d9cf82f&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-11-30-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-30-kcencore-chrissy-chlapecka": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-11-30-libertyhall-your-arms-are-my-cocoon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-01-kcbbslawnside-kelsey-miles": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-01-kcblackdolphin-reyes-brothers-organ-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-01-kctruman-matisyahu": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-02-kcblackdolphin-sally-s-tomato": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-03-blueroomkc-jazz---noon--kckcc-blue-devil-funk-band": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885509%252F2197883838193%252F1%252Foriginal.20261015-175102%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dd46ebc0d1b7dbe70c7ae85c91abf5867&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-03-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-03-kcmidland-blue-october": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-03-kcrino-echos": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-04-blueroomkc-eboni-fondren": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885548%252F2197883838193%252F1%252Foriginal.20261015-175139%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D1ae582e7f0d0d2ba72d6451f341f9470&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-04-blueroomkc-indigo-hour--pure-sweetness": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885523%252F2197883838193%252F1%252Foriginal.20261015-175122%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D2c16bccd29f5bdea9ad8691f215e5022&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-04-kauffman-kansas-city-symphony--handel-s-messiah": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-04-kcblackdolphin-mark-slimm-duo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-04-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-04-kccabledahmer-sam-barber": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-04-kcfolly-heartland-men-s-chorus--don-we-now-": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-04-knuckleheads-jeff-black": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20121001-045814-848371.jpg",
+   "src": "venue"
+  },
+  "2026-12-04-knuckleheads-los-lobos": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-05-blueroomkc-darryl-white": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885579%252F2197883838193%252F1%252Foriginal.20261015-175158%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D860db27f549d7015238cae4db606d3c8&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-05-kauffman-kansas-city-symphony--handel-s-messiah": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-05-kcblackdolphin-rss-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-05-kcblackdolphin-sam-platt-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-05-kcfolly-heartland-men-s-chorus--don-we-now-": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-05-kctruman-ahee": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-05-knuckleheads-los-lobos": {
+   "img": "https://www.jambase.com/wp-content/uploads/2025/04/los-lobos-2025-press-1200x675.jpg",
+   "src": "venue"
+  },
+  "2026-12-06-kauffman-kansas-city-symphony--handel-s-messiah": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-06-kcbbslawnside-drum---dye": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-06-kcfolly-heartland-men-s-chorus--don-we-now-": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-06-kctruman-lupita-infante": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-06-kcuptown-imminence": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-06-knuckleheads-david-cook": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-06-midwesttrust-a-winter-s-evening-with-ryanhood": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-07-blueroomkc-monday-night-jam-session--chris-hazelton": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885626%252F2197883838193%252F1%252Foriginal.20261015-175221%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dc85e07b8b1e99e36f834ab50752412db&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-07-minibarkc-rat-tally": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-08-kcmidland-gavin-adcock": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-09-kcuptown-robert-earl-keen": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-11-blueroomkc-chris-hazelton": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885704%252F2197883838193%252F1%252Foriginal.20261015-175259%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D09871a1817ced895e40ebd47c77aeb0e&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-11-blueroomkc-indigo-hour--sir-james-atwood": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885666%252F2197883838193%252F1%252Foriginal.20261015-175242%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D267138a85ade32900d49230b210b90ee&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-11-brickkc-hudson-electric": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-11-kcfolly-christmas-with-zuzu": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/08/50578da2-cbae-43a8-bbec-02677f91a229.jpg",
+   "src": "venue"
+  },
+  "2026-12-12-blueroomkc-the-slide-syndikcate": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885734%252F2197883838193%252F1%252Foriginal.20261015-175322%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dd3bddac304cf61861b06b456832e8026&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-12-kcfolly-holiday-harmonies-2026": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/07/92425bf3-294e-4c1b-add1-3fda1e683e36.jpg",
+   "src": "venue"
+  },
+  "2026-12-12-kctruman-king-s-x": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-12-libertyhall-kansas-city-jazz-orchestra": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-13-kcfolly-preservation-hall-jazz-band": {
+   "img": "https://follytheater.org/wp-content/uploads/2026/09/7817ddbf-b8d5-4ad4-adc7-3fb6446ff58f.jpg",
+   "src": "venue"
+  },
+  "2026-12-13-kcreplay-hudson-electric": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-14-blueroomkc-monday-night-jam-session": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885748%252F2197883838193%252F1%252Foriginal.20261015-175340%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D8aa776bb27fcd40ee983508d33f5bc73&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-15-kcfolly-bach-s-musical-offering--chamber-music-society-of-lincoln-center-": {
+   "img": "https://chambermusic.org/wp-content/uploads/2026/03/2612_bachoffering.jpg",
+   "src": "venue"
+  },
+  "2026-12-15-kclied-ashley-davis--winter-solstice-concert--a-midwinter-gathering": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-16-kcuptown-home-free": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-17-kauffman-kansas-city-symphony--christmas-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-17-kcsk8bar-tantric": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20100223-175954-706582.jpg",
+   "src": "venue"
+  },
+  "2026-12-17-kctruman-jackson-dean": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-18-blueroomkc-indigo-hour--chloe-mcfadden": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196304890%252F2197883838193%252F1%252Foriginal.20261021-190207%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D466108084a88ecd28ea7af71c454fce6&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-18-blueroomkc-the-r-j-playerz-band": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196304903%252F2197883838193%252F1%252Foriginal.20261021-190216%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dcccefdaeb1f5f0088328d9dac76841c3&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-18-kauffman-kansas-city-symphony--christmas-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-kauffman-kansas-city-symphony--christmas-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-20-kauffman-kansas-city-symphony--christmas-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-21-blueroomkc-monday-night-jam-session--angela-ward---friends": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195886046%252F2197883838193%252F1%252Foriginal.20261015-175705%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D0e3158d33bb864d69784d2fb555cb8d1&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-23-kauffman-kansas-city-symphony--the-polar-express-in-concert": {
+   "none": true,
+   "checked": "2026-11-17"
+  }
+ },
+ "generic": []
 }
