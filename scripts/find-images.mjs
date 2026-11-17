@@ -12,7 +12,7 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const addDays = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().slice(0, 10);
 const HORIZON = addDays(TODAY, 183);
 const RECHECK_NONE_DAYS = 30;     // look again for bands we found nothing for after this long
-const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 120); // new bands looked up per city per run; the rest wait for the next run
+const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 70); // new bands looked up per city per run; the rest wait for the next run
 const FIREBASE_PROJECT = "showmeshows-1d87d";
 const FIREBASE_KEY = "AIzaSyBidytEHkkVgfcDJ9K0O7_DjisE_zxlJaA"; // public web key, same one the site uses
 
@@ -53,7 +53,7 @@ async function getJSON(url, opts = {}) {
   for (let i = 0; i < 3; i++) {
     try {
       const r = await fetch(url, Object.assign({ signal: AbortSignal.timeout(15000) }, opts));
-      if (r.status === 429) { await sleep(2000 * (i + 1)); continue; }
+      if (r.status === 429 || (r.status === 403 && url.includes("itunes.apple.com"))) { await sleep(20000 * (i + 1)); continue; }
       if (!r.ok) return null;
       return await r.json();
     } catch (e) { await sleep(800); }
@@ -115,13 +115,21 @@ async function fromSpotify(name, key, genre, spotifyUrl) {
   return p ? { img: p.url, src: "spotify", link: "https://open.spotify.com/artist/" + a.id } : null;
 }
 
+// Apple allows about 20 requests a minute. A failed request means "try this band again next run", not "no picture".
+class Retry extends Error {}
+let appleDown = 0;
 async function fromApple(name, key, genre) {
+  if (appleDown >= 3) throw new Retry();
   const j = await getJSON("https://itunes.apple.com/search?media=music&entity=musicArtist&limit=10&term=" + encodeURIComponent(name));
-  const exact = ((j && j.results) || []).filter(a => norm(a.artistName) === key);
+  if (!j) { appleDown++; throw new Retry(); }
+  appleDown = 0;
+  const exact = (j.results || []).filter(a => norm(a.artistName) === key);
   if (exact.length !== 1) return null;
   const a = exact[0];
   if (!genreFits(genre, [a.primaryGenreName]) || (riskyName(key) && !a.primaryGenreName)) return null;
+  await sleep(3100);
   const al = await getJSON("https://itunes.apple.com/lookup?entity=album&limit=5&id=" + a.artistId);
+  if (!al) { appleDown++; throw new Retry(); }
   const album = ((al && al.results) || []).find(r => r.wrapperType === "collection" && r.artworkUrl100);
   if (!album) return null;
   return { img: album.artworkUrl100.replace(/\/\d+x\d+bb\./, "/400x400bb."), src: "apple", link: a.artistLinkUrl ? a.artistLinkUrl.split("?")[0] : undefined };
@@ -145,7 +153,7 @@ export async function main() {
   const cities = JSON.parse(fs.readFileSync("updates/cities.json", "utf8")).cities;
   const { approved, blocked } = await firestoreShows();
   console.log(`Sources: Ticketmaster ${TM_KEY ? "on" : "off (no key)"}, Spotify ${SP_ID ? "on" : "off (no key)"}, Apple on. Blocked pictures: ${blocked.size}.`);
-  let lookups = 0, found = 0;
+  let lookups = 0, found = 0, retried = 0;
 
   for (const c of cities) {
     let cityLookups = 0;
@@ -182,13 +190,16 @@ export async function main() {
       if (NOT_A_BAND.test(s.artist) || key.length < 2) { cache.artists[key] = { none: true, checked: TODAY, skip: "event" }; continue; }
       if (cityLookups >= MAX_LOOKUPS) continue;
       cityLookups++; lookups++;
-      let hit = await fromTicketmaster(s.artist, key, s.genre)
-        || await fromSpotify(s.artist, key, s.genre, s.spotify)
-        || await fromApple(s.artist, key, s.genre);
+      let hit;
+      try {
+        hit = await fromTicketmaster(s.artist, key, s.genre)
+          || await fromSpotify(s.artist, key, s.genre, s.spotify)
+          || await fromApple(s.artist, key, s.genre);
+      } catch (e) { if (e instanceof Retry) { retried++; await sleep(3100); continue; } throw e; }
       if (hit && !(await imageLoads(hit.img))) hit = null;
       cache.artists[key] = hit ? Object.assign(hit, { checked: TODAY, last: s.date }) : { none: true, checked: TODAY };
       if (hit) found++;
-      await sleep(350); // be polite to the free APIs
+      await sleep(3100); // Apple's free search allows ~20 requests a minute
     }
     // Forget bands with no show in the next 6 months (keeps the file small).
     for (const [k, v] of Object.entries(cache.artists)) if (!seen.has(k) && !v.blocked && (!v.last || v.last < TODAY)) delete cache.artists[k];
@@ -197,7 +208,7 @@ export async function main() {
     if (JSON.stringify(cache) !== before) { cache.updated = new Date().toISOString(); fs.writeFileSync(out, JSON.stringify(sortKeys(cache), null, 1) + "\n"); console.log(`${c.name}: saved ${out}`); }
     else console.log(`${c.name}: no changes`);
   }
-  console.log(`Looked up ${lookups} bands, found pictures for ${found}.`);
+  console.log(`Looked up ${lookups} bands, found pictures for ${found}. ${retried} will be retried next run.`);
 }
 function cityAreas(key) {
   return { stl: ["City", "County", "St. Charles", "Metro East"], denver: ["Denver", "Boulder", "Suburbs", "Foothills"], kc: ["KCMO", "Northland", "Kansas Side", "Lawrence"], phx: ["Phoenix", "East Valley", "Scottsdale", "West Valley"] }[key] || [];

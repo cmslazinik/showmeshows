@@ -2,60 +2,12 @@
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
  "updated": "2026-11-17T22:40:07.493Z",
  "artists": {
-  "a killers confession": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "a winter s evening with ryanhood": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "ahee": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "alex abramovitz and his swing n kansas city jazz band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "almost monday": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a8/63/78a863dd-67fc-8cdc-6132-938c3941675e/20UMGIM81624.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/almost-monday/1300723925",
    "checked": "2026-11-17",
    "last": "2026-11-18"
-  },
-  "andrew mcmahon with the kansas city symphony": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "ashley davis": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "atmosphere": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bach s musical offering": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bahamas": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "basso vox": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bernadette peters": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bethel music": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "big luke and the soul disciples": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/60/09/57/60095720-9d43-c72b-10a6-fbe02f7c1849/859781311672_cover.jpg/400x400bb.jpg",
@@ -64,48 +16,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-28"
   },
-  "black panther in concert": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "blue october": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "brandi carlile": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "brody buster": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "brody buster one man band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bumpin uglies": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "cantus": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "chat pile": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/c1/cc/99c1ccf0-5ac1-201e-e448-f026b24bb173/733102722630.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chat-pile/1467043756",
    "checked": "2026-11-17",
    "last": "2026-11-22"
-  },
-  "chicken wire empire": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "chris hazelton": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
@@ -114,80 +30,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-30"
   },
-  "christmas with zuzu": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "conor oberst": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "crobot": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "cultural crossroads": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "cyclops": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "danielle nicole": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "darryl white": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "david cook": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "disco dick and the mirrorballs": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "drum and dye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/5f/c1/4a5fc1d4-9f6b-d29b-17be-19a79df11b6b/195269421670.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/drum-dye/6798429935",
    "checked": "2026-11-17",
    "last": "2026-11-22"
-  },
-  "easy tiger": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "eboni fondren": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "echos": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "elton dan and the rocket band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "ethan regan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "found a job": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "four on the floor": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "gavin adcock": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "grace potter": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/76/b0/9d76b00f-f30c-ac3f-e553-986a21f59df6/19CRGIM11892.rgb.jpg/400x400bb.jpg",
@@ -196,64 +44,12 @@
    "checked": "2026-11-17",
    "last": "2027-02-25"
   },
-  "ha ha tonka": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "heartland men s chorus": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "holiday harmonies 2026": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "home free": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/7e/af/9a7eaf66-4494-a08b-fc0d-12cc4f79787e/886444416108.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/home-free/266440748",
    "checked": "2026-11-17",
    "last": "2026-12-16"
-  },
-  "howard mahan s turkey eve bash": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "hudson electric": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "hudspeth and taylor": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "imminence": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "indigo hour": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jackson dean": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jazz noon": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jazzy jazz miyagi": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jeff black": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "josh meloy": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "kansas city jazz orchestra": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/5f/0a/b15f0a56-bef7-7bc9-a66e-d144b2a3e141/mzi.ltkzbqdy.jpg/400x400bb.jpg",
@@ -262,36 +58,12 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
-  "kansas city symphony": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "katy guillen and the drive": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/43/13/9e/43139ed0-6a64-d8b0-3093-d00fb846bf1a/762183515824.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/katy-guillen-the-drive/1496004202",
    "checked": "2026-11-17",
    "last": "2026-11-21"
-  },
-  "kelsey miles": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "kenny g": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "king s x": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "ku symphony orchestra with liberty north high school": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "les arts florissants": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "little river band": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/da/60/59/da60596b-293e-81be-6e3c-f93bb6d10b96/22UMGIM58250.rgb.jpg/400x400bb.jpg",
@@ -300,18 +72,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
-  "los lobos": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "lupita infante": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "lydia loveless": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "mainliners": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/d6/87/7ad68706-c179-d6b5-ddce-481523a36fe6/887158255991.png/400x400bb.jpg",
    "src": "apple",
@@ -319,34 +79,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "mark slimm duo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "matisyahu": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "meshuggah": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "mikole kaar and the kaar club": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "modeling": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "monday night jam session": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "mtc kids jam": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "needtobreathe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/cc/c0/80ccc0b3-ffd8-7937-27e5-297f0588d86b/075679946003.jpg/400x400bb.jpg",
@@ -362,14 +98,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
-  "nightlite": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "petey pablo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "prairie winds festival with special guest boston brass": {
    "none": true,
    "checked": "2026-11-17",
@@ -382,42 +110,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-13"
   },
-  "public image ltd": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "rat tally": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "reggaeton rave": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "revisiting creedence": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "reyes brothers organ trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "rhiannon giddens": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "richard thompson": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "road to memphis fundraiser": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "robert earl keen": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "rss trio": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/d4/94/72d49420-e9bc-0eea-b19b-bf42bcfe220e/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -425,36 +117,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "sally s tomato": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "sam barber": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "sam platt trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "samara joy": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "saving abel": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "skerryvore": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/12/24/d01224d2-5b6a-1cb1-e1d6-06732a3f260d/mzi.uclwnoqc.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/skerryvore/300881652",
    "checked": "2026-11-17",
    "last": "2027-01-24"
-  },
-  "slide summit 2026": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "smith and myers": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/6f/bb/c56fbb2a-8da3-3a75-8126-ec1023c4978e/075679944122.jpg/400x400bb.jpg",
@@ -470,36 +138,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "stranded in the city": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "switchfoot": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "take3": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "tantric": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/a7/a9/mzi.utgqehls.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/tantric/1248961",
    "checked": "2026-11-17",
    "last": "2026-12-17"
-  },
-  "tetsuya nishiyama trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "the r and j playerz band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "the redbeards": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "the rock gods": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/8d/7b/3e8d7b78-1098-8577-bc2d-106e73b3eaf8/822685404399.jpg/400x400bb.jpg",
@@ -515,46 +159,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
-  "the supermatics": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "trans siberian orchestra": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "trombone shorty and orleans avenue": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "udit narayan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "vincent": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "wheeler walker jr": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "winterlude jazz festival": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "wonkywilla": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "wynonna": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "your arms are my cocoon": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "yung gravy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",

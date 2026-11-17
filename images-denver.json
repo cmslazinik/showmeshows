@@ -2,32 +2,12 @@
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
  "updated": "2026-11-17T22:37:18.792Z",
  "artists": {
-  "22nd annual last waltz revisited feat polytoxic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2dead boyz and the underachievers": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "6 million dollar band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "almost monday": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a8/63/78a863dd-67fc-8cdc-6132-938c3941675e/20UMGIM81624.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/almost-monday/1300723925",
    "checked": "2026-11-17",
    "last": "2026-11-19"
-  },
-  "alphabeat soup 93": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "an evening with tommy castro and the painkillers": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "avello": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/0b/2c/3a0b2cfe-e568-1ae1-1b07-5505269a978d/609137084831_Cover.jpg/400x400bb.jpg",
@@ -55,22 +35,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "blue violin s retro rock and roll christmas": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bobby wiens quartet feat gabe mervine seth lewis and tom amend": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "boco flamenco presents flamenco jazz with alicia camina": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "bonobo": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "book of love": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/c9/17/8cc917a0-57fd-d2b7-81a2-ca749e71b7c9/mzi.dcgtokdr.jpg/400x400bb.jpg",
@@ -79,28 +47,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "boulder philharmonic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "boulder philharmonic and boulder ballet": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "brian blade and the fellowship band": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/33/1c/6e331cdb-1240-0339-ed47-aaf133217022/00724385941757.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/brian-blade-the-fellowship-band/278643307",
    "checked": "2026-11-17",
    "last": "2026-11-24"
-  },
-  "brody schenk": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "brothel in belize": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "charu suri": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/48/5e/18485edf-3ef7-1e4c-b5be-bf1bfeee4242/859777402308_cover.jpg/400x400bb.jpg",
@@ -116,42 +68,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "colorado symphony": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "costa and lucky": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "cu boulder college of music": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "cualli": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "daddy and company": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "daniel rodriguez": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "dave hanson quartet celebrates herbie hancock": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "dave randon trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "dead panic": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "decibel metal and beer fest 2026": {
    "none": true,
@@ -163,26 +83,10 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "disco revue": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "drag the river": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "dry ice": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "edith": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "eric gunnison s industrial strength trio": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "foy vance": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/35/94/f1/3594f150-7a1c-3842-0f91-3d1559472a50/dj.cpstxrqk.jpg/400x400bb.jpg",
@@ -191,22 +95,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "frances whitney": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "frost children": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "gasoline lollipops": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "gila teen": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "goodnight texas": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/75/66/c2756674-72e5-ce7a-8f27-783c10fb3e66/700261462547_cover.jpg/400x400bb.jpg",
@@ -214,22 +106,6 @@
    "link": "https://music.apple.com/us/artist/goodnight-texas/563773401",
    "checked": "2026-11-17",
    "last": "2026-11-20"
-  },
-  "gordo dubz x wolf d": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "grace kelly": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "harry and friends feat rabbi joe black": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "havok": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "hitech presents techquavious": {
    "none": true,
@@ -243,32 +119,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "home alone in concert colorado symphony": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "ivy queen": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jady": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "jalen ngonda": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "jehovah s fitness club": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/30/8d/30308db4-b1ad-0b7d-0389-12dfed41c51b/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jehovahs-fitness-club/1747247595",
    "checked": "2026-11-17",
    "last": "2026-11-20"
-  },
-  "jeremy wendelin quintet plays original works": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "jervis campbell": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1d/e1/f5/1de1f5a5-b9b5-3455-b042-d684218e3c0e/859749645566_cover.jpg/400x400bb.jpg",
@@ -284,22 +140,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
-  "jonathan powell quintet plays chet baker": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "josh baker": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "karina rykman": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "kings of latin jazz": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "krooked kings": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/85/75/0c85757f-0439-a4c6-0516-afa6ec041d59/0.jpg/400x400bb.jpg",
    "src": "apple",
@@ -312,30 +152,10 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "ladies night and noche sonidera": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "late night thoughts": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "leftover salmon feat sam bush": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "lespecial presents": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "level up": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "linderos del norte": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "lindsay lou": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/e6/76/03e676cf-0bde-290f-244a-045813a429b1/859731481653_cover.jpg/400x400bb.jpg",
@@ -343,18 +163,6 @@
    "link": "https://music.apple.com/us/artist/lindsay-lou/396630491",
    "checked": "2026-11-17",
    "last": "2026-11-19"
-  },
-  "lit society ft members of lettuce the motet the jauntee and more": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "mad dubz": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "maelo ruiz": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "mainliners": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/d6/87/7ad68706-c179-d6b5-ddce-481523a36fe6/887158255991.png/400x400bb.jpg",
@@ -368,18 +176,6 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "mile hi groove": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "monday night jazz with vlad girshevich": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "nick forster s hippy bluegrass church": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "nora en pure presents purified red rocks": {
    "none": true,
    "checked": "2026-11-17",
@@ -392,48 +188,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "open house feat babsy": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "open house feat jam": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "open house feat mayv": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "peggy babcock and tulpa": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "persona 749": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f6/40/26/f6402623-eed1-6b44-2dc4-d89aa037b98b/fae94e68-fd48-4115-bb9d-b1d912539c88.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/persona-749/1569812909",
    "checked": "2026-11-17",
    "last": "2026-11-21"
-  },
-  "peyton parrish": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "polytoxic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "prayers": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "purple mammoth sound takeover": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "robert ellis": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "roe kapara": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/ef/32/ceef325b-a52d-2a9d-20ab-f0392f309a2d/0045778800575.png/400x400bb.jpg",
@@ -456,28 +216,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
-  "salsa sundays at la rumba": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "san pacho": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "sandra mccracken": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/b5/aa/eeb5aa0f-4fec-de36-4faf-6cff45922094/888295223706_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/sandra-mccracken/1501005",
    "checked": "2026-11-17",
    "last": "2026-11-17"
-  },
-  "saosin": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "sap": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "scott bradlee s postmodern jukebox": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/c1/a6/84c1a613-e5f7-6bbf-2037-751fce74795a/dj.qbwflfub.jpg/400x400bb.jpg",
@@ -497,18 +241,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "shift ft wub zero": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "shift wednesday ft ghengar": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "shift wednesday ft mindset": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "shwayze": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/2f/2d/28/mzi.tykevjua.tif/400x400bb.jpg",
@@ -538,26 +270,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
-  "state champs": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "steller": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "stephen day": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "strawberry girls": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "sub mission electronic tuesdays": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "tanner usrey": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/70/02/80/70028074-2794-b918-91bb-dd513857f8d2/193436297219_TannerUsreySOLSessionsEP.jpg/400x400bb.jpg",
    "src": "apple",
@@ -565,18 +277,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "tf marz and friends": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "the annual spun out scratch showcase ft the gaslamp killer": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "the black box 10 year anniversary": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "the burial plot": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/5f/83/76/5f837664-f269-68c3-4f5b-e520b2f77512/638361878664.jpg/400x400bb.jpg",
@@ -585,28 +289,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
-  "the long run": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "the psych ward punk show": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "the rock and roll playhouse": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/29/20/322920dc-3c1e-eddb-f26d-9984e4494fd3/24UMGIM63028.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-rock-and-roll-playhouse/1704944011",
    "checked": "2026-11-17",
    "last": "2026-11-21"
-  },
-  "the zach howarth quartet plays joe henderson": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "trans siberian orchestra": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "tvboo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/04/d9/03/04d903e6-9e19-ab86-95d5-580790731c75/197077481297_cover.jpg/400x400bb.jpg",
@@ -615,20 +303,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
-  "tyla": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "underoath": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/00/68/1b00687a-cdae-ea18-a229-6f50611af545/00724358318456.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/underoath/1750355",
    "checked": "2026-11-17",
    "last": "2026-11-21"
-  },
-  "van zeppelin": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "vansire": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/51/6e/52516e65-8c20-cc2b-aeaf-3452ab8c9c25/195729693104_cover.jpg/400x400bb.jpg",
@@ -656,20 +336,12 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "westend": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "yung gravy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/yung-gravy/1165036761",
    "checked": "2026-11-17",
    "last": "2026-11-25"
-  },
-  "zauntee": {
-   "none": true,
-   "checked": "2026-11-17"
   }
  },
  "shows": {}
