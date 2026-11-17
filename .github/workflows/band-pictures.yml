@@ -1,0 +1,42 @@
+# Finds band pictures after each listings update. Free on GitHub, uses no Claude usage.
+# Optional secrets (Settings > Secrets and variables > Actions): TM_KEY, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
+name: Band pictures
+on:
+  push:
+    branches: [main]
+    paths: ["listings*.json"]
+  schedule:
+    - cron: "17 14 * * 0"   # Sundays, also picks up newly approved submissions
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: band-pictures
+  cancel-in-progress: false
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Find pictures
+        env:
+          TM_KEY: ${{ secrets.TM_KEY }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        run: node scripts/find-images.mjs
+      - name: Save
+        run: |
+          git config user.name "Show Me Shows pictures"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add images*.json
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "Band pictures update"
+          for i in 1 2 3 4; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i*15))
+          done
+          exit 1

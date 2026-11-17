@@ -129,6 +129,23 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .meta .venue{font-weight:600}
 .side-tags{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 @media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
+.show{grid-template-columns:76px minmax(0,1fr) auto}
+.thumb{width:76px;height:76px;border:2px solid var(--ink);background:#2a2925;overflow:hidden;align-self:start;margin-top:2px;position:relative}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(1) contrast(1.2) brightness(1.02)}
+.thumb .tile{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:30px;letter-spacing:.5px;line-height:1}
+.tile.t0{background:var(--pink);color:#0B0B0B}
+.tile.t1{background:var(--tape);color:#0B0B0B}
+.tile.t2{background:#0B0B0B;color:var(--pink);outline:2px dashed var(--pink);outline-offset:-7px}
+:root[data-theme="light"] .tile.t2{background:#1a1a1a}
+.thumb:has(.tile){transform:rotate(-3deg)}
+.show:nth-child(even) .thumb:has(.tile){transform:rotate(2.5deg)}
+.show.has-banner{grid-template-columns:minmax(0,1fr) auto}
+.show.has-banner .thumb{grid-column:1/-1;width:100%;height:auto;aspect-ratio:16/9;max-height:230px;margin:0 0 6px;transform:none}
+.show.has-banner .thumb img{object-position:center 30%}
+.photo-prev{display:flex;align-items:center;gap:12px;margin:6px 0 4px}
+.photo-prev img{width:72px;height:72px;object-fit:cover;border:2px solid var(--ink);filter:grayscale(1) contrast(1.2)}
+.adm-pic{width:64px;height:64px;object-fit:cover;border:2px solid var(--ink);float:left;margin:0 12px 6px 0}
+@media (max-width:520px){.show{grid-template-columns:62px minmax(0,1fr);column-gap:12px}.thumb{width:62px;height:62px}.thumb .tile{font-size:25px}.side-tags{grid-column:1/-1}.show.has-banner{grid-template-columns:minmax(0,1fr)}.show.has-banner .thumb{width:100%;height:auto}.show:not(.has-banner) .acts{margin-left:-74px;width:calc(100% + 74px)}}
 .pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
 .pill.free{background:var(--ink);color:var(--paper)}
 .mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
@@ -156,6 +173,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .more .menu{position:absolute;left:0;top:100%;z-index:20;min-width:180px;background:var(--card);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:6px 0}
 .more .menu a,.more .menu button{display:block;width:100%;text-align:left;background:none;border:none;padding:7px 14px;min-height:36px;font:inherit;font-size:14px;color:var(--ink);text-decoration:none;cursor:pointer}
 .more .menu a:hover,.more .menu button:hover{color:var(--pink)}
+.more .menu .wrongpic{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);margin-top:4px}
 .act[aria-pressed="true"]{color:var(--pink);font-weight:600;text-decoration:none}
 .show.flash{outline:3px solid var(--pink);outline-offset:2px}
 .vpage-actions{display:flex;flex-wrap:wrap;gap:6px 18px}
@@ -451,6 +469,10 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
           <div class="field"><label for="s-spotify">Spotify link</label><input id="s-spotify" type="url" inputmode="url" placeholder="https://open.spotify.com/artist/…" aria-describedby="s-music-help"></div>
           <div class="field"><label for="s-apple">Apple Music link</label><input id="s-apple" type="url" inputmode="url" placeholder="https://music.apple.com/us/artist/…" aria-describedby="s-music-help"></div>
           <p class="note full" id="s-music-help" style="margin:2px 0 14px">Optional. In the app, open the artist's page, tap Share, then Copy link. We only accept real Spotify and Apple Music links.</p>
+          <div class="field full"><label for="s-photo">Band photo or logo</label><input id="s-photo" type="file" accept="image/jpeg,image/png,image/webp" aria-describedby="s-photo-help">
+            <p class="note" id="s-photo-help" style="margin:4px 0 0">Optional. Shows on your listing. Square pictures look best; we shrink it for you.</p>
+            <div class="photo-prev hidden" id="s-photo-prev"></div></div>
+          <label class="toggle full hidden" for="s-photo-ok" id="s-photo-ok-row" style="margin-bottom:14px"><input type="checkbox" id="s-photo-ok"> I'm in the band or have permission to use this picture</label>
           <div class="field full"><label for="s-contact">Your email (so we can confirm) *</label><input id="s-contact" type="email" required></div>
           <label class="toggle full" for="s-feature" style="margin-bottom:14px"><input type="checkbox" id="s-feature"> I'd like this show featured at the top of the list (we'll email you the details)</label>
         </div>
@@ -470,6 +492,11 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <div id="adm-approved"><p class="note">Loading…</p></div>
       <h3>Recent reviews</h3>
       <div id="adm-reviews"><p class="note">Loading…</p></div>
+      <h3>Photo reports</h3>
+      <p class="note">Band pictures visitors said were wrong. Blocking one swaps it for the stamp tile everywhere.</p>
+      <div id="adm-photos"><p class="note">Loading…</p></div>
+      <h3>Blocked photos</h3>
+      <div id="adm-blocked"></div>
       <h3>Email subscribers <span id="sub-count" class="note"></span></h3>
       <div class="row" style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" type="button" id="copy-emails">Copy all emails</button> <button class="btn small ghost" type="button" id="dl-subs">Download list (CSV)</button></div>
       <div id="adm-subs" class="sub-list"></div>
@@ -546,12 +573,14 @@ const DATA = {};
 let VENUES = {};
 let CURATED = [];
 let UPDATED = "";
+let IMAGES = {artists:{},shows:{}};
 function areaLabel(a){ const c=CITIES[state.city]; return (c.areaLabel&&c.areaLabel[a]) || a; }
 async function loadCity(key){
   const [vf,lf]=CITIES[key].files;
   const get=f=>fetch(f,{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null);
-  const [v,l] = await Promise.all([get(vf),get(lf)]);
+  const [v,l,im] = await Promise.all([get(vf),get(lf),get(key==="stl"?"images.json":"images-"+key+".json")]);
   DATA[key] = { VENUES:(v && typeof v==="object") ? v : {},
+    IMAGES:{artists:(im&&im.artists&&typeof im.artists==="object")?im.artists:{}, shows:(im&&im.shows&&typeof im.shows==="object")?im.shows:{}},
     CURATED:(l && Array.isArray(l.shows)) ? l.shows.filter(s=>s && typeof s.artist==="string" && /^\d{4}-\d{2}-\d{2}$/.test(s.date||"")) : [],
     UPDATED:(l && l.updated) || "" };
 }
@@ -564,7 +593,7 @@ function useCity(key, quiet){
   if (!CITIES[key]) key="stl";
   state.city=key; try{ localStorage.setItem("sms-city",key); }catch(e){}
   const d=DATA[key]||{VENUES:{},CURATED:[],UPDATED:""};
-  VENUES=d.VENUES; CURATED=d.CURATED; UPDATED=d.UPDATED;
+  VENUES=d.VENUES; CURATED=d.CURATED; UPDATED=d.UPDATED; IMAGES=d.IMAGES||{artists:{},shows:{}};
   const c=CITIES[key];
   $("#city-pick").value=key;
   $("#city-tag").textContent=c.tag;
@@ -593,7 +622,7 @@ const state = {
   approved:[],          // shows approved through the admin (from db)
   mapWhen:"all", mapVenue:null, mapFit:true,
   db:null, user:null, uid:null, isOwner:false, canWrite:null,
-  mySubs:[], allSubmissions:[], subscribers:[]
+  mySubs:[], allSubmissions:[], subscribers:[], imgBlocked:new Set(), subPhoto:""
 };
 
 /* ---------- Helpers ---------- */
@@ -836,6 +865,50 @@ async function shareShow(s,btn,label){ label=label||"Share";
 function listenName(s){ return s.artist.replace(/\s*[:(\[].*$/,"").trim(); }
 function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(listenName(s)); }
 function appleMusicUrl(s){ return "https://music.apple.com/us/search?term="+encodeURIComponent(listenName(s)); }
+/* ---------- Band pictures ---------- */
+// Order: band's own upload > Ticketmaster > venue promo photo > Spotify > Apple Music > stamp tile.
+function picKey(s){ return norm(listenName(s)); }
+function hiddenPics(){ try{ return new Set(JSON.parse(localStorage.getItem("sms-hidepics")||"[]")); }catch(e){ return new Set(); } }
+function validPhoto(u){ return typeof u==="string" && u.length<160000 && /^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+\/=]+$/.test(u); }
+function picOf(s){
+  if (validPhoto(s.photo)) return {img:s.photo, src:"band", flag:""};
+  const k=picKey(s), hide=hiddenPics(), blk=state.imgBlocked;
+  const a=IMAGES.artists[k], sh=IMAGES.shows[s.id];
+  const ok=(e,fk)=>e && e.img && safeUrl(e.img) && e.img.startsWith("https://") && !blk.has(fk) && !hide.has(fk);
+  if (a && a.src==="tm" && ok(a,"a:"+k)) return {img:a.img, src:"tm", flag:"a:"+k};
+  if (ok(sh,"s:"+s.id)) return {img:sh.img, src:"venue", flag:"s:"+s.id};
+  if (ok(a,"a:"+k)) return {img:a.img, src:a.src, flag:"a:"+k};
+  return null;
+}
+function initials(name){
+  const w=norm(name).split(" ").filter(x=>x && !["the","a","an","and","of"].includes(x));
+  if (!w.length) return "♪";
+  return (w.length===1 ? w[0].slice(0,1) : w[0][0]+w[1][0]).toUpperCase();
+}
+function tileEl(s){ let h=0; for (const c of picKey(s)) h=(h*31+c.charCodeAt(0))>>>0; return el("div",{class:"tile t"+(h%3),text:initials(listenName(s))}); }
+function thumbEl(s,pic){
+  const box=el("div",{class:"thumb","aria-hidden":"true"});
+  if (!pic){ box.append(tileEl(s)); return box; }
+  const im=el("img",{src:pic.img,alt:"",loading:"lazy",decoding:"async",referrerpolicy:"no-referrer"});
+  im.addEventListener("error",()=>{ box.replaceChildren(tileEl(s)); const c=box.closest(".show"); if(c) c.classList.remove("has-banner"); });
+  box.append(im); return box;
+}
+async function reportPhoto(s,pic,btn){
+  const hide=hiddenPics(); hide.add(pic.flag); try{ localStorage.setItem("sms-hidepics",JSON.stringify([...hide].slice(-200))); }catch(e){}
+  btn.textContent="Thanks, we'll check it";
+  if (state.db && state.uid){
+    try{
+      const ref=state.db.doc("submissions/"+state.uid); const cur=await ref.get();
+      const items=(cur.exists && Array.isArray(cur.data().items)) ? cur.data().items.slice() : [];
+      if (!items.some(x=>x.kind==="flag" && x.key===pic.flag) && items.length<100){
+        items.push({id:"f"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),kind:"flag",status:"flag",key:pic.flag,artist:s.artist,
+          showId:s.id,img:pic.img.startsWith("https://")?pic.img:"",src:pic.src,city:state.city,at:new Date().toISOString()});
+        await ref.set({items});
+      }
+    }catch(e){}
+  }
+  setTimeout(()=>render(),900);
+}
 const STATUS={soldout:"Sold out",cancelled:"Cancelled",postponed:"Postponed"};
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
@@ -843,8 +916,10 @@ function showCard(s){
   const vr = venueRating(s.v.key);
   const st = STATUS[s.status] ? s.status : "";
   const saved = savedIds().has(s.id);
-  return el("article",{class:"show"+(s.featured?" featured":"")+(st?" st-"+st:""),"data-id":s.id},
+  const pic = picOf(s);
+  return el("article",{class:"show"+(s.featured?" featured":"")+(s.featured&&pic?" has-banner":"")+(st?" st-"+st:""),"data-id":s.id},
     s.featured ? el("div",{class:"feat-badge",text:"★ Featured"}) : null,
+    thumbEl(s,pic),
     el("div",{},
       el("h3",{class:"artist",text:s.artist}),
       st ? el("span",{class:"pill status "+st,text:STATUS[st]}) : null,
@@ -868,7 +943,8 @@ function showCard(s){
           el("button",{type:"button",text:"Apple / Outlook",onclick:()=>addToCalendar(s)})]) : null,
         actMenu("listen","Listen","Listen to "+s.artist,[
           el("a",{href:spotifyLink(s.spotify)||listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
-          el("a",{href:appleMusicLink(s.apple)||appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"})]),
+          el("a",{href:appleMusicLink(s.apple)||appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"}),
+          (pic && pic.src!=="band") ? el("button",{type:"button",class:"wrongpic",text:"Wrong photo? Tell us",onclick:e=>reportPhoto(s,pic,e.currentTarget)}) : null]),
         (()=>{ const b=el("button",{type:"button",class:"act","aria-label":"Share "+s.artist}); const lbl=el("span",{text:"Share"});
           b.append(actIcon("share"),lbl); b.onclick=()=>shareShow(s,lbl); return b; })()
       )
@@ -1397,6 +1473,8 @@ async function initDb(){
 let unsubUser=[];
 function subscribePublic(){
   state.db.collection("shows").onSnapshot(snap=>{
+    const cfg=snap.docs.find(d=>d.id==="zz-config-imageblocks");
+    state.imgBlocked=new Set(cfg && Array.isArray(cfg.data().blocked) ? cfg.data().blocked : []);
     state.approved = snap.docs.map(d=>Object.assign({id:d.id}, d.data()))
       .filter(x=>x && typeof x.artist==="string" && typeof x.date==="string" && /^\d{4}-\d{2}-\d{2}$/.test(x.date));
     render();
@@ -1451,6 +1529,7 @@ $("#submit-form").addEventListener("submit", async e=>{
   const sp=f("#s-spotify"), am=f("#s-apple");
   if (sp){ item.spotify=spotifyLink(sp); if (!item.spotify) return setStatus("#s-status","That Spotify link doesn't look right. It should start with https://open.spotify.com/artist/ (or /album/ or /track/).","err"); }
   if (am){ item.apple=appleMusicLink(am); if (!item.apple) return setStatus("#s-status","That Apple Music link doesn't look right. It should start with https://music.apple.com/ and point to an artist, album or song.","err"); }
+  if (state.subPhoto){ if (!$("#s-photo-ok").checked) return setStatus("#s-status","Tick the box to confirm you can use that picture, or remove it.","err"); item.photo=state.subPhoto; }
   // Known venue? Attach its key so it lands on the map.
   const known = Object.entries(VENUES).find(([k,v])=>v.name.toLowerCase()===item.venueName.toLowerCase());
   if (known){ item.venue=known[0]; }
@@ -1464,16 +1543,44 @@ $("#submit-form").addEventListener("submit", async e=>{
     const items=(cur.exists && Array.isArray(cur.data().items)) ? cur.data().items.slice() : [];
     items.push(item);
     await ref.set({items});
-    $("#submit-form").reset();
+    $("#submit-form").reset(); clearSubPhoto();
     setStatus("#s-status","Got it. Your show is in the review queue.","ok");
   }catch(err){
     setStatus("#s-status", err && err.code==="permission-denied" ? NO_WRITE_MSG : "Couldn't send that just now. Try again in a minute.","err");
   }finally{ $("#s-btn").disabled=false; }
 });
+/* Band photo on the submit form: shrink on the phone before it's sent */
+function clearSubPhoto(){ state.subPhoto=""; $("#s-photo").value=""; $("#s-photo-prev").replaceChildren(); $("#s-photo-prev").classList.add("hidden"); $("#s-photo-ok-row").classList.add("hidden"); }
+async function shrinkPhoto(file){
+  const url=URL.createObjectURL(file);
+  try{
+    const img=await new Promise((res,rej)=>{ const i=new Image(); i.onload=()=>res(i); i.onerror=rej; i.src=url; });
+    const max=480, sc=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));
+    const c=document.createElement("canvas"); c.width=Math.max(1,Math.round(img.naturalWidth*sc)); c.height=Math.max(1,Math.round(img.naturalHeight*sc));
+    const g=c.getContext("2d"); g.fillStyle="#fff"; g.fillRect(0,0,c.width,c.height); g.drawImage(img,0,0,c.width,c.height);
+    for (const q of [0.78,0.66,0.55,0.45]){
+      let d=c.toDataURL("image/webp",q); if (!d.startsWith("data:image/webp")) d=c.toDataURL("image/jpeg",q);
+      if (d.length<110000) return d;
+    }
+    return null;
+  } finally { URL.revokeObjectURL(url); }
+}
+$("#s-photo").addEventListener("change", async e=>{
+  const f=e.target.files && e.target.files[0]; if (!f) return clearSubPhoto();
+  if (!/^image\/(jpeg|png|webp)$/.test(f.type)) { clearSubPhoto(); return setStatus("#s-status","Use a JPG, PNG or WebP picture.","err"); }
+  if (f.size>20e6) { clearSubPhoto(); return setStatus("#s-status","That picture is too big. Try one under 20 MB.","err"); }
+  setStatus("#s-status","Getting your picture ready…","");
+  let d=null; try{ d=await shrinkPhoto(f); }catch(err){}
+  if (!d || !validPhoto(d)) { clearSubPhoto(); return setStatus("#s-status","Couldn't read that picture. Try a different one.","err"); }
+  state.subPhoto=d; setStatus("#s-status","","");
+  const prev=$("#s-photo-prev"); prev.replaceChildren(el("img",{src:d,alt:"Your band picture"}), el("button",{type:"button",class:"btn small ghost",text:"Remove",onclick:clearSubPhoto}));
+  prev.classList.remove("hidden"); $("#s-photo-ok-row").classList.remove("hidden");
+});
 function renderMine(){
   const box=$("#mine"), ul=$("#mine-list");
-  box.classList.toggle("hidden",!state.mySubs.length); ul.replaceChildren();
-  for (const it of state.mySubs.slice().reverse()){
+  const subs=state.mySubs.filter(x=>x.kind!=="flag");
+  box.classList.toggle("hidden",!subs.length); ul.replaceChildren();
+  for (const it of subs.slice().reverse()){
     const label = it.status==="approved"?"Live on the calendar":it.status==="rejected"?"Not listed":"Waiting for review";
     ul.append(el("li",{}, el("strong",{text:it.artist}), " · "+(it.venueName||"")+" · "+it.date+" — ", el("em",{text:label})));
   }
@@ -1592,6 +1699,34 @@ async function setSubmissionStatus(uid,id,status){
   const items=(cur.data().items||[]).map(x=>x.id===id?Object.assign({},x,{status}):x);
   await ref.set({items});
 }
+async function setImageBlock(key,on){
+  const FV=firebase.firestore.FieldValue;
+  await state.db.doc("shows/zz-config-imageblocks").set({blocked:on?FV.arrayUnion(key):FV.arrayRemove(key)},{merge:true});
+}
+function renderPhotoReports(){
+  const box=$("#adm-photos"); if (!box) return; box.replaceChildren();
+  const groups=new Map();
+  for (const s of state.allSubmissions) for (const it of s.items) if (it.kind==="flag" && it.status==="flag" && typeof it.key==="string"){
+    if (!groups.has(it.key)) groups.set(it.key,{it,refs:[]}); groups.get(it.key).refs.push({uid:s.uid,id:it.id}); }
+  const SRC={tm:"Ticketmaster",venue:"venue's event page",spotify:"Spotify",apple:"Apple Music"};
+  if (!groups.size) box.append(el("p",{class:"note",text:"No reports. When a visitor taps \"Wrong photo?\" it shows up here."}));
+  for (const [key,{it,refs}] of groups){
+    const done=async()=>{ for (const r of refs) await setSubmissionStatus(r.uid,r.id,"done"); };
+    const row=el("div",{class:"row"},
+      el("button",{class:"btn small",type:"button",text:"Block this photo",onclick:async e=>{ e.currentTarget.disabled=true; try{ await setImageBlock(key,true); await done(); }catch(err){ e.currentTarget.disabled=false; } }}),
+      el("button",{class:"btn small ghost",type:"button",text:"Photo is fine",onclick:async e=>{ e.currentTarget.disabled=true; try{ await done(); }catch(err){ e.currentTarget.disabled=false; } }}));
+    box.append(el("div",{class:"admin-item"},
+      safeUrl(it.img) ? el("img",{class:"adm-pic",src:it.img,alt:"Reported picture",referrerpolicy:"no-referrer"}) : null,
+      el("strong",{text:it.artist||""}), el("br"),
+      el("span",{class:"note",text:"From "+(SRC[it.src]||"a search")+" · reported "+refs.length+(refs.length===1?" time":" times")+(it.city&&CITIES[it.city]?" · "+CITIES[it.city].name:"")}),
+      row, el("div",{style:"clear:both"})));
+  }
+  const bl=$("#adm-blocked"); if (!bl) return; bl.replaceChildren();
+  const keys=[...state.imgBlocked];
+  if (!keys.length) bl.append(el("p",{class:"note",text:"No blocked photos."}));
+  for (const k of keys) bl.append(el("div",{class:"admin-item"}, el("span",{text:(k.startsWith("a:")?"Band: ":"Show: ")+k.slice(2)}), " ",
+    el("button",{class:"btn small ghost",type:"button",text:"Unblock",onclick:async e=>{ e.currentTarget.disabled=true; try{ await setImageBlock(k,false); }catch(err){ e.currentTarget.disabled=false; } }})));
+}
 function renderAdmin(){
   if (!state.isOwner) return;
   const pend=$("#adm-pending"); pend.replaceChildren();
@@ -1600,6 +1735,7 @@ function renderAdmin(){
   for (const {uid,it} of pending){
     const url=safeUrl(it.url);
     const box=el("div",{class:"admin-item"},
+      validPhoto(it.photo) ? el("img",{class:"adm-pic",src:it.photo,alt:"Band picture they sent"}) : null,
       el("strong",{text:it.artist}), it.support?" with "+it.support:"", el("br"),
       el("span",{class:"note",text:[it.date,fmtTime(it.time),it.venueName,it.area,it.type,it.genre,it.price].filter(Boolean).join(" · ")}), el("br"),
       el("span",{class:"note",text:"Contact: "+it.contact+(it.wantsFeature?" · WANTS FEATURED":"")}),
@@ -1617,6 +1753,7 @@ function renderAdmin(){
           area:it.area,type:it.type,genre:it.genre,price:it.price,tickets:it.url||"",featured:!!featured,approvedAt:new Date().toISOString()};
         if (spotifyLink(it.spotify)) show.spotify=spotifyLink(it.spotify);
         if (appleMusicLink(it.apple)) show.apple=appleMusicLink(it.apple);
+        if (validPhoto(it.photo)) show.photo=it.photo;
         await state.db.doc("shows/"+it.id).set(show);
         await setSubmissionStatus(uid,it.id,"approved");
       }catch(e){ row.querySelectorAll("button").forEach(b=>b.disabled=false); }
@@ -1638,6 +1775,7 @@ function renderAdmin(){
         el("button",{class:"btn small ghost",type:"button",text:"Remove",onclick:async()=>{ try{ await state.db.doc("shows/"+sh.id).delete(); }catch(e){} }})
       )));
   }
+  renderPhotoReports();
   const rv=$("#adm-reviews"); rv.replaceChildren();
   const recent=state.reviews.slice().sort((a,b)=>String(b.at).localeCompare(String(a.at))).slice(0,30);
   if (!recent.length) rv.append(el("p",{class:"note",text:"No reviews yet."}));
