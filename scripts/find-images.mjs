@@ -13,7 +13,7 @@ const addDays = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().
 const HORIZON = addDays(TODAY, 183);
 const RECHECK_NONE_DAYS = 30;     // look again for bands we found nothing for after this long
 const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 70);
-const MAX_PAGES = Number(process.env.MAX_PAGES || 160); // event pages read per city per run
+const MAX_PAGES = Number(process.env.MAX_PAGES || 400); // event pages read per city per run
 const RECHECK_PAGE_DAYS = 10; // new bands looked up per city per run; the rest wait for the next run
 const FIREBASE_PROJECT = "showmeshows-1d87d";
 const FIREBASE_KEY = "AIzaSyBidytEHkkVgfcDJ9K0O7_DjisE_zxlJaA"; // public web key, same one the site uses
@@ -91,7 +91,7 @@ async function pagePhoto(url) {
       const c = t && attr(t, "content");
       if (!c) continue;
       const img = new URL(c.replace(/&amp;/g, "&"), r.url).href.replace(/^http:/, "https:");
-      if (/logo|favicon|placeholder|default[-_]?(image|og|share)|share[-_]?image|site[-_]?image/i.test(img)) return null;
+      if (/\/venues?\/|logo|favicon|placeholder|default[-_]?(image|og|share)|share[-_]?image|site[-_]?image/i.test(img)) return null;
       return img;
     }
   } catch (e) {}
