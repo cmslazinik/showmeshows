@@ -12,7 +12,9 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const addDays = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().slice(0, 10);
 const HORIZON = addDays(TODAY, 183);
 const RECHECK_NONE_DAYS = 30;     // look again for bands we found nothing for after this long
-const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 70); // new bands looked up per city per run; the rest wait for the next run
+const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 70);
+const MAX_PAGES = Number(process.env.MAX_PAGES || 160); // event pages read per city per run
+const RECHECK_PAGE_DAYS = 10; // new bands looked up per city per run; the rest wait for the next run
 const FIREBASE_PROJECT = "showmeshows-1d87d";
 const FIREBASE_KEY = "AIzaSyBidytEHkkVgfcDJ9K0O7_DjisE_zxlJaA"; // public web key, same one the site uses
 
@@ -71,6 +73,31 @@ async function imageLoads(url) {
   } catch (e) { return false; }
 }
 
+/* ---------- Event page photo (the picture that shows when you share the link) ---------- */
+const lastHit = new Map();
+async function pagePhoto(url) {
+  let u; try { u = new URL(url); } catch (e) { return null; }
+  if (u.protocol !== "https:" && u.protocol !== "http:") return null;
+  const wait = (lastHit.get(u.host) || 0) + 1200 - Date.now(); if (wait > 0) await sleep(wait); // one page a second per site
+  lastHit.set(u.host, Date.now());
+  try {
+    const r = await fetch(u.href, { headers: { "User-Agent": "Mozilla/5.0 (compatible; ShowMeShowsBot/1.0; +https://showmeshows.net)", Accept: "text/html" }, signal: AbortSignal.timeout(15000), redirect: "follow" });
+    if (!r.ok || !(r.headers.get("content-type") || "").includes("html")) return null;
+    const html = (await r.text()).slice(0, 600000);
+    const metas = [...html.matchAll(/<meta\b[^>]*>/gi)].map(m => m[0]);
+    const attr = (t, n) => { const m = t.match(new RegExp(n + "\\s*=\\s*(\"([^\"]*)\"|'([^']*)')", "i")); return m ? (m[2] ?? m[3]) : null; };
+    for (const want of ["og:image:secure_url", "og:image", "twitter:image", "twitter:image:src"]) {
+      const t = metas.find(t => (attr(t, "property") || attr(t, "name") || "").toLowerCase() === want);
+      const c = t && attr(t, "content");
+      if (!c) continue;
+      const img = new URL(c.replace(/&amp;/g, "&"), r.url).href.replace(/^http:/, "https:");
+      if (/logo|favicon|placeholder|default[-_]?(image|og|share)|share[-_]?image|site[-_]?image/i.test(img)) return null;
+      return img;
+    }
+  } catch (e) {}
+  return null;
+}
+
 /* ---------- Sources ---------- */
 async function fromTicketmaster(name, key, genre) {
   if (!TM_KEY) return null;
@@ -123,7 +150,8 @@ async function fromApple(name, key, genre) {
   const j = await getJSON("https://itunes.apple.com/search?media=music&entity=musicArtist&limit=10&term=" + encodeURIComponent(name));
   if (!j) { appleDown++; throw new Retry(); }
   appleDown = 0;
-  const exact = (j.results || []).filter(a => norm(a.artistName) === key);
+  let exact = (j.results || []).filter(a => norm(a.artistName) === key);
+  if (exact.length > 1) exact = exact.filter(a => a.primaryGenreName && genreFits(genre, [a.primaryGenreName]) && GENRE_WORDS[genre]);
   if (exact.length !== 1) return null;
   const a = exact[0];
   if (!genreFits(genre, [a.primaryGenreName]) || (riskyName(key) && !a.primaryGenreName)) return null;
@@ -169,11 +197,29 @@ export async function main() {
     const mine = approved.filter(a => a.date >= TODAY && (venueKeys.has(a.venue) || cityAreas(c.key).includes(a.area)));
     const all = upcoming.concat(mine);
 
-    // 1) Venue promo photos recorded by the update task (field "img" on a show).
-    for (const s of upcoming) {
-      if (!s.img || cache.shows[s.id]) continue;
-      cache.shows[s.id] = (await imageLoads(s.img)) ? { img: s.img, src: "venue" } : { none: true, checked: TODAY };
+    // 1) The show's own promo photo: saved by the update task ("img"), or read from its event page.
+    let pages = 0;
+    const soon = [...upcoming].sort((a, b) => a.date.localeCompare(b.date));
+    for (const s of soon) {
+      const have = cache.shows[s.id];
+      if (have && (have.img || addDays(have.checked, RECHECK_PAGE_DAYS) > TODAY)) continue;
+      let img = null;
+      if (s.img && await imageLoads(s.img)) img = s.img;
+      else {
+        if (pages >= MAX_PAGES) continue;
+        for (const u of [...new Set([s.tickets, s.source].filter(Boolean))]) {
+          pages++;
+          const c = await pagePhoto(u);
+          if (c && !(cache.generic || []).includes(c) && await imageLoads(c)) { img = c; break; }
+        }
+      }
+      cache.shows[s.id] = img ? { img, src: "venue" } : { none: true, checked: TODAY };
     }
+    // A picture used for 3+ different bands is the venue's or seller's generic image, not the band: drop it.
+    const users = new Map();
+    for (const s of upcoming) { const e = cache.shows[s.id]; if (e && e.img) { if (!users.has(e.img)) users.set(e.img, new Set()); users.get(e.img).add(artistKey(s.artist)); } }
+    cache.generic = [...new Set([...(cache.generic || []), ...[...users].filter(([, a]) => a.size >= 3).map(([i]) => i)])].slice(-300);
+    for (const [id, e] of Object.entries(cache.shows)) if (e.img && cache.generic.includes(e.img)) cache.shows[id] = { none: true, checked: TODAY };
     // Tidy: drop show entries for shows that are gone.
     const ids = new Set(upcoming.map(s => s.id));
     for (const id of Object.keys(cache.shows)) if (!ids.has(id)) delete cache.shows[id];
@@ -213,7 +259,7 @@ export async function main() {
 function cityAreas(key) {
   return { stl: ["City", "County", "St. Charles", "Metro East"], denver: ["Denver", "Boulder", "Suburbs", "Foothills"], kc: ["KCMO", "Northland", "Kansas Side", "Lawrence"], phx: ["Phoenix", "East Valley", "Scottsdale", "West Valley"] }[key] || [];
 }
-function sortKeys(o) { const r = { note: o.note, updated: o.updated, artists: {}, shows: {} };
+function sortKeys(o) { const r = { note: o.note, updated: o.updated, artists: {}, shows: {}, generic: o.generic || [] };
   for (const k of Object.keys(o.artists).sort()) r.artists[k] = o.artists[k];
   for (const k of Object.keys(o.shows).sort()) r.shows[k] = o.shows[k];
   return r; }
