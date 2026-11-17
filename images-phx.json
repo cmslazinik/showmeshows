@@ -1,21 +1,338 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-17T22:42:08.867Z",
+ "updated": "2026-11-17T23:02:19.212Z",
  "artists": {
+  "adam doleac": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2d/83/70/2d8370db-fb71-7770-09b6-b888a1c5bc3a/196589236067.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/adam-doleac/1161381044",
+   "checked": "2026-11-17",
+   "last": "2026-11-22"
+  },
+  "all your friends": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cd/a2/22/cda2221a-859c-7a4f-7083-b16fa4eec3af/752470425080_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/all-your-friends/1502062989",
+   "checked": "2026-11-17",
+   "last": "2026-11-27"
+  },
+  "animate": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "arizona hip hop festival": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "as i lay dying": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/fb/bb/a7fbbb26-78d3-498d-34b8-a32c86819b33/mzi.gnrzimtc.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/as-i-lay-dying/54266496",
+   "checked": "2026-11-17",
+   "last": "2026-11-22"
+  },
+  "ayria": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "b real": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "baby smoove": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "bayonne": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "ben klock": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/5b/6f/325b6fcb-98f8-b6d8-d930-2ce45e60a231/mzi.ilpjxdcr.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ben-klock/218499535",
+   "checked": "2026-11-17",
+   "last": "2026-11-21"
+  },
+  "biscits": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/9c/80/ff9c8055-a6aa-6d88-5ece-197d884a4dd9/190296248474.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/biscits/1185553226",
+   "checked": "2026-11-17",
+   "last": "2026-11-20"
+  },
+  "bonnie prince billy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "celica": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "chris botti": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/4e/aa/384eaa85-b267-6afe-e4fd-2ffe192cc1d9/mzi.iyazceoj.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/chris-botti/38341",
+   "checked": "2026-11-17",
+   "last": "2026-11-21"
+  },
+  "clara la san": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "dead hot workshop": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/bf/9a/83/bf9a836d-fce3-ad88-a028-93820369dae4/859714242516_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/dead-hot-workshop/968471755",
+   "checked": "2026-11-17",
+   "last": "2026-11-25"
+  },
+  "edmar castaneda": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "el fantasma": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "el tri": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "em beihold": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/94/7a/bf947ab2-e9f0-5263-8a3d-d4f0ef6192d6/22UMGIM02189.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/em-beihold/1505702878",
+   "checked": "2026-11-17",
+   "last": "2026-11-17"
+  },
+  "fred eaglesmith": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "gavn": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "glide": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "gnarwhal jrz": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/76/46/bd7646e3-7200-9ba0-34bd-a398cd690e11/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gnarwhal-jrz/1506139819",
+   "checked": "2026-11-17",
+   "last": "2026-11-28"
+  },
+  "gwar": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/db/04/dc/db04dc8c-4927-fb84-ac2e-0638ffdc0ff7/dj.zdgygens.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gwar/28693087",
+   "checked": "2026-11-17",
+   "last": "2026-11-17"
+  },
+  "hurricane wisdom": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "igor and the red elvises": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "imminence": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "innings festival": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
   },
+  "isaiah rashad": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/ff/6b/bcff6b30-6bef-8f19-e646-67e7e34cb111/859711929908_cover.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/isaiah-rashad/605391263",
+   "checked": "2026-11-17",
+   "last": "2026-11-20"
+  },
+  "jaleo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "jejune": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "jerusafunk": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "kaleo wassman": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "katseye": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "key glock": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/29/62/772962b0-b212-f10e-546c-72e609790d89/194690455483_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/key-glock/1199258326",
+   "checked": "2026-11-17",
+   "last": "2026-11-28"
+  },
+  "ladrones": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "lazy summer": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "leonid and friends": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/61/33/ed/6133ed67-1808-7658-c24b-d95bc5ce0c0d/191061449188.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/leonid-friends/1190819756",
+   "checked": "2026-11-17",
+   "last": "2026-11-18"
+  },
+  "los huracanes del norte": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "lucia micarelli": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "lumasi": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/1a/57/e11a5737-3acf-1353-54d6-5aceb44cadef/723277936475.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/lumasi/1273259258",
+   "checked": "2026-11-17",
+   "last": "2026-11-27"
+  },
   "m3f festival": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "marco strous": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a0/26/ef/a026eff4-d1d1-e89a-c854-8a1740cfc543/cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/marco-strous/923640710",
+   "checked": "2026-11-17",
+   "last": "2026-11-20"
+  },
+  "margaret glaspy": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/04/47/fa/0447fab1-36f6-9172-b25c-ed188edc4d6e/cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/margaret-glaspy/499970692",
+   "checked": "2026-11-17",
+   "last": "2026-11-18"
+  },
+  "millero": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/4a/a1/344aa175-af9a-abc9-70b9-23da8aa4a59d/5034644525419.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/millero/1572685923",
+   "checked": "2026-11-17",
+   "last": "2026-11-20"
+  },
+  "mingle": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "monique": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "monroe": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "n8noface and ho99o9": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "nic vans": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/54/45/ef5445b3-91fe-3488-a246-e00fd015ee0b/810129962451.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/nic-vans/1840595578",
+   "checked": "2026-11-17",
+   "last": "2026-11-28"
+  },
+  "paige fish": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/90/8b/28908b44-0994-13b8-57a3-59b843497801/075679564160.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/paige-fish/1481227403",
+   "checked": "2026-11-17",
+   "last": "2026-11-21"
+  },
+  "pretty sick": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2e/3f/782e3fce-b224-c80f-0cf4-c2f7dffa20ee/192641580758_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/pretty-sick/1347399810",
+   "checked": "2026-11-17",
+   "last": "2026-11-24"
+  },
+  "r and b only live": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "roger clyne and the peacemakers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7f/63/bc/7f63bca3-88fe-74b1-b040-53695e30219b/s05.gclfybqh.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/roger-clyne-the-peacemakers/427035967",
+   "checked": "2026-11-17",
+   "last": "2026-11-27"
+  },
+  "seth troxler": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/0d/93/4f0d93e9-a66c-9112-21a9-19249236fc81/0730003732430_1448.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/seth-troxler/156867690",
+   "checked": "2026-11-17",
+   "last": "2026-11-25"
+  },
+  "sorry x": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "soul power band": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "steep canyon rangers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e3/5b/73/e35b73b9-aa1f-66f0-9905-5a730684fffa/00888072033115.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/steep-canyon-rangers/95701235",
+   "checked": "2026-11-17",
+   "last": "2026-11-23"
+  },
+  "steve lacy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "strawberry girls and andres": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "sueco": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "suga free": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "summer of love": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "tank and the bangas": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "tantric": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/a7/a9/mzi.utgqehls.jpg/400x400bb.jpg",
@@ -23,6 +340,32 @@
    "link": "https://music.apple.com/us/artist/tantric/1248961",
    "checked": "2026-11-17",
    "last": "2026-12-09"
+  },
+  "the neighbourhood": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "the psychedelic furs": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c9/65/46/c9654693-d5ae-183e-d946-95e008ae0a5a/074646148129.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-psychedelic-furs/515449",
+   "checked": "2026-11-17",
+   "last": "2026-11-19"
+  },
+  "the reaper": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "three bad jacks": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/67/1e/42671e0a-cfc0-ca85-748c-c89ca3bc2501/mzi.rfzbyqqz.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/three-bad-jacks/189636763",
+   "checked": "2026-11-17",
+   "last": "2026-11-27"
+  },
+  "three days grace": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "trivium": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/52/34/145234ba-2cca-ca87-4b82-c13ef5b9236f/mzi.bdcewbho.jpg/400x400bb.jpg",
@@ -38,12 +381,27 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
+  "veronica everheart": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6f/1c/06/6f1c06c8-51f3-2501-4c4e-e22d067410b6/663918939833.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/veronica-everheart/1464288777",
+   "checked": "2026-11-17",
+   "last": "2026-11-25"
+  },
+  "yana": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "yung gravy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/yung-gravy/1165036761",
    "checked": "2026-11-17",
    "last": "2026-12-10"
+  },
+  "zauntee": {
+   "none": true,
+   "checked": "2026-11-17"
   }
  },
  "shows": {}
