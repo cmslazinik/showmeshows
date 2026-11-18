@@ -1,13 +1,24 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-17T23:51:36.219Z",
+ "updated": "2026-11-18T00:28:06.897Z",
  "artists": {
+  "93feetofsmoke": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "adam doleac": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2d/83/70/2d8370db-fb71-7770-09b6-b888a1c5bc3a/196589236067.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/adam-doleac/1161381044",
    "checked": "2026-11-17",
    "last": "2026-11-22"
+  },
+  "after the calm": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c1/2e/64/c12e64ba-c870-9c3c-bdef-d307d0d850da/742574064803.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/after-the-calm/1083448042",
+   "checked": "2026-11-17",
+   "last": "2027-01-16"
   },
   "alice cooper s christmas pudding": {
    "none": true,
@@ -19,6 +30,13 @@
    "link": "https://music.apple.com/us/artist/all-your-friends/1502062989",
    "checked": "2026-11-17",
    "last": "2026-11-27"
+  },
+  "ana popovic": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ac/a2/3c/aca23ce0-734c-98df-6b08-03382bf8df56/725543003027_cover.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ana-popovic/75389559",
+   "checked": "2026-11-17",
+   "last": "2027-01-17"
   },
   "ancient entities": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/1d/06/b61d06bf-111f-8d45-bd22-bed6ce9eb8e6/198588223093.jpg/400x400bb.jpg",
@@ -50,6 +68,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-22"
   },
+  "atomic punks": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "autumn": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/17/e4/42/mzi.mflgxcgc.jpg/400x400bb.jpg",
    "src": "apple",
@@ -76,6 +98,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "ballyhoo": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/37/ee/4337eed3-76c7-d4ce-2741-21741fdf4bf5/197773007395_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ballyhoo/130193994",
+   "checked": "2026-11-17",
+   "last": "2027-01-28"
+  },
   "barely alive": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c7/55/87/c75587ed-2917-4518-33f5-81defc16e120/075679899712.jpg/400x400bb.jpg",
    "src": "apple",
@@ -101,6 +130,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "bill tarsha and the rocket 88s": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "biscits": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/9c/80/ff9c8055-a6aa-6d88-5ece-197d884a4dd9/190296248474.jpg/400x400bb.jpg",
    "src": "apple",
@@ -111,6 +144,13 @@
   "bonnie prince billy": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "brainstory": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/51/06/24/5106246e-92b2-d97f-02ab-3effc55f3156/656605349794.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/brainstory/1043991920",
+   "checked": "2026-11-17",
+   "last": "2027-01-26"
   },
   "bryan andrews": {
    "none": true,
@@ -127,12 +167,20 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "chmura": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "chris botti": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/4e/aa/384eaa85-b267-6afe-e4fd-2ffe192cc1d9/mzi.iyazceoj.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chris-botti/38341",
    "checked": "2026-11-17",
    "last": "2026-11-21"
+  },
+  "chris simpson": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
@@ -152,6 +200,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-11"
   },
+  "cold shott and the hurricane horns": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "cole phillips": {
    "none": true,
    "checked": "2026-11-17"
@@ -170,6 +222,27 @@
    "checked": "2026-11-17",
    "last": "2026-11-25"
   },
+  "diabolyk": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/cf/fe/c2/cffec2cc-b9c5-2aef-b9e2-9d974059c25b/888295427159.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/diabolyk/1108705790",
+   "checked": "2026-11-17",
+   "last": "2027-01-01"
+  },
+  "diego figueiredo": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/e3/db/mzi.tdtacxec.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/diego-figueiredo/20452640",
+   "checked": "2026-11-17",
+   "last": "2027-01-12"
+  },
+  "diplo": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b3/ea/21/b3ea217e-d5d0-4db7-5942-15cdff5ad68d/075679927354.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/diplo/1468290871",
+   "checked": "2026-11-17",
+   "last": "2027-01-23"
+  },
   "diva bleach": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/46/04/29/46042989-9dcf-46fa-450b-d6db18ca3fbe/790566200708_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -177,13 +250,35 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
+  "dogs in a pile": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "doknow": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "earlybirds club": {
    "none": true,
    "checked": "2026-11-17"
   },
+  "echoes in ashes": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/62/84/bc6284bf-fbb2-b3d0-e0d4-18809c224b58/199332309360_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/echoes-in-ashes/1462253214",
+   "checked": "2026-11-17",
+   "last": "2027-01-09"
+  },
   "edmar castaneda": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "effin": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6e/a7/f5/6ea7f5c0-2325-1777-691d-0d5d43e044f4/5056017302939.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/effin/963912636",
+   "checked": "2026-11-17",
+   "last": "2027-01-22"
   },
   "el fantasma": {
    "none": true,
@@ -193,12 +288,58 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "el vez": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/50/0a/62/500a62e0-415e-ec51-dc1e-a1937cc46645/790168303661.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/el-vez/4208479",
+   "checked": "2026-11-17",
+   "last": "2026-12-18"
+  },
+  "eli and fur": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ff/b6/97ffb6fa-1318-56e7-c5ff-c8ae8e28bbc1/5039060353790.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/eli-fur/763301261",
+   "checked": "2026-11-17",
+   "last": "2026-12-18"
+  },
   "em beihold": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/94/7a/bf947ab2-e9f0-5263-8a3d-d4f0ef6192d6/22UMGIM02189.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/em-beihold/1505702878",
    "checked": "2026-11-17",
    "last": "2026-11-17"
+  },
+  "emo nite": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/71/80/4c71808c-7fea-9dda-b6ca-9a2cb974026f/1291137.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/emo-nite/6800940717",
+   "checked": "2026-11-17",
+   "last": "2026-12-31"
+  },
+  "eric johanson": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ca/33/0c/ca330c91-696b-c1f5-511a-4ff3dbe96d7d/040232590184.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/eric-johanson/1292082026",
+   "checked": "2026-11-17",
+   "last": "2027-01-19"
+  },
+  "eternal": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "eyes set to kill": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/37/2f/16372f6d-c566-c5e5-9dd2-413ae16bdf66/886446627236.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/eyes-set-to-kill/271973862",
+   "checked": "2026-11-17",
+   "last": "2026-12-19"
+  },
+  "fayuca": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a7/b6/84/a7b6848b-4d5e-182e-8894-4fcbfb6bb3bb/766897549175.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/fayuca/270509122",
+   "checked": "2026-11-17",
+   "last": "2026-12-17"
   },
   "foreign hands": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4c/1c/90/4c1c9096-d07d-8619-567d-44b220799eec/702338873973_cover.jpg/400x400bb.jpg",
@@ -211,9 +352,24 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "fruition": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "gary hoey": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "gavn": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "gentlemens club": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/17/35/fa/1735fae9-77f0-01d6-512c-072901a8eb8d/19UMGIM80921.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gentlemens-club/1180322928",
+   "checked": "2026-11-17",
+   "last": "2027-01-08"
   },
   "giovannie and the hired guns": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/55/a7/4b/55a74b43-1471-c6ee-7e2b-3c0eb29dcfa0/093624862451.jpg/400x400bb.jpg",
@@ -237,6 +393,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "growl": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "gwar": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/db/04/dc/db04dc8c-4927-fb84-ac2e-0638ffdc0ff7/dj.zdgygens.jpg/400x400bb.jpg",
    "src": "apple",
@@ -249,6 +409,10 @@
    "checked": "2026-11-17"
   },
   "harbour": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "hillbilly devilspeak": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -309,6 +473,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
+  "jodeci": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/33/e1/b833e16f-509e-1ada-ae52-ed694347bb59/06UMGIM19441.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/jodeci/241399",
+   "checked": "2026-11-17",
+   "last": "2027-01-15"
+  },
   "john cameron mitchell": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/1f/33/b61f33dc-73bc-b903-f3f9-64870aff2411/791558458435.jpg/400x400bb.jpg",
    "src": "apple",
@@ -353,12 +524,32 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "lead into gold": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "leather strip": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "leftover salmon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "leonid and friends": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/61/33/ed/6133ed67-1808-7658-c24b-d95bc5ce0c0d/191061449188.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/leonid-friends/1190819756",
    "checked": "2026-11-17",
    "last": "2026-11-18"
+  },
+  "llama": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "los caimanes de sinaloa": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "los huracanes del norte": {
    "none": true,
@@ -423,6 +614,20 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "mickey avalon": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/fd/fb/f7fdfb0d-712c-1ffc-7c8c-f292814b2ffe/617723354275_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mickey-avalon/57170893",
+   "checked": "2026-11-17",
+   "last": "2027-01-08"
+  },
+  "mike stern": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m05/d24/h23/s05.cgorjsfd.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mike-stern/157297",
+   "checked": "2026-11-17",
+   "last": "2026-12-17"
+  },
   "millero": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/4a/a1/344aa175-af9a-abc9-70b9-23da8aa4a59d/5034644525419.jpg/400x400bb.jpg",
    "src": "apple",
@@ -430,15 +635,40 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "mindchatter": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/79/2b/c8792baa-3301-42c2-1fad-daa14923ef31/199538538878.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mindchatter/1448296984",
+   "checked": "2026-11-17",
+   "last": "2026-12-31"
+  },
   "mingle": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "mini trees": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/20/23/de/2023ded8-9c9f-2df2-a8e2-fe433dd41418/43320.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mini-trees/1406964789",
+   "checked": "2026-11-17",
+   "last": "2026-12-16"
+  },
+  "miniature tigers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0c/ac/31/0cac3103-7526-2e98-dd3d-f89b2eb5aeb5/856375005702.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/miniature-tigers/159132058",
+   "checked": "2026-11-17",
+   "last": "2026-12-19"
   },
   "monique": {
    "none": true,
    "checked": "2026-11-17"
   },
   "monroe": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "morgan garrett": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -452,6 +682,20 @@
   "n8noface and ho99o9": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "neon indian": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/aa/48/c2/mzi.ntxiqlex.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/neon-indian/334782437",
+   "checked": "2026-11-17",
+   "last": "2027-01-22"
+  },
+  "neumonic": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b3/a9/84/b3a98420-f304-19b3-0437-5e883355f32c/198342278239_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/neumonic/1583578959",
+   "checked": "2026-11-17",
+   "last": "2027-01-08"
   },
   "nic vans": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/54/45/ef5445b3-91fe-3488-a246-e00fd015ee0b/810129962451.jpg/400x400bb.jpg",
@@ -485,6 +729,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "paradise blossom": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/f0/e9/e9f0e904-5b54-4287-739e-c3642e40ac31/197714197109.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/paradise-blossom/1566612537",
+   "checked": "2026-11-17",
+   "last": "2027-01-16"
+  },
   "pedro fernandez": {
    "none": true,
    "checked": "2026-11-17"
@@ -493,12 +744,23 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "phyphr": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/c6/2b/72c62b24-a5c1-7a73-0c3c-0aab8c51e70e/196922340918_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/phyphr/1492371526",
+   "checked": "2026-11-17",
+   "last": "2026-12-18"
+  },
   "pierre bourne": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/53/f1/af/53f1af00-cd05-00b7-c5af-ad2d21358259/11852.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/pierre-bourne/1779786800",
    "checked": "2026-11-17",
    "last": "2026-12-09"
+  },
+  "pigeon john": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "pretty sick": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2e/3f/782e3fce-b224-c80f-0cf4-c2f7dffa20ee/192641580758_Cover.jpg/400x400bb.jpg",
@@ -533,12 +795,37 @@
    "checked": "2026-11-17",
    "last": "2026-11-27"
   },
+  "rose colored eyes": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/10/cc/ef/10ccef13-a56a-18ca-a600-21d592009145/859715066753_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/rose-colored-eyes/1019260182",
+   "checked": "2026-11-17",
+   "last": "2026-12-17"
+  },
+  "sad and boujee": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c9/e5/ac/c9e5ac16-0596-e04e-1f96-85f8ac246a7f/193428098251.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sad-boujee/1439550573",
+   "checked": "2026-11-17",
+   "last": "2026-12-19"
+  },
   "sam barber": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/52/77/745277cf-4917-193f-829a-876ab625f01b/075679629432.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/sam-barber/1584802114",
    "checked": "2026-11-17",
    "last": "2026-12-11"
+  },
+  "selective response": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/44/18/b444185e-7f3b-8a65-7b79-c43be8b849b3/8790001307315.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/selective-response/1455572315",
+   "checked": "2026-11-17",
+   "last": "2027-01-02"
+  },
+  "seth david and jason leech": {
+   "none": true,
+   "checked": "2026-11-17"
   },
   "seth troxler": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/0d/93/4f0d93e9-a66c-9112-21a9-19249236fc81/0730003732430_1448.jpg/400x400bb.jpg",
@@ -551,6 +838,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "smith and myers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/6f/bb/c56fbb2a-8da3-3a75-8126-ec1023c4978e/075679944122.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/smith-myers/797363260",
+   "checked": "2026-11-17",
+   "last": "2027-01-27"
+  },
   "sorry x": {
    "none": true,
    "checked": "2026-11-17"
@@ -560,6 +854,10 @@
    "checked": "2026-11-17"
   },
   "soul power band": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "steely dead": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -597,6 +895,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "sully and gunpoint": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "summer of love": {
    "none": true,
    "checked": "2026-11-17"
@@ -619,7 +921,36 @@
    "checked": "2026-11-17",
    "last": "2026-12-09"
   },
+  "tara clerkin trio": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/70/11/92/70119289-12e1-a4e7-9a76-263603d72b26/5037300564623.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/tara-clerkin-trio/1496979363",
+   "checked": "2026-11-17",
+   "last": "2027-01-14"
+  },
+  "the arcadian wild": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/69/a2/7369a2f6-bd0e-a54b-dcbd-0f8293716939/197338859346.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-arcadian-wild/887211512",
+   "checked": "2026-11-17",
+   "last": "2027-01-26"
+  },
   "the barflies": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "the drowns": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/6b/74/fc6b746f-1c02-03c0-8ebd-141497d0e5e2/617513837124_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-drowns/1415564053",
+   "checked": "2026-11-17",
+   "last": "2027-01-20"
+  },
+  "the flatliners": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "the former ladies of the supremes": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -655,6 +986,17 @@
    "checked": "2026-11-17",
    "last": "2026-12-07"
   },
+  "the milk carton kids": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "the mountain goats": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cc/e1/75/cce175c1-b3a0-2cab-44c5-fd415d5fa7de/652637221589.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-mountain-goats/4978336",
+   "checked": "2026-11-17",
+   "last": "2027-01-17"
+  },
   "the neighbourhood": {
    "none": true,
    "checked": "2026-11-17"
@@ -662,6 +1004,13 @@
   "the olllam": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "the piano guys": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/57/8d/6c/578d6c07-5743-60f7-208b-dbbfa3fc6e15/dj.vzlsivxs.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-piano-guys/498030399",
+   "checked": "2026-11-17",
+   "last": "2027-01-20"
   },
   "the pineapple thief": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a3/24/01/a3240146-c646-14ad-0106-a73911086e8a/802644805665.jpg/400x400bb.jpg",
@@ -688,6 +1037,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
+  "the sugar thieves": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
   "three bad jacks": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/67/1e/42671e0a-cfc0-ca85-748c-c89ca3bc2501/mzi.rfzbyqqz.tif/400x400bb.jpg",
    "src": "apple",
@@ -699,9 +1052,23 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "thunderpuss": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e7/3a/76/e73a762e-0ecc-aa46-3441-44a9b6ba1c08/196589802378.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/thunderpuss/5468278",
+   "checked": "2026-11-17",
+   "last": "2026-12-19"
+  },
   "trans siberian orchestra": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "trippie redd": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/7c/00/e47c0068-6ea8-b5c9-eaa1-106869295361/196922826320_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/trippie-redd/1203172438",
+   "checked": "2026-11-17",
+   "last": "2026-12-17"
   },
   "trivium": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/52/34/145234ba-2cca-ca87-4b82-c13ef5b9236f/mzi.bdcewbho.jpg/400x400bb.jpg",
@@ -727,6 +1094,13 @@
    "link": "https://music.apple.com/us/artist/udit-narayan/1821415027",
    "checked": "2026-11-17",
    "last": "2026-12-06"
+  },
+  "vansire": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/52/51/6e/52516e65-8c20-cc2b-aeaf-3452ab8c9c25/195729693104_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/vansire/1039595626",
+   "checked": "2026-11-17",
+   "last": "2027-01-27"
   },
   "varkan": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4c/44/2e/4c442e0f-d3df-f1c3-18c9-ddb286bd366c/artwork.jpg/400x400bb.jpg",
@@ -782,6 +1156,27 @@
    "checked": "2026-11-17",
    "last": "2026-12-06"
   },
+  "willi carlisle": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cc/0a/03/cc0a03eb-c8ec-f18f-93eb-e6bd38208094/128092.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/willi-carlisle/1166038141",
+   "checked": "2026-11-17",
+   "last": "2026-12-20"
+  },
+  "winona fighter": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/43/89/334389d9-eaa9-66ab-7219-ad50a0e7c897/4099964114713.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/winona-fighter/1618260492",
+   "checked": "2026-11-17",
+   "last": "2027-01-26"
+  },
+  "yaelokre": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/e0/e9/2ae0e94a-a62f-03d7-157c-a69437c1b60d/198083005705.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/yaelokre/1722325489",
+   "checked": "2026-11-17",
+   "last": "2026-12-16"
+  },
   "yana": {
    "none": true,
    "checked": "2026-11-17"
@@ -794,6 +1189,14 @@
    "last": "2026-12-10"
   },
   "zauntee": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "zeppapotapuss": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "zeppelin usa": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -1457,6 +1860,990 @@
    "checked": "2026-11-17"
   },
   "2026-12-18-walterwherehouse-eli---fur": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-crescentballroom-eyes-set-to-kill": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-mimtheater-the-milk-carton-kids": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-rebellounge-sad---boujee": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-rhythmroom-the-sugar-thieves": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-thunderbird-thunderpuss": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-19-vanburen-miniature-tigers": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20091111-045838-709438.jpg",
+   "src": "venue"
+  },
+  "2026-12-19-walterstudios-sully-and-gunpoint": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-20-rebellounge-indian-school": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20120815-233237-229578.jpg",
+   "src": "venue"
+  },
+  "2026-12-20-valleybar-willi-carlisle": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-24-rhythmroom-bill-tarsha-and-the-rocket-88s": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-26-walterwherehouse-chmura": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-29-valleybar-mingle": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-30-vanburen-doknow": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-31-classico-los-caimanes-de-sinaloa": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-31-rhythmroom-jimi-primetime-smith": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-31-vanburen-emo-nite": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-31-walterwherehouse-mindchatter": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2026-12-31-yucca-fayuca": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-01-rebellounge-eternal": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-01-rhythmroom-diabolyk": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-02-marqueetempe-atomic-punks": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-02-walterstudios-selective-response": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-07-rebellounge-93feetofsmoke": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-08-marqueetempe-mickey-avalon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-08-mullettarena-the-former-ladies-of-the-supremes": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20111010-222229-023131.jpg",
+   "src": "venue"
+  },
+  "2027-01-08-rebellounge-lead-into-gold": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-08-walterstudios-gentlemens-club": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-08-walterstudios-neumonic": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-09-lastexit-echoes-in-ashes": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-09-rebellounge-chris-simpson": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-09-vanburen-steely-dead": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-12-mimtheater-diego-figueiredo": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20140826-034830-281594.jpg",
+   "src": "venue"
+  },
+  "2027-01-14-valleybar-tara-clerkin-trio": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-15-azfinancial-jodeci": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-15-rhythmroom-hillbilly-devilspeak": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-15-walterstudios-seth-david-and-jason-leech": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-15-yucca-pigeon-john": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-crescentballroom-after-the-calm": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-marqueetempe-leftover-salmon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-rhythmroom-the-sugar-thieves": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-rhythmroom-zeppapotapuss": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-valleybar-paradise-blossom": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-16-vanburen-zeppelin-usa": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-17-crescentballroom-the-mountain-goats": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-17-mimtheater-ana-popovic": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-19-rebellounge-fruition": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-19-rhythmroom-eric-johanson": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-20-azfinancial-the-piano-guys": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-20-rebellounge-the-drowns": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-22-lastexit-leather-strip": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-22-rebellounge-the-flatliners": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-22-thunderbird-neon-indian": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-22-vanburen-effin": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-23-hancepark-diplo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-23-marqueetempe-dogs-in-a-pile": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-23-rhythmroom-jimi-primetime-smith": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-23-walterstudios-growl": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20130125-064138-386069.jpg",
+   "src": "venue"
+  },
+  "2027-01-24-rebellounge-morgan-garrett": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-26-crescentballroom-winona-fighter": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-26-rebellounge-the-arcadian-wild": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-26-valleybar-brainstory": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-27-crescentballroom-vansire": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-27-marqueetempe-smith---myers": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-28-crescentballroom-ballyhoo-": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-29-orpheumphx-morgan-james": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-29-valleybar-the-sways": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-29-vanburen-alleycvt": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-30-orpheumphx-morgan-james": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-30-valleybar-merkules": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-30-vanburen-flo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-31-lingerlonger-trestles": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-01-31-orpheumphx-morgan-james": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-02-marqueetempe-death-from-above-1979": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-02-rebellounge-heal-the-hurt": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-03-marqueetempe-dark-star-orchestra": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20090611-064141-204443.jpg",
+   "src": "venue"
+  },
+  "2027-02-03-rebellounge-madds-buckley": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-03-rebellounge-sparkbird": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-03-valleybar-zach-seabaugh": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-04-valleybar-city-of-the-sun": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-05-azfinancial-polyphia": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-05-rhythmroom-eddie-9v": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-05-vanburen-blue-october": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-06-footprint-valentine-s-super-love-jam": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-06-lastexit-surfer-girl": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-06-marqueetempe-dropkick-murphys": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-06-vanburen-blue-october": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-06-walterwherehouse-tinzo---jojo": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-07-rhythmroom-marmalade-skies": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-08-vanburen-the-hip-abduction": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-09-crescentballroom-galdive": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-09-valleybar-aubory-bugg": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-10-valleybar-never-easy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-11-marqueetempe-railroad-earth": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-11-vanburen-the-bouncing-souls": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-12-crescentballroom-ajj": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-12-rhythmroom-jimi-primetime-smith": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-13-azfinancial-yuridia": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-13-celebrityphx-roberto-tapia": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-13-rhythmroom-sugaray-rayford": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-13-valleybar-luh-kel": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-19-phxsymphonyhall-pablo-s-inz-villegas": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-19-vanburen-bad-suns": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-21-phxsymphonyhall-pablo-s-inz-villegas": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-21-rebellounge-hot-freaks": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-22-rebellounge-ciaran": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-22-valleybar-girl-ultra": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-23-crescentballroom-jack-kays": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-23-vanburen-ashe": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-24-valleybar-where-s-west-": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-25-crescentballroom-mc4d": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-25-luckys-joey-harkum": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-25-walterstudios-tophouse": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-26-tempebeachpark-innings-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-celebrityphx-blue--yster-cult": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-crescentballroom-the-lemonheads": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-rhythmroom-the-forty-fours": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-valleybar-anna-shoemaker": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-vanburen-emily-ann-roberts": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-27-walterstudios-tophouse": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-02-28-rebellounge-doublecamp": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-01-azfinancial-2hollis": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-01-crescentballroom-rayland-baxter": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-02-vanburen-sylvan-esso": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-03-crescentballroom-valley": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-03-lingerlonger-ulrika-spacek": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-03-rebellounge-games-we-play": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-03-valleybar-danielle-ponder": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-03-vanburen-chelsea-cutler": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-04-crescentballroom-james-marriott": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-04-lastexit-sungazer": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-04-valleybar-cloud-nothings": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-04-vanburen-49-winchester": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-05-marqueetempe-anthony-gomes": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-05-rebellounge-jack-and-jack": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-05-rhythmroom-bobby-rush": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-05-steelepark-m3f-festival": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-05-vanburen-brakence": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-06-footprint-elevation-worship": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-06-valleybar-cel-genesis": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-06-vanburen-boogie-t": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-07-crescentballroom-alex-sampson": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-07-vanburen-grace-potter": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-08-rebellounge-crooked-fingers": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20090609-132208-359391.jpg",
+   "src": "venue"
+  },
+  "2027-03-09-marqueetempe-currents": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-09-vanburen-beach-bunny": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-10-vanburen-noga-erez": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-11-crescentballroom-ruby-waters": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-11-marqueetempe-michelle-branch": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-11-vanburen-liquid-stranger": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-12-marqueetempe-wheeler-walker--jr-": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-12-rebellounge-grieves": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-12-rhythmroom-soul-junkies": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-13-rhythmroom-joecephus-and-the-george-jonestown-massacre": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-13-vanburen-chvrches": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-14-crescentballroom-penelope-road": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-14-walterstudios-destroy-boys": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-15-walterstudios-saxsquatch": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-16-mimtheater-the-hot-sardines": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-17-mimtheater-the-hot-sardines": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-18-vanburen-vacations": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-19-marqueetempe-the-interrupters": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-20-crescentballroom-noah-gundersen": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-20-footprint-greta-van-fleet": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-21-crescentballroom-cursive": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-21-rhythmroom-marmalade-skies": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-21-vanburen-clutch": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-22-crescentballroom-noah-rinker": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-22-valleybar-oscar-lindsey": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-22-vanburen-durand-jones---the-indications": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-azfinancial-the-plot-in-you": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-crescentballroom-bo-staloch": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-dirtydrummer-thomas-dollbaum": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-lingerlonger-truck-violence": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-rebellounge-susannah-joffe": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-23-valleybar-wild-pink": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-24-rhythmroom-the-jive-aces": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-24-valleybar-hotel-fiction": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-24-vanburen-frank-turner---the-sleeping-souls": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-25-lastexit-kaylee-rose": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-25-rebellounge-worldpeace-dmt": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-25-rhythmroom-brian-chartrand": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-25-valleybar-letters-to-lions": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-26-crescentballroom-deathbyromy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-27-footprint-los-parras": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-28-crescentballroom-chasing-abbey": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-28-vanburen-the-growlers": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-29-valleybar-sadurn": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-30-crescentballroom-hans-williams": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-30-footprint-hans-zimmer": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-30-valleybar-earth-to-eve": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-30-vanburen-poison-the-well-and-alexisonfire": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-30-walterstudios-gus-dapperton": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-31-celebrityphx-dashboard-confessional": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-31-rebellounge-rec-hall": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-03-31-vanburen-boy-throb": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-01-rebellounge-valencia-grace": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-02-tempebeachpark-reggae-rise-up-arizona": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-03-dirtydrummer-cory-branan": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-03-tempebeachpark-reggae-rise-up-arizona": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-03-vanburen-ricky-montgomery": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-04-crescentballroom-dogpark": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-04-tempebeachpark-reggae-rise-up-arizona": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-06-rebellounge-haiden-henderson": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-06-vanburen-lucky-daye": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-07-rebellounge-the-palms": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-07-vanburen-nothing-but-thieves": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-08-rhythmroom-john-n-meth": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-09-walterstudios-moontricks": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-10-rebellounge-babes-in-canyon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-10-valleybar-hudson-freeman-and-sean-solomon": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-11-crescentballroom-thao---the-get-down-stay-down": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-12-rebellounge-clap-your-hands-say-yeah": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-13-crescentballroom-gang-of-youths": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-13-valleybar-almost-a-m-": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-13-vanburen-the-damned": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-14-crescentballroom-the-castellows": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-15-footprint-feid": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-15-vanburen-lsdream": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-16-crescentballroom-twrp": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-18-vanburen-the-warning": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-20-footprint-nickelback": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-22-crescentballroom-snotty-nose-rez-kids": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-23-azfinancial-jesse---joy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-23-footprint-fantasia": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-23-thunderbird-tim-cappello": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-24-vanburen-haute---freddy": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-24-walterwherehouse-sue-o": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-26-talkingstickamp-iron-maiden": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-27-azfinancial-meshuggah": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-29-valleybar-terrian": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-04-30-vanburen-mass-of-the-fermenting-dregs": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-01-azfinancial-carly-rae-jepsen": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-01-mullettarena-sam-fender": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-01-vanburen-our-last-night": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-02-yucca-mark-winters": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-04-rebellounge-hotel-mira": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-06-crescentballroom-cleopatrick": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-07-orpheumphx-mandy-gonzalez": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-08-azfinancial-ha-ash": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-08-orpheumphx-mandy-gonzalez": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-09-orpheumphx-mandy-gonzalez": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-12-talkingstickamp-deftones": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-13-marqueetempe-the-dead-daisies": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-14-rebellounge-carsie-blanton": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-15-crescentballroom-john-splithoff": {
+   "none": true,
+   "checked": "2026-11-17"
+  },
+  "2027-05-15-vanburen-the-chats": {
    "none": true,
    "checked": "2026-11-17"
   }
