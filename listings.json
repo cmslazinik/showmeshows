@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:35:22Z",
+ "updated": "2026-11-18T10:34:25Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -2156,13 +2156,13 @@
    "id": "2026-11-27-delmar-windwaker",
    "date": "2026-11-27",
    "time": "",
-   "artist": "Windwaker",
-   "support": "Don Broco",
+   "artist": "Don Broco",
+   "support": "Windwaker",
    "venue": "delmar",
-   "genre": "Metal/Hardcore",
+   "genre": "Rock",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43342553-windwaker-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43342553-windwaker-at-delmar-hall"
+   "tickets": "https://www.ticketmaster.com/event/060064FBC2D60CA5?brand=delmarhall&camefrom=cfc_delmarhall_webcc",
+   "source": "https://www.thepageant.com/calendar"
   },
   {
    "id": "2026-11-28-bob-all-roostered-up",
