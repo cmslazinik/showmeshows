@@ -142,6 +142,13 @@ async function fromSpotify(name, key, genre, spotifyUrl) {
   return p ? { img: p.url, src: "spotify", link: "https://open.spotify.com/artist/" + a.id } : null;
 }
 
+// "Mushroomhead & Fear Factory" -> also try "Mushroomhead" (the first band on a co-bill).
+function nameTries(artist) {
+  const full = String(artist).replace(/\s*[:(\[].*$/, "").trim();
+  const first = full.split(/\s+(?:&|\+|x|w\/|with|featuring|feat\.?|ft\.?|and friends)\s+|\s*[,\/|]\s+/i)[0].trim();
+  return first && norm(first) !== norm(full) && norm(first).length > 2 ? [full, first] : [full];
+}
+
 // Apple allows about 20 requests a minute. A failed request means "try this band again next run", not "no picture".
 class Retry extends Error {}
 let appleDown = 0;
@@ -154,7 +161,8 @@ async function fromApple(name, key, genre) {
   if (exact.length > 1) exact = exact.filter(a => a.primaryGenreName && genreFits(genre, [a.primaryGenreName]) && GENRE_WORDS[genre]);
   if (exact.length !== 1) return null;
   const a = exact[0];
-  if (!genreFits(genre, [a.primaryGenreName]) || (riskyName(key) && !a.primaryGenreName)) return null;
+  const distinctive = key.split(" ").length >= 3 || key.length >= 14; // long names are rarely shared by two acts
+  if ((!genreFits(genre, [a.primaryGenreName]) && !distinctive) || (riskyName(key) && !a.primaryGenreName)) return null;
   await sleep(3100);
   const al = await getJSON("https://itunes.apple.com/lookup?entity=album&limit=5&id=" + a.artistId);
   if (!al) { appleDown++; throw new Retry(); }
@@ -238,9 +246,15 @@ export async function main() {
       cityLookups++; lookups++;
       let hit;
       try {
-        hit = await fromTicketmaster(s.artist, key, s.genre)
-          || await fromSpotify(s.artist, key, s.genre, s.spotify)
-          || await fromApple(s.artist, key, s.genre);
+        const tries = nameTries(s.artist);
+        for (const n of tries) {
+          const k2 = norm(n);
+          hit = await fromTicketmaster(n, k2, s.genre)
+            || await fromSpotify(n, k2, s.genre, n === tries[0] ? s.spotify : "")
+            || await fromApple(n, k2, s.genre);
+          if (hit) break;
+          if (tries.length > 1) await sleep(3100);
+        }
       } catch (e) { if (e instanceof Retry) { retried++; await sleep(3100); continue; } throw e; }
       if (hit && !(await imageLoads(hit.img))) hit = null;
       cache.artists[key] = hit ? Object.assign(hit, { checked: TODAY, last: s.date }) : { none: true, checked: TODAY };
