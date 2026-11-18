@@ -129,23 +129,16 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .meta .venue{font-weight:600}
 .side-tags{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 @media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
-.show{grid-template-columns:76px minmax(0,1fr) auto}
+.show.has-pic{grid-template-columns:76px minmax(0,1fr) auto}
 .thumb{width:76px;height:76px;border:2px solid var(--ink);background:#2a2925;overflow:hidden;align-self:start;margin-top:2px;position:relative}
 .thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(1) contrast(1.2) brightness(1.02)}
-.thumb .tile{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:30px;letter-spacing:.5px;line-height:1}
-.tile.t0{background:var(--pink);color:#0B0B0B}
-.tile.t1{background:var(--tape);color:#0B0B0B}
-.tile.t2{background:#0B0B0B;color:var(--pink);outline:2px dashed var(--pink);outline-offset:-7px}
-:root[data-theme="light"] .tile.t2{background:#1a1a1a}
-.thumb:has(.tile){transform:rotate(-3deg)}
-.show:nth-child(even) .thumb:has(.tile){transform:rotate(2.5deg)}
 .show.has-banner{grid-template-columns:minmax(0,1fr) auto}
 .show.has-banner .thumb{grid-column:1/-1;width:100%;height:auto;aspect-ratio:16/9;max-height:230px;margin:0 0 6px;transform:none}
 .show.has-banner .thumb img{object-position:center 30%}
 .photo-prev{display:flex;align-items:center;gap:12px;margin:6px 0 4px}
 .photo-prev img{width:72px;height:72px;object-fit:cover;border:2px solid var(--ink);filter:grayscale(1) contrast(1.2)}
 .adm-pic{width:64px;height:64px;object-fit:cover;border:2px solid var(--ink);float:left;margin:0 12px 6px 0}
-@media (max-width:520px){.show{grid-template-columns:62px minmax(0,1fr);column-gap:12px}.thumb{width:62px;height:62px}.thumb .tile{font-size:25px}.side-tags{grid-column:1/-1}.show.has-banner{grid-template-columns:minmax(0,1fr)}.show.has-banner .thumb{width:100%;height:auto}.show:not(.has-banner) .acts{margin-left:-74px;width:calc(100% + 74px)}}
+@media (max-width:520px){.show.has-pic{grid-template-columns:62px minmax(0,1fr);column-gap:12px}.thumb{width:62px;height:62px}.show.has-pic .side-tags{grid-column:1/-1}.show.has-banner{grid-template-columns:minmax(0,1fr)}.show.has-banner .thumb{width:100%;height:auto}.show.has-pic:not(.has-banner) .acts{margin-left:-74px;width:calc(100% + 74px)}}
 .pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
 .pill.free{background:var(--ink);color:var(--paper)}
 .mast-right{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
@@ -493,7 +486,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <h3>Recent reviews</h3>
       <div id="adm-reviews"><p class="note">Loading…</p></div>
       <h3>Photo reports</h3>
-      <p class="note">Band pictures visitors said were wrong. Blocking one swaps it for the stamp tile everywhere.</p>
+      <p class="note">Band pictures visitors said were wrong. Blocking one removes it everywhere.</p>
       <div id="adm-photos"><p class="note">Loading…</p></div>
       <h3>Blocked photos</h3>
       <div id="adm-blocked"></div>
@@ -866,7 +859,7 @@ function listenName(s){ return s.artist.replace(/\s*[:(\[].*$/,"").trim(); }
 function listenUrl(s){ return "https://open.spotify.com/search/"+encodeURIComponent(listenName(s)); }
 function appleMusicUrl(s){ return "https://music.apple.com/us/search?term="+encodeURIComponent(listenName(s)); }
 /* ---------- Band pictures ---------- */
-// Order: band's own upload > Ticketmaster > venue promo photo > Spotify > Apple Music > stamp tile.
+// Order: band's own upload > Ticketmaster > venue promo photo > Spotify > Apple Music > no picture (card stays as it was).
 function picKey(s){ return norm(listenName(s)); }
 function hiddenPics(){ try{ return new Set(JSON.parse(localStorage.getItem("sms-hidepics")||"[]")); }catch(e){ return new Set(); } }
 function validPhoto(u){ return typeof u==="string" && u.length<160000 && /^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+\/=]+$/.test(u); }
@@ -880,17 +873,11 @@ function picOf(s){
   if (ok(a,"a:"+k)) return {img:a.img, src:a.src, flag:"a:"+k};
   return null;
 }
-function initials(name){
-  const w=norm(name).split(" ").filter(x=>x && !["the","a","an","and","of"].includes(x));
-  if (!w.length) return "♪";
-  return (w.length===1 ? w[0].slice(0,1) : w[0][0]+w[1][0]).toUpperCase();
-}
-function tileEl(s){ let h=0; for (const c of picKey(s)) h=(h*31+c.charCodeAt(0))>>>0; return el("div",{class:"tile t"+(h%3),text:initials(listenName(s))}); }
 function thumbEl(s,pic){
+  if (!pic) return null;
   const box=el("div",{class:"thumb","aria-hidden":"true"});
-  if (!pic){ box.append(tileEl(s)); return box; }
   const im=el("img",{src:pic.img,alt:"",loading:"lazy",decoding:"async",referrerpolicy:"no-referrer"});
-  im.addEventListener("error",()=>{ box.replaceChildren(tileEl(s)); const c=box.closest(".show"); if(c) c.classList.remove("has-banner"); });
+  im.addEventListener("error",()=>{ const c=box.closest(".show"); if(c) c.classList.remove("has-banner","has-pic"); box.remove(); });
   box.append(im); return box;
 }
 async function reportPhoto(s,pic,btn){
@@ -917,7 +904,7 @@ function showCard(s){
   const st = STATUS[s.status] ? s.status : "";
   const saved = savedIds().has(s.id);
   const pic = picOf(s);
-  return el("article",{class:"show"+(s.featured?" featured":"")+(s.featured&&pic?" has-banner":"")+(st?" st-"+st:""),"data-id":s.id},
+  return el("article",{class:"show"+(s.featured?" featured":"")+(pic?" has-pic":"")+(s.featured&&pic?" has-banner":"")+(st?" st-"+st:""),"data-id":s.id},
     s.featured ? el("div",{class:"feat-badge",text:"★ Featured"}) : null,
     thumbEl(s,pic),
     el("div",{},

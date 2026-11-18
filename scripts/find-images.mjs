@@ -1,10 +1,10 @@
 // Finds band pictures for upcoming shows and saves them to images-<city>.json.
 // Runs on GitHub (see .github/workflows/band-pictures.yml). Uses no AI.
 //
-// Order a card uses (the site picks): band's own upload > Ticketmaster > venue promo photo > Spotify > Apple Music > stamp tile.
+// Order a card uses (the site picks): band's own upload > Ticketmaster > venue promo photo > Spotify > Apple Music > no picture.
 // Ticketmaster and Spotify only run when their keys are set as repo secrets:
 //   TM_KEY, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
-// When unsure a picture is the right band, it saves nothing and the card shows the stamp tile.
+// When unsure a picture is the right band, it saves nothing and the card has no picture.
 
 import fs from "node:fs";
 

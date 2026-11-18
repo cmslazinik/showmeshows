@@ -35,10 +35,10 @@ The scheduled updates follow `updates/RULES.md` (one rulebook for every city). E
 
 ## Band pictures
 
-Each listing card shows a band picture, picked in this order: the band's own upload (submit form) > Ticketmaster > the venue's promo photo for that show (`img` on a show) > Spotify > Apple Music > a stamp tile made from the band's initials.
+Each listing card shows a band picture, picked in this order: the band's own upload (submit form) > Ticketmaster > the venue's promo photo for that show (`img` on a show) > Spotify > Apple Music > no picture (the card looks like it always did).
 
-`scripts/find-images.mjs` fills `images.json` (St. Louis) and `images-<city>.json`. It runs on GitHub Actions (`.github/workflows/band-pictures.yml`) after every listings change and on Sundays. It's free and uses no Claude usage. When it isn't sure a picture is the right band, it saves nothing and the card shows the stamp tile.
+`scripts/find-images.mjs` fills `images.json` (St. Louis) and `images-<city>.json`. It runs on GitHub Actions (`.github/workflows/band-pictures.yml`) after every listings change and on Sundays. It's free and uses no Claude usage. When it isn't sure a picture is the right band, it saves nothing and the card has no picture.
 
 Optional repo secrets (GitHub → Settings → Secrets and variables → Actions): `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` turn on Spotify; `TM_KEY` turns on Ticketmaster. Without them those sources are skipped.
 
-Visitors can tap "Wrong photo? Tell us" in a card's Listen menu. Reports show up in Admin → Photo reports, where Block swaps that picture for the stamp tile everywhere.
+Visitors can tap "Wrong photo? Tell us" in a card's Listen menu. Reports show up in Admin → Photo reports, where Block removes that picture everywhere.
