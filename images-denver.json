@@ -1,7 +1,22 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-18T00:14:36.103Z",
+ "updated": "2026-11-18T01:42:40.168Z",
  "artists": {
+  "22nd annual last waltz revisited feat polytoxic": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2dead boyz and the underachievers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/10/fe/2110fe26-1a6b-7771-1a4c-d626a17741e1/199502227999_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/2dead-boyz/1831870348",
+   "checked": "2026-11-18",
+   "last": "2026-11-24"
+  },
+  "6 million dollar band": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "aj mclean": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/1e/bf/ef1ebfaf-7286-0ea1-0bc3-f767f5bdf99f/199976000814-copy-b1d38bde.png/400x400bb.jpg",
    "src": "apple",
@@ -29,6 +44,10 @@
    "link": "https://music.apple.com/us/artist/almost-monday/1300723925",
    "checked": "2026-11-17",
    "last": "2026-11-19"
+  },
+  "alphabeat soup 93": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "alter bridge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/c1/12/2ec11256-ed80-17fb-ddf2-cf8eb850078c/840588171507.jpg/400x400bb.jpg",
@@ -67,12 +86,24 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
+  "big head todd and the monsters": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "billy marchiafava": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/9f/c5/cf9fc559-c6ba-b30b-0b9c-ad0ee82679a3/886448143475.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/billy-marchiafava/1282069852",
    "checked": "2026-11-17",
    "last": "2026-11-20"
+  },
+  "blue violin s retro rock and roll christmas": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "bobby wiens quartet feat gabe mervine seth lewis and tom amend": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "boco flamenco presents flamenco jazz with alicia camina": {
    "none": true,
@@ -101,6 +132,14 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "boulder philharmonic": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "boulder philharmonic and boulder ballet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "bresh": {
    "none": true,
    "checked": "2026-11-17"
@@ -115,6 +154,13 @@
   "brody schenk": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "brothel in belize": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/7b/63/9e7b6351-7196-a54a-96ba-93eea09ecf01/198657969709.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/brothel-in-belize/1706705120",
+   "checked": "2026-11-18",
+   "last": "2026-11-18"
   },
   "bryan andrews": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/22/2b/7f/mzi.hczrawvm.tif/400x400bb.jpg",
@@ -183,9 +229,27 @@
    "checked": "2026-11-17",
    "last": "2026-11-28"
   },
+  "colorado ballet": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5a/57/f7/5a57f790-d70c-59f3-d6ed-df365734810a/800739255692.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/colorado-ballet/1324248312",
+   "checked": "2026-11-18",
+   "last": "2026-11-28"
+  },
+  "colorado symphony": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/31/9b/c1319be9-8b93-c97c-7221-c2db3f97e804/mzi.ltdhdjhy.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/colorado-symphony/29769512",
+   "checked": "2026-11-18",
+   "last": "2026-11-20"
+  },
   "costa": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "costa and lucky": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "creekbed carter hogan": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/96/f1/b4/96f1b499-a60f-20b7-9e34-6a02c4e263e3/198000153489.jpg/400x400bb.jpg",
@@ -202,6 +266,25 @@
   "cualli": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "daddy and company": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "daniel rodriguez": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/e3/3c/1de33c47-0c00-67f9-3477-cd49fda1ef57/888295865579.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/daniel-rodriguez/1436438429",
+   "checked": "2026-11-18",
+   "last": "2026-11-18"
+  },
+  "dave hanson quartet celebrates herbie hancock": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "dave randon trio": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "dead panic": {
    "none": true,
@@ -241,13 +324,33 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "dub den records 2 year anniversary tour": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "dumm friends league": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "e m e": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "edith": {
    "none": true,
    "checked": "2026-11-17"
   },
+  "electric avenue": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "eptic": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "eric gunnison s industrial strength trio": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "eric prydz": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/19/cc/b9/19ccb90a-9b79-2a5b-410f-8c35d06c763b/13UABIM53338.rgb.jpg/400x400bb.jpg",
@@ -263,6 +366,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-09"
   },
+  "father of peace": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b4/04/3c/b4043ca1-4adb-5948-b84a-f8e4ed73540a/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/father-of-peace/1747590941",
+   "checked": "2026-11-18",
+   "last": "2026-12-01"
+  },
   "fetty wap": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/7f/1c/a67f1c2e-6fcb-1bcd-2260-eb7f4b3d75c3/mzm.nopiamsw.jpg/400x400bb.jpg",
    "src": "apple",
@@ -276,6 +386,13 @@
    "link": "https://music.apple.com/us/artist/foy-vance/68235486",
    "checked": "2026-11-17",
    "last": "2026-11-20"
+  },
+  "frances whitney": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/15/0b/16150bb8-66b2-6ca6-e9d9-ca322372b8f8/825396152023.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/frances-whitney/1733625918",
+   "checked": "2026-11-18",
+   "last": "2026-11-19"
   },
   "friends on the hill": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/c0/b3/33c0b3cc-0a63-9d21-66d0-0f07f8446c3e/823000383719.png/400x400bb.jpg",
@@ -292,6 +409,17 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "gabriel mervine quartet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "gasoline lollipops": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/77/02/20770252-3560-32b1-92c1-780cc6e32874/199257066577_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gasoline-lollipops/581303950",
+   "checked": "2026-11-18",
+   "last": "2026-11-21"
   },
   "gila teen": {
    "none": true,
@@ -315,6 +443,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "gordo dubz x wolf d": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/42/92/ac4292da-25a4-e37c-1a73-8a41d9e5d34f/5056686233855.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gordo-dubz/1690026828",
+   "checked": "2026-11-18",
+   "last": "2026-11-19"
+  },
   "grace kelly": {
    "none": true,
    "checked": "2026-11-17"
@@ -325,6 +460,14 @@
    "link": "https://music.apple.com/us/artist/gracie-abrams/1450554836",
    "checked": "2026-11-17",
    "last": "2026-12-02"
+  },
+  "grupo kachimba el poblanisimo chilangote": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "harry and friends feat rabbi joe black": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "havok": {
    "none": true,
@@ -337,6 +480,14 @@
    "checked": "2026-11-17",
    "last": "2026-11-27"
   },
+  "hazel miller and the collective holiday spectacular": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "hector acosta el torito": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "hitech presents techquavious": {
    "none": true,
    "checked": "2026-11-17",
@@ -348,6 +499,10 @@
    "link": "https://music.apple.com/us/artist/holy-wave/490521774",
    "checked": "2026-11-17",
    "last": "2026-11-20"
+  },
+  "home alone in concert colorado symphony": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "home free": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/7e/af/9a7eaf66-4494-a08b-fc0d-12cc4f79787e/886444416108.jpg/400x400bb.jpg",
@@ -362,6 +517,13 @@
    "link": "https://music.apple.com/us/artist/imminence/405241524",
    "checked": "2026-11-17",
    "last": "2026-12-03"
+  },
+  "insomnium and amorphis": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/a5/0d/61/a50d6197-b008-a9dc-e911-6bbe8a621c9d/886446073415.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/insomnium/78949757",
+   "checked": "2026-11-18",
+   "last": "2026-11-27"
   },
   "ivy queen": {
    "none": true,
@@ -391,6 +553,10 @@
    "link": "https://music.apple.com/us/artist/jehovahs-fitness-club/1747247595",
    "checked": "2026-11-17",
    "last": "2026-11-20"
+  },
+  "jeremy wendelin quintet plays original works": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "jervis campbell": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1d/e1/f5/1de1f5a5-b9b5-3455-b042-d684218e3c0e/859749645566_cover.jpg/400x400bb.jpg",
@@ -424,6 +590,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-09"
   },
+  "jonathan powell quintet plays chet baker": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "josh baker": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/f6/c9/55f6c907-3b85-ed47-bbcf-cbb5fbf44f15/5026854231518.jpg/400x400bb.jpg",
    "src": "apple",
@@ -454,6 +624,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "kings of latin jazz": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "kip moore": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/38/c9/d938c9a3-ab1e-5d00-5832-4af00dac6b85/00602577202766.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -472,6 +646,28 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "kygo st jude jam": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "ladies night and noche sonidera": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "late night thoughts": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9a/94/8b/9a948bd2-7562-351f-0d05-c609b0c88daf/956563.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/late-night-thoughts/1872437713",
+   "checked": "2026-11-18",
+   "last": "2026-11-18"
+  },
+  "leftover salmon feat sam bush": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m04/d19/h11/s05.ugqmejed.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/leftover-salmon/5380045",
+   "checked": "2026-11-18",
+   "last": "2026-11-27"
   },
   "lespecial presents": {
    "none": true,
@@ -493,12 +689,30 @@
    "checked": "2026-11-17",
    "last": "2026-12-05"
   },
+  "linderos del norte": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/b7/ec/81b7ecec-e678-5bf4-4636-725f64338161/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/linderos-del-norte/1510259091",
+   "checked": "2026-11-18",
+   "last": "2026-11-21"
+  },
   "lindsay lou": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/e6/76/03e676cf-0bde-290f-244a-045813a429b1/859731481653_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/lindsay-lou/396630491",
    "checked": "2026-11-17",
    "last": "2026-11-19"
+  },
+  "lit society ft members of lettuce the motet the jauntee and more": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "los huracanes del norte": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/90/19/71/mzi.hmifkjng.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/los-huracanes-del-norte/64619809",
+   "checked": "2026-11-18",
+   "last": "2026-11-28"
   },
   "mad dubz": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/4f/ab/9a4fabc9-5cfc-4676-5cc6-8f68fb8901d3/cover.jpg/400x400bb.jpg",
@@ -515,12 +729,9 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "mainliners": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/d6/87/7ad68706-c179-d6b5-ddce-481523a36fe6/887158255991.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/mainliners/216021628",
-   "checked": "2026-11-17",
-   "last": "2026-11-17"
+  "marco flores y la 1 banda jerez": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "mary louise lee": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/41/19/9b4119d2-2acc-cee3-eee0-a8493bd04b02/198595984154.jpg/400x400bb.jpg",
@@ -538,9 +749,21 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
+  "mile hi groove": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "mindi abair": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "monday night jazz with vlad girshevich": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "mr majestyk s 8 track revival": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "neumonic": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b3/a9/84/b3a98420-f304-19b3-0437-5e883355f32c/198342278239_cover.jpg/400x400bb.jpg",
@@ -548,6 +771,10 @@
    "link": "https://music.apple.com/us/artist/neumonic/1583578959",
    "checked": "2026-11-17",
    "last": "2026-11-28"
+  },
+  "nick forster s hippy bluegrass church": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "night lovell": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f0/af/a1/f0afa14f-18c6-8088-cbb2-df25f6fd6b82/artwork.jpg/400x400bb.jpg",
@@ -586,12 +813,43 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "open house feat babsy": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "open house feat chrispy": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "open house feat j me": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "open house feat jam": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "open house feat mayv": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "peggy babcock and tulpa": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/38/8d/0f/388d0f0b-1934-15f6-bf86-04398bdd8c15/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/peggy-babcock/1790413751",
+   "checked": "2026-11-18",
+   "last": "2026-11-21"
+  },
   "persona 749": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f6/40/26/f6402623-eed1-6b44-2dc4-d89aa037b98b/fae94e68-fd48-4115-bb9d-b1d912539c88.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/persona-749/1569812909",
    "checked": "2026-11-17",
    "last": "2026-11-21"
+  },
+  "peyton parrish": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "phyphr": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/c6/2b/72c62b24-a5c1-7a73-0c3c-0aab8c51e70e/196922340918_Cover.jpg/400x400bb.jpg",
@@ -614,6 +872,10 @@
   "prayers": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "purple mammoth sound takeover": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "rapidgrass": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/20/e5/62/20e562ef-7998-cf8f-6fab-01a6142c0e7e/889211719402.jpg/400x400bb.jpg",
@@ -658,16 +920,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
+  "salsa sundays at la rumba": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "san pacho": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "sandra mccracken": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/b5/aa/eeb5aa0f-4fec-de36-4faf-6cff45922094/888295223706_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/sandra-mccracken/1501005",
-   "checked": "2026-11-17",
-   "last": "2026-11-17"
   },
   "saosin": {
    "none": true,
@@ -702,6 +961,22 @@
    "link": "https://music.apple.com/us/artist/shanghai-doom/1257746473",
    "checked": "2026-11-17",
    "last": "2026-11-28"
+  },
+  "shift ft seth david s r and bass tour": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "shift ft wub zero": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "shift wednesday ft ghengar": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "shift wednesday ft mindset": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "shwayze": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/2f/2d/28/mzi.tykevjua.tif/400x400bb.jpg",
@@ -757,6 +1032,14 @@
    "checked": "2026-11-17",
    "last": "2026-11-28"
   },
+  "strawberry girls": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "sub mission electronic tuesdays": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "suicide silence": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/20/61/1d/20611d6e-2b56-da9f-5796-d7eeadae8492/mzm.zztsrsow.jpg/400x400bb.jpg",
    "src": "apple",
@@ -771,6 +1054,10 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "tf marz and friends": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "the annual spun out scratch showcase ft the gaslamp killer": {
    "none": true,
    "checked": "2026-11-17",
@@ -782,6 +1069,10 @@
    "link": "https://music.apple.com/us/artist/the-bad-plus/526589",
    "checked": "2026-11-17",
    "last": "2026-12-01"
+  },
+  "the black box 10 year anniversary": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "the burial plot": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/5f/83/76/5f837664-f269-68c3-4f5b-e520b2f77512/638361878664.jpg/400x400bb.jpg",
@@ -804,12 +1095,23 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
+  "the great north special": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/cb/0d/41cb0d34-0945-09e3-c2ed-cc9f15faa51c/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-great-north-special/1508749409",
+   "checked": "2026-11-18",
+   "last": "2026-12-03"
+  },
   "the kilans": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/39/fc/5e/39fc5e22-a724-c2fb-0ac4-7ee825da7250/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-kilans/1724909321",
    "checked": "2026-11-17",
    "last": "2026-12-08"
+  },
+  "the long run": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "the munchies": {
    "none": true,
@@ -833,6 +1135,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-03"
   },
+  "the psych ward punk show": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "the reals": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/8c/ce/338cce02-32d0-3ca0-7796-5d8933c012a8/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -846,6 +1152,10 @@
    "link": "https://music.apple.com/us/artist/the-rock-and-roll-playhouse/1704944011",
    "checked": "2026-11-17",
    "last": "2026-11-21"
+  },
+  "the zach howarth quartet plays joe henderson": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "tiny habits": {
    "none": true,
@@ -865,6 +1175,13 @@
   "tori rose": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "trans siberian orchestra": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e0/7c/f4/e07cf4d8-8fbf-96df-ae7a-6a25c8583256/mzi.sxqwkjew.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/trans-siberian-orchestra/165340",
+   "checked": "2026-11-18",
+   "last": "2026-11-21"
   },
   "trash box": {
    "none": true,
@@ -927,13 +1244,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
-  "violet grohl": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/ca/68/35ca6891-1fbc-303f-8d97-0ba91a048f0c/26UMGIM22395.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/violet-grohl/1538671509",
-   "checked": "2026-11-17",
-   "last": "2026-11-17"
-  },
   "vip music presents": {
    "none": true,
    "checked": "2026-11-17",
@@ -989,26 +1299,6 @@
   }
  },
  "shows": {
-  "2026-11-17-blackbox-sub-mission-electronic-tuesdays--darsa": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-bluebird-violet-grohl": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-hidive-mainliners": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-missionhillslittleton-sandra-mccracken": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-oriental-an-evening-with-tommy-castro-and-the-painkillers": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-18-bluebird-vansire": {
    "none": true,
    "checked": "2026-11-17"
@@ -2257,9 +2547,25 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-12-blackbox-canvas": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-blackbox-darkoe--bassik-x-willyb--lounge-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-bluebird-the-rock-and-roll-playhouse": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "2026-12-12-boettcher-colorado-symphony--a-colorado-christmas": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-12-bouldertheater-ripe": {
+   "img": "https://www.jambase.com/wp-content/uploads/2017/02/boulder-theater-boulder-theater-7007v.jpg",
+   "src": "venue"
   },
   "2026-12-12-caribou-spafford": {
    "img": "https://images.humanitix.com/i/af73476a-46ee-4326-baf6-9b7adbaad691.png@seo-500.jpg",
@@ -2277,17 +2583,69 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-12-fillmore-don-broco---windwaker": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-foxboulder-big-richard": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "2026-12-12-fumcboulder-boulder-philharmonic--the-new-four-seasons---vivaldi-recomposed": {
    "img": "https://assets.getcuebox.com/cdn-cgi/image/format=jpeg,width=1200,height=630,fit=cover,gravity=auto/https://assets.getcuebox.com/LPSW5JKM/33_20261105T212152Z.jpg",
    "src": "venue"
+  },
+  "2026-12-12-gothic-railbenders": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-hidive-deathchant": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "2026-12-12-larimer-finn-o-sullivan": {
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-12-larimer-open-house-feat--kenyon": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-lostlake-clementine": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-marquis-naethan-apollo": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-mission-lyny": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-nocturne-gabriel-mervine-quintet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-ogden-zulan": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-ophelias-reprise": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "2026-12-12-oriental-depeche-mode--psychedelic-furs---new-order-tributes--dm101--heaven--low-life": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-12-otherside-chez": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-12-summit-drop-dead-gorgeous": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "2026-12-12-swallowhill-the-okee-dokee-brothers": {
    "img": "https://swallowhillmusic.org/wp-content/uploads/2026/09/16339425-b8a4-4901-bc60-8993d11705bd.jpg",
@@ -2300,6 +2658,806 @@
   "2026-12-12-trident-jazzetry": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-13-boettcher-colorado-symphony--a-colorado-christmas": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY26-A-Colorado-Christmas-720x400-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-13-bouldertheater-trace-bundy--18th-annual-acoustic-holiday": {
+   "img": "https://www.gratefulweb.com/wp-content/uploads/2026/09/unnamed-10.jpg",
+   "src": "venue"
+  },
+  "2026-12-13-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-globehall-big-ol--pig": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-larimer-mercy-club": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-larumba-salsa-sundays-at-la-rumba": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
+   "src": "venue"
+  },
+  "2026-12-13-mission-trivium": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-nocturne-the-steve-denny-quintet--songs-of-winter": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-ogden-dead-poet-society": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-13-summit-miss-may-i-x-born-of-osiris": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-14-dairy-boco-flamenco-presents-flamenco-jazz-with-alicia-cami-a": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-15-blackbox-sub-mission-electronic-tuesdays--sprouted": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-15-larimer-milk---bone": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-15-lostlake-mother-soki": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-16-boettcher-john-denver---a-rocky-mountain-christmas-with-the-colorado-symphony": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/John-Denver-Holiday-720x400-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-16-bouldertheater-face-vocal-band": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-16-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-16-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-16-stampede-ladies-night---noche-sonidera": {
+   "img": "https://i.ticketweb.com/i/00/12/87/25/04_Edp.jpg?v=4",
+   "src": "venue"
+  },
+  "2026-12-17-blackbox-purple-mammoth-sound-takeover--ghast--lounge-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-boettcher-colorado-symphony--holiday-brass": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/Holiday-Brass-720x400-3.jpg",
+   "src": "venue"
+  },
+  "2026-12-17-cervantes-the-grouch---eligh-ft--amp-live": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-etown-jason-carter-band": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-larimer-sry4u": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-mission-dexter-and-the-moonrocks": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-17-otherside-shift-ft--lucid-vision---midicinal": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-blackbox-ferdadubz-collective--ferda---friends--lounge-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-blackbox-the-black-box---recon-present--dlr---mc-gusto": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-bluebird-atomga": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-cervantes-billy-failing-s-holiday-sleigh-ride": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-foxboulder-the-grouch": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-grizzlyrose-easton-corbin": {
+   "img": "https://i.ticketweb.com/i/00/13/59/54/73_Edp.jpg?v=5",
+   "src": "venue"
+  },
+  "2026-12-18-larimer-open-house-feat--oliver-blank": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-littlebear-young---dead": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1171559298%252F2163506328413%252F1%252Foriginal.20251122-180426%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dbcc80d87c947d799330d9b782801d2ff&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-18-lostlake-low-key-genius": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-marquis-public-opinion": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-ogden-canabliss": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-oriental-neuromorphic---let-them-burn": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-summit-blade-rave": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-18-swallowhill-max-gomez": {
+   "img": "https://swallowhillmusic.org/wp-content/uploads/2026/06/78e11083-275f-4324-9ca1-6ed429889377.jpg",
+   "src": "venue"
+  },
+  "2026-12-18-trident-rad-solstice-disco": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-blackbox-submorphics": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-bluebird-bleakheart": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-boettcher-colorado-symphony--too-hot-to-handel---a-gospel-messiah": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/Too-Hot-to-Handel-720x400-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-19-bouldertheater-dead-floyd": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-cervantes-billy-failing-s-holiday-sleigh-ride": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-dairy-rocky-mountain-revels--a-scottish-christmas-revels": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-etown-6th-annual-winter-s-eve-holiday-show": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-fillmore-tech-n9ne": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-marquis-drag-the-river": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-mission-ahee": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-ogden-buffalo-traffic-jam": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-ophelias-izcalli": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-oriental-denver-rock-orchestra--holiday-rock-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-paramount-face-vocal-band": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-summit-breathe-carolina": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-19-trident-cassidy-s-hammer": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-bluebird-jd-mcpherson": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-boettcher-colorado-symphony--too-hot-to-handel---a-gospel-messiah": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/Too-Hot-to-Handel-720x400-1.jpg",
+   "src": "venue"
+  },
+  "2026-12-20-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-globehall-karly-s-basement": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-larimer-brimco": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-larumba-salsa-sundays-at-la-rumba": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
+   "src": "venue"
+  },
+  "2026-12-20-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-ogden-buffalo-traffic-jam": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-20-stampede-dalvin": {
+   "img": "https://i.ticketweb.com/i/00/13/09/77/34_Edp.jpg?v=7",
+   "src": "venue"
+  },
+  "2026-12-22-boettcher-disney-s-the-muppet-christmas-carol-in-concert---colorado-symphony": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-22-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-22-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-23-boettcher-disney-s-the-muppet-christmas-carol-in-concert---colorado-symphony": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-23-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-23-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-23-stampede-ladies-night---noche-sonidera": {
+   "img": "https://i.ticketweb.com/i/00/12/87/25/04_Edp.jpg?v=4",
+   "src": "venue"
+  },
+  "2026-12-24-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-26-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-26-littlebear-jakarta-feat--isaac-points": {
+   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189925385%252F2163506328413%252F1%252Foriginal.20260730-004613%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Da57af5bce05caa31c49b222f304165c3&w=940&q=75",
+   "src": "venue"
+  },
+  "2026-12-26-nocturne-the-powell-brothers-honor-coltrane-and-miles--jonathan-powell-quintet-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-26-ogden-sidequest": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-27-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-27-larumba-salsa-sundays-at-la-rumba": {
+   "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
+   "src": "venue"
+  },
+  "2026-12-27-nocturne-drew-s-blues-and-boogaloos-feat--derek-banach": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-30-bouldertheater-the-infamous-stringdusters": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-30-dazzle-otis-taylor": {
+   "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_8eb7cf8eb29590919d5e7b536788852299aaf249e75ec7dbae9b76da7fae9875.jpg",
+   "src": "venue"
+  },
+  "2026-12-30-ogden-umphrey-s-mcgee": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-31-bouldertheater-the-infamous-stringdusters": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-31-fillmore-the-polish-ambassador": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-31-mission-pretty-lights": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2026-12-31-ogden-umphrey-s-mcgee": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-01-mission-pretty-lights": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-01-ogden-umphrey-s-mcgee": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-02-mission-pretty-lights": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-03-boettcher-colorado-symphony--an-evening-of-mozart--christopher-dragon--cond---yumi-hwang-williams--basil-vendryes-": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/2627-an-afternoon-of-mozart-720x400-1.jpg",
+   "src": "venue"
+  },
+  "2027-01-07-ogden-the-disco-biscuits": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-08-bluebird-patema": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-08-ogden-the-disco-biscuits": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-09-ogden-the-disco-biscuits": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-13-paramount-the-temptations": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-14-paramount-hairball": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-15-boettcher-colorado-symphony": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-15-fillmore-railroad-earth": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-15-mission--aszewo": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-15-ogden-motifv": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-16-gothic-mustard-plug": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-16-mission-effin": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-16-ogden-fruition": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-17-mission-ian-asher": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-17-ogden-portugal--the-man": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-22-bluebird-the-lone-bellow": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-22-mission-wonkywilla": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-22-paramount-patty-griffin-and-rickie-lee-jones": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-23-bluebird-a-brother-s-fountain": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-23-mission-greensky-bluegrass": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-23-ogden-skysia": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-24-ogden-smith---myers": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-29-bellco-cristian-castro": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-29-fillmore-dark-star-orchestra": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-29-mission-sts9": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-29-ogden-jason-ross": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-30-fillmore-dark-star-orchestra": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-01-30-mission-sts9": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-03-ballarena-don-omar": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-03-paramount-jesse-cook": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-04-bluebird-jess-williamson": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-05-mission-lumasi-and-chmura": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-06-bluebird-aj-lee-and-blue-summit": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-06-bouldertheater-richard-thompson": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-06-mission-the-hip-abduction---johnny-cosmic": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-06-ogden-mike-love": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-10-paramount-daughtry": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-12-bouldertheater-little-stranger": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-12-gothic-la-roux": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-12-mission-kream": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-12-ogden-shakedown-street": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-12-otherside-ballyhoo-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-bellco-la-fiera-de-ojinaga": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-bluebird-the-sheepdogs": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-fillmore-stella-lefty": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-gothic-rare-americans": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-mission-sodown": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-13-ogden-cid": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-18-bluebird-north-mississippi-allstars": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-18-gothic-public-image-ltd--pil-": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-18-mission-dylan-scott": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-19-bluebird-l-a-b": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-19-mission-interplanetary-criminal": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-20-bluebird-teenage-wrist": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-20-fillmore-polyphia": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-20-gothic-sam-bush": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-20-mission-caspa": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-20-ogden-tophouse": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-21-boettcher-colorado-symphony--peter-and-the-wolf": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-21-ogden-twin-temple": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-22-bluebird-marian-hill": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-23-bluebird-asaf-avidan": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-23-bouldertheater-the-high-kings": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-24-mission-bethel-music": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-24-moesenglewood-big-d-and-the-kids-table": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-25-bluebird-1tbsp": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-26-mission-the-movement---collie-buddz": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-26-ogden-sippy": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-27-bellco-los-tigres-del-norte": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-27-bluebird-eddie-9v": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-27-fillmore-grace-potter": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-27-mission-clay-street-unit---49-winchester": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-28-bouldertheater-los-lobos": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-02-28-mission-chelsea-cutler": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-01-bluebird-strongboi": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-02-paramount-blue--yster-cult-and-uriah-heep": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-03-fillmore-ashe": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-04-paramount-flans": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-05-ogden-sylvan-esso": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-06-bluebird-valley": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-06-gothic-mc4d": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-06-mission-blue-october": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-06-ogden-sylvan-esso": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-09-fillmore-clutch": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-09-gothic-noah-rinker": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-10-gothic-caroline-rose": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-11-bluebird-bo-staloch": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-11-paramount-julieta-venegas": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-12-bluebird-hans-williams": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-12-boettcher-colorado-symphony--beethoven-s-fifth---emperor-concerto-with-kahane---oundjian": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-11-Beethoven-5-720x400-2.jpg",
+   "src": "venue"
+  },
+  "2027-03-12-mission-hamdi": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-13-boettcher-colorado-symphony--beethoven-s-fifth---emperor-concerto-with-kahane---oundjian": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-11-Beethoven-5-720x400-2.jpg",
+   "src": "venue"
+  },
+  "2027-03-13-gothic-rayland-baxter": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-13-mission-heyz": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-14-bluebird-vincent-lima": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-14-boettcher-colorado-symphony--beethoven-s-fifth---emperor-concerto-with-kahane---oundjian": {
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-11-Beethoven-5-720x400-2.jpg",
+   "src": "venue"
+  },
+  "2027-03-14-gothic-the-lemonheads": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-15-bluebird-danielle-ponder": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-15-gothic-death-from-above-1979": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-16-mission-the-plot-in-you": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-17-bluebird-pivot-gang": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-17-gothic-haken": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "2027-03-20-ogden-grateful-shred": {
+   "none": true,
+   "checked": "2026-11-18"
   }
  },
  "generic": [

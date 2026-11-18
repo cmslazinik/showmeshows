@@ -1,7 +1,11 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-18T00:16:19.234Z",
+ "updated": "2026-11-18T01:47:34.742Z",
  "artists": {
+  "a winter s evening with ryanhood": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "ahee": {
    "none": true,
    "checked": "2026-11-17"
@@ -31,6 +35,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "andrew mcmahon with the kansas city symphony": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/da/3d/c4da3dd5-5feb-f625-31fd-9fa687ef3eb2/0.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/andrew-mcmahon/3193956",
+   "checked": "2026-11-18",
+   "last": "2027-02-19"
+  },
   "ashley davis": {
    "none": true,
    "checked": "2026-11-17"
@@ -42,9 +53,9 @@
    "checked": "2026-11-17",
    "last": "2027-02-04"
   },
-  "bahamas": {
+  "bach s musical offering": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-18"
   },
   "basso vox": {
    "none": true,
@@ -57,6 +68,13 @@
    "checked": "2026-11-17",
    "last": "2027-03-24"
   },
+  "bernadette peters": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e1/37/db/e137db6e-67a3-31b6-4ee4-ff905f36b905/mzi.hdqxcpqd.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/bernadette-peters/60089",
+   "checked": "2026-11-18",
+   "last": "2026-11-21"
+  },
   "bethel music": {
    "none": true,
    "checked": "2026-11-17"
@@ -67,6 +85,10 @@
    "link": "https://music.apple.com/us/artist/big-luke-and-the-soul-disciples/1719923253",
    "checked": "2026-11-17",
    "last": "2026-11-28"
+  },
+  "black panther in concert": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "blue october": {
    "none": true,
@@ -83,9 +105,20 @@
    "checked": "2026-11-17",
    "last": "2027-04-10"
   },
+  "brandi carlile": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/d1/31/mzi.nmwgtsqv.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/brandi-carlile/64387579",
+   "checked": "2026-11-18",
+   "last": "2026-11-22"
+  },
   "brody buster": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "brody buster one man band": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "bumpin uglies": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/95/fb/ea/95fbea43-0f16-a889-9c86-43b27d03b060/195729787070_cover.jpg/400x400bb.jpg",
@@ -112,12 +145,23 @@
    "checked": "2026-11-17",
    "last": "2027-02-27"
   },
+  "chris hazelton": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/bd/cd/99bdcdfe-3624-6e6b-8132-4fdf5f6d6b86/820233346535.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/author/chris-hazelton/id366255478",
+   "checked": "2026-11-18",
+   "last": "2026-12-11"
+  },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chrissy-chlapecka/1663699402",
    "checked": "2026-11-17",
    "last": "2026-11-30"
+  },
+  "christmas with zuzu": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "conor oberst": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/61/41/c6/6141c622-ed23-baed-e618-a1f640fcaee6/075597956054.jpg/400x400bb.jpg",
@@ -133,9 +177,20 @@
    "checked": "2026-11-17",
    "last": "2026-11-19"
   },
+  "cultural crossroads": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "cyclops": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "danielle nicole": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/d0/2a/33d02a6e-662d-f0cd-5958-f6bd5d5edb96/00888072046948.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/danielle-nicole/1035038817",
+   "checked": "2026-11-18",
+   "last": "2026-11-28"
   },
   "darryl white": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/07/28/ab0728cf-e395-6f4d-9426-24547343cd33/cover.jpg/400x400bb.jpg",
@@ -155,12 +210,23 @@
    "checked": "2026-11-17",
    "last": "2027-04-26"
   },
+  "dexter and the moonrocks": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/e7/ef/fde7efaf-0a34-1c0d-a8aa-a0c297916aba/26UMGIM21566.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/dexter-and-the-moonrocks/1581657500",
+   "checked": "2026-11-18",
+   "last": "2027-03-12"
+  },
   "dinosaur jr": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/c9/1e/d9/c91ed923-7667-6a0a-0659-4259c8c3a06f/656605228563.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/dinosaur-jr/509577",
    "checked": "2026-11-17",
    "last": "2027-03-02"
+  },
+  "disco dick and the mirrorballs": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "drum and dye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/5f/c1/4a5fc1d4-9f6b-d29b-17be-19a79df11b6b/195269421670.png/400x400bb.jpg",
@@ -205,6 +271,10 @@
    "checked": "2026-11-17",
    "last": "2027-04-01"
   },
+  "elton dan and the rocket band": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "ethan regan": {
    "none": true,
    "checked": "2026-11-17"
@@ -212,6 +282,17 @@
   "flans": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "found a job": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/3f/fe/b63ffe55-3242-e0ba-f778-4ceef3e43a8e/cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/found-a-job/1726669037",
+   "checked": "2026-11-18",
+   "last": "2026-11-25"
+  },
+  "four on the floor": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "from ashes to new": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
@@ -234,12 +315,35 @@
    "checked": "2026-11-17",
    "last": "2027-02-25"
   },
+  "ha ha tonka": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/55/67/c9/5567c931-6a31-06c1-e199-d1c934a5c819/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ha-ha-tonka/263244918",
+   "checked": "2026-11-18",
+   "last": "2026-11-25"
+  },
+  "heartland men s chorus": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "holiday harmonies 2026": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "home free": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/7e/af/9a7eaf66-4494-a08b-fc0d-12cc4f79787e/886444416108.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/home-free/266440748",
    "checked": "2026-11-17",
    "last": "2026-12-16"
+  },
+  "howard mahan s turkey eve bash": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "hudson electric": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "hudspeth and taylor": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/20/36/8f/20368fc2-40ef-008d-f68b-691cb2928770/195269237721.jpg/400x400bb.jpg",
@@ -264,13 +368,31 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "james mcmurtry": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/20/06/cc/2006ccfd-9766-2ff8-8b79-923eb4341b5e/889326045816_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/james-mcmurtry/470424",
+   "checked": "2026-11-18",
+   "last": "2027-03-05"
+  },
   "jazz noon": {
    "none": true,
    "checked": "2026-11-17"
   },
+  "jazzy jazz miyagi": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "jeff black": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "jesse and joy": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f1/04/b8/f104b805-9295-99e1-9c65-2985ceeecdcb/mzi.vvlnoxph.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/jesse-joy/167779502",
+   "checked": "2026-11-18",
+   "last": "2027-05-08"
   },
   "josh meloy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f0/da/00/f0da006d-234c-49a3-5fc2-c62a1cae83d9/artwork.jpg/400x400bb.jpg",
@@ -285,6 +407,13 @@
    "link": "https://music.apple.com/us/artist/kansas-city-jazz-orchestra/304351156",
    "checked": "2026-11-17",
    "last": "2026-12-12"
+  },
+  "kansas city symphony": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e5/44/e7/e544e776-a8d8-7611-310c-66c013e82305/887396196209.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
+   "checked": "2026-11-18",
+   "last": "2026-11-20"
   },
   "katy guillen and the drive": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/43/13/9e/43139ed0-6a64-d8b0-3093-d00fb846bf1a/762183515824.png/400x400bb.jpg",
@@ -311,6 +440,17 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
+  "ku symphony orchestra with liberty north high school": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "les arts florissants": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/18/7f/c0/mzi.qtrdjtzb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/les-arts-florissants/1976798",
+   "checked": "2026-11-18",
+   "last": "2026-11-19"
+  },
   "liquid stranger": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e2/c2/37/mzi.ychqjrxu.jpg/400x400bb.jpg",
    "src": "apple",
@@ -336,6 +476,20 @@
    "checked": "2026-11-17",
    "last": "2027-04-04"
   },
+  "lupita infante": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6b/e3/29/6be3293c-f9af-7ce5-43f1-f68634490a4a/7703770268320.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/lupita-infante/954759259",
+   "checked": "2026-11-18",
+   "last": "2026-12-06"
+  },
+  "lydia loveless": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e9/e7/b6/mzi.hxrxqbny.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/lydia-loveless/360720332",
+   "checked": "2026-11-18",
+   "last": "2027-02-11"
+  },
   "mainliners": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/d6/87/7ad68706-c179-d6b5-ddce-481523a36fe6/887158255991.png/400x400bb.jpg",
    "src": "apple",
@@ -343,9 +497,27 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "marc broussard": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/9a/bd/b6/mzi.twidxjts.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/marc-broussard/16169749",
+   "checked": "2026-11-18",
+   "last": "2027-04-07"
+  },
+  "mark slimm duo": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "matisyahu": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "max cooper iii": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/0b/6a/860b6a3f-3b45-f1e7-425d-e01da57b1c55/198846979816.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/max-cooper-iii/1780580860",
+   "checked": "2026-11-18",
+   "last": "2027-04-30"
   },
   "meshuggah": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/b4/02/f3/mzi.jvtibiiu.tif/400x400bb.jpg",
@@ -353,6 +525,13 @@
    "link": "https://music.apple.com/us/artist/meshuggah/17304969",
    "checked": "2026-11-17",
    "last": "2027-02-20"
+  },
+  "mikole kaar and the kaar club": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/56/ff/3b/56ff3b3d-94e9-6150-9fa4-a01b4214418d/006197612743_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mikole-kaar/1154015942",
+   "checked": "2026-11-18",
+   "last": "2026-11-27"
   },
   "modeling": {
    "none": true,
@@ -362,6 +541,10 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "mtc kids jam": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "needtobreathe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/80/cc/c0/80ccc0b3-ffd8-7937-27e5-297f0588d86b/075679946003.jpg/400x400bb.jpg",
@@ -418,12 +601,35 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "reggaeton rave": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/67/a3/1867a3a6-1dc6-ebf8-8e79-ed1fcdbb51a2/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/reggaeton-rave/1802074420",
+   "checked": "2026-11-18",
+   "last": "2026-11-27"
+  },
   "remi wolf": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/c6/db/9ec6db05-040b-4e63-c099-42406602a4e7/26UMGIM96852.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/remi-wolf/1223869670",
    "checked": "2026-11-17",
    "last": "2027-05-11"
+  },
+  "revisiting creedence": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "reyes brothers organ trio": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "rhiannon giddens": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
+  "richard thompson": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "rick springfield": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/f0/97/fa/f097fae2-a1a3-67b3-54c7-c52c023ea32f/dj.rldfaeas.jpg/400x400bb.jpg",
@@ -432,12 +638,20 @@
    "checked": "2026-11-17",
    "last": "2027-03-06"
   },
+  "road to memphis fundraiser": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "robert earl keen": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c4/81/9a/c4819afc-3d25-87ed-2b51-7abb9893ff77/00015891108056.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/robert-earl-keen/330309",
    "checked": "2026-11-17",
    "last": "2026-12-09"
+  },
+  "rodney marsalis with bach aria soloists": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "rss trio": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/d4/94/72d49420-e9bc-0eea-b19b-bf42bcfe220e/artwork.jpg/400x400bb.jpg",
@@ -453,9 +667,17 @@
    "checked": "2026-11-17",
    "last": "2027-03-22"
   },
+  "sally s tomato": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "sam barber": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "sam platt trio": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "samara joy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3c/1f/b8/3c1fb8bc-0b20-19c0-0993-250b8091b7d9/22UMGIM80456.rgb.jpg/400x400bb.jpg",
@@ -485,6 +707,17 @@
    "checked": "2026-11-17",
    "last": "2027-01-24"
   },
+  "slash featuring myles kennedy and the conspirators": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/69/d3/c9/69d3c98a-c03e-f0ac-ecc0-dccce1590b76/mzi.ivgabvqb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/slash/115556",
+   "checked": "2026-11-18",
+   "last": "2027-05-04"
+  },
+  "slide summit 2026": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "smith and myers": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/6f/bb/c56fbb2a-8da3-3a75-8126-ec1023c4978e/075679944122.jpg/400x400bb.jpg",
    "src": "apple",
@@ -506,19 +739,19 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
+  "stranded in the city": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7e/79/9c/7e799c4d-6c2e-e9c8-5264-defa192e8741/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/stranded-in-the-city/1474793940",
+   "checked": "2026-11-18",
+   "last": "2026-11-27"
+  },
   "sullivan king": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/61/21/da/6121da90-1175-b86b-ce38-4480d375f3f8/742779546258.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/sullivan-king/833869649",
    "checked": "2026-11-17",
    "last": "2027-03-27"
-  },
-  "switchfoot": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/a1/9c/63/a19c63b2-5a14-c3d7-36d5-f3de471efadf/075679950536.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/switchfoot/655658",
-   "checked": "2026-11-17",
-   "last": "2026-11-17"
   },
   "take3": {
    "none": true,
@@ -531,6 +764,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-17"
   },
+  "tetsuya nishiyama trio": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "the chats": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/63/be/09/63be0925-4c14-cc7d-db27-c0a36778f254/dj.clrfvlwp.jpg/400x400bb.jpg",
    "src": "apple",
@@ -538,12 +775,20 @@
    "checked": "2026-11-17",
    "last": "2027-04-18"
   },
+  "the electric light orchestra experience featuring evil woman the american elo": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "the plot in you": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/7f/a7/ec/7fa7ec70-c31b-1eba-7f59-bdb2a9bc363e/886445450606.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-plot-in-you/378491136",
    "checked": "2026-11-17",
    "last": "2027-04-12"
+  },
+  "the r and j playerz band": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "the redbeards": {
    "none": true,
@@ -563,6 +808,10 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
+  "the supermatics": {
+   "none": true,
+   "checked": "2026-11-18"
+  },
   "tinashe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/1c/5e/431c5e0f-140b-bf2f-9678-8790c369987a/886444673228.jpg/400x400bb.jpg",
    "src": "apple",
@@ -576,6 +825,17 @@
    "link": "https://music.apple.com/us/artist/todd-rundgren/482336",
    "checked": "2026-11-17",
    "last": "2027-04-14"
+  },
+  "trans siberian orchestra": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e0/7c/f4/e07cf4d8-8fbf-96df-ae7a-6a25c8583256/mzi.sxqwkjew.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/trans-siberian-orchestra/165340",
+   "checked": "2026-11-18",
+   "last": "2026-12-29"
+  },
+  "trombone shorty and orleans avenue": {
+   "none": true,
+   "checked": "2026-11-18"
   },
   "twrp": {
    "none": true,
@@ -642,26 +902,6 @@
   }
  },
  "shows": {
-  "2026-11-17-bottleneck-a-killers-confession": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-kcbbslawnside-kelsey-miles": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-kcblackdolphin-reyes-brothers-organ-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-kcuptown-switchfoot": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-17-knuckleheads-bahamas": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-18-bottleneck-ethan-regan": {
    "none": true,
    "checked": "2026-11-17"
