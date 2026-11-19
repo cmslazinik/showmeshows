@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-18T01:47:34.742Z",
+ "updated": "2026-11-19T16:22:07.500Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -23,13 +23,6 @@
    "link": "https://music.apple.com/us/artist/alex-sampson/1486112083",
    "checked": "2026-11-17",
    "last": "2027-04-04"
-  },
-  "almost monday": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a8/63/78a863dd-67fc-8cdc-6132-938c3941675e/20UMGIM81624.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/almost-monday/1300723925",
-   "checked": "2026-11-17",
-   "last": "2026-11-18"
   },
   "amerifloyd": {
    "none": true,
@@ -275,10 +268,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "ethan regan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "flans": {
    "none": true,
    "checked": "2026-11-17"
@@ -344,13 +333,6 @@
   "hudson electric": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "hudspeth and taylor": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/20/36/8f/20368fc2-40ef-008d-f68b-691cb2928770/195269237721.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/hudspeth-taylor/1468888333",
-   "checked": "2026-11-17",
-   "last": "2026-11-18"
   },
   "hum": {
    "none": true,
@@ -902,22 +884,6 @@
   }
  },
  "shows": {
-  "2026-11-18-bottleneck-ethan-regan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-18-kcbbslawnside-hudspeth---taylor": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-18-kcblackdolphin-sally-s-tomato": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-18-kctruman-almost-monday": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-19-kcaztecshawnee-four-on-the-floor": {
    "none": true,
    "checked": "2026-11-17"
