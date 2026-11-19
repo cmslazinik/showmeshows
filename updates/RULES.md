@@ -6,7 +6,7 @@ The site is https://showmeshows.net, a free live-music calendar (the owner takes
 
 ## Step 0 — Is today a run day?
 
-Find your city in `updates/cities.json`. If today's weekday (in the city's time zone, as Mon/Tue/…) is not in its `run_days`, AND the city's listings file was updated less than 5 days ago, stop right away: do nothing else and end with "Not a run day for <city>." Otherwise continue. (Tasks are triggered daily; this keeps off days nearly free.)
+Find your city in `updates/cities.json`. If today's date (in the city's time zone) equals the city's `extra_deep_date`, today is a run day and a deep sweep: continue. Otherwise, if today's weekday (in the city's time zone, as Mon/Tue/…) is not in its `run_days`, AND the city's listings file was updated less than 5 days ago, stop right away: do nothing else and end with "Not a run day for <city>." Otherwise continue. (Tasks are triggered daily; this keeps off days nearly free.)
 
 ## Step 1 — Repo and push access
 
@@ -20,7 +20,7 @@ You may edit ONLY your city's listings file and venues file (named in `cities.js
 ## Step 2 — Light or deep?
 
 Use today's date in the city's time zone.
-- **Deep sweep** (every other week) if today is the city's `deep_day` in `cities.json` AND the listings file's `lastDeep` date is missing or at least 13 days ago; OR the listings file has no shows dated more than 45 days out; OR the file's `updated` time is more than 8 days old. Set the listings file's top-level `"lastDeep"` to today's date (YYYY-MM-DD) only after you have actually finished the whole deep sweep. If you had to stop early, leave `lastDeep` unchanged so the next run does the sweep.
+- **Deep sweep** if today is the city's `extra_deep_date`. Also a deep sweep (every other week) if today is the city's `deep_day` in `cities.json` AND the listings file's `lastDeep` date is missing or at least 13 days ago; OR the listings file has no shows dated more than 45 days out; OR the file's `updated` time is more than 8 days old. Set the listings file's top-level `"lastDeep"` to today's date (YYYY-MM-DD) only after you have actually finished the whole deep sweep. If you had to stop early, leave `lastDeep` unchanged so the next run does the sweep.
 - Otherwise a **light pass**.
 
 Do the whole pass you picked. Don't cut it short to save time; the search budgets below are already sized for usage. If one site fails, note it in your final summary and move on to the next source.

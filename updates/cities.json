@@ -1,5 +1,5 @@
 {
- "note": "Every city on Show Me Shows. The update tasks and the morning health check read this. Each city's task is triggered daily; run_days says which days it actually updates (other days it stops at once). max_age_hours = how stale the listings file may get before the health check raises an alarm.",
+ "note": "Every city on Show Me Shows. The update tasks and the morning health check read this. Each city's task is triggered daily; run_days says which days it actually updates (other days it stops at once). max_age_hours = how stale the listings file may get before the health check raises an alarm. extra_deep_date (optional) = a one-off date when the city runs a full deep sweep even if it is not a run day or deep day.",
  "cities": [
   {
    "key": "stl",
@@ -37,7 +37,8 @@
    "run_days": [
     "Mon",
     "Thu"
-   ]
+   ],
+   "extra_deep_date": "2026-11-21"
   },
   {
    "key": "kc",
