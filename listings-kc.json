@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T11:51:50Z",
+ "updated": "2026-11-20T11:50:27Z",
  "note": "Kansas City listings. Refreshed by the Kansas City scheduled update (see updates/RULES.md).",
  "shows": [
   {
@@ -819,6 +819,21 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-20-bottleneck-kingdom-of-giants",
+   "date": "2026-11-20",
+   "time": "19:00",
+   "artist": "Kingdom of Giants",
+   "support": "Holy Wars, Night Rider, Deadlands",
+   "venue": "bottleneck",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/71639725/kingdom-of-giants-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$21.75–$25"
+  },
+  {
    "id": "2026-11-20-kauffman-kansas-city-symphony--brahms--german-requiem",
    "date": "2026-11-20",
    "time": "20:00",
@@ -868,6 +883,19 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/concerts/43348602-easy-tiger-at-voodoo-lounge-harrahs-kansas-city",
    "source": "https://songkick.com/venues/108297-voodoo-lounge-harrahs-kansas-city",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-21-kctruman-nightlite",
+   "date": "2026-11-21",
+   "time": "18:00",
+   "artist": "Nightlite",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/venues/3600214-truman",
+   "source": "https://songkick.com/venues/3600214-truman",
    "added": "2026-11-12"
   },
   {
@@ -936,6 +964,21 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-21-bottleneck-noah-bowman",
+   "date": "2026-11-21",
+   "time": "20:00",
+   "artist": "Noah Bowman",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/92803521/noah-bowman-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$15"
+  },
+  {
    "id": "2026-11-21-blueroomkc-alex-abramovitz-and-his-swing-n-kansas-city-jazz-band",
    "date": "2026-11-21",
    "time": "20:30",
@@ -973,19 +1016,6 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/concerts/43468053-saving-abel-at-outlaw-cigar-brewery",
    "source": "https://songkick.com/metro-areas/5961-us-kansas-city/genre/hip-hop",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-21-kctruman-nightlite",
-   "date": "2026-11-21",
-   "time": "",
-   "artist": "Nightlite",
-   "support": "",
-   "venue": "kctruman",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/3600214-truman",
-   "source": "https://songkick.com/venues/3600214-truman",
    "added": "2026-11-12"
   },
   {
@@ -1053,6 +1083,21 @@
    "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
    "source": "https://www.songkick.com/concerts/43438098-brandi-carlile-at-uptown-theater",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-22-bottleneck-friendsgiving",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "artist": "Friendsgiving",
+   "support": "Terran Rae, Pure XTC, Neon Signs",
+   "venue": "bottleneck",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://thebottlenecklive.com/event/friendsgiving/",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$10"
   },
   {
    "id": "2026-11-22-granadalawrence-chat-pile",
@@ -1186,6 +1231,21 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-25-bottleneck-dorothy---the-dolls-present--hole",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "artist": "Dorothy & The Dolls Present: HOLE",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://thebottlenecklive.com/event/dorothy-the-dolls-present-hole/",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "18+",
+   "priceRange": "$8"
+  },
+  {
    "id": "2026-11-25-kcmadrid-wonkywilla",
    "date": "2026-11-25",
    "time": "",
@@ -1265,6 +1325,21 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-27-bottleneck-leftover-stuffing--lucas-parker-band",
+   "date": "2026-11-27",
+   "time": "20:00",
+   "artist": "Leftover Stuffing: Lucas Parker Band",
+   "support": "Jessica Paige, Dylan Guthrie, Dave Tucker",
+   "venue": "bottleneck",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/81602790/leftover-stuffinglucas-parker-band-with-special-guests-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "18+",
+   "priceRange": "$15"
+  },
+  {
    "id": "2026-11-27-blueroomkc-mikole-kaar---the-kaar-club",
    "date": "2026-11-27",
    "time": "20:30",
@@ -1277,6 +1352,19 @@
    "source": "https://americanjazzmuseum.org/the-blue-room",
    "added": "2026-11-12",
    "priceRange": "$10 per set"
+  },
+  {
+   "id": "2026-11-27-kctruman-reggaeton-rave",
+   "date": "2026-11-27",
+   "time": "21:00",
+   "artist": "Reggaeton Rave",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43490425-reggaeton-rave-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-11-27-kcblackdolphin-rss-trio",
@@ -1303,19 +1391,6 @@
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/2026/06/15/kansas-city-symphony-announces-single-tickets-on-sale-for-2026-27-season/",
    "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-27-kctruman-reggaeton-rave",
-   "date": "2026-11-27",
-   "time": "",
-   "artist": "Reggaeton Rave",
-   "support": "",
-   "venue": "kctruman",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43490425-reggaeton-rave-at-truman",
-   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
-   "added": "2026-11-14"
   },
   {
    "id": "2026-11-28-kcblackdolphin-sam-platt-trio",
@@ -1355,6 +1430,21 @@
    "tickets": "https://blueskc.org/events/month",
    "source": "https://blueskc.org/events/month",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-11-28-bottleneck-guilt-trip",
+   "date": "2026-11-28",
+   "time": "19:00",
+   "artist": "Guilt Trip",
+   "support": "Gates To Hell, Mauled, Lower Heaven, Mortal Coil",
+   "venue": "bottleneck",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/79452692/guilt-trip-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$21.75–$25"
   },
   {
    "id": "2026-11-28-blueroomkc-jazzy-jazz-miyagi",
@@ -1436,6 +1526,21 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-11-29-bottleneck-wishy",
+   "date": "2026-11-29",
+   "time": "20:00",
+   "artist": "Wishy",
+   "support": "The Umbrellas, Various Blonde",
+   "venue": "bottleneck",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/89517457/wishy-natures-pill-tour-2026-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$20"
+  },
+  {
    "id": "2026-11-29-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert",
    "date": "2026-11-29",
    "time": "",
@@ -1461,6 +1566,34 @@
    "source": "https://americanjazzmuseum.org/the-blue-room",
    "added": "2026-11-12",
    "priceRange": "$10"
+  },
+  {
+   "id": "2026-11-30-bottleneck-kurt-travis",
+   "date": "2026-11-30",
+   "time": "19:00",
+   "artist": "Kurt Travis",
+   "support": "Mella, Resilia",
+   "venue": "bottleneck",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/58246279/kurt-travis-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$26–$31"
+  },
+  {
+   "id": "2026-11-30-kauffman-millennial-choirs---orchestras--fall-on-your-knees",
+   "date": "2026-11-30",
+   "time": "19:00",
+   "artist": "Millennial Choirs & Orchestras: Fall On Your Knees",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25963",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2026-11-30-kcblackdolphin-mark-slimm-duo",
@@ -1531,7 +1664,7 @@
   {
    "id": "2026-12-01-kctruman-matisyahu",
    "date": "2026-12-01",
-   "time": "",
+   "time": "20:00",
    "artist": "Matisyahu",
    "support": "",
    "venue": "kctruman",
@@ -1566,6 +1699,21 @@
    "tickets": "https://www.eventbrite.com/e/jazz-noon-kckcc-blue-devil-funk-band-at-the-blue-room-tickets-2003471219349?aff=ajmsite",
    "source": "https://americanjazzmuseum.org/the-blue-room",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-03-bottleneck-darkest-hour",
+   "date": "2026-12-03",
+   "time": "19:00",
+   "artist": "Darkest Hour",
+   "support": "Judiciary",
+   "venue": "bottleneck",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/49595499/darkest-hour-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$22.50–$25"
   },
   {
    "id": "2026-12-03-kcblackdolphin-mark-slimm-duo",
@@ -1726,6 +1874,21 @@
    "added": "2026-11-14"
   },
   {
+   "id": "2026-12-05-bottleneck-not-so-silent-night-iii",
+   "date": "2026-12-05",
+   "time": "18:00",
+   "artist": "Not So Silent Night III",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://thebottlenecklive.com/event/paper-anchor-media-presents-not-so-silent-night-iii/",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$10"
+  },
+  {
    "id": "2026-12-05-kcblackdolphin-sam-platt-trio",
    "date": "2026-12-05",
    "time": "18:30",
@@ -1750,6 +1913,19 @@
    "tickets": "https://ci.ovationtix.com/36665/production/1285887",
    "source": "https://follytheater.org/upcoming-events/",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-05-kctruman-ahee",
+   "date": "2026-12-05",
+   "time": "20:00",
+   "artist": "Ahee",
+   "support": "Star Monster, Green Matter, DEWEY",
+   "venue": "kctruman",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43455386-ahee-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
   },
   {
    "id": "2026-12-05-blueroomkc-darryl-white",
@@ -1805,19 +1981,6 @@
    "added": "2026-11-12"
   },
   {
-   "id": "2026-12-05-kctruman-ahee",
-   "date": "2026-12-05",
-   "time": "",
-   "artist": "Ahee",
-   "support": "Green Matter",
-   "venue": "kctruman",
-   "genre": "Electronic/DJ",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43455386-ahee-at-truman",
-   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
-   "added": "2026-11-14"
-  },
-  {
    "id": "2026-12-06-kcfolly-heartland-men-s-chorus--don-we-now-",
    "date": "2026-12-06",
    "time": "15:30",
@@ -1857,6 +2020,34 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-06-kctruman-lupita-infante",
+   "date": "2026-12-06",
+   "time": "20:00",
+   "artist": "Lupita Infante",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
+   "source": "https://songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-06-bottleneck-two-steppin-",
+   "date": "2026-12-06",
+   "time": "20:00",
+   "artist": "Two Steppin'",
+   "support": "Lyle Griggs, Mud Creek Turnaround, Third Kansas Cavalry Unit, East of Abilene",
+   "venue": "bottleneck",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://thebottlenecklive.com/event/two-steppin/",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$10"
+  },
+  {
    "id": "2026-12-06-kauffman-kansas-city-symphony--handel-s-messiah",
    "date": "2026-12-06",
    "time": "",
@@ -1867,19 +2058,6 @@
    "price": "Ticketed",
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/2026/06/15/kansas-city-symphony-announces-single-tickets-on-sale-for-2026-27-season/",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-12-06-kctruman-lupita-infante",
-   "date": "2026-12-06",
-   "time": "",
-   "artist": "Lupita Infante",
-   "support": "",
-   "venue": "kctruman",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
-   "source": "https://songkick.com/venues/3600214-truman/calendar",
    "added": "2026-11-12"
   },
   {
@@ -1936,6 +2114,32 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-07-tmobilecenter-amy-grant--michael-w--smith---cece-winans--christmas-together",
+   "date": "2026-12-07",
+   "time": "",
+   "artist": "Amy Grant, Michael W. Smith & CeCe Winans: Christmas Together",
+   "support": "",
+   "venue": "tmobilecenter",
+   "genre": "Gospel/Christian",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1422991/christmas-together-with-amy-grant-michael-w-smith-and-cece-winans-tickets",
+   "source": "https://www.t-mobilecenter.com/events",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2026-12-08-kauffman-kansas-city-jazz-orchestra--a-charlie-brown-christmas",
+   "date": "2026-12-08",
+   "time": "19:00",
+   "artist": "Kansas City Jazz Orchestra: A Charlie Brown Christmas",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25554",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2026-12-08-kcmidland-gavin-adcock",
    "date": "2026-12-08",
    "time": "",
@@ -1947,6 +2151,35 @@
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-09-kauffman-u-s--air-force-band-of-mid-america--spirit-of-the-season",
+   "date": "2026-12-09",
+   "time": "19:00",
+   "artist": "U.S. Air Force Band of Mid-America: Spirit of the Season",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/26104",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2026-12-09-bottleneck-wade-forster",
+   "date": "2026-12-09",
+   "time": "20:00",
+   "artist": "Wade Forster",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/83152886/wade-forster-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$25",
+   "status": "soldout"
   },
   {
    "id": "2026-12-09-kcuptown-robert-earl-keen",
@@ -1989,6 +2222,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-11-kauffman-kansas-city-symphony--cody-fry-christmas",
+   "date": "2026-12-11",
+   "time": "20:00",
+   "artist": "Kansas City Symphony: Cody Fry Christmas",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25071",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2026-12-11-blueroomkc-chris-hazelton",
    "date": "2026-12-11",
    "time": "20:30",
@@ -2029,6 +2275,34 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-12-bottleneck-the-third-annual-dead-bettys-holiday-spectacular",
+   "date": "2026-12-12",
+   "time": "19:30",
+   "artist": "The Third Annual Dead Bettys Holiday Spectacular",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/79301218/the-third-annual-dead-bettys-holiday-spectacular-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$15"
+  },
+  {
+   "id": "2026-12-12-kctruman-king-s-x",
+   "date": "2026-12-12",
+   "time": "20:00",
+   "artist": "King's X",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43498946-kings-x-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2026-12-12-blueroomkc-the-slide-syndikcate",
    "date": "2026-12-12",
    "time": "20:30",
@@ -2054,19 +2328,6 @@
    "tickets": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
    "source": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us",
    "added": "2026-11-12"
-  },
-  {
-   "id": "2026-12-12-kctruman-king-s-x",
-   "date": "2026-12-12",
-   "time": "",
-   "artist": "King's X",
-   "support": "",
-   "venue": "kctruman",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43498946-kings-x-at-truman",
-   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
-   "added": "2026-11-14"
   },
   {
    "id": "2026-12-13-kcfolly-preservation-hall-jazz-band",
@@ -2149,6 +2410,34 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-17-kctruman-jackson-dean",
+   "date": "2026-12-17",
+   "time": "20:00",
+   "artist": "Jackson Dean",
+   "support": "KC Bruner",
+   "venue": "kctruman",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
+   "source": "https://songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-17-bottleneck-bayati",
+   "date": "2026-12-17",
+   "time": "20:00",
+   "artist": "Bayati",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://thebottlenecklive.com/event/bayati/",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$20"
+  },
+  {
    "id": "2026-12-17-kauffman-kansas-city-symphony--christmas-festival",
    "date": "2026-12-17",
    "time": "",
@@ -2172,19 +2461,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43493714-tantric-at-sk8bar",
    "source": "https://www.songkick.com/metro-areas/5961-us-kansas-city/2026/genre/electronic",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-12-17-kctruman-jackson-dean",
-   "date": "2026-12-17",
-   "time": "",
-   "artist": "Jackson Dean",
-   "support": "",
-   "venue": "kctruman",
-   "genre": "Country",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
-   "source": "https://songkick.com/venues/3600214-truman/calendar",
    "added": "2026-11-12"
   },
   {
@@ -2216,6 +2492,21 @@
    "priceRange": "$10 per set"
   },
   {
+   "id": "2026-12-18-bottleneck-playdead--grateful-holiday-jam",
+   "date": "2026-12-18",
+   "time": "20:30",
+   "artist": "PlayDead: Grateful Holiday Jam",
+   "support": "David Gans",
+   "venue": "bottleneck",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/48994746/playdead-grateful-holiday-jam-ftdavid-gans-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$15–$20"
+  },
+  {
    "id": "2026-12-18-kauffman-kansas-city-symphony--christmas-festival",
    "date": "2026-12-18",
    "time": "",
@@ -2240,6 +2531,19 @@
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/upcoming-events/",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-19-tmobilecenter-for-king---country--a-drummer-boy-christmas",
+   "date": "2026-12-19",
+   "time": "",
+   "artist": "for KING + COUNTRY: A Drummer Boy Christmas",
+   "support": "",
+   "venue": "tmobilecenter",
+   "genre": "Gospel/Christian",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1527101/for-king-country-a-drummer-boy-christmas-tickets",
+   "source": "https://www.t-mobilecenter.com/events",
+   "added": "2026-11-20"
   },
   {
    "id": "2026-12-20-kauffman-kansas-city-symphony--christmas-festival",
@@ -2309,6 +2613,19 @@
    "priceRange": "$10 per set"
   },
   {
+   "id": "2026-12-27-kauffman-mannheim-steamroller-christmas",
+   "date": "2026-12-27",
+   "time": "",
+   "artist": "Mannheim Steamroller Christmas",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25786",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2026-12-28-blueroomkc-monday-night-jam-session--nomad",
    "date": "2026-12-28",
    "time": "19:00",
@@ -2332,6 +2649,35 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
    "source": "https://www.livenation.com/venue/KovZpZAE7eeA/t-mobile-center-events"
+  },
+  {
+   "id": "2026-12-31-bottleneck-new-year-s-eve-with-neon-dance-party",
+   "date": "2026-12-31",
+   "time": "20:00",
+   "artist": "New Year's Eve with Neon Dance Party",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/63721520/new-years-eve-with-neon-dance-party-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "18+",
+   "priceRange": "$20",
+   "timeNote": "doors"
+  },
+  {
+   "id": "2026-12-31-kctruman-united-we-dance--nye-rave",
+   "date": "2026-12-31",
+   "time": "21:00",
+   "artist": "United We Dance: NYE Rave",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1696769/united-we-dance-nye-rave-tickets?skin=trumankc",
+   "source": "https://www.thetrumankc.com/events",
+   "added": "2026-11-20"
   },
   {
    "id": "2026-12-31-kcmadrid-cyclops",
@@ -2394,6 +2740,19 @@
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
   },
   {
+   "id": "2027-01-14-kauffman-kansas-city-symphony--on-stage-with-blake-pouliot",
+   "date": "2027-01-14",
+   "time": "20:00",
+   "artist": "Kansas City Symphony: On Stage with Blake Pouliot",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/24865",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-01-15-kauffman-kansas-city-symphony--dvo--k-s-eighth-with-mozart",
    "date": "2027-01-15",
    "time": "20:00",
@@ -2428,6 +2787,20 @@
    "price": "Ticketed",
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
+  },
+  {
+   "id": "2027-01-16-kctruman-the-taylor-party--taylor-swift-night",
+   "date": "2027-01-16",
+   "time": "21:00",
+   "artist": "The Taylor Party: Taylor Swift Night",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1518067/the-taylor-party-taylor-swift-night-18-tickets?skin=trumankc",
+   "source": "https://www.thetrumankc.com/events",
+   "added": "2026-11-20",
+   "ages": "18+"
   },
   {
    "id": "2027-01-17-kauffman-kansas-city-symphony--dvo--k-s-eighth-with-mozart",
@@ -2466,6 +2839,21 @@
    "source": "https://songkick.com/venues/631-uptown-theater/calendar"
   },
   {
+   "id": "2027-01-21-bottleneck-lotus",
+   "date": "2027-01-21",
+   "time": "20:00",
+   "artist": "Lotus",
+   "support": "Michael Wilbur (of Moon Hooch)",
+   "venue": "bottleneck",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/56187624/lotus-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$30–$35"
+  },
+  {
    "id": "2027-01-22-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn",
    "date": "2027-01-22",
    "time": "20:00",
@@ -2476,6 +2864,34 @@
    "price": "Ticketed",
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
+  },
+  {
+   "id": "2027-01-22-kctruman-the-emo-night-tour",
+   "date": "2027-01-22",
+   "time": "20:00",
+   "artist": "The Emo Night Tour",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1690434/the-emo-night-tour-tickets?skin=trumankc",
+   "source": "https://www.thetrumankc.com/events",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2027-01-22-bottleneck-william-elliott-whitmore---will-hoge",
+   "date": "2027-01-22",
+   "time": "20:00",
+   "artist": "William Elliott Whitmore & Will Hoge",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/65415316/william-elliott-whitmore-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$22–$25"
   },
   {
    "id": "2027-01-23-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn",
@@ -2490,6 +2906,21 @@
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
   },
   {
+   "id": "2027-01-23-bottleneck-jon-spencer",
+   "date": "2027-01-23",
+   "time": "20:00",
+   "artist": "Jon Spencer",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/87291596/jon-spencer-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "All ages",
+   "priceRange": "$25"
+  },
+  {
    "id": "2027-01-23-kcreplay-modeling",
    "date": "2027-01-23",
    "time": "",
@@ -2500,6 +2931,19 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/venues/11287-replay-lounge",
    "source": "https://songkick.com/venues/11287-replay-lounge"
+  },
+  {
+   "id": "2027-01-23-tmobilecenter-winter-jam-2027",
+   "date": "2027-01-23",
+   "time": "",
+   "artist": "Winter Jam 2027",
+   "support": "",
+   "venue": "tmobilecenter",
+   "genre": "Gospel/Christian",
+   "price": "Ticketed",
+   "tickets": "https://www.t-mobilecenter.com/events/detail/wj2027",
+   "source": "https://www.t-mobilecenter.com/events",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-01-24-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn",
@@ -2572,6 +3016,21 @@
    "price": "Ticketed",
    "tickets": "https://kcsymphony.org/season",
    "source": "https://www.kcsymphony.org/2026-27-special-presentation-concerts/"
+  },
+  {
+   "id": "2027-01-30-bottleneck-crimewave--a-darkwave-party",
+   "date": "2027-01-30",
+   "time": "21:00",
+   "artist": "Crimewave: A Darkwave Party",
+   "support": "",
+   "venue": "bottleneck",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/40059114/crimewavea-postpunk-darkwave-party-lawrence-the-bottleneck-lawrence",
+   "source": "https://thebottlenecklive.com/events",
+   "added": "2026-11-20",
+   "ages": "18+",
+   "priceRange": "$15–$25"
   },
   {
    "id": "2027-01-30-voodookc-the-rock-gods",
@@ -2745,6 +3204,19 @@
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
   },
   {
+   "id": "2027-02-10-kauffman-kansas-city-symphony--baroque-at-7-00---bach-and-vivaldi",
+   "date": "2027-02-10",
+   "time": "19:00",
+   "artist": "Kansas City Symphony: Baroque at 7:00 – Bach and Vivaldi",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25891",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-02-11-kclied-ku-symphony-orchestra-with-liberty-north-high-school",
    "date": "2027-02-11",
    "time": "",
@@ -2809,9 +3281,9 @@
   {
    "id": "2027-02-15-kctruman-public-image-ltd--pil-",
    "date": "2027-02-15",
-   "time": "",
+   "time": "20:00",
    "artist": "Public Image Ltd (PiL)",
-   "support": "Plague Vendor",
+   "support": "Poppy Jean Crawford",
    "venue": "kctruman",
    "genre": "Punk/Emo",
    "price": "Ticketed",
@@ -2843,6 +3315,19 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
    "source": "https://songkick.com/venues/631-uptown-theater/calendar"
+  },
+  {
+   "id": "2027-02-18-kauffman-monteverdi-choir-and-english-baroque-soloists",
+   "date": "2027-02-18",
+   "time": "19:00",
+   "artist": "Monteverdi Choir and English Baroque Soloists",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25672",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-02-18-kcuptown-wynonna",
@@ -2893,6 +3378,19 @@
    "source": "https://www.jambase.com/venue/liberty-hall-lawrence-ks-us"
   },
   {
+   "id": "2027-02-20-kctruman-rumours-atl--a-fleetwood-mac-tribute",
+   "date": "2027-02-20",
+   "time": "20:00",
+   "artist": "Rumours ATL: A Fleetwood Mac Tribute",
+   "support": "",
+   "venue": "kctruman",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1637965/rumours-atl-a-fleetwood-mac-tribute-tickets?skin=trumankc",
+   "source": "https://www.thetrumankc.com/events",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-02-20-kcmidland-meshuggah",
    "date": "2027-02-20",
    "time": "",
@@ -2941,6 +3439,32 @@
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
   },
   {
+   "id": "2027-02-25-kauffman-kansas-city-symphony--happy-hour---the-end-of-romanticism",
+   "date": "2027-02-25",
+   "time": "18:00",
+   "artist": "Kansas City Symphony: Happy Hour – The End of Romanticism",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/24854",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2027-02-25-kctruman-grace-potter",
+   "date": "2027-02-25",
+   "time": "20:00",
+   "artist": "Grace Potter",
+   "support": "Langhorne Slim",
+   "venue": "kctruman",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43510505-grace-potter-at-truman",
+   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
+   "added": "2026-11-14"
+  },
+  {
    "id": "2027-02-25-kcuptown-bethel-music",
    "date": "2027-02-25",
    "time": "",
@@ -2951,19 +3475,6 @@
    "price": "Ticketed",
    "tickets": "https://songkick.com/venues/631-uptown-theater/calendar",
    "source": "https://songkick.com/venues/631-uptown-theater/calendar"
-  },
-  {
-   "id": "2027-02-25-kctruman-grace-potter",
-   "date": "2027-02-25",
-   "time": "",
-   "artist": "Grace Potter",
-   "support": "Langhorne Slim",
-   "venue": "kctruman",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43510505-grace-potter-at-truman",
-   "source": "https://www.songkick.com/venues/3600214-truman/calendar",
-   "added": "2026-11-14"
   },
   {
    "id": "2027-02-26-kcuptown-wheeler-walker--jr-",
@@ -2990,6 +3501,18 @@
    "source": "https://www.jccc.edu/midwest-trust-center/events/"
   },
   {
+   "id": "2027-03-02-kctruman-dinosaur-jr-",
+   "date": "2027-03-02",
+   "time": "20:00",
+   "artist": "Dinosaur Jr.",
+   "support": "Starcrawler",
+   "venue": "kctruman",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
+   "source": "https://songkick.com/venues/3600214-truman/calendar"
+  },
+  {
    "id": "2027-03-02-kauffman-samara-joy",
    "date": "2027-03-02",
    "time": "",
@@ -3000,18 +3523,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43236828-samara-joy-at-kauffman-center-for-the-performing-arts",
    "source": "https://www.songkick.com/venues/1530548-kauffman-center-for-the-performing-arts"
-  },
-  {
-   "id": "2027-03-02-kctruman-dinosaur-jr-",
-   "date": "2027-03-02",
-   "time": "",
-   "artist": "Dinosaur Jr.",
-   "support": "Starcrawler",
-   "venue": "kctruman",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://songkick.com/venues/3600214-truman/calendar",
-   "source": "https://songkick.com/venues/3600214-truman/calendar"
   },
   {
    "id": "2027-03-04-kauffman-kansas-city-symphony--on-stage-with-emanuel-ax",
@@ -3028,7 +3539,7 @@
   {
    "id": "2027-03-04-kctruman-liquid-stranger",
    "date": "2027-03-04",
-   "time": "",
+   "time": "20:00",
    "artist": "Liquid Stranger",
    "support": "Sully, TWOPERCENT",
    "venue": "kctruman",
@@ -3136,6 +3647,19 @@
    "source": "https://www.kcsymphony.org/classical-series-2026-27/"
   },
   {
+   "id": "2027-03-09-kauffman-jazz-at-lincoln-center-orchestra-with-wynton-marsalis",
+   "date": "2027-03-09",
+   "time": "19:00",
+   "artist": "Jazz at Lincoln Center Orchestra with Wynton Marsalis",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25674",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-03-09-kcmadrid-pepper",
    "date": "2027-03-09",
    "time": "",
@@ -3146,6 +3670,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43496331-pepper-at-madrid-theatre",
    "source": "https://www.songkick.com/concerts/43496331-pepper-at-madrid-theatre"
+  },
+  {
+   "id": "2027-03-10-kauffman-pink-martini",
+   "date": "2027-03-10",
+   "time": "19:00",
+   "artist": "Pink Martini",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25564",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-03-12-kauffman-kansas-city-symphony--tropical-rock-for-five-o-clock-somewhere--jimmy-buffett-and-friends",
@@ -3198,7 +3735,7 @@
   {
    "id": "2027-03-14-kctruman-boundaries",
    "date": "2027-03-14",
-   "time": "",
+   "time": "19:00",
    "artist": "Boundaries",
    "support": "Spite, Callous Daoboys",
    "venue": "kctruman",
@@ -3207,6 +3744,19 @@
    "tickets": "https://www.songkick.com/concerts/43511601-boundaries-at-truman",
    "source": "https://www.songkick.com/venues/3600214-truman/calendar",
    "added": "2026-11-14"
+  },
+  {
+   "id": "2027-03-17-kauffman-an-irish-celebration",
+   "date": "2027-03-17",
+   "time": "19:00",
+   "artist": "An Irish Celebration",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25675",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-03-18-kcmadrid-effin",
@@ -3280,6 +3830,19 @@
    "tickets": "https://www.songkick.com/concerts/43511613-beach-bunny-at-truman",
    "source": "https://www.songkick.com/venues/3600214-truman/calendar",
    "added": "2026-11-14"
+  },
+  {
+   "id": "2027-03-26-kauffman-kansas-city-jazz-orchestra--songs-in-the-key-of-life---a-tribute-to-stevie-wonder",
+   "date": "2027-03-26",
+   "time": "19:00",
+   "artist": "Kansas City Jazz Orchestra: Songs in the Key of Life – A Tribute to Stevie Wonder",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25556",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-03-27-midwesttrust-yamato",
@@ -3416,6 +3979,19 @@
    "source": "https://www.jambase.com/show/marc-broussard-knuckleheads-saloon-20270407"
   },
   {
+   "id": "2027-04-08-kauffman-celebrating-meat-loaf--bat-50",
+   "date": "2027-04-08",
+   "time": "19:30",
+   "artist": "Celebrating Meat Loaf: BAT 50",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25799",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-04-09-kauffman-kansas-city-symphony--wagner-s-valkyrie",
    "date": "2027-04-09",
    "time": "20:00",
@@ -3498,6 +4074,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
+  },
+  {
+   "id": "2027-04-13-kauffman-lang-lang",
+   "date": "2027-04-13",
+   "time": "19:00",
+   "artist": "Lang Lang",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25676",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-04-14-kcmidland-todd-rundgren",
@@ -3585,6 +4174,32 @@
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
   },
   {
+   "id": "2027-04-23-kauffman-national-symphony-orchestra-with-gianandrea-noseda-and-ray-chen",
+   "date": "2027-04-23",
+   "time": "19:00",
+   "artist": "National Symphony Orchestra with Gianandrea Noseda and Ray Chen",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25677",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2027-04-24-kauffman-natalie-macmaster---donnell-leahy--four-on-the-floor",
+   "date": "2027-04-24",
+   "time": "19:00",
+   "artist": "Natalie MacMaster & Donnell Leahy: Four on the Floor",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/26062",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
    "id": "2027-04-24-kcmidland-hum",
    "date": "2027-04-24",
    "time": "",
@@ -3607,6 +4222,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1352823/def-leppard-tickets",
    "source": "https://www.livenation.com/venue/KovZpZAE7eeA/t-mobile-center-events"
+  },
+  {
+   "id": "2027-04-29-kauffman-kansas-city-symphony--happy-hour---steampunk",
+   "date": "2027-04-29",
+   "time": "18:00",
+   "artist": "Kansas City Symphony: Happy Hour – Steampunk",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/24855",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-04-29-kcmadrid-twrp",
@@ -3632,6 +4260,19 @@
    "tickets": "https://www.songkick.com/concerts/43505953-max-cooper-iii-at-knuckleheads",
    "source": "https://www.songkick.com/venues/58273-knuckleheads/calendar",
    "added": "2026-11-14"
+  },
+  {
+   "id": "2027-05-01-kauffman-kansas-city-symphony--steve-hackman-s-beethoven-x-beyonc-",
+   "date": "2027-05-01",
+   "time": "20:00",
+   "artist": "Kansas City Symphony: Steve Hackman's Beethoven X Beyoncé",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25857",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   },
   {
    "id": "2027-05-02-kcuptown-scott-bradlee-s-postmodern-jukebox",
@@ -3740,6 +4381,32 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/venues/16906-midland-theatre/calendar",
    "source": "https://www.songkick.com/venues/16906-midland-theatre/calendar"
+  },
+  {
+   "id": "2027-05-19-kauffman-kansas-city-symphony--baroque-at-7-00---brandenburg-finale",
+   "date": "2027-05-19",
+   "time": "19:00",
+   "artist": "Kansas City Symphony: Baroque at 7:00 – Brandenburg Finale",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/25897",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
+  },
+  {
+   "id": "2027-05-21-kauffman-kansas-city-symphony--bugs-bunny-at-the-symphony",
+   "date": "2027-05-21",
+   "time": "",
+   "artist": "Kansas City Symphony: Bugs Bunny at the Symphony",
+   "support": "",
+   "venue": "kauffman",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.kauffmancenter.org/overview/24860",
+   "source": "https://www.kauffmancenter.org/events/",
+   "added": "2026-11-20"
   }
  ]
 }
