@@ -1,7 +1,14 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-19T16:22:07.496Z",
+ "updated": "2026-11-20T10:42:08.233Z",
  "artists": {
+  "1tbsp": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/1tbsp/1548254435",
+   "checked": "2026-11-20",
+   "last": "2027-02-25"
+  },
   "22nd annual last waltz revisited feat polytoxic": {
    "none": true,
    "checked": "2026-11-18"
@@ -39,6 +46,13 @@
    "checked": "2026-11-19",
    "last": "2026-12-19"
   },
+  "aj lee and blue summit": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/04/99/2d/04992d46-6ea4-cf43-54a3-53c832cfd708/196700238420_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/aj-lee-blue-summit/1465981730",
+   "checked": "2026-11-20",
+   "last": "2027-02-06"
+  },
   "aj mclean": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/1e/bf/ef1ebfaf-7286-0ea1-0bc3-f767f5bdf99f/199976000814-copy-b1d38bde.png/400x400bb.jpg",
    "src": "apple",
@@ -60,13 +74,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-05"
   },
-  "almost monday": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/a8/63/78a863dd-67fc-8cdc-6132-938c3941675e/20UMGIM81624.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/almost-monday/1300723925",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "alphabeat soup 93": {
    "none": true,
    "checked": "2026-11-18"
@@ -77,6 +84,17 @@
    "link": "https://music.apple.com/us/artist/alter-bridge/73789273",
    "checked": "2026-11-17",
    "last": "2026-11-30"
+  },
+  "asaf avidan": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/89/ee/5589eea5-b7e3-4ffd-1fd4-951790cac935/886447815052.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/asaf-avidan/371736511",
+   "checked": "2026-11-20",
+   "last": "2027-02-23"
+  },
+  "ashe": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "aszewo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/54/45/ef5445b3-91fe-3488-a246-e00fd015ee0b/810129962451.jpg/400x400bb.jpg",
@@ -114,10 +132,12 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "bassline events presents": {
-   "none": true,
-   "checked": "2026-11-17",
-   "skip": "event"
+  "ballyhoo": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/37/ee/4337eed3-76c7-d4ce-2741-21741fdf4bf5/197773007395_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ballyhoo/130193994",
+   "checked": "2026-11-20",
+   "last": "2027-02-12"
   },
   "beltran and red axes": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ab/a5/a2/aba5a273-0b4c-78d0-af8c-fd5b17ffbc03/cover.jpg/400x400bb.jpg",
@@ -125,6 +145,17 @@
    "link": "https://music.apple.com/us/artist/beltran/90369561",
    "checked": "2026-11-18",
    "last": "2026-12-11"
+  },
+  "bethel music": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
+  "big d and the kids table": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/54/21/3f542195-d86a-4920-65ef-408f2fa75bc0/859710143923_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/big-d-and-the-kids-table/188962016",
+   "checked": "2026-11-20",
+   "last": "2027-02-24"
   },
   "big head todd and the monsters": {
    "none": true,
@@ -173,13 +204,24 @@
    "checked": "2026-11-18",
    "last": "2026-12-11"
   },
+  "blue october": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/75/b6/0c/75b60ca7-62d7-4e2f-eb07-46e973bdfb31/886443099111.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/blue-october/559128",
+   "checked": "2026-11-20",
+   "last": "2027-03-06"
+  },
+  "blue oyster cult and uriah heep": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "blue violin s retro rock and roll christmas": {
    "none": true,
    "checked": "2026-11-18"
   },
-  "bobby wiens quartet feat gabe mervine seth lewis and tom amend": {
+  "bo staloch": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-20"
   },
   "boco flamenco presents flamenco jazz with alicia camina": {
    "none": true,
@@ -187,10 +229,6 @@
    "skip": "event"
   },
   "bodysnatcher": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "bonobo": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -296,9 +334,20 @@
    "checked": "2026-11-18",
    "last": "2026-12-12"
   },
+  "caroline rose": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "cashmere christmas": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "caspa": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/ab/42/fc/mzi.sxpoufre.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/caspa/925673908",
+   "checked": "2026-11-20",
+   "last": "2027-02-20"
   },
   "cassidy s hammer": {
    "none": true,
@@ -315,12 +364,12 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "charu suri": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/48/5e/18485edf-3ef7-1e4c-b5be-bf1bfeee4242/859777402308_cover.jpg/400x400bb.jpg",
+  "chelsea cutler": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/09/93/4c/09934cd6-bda8-3bd1-3f0a-3c842b22690d/19UMGIM37948.rgb.jpg/400x400bb.jpg",
    "src": "apple",
-   "link": "https://music.apple.com/us/artist/charu-suri/1439842043",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
+   "link": "https://music.apple.com/us/artist/chelsea-cutler/398935148",
+   "checked": "2026-11-20",
+   "last": "2027-02-28"
   },
   "cherokee social": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/7a/91/bd7a91cf-6130-ab19-5847-8b692e19c39d/198999733389.jpg/400x400bb.jpg",
@@ -355,6 +404,20 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "cid": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bb/7f/1a/bb7f1acf-126a-a9f4-f441-4295251fcdad/075679905796.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/cid/443666401",
+   "checked": "2026-11-20",
+   "last": "2027-02-13"
+  },
+  "clay street unit and 49 winchester": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/49/3f/e0493f41-335a-91e4-5f64-9c46409e3e9a/0196872812275.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/clay-street-unit/1648140695",
+   "checked": "2026-11-20",
+   "last": "2027-02-27"
+  },
   "clay walker": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/58/7f/95/587f9567-bfc6-ec27-a547-da23d2a159ac/mzi.mtjjggqu.jpg/400x400bb.jpg",
    "src": "apple",
@@ -372,6 +435,10 @@
   "clementine": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "clutch": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "color ache": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a8/9c/fa/a89cfacb-aa7b-8756-3863-58f84702e2ec/artwork.jpg/400x400bb.jpg",
@@ -455,6 +522,13 @@
    "none": true,
    "checked": "2026-11-19"
   },
+  "danielle ponder": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/3e/3f/f33e3f46-2cc4-255a-8232-36100be7c68b/67440.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/danielle-ponder/1487289675",
+   "checked": "2026-11-20",
+   "last": "2027-03-15"
+  },
   "dark star orchestra": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/b3/91/a5/mzi.szsjxiew.jpg/400x400bb.jpg",
    "src": "apple",
@@ -466,11 +540,14 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "dave hanson quartet celebrates herbie hancock": {
-   "none": true,
-   "checked": "2026-11-18"
+  "daughtry": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c8/db/22/c8db2209-11c4-5036-40ed-e62095e7ba16/mzi.tnjynuaq.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/daughtry/748174",
+   "checked": "2026-11-20",
+   "last": "2027-02-10"
   },
-  "dave randon trio": {
+  "dave hanson quartet celebrates herbie hancock": {
    "none": true,
    "checked": "2026-11-18"
   },
@@ -478,16 +555,19 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "dead panic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "dead poet society": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/57/64/09/576409b1-a271-2aa6-a8d9-606af6a414b6/5401148003000_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/dead-poet-society/583985425",
    "checked": "2026-11-18",
    "last": "2026-12-13"
+  },
+  "death from above 1979": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4f/af/75/4faf7572-5faf-08fa-0036-66c966247930/s06.jyftvoux.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/death-from-above-1979/31683901",
+   "checked": "2026-11-20",
+   "last": "2027-03-15"
   },
   "deathchant": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/1a/c3/b01ac3bb-06fc-0aa4-722a-33dc93b7b63b/840200503471_cover.jpg/400x400bb.jpg",
@@ -582,6 +662,13 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "dylan scott": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/07/9c/b7/079cb7f8-e67b-970d-8896-33b6f63e8a38/Dylan_Scott_Cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/dylan-scott/521811408",
+   "checked": "2026-11-20",
+   "last": "2027-02-18"
+  },
   "e m e": {
    "none": true,
    "checked": "2026-11-18"
@@ -592,6 +679,13 @@
    "link": "https://music.apple.com/us/artist/easton-corbin/326877075",
    "checked": "2026-11-19",
    "last": "2026-12-18"
+  },
+  "eddie 9v": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/9c/7b/d29c7b29-c35b-8967-5a3e-f3b1a144b2ab/26CRGIM54356.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/eddie-9v/1479464445",
+   "checked": "2026-11-20",
+   "last": "2027-02-27"
   },
   "edith": {
    "none": true,
@@ -658,19 +752,16 @@
    "checked": "2026-11-18",
    "last": "2026-12-12"
   },
+  "flans": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "foy vance": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/35/94/f1/3594f150-7a1c-3842-0f91-3d1559472a50/dj.cpstxrqk.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/foy-vance/68235486",
    "checked": "2026-11-17",
    "last": "2026-11-20"
-  },
-  "frances whitney": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/16/15/0b/16150bb8-66b2-6ca6-e9d9-ca322372b8f8/825396152023.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/frances-whitney/1733625918",
-   "checked": "2026-11-18",
-   "last": "2026-11-19"
   },
   "friends on the hill": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/c0/b3/33c0b3cc-0a63-9d21-66d0-0f07f8446c3e/823000383719.png/400x400bb.jpg",
@@ -736,16 +827,16 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "gordo dubz x wolf d": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ac/42/92/ac4292da-25a4-e37c-1a73-8a41d9e5d34f/5056686233855.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/gordo-dubz/1690026828",
-   "checked": "2026-11-18",
-   "last": "2026-11-19"
-  },
   "grace kelly": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "grace potter": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/76/b0/9d76b00f-f30c-ac3f-e553-986a21f59df6/19CRGIM11892.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/grace-potter/112137839",
+   "checked": "2026-11-20",
+   "last": "2027-02-27"
   },
   "gracie abrams": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/400x400bb.jpg",
@@ -753,6 +844,13 @@
    "link": "https://music.apple.com/us/artist/gracie-abrams/1450554836",
    "checked": "2026-11-17",
    "last": "2026-12-02"
+  },
+  "grateful shred": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/c3/39/73c33935-a50d-8b67-ff6f-93b192356459/859774609427_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/grateful-shred/1454461227",
+   "checked": "2026-11-20",
+   "last": "2027-03-20"
   },
   "greensky bluegrass": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/21/cd/b5/21cdb599-8be0-a9bc-08ff-09c913879c8b/dj.jvinsjrv.jpg/400x400bb.jpg",
@@ -769,9 +867,23 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "harry and friends feat rabbi joe black": {
+  "haken": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-20"
+  },
+  "hamdi": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/5f/11/e85f112f-eacb-7d5d-4f64-a525327ef248/075679645944.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/hamdi/157234503",
+   "checked": "2026-11-20",
+   "last": "2027-03-12"
+  },
+  "hans williams": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a2/f7/30/a2f73013-efa7-d2b9-ded9-9061e145420a/0.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/hans-williams/1368674949",
+   "checked": "2026-11-20",
+   "last": "2027-03-12"
   },
   "havok": {
    "none": true,
@@ -791,6 +903,13 @@
   "hector acosta el torito": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "heyz": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/88/06/a3/8806a33f-e1a4-2915-1b87-fb1ae2309bfd/21UMGIM28287.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/heyz/1281037215",
+   "checked": "2026-11-20",
+   "last": "2027-03-13"
   },
   "hitech presents techquavious": {
    "none": true,
@@ -836,13 +955,16 @@
    "checked": "2026-11-18",
    "last": "2026-11-27"
   },
+  "interplanetary criminal": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f3/df/5b/f3df5b83-5e1a-0fff-b05d-91eae8b071e8/5054197307126.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/interplanetary-criminal/1136192992",
+   "checked": "2026-11-20",
+   "last": "2027-02-19"
+  },
   "izcalli": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "jady": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "jai wolf": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3c/25/55/3c2555fd-f31f-98c9-4d75-7dbacf4e89a7/810090096155.png/400x400bb.jpg",
@@ -953,6 +1075,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-25"
   },
+  "julieta venegas": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/a3/93/39a39334-38f0-a7ca-efbf-362cc3ef5a33/886973082126.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/julieta-venegas/302960",
+   "checked": "2026-11-20",
+   "last": "2027-03-11"
+  },
   "karina rykman": {
    "none": true,
    "checked": "2026-11-17"
@@ -1001,12 +1130,12 @@
    "checked": "2026-11-17",
    "last": "2026-12-02"
   },
-  "krooked kings": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0c/85/75/0c85757f-0439-a4c6-0516-afa6ec041d59/0.jpg/400x400bb.jpg",
+  "kream": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/45/f1/e8/45f1e894-3e7a-96e8-1332-5d57671cf887/075679903570.jpg/400x400bb.jpg",
    "src": "apple",
-   "link": "https://music.apple.com/us/artist/krooked-kings/1397890639",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
+   "link": "https://music.apple.com/us/artist/kream/1082901629",
+   "checked": "2026-11-20",
+   "last": "2027-02-12"
   },
   "ktcl presents": {
    "none": true,
@@ -1016,6 +1145,24 @@
   "kygo st jude jam": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "l a b": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d1/88/1a/d1881af8-7afe-88cd-8fbe-14e4bbcc64bd/9421018243653.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/l-a-b/6080342",
+   "checked": "2026-11-20",
+   "last": "2027-02-19"
+  },
+  "la fiera de ojinaga": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
+  "la roux": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/83/bf/f2/83bff256-6f6b-678f-049a-aa3f721a83b0/09UMGIM20182.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/la-roux/292533375",
+   "checked": "2026-11-20",
+   "last": "2027-02-12"
   },
   "ladies night and noche sonidera": {
    "none": true,
@@ -1055,16 +1202,16 @@
    "checked": "2026-11-18",
    "last": "2026-11-21"
   },
-  "lindsay lou": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/e6/76/03e676cf-0bde-290f-244a-045813a429b1/859731481653_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/lindsay-lou/396630491",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "lit society ft members of lettuce the motet the jauntee and more": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "little stranger": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ca/d6/5e/cad65ec9-f1a1-f168-f9c9-964702821ac7/197077574531_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/little-stranger/1073784556",
+   "checked": "2026-11-20",
+   "last": "2027-02-12"
   },
   "los huracanes del norte": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/90/19/71/mzi.hmifkjng.jpg/400x400bb.jpg",
@@ -1073,12 +1220,27 @@
    "checked": "2026-11-18",
    "last": "2026-11-28"
   },
+  "los lobos": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
+  "los tigres del norte": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/8b/ed/318bed1e-13f3-3502-530f-035b98543d24/19UMGIM64492.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/los-tigres-del-norte/34829626",
+   "checked": "2026-11-20",
+   "last": "2027-02-27"
+  },
   "low key genius": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/52/2e/62/522e6291-ce3c-37f6-3e87-3ba7f572a19f/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/low-key-genius/1857273112",
    "checked": "2026-11-19",
    "last": "2026-12-18"
+  },
+  "lumasi and chmura": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "lyny": {
    "none": true,
@@ -1103,6 +1265,10 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "marian hill": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "mary louise lee": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9b/41/19/9b4119d2-2acc-cee3-eee0-a8493bd04b02/198595984154.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1118,6 +1284,10 @@
    "none": true,
    "checked": "2026-11-19"
   },
+  "mc4d": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "mercy club": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/39/af/57/39af570c-352f-ae45-2a31-ed659cfd2f53/198026701800.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1129,6 +1299,13 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "mike love": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e2/15/3c/e2153c8c-3d54-7e8c-f79c-a669c7ef9025/700371147624_cover.tif/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/mike-love/369245",
+   "checked": "2026-11-20",
+   "last": "2027-02-06"
   },
   "mile hi groove": {
    "none": true,
@@ -1228,6 +1405,13 @@
    "checked": "2026-11-18",
    "last": "2026-12-11"
   },
+  "noah rinker": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d5/90/cb/d590cb88-d6f5-78f3-1872-8cfe6d6e81e4/093624839286.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/noah-rinker/1629238644",
+   "checked": "2026-11-20",
+   "last": "2027-03-09"
+  },
   "nocturne holiday sessions": {
    "none": true,
    "checked": "2026-11-18"
@@ -1236,6 +1420,13 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
+  },
+  "north mississippi allstars": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/96/cd/0196cd1a-e98b-50bb-c19d-d57adeaa3cc5/mzi.rkpzsemk.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/north-mississippi-allstars/5116593",
+   "checked": "2026-11-20",
+   "last": "2027-02-18"
   },
   "nueq": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/95/f1/72/95f17278-87cd-7235-ee74-23359cb5b3f9/197190908664.jpg/400x400bb.jpg",
@@ -1345,12 +1536,26 @@
    "checked": "2026-11-17",
    "last": "2026-11-28"
   },
+  "pivot gang": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d7/1e/f2/d71ef2b8-003b-d400-ce25-3009cb7bdd86/PG_Album_Cover_3000x3000.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/pivot-gang/977483086",
+   "checked": "2026-11-20",
+   "last": "2027-03-17"
+  },
   "pokey lafarge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/29/f7/cb/mzi.ejspyyuu.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/pokey-lafarge/209549495",
    "checked": "2026-11-17",
    "last": "2026-12-05"
+  },
+  "polyphia": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/5c/00/575c009a-6d69-6ac4-7c91-7e307d920279/794558040969.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/polyphia/640294344",
+   "checked": "2026-11-20",
+   "last": "2027-02-20"
   },
   "polytoxic": {
    "none": true,
@@ -1373,6 +1578,13 @@
    "link": "https://music.apple.com/us/artist/pretty-lights/294600594",
    "checked": "2026-11-19",
    "last": "2026-12-31"
+  },
+  "public image ltd": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/36/eb/9136eb83-208c-f9a5-37d0-1cff4672913f/dj.mbmyeirs.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/public-image-ltd/20942761",
+   "checked": "2026-11-20",
+   "last": "2027-02-18"
   },
   "public opinion": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/74/fc/c4/74fcc472-1f5b-326d-65fe-2fbee5e4278f/125702.jpg/400x400bb.jpg",
@@ -1410,9 +1622,30 @@
    "checked": "2026-11-17",
    "last": "2026-12-11"
   },
+  "rare americans": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ed/04/b7/ed04b764-770a-c182-82ec-66273bea1758/194690580895_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/rare-americans/1401691888",
+   "checked": "2026-11-20",
+   "last": "2027-02-13"
+  },
+  "rayland baxter": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/69/82/e4/6982e466-6401-c5b4-07b5-22cef461309a/rayland_cover_digit_5514D36.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/rayland-baxter/430112023",
+   "checked": "2026-11-20",
+   "last": "2027-03-13"
+  },
   "reprise": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "richard thompson": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/84/fa/fe/84fafe4c-a216-e110-2669-d7b7d679af81/886444698627.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/richard-thompson/264023",
+   "checked": "2026-11-20",
+   "last": "2027-02-06"
   },
   "ripe": {
    "none": true,
@@ -1440,6 +1673,13 @@
    "none": true,
    "checked": "2026-11-19"
   },
+  "ruby waters": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/c9/53/e3c953f6-740f-9280-2c4d-4786ff51e006/276059.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/ruby-waters/1441595388",
+   "checked": "2026-11-20",
+   "last": "2027-03-20"
+  },
   "rumble young man rumble": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/46/6f/54/466f5452-8f2c-885d-04bf-e00c3e61c08f/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1447,20 +1687,16 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
-  "russian circles": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/54/76/bf/mzi.hlqnwavm.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/russian-circles/145624352",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "salsa sundays at la rumba": {
    "none": true,
    "checked": "2026-11-18"
   },
-  "san pacho": {
-   "none": true,
-   "checked": "2026-11-17"
+  "sam bush": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features/80/28/43/dj.nofdcbfk.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sam-bush/1412996",
+   "checked": "2026-11-20",
+   "last": "2027-02-20"
   },
   "saosin": {
    "none": true,
@@ -1482,6 +1718,10 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
+  "shakedown street": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "shanghai doom": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/b7/61/b3b7613f-24fd-5a96-9d67-561fe05722ef/8720996726716.png/400x400bb.jpg",
    "src": "apple",
@@ -1501,10 +1741,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "shift ft wub zero": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "shift wednesday ft ghengar": {
    "none": true,
    "checked": "2026-11-18"
@@ -1513,16 +1749,16 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "shwayze": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/2f/2d/28/mzi.tykevjua.tif/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/shwayze/270838920",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "sidequest": {
    "none": true,
    "checked": "2026-11-19"
+  },
+  "sippy": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e0/18/2a/e0182ac8-c18a-97b3-8883-d624176858a3/23UMGIM01730.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sippy/444191039",
+   "checked": "2026-11-20",
+   "last": "2027-02-26"
   },
   "skysia": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e2/98/68/e29868da-e92d-dd88-4400-6d08ab20ebd0/5059137449164_cover.jpg/400x400bb.jpg",
@@ -1545,6 +1781,13 @@
    "checked": "2026-11-19",
    "last": "2027-01-24"
   },
+  "sodown": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music20/v4/b4/7b/3a/b47b3a15-6ab3-8284-9cf0-652b8b3fd3cc/mzm.fvscugyl.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sodown/672771824",
+   "checked": "2026-11-20",
+   "last": "2027-02-13"
+  },
   "sosmula": {
    "none": true,
    "checked": "2026-11-17"
@@ -1560,19 +1803,19 @@
    "checked": "2026-11-17",
    "last": "2026-11-20"
   },
-  "spin move": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/be/f9/b4/bef9b4c8-80b4-4e96-f0ca-a76c571dead0/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/spin-move/1896513438",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "sry4u": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/65/a0/b265a09b-3948-15b9-e456-16ee94922e45/199348956848_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/sry4u/1800672495",
    "checked": "2026-11-18",
    "last": "2026-12-17"
+  },
+  "staind": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/b9/a2/6eb9a297-89af-f85e-49d0-ef1d62b8d259/mzi.ifagooar.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/staind/613161",
+   "checked": "2026-11-20",
+   "last": "2027-03-22"
   },
   "state champs": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/d7/9f/7f/mzi.zhiruhrs.jpg/400x400bb.jpg",
@@ -1584,6 +1827,10 @@
   "steely dead": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "stella lefty": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "steller": {
    "none": true,
@@ -1603,6 +1850,10 @@
   "strawberry girls": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "strongboi": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "sts9": {
    "none": true,
@@ -1626,6 +1877,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
+  "sylvan esso": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/a2/f6/bca2f662-9156-3e89-85b9-383ea57da033/20CRGIM23295.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sylvan-esso/661273932",
+   "checked": "2026-11-20",
+   "last": "2027-03-05"
+  },
   "tanner usrey": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/70/02/80/70028074-2794-b918-91bb-dd513857f8d2/193436297219_TannerUsreySOLSessionsEP.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1639,6 +1897,20 @@
    "link": "https://music.apple.com/us/artist/tech-n9ne/15240917",
    "checked": "2026-11-19",
    "last": "2026-12-19"
+  },
+  "teenage wrist": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ba/48/ad/ba48adc0-1a4a-796e-244a-08d6106c8ba0/0045778776160.png/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/teenage-wrist/940292050",
+   "checked": "2026-11-20",
+   "last": "2027-02-20"
+  },
+  "temper city": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ba/63/6e/ba636e4b-5c9a-e89c-87d3-1a9ab7773644/1084252.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/temper-city/1872869285",
+   "checked": "2026-11-20",
+   "last": "2027-03-20"
   },
   "tf marz and friends": {
    "none": true,
@@ -1671,13 +1943,6 @@
   "the black box and recon present": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "the burial plot": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/5f/83/76/5f837664-f269-68c3-4f5b-e520b2f77512/638361878664.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/the-burial-plot/596844937",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
   },
   "the dead yetis": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/75/b9/7e/75b97e01-958f-eaed-8f7e-a049ee28e2ef/artwork.jpg/400x400bb.jpg",
@@ -1721,6 +1986,20 @@
    "checked": "2026-11-18",
    "last": "2026-12-17"
   },
+  "the high kings": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/85/2f/96852f28-8548-a1ea-07e5-eee089800b67/05099952134357.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-high-kings/273311795",
+   "checked": "2026-11-20",
+   "last": "2027-02-23"
+  },
+  "the hip abduction and johnny cosmic": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/40/cd/a0/40cda072-71f5-4291-0cdd-3d1226ebe954/193872755007_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-hip-abduction/305403930",
+   "checked": "2026-11-20",
+   "last": "2027-02-06"
+  },
   "the infamous stringdusters": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ce/9e/7a/ce9e7aa3-91e6-1a86-3a87-f7cb2105f66a/886444468732.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1735,6 +2014,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-08"
   },
+  "the lemonheads": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/4a/9a/804a9a8a-e528-0a79-0f23-873dda3f5118/809236162403_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-lemonheads/312507",
+   "checked": "2026-11-20",
+   "last": "2027-03-14"
+  },
   "the lone bellow": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e1/45/a9/e145a9f4-bb45-66de-694a-c903d8d9f14f/886443755178.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1745,6 +2031,13 @@
   "the long run": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "the movement and collie buddz": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/a3/87/c5a38731-8698-1fda-f166-8b99dbc5ea9a/193872250861_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-movement/1017059132",
+   "checked": "2026-11-20",
+   "last": "2027-02-26"
   },
   "the munchies": {
    "none": true,
@@ -1774,6 +2067,13 @@
    "link": "https://music.apple.com/us/artist/the-pineapple-thief/278648772",
    "checked": "2026-11-17",
    "last": "2026-12-03"
+  },
+  "the plot in you": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/7f/a7/ec/7fa7ec70-c31b-1eba-7f59-bdb2a9bc363e/886445450606.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-plot-in-you/378491136",
+   "checked": "2026-11-20",
+   "last": "2027-03-16"
   },
   "the polish ambassador": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/c4/93/07c493c8-09fb-d182-f9e4-b53d31dfb9d5/198937990966_cover.jpg/400x400bb.jpg",
@@ -1815,6 +2115,13 @@
    "checked": "2026-11-18",
    "last": "2026-12-05"
   },
+  "the sheepdogs": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b7/26/a1/b726a142-b9d6-c3a8-398a-e8f941797675/075679967794.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-sheepdogs/452501576",
+   "checked": "2026-11-20",
+   "last": "2027-02-13"
+  },
   "the steve denny quintet": {
    "none": true,
    "checked": "2026-11-18"
@@ -1848,6 +2155,13 @@
    "link": "https://music.apple.com/us/artist/tommy-fleece/1481290154",
    "checked": "2026-11-17",
    "last": "2026-11-27"
+  },
+  "tophouse": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f9/a5/9a/f9a59a48-91ce-86d8-9684-4b5fad2ffbe9/198015192183_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/tophouse/1267553474",
+   "checked": "2026-11-20",
+   "last": "2027-02-20"
   },
   "tori rose": {
    "none": true,
@@ -1906,6 +2220,13 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "twin temple": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/53/ea/73/53ea73e0-0983-bcde-9e1b-1e0d4c06bfb1/67870.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/twin-temple/1196820478",
+   "checked": "2026-11-20",
+   "last": "2027-02-21"
+  },
   "tyla": {
    "none": true,
    "checked": "2026-11-17"
@@ -1928,20 +2249,24 @@
    "checked": "2026-11-17",
    "last": "2026-11-21"
   },
+  "valley": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/12/f5/e0/12f5e0b4-f461-5e30-4683-93cbe23cf549/19UMGIM77631.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/valley/1004752984",
+   "checked": "2026-11-20",
+   "last": "2027-03-06"
+  },
   "van zeppelin": {
    "none": true,
    "checked": "2026-11-17"
   },
-  "vertical horizon": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/61/e2/e561e2e6-2ff8-7e71-7f4c-d2af8fd46dec/078636781822.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/vertical-horizon/214998",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "victor wooten and the wooten brothers": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "vincent lima": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "vip music presents": {
    "none": true,
@@ -2023,94 +2348,6 @@
   }
  },
  "shows": {
-  "2026-11-19-blackbox-gordo-dubz-x-wolf-d": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-blackbox-purple-mammoth-sound-takeover--labrat--lounge-": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-bouldertheater-san-pacho": {
-   "img": "https://www.jambase.com/wp-content/uploads/2017/02/boulder-theater-boulder-theater-7007v.jpg",
-   "src": "venue"
-  },
-  "2026-11-19-cervantes-shift-ft--wub-zero": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-dazzle-charu-suri": {
-   "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_24679e0389466a576cec2525d5b25cfd490d894d81300332e893213e9e10b5db.jpg",
-   "src": "venue"
-  },
-  "2026-11-19-foxboulder-dead-panic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-globehall-frances-whitney--daisy-s-mixtape-tour": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-gothic-russian-circles": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-herbs-dave-randon-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-hidive-spin-move": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-larimer-bassline-events-presents--bass-nights": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-lostlake-jady": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-marquis-the-burial-plot": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-meowwolf-krooked-kings": {
-   "img": "https://meowwolf.ticketure.com/v1/assets/meowwolf/0b30f051-8983-2296-ea03-820e0059ba9e?sizex=1200",
-   "src": "venue"
-  },
-  "2026-11-19-mission-bonobo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-newman-lindsay-lou": {
-   "img": "https://www.jambase.com/wp-content/uploads/2026/10/lindsay-lou-8211-newman-center-for-the-performing-arts-8211-20261119-1200x675.jpg",
-   "src": "venue"
-  },
-  "2026-11-19-nocturne-bobby-wiens-quartet-feat--gabe-mervine--seth-lewis-and-tom-amend": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-ophelias-vertical-horizon": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-otherside-shwayze": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-stonecottage-boulder-philharmonic--thirty-up-close-with-charles-lee--cello": {
-   "img": "https://assets.getcuebox.com/cdn-cgi/image/format=jpeg,width=1200,height=630,fit=cover,gravity=auto/https://assets.getcuebox.com/LPSW5JKM/3e1e225e-2e36-44df-a558-452223d12105_20261014T183430Z.jpg",
-   "src": "venue"
-  },
-  "2026-11-19-summit-almost-monday": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-swallowhill-harry---friends-feat--rabbi-joe-black": {
-   "img": "https://swallowhillmusic.org/wp-content/uploads/2026/10/56e0bf0e-cc06-428d-b2d1-c2a15db27821.jpg",
-   "src": "venue"
-  },
   "2026-11-20-blackbox-the-black-box-10-year-anniversary--night-one-": {
    "none": true,
    "checked": "2026-11-17"

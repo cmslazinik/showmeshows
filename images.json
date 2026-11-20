@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for St. Louis. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-19T16:15:27.503Z",
+ "updated": "2026-11-20T10:35:19.216Z",
  "artists": {
   "1 productions presents": {
    "none": true,
@@ -569,13 +569,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "ethan regan": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/3c/93/c83c93a5-1805-5171-3deb-87290a7f0702/196874353202.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ethan-regan/1329542870",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "evereverever middle class fashion and meatus": {
    "none": true,
    "checked": "2026-11-18"
@@ -604,6 +597,10 @@
   "for king country": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "frank turner and the sleeping souls": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "fred hammond": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/94/72/779472ff-83fa-f2a6-5184-7581158a3eca/mzi.kwbyudft.jpg/400x400bb.jpg",
@@ -744,6 +741,13 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "j roddy walston and the automatic band": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/27/f2/be27f2e0-2278-cb95-5d4e-383df2179548/859780611131_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/j-roddy-walston/672961876",
+   "checked": "2026-11-20",
+   "last": "2027-03-25"
+  },
   "jack and jack": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cb/55/f7/cb55f74d-c020-0e58-2904-6ce6976f5779/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -880,6 +884,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "kaitlin butts": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/a7/cb/2ea7cb01-2218-c19a-5cbd-10bb470af886/859714045247_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/kaitlin-butts/650660366",
+   "checked": "2026-11-20",
+   "last": "2027-02-26"
+  },
   "kameron marlowe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5e/d8/96/5ed896bc-d45c-d48a-951f-10723e1e42e9/886448845089.jpg/400x400bb.jpg",
    "src": "apple",
@@ -897,10 +908,6 @@
   "kawaii rave": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "kent on the keys": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "kingdom of giants": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/ba/c1/b5/mzi.fdonknuj.jpg/400x400bb.jpg",
@@ -1295,6 +1302,10 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "phillipalooza 2026": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "pianist peter t noonan": {
    "none": true,
    "checked": "2026-11-18"
@@ -1520,13 +1531,6 @@
    "checked": "2026-11-18",
    "last": "2027-02-25"
   },
-  "sugarland": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/47/91/61479192-0df9-808c-e770-2cac803d08f1/00843930034574.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/sugarland/17547055",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "tantric": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/a7/a9/mzi.utgqehls.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1674,10 +1678,6 @@
    "last": "2026-11-22"
   },
   "the muppet christmas carol in concert": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
-  "the orchestra starring elo former members": {
    "none": true,
    "checked": "2026-11-18"
   },
@@ -1937,38 +1937,6 @@
   }
  },
  "shows": {
-  "2026-11-19-bob-drew-lance---friends": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-citywinery-patti-austin": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-evangelines-kent-on-the-keys": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96b027041b64f02ea6778/1791605626028/image.jpeg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-19-factory-the-orchestra-starring-elo-former-members": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-familyarena-sugarland": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-jazzstl-marcus-roberts---the-modern-jazz-generation": {
-   "img": "https://www.metrotix.com/assets/img/MarcusRoberts_spotlight-65968f2249.jpg",
-   "src": "venue"
-  },
-  "2026-11-19-offbroadway-ethan-regan": {
-   "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6a1df786be9ec6d0d4279c71_26-11-19_EthanRegan_FBEvent.jpeg",
-   "src": "venue"
-  },
-  "2026-11-19-sheldon-st--louis-symphony-live-at-the-sheldon--brass-trio": {
-   "img": "https://www.metrotix.com/assets/img/SLSO_LiveAtTheSheldon_spotlight-0de7d61c57.jpg",
-   "src": "venue"
-  },
   "2026-11-20-atomic-justin-rose": {
    "img": "https://images.sk-static.com/images/media/img/col6/20130526-075612-627430.jpg",
    "src": "venue"
@@ -2445,6 +2413,10 @@
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6aeb8a13338811fe2430b6e6_26-12-04_evereverever_FBEvent.jpeg",
    "src": "venue"
   },
+  "2026-12-04-orh-phillipalooza-2026--night-1": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "2026-12-04-pops-bodysnatcher": {
    "none": true,
    "checked": "2026-11-17"
@@ -2484,6 +2456,10 @@
   "2026-12-05-offbroadway-120-minutes-presents--a-tribute-to-the-cure": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ac7f0682f5f4214ebfad4ec_26-12-05_ATributeToTheCure_FBEvent.jpeg",
    "src": "venue"
+  },
+  "2026-12-05-orh-phillipalooza-2026--night-2": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "2026-12-05-pops-the-subliminal-verses--a-tribute-to-slipknot": {
    "none": true,
@@ -3065,6 +3041,10 @@
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6af215dc4a20fdeb7e849d64_27-01-16_EmoNite_FBEvent.jpeg",
    "src": "venue"
   },
+  "2027-01-16-orh-taylor-steele---the-love-preachers": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "2027-01-16-pageant-the-phil-collins-experience": {
    "none": true,
    "checked": "2026-11-17"
@@ -3277,6 +3257,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2027-02-26-orh-kaitlin-butts": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "2027-02-27-pops-corey-smith": {
    "none": true,
    "checked": "2026-11-17"
@@ -3461,6 +3445,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2027-03-25-orh-j--roddy-walston---the-automatic-band": {
+   "none": true,
+   "checked": "2026-11-20"
+  },
   "2027-03-25-sheldon-modi": {
    "none": true,
    "checked": "2026-11-17"
@@ -3552,6 +3540,10 @@
   "2027-04-18-pageant-the-interrupters": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "2027-04-20-sovereign-frank-turner---the-sleeping-souls": {
+   "none": true,
+   "checked": "2026-11-20"
   },
   "2027-04-22-sheldon-st--louis-symphony-live-at-the-sheldon--wind-quintet": {
    "none": true,

@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-19T16:22:07.500Z",
+ "updated": "2026-11-20T10:42:08.238Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -163,13 +163,6 @@
    "checked": "2026-11-17",
    "last": "2027-02-19"
   },
-  "crobot": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a3/c5/3c/a3c53c88-0392-9b92-f22b-6d24e3f92839/810020507201.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/crobot/568294157",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "cultural crossroads": {
    "none": true,
    "checked": "2026-11-18"
@@ -278,10 +271,6 @@
    "link": "https://music.apple.com/us/artist/found-a-job/1726669037",
    "checked": "2026-11-18",
    "last": "2026-11-25"
-  },
-  "four on the floor": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "from ashes to new": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
@@ -425,13 +414,6 @@
   "ku symphony orchestra with liberty north high school": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "les arts florissants": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/18/7f/c0/mzi.qtrdjtzb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/les-arts-florissants/1976798",
-   "checked": "2026-11-18",
-   "last": "2026-11-19"
   },
   "liquid stranger": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e2/c2/37/mzi.ychqjrxu.jpg/400x400bb.jpg",
@@ -790,10 +772,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-12"
   },
-  "the supermatics": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "tinashe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/1c/5e/431c5e0f-140b-bf2f-9678-8790c369987a/886444673228.jpg/400x400bb.jpg",
    "src": "apple",
@@ -824,10 +802,6 @@
    "checked": "2026-11-17"
   },
   "udit narayan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "vincent": {
    "none": true,
    "checked": "2026-11-17"
   },
@@ -884,30 +858,6 @@
   }
  },
  "shows": {
-  "2026-11-19-kcaztecshawnee-four-on-the-floor": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-kcbbslawnside-the-supermatics": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-kcblackdolphin-mark-slimm-duo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-kcfolly-les-arts-florissants--the-magic-of-monteverdi": {
-   "img": "https://images.squarespace-cdn.com/content/v1/591e0181d1758e2a47efdd88/1775578013233-RKFBIZ81D5OGRVB30AN3/3.png?format=500w",
-   "src": "venue"
-  },
-  "2026-11-19-kcreplay-crobot": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-knuckleheads-vincent": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-20-blueroomkc-indigo-hour--lauren-ashley": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197788124%252F2197883838193%252F1%252Foriginal.20261111-184840%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D18aafca0e5e5a572de245ff128861a94&w=940&q=75",
    "src": "venue"

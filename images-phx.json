@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-19T16:28:19.919Z",
+ "updated": "2026-11-20T10:42:08.243Z",
  "artists": {
   "2hollis": {
    "none": true,
@@ -142,10 +142,6 @@
    "link": "https://music.apple.com/us/artist/autumn/1544458654",
    "checked": "2026-11-17",
    "last": "2026-12-13"
-  },
-  "ayria": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "b real": {
    "none": true,
@@ -869,13 +865,6 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "hurricane wisdom": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/17/a4/b217a48c-8322-6d58-8272-f27f083dc95d/797885316875_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/hurricane-wisdom/1527844433",
-   "checked": "2026-11-18",
-   "last": "2026-11-19"
-  },
   "igor and the red elvises": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m11/d20/h01/s05.rnqrgfvc.tif/400x400bb.jpg",
    "src": "apple",
@@ -1005,10 +994,6 @@
    "link": "https://music.apple.com/us/artist/john-splithoff/715959373",
    "checked": "2026-11-19",
    "last": "2027-05-15"
-  },
-  "kaleo wassman": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "katseye": {
    "none": true,
@@ -1936,13 +1921,6 @@
    "checked": "2026-11-18",
    "last": "2027-03-23"
   },
-  "the psychedelic furs": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c9/65/46/c9654693-d5ae-183e-d946-95e008ae0a5a/074646148129.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/the-psychedelic-furs/515449",
-   "checked": "2026-11-17",
-   "last": "2026-11-19"
-  },
   "the reaper": {
    "none": true,
    "checked": "2026-11-17"
@@ -2266,26 +2244,6 @@
   }
  },
  "shows": {
-  "2026-11-19-celebrityphx-the-psychedelic-furs": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-luckys-kaleo-wassman": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-rebellounge-ayria": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-rhythmroom-lazy-summer": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-19-walterstudios-hurricane-wisdom": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-20-crescentballroom-sueco": {
    "none": true,
    "checked": "2026-11-17"
