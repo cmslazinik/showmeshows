@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for St. Louis. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-20T10:35:19.216Z",
+ "updated": "2026-11-21T10:35:24.307Z",
  "artists": {
   "1 productions presents": {
    "none": true,
@@ -11,10 +11,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "2 pedros": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "20 years gone": {
    "none": true,
@@ -139,13 +135,6 @@
    "checked": "2026-11-19",
    "last": "2027-03-19"
   },
-  "ax and the hatchetmen": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/31/81/b831814d-1981-5708-661a-ba2c47798456/196873649658.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ax-and-the-hatchetmen/1471855465",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "babe haven": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/8b/e8/518be879-089c-1b07-891d-b22fb66a2a40/5061122880753_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -206,13 +195,6 @@
   "black smurf": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "black stone cherry": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/61/74/0c/mzi.ikyflsac.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/black-stone-cherry/155784503",
-   "checked": "2026-11-18",
-   "last": "2026-11-20"
   },
   "blackwater 64": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7a/4b/a6/7a4ba6ed-1b10-d076-5b2c-d9346ecac172/artwork.jpg/400x400bb.jpg",
@@ -384,10 +366,6 @@
    "checked": "2026-11-17",
    "last": "2027-02-13"
   },
-  "day26": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "death from above 1979": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4f/af/75/4faf7572-5faf-08fa-0036-66c966247930/s06.jyftvoux.jpg/400x400bb.jpg",
    "src": "apple",
@@ -461,21 +439,10 @@
    "checked": "2026-11-18",
    "last": "2026-11-27"
   },
-  "don trip": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/e2/c1/45e2c154-57f3-aaed-6b01-114ae0352f32/888915350775_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/don-trip/271776453",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "don walker": {
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "dour": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "dr zhivegas x prince and the revolution tribute": {
    "none": true,
@@ -586,13 +553,6 @@
    "link": "https://music.apple.com/us/artist/fantasia/15773735",
    "checked": "2026-11-19",
    "last": "2027-04-09"
-  },
-  "foghat": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/4c/6a/57/4c6a57b0-d0d2-12c6-ff06-200fe2973522/603497870950.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/foghat/4276278",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "for king country": {
    "none": true,
@@ -880,10 +840,6 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "justin rose": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "kaitlin butts": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/a7/cb/2ea7cb01-2218-c19a-5cbd-10bb470af886/859714045247_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -972,10 +928,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "lover": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "lucky daye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/d4/dd/0ad4dd3c-f559-b23d-456c-7e4608cac78c/886447390184.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1025,10 +977,6 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "mary rodgers menagerie": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "masters of hawaiian music": {
    "none": true,
    "checked": "2026-11-18"
@@ -1048,13 +996,6 @@
    "link": "https://music.apple.com/us/artist/matt-nathanson/2918711",
    "checked": "2026-11-19",
    "last": "2027-04-14"
-  },
-  "matt the rattlesnake lesch": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/86/c3/57/86c3570b-4161-5f16-4903-8798513f21a3/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/matt-the-rattlesnake-lesch/1440402483",
-   "checked": "2026-11-18",
-   "last": "2026-11-20"
   },
   "matt the rattlesnake lesch trio": {
    "none": true,
@@ -1257,10 +1198,6 @@
    "link": "https://music.apple.com/us/artist/packaging/1817282870",
    "checked": "2026-11-17",
    "last": "2026-11-21"
-  },
-  "patti austin": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "paul brown and the killing devils": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a3/7a/05/a37a0535-daf5-63ac-7e94-26ad2358aec9/657988025121.jpg/400x400bb.jpg",
@@ -1479,6 +1416,13 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "sons of seattle": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b3/e0/98/b3e09831-4297-fcb3-f888-d8a35d58fbb1/0.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/sons-of-seattle/1649215433",
+   "checked": "2026-11-21",
+   "last": "2027-02-27"
+  },
   "soulard blues band": {
    "none": true,
    "checked": "2026-11-18"
@@ -1492,7 +1436,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/st-louis-symphony-orchestra/104663346",
    "checked": "2026-11-18",
-   "last": "2026-11-20"
+   "last": "2026-11-29"
   },
   "stella lefty": {
    "none": true,
@@ -1831,10 +1775,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "victor wooten and the wooten brothers": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "vincent lima": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/c9/74/27c974f7-17aa-e3e9-c106-62afdbd5711e/25UMGIM90461.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1930,81 +1870,9 @@
   "zacarias ferreira": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "zingara": {
-   "none": true,
-   "checked": "2026-11-17"
   }
  },
  "shows": {
-  "2026-11-20-atomic-justin-rose": {
-   "img": "https://images.sk-static.com/images/media/img/col6/20130526-075612-627430.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-atomic-lover": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-bob-2-pedros": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-bob-matt--the-rattlesnake--lesch": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-casaloma-day26": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196387114%252F114216506843%252F1%252Foriginal.20261022-182510%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.533%26fp-y%3D0.767%26s%3D5f764c9dd66648eb769501851e7bd281&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-20-citywinery-patti-austin": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-delmar-ax-and-the-hatchetmen": {
-   "img": "https://www.thepageant.com/wp-content/uploads/2026/05/112026_AATH_Web.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-dissonant-dour": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-evangelines-mary-rodgers-menagerie": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96bcf7041b64f02eaa4de/1791604745118/image.png?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-20-golden-don-trip": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-jazzstl-marcus-roberts---the-modern-jazz-generation": {
-   "img": "https://www.metrotix.com/assets/img/MarcusRoberts_spotlight-65968f2249.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-orh-victor-wooten---the-wooten-brothers": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-pageant-foghat": {
-   "img": "https://www.thepageant.com/wp-content/uploads/2026/08/112026_Foghat_website.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-pops-black-stone-cherry--bonfire-nights-acoustic-": {
-   "img": "https://static1.squarespace.com/static/63ac8cc3b5bf327ff46664e6/63aca784c99e872becca8296/6aba8dae8d8c78012584f212/1790612180180/post.jpg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-20-powell-st--louis-symphony-orchestra--a-salute-to-america": {
-   "img": "https://slso.org/wp-content/uploads/2025/01/25-26_homepage_mega-menu_969x768.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-sovereign-zingara": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-wildey-anthology--allman-brothers-band-tribute-": {
-   "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/b8f32c0d-7b3e-4065-9a60-68c9d30fd149_91852798b59be8b28fc00edfe4aec23a.jpg",
-   "src": "venue"
-  },
   "2026-11-21-atomic-murder-city-players": {
    "none": true,
    "checked": "2026-11-17"
@@ -3260,6 +3128,10 @@
   "2027-02-26-orh-kaitlin-butts": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "2027-02-27-orh-sons-of-seattle": {
+   "none": true,
+   "checked": "2026-11-21"
   },
   "2027-02-27-pops-corey-smith": {
    "none": true,

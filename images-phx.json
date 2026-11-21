@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-20T10:42:08.243Z",
+ "updated": "2026-11-21T10:35:24.326Z",
  "artists": {
   "2hollis": {
    "none": true,
@@ -214,13 +214,6 @@
   "bill tarsha and the rocket 88s": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "biscits": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/9c/80/ff9c8055-a6aa-6d88-5ece-197d884a4dd9/190296248474.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/biscits/1185553226",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "blue october": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/75/b6/0c/75b60ca7-62d7-4e2f-eb07-46e973bdfb31/886443099111.jpg/400x400bb.jpg",
@@ -605,10 +598,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "el tri": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "el vez": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/50/0a/62/500a62e0-415e-ec51-dc1e-a1937cc46645/790168303661.jpg/400x400bb.jpg",
    "src": "apple",
@@ -865,13 +854,6 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "igor and the red elvises": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m11/d20/h01/s05.rnqrgfvc.tif/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/igor/30949544",
-   "checked": "2026-11-18",
-   "last": "2026-11-20"
-  },
   "imminence": {
    "none": true,
    "checked": "2026-11-17"
@@ -894,13 +876,6 @@
    "link": "https://music.apple.com/us/artist/iron-maiden/546381",
    "checked": "2026-11-19",
    "last": "2027-04-26"
-  },
-  "isaiah rashad": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/ff/6b/bcff6b30-6bef-8f19-e646-67e7e34cb111/859711929908_cover.tif/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/isaiah-rashad/605391263",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "jack and jack": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cb/55/f7/cb55f74d-c020-0e58-2904-6ce6976f5779/artwork.jpg/400x400bb.jpg",
@@ -1134,13 +1109,6 @@
    "checked": "2026-11-19",
    "last": "2027-05-07"
   },
-  "marco strous": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a0/26/ef/a026eff4-d1d1-e89a-c854-8a1740cfc543/cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/marco-strous/923640710",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "mark hummel": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/7b/7a/1a/mzi.yaoyhksl.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1216,13 +1184,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-17"
   },
-  "millero": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/34/4a/a1/344aa175-af9a-abc9-70b9-23da8aa4a59d/5034644525419.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/millero/1572685923",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "mindchatter": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/79/2b/c8792baa-3301-42c2-1fad-daa14923ef31/199538538878.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1247,10 +1208,6 @@
    "link": "https://music.apple.com/us/artist/miniature-tigers/159132058",
    "checked": "2026-11-17",
    "last": "2026-12-19"
-  },
-  "monique": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "monroe": {
    "none": true,
@@ -1645,10 +1602,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "sueco": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "sueno": {
    "none": true,
    "checked": "2026-11-19"
@@ -1920,10 +1873,6 @@
    "link": "https://music.apple.com/us/artist/the-plot-in-you/378491136",
    "checked": "2026-11-18",
    "last": "2027-03-23"
-  },
-  "the reaper": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "the rock and roll playhouse": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/32/29/20/322920dc-3c1e-eddb-f26d-9984e4494fd3/24UMGIM63028.rgb.jpg/400x400bb.jpg",
@@ -2244,46 +2193,6 @@
   }
  },
  "shows": {
-  "2026-11-20-crescentballroom-sueco": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-dirtydrummer-jerusafunk": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-marqueetempe-isaiah-rashad": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-ninthjackson-biscits": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-rhythmroom-igor---the-red-elvises": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-sunbartempe-marco-strous": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-sunbartempe-the-reaper": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-valleybar-monique": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-vanburen-el-tri": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-walterwherehouse-millero": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-21-marqueetempe-baby-smoove": {
    "none": true,
    "checked": "2026-11-17"

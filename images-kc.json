@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-20T12:00:40.383Z",
+ "updated": "2026-11-21T10:35:24.321Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -120,10 +120,6 @@
    "link": "https://music.apple.com/us/artist/brandi-carlile/64387579",
    "checked": "2026-11-18",
    "last": "2026-11-22"
-  },
-  "brody buster": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "brody buster one man band": {
    "none": true,
@@ -263,10 +259,6 @@
    "link": "https://music.apple.com/us/artist/dylan-gossett/1526025679",
    "checked": "2026-11-17",
    "last": "2027-05-07"
-  },
-  "easy tiger": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "eboni fondren": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4e/67/56/4e675635-54a8-8477-d777-3071bdfa33d8/8447352071357.jpg/400x400bb.jpg",
@@ -449,7 +441,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
    "checked": "2026-11-18",
-   "last": "2026-11-20"
+   "last": "2026-11-21"
   },
   "katy guillen and the drive": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/43/13/9e/43139ed0-6a64-d8b0-3093-d00fb846bf1a/762183515824.png/400x400bb.jpg",
@@ -475,13 +467,6 @@
    "link": "https://music.apple.com/us/artist/kings-x/157250",
    "checked": "2026-11-17",
    "last": "2026-12-12"
-  },
-  "kingdom of giants": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/ba/c1/b5/mzi.fdonknuj.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/kingdom-of-giants/416846306",
-   "checked": "2026-11-20",
-   "last": "2026-11-20"
   },
   "ku symphony orchestra with liberty north high school": {
    "none": true,
@@ -547,13 +532,6 @@
    "link": "https://music.apple.com/us/artist/lydia-loveless/360720332",
    "checked": "2026-11-18",
    "last": "2027-02-11"
-  },
-  "mainliners": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/7a/d6/87/7ad68706-c179-d6b5-ddce-481523a36fe6/887158255991.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/mainliners/216021628",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "mannheim steamroller christmas": {
    "none": true,
@@ -769,7 +747,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rss-trio/1480618718",
    "checked": "2026-11-17",
-   "last": "2026-11-20"
+   "last": "2026-11-21"
   },
   "ruby waters": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/c9/53/e3c953f6-740f-9280-2c4d-4786ff51e006/276059.jpg/400x400bb.jpg",
@@ -847,13 +825,6 @@
    "checked": "2026-11-17",
    "last": "2027-04-10"
   },
-  "stone cutters union": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/68/cc/a8/68cca857-afa7-abd1-ed55-0d903b20884c/888295024723.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/stone-cutters-union/784931905",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "stranded in the city": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7e/79/9c/7e799c4d-6c2e-e9c8-5264-defa192e8741/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -908,10 +879,6 @@
   "the r and j playerz band": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "the redbeards": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "the rock gods": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/8d/7b/3e8d7b78-1098-8577-bc2d-106e73b3eaf8/822685404399.jpg/400x400bb.jpg",
@@ -1056,46 +1023,6 @@
   }
  },
  "shows": {
-  "2026-11-20-blueroomkc-indigo-hour--lauren-ashley": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197788124%252F2197883838193%252F1%252Foriginal.20261111-184840%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D18aafca0e5e5a572de245ff128861a94&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-20-bottleneck-kingdom-of-giants": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
-  "2026-11-20-granadalawrence-mainliners": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kauffman-kansas-city-symphony--brahms--german-requiem": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kcbbslawnside-stone-cutters-union": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kcblackdolphin-mark-slimm-duo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kcblackdolphin-rss-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kccoryfranks-brody-buster": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-kchideout-the-redbeards": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-voodookc-easy-tiger": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-21-blueroomkc-alex-abramovitz-and-his-swing-n-kansas-city-jazz-band": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197822630%252F2197883838193%252F1%252Foriginal.20261112-045049%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dec1e49d8b70b66676771531ec8425059&w=940&q=75",
    "src": "venue"

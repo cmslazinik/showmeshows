@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-20T11:56:44.187Z",
+ "updated": "2026-11-21T10:35:24.317Z",
  "artists": {
   "1tbsp": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
@@ -118,13 +118,6 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "avello": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3a/0b/2c/3a0b2cfe-e568-1ae1-1b07-5505269a978d/609137084831_Cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/avello/476861072",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "avery cochrane": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/8e/a3/8d8ea325-1470-8ec5-1873-6177085d5c31/199806975701.jpg/400x400bb.jpg",
    "src": "apple",
@@ -135,13 +128,6 @@
   "baby jane": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "bag raiders": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/1a/e7/161ae7fa-026b-453a-e443-626924179812/00602527174396.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/bag-raiders/262804084",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "ballyhoo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/37/ee/4337eed3-76c7-d4ce-2741-21741fdf4bf5/197773007395_cover.jpg/400x400bb.jpg",
@@ -189,13 +175,6 @@
   "billy failing s holiday sleigh ride": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "billy marchiafava": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/9f/c5/cf9fc559-c6ba-b30b-0b9c-ad0ee82679a3/886448143475.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/billy-marchiafava/1282069852",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "bilmuri": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/89/b0/3589b0e1-41da-a15f-b673-469059df6342/196874025635.jpg/400x400bb.jpg",
@@ -256,13 +235,6 @@
    "link": "https://music.apple.com/us/artist/boogie-t/925972965",
    "checked": "2026-11-17",
    "last": "2026-12-04"
-  },
-  "book of love": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/c9/17/8cc917a0-57fd-d2b7-81a2-ca749e71b7c9/mzi.dcgtokdr.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/book-of-love/903133",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "boredomfighters benefit": {
    "none": true,
@@ -414,13 +386,6 @@
    "checked": "2026-11-20",
    "last": "2027-02-28"
   },
-  "cherokee social": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/7a/91/bd7a91cf-6130-ab19-5847-8b692e19c39d/198999733389.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/cherokee-social/1720330451",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "chez": {
    "none": true,
    "checked": "2026-11-18"
@@ -513,7 +478,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/colorado-symphony/29769512",
    "checked": "2026-11-18",
-   "last": "2026-11-20"
+   "last": "2026-11-21"
   },
   "colorado symphony and chorus": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/31/9b/c1319be9-8b93-c97c-7221-c2db3f97e804/mzi.ltdhdjhy.jpg/400x400bb.jpg",
@@ -847,7 +812,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/foy-vance/68235486",
    "checked": "2026-11-17",
-   "last": "2026-11-20"
+   "last": "2026-11-21"
   },
   "french 79": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/95/87/1e95877e-1c04-d365-a8ab-fd1a00d0ff66/3760209412611.png/400x400bb.jpg",
@@ -912,13 +877,6 @@
    "link": "https://music.apple.com/us/artist/godhandusa/1750735255",
    "checked": "2026-11-17",
    "last": "2026-12-06"
-  },
-  "goodnight texas": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/75/66/c2756674-72e5-ce7a-8f27-783c10fb3e66/700261462547_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/goodnight-texas/563773401",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "grace kelly": {
    "none": true,
@@ -1000,10 +958,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "havok": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "hayden coffman": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/a4/1c/8ba41c78-3d34-6eb8-73b6-58478ba4403c/659459926777.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1034,13 +988,6 @@
   "hol": {
    "none": true,
    "checked": "2026-11-20"
-  },
-  "holy wave": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5b/6c/d0/5b6cd0d3-652c-f329-daf0-b7644688f1f4/38916.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/holy-wave/490521774",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "home alone in concert colorado symphony": {
    "none": true,
@@ -1145,17 +1092,6 @@
    "link": "https://music.apple.com/us/artist/jd-mcpherson/398896732",
    "checked": "2026-11-19",
    "last": "2026-12-20"
-  },
-  "jehovah s fitness club": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/30/30/8d/30308db4-b1ad-0b7d-0389-12dfed41c51b/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/jehovahs-fitness-club/1747247595",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
-  "jeremy wendelin quintet plays original works": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "jersey": {
    "none": true,
@@ -1363,10 +1299,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "level up": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "lil fish": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ff/c2/99/ffc299a5-9fb9-d1e7-8048-7b4701bc9359/193872328102_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1380,10 +1312,6 @@
    "link": "https://music.apple.com/us/artist/linderos-del-norte/1510259091",
    "checked": "2026-11-18",
    "last": "2026-11-21"
-  },
-  "lit society ft members of lettuce the motet the jauntee and more": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "little stranger": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ca/d6/5e/cad65ec9-f1a1-f168-f9c9-964702821ac7/197077574531_cover.jpg/400x400bb.jpg",
@@ -1435,10 +1363,6 @@
    "link": "https://music.apple.com/us/artist/mad-dubz/1478113559",
    "checked": "2026-11-17",
    "last": "2026-11-25"
-  },
-  "maelo ruiz": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "magoo": {
    "none": true,
@@ -1658,20 +1582,9 @@
    "checked": "2026-11-17",
    "last": "2026-12-04"
   },
-  "onhell": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/55/61/a4/5561a441-8b02-dda4-3f63-27536a8afc08/23UMGIM57784.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/onhell/738629157",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "open house": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "open house feat babsy": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "open house feat chrispy": {
    "none": true,
@@ -1924,10 +1837,6 @@
    "checked": "2026-11-18",
    "last": "2026-12-11"
   },
-  "robert ellis": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "rocky mountain revels": {
    "none": true,
    "checked": "2026-11-19"
@@ -1960,10 +1869,6 @@
   "sam fender": {
    "none": true,
    "checked": "2026-11-20"
-  },
-  "saosin": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "sap": {
    "none": true,
@@ -2058,13 +1963,6 @@
    "checked": "2026-11-20",
    "last": "2027-05-02"
   },
-  "slay and stinson": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fa/33/6d/fa336d9f-a291-d0ed-85b0-9e10c0f2163d/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/slay-stinson/1749918631",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
-  },
   "smith and myers": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/6f/bb/c56fbb2a-8da3-3a75-8126-ec1023c4978e/075679944122.jpg/400x400bb.jpg",
    "src": "apple",
@@ -2086,13 +1984,6 @@
   "spafford": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "spanish love songs": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ea/a6/50/eaa650b8-bfc3-89e8-f2c8-1d076e56a9a5/197188084141.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/spanish-love-songs/982837028",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "sry4u": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/65/a0/b265a09b-3948-15b9-e456-16ee94922e45/199348956848_cover.jpg/400x400bb.jpg",
@@ -2192,13 +2083,6 @@
    "link": "https://music.apple.com/us/artist/sylvan-esso/661273932",
    "checked": "2026-11-20",
    "last": "2027-03-05"
-  },
-  "tanner usrey": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/70/02/80/70028074-2794-b918-91bb-dd513857f8d2/193436297219_TannerUsreySOLSessionsEP.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/tanner-usrey/1435295967",
-   "checked": "2026-11-17",
-   "last": "2026-11-20"
   },
   "tech n9ne": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/73/c3/81/73c38103-9aea-dda9-52dd-e7a59d4d36a7/853435003258_Cover.jpg/400x400bb.jpg",
@@ -2350,10 +2234,6 @@
    "link": "https://music.apple.com/us/artist/the-lone-bellow/575286846",
    "checked": "2026-11-19",
    "last": "2027-01-22"
-  },
-  "the long run": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "the movement and collie buddz": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/a3/87/c5a38731-8698-1fda-f166-8b99dbc5ea9a/193872250861_cover.jpg/400x400bb.jpg",
@@ -2596,10 +2476,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "tyla": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "ukg proper colours": {
    "none": true,
    "checked": "2026-11-18"
@@ -2717,114 +2593,6 @@
   }
  },
  "shows": {
-  "2026-11-20-blackbox-the-black-box-10-year-anniversary--night-one-": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-bluebird-goodnight-texas": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-boettcher-colorado-symphony--elgar-cello-concerto---dvo--k-symphony-no--7-with-peter-oundjian": {
-   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-6-Elgar-Cello-720x400-1.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-cervantes-onhell": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-dazzle-grace-kelly": {
-   "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_9391f45b9c327f517e9966b07e3d7bbee596a809e44d587ac1b7fc69f96b63e6.jpg",
-   "src": "venue"
-  },
-  "2026-11-20-fillmore-tyla": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-foxboulder-foy-vance": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-globehall-spanish-love-songs": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-gothic-havok": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-grizzlyrose-tanner-usrey": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-herbs-mile-hi-groove": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-hidive-holy-wave": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-larimer-open-house-feat--babsy": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-littlebear-slay---stinson": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1081533493%252F2163506328413%252F1%252Foriginal.20250725-204551%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.486742424242%26fp-y%3D0.115264797508%26s%3D892eef68d18cac034b7c5027b358757d&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-20-lostlake-cherokee-social": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-marquis-billy-marchiafava": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-meowwolf-bag-raiders": {
-   "img": "https://meowwolf.ticketure.com/v1/assets/meowwolf/918bf3d0-e429-6d1b-d367-5157e9b6d014?sizex=1200",
-   "src": "venue"
-  },
-  "2026-11-20-mission-level-up": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-nocturne-jeremy-wendelin-quintet-plays-original-works": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-ogden-avello": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-oriental-book-of-love": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-otherside-lit-society-ft--members-of-lettuce--the-motet--the-jauntee---more": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-soileddove-the-long-run": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-stampede-maelo-ruiz": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-summit-saosin--20-years-of-self-titled": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-trident-jehovah-s-fitness-club": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-20-velvetelk-robert-ellis": {
-   "img": "https://www.jambase.com/wp-content/uploads/2017/04/robert-ellis-robert-ellis-a9493e57-bd25-414b-b9b7-3d8bba672ddb_172191_TABLET_LANDSCAPE_16_9-1200x675.jpg",
-   "src": "venue"
-  },
   "2026-11-21-ballarena-trans-siberian-orchestra": {
    "none": true,
    "checked": "2026-11-17"
