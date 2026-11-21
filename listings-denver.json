@@ -1,6 +1,7 @@
 {
- "updated": "2026-11-19T16:09:56Z",
+ "updated": "2026-11-21T11:23:46Z",
  "note": "Denver-area listings, refreshed every morning by a scheduled task.",
+ "lastDeep": "2026-11-21",
  "shows": [
   {
    "id": "2026-11-12-trident-bitterroot",
@@ -634,20 +635,6 @@
    "price": "Ticketed",
    "tickets": "",
    "source": "https://www.songkick.com/venues/2916273-ophelias-electric-soapbox/calendar",
-   "added": "2026-11-12"
-  },
-  {
-   "id": "2026-11-13-fillmore-los-gemelos-de-sinaloa",
-   "date": "2026-11-13",
-   "time": "",
-   "artist": "Los Gemelos de Sinaloa",
-   "support": "",
-   "venue": "fillmore",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://www.fillmoreauditorium.org/",
-   "source": "https://songkick.com/venues/1009-fillmore-auditorium/calendar",
-   "status": "postponed",
    "added": "2026-11-12"
   },
   {
@@ -4221,6 +4208,32 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-04-globehall-yung-bae",
+   "date": "2026-12-04",
+   "time": "20:00",
+   "artist": "Yung Bae",
+   "support": "Lando Burch, Henry Westy",
+   "venue": "globehall",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/yung-bae-w-lando-burch-henry-westy/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2026-12-04-cervantes-bertha--grateful-drag",
+   "date": "2026-12-04",
+   "time": "20:30",
+   "artist": "BERTHA: Grateful Drag",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/bertha-grateful-drag-the-worlds-first-all-drag-grateful-dead-tribute-band-friday-12-4/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-04-larimer-open-house--backroom-records-feat--garrett-dix",
    "date": "2026-12-04",
    "time": "21:00",
@@ -4538,6 +4551,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-05-globehall-thoughts-on-bowling",
+   "date": "2026-12-05",
+   "time": "20:00",
+   "artist": "Thoughts on Bowling",
+   "support": "Softly, HummusVacuum, MooseCreek Park",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/thoughts-on-bowling-w-softly-hummusvacuum-moosecreek-park/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-05-otherside-lil-fish",
    "date": "2026-12-05",
    "time": "20:30",
@@ -4550,6 +4576,19 @@
    "source": "https://cervantesmasterpiece.com/events/",
    "ages": "16+",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-05-cervantes-bertha--grateful-drag",
+   "date": "2026-12-05",
+   "time": "20:30",
+   "artist": "BERTHA: Grateful Drag",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/bertha-grateful-drag-the-worlds-first-all-drag-grateful-dead-tribute-band-saturday-12-5/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-05-larimer-open-house-feat--proppa",
@@ -4788,6 +4827,19 @@
    "source": "https://larimerlounge.com/events/",
    "ages": "16+",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-06-globehall-howland-vk",
+   "date": "2026-12-06",
+   "time": "17:00",
+   "artist": "Howland VK",
+   "support": "Gaelen Crowfoot, Chaos Contained, Bliss Wilder",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/howland-vk-w-gaelen-crowfoot-chaos-contained-bliss-wilder/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-06-otherside-the-annual-spun-out-scratch-showcase-ft--the-gaslamp-killer",
@@ -5053,6 +5105,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-09-globehall-josie-edwards",
+   "date": "2026-12-09",
+   "time": "20:00",
+   "artist": "Josie Edwards",
+   "support": "Hudson Ingram",
+   "venue": "globehall",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/josie-edwards-w-hudson-ingram/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-09-hidive-creekbed-carter-hogan",
    "date": "2026-12-09",
    "time": "",
@@ -5173,6 +5238,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-10-globehall-tiny-little-tourists",
+   "date": "2026-12-10",
+   "time": "20:00",
+   "artist": "Tiny Little Tourists",
+   "support": "Wrestling Moves, Flow Wolf",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/tiny-little-tourists-w-wrestling-moves-flow-wolf/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-10-otherside-shift-ft--blurrd-vzn",
    "date": "2026-12-10",
    "time": "20:30",
@@ -5184,7 +5262,8 @@
    "tickets": "https://www.etix.com/ticket/p/69193356",
    "source": "https://cervantesmasterpiece.com/events/",
    "ages": "16+",
-   "added": "2026-11-12"
+   "added": "2026-11-12",
+   "status": "cancelled"
   },
   {
    "id": "2026-12-10-blackbox-boredomfighters-benefit--underbelly",
@@ -5372,6 +5451,19 @@
    "source": "https://cervantesmasterpiece.com/events/",
    "ages": "16+",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-11-globehall-genevieve-artadi-ft--louis-cole---chiquita-magic",
+   "date": "2026-12-11",
+   "time": "20:00",
+   "artist": "Genevieve Artadi ft. Louis Cole & Chiquita Magic",
+   "support": "Dolphin Hyperspace",
+   "venue": "globehall",
+   "genre": "R&B/Soul",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/genevieve-artadi-ft-louis-cole-chiquita-magic-w-dolphin-hyperspace/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-11-blackbox-d-tre-ep-release-party",
@@ -5693,6 +5785,19 @@
    "source": "https://cervantesmasterpiece.com/events/",
    "ages": "16+",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-12-globehall-the-copper-children",
+   "date": "2026-12-12",
+   "time": "20:00",
+   "artist": "The Copper Children",
+   "support": "Andy Babb & the Big Beautiful Band, Lara Elle, Scott Nice",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/the-copper-children-w-andy-babb-the-big-beautiful-band-lara-elle-a-late-night-dance-party-w-scott-nice/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-12-otherside-chez",
@@ -6224,6 +6329,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-17-globehall-an-evening-with-patterson-hood--of-drive-by-truckers-",
+   "date": "2026-12-17",
+   "time": "20:00",
+   "artist": "An Evening with Patterson Hood (of Drive-By Truckers)",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/an-evening-with-patterson-hood-of-drive-by-truckers/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-17-otherside-shift-ft--lucid-vision---midicinal",
    "date": "2026-12-17",
    "time": "20:30",
@@ -6356,6 +6474,19 @@
    "tickets": "https://www.eventbrite.com/e/young-dead-tickets-2004155320514",
    "source": "https://www.eventbrite.ch/o/little-bear-live-85357407413",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-18-globehall-the-sonic-souls",
+   "date": "2026-12-18",
+   "time": "20:00",
+   "artist": "The Sonic Souls",
+   "support": "Fresh Fruit!, After Lilith",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/the-sonic-souls-w-fresh-fruit-after-lilith/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-18-blackbox-ferdadubz-collective--ferda---friends--lounge-",
@@ -6596,6 +6727,19 @@
    "tickets": "https://www.bouldertheater.com/calendar",
    "source": "https://concerts.consequence.net/venues/boulder-theater-tickets",
    "added": "2026-11-12"
+  },
+  {
+   "id": "2026-12-19-globehall-autumn-lies",
+   "date": "2026-12-19",
+   "time": "20:00",
+   "artist": "Autumn Lies",
+   "support": "Barre Chord Bangers, Last Nerve, Death Save",
+   "venue": "globehall",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/autumn-lies-w-barre-chord-bangers-last-nerve-death-save/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2026-12-19-blackbox-submorphics",
@@ -6860,6 +7004,19 @@
    "added": "2026-11-12"
   },
   {
+   "id": "2026-12-21-globehall-cracked-ribs",
+   "date": "2026-12-21",
+   "time": "19:00",
+   "artist": "Cracked Ribs",
+   "support": "Now If Ever, Disruptive Impulse, My Expired Affection",
+   "venue": "globehall",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/cracked-ribs-w-now-if-ever-disruptive-impulse-my-expired-affection/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-22-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-",
    "date": "2026-12-22",
    "time": "13:00",
@@ -7069,6 +7226,19 @@
    "priceRange": "$0–$40"
   },
   {
+   "id": "2026-12-30-otherside-deadphish-orchestra",
+   "date": "2026-12-30",
+   "time": "20:00",
+   "artist": "DeadPhish Orchestra",
+   "support": "RADO",
+   "venue": "otherside",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/deadphish-orchestra-w-rado-wednesday-12-30/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2026-12-30-bouldertheater-the-infamous-stringdusters",
    "date": "2026-12-30",
    "time": "",
@@ -7091,6 +7261,72 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2026-12-31-boettcher-a-night-in-vienna---colorado-symphony",
+   "date": "2026-12-31",
+   "time": "18:30",
+   "artist": "A Night in Vienna – Colorado Symphony",
+   "support": "",
+   "venue": "boettcher",
+   "genre": "Classical/Orchestra",
+   "price": "Ticketed",
+   "tickets": "https://tickets.coloradosymphony.org/7931/7943",
+   "source": "https://www.coloradosymphony.org/events",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2026-12-31-cervantes-neal-francis",
+   "date": "2026-12-31",
+   "time": "20:00",
+   "artist": "Neal Francis",
+   "support": "Gold Leader, San Leandro",
+   "venue": "cervantes",
+   "genre": "R&B/Soul",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/neal-francis-w-gold-leader-san-leandro/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2026-12-31-globehall-silas-herman---the-tone-unit",
+   "date": "2026-12-31",
+   "time": "20:00",
+   "artist": "Silas Herman & the Tone Unit",
+   "support": "High Country Hustle",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/silas-herman-the-tone-unit-w-high-country-hustle/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2026-12-31-otherside-deadphish-orchestra",
+   "date": "2026-12-31",
+   "time": "21:00",
+   "artist": "DeadPhish Orchestra",
+   "support": "RADO",
+   "venue": "otherside",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/deadphish-orchestra-w-rado-thursday-12-31/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2026-12-31-larimer-ceej-nye",
+   "date": "2026-12-31",
+   "time": "21:00",
+   "artist": "CEEJ NYE",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/ceej-nye/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "21+"
   },
   {
    "id": "2026-12-31-mission-pretty-lights",
@@ -7165,6 +7401,32 @@
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
   },
   {
+   "id": "2027-01-02-globehall-waiting-for-dani",
+   "date": "2027-01-02",
+   "time": "20:00",
+   "artist": "Waiting For Dani",
+   "support": "Jake Black Band, Spit Shine, Soundsystem",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/waiting-for-dani-w-jake-black-band-spit-shine-soundsystem/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-02-cervantes-itchy-o",
+   "date": "2027-01-02",
+   "time": "21:00",
+   "artist": "itchy-O",
+   "support": "LEGS. The Band",
+   "venue": "cervantes",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/itchy-o-w-legs-the-band/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-02-mission-pretty-lights",
    "date": "2027-01-02",
    "time": "",
@@ -7189,6 +7451,33 @@
    "source": "https://www.artsandvenuesdenver.com/events/detail/an-evening-of-mozart-7901"
   },
   {
+   "id": "2027-01-07-larimer-westwood",
+   "date": "2027-01-07",
+   "time": "20:00",
+   "artist": "WESTWOOD",
+   "support": "LUGH!, britehop b2b GOODTR!P, KILLOWATT",
+   "venue": "larimer",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/westwood-w-lugh-britehop-b2b-goodtrp-killowatt/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
+   "id": "2027-01-07-otherside-shift-ft--barnacle-boi",
+   "date": "2027-01-07",
+   "time": "20:30",
+   "artist": "SHIFT ft. barnacle boi",
+   "support": "Von Storm, Kalibvr b2b Lil Rocketman, Enokalypse b2b Imperivm, WRCKTNGL, Hoodiemane",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-barnacle-boi-w-von-storm-kalibvr-b2b-lil-rocketman-enokalypse-b2b-imperivm-wrcktngl-hoodiemane/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-07-ogden-the-disco-biscuits",
    "date": "2027-01-07",
    "time": "",
@@ -7199,6 +7488,33 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2027-01-08-cervantes-denver-comes-alive--late-set--ft--eric-krasno--george-porter-jr--ivan-neville---more",
+   "date": "2027-01-08",
+   "time": "20:00",
+   "artist": "Denver Comes Alive (Late Set) ft. Eric Krasno, George Porter Jr, Ivan Neville & More",
+   "support": "MTN Lion, DJ Logic",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/denver-comes-alive-ft-eric-krasno-george-porter-jr-ivan-neville-more-w-mtn-lion-dj-logic-late-set-friday-1-8/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-08-otherside-2000-s-rave",
+   "date": "2027-01-08",
+   "time": "21:00",
+   "artist": "2000's Rave",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/2000s-rave-2/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
   },
   {
    "id": "2027-01-08-bluebird-patema",
@@ -7225,6 +7541,32 @@
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
   },
   {
+   "id": "2027-01-09-cervantes-denver-comes-alive--late-set--ft--eric-krasno--george-porter-jr--ivan-neville---more",
+   "date": "2027-01-09",
+   "time": "20:00",
+   "artist": "Denver Comes Alive (Late Set) ft. Eric Krasno, George Porter Jr, Ivan Neville & More",
+   "support": "MTN Lion, Deadtronica",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/denver-comes-alive-ft-eric-krasno-george-porter-jr-ivan-neville-more-w-mtn-lion-deadtronica-late-set-saturday-1-9/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-09-otherside-easy-jim--grateful-dead-tribute-",
+   "date": "2027-01-09",
+   "time": "20:00",
+   "artist": "Easy Jim (Grateful Dead Tribute)",
+   "support": "Breadbox (Jerry Garcia Band Tribute)",
+   "venue": "otherside",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/easy-jim-grateful-dead-tribute-w-breadbox-jerry-garcia-band-tribute/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-09-ogden-the-disco-biscuits",
    "date": "2027-01-09",
    "time": "",
@@ -7237,6 +7579,20 @@
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
   },
   {
+   "id": "2027-01-10-larimer-bj-barham--of-american-aquarium-",
+   "date": "2027-01-10",
+   "time": "20:00",
+   "artist": "BJ Barham (of American Aquarium)",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/bj-barham-of-american-aquarium-2/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
    "id": "2027-01-13-paramount-the-temptations",
    "date": "2027-01-13",
    "time": "",
@@ -7247,6 +7603,46 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101148",
    "source": "https://songkick.com/venues/1171-paramount-theatre/calendar"
+  },
+  {
+   "id": "2027-01-14-larimer-ian-snow-x-emurse",
+   "date": "2027-01-14",
+   "time": "20:00",
+   "artist": "Ian Snow x Emurse",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/ian-snow-x-emurse/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "21+"
+  },
+  {
+   "id": "2027-01-14-otherside-shift-ft--bass--bars----beatbox",
+   "date": "2027-01-14",
+   "time": "20:30",
+   "artist": "SHIFT ft. Bass, Bars, & Beatbox",
+   "support": "Cofresi, Fungi Flows, J-Rose Loops",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-bass-bars-beatbox-ft-cofresi-fungi-flows-j-rose-loops/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-14-cervantes-shift-ft--savej",
+   "date": "2027-01-14",
+   "time": "20:30",
+   "artist": "SHIFT ft. Savej",
+   "support": "Lily Fangz, Morillo, Saucy Feather",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-savej-w-lily-fangz-morillo-saucy-feather/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-01-14-paramount-hairball",
@@ -7271,6 +7667,32 @@
    "price": "Ticketed",
    "tickets": "https://coloradosymphony.org/",
    "source": "https://www.jambase.com/show/colorado-symphony-boettcher-concert-hall-20270115"
+  },
+  {
+   "id": "2027-01-15-otherside-other-brothers--allman-brothers-band-tribute-",
+   "date": "2027-01-15",
+   "time": "20:00",
+   "artist": "Other Brothers (Allman Brothers Band Tribute)",
+   "support": "Taylor Scott Band",
+   "venue": "otherside",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/other-brothers-allman-brothers-band-tribute-w-taylor-scott-band-vinyl-release-show/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-15-cervantes-yonder-mountain-string-band",
+   "date": "2027-01-15",
+   "time": "20:00",
+   "artist": "Yonder Mountain String Band",
+   "support": "Remedy Tree",
+   "venue": "cervantes",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/yonder-mountain-string-band-w-remedy-tree-friday-1-15/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-01-15-ogden-motifv",
@@ -7307,6 +7729,45 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/127278",
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
+  },
+  {
+   "id": "2027-01-16-otherside-squash",
+   "date": "2027-01-16",
+   "time": "20:00",
+   "artist": "Squash",
+   "support": "Huck N' Pray, Bluehouse",
+   "venue": "otherside",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/squash-w-huck-n-pray-bluehouse/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-16-cervantes-yonder-mountain-string-band",
+   "date": "2027-01-16",
+   "time": "20:00",
+   "artist": "Yonder Mountain String Band",
+   "support": "Pixie & The Partygrass Boys",
+   "venue": "cervantes",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/yonder-mountain-string-band-w-pixie-the-partygrass-boys-saturday-1-16/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-16-globehall-the-jauntee",
+   "date": "2027-01-16",
+   "time": "20:00",
+   "artist": "The Jauntee",
+   "support": "Atlas Radio",
+   "venue": "globehall",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/the-jauntee-w-atlas-radio/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-01-16-mission-effin",
@@ -7369,6 +7830,33 @@
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
   },
   {
+   "id": "2027-01-21-larimer-dev",
+   "date": "2027-01-21",
+   "time": "20:00",
+   "artist": "DEV",
+   "support": "Underground Selekta, Rissross, Ciénago",
+   "venue": "larimer",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/dev-w-underground-selekta-rissross-ci%c3%a9nago/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
+   "id": "2027-01-22-cervantes-lotus",
+   "date": "2027-01-22",
+   "time": "20:00",
+   "artist": "Lotus",
+   "support": "Michael Wilbur (of Moon Hooch), Mike Greenfield",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/lotus-w-michael-wilbur-of-moon-hooch-mike-greenfield-late-set-friday-1-22/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-22-paramount-patty-griffin-and-rickie-lee-jones",
    "date": "2027-01-22",
    "time": "",
@@ -7403,6 +7891,45 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/127278",
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
+  },
+  {
+   "id": "2027-01-23-cervantes-lotus",
+   "date": "2027-01-23",
+   "time": "20:00",
+   "artist": "Lotus",
+   "support": "Michael Wilbur (of Moon Hooch)",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/lotus-w-michael-wilbur-of-moon-hooch-saturday-1-23/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-23-otherside-rally--round-the-family--ratm-tribute----amnesiacs--radiohead-tribute-",
+   "date": "2027-01-23",
+   "time": "20:00",
+   "artist": "Rally 'Round The Family (RATM Tribute) & Amnesiacs (Radiohead Tribute)",
+   "support": "Apostles of Fire (Black Sabbath)",
+   "venue": "otherside",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/rally-round-the-family-rage-against-the-machine-tribute-amnesiacs-radiohead-tribute-w-apostles-of-fire-black-sabbath/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-23-globehall-zach-seabaugh",
+   "date": "2027-01-23",
+   "time": "20:00",
+   "artist": "Zach Seabaugh",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/zach-seabaugh/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-01-23-bluebird-a-brother-s-fountain",
@@ -7441,6 +7968,19 @@
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
   },
   {
+   "id": "2027-01-24-globehall-crystal-ball-express",
+   "date": "2027-01-24",
+   "time": "17:00",
+   "artist": "Crystal Ball Express",
+   "support": "Sol Source, Wootzability, Sevnfifteen",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/crystal-ball-express-w-sol-source-wootzability-sevnfifteen/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-24-ogden-smith---myers",
    "date": "2027-01-24",
    "time": "",
@@ -7451,6 +7991,59 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2027-01-28-otherside-shift-ft--black-wolf---oomah",
+   "date": "2027-01-28",
+   "time": "20:30",
+   "artist": "SHIFT ft. Black Wolf & Oomah",
+   "support": "wes, EMPRESS",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-black-wolf-oomah-w-wes-empress/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-29-otherside-dave-watts--annual-birthday-jam",
+   "date": "2027-01-29",
+   "time": "19:30",
+   "artist": "Dave Watts' Annual Birthday Jam",
+   "support": "WattsAnandA & League of Sound Disciples, ETHNO, DJ Sleepy",
+   "venue": "otherside",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/dave-watts-annual-birthday-jam-ft-wattsananda-league-of-sound-disciples-w-ethno-dj-sleepy/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-29-cervantes-paul-wall",
+   "date": "2027-01-29",
+   "time": "20:00",
+   "artist": "Paul Wall",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/paul-wall/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-01-29-larimer-robby-east",
+   "date": "2027-01-29",
+   "time": "20:00",
+   "artist": "Robby East",
+   "support": "Hayyoo, Elysium",
+   "venue": "larimer",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/robby-east-w-hayyoo-elysium/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "21+"
   },
   {
    "id": "2027-01-29-bellco-cristian-castro",
@@ -7501,6 +8094,19 @@
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
   },
   {
+   "id": "2027-01-30-otherside-papajay",
+   "date": "2027-01-30",
+   "time": "20:30",
+   "artist": "PapaJay",
+   "support": "Spoone, Orbiix b2b MIND G4ME, NJOY, PLSMA, Cubix Rube, OK ROWAN",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/papajay-w-spoone-orbiix-b2b-mind-g4me-njoy-plsma-cubix-rube-ok-rowan/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-01-30-fillmore-dark-star-orchestra",
    "date": "2027-01-30",
    "time": "",
@@ -7523,6 +8129,33 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/127278",
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
+  },
+  {
+   "id": "2027-01-31-globehall-jon-bryant--the-harbour-tour-",
+   "date": "2027-01-31",
+   "time": "20:00",
+   "artist": "Jon Bryant (The Harbour Tour)",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/jon-bryant-the-harbour-tour/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-02-otherside-babytron",
+   "date": "2027-02-02",
+   "time": "20:00",
+   "artist": "BabyTron",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/babytron/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21",
+   "ages": "All ages"
   },
   {
    "id": "2027-02-03-ballarena-don-omar",
@@ -7549,6 +8182,19 @@
    "source": "https://songkick.com/venues/1171-paramount-theatre/calendar"
   },
   {
+   "id": "2027-02-04-otherside-shift-ft--gunpoint",
+   "date": "2027-02-04",
+   "time": "20:30",
+   "artist": "SHIFT ft. Gunpoint",
+   "support": "ZONDO",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-gunpoint-w-zondo/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-02-04-bluebird-jess-williamson",
    "date": "2027-02-04",
    "time": "",
@@ -7561,6 +8207,33 @@
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
   },
   {
+   "id": "2027-02-05-otherside-satsang",
+   "date": "2027-02-05",
+   "time": "20:00",
+   "artist": "Satsang",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/satsang/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-05-cervantes-conrad-taylor---360-in-the-round",
+   "date": "2027-02-05",
+   "time": "20:30",
+   "artist": "Conrad Taylor – 360 In The Round",
+   "support": "EHGO, Gabeskii",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/conrad-taylor-360-in-the-round-w-ehgo-gabeskii/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21",
+   "ages": "18+"
+  },
+  {
    "id": "2027-02-05-mission-lumasi-and-chmura",
    "date": "2027-02-05",
    "time": "",
@@ -7571,6 +8244,32 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/127278",
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
+  },
+  {
+   "id": "2027-02-06-otherside-untz-is-dead--15th-annual-bob-marley-birthday-celebration-",
+   "date": "2027-02-06",
+   "time": "20:00",
+   "artist": "Untz is Dead (15th Annual Bob Marley Birthday Celebration)",
+   "support": "Allen Aucoin, Dylan Teifer, Elie Herzog, Fleeb Thomas, Wake Up & Live",
+   "venue": "otherside",
+   "genre": "Reggae/Ska",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/untz-is-dead-ft-allen-aucoin-dylan-teifer-elie-herzog-fleeb-thomas-and-wake-up-live-a-bob-marley-tribute/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-06-cervantes-crawdad-sniper",
+   "date": "2027-02-06",
+   "time": "20:30",
+   "artist": "Crawdad Sniper",
+   "support": "Flintwick, Fika, Manfish, Crawdad Trip hop",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/crawdad-sniper-w-flintwick-fika-manfish-crawdad-trip-hop/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-02-06-bluebird-aj-lee-and-blue-summit",
@@ -7633,6 +8332,45 @@
    "source": "https://songkick.com/venues/1171-paramount-theatre/calendar"
   },
   {
+   "id": "2027-02-11-globehall-the-sways",
+   "date": "2027-02-11",
+   "time": "20:00",
+   "artist": "The Sways",
+   "support": "Brenna Bruce",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/the-sways-w-brenna-bruce/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-11-cervantes-shift-ft--atyya",
+   "date": "2027-02-11",
+   "time": "20:30",
+   "artist": "SHIFT ft. ATYYA",
+   "support": "FURTHA, Radiate Love",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-atyya-w-furtha-radiate-love-surprise-special-guest/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-12-cervantes-duffrey",
+   "date": "2027-02-12",
+   "time": "20:30",
+   "artist": "Duffrey",
+   "support": "Russ Liquid, Kuhlin, DJ Rewild",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/duffrey-w-russ-liquid-kuhlin-dj-rewild-duffrey-opening-beats-set-friday-2-12/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-02-12-otherside-ballyhoo-",
    "price": "Ticketed",
    "date": "2027-02-12",
@@ -7691,6 +8429,32 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2027-02-13-globehall-not-a-toy",
+   "date": "2027-02-13",
+   "time": "20:00",
+   "artist": "NOT A TOY",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/not-a-toy/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-13-cervantes-duffrey",
+   "date": "2027-02-13",
+   "time": "20:30",
+   "artist": "Duffrey",
+   "support": "Keota, Restraint, FREQ",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/duffrey-w-keota-restraint-freq-duffrey-opening-beats-set-saturday-2-13/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-02-13-ogden-cid",
@@ -7765,6 +8529,46 @@
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
   },
   {
+   "id": "2027-02-15-larimer-paris-jackson",
+   "date": "2027-02-15",
+   "time": "20:00",
+   "artist": "paris jackson",
+   "support": "Identity Crisis",
+   "venue": "larimer",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/paris-jackson-w-identity-crisis/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
+   "id": "2027-02-17-globehall-good-boy-daisy",
+   "date": "2027-02-17",
+   "time": "20:00",
+   "artist": "Good Boy Daisy",
+   "support": "Lake Drive",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/good-boy-daisy-w-lake-drive/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-18-cervantes-shift-ft--black-carl-",
+   "date": "2027-02-18",
+   "time": "20:30",
+   "artist": "SHIFT ft. Black Carl!",
+   "support": "Moore Kismet, Dizzy! b2b Milla, Ariza",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/shift-ft-black-carl-w-moore-kismet-dizzy-b2b-milla-ariza/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-02-18-mission-dylan-scott",
    "date": "2027-02-18",
    "time": "",
@@ -7801,6 +8605,19 @@
    "source": "https://songkick.com/venues/5229-gothic-theatre/calendar"
   },
   {
+   "id": "2027-02-19-cervantes-squeaky-feet---dizgo",
+   "date": "2027-02-19",
+   "time": "20:00",
+   "artist": "Squeaky Feet & Dizgo",
+   "support": "Big Shrimp",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/squeaky-feet-dizgo-w-big-shrimp/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-02-19-mission-interplanetary-criminal",
    "date": "2027-02-19",
    "time": "",
@@ -7823,6 +8640,32 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/100811",
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
+  },
+  {
+   "id": "2027-02-20-globehall-baileyrp",
+   "date": "2027-02-20",
+   "time": "20:00",
+   "artist": "Baileyrp",
+   "support": "ASHMOOR",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/baileyrp-w-ashmoor/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-02-20-cervantes-high-step-society",
+   "date": "2027-02-20",
+   "time": "20:30",
+   "artist": "High Step Society",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/high-step-society/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-02-20-mission-caspa",
@@ -7969,6 +8812,19 @@
    "source": "https://songkick.com/es/metro-areas/6404-us-denver/genre/reggae"
   },
   {
+   "id": "2027-02-25-cervantes-sam-burchfield",
+   "date": "2027-02-25",
+   "time": "20:00",
+   "artist": "Sam Burchfield",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/sam-burchfield/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-02-25-bluebird-1tbsp",
    "date": "2027-02-25",
    "time": "",
@@ -7979,6 +8835,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/100811",
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
+  },
+  {
+   "id": "2027-02-26-cervantes-angrybaby",
+   "date": "2027-02-26",
+   "time": "20:30",
+   "artist": "Angrybaby",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/angrybaby/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-02-26-ogden-sippy",
@@ -8003,6 +8872,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/127278",
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
+  },
+  {
+   "id": "2027-02-27-otherside-casey-club",
+   "date": "2027-02-27",
+   "time": "20:30",
+   "artist": "Casey Club",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/casey-club/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-02-27-mission-clay-street-unit---49-winchester",
@@ -8053,6 +8935,20 @@
    "source": "https://songkick.com/venues/2106439-bellco-theatre/calendar"
   },
   {
+   "id": "2027-02-28-otherside-comehelpglo",
+   "date": "2027-02-28",
+   "time": "20:00",
+   "artist": "comehelpglo",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/sold-out-comehelpglo/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21",
+   "status": "soldout"
+  },
+  {
    "id": "2027-02-28-mission-chelsea-cutler",
    "date": "2027-02-28",
    "time": "",
@@ -8101,6 +8997,19 @@
    "source": "https://songkick.com/venues/1171-paramount-theatre/calendar"
   },
   {
+   "id": "2027-03-03-globehall-hot-freaks",
+   "date": "2027-03-03",
+   "time": "20:00",
+   "artist": "Hot Freaks",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/hot-freaks/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-03-fillmore-ashe",
    "date": "2027-03-03",
    "time": "",
@@ -8111,6 +9020,19 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/fillmore-auditorium-denver-boletos-denver/venue/246097",
    "source": "https://songkick.com/venues/1009-fillmore-auditorium/calendar"
+  },
+  {
+   "id": "2027-03-04-cervantes-penelope-road",
+   "date": "2027-03-04",
+   "time": "20:00",
+   "artist": "Penelope Road",
+   "support": "Arts Fishing Club",
+   "venue": "cervantes",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/penelope-road-w-arts-fishing-club/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-03-04-paramount-flans",
@@ -8125,6 +9047,32 @@
    "source": "https://songkick.com/venues/1171-paramount-theatre/calendar"
   },
   {
+   "id": "2027-03-05-cervantes-oteil---friends-ft--steve-kimock--jason-crosby--lamar-williams-jr---johnny-kimock---tom-guarna",
+   "date": "2027-03-05",
+   "time": "20:00",
+   "artist": "Oteil & Friends ft. Steve Kimock, Jason Crosby, Lamar Williams Jr., Johnny Kimock & Tom Guarna",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/oteil-friends-ft-steve-kimock-jason-crosby-lamar-williams-jr-johnny-kimock-tom-guarna-friday-3-5/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-03-05-otherside-damn-right----ben-silver",
+   "date": "2027-03-05",
+   "time": "20:30",
+   "artist": "Damn Right! & Ben Silver",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/damn-right-ben-silver/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-05-ogden-sylvan-esso",
    "date": "2027-03-05",
    "time": "",
@@ -8135,6 +9083,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2027-03-06-cervantes-oteil---friends-ft--steve-kimock--jason-crosby--lamar-williams-jr---johnny-kimock---tom-guarna",
+   "date": "2027-03-06",
+   "time": "20:00",
+   "artist": "Oteil & Friends ft. Steve Kimock, Jason Crosby, Lamar Williams Jr., Johnny Kimock & Tom Guarna",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/oteil-friends-ft-steve-kimock-jason-crosby-lamar-williams-jr-johnny-kimock-tom-guarna-saturday-3-6/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-03-06-mission-blue-october",
@@ -8183,6 +9144,33 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/100811",
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
+  },
+  {
+   "id": "2027-03-09-larimer-trever-m--keith---lilly-hiatt",
+   "date": "2027-03-09",
+   "time": "20:00",
+   "artist": "Trever M. Keith & Lilly Hiatt",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/trever-m-keith-lilly-hiatt/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
+   "id": "2027-03-09-globehall-tommy-lefroy",
+   "date": "2027-03-09",
+   "time": "20:00",
+   "artist": "Tommy Lefroy",
+   "support": "Horsepower",
+   "venue": "globehall",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/tommy-lefroy-w-horsepower/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-03-09-fillmore-clutch",
@@ -8255,6 +9243,19 @@
    "price": "Ticketed",
    "tickets": "https://tickets.coloradosymphony.org/overview/7784/",
    "source": "https://www.artsandvenuesdenver.com/events/detail/beethoven-5-emperor-concerto-7784"
+  },
+  {
+   "id": "2027-03-12-otherside-habitaat",
+   "date": "2027-03-12",
+   "time": "21:00",
+   "artist": "HABITAAT",
+   "support": "Nyrus, Shanila (Breathwork + DJ Set)",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/habitaat-w-nyrus-shanila-breathwork-dj-set/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-03-12-mission-hamdi",
@@ -8389,6 +9390,19 @@
    "source": "https://www.songkick.com/venues/4184264-mission-ballroom/calendar"
   },
   {
+   "id": "2027-03-17-cervantes-m-a",
+   "date": "2027-03-17",
+   "time": "20:00",
+   "artist": "Mýa",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "R&B/Soul",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/m%c3%bda/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-17-gothic-haken",
    "date": "2027-03-17",
    "time": "",
@@ -8411,6 +9425,32 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/100811",
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
+  },
+  {
+   "id": "2027-03-19-otherside-grieves",
+   "date": "2027-03-19",
+   "time": "20:00",
+   "artist": "Grieves",
+   "support": "Horrorshow, The Street Sweepers",
+   "venue": "otherside",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/grieves-w-horrorshow-the-street-sweepers-2/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-03-20-globehall-joe-pug",
+   "date": "2027-03-20",
+   "time": "20:00",
+   "artist": "Joe Pug",
+   "support": "Noah C. Lekas",
+   "venue": "globehall",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/joe-pug-w-noah-c-lekas/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-03-20-ogden-grateful-shred",
@@ -8497,6 +9537,19 @@
    "source": "https://www.redrocksonline.com/events/porter-robinson-b2b-ninajirachi-1644262/"
   },
   {
+   "id": "2027-03-25-cervantes-keenan-trevon",
+   "date": "2027-03-25",
+   "time": "20:00",
+   "artist": "Keenan TreVon",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "R&B/Soul",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/keenan-trevon/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-25-ballarena-hans-zimmer",
    "date": "2027-03-25",
    "time": "",
@@ -8545,6 +9598,19 @@
    "source": "https://www.redrocksonline.com/events/sidepiece-x-ship-wrek-1593462/"
   },
   {
+   "id": "2027-03-27-cervantes-yheti-b2b-toadface",
+   "date": "2027-03-27",
+   "time": "20:30",
+   "artist": "Yheti b2b Toadface",
+   "support": "Ooga, Dank Frank, Quartzzion",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/yheti-b2b-toadface-w-ooga-dank-frank-quartzzion/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-27-bluebird-the-last-revel",
    "date": "2027-03-27",
    "time": "",
@@ -8581,6 +9647,19 @@
    "source": "https://songkick.com/venues/30382-boulder-theater/calendar"
   },
   {
+   "id": "2027-03-30-globehall-radio-free-alice",
+   "date": "2027-03-30",
+   "time": "20:00",
+   "artist": "Radio Free Alice",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/radio-free-alice/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-30-ballarena-greta-van-fleet",
    "date": "2027-03-30",
    "time": "",
@@ -8593,6 +9672,19 @@
    "source": "https://songkick.com/venues/497-ball-arena/calendar"
   },
   {
+   "id": "2027-03-31-globehall-sadurn",
+   "date": "2027-03-31",
+   "time": "20:00",
+   "artist": "Sadurn",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/sadurn/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-03-31-ballarena-feid",
    "date": "2027-03-31",
    "time": "",
@@ -8603,6 +9695,19 @@
    "price": "Ticketed",
    "tickets": "https://www.ballarena.com/",
    "source": "https://songkick.com/venues/497-ball-arena/calendar"
+  },
+  {
+   "id": "2027-04-01-otherside-almost-a-m-",
+   "date": "2027-04-01",
+   "time": "20:00",
+   "artist": "almost a.m.",
+   "support": "moony",
+   "venue": "otherside",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/almost-a-m-w-moony/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-04-01-bluebird-dan-reeder",
@@ -8665,6 +9770,19 @@
    "source": "https://www.redrocksonline.com/events/elderbrook-1644724/"
   },
   {
+   "id": "2027-04-03-otherside-islandman",
+   "date": "2027-04-03",
+   "time": "20:00",
+   "artist": "Islandman",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Reggae/Ska",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/islandman/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-03-gothic-jersey",
    "date": "2027-04-03",
    "time": "",
@@ -8689,6 +9807,19 @@
    "source": "https://songkick.com/venues/10459-bluebird-theater/calendar"
   },
   {
+   "id": "2027-04-03-fillmore-crystal-methyd-and-the-enchanted-forest",
+   "date": "2027-04-03",
+   "time": "",
+   "artist": "Crystal Methyd and The Enchanted Forest",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.fillmoreauditorium.org/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-04-redrocks-hol-",
    "date": "2027-04-04",
    "time": "18:00",
@@ -8711,6 +9842,20 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketmaster.com/fillmore-auditorium-denver-boletos-denver/venue/246097",
    "source": "https://songkick.com/venues/1009-fillmore-auditorium/calendar"
+  },
+  {
+   "id": "2027-04-05-larimer-hotel-fiction",
+   "date": "2027-04-05",
+   "time": "20:00",
+   "artist": "Hotel Fiction",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/hotel-fiction/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
   },
   {
    "id": "2027-04-06-ogden-lambrini-girls",
@@ -8773,6 +9918,32 @@
    "source": "https://www.redrocksonline.com/events/svdden-death-1633743/"
   },
   {
+   "id": "2027-04-09-otherside-butcher-brown--denver-jazz-fest-presents-",
+   "date": "2027-04-09",
+   "time": "20:00",
+   "artist": "Butcher Brown (Denver Jazz Fest Presents)",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/butcher-brown/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-04-09-globehall-earth-to-eve",
+   "date": "2027-04-09",
+   "time": "20:00",
+   "artist": "Earth to Eve",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/earth-to-eve/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-09-bellco-jesse---joy",
    "date": "2027-04-09",
    "time": "",
@@ -8819,6 +9990,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1692327/prof-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/prof-1692327/"
+  },
+  {
+   "id": "2027-04-10-cervantes-tauk",
+   "date": "2027-04-10",
+   "time": "20:00",
+   "artist": "TAUK",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/tauk/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-04-10-ogden-boy-throb",
@@ -8869,6 +10053,19 @@
    "source": "https://songkick.com/es/metro-areas/6404-us-denver/genre/reggae"
   },
   {
+   "id": "2027-04-11-cervantes-isaiah-collier--joy----brandee-younger--denver-jazz-fest-presents-",
+   "date": "2027-04-11",
+   "time": "20:00",
+   "artist": "Isaiah Collier 'Joy' & Brandee Younger (Denver Jazz Fest Presents)",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/isaiah-collier-joy-brandee-younger/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-11-bluebird-alex-sampson",
    "date": "2027-04-11",
    "time": "",
@@ -8891,6 +10088,20 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/venues/101141",
    "source": "https://songkick.com/venues/537-ogden-theatre/calendar"
+  },
+  {
+   "id": "2027-04-14-globehall-charley-crockett",
+   "date": "2027-04-14",
+   "time": "20:00",
+   "artist": "Charley Crockett",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Country",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/charley-crockett-2/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21",
+   "status": "soldout"
   },
   {
    "id": "2027-04-16-redrocks-bilmuri",
@@ -8917,6 +10128,19 @@
    "source": "https://www.artsandvenuesdenver.com/events/detail/berlioz-sf-poulenc-gloria-7786"
   },
   {
+   "id": "2027-04-16-otherside-john-hollier---the-r-verie",
+   "date": "2027-04-16",
+   "time": "20:00",
+   "artist": "John Hollier & the Rêverie",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/john-hollier-the-r%c3%aaverie/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-17-redrocks-sublime",
    "date": "2027-04-17",
    "time": "18:00",
@@ -8939,6 +10163,19 @@
    "price": "Ticketed",
    "tickets": "https://tickets.coloradosymphony.org/overview/7786/",
    "source": "https://www.artsandvenuesdenver.com/events/detail/berlioz-sf-poulenc-gloria-7786"
+  },
+  {
+   "id": "2027-04-17-globehall-rec-hall",
+   "date": "2027-04-17",
+   "time": "20:00",
+   "artist": "Rec Hall",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/rec-hall/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-04-18-boettcher-colorado-symphony--berlioz-symphonie-fantastique---poulenc-gloria-with-eun-sun-kim",
@@ -8977,6 +10214,19 @@
    "source": "https://www.redrocksonline.com/events/sublime-1695286/"
   },
   {
+   "id": "2027-04-20-globehall-veaux",
+   "date": "2027-04-20",
+   "time": "20:00",
+   "artist": "VEAUX",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/veaux/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-04-21-redrocks-meshuggah--the-forty-year-anomaly",
    "date": "2027-04-21",
    "time": "19:00",
@@ -8989,6 +10239,20 @@
    "source": "https://www.redrocksonline.com/events/meshuggah-the-forty-year-anomaly-w-testament-blood-incantation-1670899/"
   },
   {
+   "id": "2027-04-21-larimer-peel-dream-magazine",
+   "date": "2027-04-21",
+   "time": "20:00",
+   "artist": "Peel Dream Magazine",
+   "support": "Dari Bay",
+   "venue": "larimer",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/peel-dream-magazine-w-dari-bay/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
    "id": "2027-04-23-redrocks-bunt-",
    "date": "2027-04-23",
    "time": "18:00",
@@ -8999,6 +10263,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1644160/bunt-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/bunt-1644160/"
+  },
+  {
+   "id": "2027-04-23-cervantes-henge",
+   "date": "2027-04-23",
+   "time": "20:30",
+   "artist": "HENGE",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/henge/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-04-23-mission-the-interrupters",
@@ -9035,6 +10312,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1636194/carly-rae-jepsen-day-and-night-tour-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/carly-rae-jepsen-day-and-night-tour-1636194/"
+  },
+  {
+   "id": "2027-04-25-otherside-magenta-wave",
+   "date": "2027-04-25",
+   "time": "20:00",
+   "artist": "Magenta Wave",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/magenta-wave/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-04-25-paramount-ha-ash",
@@ -9158,6 +10448,46 @@
    "source": "https://www.redrocksonline.com/events/cloonee-1640232/"
   },
   {
+   "id": "2027-05-01-otherside-maaps",
+   "date": "2027-05-01",
+   "time": "20:30",
+   "artist": "MAAPS",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/maaps/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-01-fillmore-bigxthaplug",
+   "date": "2027-05-01",
+   "time": "",
+   "artist": "BigXThaPlug",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.fillmoreauditorium.org/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-02-larimer-yellow-house",
+   "date": "2027-05-02",
+   "time": "20:00",
+   "artist": "Yellow House",
+   "support": "",
+   "venue": "larimer",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://larimerlounge.com/event/yellow-house/larimer-lounge/denver-colorado/",
+   "source": "https://larimerlounge.com/events/",
+   "added": "2026-11-21",
+   "ages": "16+"
+  },
+  {
    "id": "2027-05-02-fillmore-slash-featuring-myles-kennedy-and-the-conspirators",
    "date": "2027-05-02",
    "time": "",
@@ -9182,6 +10512,19 @@
    "source": "https://songkick.com/venues/1009-fillmore-auditorium/calendar"
   },
   {
+   "id": "2027-05-05-fillmore-angus---julia-stone",
+   "date": "2027-05-05",
+   "time": "",
+   "artist": "Angus & Julia Stone",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.songkick.com/venues/1009-fillmore-auditorium/calendar",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-05-07-redrocks-tove-lo",
    "date": "2027-05-07",
    "time": "19:30",
@@ -9192,6 +10535,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1680093/tove-lo-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/tove-lo-1680093/"
+  },
+  {
+   "id": "2027-05-07-cervantes-twiddle",
+   "date": "2027-05-07",
+   "time": "20:00",
+   "artist": "Twiddle",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Funk/Jam",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/twiddle/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-05-08-gothic-haiden-henderson",
@@ -9218,6 +10574,19 @@
    "source": "https://www.redrocksonline.com/events/josiah-queen-1631705/"
   },
   {
+   "id": "2027-05-10-globehall-keo",
+   "date": "2027-05-10",
+   "time": "20:00",
+   "artist": "Keo",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/keo/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-05-11-redrocks-two-door-cinema-club",
    "date": "2027-05-11",
    "time": "19:30",
@@ -9240,6 +10609,19 @@
    "price": "Ticketed",
    "tickets": "https://www.axs.com/events/1670037/queens-of-the-stone-age-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/queens-of-the-stone-age-1670037/"
+  },
+  {
+   "id": "2027-05-12-globehall-madra-salach",
+   "date": "2027-05-12",
+   "time": "20:00",
+   "artist": "Madra Salach",
+   "support": "",
+   "venue": "globehall",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://globehall.com/event/madra-salach/globe-hall/denver-colorado/",
+   "source": "https://globehall.com/events/",
+   "added": "2026-11-21"
   },
   {
    "id": "2027-05-13-redrocks-turnpike-troubadours",
@@ -9278,6 +10660,19 @@
    "source": "https://www.redrocksonline.com/events/turnpike-troubadours-1656987/"
   },
   {
+   "id": "2027-05-14-fillmore-our-last-night",
+   "date": "2027-05-14",
+   "time": "",
+   "artist": "Our Last Night",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.fillmoreauditorium.org/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-05-15-redrocks-jason-isbell-and-the-400-unit---drive-by-truckers",
    "date": "2027-05-15",
    "time": "19:00",
@@ -9291,6 +10686,19 @@
    "added": "2026-11-19"
   },
   {
+   "id": "2027-05-15-otherside-phrva",
+   "date": "2027-05-15",
+   "time": "20:30",
+   "artist": "Phrva",
+   "support": "",
+   "venue": "otherside",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/phrva/cervantes-other-side/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
    "id": "2027-05-16-redrocks-remi-wolf",
    "date": "2027-05-16",
    "time": "19:00",
@@ -9302,6 +10710,71 @@
    "tickets": "https://www.axs.com/events/1645236/remi-wolf-tickets?skin=redrocks",
    "source": "https://www.redrocksonline.com/events/remi-wolf-1645236/",
    "added": "2026-11-19"
+  },
+  {
+   "id": "2027-05-17-fillmore-till-lindemann",
+   "date": "2027-05-17",
+   "time": "",
+   "artist": "Till Lindemann",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.fillmoreauditorium.org/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-21-cervantes-john-splithoff",
+   "date": "2027-05-21",
+   "time": "20:00",
+   "artist": "John Splithoff",
+   "support": "",
+   "venue": "cervantes",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://cervantesmasterpiece.com/event/john-splithoff/cervantes-masterpiece-ballroom/denver-colorado/",
+   "source": "https://cervantesmasterpiece.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-22-redrocks-matchbox-twenty---30",
+   "date": "2027-05-22",
+   "time": "19:30",
+   "artist": "Matchbox Twenty – 30",
+   "support": "The Wallflowers",
+   "venue": "redrocks",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1651534/matchbox-twenty-30-tickets?skin=redrocks",
+   "source": "https://www.redrocksonline.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-23-redrocks-matchbox-twenty---30",
+   "date": "2027-05-23",
+   "time": "19:30",
+   "artist": "Matchbox Twenty – 30",
+   "support": "The Wallflowers",
+   "venue": "redrocks",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.axs.com/events/1656984/matchbox-twenty-30-tickets?skin=redrocks",
+   "source": "https://www.redrocksonline.com/events/",
+   "added": "2026-11-21"
+  },
+  {
+   "id": "2027-05-23-fillmore-angus---julia-stone",
+   "date": "2027-05-23",
+   "time": "",
+   "artist": "Angus & Julia Stone",
+   "support": "",
+   "venue": "fillmore",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.fillmoreauditorium.org/",
+   "source": "https://www.fillmoreauditorium.org/events/",
+   "added": "2026-11-21"
   }
  ]
 }
