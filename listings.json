@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:34:32Z",
+ "updated": "2026-11-21T10:35:05Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -5497,6 +5497,20 @@
    "tickets": "https://www.songkick.com/concerts/43475878-corey-smith-at-pops-old-location",
    "source": "https://www.songkick.com/concerts/43475878-corey-smith-at-pops-old-location",
    "added": "2026-11-11"
+  },
+  {
+   "id": "2027-02-27-orh-sons-of-seattle",
+   "date": "2027-02-27",
+   "time": "20:00",
+   "artist": "Sons of Seattle",
+   "support": "Rock Steady: A Tribute to No Doubt",
+   "venue": "orh",
+   "genre": "Cover/Tribute",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/33132461/sons-of-seattle-stlouis-old-rock-house?partner_id=100",
+   "source": "https://www.oldrockhouse.com/concert-calendar",
+   "added": "2026-11-21",
+   "ages": "All ages"
   },
   {
    "id": "2027-02-28-factory-lake-street-dive",
