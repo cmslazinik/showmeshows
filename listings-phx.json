@@ -1,22 +1,8 @@
 {
- "updated": "2026-11-16T00:05:42Z",
+ "updated": "2026-11-22T12:19:25Z",
  "note": "Phoenix listings. Refreshed by the Phoenix scheduled update (see updates/RULES.md).",
  "lastDeep": "2026-11-15",
  "shows": [
-  {
-   "id": "2026-11-15-mimtheater-the-tallest-man-on-earth",
-   "date": "2026-11-15",
-   "time": "19:00",
-   "artist": "The Tallest Man On Earth",
-   "support": "",
-   "venue": "mimtheater",
-   "genre": "Singer-Songwriter",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43480624-tallest-man-on-earth-at-musical-instrument-museum",
-   "source": "https://www.songkick.com/concerts/43480624-tallest-man-on-earth-at-musical-instrument-museum",
-   "timeNote": "doors",
-   "added": "2026-11-15"
-  },
   {
    "id": "2026-11-15-vanburen-dragonforce",
    "date": "2026-11-15",
@@ -83,6 +69,46 @@
    "added": "2026-11-15"
   },
   {
+   "id": "2026-11-15-mimtheater-the-tallest-man-on-earth",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "artist": "The Tallest Man On Earth",
+   "support": "",
+   "venue": "mimtheater",
+   "genre": "Singer-Songwriter",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43480624-tallest-man-on-earth-at-musical-instrument-museum",
+   "source": "https://www.songkick.com/concerts/43480624-tallest-man-on-earth-at-musical-instrument-museum",
+   "timeNote": "doors",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-16-valleybar-the-hails",
+   "date": "2026-11-16",
+   "time": "",
+   "artist": "The Hails",
+   "support": "",
+   "venue": "valleybar",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43288521-hails-at-valley-bar",
+   "source": "https://www.songkick.com/concerts/43288521-hails-at-valley-bar",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-16-mimtheater-big-richard",
+   "date": "2026-11-16",
+   "time": "",
+   "artist": "Big Richard",
+   "support": "",
+   "venue": "mimtheater",
+   "genre": "Americana/Folk/Bluegrass",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43480626-big-richard-at-musical-instrument-museum",
+   "source": "https://www.songkick.com/concerts/43480626-big-richard-at-musical-instrument-museum",
+   "added": "2026-11-15"
+  },
+  {
    "id": "2026-11-16-footprint-teddy-swims",
    "date": "2026-11-16",
    "time": "19:00",
@@ -111,29 +137,55 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-16-valleybar-the-hails",
-   "date": "2026-11-16",
+   "id": "2026-11-17-valleybar-yana",
+   "date": "2026-11-17",
    "time": "",
-   "artist": "The Hails",
+   "artist": "Yana",
    "support": "",
    "venue": "valleybar",
-   "genre": "Indie/Alt",
+   "genre": "Other",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43288521-hails-at-valley-bar",
-   "source": "https://www.songkick.com/concerts/43288521-hails-at-valley-bar",
+   "tickets": "https://www.songkick.com/concerts/43333092-yana-at-valley-bar",
+   "source": "https://www.songkick.com/concerts/43333092-yana-at-valley-bar",
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-16-mimtheater-big-richard",
-   "date": "2026-11-16",
+   "id": "2026-11-17-mimtheater-lucia-micarelli",
+   "date": "2026-11-17",
    "time": "",
-   "artist": "Big Richard",
+   "artist": "Lucia Micarelli",
    "support": "",
    "venue": "mimtheater",
-   "genre": "Americana/Folk/Bluegrass",
+   "genre": "Classical/Orchestra",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43480626-big-richard-at-musical-instrument-museum",
-   "source": "https://www.songkick.com/concerts/43480626-big-richard-at-musical-instrument-museum",
+   "tickets": "https://www.songkick.com/concerts/43480628-lucia-micarelli-at-musical-instrument-museum",
+   "source": "https://www.songkick.com/concerts/43480628-lucia-micarelli-at-musical-instrument-museum",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-17-rebellounge-gavn-",
+   "date": "2026-11-17",
+   "time": "",
+   "artist": "gavn!",
+   "support": "",
+   "venue": "rebellounge",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43480629-gavn-at-rebel-lounge",
+   "source": "https://www.songkick.com/concerts/43480629-gavn-at-rebel-lounge",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-17-rebellounge-glide",
+   "date": "2026-11-17",
+   "time": "",
+   "artist": "Glide",
+   "support": "",
+   "venue": "rebellounge",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43481780-glide-at-rebel-lounge",
+   "source": "https://www.songkick.com/concerts/43481780-glide-at-rebel-lounge",
    "added": "2026-11-15"
   },
   {
@@ -193,58 +245,6 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-17-valleybar-yana",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Yana",
-   "support": "",
-   "venue": "valleybar",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43333092-yana-at-valley-bar",
-   "source": "https://www.songkick.com/concerts/43333092-yana-at-valley-bar",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-17-mimtheater-lucia-micarelli",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Lucia Micarelli",
-   "support": "",
-   "venue": "mimtheater",
-   "genre": "Classical/Orchestra",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43480628-lucia-micarelli-at-musical-instrument-museum",
-   "source": "https://www.songkick.com/concerts/43480628-lucia-micarelli-at-musical-instrument-museum",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-17-rebellounge-gavn-",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "gavn!",
-   "support": "",
-   "venue": "rebellounge",
-   "genre": "Pop",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43480629-gavn-at-rebel-lounge",
-   "source": "https://www.songkick.com/concerts/43480629-gavn-at-rebel-lounge",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-17-rebellounge-glide",
-   "date": "2026-11-17",
-   "time": "",
-   "artist": "Glide",
-   "support": "",
-   "venue": "rebellounge",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43481780-glide-at-rebel-lounge",
-   "source": "https://www.songkick.com/concerts/43481780-glide-at-rebel-lounge",
-   "added": "2026-11-15"
-  },
-  {
    "id": "2026-11-18-vanburen-clara-la-san",
    "date": "2026-11-18",
    "time": "",
@@ -297,35 +297,6 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-19-luckys-kaleo-wassman",
-   "date": "2026-11-19",
-   "time": "18:00",
-   "artist": "Kaleo Wassman",
-   "support": "Gabo Fayuca, Chris Bowen",
-   "venue": "luckys",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43410272-kaleo-wassman-at-luckys-indoor-outdoor",
-   "source": "https://www.songkick.com/concerts/43410272-kaleo-wassman-at-luckys-indoor-outdoor",
-   "timeNote": "doors",
-   "added": "2026-11-15",
-   "priceRange": "$20–$35"
-  },
-  {
-   "id": "2026-11-19-celebrityphx-the-psychedelic-furs",
-   "date": "2026-11-19",
-   "time": "19:30",
-   "artist": "The Psychedelic Furs",
-   "support": "",
-   "venue": "celebrityphx",
-   "genre": "Rock",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43268058-psychedelic-furs-at-celebrity-theatre",
-   "source": "https://www.songkick.com/concerts/43268058-psychedelic-furs-at-celebrity-theatre",
-   "timeNote": "doors",
-   "added": "2026-11-15"
-  },
-  {
    "id": "2026-11-19-walterstudios-hurricane-wisdom",
    "date": "2026-11-19",
    "time": "",
@@ -365,44 +336,31 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-20-dirtydrummer-jerusafunk",
-   "date": "2026-11-20",
-   "time": "19:00",
-   "artist": "Jerusafunk",
-   "support": "",
-   "venue": "dirtydrummer",
-   "genre": "Funk/Jam",
+   "id": "2026-11-19-luckys-kaleo-wassman",
+   "date": "2026-11-19",
+   "time": "18:00",
+   "artist": "Kaleo Wassman",
+   "support": "Gabo Fayuca, Chris Bowen",
+   "venue": "luckys",
+   "genre": "Rock",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43322750-jerusafunk-at-dirty-drummer",
-   "source": "https://www.songkick.com/concerts/43322750-jerusafunk-at-dirty-drummer",
+   "tickets": "https://www.songkick.com/concerts/43410272-kaleo-wassman-at-luckys-indoor-outdoor",
+   "source": "https://www.songkick.com/concerts/43410272-kaleo-wassman-at-luckys-indoor-outdoor",
    "timeNote": "doors",
-   "added": "2026-11-15"
+   "added": "2026-11-15",
+   "priceRange": "$20–$35"
   },
   {
-   "id": "2026-11-20-marqueetempe-isaiah-rashad",
-   "date": "2026-11-20",
-   "time": "20:00",
-   "artist": "Isaiah Rashad",
+   "id": "2026-11-19-celebrityphx-the-psychedelic-furs",
+   "date": "2026-11-19",
+   "time": "19:30",
+   "artist": "The Psychedelic Furs",
    "support": "",
-   "venue": "marqueetempe",
-   "genre": "Hip-Hop/Rap",
+   "venue": "celebrityphx",
+   "genre": "Rock",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43407717-isaiah-rashad-at-marquee-theatre",
-   "source": "https://www.songkick.com/concerts/43407717-isaiah-rashad-at-marquee-theatre",
-   "timeNote": "doors",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-20-sunbartempe-the-reaper",
-   "date": "2026-11-20",
-   "time": "21:00",
-   "artist": "The Reaper",
-   "support": "",
-   "venue": "sunbartempe",
-   "genre": "Electronic/DJ",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43475487-reaper-at-sunbar-tempe",
-   "source": "https://www.songkick.com/concerts/43475487-reaper-at-sunbar-tempe",
+   "tickets": "https://www.songkick.com/concerts/43268058-psychedelic-furs-at-celebrity-theatre",
+   "source": "https://www.songkick.com/concerts/43268058-psychedelic-furs-at-celebrity-theatre",
    "timeNote": "doors",
    "added": "2026-11-15"
   },
@@ -498,16 +456,44 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-21-talkingstickamp-three-days-grace",
-   "date": "2026-11-21",
+   "id": "2026-11-20-dirtydrummer-jerusafunk",
+   "date": "2026-11-20",
    "time": "19:00",
-   "artist": "Three Days Grace",
-   "support": "I Prevail, The Funeral Portrait",
-   "venue": "talkingstickamp",
-   "genre": "Rock",
+   "artist": "Jerusafunk",
+   "support": "",
+   "venue": "dirtydrummer",
+   "genre": "Funk/Jam",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/42882747-three-days-grace-at-talking-stick-resort-amphitheatre",
-   "source": "https://www.songkick.com/concerts/42882747-three-days-grace-at-talking-stick-resort-amphitheatre",
+   "tickets": "https://www.songkick.com/concerts/43322750-jerusafunk-at-dirty-drummer",
+   "source": "https://www.songkick.com/concerts/43322750-jerusafunk-at-dirty-drummer",
+   "timeNote": "doors",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-20-marqueetempe-isaiah-rashad",
+   "date": "2026-11-20",
+   "time": "20:00",
+   "artist": "Isaiah Rashad",
+   "support": "",
+   "venue": "marqueetempe",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43407717-isaiah-rashad-at-marquee-theatre",
+   "source": "https://www.songkick.com/concerts/43407717-isaiah-rashad-at-marquee-theatre",
+   "timeNote": "doors",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-20-sunbartempe-the-reaper",
+   "date": "2026-11-20",
+   "time": "21:00",
+   "artist": "The Reaper",
+   "support": "",
+   "venue": "sunbartempe",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43475487-reaper-at-sunbar-tempe",
+   "source": "https://www.songkick.com/concerts/43475487-reaper-at-sunbar-tempe",
    "timeNote": "doors",
    "added": "2026-11-15"
   },
@@ -577,29 +563,17 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-22-crescentballroom-as-i-lay-dying",
-   "date": "2026-11-22",
-   "time": "",
-   "artist": "As I Lay Dying",
-   "support": "",
-   "venue": "crescentballroom",
-   "genre": "Metal/Hardcore",
+   "id": "2026-11-21-talkingstickamp-three-days-grace",
+   "date": "2026-11-21",
+   "time": "19:00",
+   "artist": "Three Days Grace",
+   "support": "I Prevail, The Funeral Portrait",
+   "venue": "talkingstickamp",
+   "genre": "Rock",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43212315-as-i-lay-dying-at-crescent-ballroom",
-   "source": "https://www.songkick.com/concerts/43212315-as-i-lay-dying-at-crescent-ballroom",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-22-mimtheater-chris-botti",
-   "date": "2026-11-22",
-   "time": "",
-   "artist": "Chris Botti",
-   "support": "",
-   "venue": "mimtheater",
-   "genre": "Jazz",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43480661-chris-botti-at-musical-instrument-museum",
-   "source": "https://www.songkick.com/concerts/43480661-chris-botti-at-musical-instrument-museum",
+   "tickets": "https://www.songkick.com/concerts/42882747-three-days-grace-at-talking-stick-resort-amphitheatre",
+   "source": "https://www.songkick.com/concerts/42882747-three-days-grace-at-talking-stick-resort-amphitheatre",
+   "timeNote": "doors",
    "added": "2026-11-15"
   },
   {
@@ -614,6 +588,34 @@
    "tickets": "https://www.songkick.com/concerts/43353755-adam-doleac-at-rebel-lounge",
    "source": "https://www.songkick.com/concerts/43353755-adam-doleac-at-rebel-lounge",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-22-crescentballroom-as-i-lay-dying",
+   "date": "2026-11-22",
+   "time": "19:30",
+   "artist": "As I Lay Dying",
+   "support": "",
+   "venue": "crescentballroom",
+   "genre": "Metal/Hardcore",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43212315-as-i-lay-dying-at-crescent-ballroom",
+   "source": "https://www.songkick.com/concerts/43212315-as-i-lay-dying-at-crescent-ballroom",
+   "added": "2026-11-15",
+   "timeNote": "doors"
+  },
+  {
+   "id": "2026-11-22-mimtheater-chris-botti",
+   "date": "2026-11-22",
+   "time": "20:00",
+   "artist": "Chris Botti",
+   "support": "",
+   "venue": "mimtheater",
+   "genre": "Jazz",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43480661-chris-botti-at-musical-instrument-museum",
+   "source": "https://www.songkick.com/concerts/43480661-chris-botti-at-musical-instrument-museum",
+   "added": "2026-11-15",
+   "timeNote": "doors"
   },
   {
    "id": "2026-11-23-rebellounge-ladrones--mx-",
@@ -720,36 +722,6 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-25-ranchoochoa-los-huracanes-del-norte",
-   "date": "2026-11-25",
-   "time": "18:00",
-   "artist": "Los Huracanes del Norte",
-   "support": "Los Dos de Tamaulipas",
-   "venue": "ranchoochoa",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43287975-los-huracanes-del-norte-at-rancho-ochoa",
-   "source": "https://www.songkick.com/concerts/43287975-los-huracanes-del-norte-at-rancho-ochoa",
-   "timeNote": "doors",
-   "added": "2026-11-15",
-   "priceRange": "$70–$100"
-  },
-  {
-   "id": "2026-11-25-walterwherehouse-seth-troxler",
-   "date": "2026-11-25",
-   "time": "21:00",
-   "artist": "Seth Troxler",
-   "support": "",
-   "venue": "walterwherehouse",
-   "genre": "Electronic/DJ",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43467995-seth-troxler-at-walter-wherehouse",
-   "source": "https://www.songkick.com/concerts/43467995-seth-troxler-at-walter-wherehouse",
-   "timeNote": "doors",
-   "added": "2026-11-15",
-   "priceRange": "$22–$30"
-  },
-  {
    "id": "2026-11-25-ranchoochoa-el-fantasma",
    "date": "2026-11-25",
    "time": "",
@@ -813,6 +785,36 @@
    "tickets": "https://www.songkick.com/concerts/43500320-veronica-everheart-at-valley-bar",
    "source": "https://www.songkick.com/concerts/43500320-veronica-everheart-at-valley-bar",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-25-ranchoochoa-los-huracanes-del-norte",
+   "date": "2026-11-25",
+   "time": "18:00",
+   "artist": "Los Huracanes del Norte",
+   "support": "Los Dos de Tamaulipas",
+   "venue": "ranchoochoa",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43287975-los-huracanes-del-norte-at-rancho-ochoa",
+   "source": "https://www.songkick.com/concerts/43287975-los-huracanes-del-norte-at-rancho-ochoa",
+   "timeNote": "doors",
+   "added": "2026-11-15",
+   "priceRange": "$70–$100"
+  },
+  {
+   "id": "2026-11-25-walterwherehouse-seth-troxler",
+   "date": "2026-11-25",
+   "time": "21:00",
+   "artist": "Seth Troxler",
+   "support": "",
+   "venue": "walterwherehouse",
+   "genre": "Electronic/DJ",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43467995-seth-troxler-at-walter-wherehouse",
+   "source": "https://www.songkick.com/concerts/43467995-seth-troxler-at-walter-wherehouse",
+   "timeNote": "doors",
+   "added": "2026-11-15",
+   "priceRange": "$22–$30"
   },
   {
    "id": "2026-11-27-vanburen-imminence",
@@ -906,19 +908,17 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-28-ninthjackson-key-glock",
-   "date": "2026-11-28",
-   "time": "20:00",
-   "artist": "Key Glock",
+   "id": "2026-11-27-desertdiamond-jonas-brothers",
+   "date": "2026-11-27",
+   "time": "",
+   "artist": "Jonas Brothers",
    "support": "",
-   "venue": "ninthjackson",
-   "genre": "Hip-Hop/Rap",
+   "venue": "desertdiamond",
+   "genre": "Pop",
    "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43487846-key-glock-at-9th-and-jackson",
-   "source": "https://www.songkick.com/concerts/43487846-key-glock-at-9th-and-jackson",
-   "timeNote": "doors",
-   "added": "2026-11-15",
-   "priceRange": "$30–$65"
+   "tickets": "https://www.desertdiamondarena.com/event/jonas-brothers/112/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2026-11-28-vanburen-r-b-only-live",
@@ -997,6 +997,34 @@
    "tickets": "https://www.songkick.com/concerts/43508553-sorry-x-at-rebel-lounge",
    "source": "https://www.songkick.com/concerts/43508553-sorry-x-at-rebel-lounge",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-11-28-footprint-banda-ms",
+   "date": "2026-11-28",
+   "time": "",
+   "artist": "Banda MS",
+   "support": "",
+   "venue": "footprint",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://mortgagematchupcenter.com/events/banda-ms-2026/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
+  },
+  {
+   "id": "2026-11-28-ninthjackson-key-glock",
+   "date": "2026-11-28",
+   "time": "20:00",
+   "artist": "Key Glock",
+   "support": "",
+   "venue": "ninthjackson",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43487846-key-glock-at-9th-and-jackson",
+   "source": "https://www.songkick.com/concerts/43487846-key-glock-at-9th-and-jackson",
+   "timeNote": "doors",
+   "added": "2026-11-15",
+   "priceRange": "$30–$65"
   },
   {
    "id": "2026-11-29-rebellounge-n8noface-and-ho99o9",
@@ -1103,6 +1131,19 @@
    "added": "2026-11-15"
   },
   {
+   "id": "2026-12-01-desertdiamond-rush",
+   "date": "2026-12-01",
+   "time": "",
+   "artist": "Rush",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.desertdiamondarena.com/event/rush/51/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
+  },
+  {
    "id": "2026-12-02-azfinancial-trivium",
    "date": "2026-12-02",
    "time": "",
@@ -1166,6 +1207,19 @@
    "tickets": "https://www.songkick.com/concerts/43275443-babe-haven-at-rebel-lounge",
    "source": "https://www.songkick.com/concerts/43275443-babe-haven-at-rebel-lounge",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-12-03-desertdiamond-rush",
+   "date": "2026-12-03",
+   "time": "",
+   "artist": "Rush",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Rock",
+   "price": "Ticketed",
+   "tickets": "https://www.desertdiamondarena.com/event/rush/52/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2026-12-04-azfinancial-pedro-fern-ndez",
@@ -1259,20 +1313,6 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-12-05-classico-voz-de-mando",
-   "date": "2026-12-05",
-   "time": "22:00",
-   "artist": "Voz de Mando",
-   "support": "",
-   "venue": "classico",
-   "genre": "Latin",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43478542-voz-de-mando-at-classico-phoenix",
-   "source": "https://www.songkick.com/concerts/43478542-voz-de-mando-at-classico-phoenix",
-   "timeNote": "doors",
-   "added": "2026-11-15"
-  },
-  {
    "id": "2026-12-05-azfinancial-victoria-mon-t",
    "date": "2026-12-05",
    "time": "",
@@ -1361,6 +1401,20 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43504653-znora-at-rebel-lounge",
    "source": "https://www.songkick.com/concerts/43504653-znora-at-rebel-lounge",
+   "added": "2026-11-15"
+  },
+  {
+   "id": "2026-12-05-classico-voz-de-mando",
+   "date": "2026-12-05",
+   "time": "22:00",
+   "artist": "Voz de Mando",
+   "support": "",
+   "venue": "classico",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43478542-voz-de-mando-at-classico-phoenix",
+   "source": "https://www.songkick.com/concerts/43478542-voz-de-mando-at-classico-phoenix",
+   "timeNote": "doors",
    "added": "2026-11-15"
   },
   {
@@ -1624,6 +1678,19 @@
    "added": "2026-11-15"
   },
   {
+   "id": "2026-12-09-desertdiamond-gracie-abrams",
+   "date": "2026-12-09",
+   "time": "",
+   "artist": "Gracie Abrams",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/desert-diamond-arena-tickets-glendale/venue/204917?startDate=2026-12-09&endDate=2026-12-10",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
+  },
+  {
    "id": "2026-12-10-vanburen-yung-gravy",
    "date": "2026-12-10",
    "time": "",
@@ -1661,6 +1728,19 @@
    "tickets": "https://www.songkick.com/concerts/43387466-rave-jesus-at-crescent-ballroom",
    "source": "https://www.songkick.com/concerts/43387466-rave-jesus-at-crescent-ballroom",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-12-10-desertdiamond-gracie-abrams",
+   "date": "2026-12-10",
+   "time": "",
+   "artist": "Gracie Abrams",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://www.ticketmaster.com/desert-diamond-arena-tickets-glendale/venue/204917?startDate=2026-12-09&endDate=2026-12-10",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2026-12-11-azfinancial-sam-barber",
@@ -1765,6 +1845,19 @@
    "tickets": "https://www.songkick.com/concerts/43505578-codd-dubz-at-9th-and-jackson-indoors",
    "source": "https://www.songkick.com/concerts/43505578-codd-dubz-at-9th-and-jackson-indoors",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-12-11-desertdiamond-ugly-sweater-holiday-party--sublime--slightly-stoopid--codefendants",
+   "date": "2026-12-11",
+   "time": "",
+   "artist": "Ugly Sweater Holiday Party: Sublime, Slightly Stoopid, Codefendants",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Reggae/Ska",
+   "price": "Ticketed",
+   "tickets": "https://www.desertdiamondarena.com/event/alt-az-93-3-presents%3a-ugly-sweater-holiday-party-with-sublime-slightly-stoopid-and-codefendants/108/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2026-12-12-vanburen-nimino",
@@ -2326,6 +2419,19 @@
    "added": "2026-11-15"
   },
   {
+   "id": "2026-12-19-desertdiamond-pentatonix",
+   "date": "2026-12-19",
+   "time": "",
+   "artist": "Pentatonix",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Pop",
+   "price": "Ticketed",
+   "tickets": "https://www.desertdiamondarena.com/event/pentatonix/110/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
+  },
+  {
    "id": "2026-12-20-valleybar-willi-carlisle",
    "date": "2026-12-20",
    "time": "",
@@ -2692,6 +2798,19 @@
    "source": "https://www.songkick.com/concerts/43491816-pigeon-john-at-yucca-tap-room"
   },
   {
+   "id": "2027-01-15-mesaamp-8123-fest",
+   "date": "2027-01-15",
+   "time": "",
+   "artist": "8123 Fest",
+   "support": "",
+   "venue": "mesaamp",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://www.8123fest.com/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
+  },
+  {
    "id": "2027-01-16-marqueetempe-leftover-salmon",
    "date": "2027-01-16",
    "time": "",
@@ -2762,6 +2881,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43517684-after-the-calm-at-crescent-ballroom",
    "source": "https://www.songkick.com/concerts/43517684-after-the-calm-at-crescent-ballroom"
+  },
+  {
+   "id": "2027-01-16-mesaamp-8123-fest",
+   "date": "2027-01-16",
+   "time": "",
+   "artist": "8123 Fest",
+   "support": "",
+   "venue": "mesaamp",
+   "genre": "Punk/Emo",
+   "price": "Ticketed",
+   "tickets": "https://www.8123fest.com/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2027-01-17-crescentballroom-the-mountain-goats",
@@ -2836,19 +2968,6 @@
    "source": "https://www.songkick.com/concerts/43447525-drowns-at-rebel-lounge"
   },
   {
-   "id": "2027-01-22-thunderbird-neon-indian",
-   "date": "2027-01-22",
-   "time": "21:00",
-   "artist": "Neon Indian",
-   "support": "",
-   "venue": "thunderbird",
-   "genre": "Indie/Alt",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43378949-neon-indian-at-thunderbird-lounge",
-   "source": "https://www.songkick.com/concerts/43378949-neon-indian-at-thunderbird-lounge",
-   "timeNote": "doors"
-  },
-  {
    "id": "2027-01-22-rebellounge-the-flatliners",
    "date": "2027-01-22",
    "time": "",
@@ -2883,6 +3002,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43475658-leather-strip-at-last-exit-live",
    "source": "https://www.songkick.com/concerts/43475658-leather-strip-at-last-exit-live"
+  },
+  {
+   "id": "2027-01-22-thunderbird-neon-indian",
+   "date": "2027-01-22",
+   "time": "21:00",
+   "artist": "Neon Indian",
+   "support": "",
+   "venue": "thunderbird",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43378949-neon-indian-at-thunderbird-lounge",
+   "source": "https://www.songkick.com/concerts/43378949-neon-indian-at-thunderbird-lounge",
+   "timeNote": "doors"
   },
   {
    "id": "2027-01-23-hancepark-diplo",
@@ -3399,6 +3531,19 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43482677-jimi-primetime-smith-at-rhythm-room",
    "source": "https://www.songkick.com/concerts/43482677-jimi-primetime-smith-at-rhythm-room"
+  },
+  {
+   "id": "2027-02-12-desertdiamond-los-tucanes-de-tijuana",
+   "date": "2027-02-12",
+   "time": "",
+   "artist": "Los Tucanes De Tijuana",
+   "support": "",
+   "venue": "desertdiamond",
+   "genre": "Latin",
+   "price": "Ticketed",
+   "tickets": "https://www.desertdiamondarena.com/event/los-tucanes-de-tijuana/109/",
+   "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
+   "added": "2026-11-22"
   },
   {
    "id": "2027-02-13-azfinancial-yuridia",
