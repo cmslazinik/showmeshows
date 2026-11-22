@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for St. Louis. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-21T10:35:24.307Z",
+ "updated": "2026-11-22T12:19:40.545Z",
  "artists": {
   "1 productions presents": {
    "none": true,
@@ -88,10 +88,6 @@
    "link": "https://music.apple.com/us/artist/andrew-mcmahon/3193956",
    "checked": "2026-11-18",
    "last": "2027-02-20"
-  },
-  "android paranoid": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "andy waggoner and friends": {
    "none": true,
@@ -292,13 +288,6 @@
    "checked": "2026-11-19",
    "last": "2027-04-08"
   },
-  "chat pile": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/c1/cc/99c1ccf0-5ac1-201e-e448-f026b24bb173/733102722630.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/chat-pile/1467043756",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
   "christmas with the petersens": {
    "none": true,
    "checked": "2026-11-18"
@@ -439,11 +428,6 @@
    "checked": "2026-11-18",
    "last": "2026-11-27"
   },
-  "don walker": {
-   "none": true,
-   "checked": "2026-11-17",
-   "skip": "event"
-  },
   "dr zhivegas x prince and the revolution tribute": {
    "none": true,
    "checked": "2026-11-18"
@@ -514,10 +498,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "en esch": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "eric lysaght": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/0d/61/8a/0d618a95-f0fa-485f-1f6a-84c989e7e427/888003146969.jpg/400x400bb.jpg",
    "src": "apple",
@@ -539,13 +519,6 @@
   "evereverever middle class fashion and meatus": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "fair weather friends": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5a/3d/a7/5a3da703-7770-7e17-cf8e-9fd6f49d50b8/3616551612011.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/fair-weather-friends/719172886",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "fantasia and anthony hamilton": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/a2/c8/2ba2c805-4145-7dd6-0213-d09f93141bbc/886443865136.jpg/400x400bb.jpg",
@@ -674,13 +647,6 @@
   "houseplant": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "ian asher": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/97/bf/4d97bfd1-be16-e55d-80b1-58fba16a243f/198391929540.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ian-asher/1532049830",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "ill nino": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/4b/be/1e/mzi.hlysrxou.jpg/400x400bb.jpg",
@@ -865,13 +831,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "kingdom of giants": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/ba/c1/b5/mzi.fdonknuj.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/kingdom-of-giants/416846306",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
   "kpop night": {
    "none": true,
    "checked": "2026-11-17"
@@ -964,10 +923,6 @@
    "checked": "2026-11-19",
    "last": "2027-04-06"
   },
-  "marcus roberts and the modern jazz generation": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "mardi gras bud light party tent featuring chris janson": {
    "none": true,
    "checked": "2026-11-17",
@@ -985,10 +940,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "matt jordan": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "matt nathanson": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Features/32/47/2d/dj.dzdzoxhs.jpg/400x400bb.jpg",
@@ -1095,13 +1046,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-20"
   },
-  "murder city players": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/52/d4/4f/52d44fc1-7c15-2b04-3184-20dfe82c5126/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/murder-city-players/1618997136",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
   "my posse in effect": {
    "none": true,
    "checked": "2026-11-18"
@@ -1160,13 +1104,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "ok goodnight": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/57/80/0e578073-aa87-1570-d99f-a90083916fec/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ok-goodnight/1455689335",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
   "one way traffic": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/5b/cc/f1/5bccf1d5-878f-3d16-bda1-dbae35668a4d/194660430434.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1191,13 +1128,6 @@
    "link": "https://music.apple.com/us/artist/oso-oso/1001816186",
    "checked": "2026-11-17",
    "last": "2026-11-24"
-  },
-  "packaging": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/63/e6/c163e65a-7496-1481-9780-a8dc1608e5c0/098787604665.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/packaging/1817282870",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "paul brown and the killing devils": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a3/7a/05/a37a0535-daf5-63ac-7e94-26ad2358aec9/657988025121.jpg/400x400bb.jpg",
@@ -1360,10 +1290,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-03"
   },
-  "sam shackleton": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "sarah politte": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/ef/5a/1aef5a03-0f7a-8d8f-0873-d1697cac587c/859743597571_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1522,10 +1448,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "the 77 experience": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "the back alley": {
    "none": true,
@@ -1819,10 +1741,6 @@
    "checked": "2026-11-18",
    "last": "2027-02-25"
   },
-  "whipped cream": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "william shakespeare s romeo juliet film in concert": {
    "none": true,
    "checked": "2026-11-18"
@@ -1873,78 +1791,6 @@
   }
  },
  "shows": {
-  "2026-11-21-atomic-murder-city-players": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-avagarden-whipped-cream": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-bob-all-roostered-up": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-bob-alligator-wine": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-crackfox-en-esch": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-delmar-chat-pile": {
-   "img": "https://www.thepageant.com/wp-content/uploads/2026/06/112126_Chat-Pile_Web.jpg",
-   "src": "venue"
-  },
-  "2026-11-21-duck-sam-shackleton": {
-   "img": "https://blueberryhill.com/wp-content/uploads/2026/08/112126_SamShakleton_Square.jpg",
-   "src": "venue"
-  },
-  "2026-11-21-evangelines-don-walker--saturday-brunch-": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96c358307b30f3c0a2bdd/1790536789251/image.jpg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-21-evangelines-fair-weather-friends": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96c59ea09384d96fd14c6/1793495742482/image.jpeg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-21-jazzstl-marcus-roberts---the-modern-jazz-generation": {
-   "img": "https://www.metrotix.com/assets/img/MarcusRoberts_spotlight-65968f2249.jpg",
-   "src": "venue"
-  },
-  "2026-11-21-moshmellow-ok-goodnight": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-offbroadway-kingdom-of-giants": {
-   "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6a71f3ea54398ab46a1bccc6_26-11-21_KingdomOfGiants_FBEvent.jpeg",
-   "src": "venue"
-  },
-  "2026-11-21-orh-matt-jordan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-pageant-jake-s-leg": {
-   "img": "https://www.thepageant.com/wp-content/uploads/2026/09/112126_JakesLeg_Website.jpg",
-   "src": "venue"
-  },
-  "2026-11-21-pops-the-77-experience": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-ryse-ian-asher": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-sinkhole-packaging": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-sovereign-android-paranoid--a-radiohead-tribute": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-22-bob-phil-n-co-featuring-cree-rider": {
    "none": true,
    "checked": "2026-11-17"

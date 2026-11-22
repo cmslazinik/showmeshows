@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-21T10:35:24.326Z",
+ "updated": "2026-11-22T12:23:07.679Z",
  "artists": {
   "2hollis": {
    "none": true,
@@ -12,6 +12,11 @@
    "link": "https://music.apple.com/us/artist/49-winchester/869425058",
    "checked": "2026-11-18",
    "last": "2027-03-04"
+  },
+  "8123 fest": {
+   "none": true,
+   "checked": "2026-11-22",
+   "skip": "event"
   },
   "93feetofsmoke": {
    "none": true,
@@ -143,10 +148,6 @@
    "checked": "2026-11-17",
    "last": "2026-12-13"
   },
-  "b real": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "babe haven": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/51/8b/e8/518be879-089c-1b07-891d-b22fb66a2a40/5061122880753_cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -161,10 +162,6 @@
    "checked": "2026-11-19",
    "last": "2027-04-10"
   },
-  "baby smoove": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "bad suns": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/13/4a/b8134a8e-c13c-09f1-12cc-855ba96db3fc/0045778777969.png/400x400bb.jpg",
    "src": "apple",
@@ -178,6 +175,10 @@
    "link": "https://music.apple.com/us/artist/ballyhoo/130193994",
    "checked": "2026-11-17",
    "last": "2027-01-28"
+  },
+  "banda ms": {
+   "none": true,
+   "checked": "2026-11-22"
   },
   "barely alive": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c7/55/87/c75587ed-2917-4518-33f5-81defc16e120/075679899712.jpg/400x400bb.jpg",
@@ -203,13 +204,6 @@
    "link": "https://music.apple.com/us/artist/beartooth/590762561",
    "checked": "2026-11-17",
    "last": "2026-12-16"
-  },
-  "ben klock": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/5b/6f/325b6fcb-98f8-b6d8-d930-2ce45e60a231/mzi.ilpjxdcr.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ben-klock/218499535",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "bill tarsha and the rocket 88s": {
    "none": true,
@@ -335,7 +329,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chris-botti/38341",
    "checked": "2026-11-17",
-   "last": "2026-11-21"
+   "last": "2026-11-22"
   },
   "chris simpson": {
    "none": true,
@@ -752,6 +746,13 @@
    "checked": "2026-11-18",
    "last": "2027-03-07"
   },
+  "gracie abrams": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/78/81/26788143-5e5f-0813-2480-ecf4280ef221/24UM1IM07082.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/gracie-abrams/1450554836",
+   "checked": "2026-11-22",
+   "last": "2026-12-09"
+  },
   "graveshift": {
    "none": true,
    "checked": "2026-11-17"
@@ -970,6 +971,13 @@
    "checked": "2026-11-19",
    "last": "2027-05-15"
   },
+  "jonas brothers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/16/12/bd161229-f5c7-d21d-caed-ed9302d52168/19UMGIM38391.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/jonas-brothers/114342891",
+   "checked": "2026-11-22",
+   "last": "2026-11-27"
+  },
   "katseye": {
    "none": true,
    "checked": "2026-11-17"
@@ -1060,6 +1068,13 @@
   "los parras": {
    "none": true,
    "checked": "2026-11-19"
+  },
+  "los tucanes de tijuana": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fc/0b/00/fc0b0020-aaac-4804-e556-d10f73e7f905/018736747175_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/los-tucanes-de-tijuana/90197",
+   "checked": "2026-11-22",
+   "last": "2027-02-12"
   },
   "lost in dreams": {
    "none": true,
@@ -1341,13 +1356,6 @@
    "checked": "2026-11-18",
    "last": "2027-02-19"
   },
-  "paige fish": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/28/90/8b/28908b44-0994-13b8-57a3-59b843497801/075679564160.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/paige-fish/1481227403",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
   "paradise blossom": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/f0/e9/e9f0e904-5b54-4287-739e-c3642e40ac31/197714197109.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1365,6 +1373,13 @@
    "link": "https://music.apple.com/us/artist/penelope-road/1742324131",
    "checked": "2026-11-18",
    "last": "2027-03-14"
+  },
+  "pentatonix": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/f7/88/0f/f7880fb0-8087-de0f-c9b3-821a5d3733d7/886444686716.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/pentatonix/466047278",
+   "checked": "2026-11-22",
+   "last": "2026-12-19"
   },
   "people who could fly": {
    "none": true,
@@ -1481,6 +1496,13 @@
    "link": "https://music.apple.com/us/artist/ruby-waters/1441595388",
    "checked": "2026-11-18",
    "last": "2027-03-11"
+  },
+  "rush": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6b/0e/bf/6b0ebfd4-4060-dbdc-07c6-a26e328be4c6/016861765644.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/rush/50526",
+   "checked": "2026-11-22",
+   "last": "2026-12-01"
   },
   "sad and boujee": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c9/e5/ac/c9e5ac16-0596-e04e-1f96-85f8ac246a7f/193428098251.jpg/400x400bb.jpg",
@@ -1913,13 +1935,6 @@
    "checked": "2026-11-17",
    "last": "2026-11-27"
   },
-  "three days grace": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/cf/b4/5f/mzi.vgwnjneb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/three-days-grace/1973668",
-   "checked": "2026-11-18",
-   "last": "2026-11-21"
-  },
   "thunderpuss": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e7/3a/76/e73a762e-0ecc-aa46-3441-44a9b6ba1c08/196589802378.jpg/400x400bb.jpg",
    "src": "apple",
@@ -2001,6 +2016,11 @@
    "link": "https://music.apple.com/us/artist/udit-narayan/1821415027",
    "checked": "2026-11-17",
    "last": "2026-12-06"
+  },
+  "ugly sweater holiday party": {
+   "none": true,
+   "checked": "2026-11-22",
+   "skip": "event"
   },
   "ulrika spacek": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/87/d1/2587d1f9-24ec-3bea-6f14-dd2c4a10604f/5060626469358_cover.jpg/400x400bb.jpg",
@@ -2193,30 +2213,6 @@
   }
  },
  "shows": {
-  "2026-11-21-marqueetempe-baby-smoove": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-mimtheater-chris-botti": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-talkingstickamp-three-days-grace": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-vanburen-paige-fish": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-walterstudios-ben-klock": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-walterwherehouse-b-real": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-22-crescentballroom-as-i-lay-dying": {
    "none": true,
    "checked": "2026-11-17"
@@ -2293,6 +2289,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-11-27-desertdiamond-jonas-brothers": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/Static_Social-X_800x419_JonasBrothers_2026_Regional_DesertDiamondArena_1127_A5DB1EEF-C80E-C9E0-209DEBB259477C85_a5db6983-04c8-52ed-9f68537f5aa0caf9.jpg",
+   "src": "venue"
+  },
   "2026-11-27-rebellounge-all-your-friends": {
    "none": true,
    "checked": "2026-11-17"
@@ -2316,6 +2316,10 @@
   "2026-11-27-walterwherehouse-monroe": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-11-28-footprint-banda-ms": {
+   "img": "https://v36lr0x7.media.zestyio.com/09.18.27-_-Banda-MS_Admat_1200x675.jpg?width=1200",
+   "src": "venue"
   },
   "2026-11-28-ninthjackson-key-glock": {
    "none": true,
@@ -2377,6 +2381,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-01-desertdiamond-rush": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/RUSH-2-_3A759938-976E-1514-A965AFE95BED6E5E_3a76236f-a425-7160-2e36abe22c729b61.png",
+   "src": "venue"
+  },
   "2026-12-02-azfinancial-trivium": {
    "none": true,
    "checked": "2026-11-17"
@@ -2388,6 +2396,10 @@
   "2026-12-02-rebellounge-one-way-sky": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-03-desertdiamond-rush": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/RUSH-2-_3A7814E4-EF54-37DF-11A259A120140BBF_3a7877af-073b-fa14-c067c23071f21c8c.png",
+   "src": "venue"
   },
   "2026-12-03-marqueetempe-giovannie-and-the-hired-guns": {
    "none": true,
@@ -2517,6 +2529,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-09-desertdiamond-gracie-abrams": {
+   "none": true,
+   "checked": "2026-11-22"
+  },
   "2026-12-09-mullettarena-kenny-whitmire": {
    "none": true,
    "checked": "2026-11-17"
@@ -2541,6 +2557,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-10-desertdiamond-gracie-abrams": {
+   "none": true,
+   "checked": "2026-11-22"
+  },
   "2026-12-10-rhythmroom-mark-hummel": {
    "none": true,
    "checked": "2026-11-17"
@@ -2552,6 +2572,10 @@
   "2026-12-11-azfinancial-sam-barber": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-11-desertdiamond-ugly-sweater-holiday-party--sublime--slightly-stoopid--codefendants": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/UglySweater_DDA_1920x1080_EF66D227-C790-F9CD-900C04A44FC8A31A_ef677cd4-945d-9cff-fc7d72f58ddb68ee.jpg",
+   "src": "venue"
   },
   "2026-12-11-marqueetempe-earlybirds-club": {
    "none": true,
@@ -2729,6 +2753,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-19-desertdiamond-pentatonix": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/Static_Outdoor-ConcertVision_1920x1080_Pentatonix_2026_Regional_DesertDiamondArena_1219_49C32EE9-D5F6-92C7-6DFD349426A05573_49e029ae-95f1-aacf-7a3298443428f075.jpg",
+   "src": "venue"
+  },
   "2026-12-19-mimtheater-the-milk-carton-kids": {
    "none": true,
    "checked": "2026-11-17"
@@ -2861,6 +2889,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2027-01-15-mesaamp-8123-fest": {
+   "img": "https://cdn.prod.website-files.com/6185bd2e92e40fe11e0d68a2/6a550d6b9bf552734c56c13e_8123fest2027_webclipping.jpg",
+   "src": "venue"
+  },
   "2027-01-15-rhythmroom-hillbilly-devilspeak": {
    "none": true,
    "checked": "2026-11-17"
@@ -2880,6 +2912,10 @@
   "2027-01-16-marqueetempe-leftover-salmon": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2027-01-16-mesaamp-8123-fest": {
+   "img": "https://cdn.prod.website-files.com/6185bd2e92e40fe11e0d68a2/6a550d6b9bf552734c56c13e_8123fest2027_webclipping.jpg",
+   "src": "venue"
   },
   "2027-01-16-rhythmroom-the-sugar-thieves": {
    "none": true,
@@ -3104,6 +3140,10 @@
   "2027-02-12-crescentballroom-ajj": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2027-02-12-desertdiamond-los-tucanes-de-tijuana": {
+   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/2-12-27-Los-Tucanes-de-Tijuana-1920X1080-V1_4EEDE1DF-A0B2-0C9B-FB265D286037E69E_4ef8ae53-e46a-204e-047cf0c8f4d9548f.jpg",
+   "src": "venue"
   },
   "2027-02-12-rhythmroom-jimi-primetime-smith": {
    "none": true,

@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-21T10:35:24.321Z",
+ "updated": "2026-11-22T12:22:20.978Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -9,13 +9,6 @@
   "ahee": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "alex abramovitz and his swing n kansas city jazz band": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/ff/7a/3fff7a1d-0817-9242-7caa-e84d539f3a47/195999268668.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/alex-abramovitz-his-swingn-kansas-city-jazz-band/1549359463",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "alex sampson": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/84/b6/ec/84b6ecd6-262e-3771-ebfe-edd770c18df8/054391271075.jpg/400x400bb.jpg",
@@ -76,13 +69,6 @@
    "link": "https://music.apple.com/us/artist/beach-bunny/1147783278",
    "checked": "2026-11-17",
    "last": "2027-03-24"
-  },
-  "bernadette peters": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e1/37/db/e137db6e-67a3-31b6-4ee4-ff905f36b905/mzi.hdqxcpqd.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/bernadette-peters/60089",
-   "checked": "2026-11-18",
-   "last": "2026-11-21"
   },
   "bethel music": {
    "none": true,
@@ -441,14 +427,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
    "checked": "2026-11-18",
-   "last": "2026-11-21"
-  },
-  "katy guillen and the drive": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/43/13/9e/43139ed0-6a64-d8b0-3093-d00fb846bf1a/762183515824.png/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/katy-guillen-the-drive/1496004202",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
+   "last": "2026-11-22"
   },
   "kelsey miles": {
    "none": true,
@@ -496,13 +475,6 @@
    "link": "https://music.apple.com/us/artist/liquid-stranger/69003009",
    "checked": "2026-11-17",
    "last": "2027-03-04"
-  },
-  "little river band": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/da/60/59/da60596b-293e-81be-6e3c-f93bb6d10b96/22UMGIM58250.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/little-river-band/553680",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "los lobos": {
    "none": true,
@@ -620,24 +592,6 @@
    "checked": "2026-11-20",
    "skip": "event"
   },
-  "nick schnebelen": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d9/10/77/d9107751-8be5-86b7-579a-45023bff0f90/634457811720.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/nick-schnebelen/1209659761",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
-  },
-  "nightlite": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "noah bowman": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8d/bb/0b/8dbb0b35-c850-6788-a8ba-4f5ea8073219/198004818582.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/noah-bowman/1527189419",
-   "checked": "2026-11-20",
-   "last": "2026-11-21"
-  },
   "not so silent night iii": {
    "none": true,
    "checked": "2026-11-20"
@@ -747,7 +701,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rss-trio/1480618718",
    "checked": "2026-11-17",
-   "last": "2026-11-21"
+   "last": "2026-11-27"
   },
   "ruby waters": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/c9/53/e3c953f6-740f-9280-2c4d-4786ff51e006/276059.jpg/400x400bb.jpg",
@@ -778,13 +732,6 @@
    "link": "https://music.apple.com/us/artist/samara-joy/1538636625",
    "checked": "2026-11-17",
    "last": "2027-03-02"
-  },
-  "saving abel": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/6b/e8/08/6be80855-b381-5286-ee00-166fd93683c0/dj.qkpyrdrj.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/saving-abel/164600410",
-   "checked": "2026-11-17",
-   "last": "2026-11-21"
   },
   "scott bradlee s postmodern jukebox": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/c1/a6/84c1a613-e5f7-6bbf-2037-751fce74795a/dj.qbwflfub.jpg/400x400bb.jpg",
@@ -838,10 +785,6 @@
    "link": "https://music.apple.com/us/artist/sullivan-king/833869649",
    "checked": "2026-11-17",
    "last": "2027-03-27"
-  },
-  "take3": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "tantric": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/87/a7/a9/mzi.utgqehls.jpg/400x400bb.jpg",
@@ -1023,54 +966,6 @@
   }
  },
  "shows": {
-  "2026-11-21-blueroomkc-alex-abramovitz-and-his-swing-n-kansas-city-jazz-band": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197822630%252F2197883838193%252F1%252Foriginal.20261112-045049%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dec1e49d8b70b66676771531ec8425059&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-21-bottleneck-noah-bowman": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
-  "2026-11-21-kauffman-kansas-city-symphony--brahms--german-requiem": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kcbbslawnside-nick-schnebelen": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kcblackdolphin-rss-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kcblackdolphin-sam-platt-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kcfolly-bernadette-peters": {
-   "img": "https://follytheater.org/wp-content/uploads/2026/07/ATT00002-scaled-e1776104656370-600x600-1.jpg",
-   "src": "venue"
-  },
-  "2026-11-21-kcoutlawcigar-saving-abel": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kctruman-nightlite": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-kcuptown-little-river-band": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-knuckleheads-katy-guillen-and-the-drive": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-21-midwesttrust-take3--where-rock-meets-bach": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-22-bottleneck-friendsgiving": {
    "none": true,
    "checked": "2026-11-20"
