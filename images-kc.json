@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-23T10:37:53.390Z",
+ "updated": "2026-11-23T14:47:14.276Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -26,7 +26,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/amy-grant/94363",
    "checked": "2026-11-20",
-   "last": "2026-12-07"
+   "last": "2026-12-07",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/54/24/ce5424cb-102f-1189-be0c-a7ecaca2dc42/mzaf_1592788797784282092.plus.aac.p.m4a",
+    "t": "Hark! The Herald Angels Sing"
+   }
   },
   "an irish celebration": {
    "none": true,
@@ -38,7 +42,8 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/andrew-mcmahon/3193956",
    "checked": "2026-11-18",
-   "last": "2027-02-19"
+   "last": "2027-02-19",
+   "pvNone": "2026-11-23"
   },
   "ashley davis": {
    "none": true,
@@ -49,7 +54,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/atmosphere/2556490",
    "checked": "2026-11-17",
-   "last": "2027-02-04"
+   "last": "2027-02-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/d1/fc/ebd1fc8c-63b6-b44d-4656-7af7308b6edb/mzaf_16436378261354727254.plus.aac.p.m4a",
+    "t": "Nostalgia"
+   }
   },
   "bach s musical offering": {
    "none": true,
@@ -79,7 +88,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/big-luke-and-the-soul-disciples/1719923253",
    "checked": "2026-11-17",
-   "last": "2026-11-28"
+   "last": "2026-11-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ac/91/1b/ac911b3f-3555-ab51-3eba-7132498fb04e/mzaf_15530855879469772726.plus.aac.p.m4a",
+    "t": "Say a Prayer for Me"
+   }
   },
   "black panther in concert": {
    "none": true,
@@ -109,7 +122,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/bumpin-uglies/445871157",
    "checked": "2026-11-17",
-   "last": "2027-02-06"
+   "last": "2027-02-06",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/7a/fe/247afe5e-2e89-54ea-4026-e59ea7849520/mzaf_17333871397810391595.plus.aac.p.m4a",
+    "t": "Bad Decisions"
+   }
   },
   "cantus": {
    "none": true,
@@ -124,21 +141,33 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chicken-wire-empire/1155298124",
    "checked": "2026-11-17",
-   "last": "2027-02-27"
+   "last": "2027-02-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/cf/a4/2ccfa40f-ea54-44af-cf5a-309dc2807951/mzaf_15773356795556192400.plus.aac.p.m4a",
+    "t": "Going Down the Road Feeling Bad"
+   }
   },
   "chris hazelton": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/99/bd/cd/99bdcdfe-3624-6e6b-8132-4fdf5f6d6b86/820233346535.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/author/chris-hazelton/id366255478",
    "checked": "2026-11-18",
-   "last": "2026-12-11"
+   "last": "2026-12-11",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a5/c6/54/a5c654bd-e0f7-a27d-cfed-c434ac756371/mzaf_14849207367250158814.plus.aac.p.m4a",
+    "t": "Easy Talk"
+   }
   },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chrissy-chlapecka/1663699402",
    "checked": "2026-11-17",
-   "last": "2026-11-30"
+   "last": "2026-11-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/12/00/b61200b3-7ff0-010e-eb5a-0e666dca2e4e/mzaf_10257595990423095919.plus.aac.p.m4a",
+    "t": "Passionfruit"
+   }
   },
   "christmas with zuzu": {
    "none": true,
@@ -149,7 +178,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/conor-oberst/202642374",
    "checked": "2026-11-17",
-   "last": "2027-02-19"
+   "last": "2027-02-19",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/40/0e/c0400e8a-1af4-1198-3d5a-a762a03dea1c/mzaf_2504667669130877995.plus.aac.p.m4a",
+    "t": "Cape Canaveral"
+   }
   },
   "crimewave": {
    "none": true,
@@ -169,21 +202,33 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/danielle-nicole/1035038817",
    "checked": "2026-11-18",
-   "last": "2026-11-28"
+   "last": "2026-11-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/85/af/b285afc4-a97f-386f-0048-db66326d3c52/mzaf_16255611993120636994.plus.aac.p.m4a",
+    "t": "Save Me"
+   }
   },
   "darkest hour": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/76/7c/67/mzi.jpwfwzec.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/darkest-hour/15366902",
    "checked": "2026-11-20",
-   "last": "2026-12-03"
+   "last": "2026-12-03",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/08/bc/35/08bc3512-e217-6ac9-9181-5a21c846c04e/mzaf_3122529051771717579.plus.aac.p.m4a",
+    "t": "Salvation"
+   }
   },
   "darryl white": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ab/07/28/ab0728cf-e395-6f4d-9426-24547343cd33/cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/darryl-white/188959321",
    "checked": "2026-11-17",
-   "last": "2026-12-05"
+   "last": "2026-12-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2c/90/5f/2c905f5d-5364-62cc-9acd-60c51bb4136b/mzaf_17484499823269838853.plus.aac.p.m4a",
+    "t": "Italian Restaurant"
+   }
   },
   "david cook": {
    "none": true,
@@ -208,7 +253,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/dinosaur-jr/509577",
    "checked": "2026-11-17",
-   "last": "2027-03-02"
+   "last": "2027-03-02",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/3e/72/cf3e72e3-c461-286a-f3ca-5d471caf9c01/mzaf_9439907079614176442.plus.aac.p.m4a",
+    "t": "Feel the Pain"
+   }
   },
   "disco dick and the mirrorballs": {
    "none": true,
@@ -223,7 +272,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/drum-dye/6798429935",
    "checked": "2026-11-17",
-   "last": "2026-12-06"
+   "last": "2026-12-06",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/e9/75/2ce97566-ec14-ebf0-2398-4a684555f6cd/mzaf_9450645700107848878.plus.aac.p.m4a",
+    "t": "Who’s Gonna Chop My Baby’s Kindling?"
+   }
   },
   "dylan gossett": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
@@ -237,7 +290,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/eboni-fondren/1659236328",
    "checked": "2026-11-17",
-   "last": "2026-12-04"
+   "last": "2026-12-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/a2/e9/afa2e9c3-6391-57de-1127-191daacd34de/mzaf_2130404436844695987.plus.aac.p.m4a",
+    "t": "1,000,0005"
+   }
   },
   "echos": {
    "none": true,
@@ -274,7 +331,8 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/found-a-job/1726669037",
    "checked": "2026-11-18",
-   "last": "2026-11-25"
+   "last": "2026-11-25",
+   "pvNone": "2026-11-23"
   },
   "from ashes to new": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
@@ -288,14 +346,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/gavin-adcock/1580645019",
    "checked": "2026-11-17",
-   "last": "2026-12-08"
+   "last": "2026-12-08",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/90/18/7d9018d8-cbf8-1d4a-fc55-52160372e5c5/mzaf_14438250892902841909.plus.aac.p.m4a",
+    "t": "Last One To Know"
+   }
   },
   "grace potter": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/76/b0/9d76b00f-f30c-ac3f-e553-986a21f59df6/19CRGIM11892.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/grace-potter/112137839",
    "checked": "2026-11-17",
-   "last": "2027-02-25"
+   "last": "2027-02-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/d6/20/28d620ca-e8fd-b049-9837-647b74c6fa1e/mzaf_13120188357731912785.plus.aac.p.m4a",
+    "t": "Paris (Ooh La La)"
+   }
   },
   "guilt trip": {
    "none": true,
@@ -306,7 +372,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/ha-ha-tonka/263244918",
    "checked": "2026-11-18",
-   "last": "2026-11-25"
+   "last": "2026-11-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/f1/e6/8bf1e689-981d-ad5c-3186-473281c4d5d4/mzaf_3505908110315656887.plus.aac.p.m4a",
+    "t": "Lessons"
+   }
   },
   "heartland men s chorus": {
    "none": true,
@@ -321,7 +391,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/home-free/266440748",
    "checked": "2026-11-17",
-   "last": "2026-12-16"
+   "last": "2026-12-16",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/b4/fe/80b4fe3b-7aae-f9e4-27db-af13b4975ce9/mzaf_16093817629052072437.plus.aac.p.m4a",
+    "t": "Sea Shanty Medley"
+   }
   },
   "howard mahan s turkey eve bash": {
    "none": true,
@@ -352,14 +426,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/james-mcmurtry/470424",
    "checked": "2026-11-18",
-   "last": "2027-03-05"
+   "last": "2027-03-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/08/38/b00838f9-3de5-3171-eac5-427aa842fda4/mzaf_467424671658928478.plus.aac.p.m4a",
+    "t": "We Can't Make It Here"
+   }
   },
   "jazz at lincoln center orchestra with wynton marsalis": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/f1/b0/eaf1b0eb-dc3c-140d-0f69-73acb956f2eb/886445565065.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jazz-at-lincoln-center-orchestra/268974718",
    "checked": "2026-11-20",
-   "last": "2027-03-09"
+   "last": "2027-03-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/8b/fd/c68bfd69-87cd-4b50-9a00-64ed9429b446/mzaf_1320149172442532132.plus.aac.p.m4a",
+    "t": "Everybody's Waitin' for: The Man with the Bag (feat. Veronica Swift)"
+   }
   },
   "jazz noon": {
    "none": true,
@@ -385,28 +467,44 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jon-spencer/4306692",
    "checked": "2026-11-20",
-   "last": "2027-01-23"
+   "last": "2027-01-23",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/c7/c7/35c7c72d-5706-bb3c-028b-2edf83e93327/mzaf_10341348165831615952.plus.aac.p.m4a",
+    "t": "Nevermore Blues"
+   }
   },
   "josh meloy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/f0/da/00/f0da006d-234c-49a3-5fc2-c62a1cae83d9/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/josh-meloy/1373834116",
    "checked": "2026-11-17",
-   "last": "2027-02-05"
+   "last": "2027-02-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/a5/a8/40a5a8af-9a5e-d3a1-bc80-8af4c4b76c09/mzaf_17438786170051663745.plus.aac.p.m4a",
+    "t": "Met the Devil in Oklahoma"
+   }
   },
   "kansas city jazz orchestra": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/5f/0a/b15f0a56-bef7-7bc9-a66e-d144b2a3e141/mzi.ltkzbqdy.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-jazz-orchestra/304351156",
    "checked": "2026-11-17",
-   "last": "2026-12-12"
+   "last": "2026-12-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/fc/e3/42fce39a-e16a-7098-6606-2774bae8b139/mzaf_13073755851286385830.plus.aac.p.m4a",
+    "t": "One O'clock Jump"
+   }
   },
   "kansas city symphony": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e5/44/e7/e544e776-a8d8-7611-310c-66c013e82305/887396196209.tif/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
    "checked": "2026-11-18",
-   "last": "2026-11-27"
+   "last": "2026-11-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/60/21/0d6021c0-6021-096a-50e7-12bb0b8951ec/mzaf_11541663737041635755.plus.aac.p.m4a",
+    "t": "American Symphony: III. Rondo"
+   }
   },
   "kelsey miles": {
    "none": true,
@@ -417,14 +515,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kenny-g/17026",
    "checked": "2026-11-17",
-   "last": "2027-01-17"
+   "last": "2027-01-17",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/bf/99/93bf993b-ce92-1625-925d-97c11d619f1c/mzaf_10371658847105568831.plus.aac.p.m4a",
+    "t": "Songbird"
+   }
   },
   "king s x": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/fd/6a/mzi.fslyylga.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kings-x/157250",
    "checked": "2026-11-17",
-   "last": "2026-12-12"
+   "last": "2026-12-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/f9/21/b6f921b8-45ac-a516-4437-b1074394e233/mzaf_4693104555886641280.plus.aac.p.m4a",
+    "t": "It's Love"
+   }
   },
   "ku symphony orchestra with liberty north high school": {
    "none": true,
@@ -435,7 +541,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kurt-travis/484819804",
    "checked": "2026-11-20",
-   "last": "2026-11-30"
+   "last": "2026-11-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/78/20/ae/7820ae67-c46f-8cbd-e35e-2123f005e449/mzaf_16690586305448562973.plus.aac.p.m4a",
+    "t": "Desperate"
+   }
   },
   "lang lang": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/b0/00/4f/mzi.qkooolpg.jpg/400x400bb.jpg",
@@ -453,7 +563,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/liquid-stranger/69003009",
    "checked": "2026-11-17",
-   "last": "2027-03-04"
+   "last": "2027-03-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
+    "t": "Dissolve"
+   }
   },
   "los lobos": {
    "none": true,
@@ -475,14 +589,19 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/lupita-infante/954759259",
    "checked": "2026-11-18",
-   "last": "2026-12-06"
+   "last": "2026-12-06",
+   "pvNone": "2026-11-23"
   },
   "lydia loveless": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e9/e7/b6/mzi.hxrxqbny.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/lydia-loveless/360720332",
    "checked": "2026-11-18",
-   "last": "2027-02-11"
+   "last": "2027-02-11",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/2b/0f/db2b0f22-8897-1588-4b3e-5f7c51026b64/mzaf_13138019944429028984.plus.aac.p.m4a",
+    "t": "Avoiding Highways"
+   }
   },
   "mannheim steamroller christmas": {
    "none": true,
@@ -515,21 +634,30 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/meshuggah/17304969",
    "checked": "2026-11-17",
-   "last": "2027-02-20"
+   "last": "2027-02-20",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/25/7e/d1257ec4-6738-c416-5871-e4bace5a56d6/mzaf_2085525048182803770.plus.aac.p.m4a",
+    "t": "Bleed (15th Anniversary Remastered 2023 Edition)"
+   }
   },
   "mikole kaar and the kaar club": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/56/ff/3b/56ff3b3d-94e9-6150-9fa4-a01b4214418d/006197612743_Cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/mikole-kaar/1154015942",
    "checked": "2026-11-18",
-   "last": "2026-11-27"
+   "last": "2026-11-27",
+   "pvNone": "2026-11-23"
   },
   "millennial choirs and orchestras": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/74/48/75/744875cf-6198-c79b-19b1-9d6a525eb611/millennialchoirsorchestr.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/millennial-choirs-orchestras/738616844",
    "checked": "2026-11-20",
-   "last": "2026-11-30"
+   "last": "2026-11-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/bd/52/02bd5264-51d4-408d-16fe-926255131aaf/mzaf_7266297617454259109.plus.aac.p.m4a",
+    "t": "O Holy Night (feat. Ashley Stewart)"
+   }
   },
   "modeling": {
    "none": true,
@@ -564,7 +692,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/needtobreathe/113247214",
    "checked": "2026-11-17",
-   "last": "2027-02-23"
+   "last": "2027-02-23",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/57/72/45577244-77e6-f69b-0645-b18b857611ab/mzaf_8476547685397018514.plus.aac.p.m4a",
+    "t": "Brother (feat. Gavin DeGraw)"
+   }
   },
   "new year s eve with neon dance party": {
    "none": true,
@@ -580,21 +712,33 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/pepper/237301",
    "checked": "2026-11-17",
-   "last": "2027-03-09"
+   "last": "2027-03-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/45/9e/2f459e53-5657-035f-393a-7483fd942f54/mzaf_10983033026438036258.plus.aac.p.m4a",
+    "t": "Stone Love"
+   }
   },
   "petey pablo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/75/fd/77/75fd771a-aa69-f5ec-f016-2c2cb9f753a2/mzi.hsybivcb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/petey-pablo/401558",
    "checked": "2026-11-17",
-   "last": "2027-01-15"
+   "last": "2027-01-15",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/c8/5d/dec85d3d-eba0-a7c9-37e1-47995b6c535f/mzaf_10730256657520106762.plus.aac.p.m4a",
+    "t": "Show Me the Money"
+   }
   },
   "pink martini": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/4c/1c/9f/4c1c9f60-dc81-2793-f4d7-a3c2efb94c86/886446154404.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/pink-martini/57663283",
    "checked": "2026-11-20",
-   "last": "2027-03-10"
+   "last": "2027-03-10",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/36/b1/5936b14f-ea70-33d4-65fd-3dee6a8a2aa8/mzaf_8804402560338617231.plus.aac.p.m4a",
+    "t": "Sympathique"
+   }
   },
   "playdead": {
    "none": true,
@@ -610,14 +754,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/preservation-hall-jazz-band/2135649",
    "checked": "2026-11-17",
-   "last": "2026-12-13"
+   "last": "2026-12-13",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/bc/49/e4bc4911-af5e-cf52-349a-abc8d13f9d14/mzaf_5806941591175287433.plus.aac.p.m4a",
+    "t": "When the Saints Go Marching In"
+   }
   },
   "public image ltd": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/36/eb/9136eb83-208c-f9a5-37d0-1cff4672913f/dj.mbmyeirs.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/public-image-ltd/20942761",
    "checked": "2026-11-17",
-   "last": "2027-02-15"
+   "last": "2027-02-15",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/6e/ce/b76eced6-a87c-4869-cb33-7829db5564fa/mzaf_12619237161289082596.plus.aac.p.m4a",
+    "t": "Public Image"
+   }
   },
   "rat tally": {
    "none": true,
@@ -628,7 +780,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/reggaeton-rave/1802074420",
    "checked": "2026-11-18",
-   "last": "2026-11-27"
+   "last": "2026-11-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/4d/f8/d94df899-e35b-e8b2-1557-fd8b12f82594/mzaf_2132259819416148952.plus.aac.p.m4a",
+    "t": "Circoloco"
+   }
   },
   "remi wolf": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/c6/db/9ec6db05-040b-4e63-c099-42406602a4e7/26UMGIM96852.rgb.jpg/400x400bb.jpg",
@@ -658,7 +814,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rick-springfield/197658",
    "checked": "2026-11-17",
-   "last": "2027-03-06"
+   "last": "2027-03-06",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/e6/55/a8e65519-f3e4-6fc9-df6f-0d73a7c68394/mzaf_17578836478971851490.plus.aac.p.m4a",
+    "t": "Jessie's Girl"
+   }
   },
   "road to memphis fundraiser": {
    "none": true,
@@ -669,7 +829,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/robert-earl-keen/330309",
    "checked": "2026-11-17",
-   "last": "2026-12-09"
+   "last": "2026-12-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/ee/92/0bee922a-5845-0b0a-5a63-093ec3eb047d/mzaf_4169506550559338820.plus.aac.p.m4a",
+    "t": "The Road Goes On Forever"
+   }
   },
   "rodney marsalis with bach aria soloists": {
    "none": true,
@@ -680,7 +844,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rss-trio/1480618718",
    "checked": "2026-11-17",
-   "last": "2026-11-27"
+   "last": "2026-11-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f8/e2/34/f8e234ff-95ab-59a8-ed4b-73c063f6c9d9/mzaf_14204617799293332764.plus.aac.p.m4a",
+    "t": "Allison Sucks"
+   }
   },
   "ruby waters": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/c9/53/e3c953f6-740f-9280-2c4d-4786ff51e006/276059.jpg/400x400bb.jpg",
@@ -710,7 +878,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/samara-joy/1538636625",
    "checked": "2026-11-17",
-   "last": "2027-03-02"
+   "last": "2027-03-02",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/65/0f/de650fd1-f4c5-ff26-775d-63ca4c990bd2/mzaf_12142558896384871202.plus.aac.p.m4a",
+    "t": "Guess Who I Saw Today"
+   }
   },
   "scott bradlee s postmodern jukebox": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/c1/a6/84c1a613-e5f7-6bbf-2037-751fce74795a/dj.qbwflfub.jpg/400x400bb.jpg",
@@ -724,7 +896,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/skerryvore/300881652",
    "checked": "2026-11-17",
-   "last": "2027-01-24"
+   "last": "2027-01-24",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/2a/f6/752af651-bed1-284e-8a9e-0af534da53bb/mzaf_3118494825781237096.plus.aac.p.m4a",
+    "t": "Take My Hand"
+   }
   },
   "slash featuring myles kennedy and the conspirators": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/69/d3/c9/69d3c98a-c03e-f0ac-ecc0-dccce1590b76/mzi.ivgabvqb.jpg/400x400bb.jpg",
@@ -742,7 +918,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/smith-myers/797363260",
    "checked": "2026-11-17",
-   "last": "2027-01-19"
+   "last": "2027-01-19",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/9d/b1/1a9db19c-bda7-555b-d94d-8a0bd11423c5/mzaf_15984074185715943689.plus.aac.p.m4a",
+    "t": "NOT MAD ENOUGH"
+   }
   },
   "staind": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/b9/a2/6eb9a297-89af-f85e-49d0-ef1d62b8d259/mzi.ifagooar.jpg/400x400bb.jpg",
@@ -756,7 +936,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/stranded-in-the-city/1474793940",
    "checked": "2026-11-18",
-   "last": "2026-11-27"
+   "last": "2026-11-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/44/22/46/44224691-987c-2605-ed55-3a06e927711f/mzaf_2673409973703989837.plus.aac.p.m4a",
+    "t": "Cruise"
+   }
   },
   "sullivan king": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/61/21/da/6121da90-1175-b86b-ce38-4480d375f3f8/742779546258.png/400x400bb.jpg",
@@ -770,7 +954,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/tantric/1248961",
    "checked": "2026-11-17",
-   "last": "2026-12-17"
+   "last": "2026-12-17",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/5e/10/305e1026-f421-1519-eebb-5a20703f5b1e/mzaf_7976159928898726532.plus.aac.p.m4a",
+    "t": "Breakdown"
+   }
   },
   "tetsuya nishiyama trio": {
    "none": true,
@@ -807,14 +995,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-rock-gods/283561499",
    "checked": "2026-11-17",
-   "last": "2027-01-30"
+   "last": "2027-01-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f7/b0/c7/f7b0c7eb-5fa1-0211-3140-f2647c4e4401/mzaf_12589879412866795398.plus.aac.p.m4a",
+    "t": "Hotel California"
+   }
   },
   "the slide syndikcate": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/15/2c/83152c34-8c07-01ba-135b-532b74e34845/artwork.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-slide-syndikcate/1879395493",
    "checked": "2026-11-17",
-   "last": "2026-12-12"
+   "last": "2026-12-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/e9/e7/36e9e7c2-21d3-e153-7546-6fa952c8aab3/mzaf_11427588409396287687.plus.aac.p.m4a",
+    "t": "Blindman, Blindman"
+   }
   },
   "the taylor party": {
    "none": true,
@@ -844,7 +1040,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/trans-siberian-orchestra/165340",
    "checked": "2026-11-18",
-   "last": "2026-12-29"
+   "last": "2026-12-29",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/70/c4/cd70c456-dacc-58a9-f389-5b7ceb18ae91/mzaf_7116838988915665212.plus.aac.p.m4a",
+    "t": "Christmas / Sarajevo 12/24 (Instrumental)"
+   }
   },
   "trombone shorty and orleans avenue": {
    "none": true,
@@ -871,7 +1071,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/wade-forster/1576096307",
    "checked": "2026-11-20",
-   "last": "2026-12-09"
+   "last": "2026-12-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/d0/9e/79d09e5f-95a3-4242-5f22-499de06911da/mzaf_7310114552941857399.plus.aac.p.m4a",
+    "t": "Anytime, Anywhere, Antoinette"
+   }
   },
   "warren zeiders": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/73/3e/32/733e326f-9a5b-dc51-5117-e49524c304b3/093624874614.jpg/400x400bb.jpg",
@@ -885,14 +1089,19 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/wheeler-walker-jr/1031980513",
    "checked": "2026-11-17",
-   "last": "2027-02-26"
+   "last": "2027-02-26",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/8d/70/1e8d70c4-da51-d4e6-c872-e8c81d8037a3/mzaf_6137918486594514152.plus.aac.p.m4a",
+    "t": "She's a Country Music Fan"
+   }
   },
   "william elliott whitmore and will hoge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/63/0b/f1/630bf127-4e2c-29ff-de84-91493b7d6318/0045778697465.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/william-elliott-whitmore/103176388",
    "checked": "2026-11-20",
-   "last": "2027-01-22"
+   "last": "2027-01-22",
+   "pvNone": "2026-11-23"
   },
   "winter jam 2027": {
    "none": true,
@@ -912,14 +1121,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/wonkywilla/1508461892",
    "checked": "2026-11-17",
-   "last": "2026-11-25"
+   "last": "2026-11-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/0f/ae/010fae75-a2ef-5375-91a7-7b0b032c85e7/mzaf_3864864382555149840.plus.aac.p.m4a",
+    "t": "Is U Rollin (VIP)"
+   }
   },
   "wynonna": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d10/h18/s06.tbjhjtkx.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/wynonna/59936",
    "checked": "2026-11-17",
-   "last": "2027-02-18"
+   "last": "2027-02-18",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/1e/26/9d1e2653-fc78-e804-e65d-b3d72196be61/mzaf_15352599080843938486.plus.aac.p.m4a",
+    "t": "No One Else On Earth"
+   }
   },
   "yamato": {
    "none": true,
@@ -930,14 +1147,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/your-arms-are-my-cocoon/1531332217",
    "checked": "2026-11-17",
-   "last": "2026-11-30"
+   "last": "2026-11-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/17/8d/f5178ddd-cebf-6bc2-1af4-3822fb6bc92b/mzaf_16964444401739867311.plus.aac.p.m4a",
+    "t": "Metamorphosis"
+   }
   },
   "yung gravy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/yung-gravy/1165036761",
    "checked": "2026-11-17",
-   "last": "2026-11-24"
+   "last": "2026-11-24",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/58/58/e55858b7-4771-b225-fd78-d2506be54d30/mzaf_229674367449994846.plus.aac.p.m4a",
+    "t": "Betty (Get Money)"
+   }
   }
  },
  "shows": {
