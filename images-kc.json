@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-22T12:22:20.978Z",
+ "updated": "2026-11-23T10:37:53.390Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -100,13 +100,6 @@
    "checked": "2026-11-17",
    "last": "2027-04-10"
   },
-  "brandi carlile": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/d1/31/mzi.nmwgtsqv.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/brandi-carlile/64387579",
-   "checked": "2026-11-18",
-   "last": "2026-11-22"
-  },
   "brody buster one man band": {
    "none": true,
    "checked": "2026-11-18"
@@ -125,13 +118,6 @@
   "celebrating meat loaf": {
    "none": true,
    "checked": "2026-11-20"
-  },
-  "chat pile": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/c1/cc/99c1ccf0-5ac1-201e-e448-f026b24bb173/733102722630.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/chat-pile/1467043756",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
   },
   "chicken wire empire": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/8c/5c/c6/8c5cc6af-7e0c-6b42-2f7f-7c8db9cd913d/888295827584.jpg/400x400bb.jpg",
@@ -237,7 +223,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/drum-dye/6798429935",
    "checked": "2026-11-17",
-   "last": "2026-11-22"
+   "last": "2026-12-06"
   },
   "dylan gossett": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
@@ -289,13 +275,6 @@
    "link": "https://music.apple.com/us/artist/found-a-job/1726669037",
    "checked": "2026-11-18",
    "last": "2026-11-25"
-  },
-  "friendsgiving": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/2b/0f/962b0f34-d500-e553-3bdf-428ade39c278/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/friendsgiving/1657754614",
-   "checked": "2026-11-20",
-   "last": "2026-11-22"
   },
   "from ashes to new": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
@@ -427,7 +406,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
    "checked": "2026-11-18",
-   "last": "2026-11-22"
+   "last": "2026-11-27"
   },
   "kelsey miles": {
    "none": true,
@@ -883,10 +862,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "udit narayan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "united we dance": {
    "none": true,
    "checked": "2026-11-20"
@@ -966,30 +941,6 @@
   }
  },
  "shows": {
-  "2026-11-22-bottleneck-friendsgiving": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
-  "2026-11-22-granadalawrence-chat-pile": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-kauffman-kansas-city-symphony--brahms--german-requiem": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-kcbbslawnside-drum---dye": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-kcmidland-udit-narayan": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-kcuptown-brandi-carlile": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-23-blueroomkc-monday-night-jam-session--stan-kessler-quartet": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885350%252F2197883838193%252F1%252Foriginal.20261015-174923%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D3dfa20038d3fa1df76a32c3091590ccb&w=940&q=75",
    "src": "venue"

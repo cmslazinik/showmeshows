@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-22T12:22:20.973Z",
+ "updated": "2026-11-23T10:37:53.383Z",
  "artists": {
   "1tbsp": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
@@ -566,7 +566,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/colorado-symphony/29769512",
    "checked": "2026-11-18",
-   "last": "2026-11-22"
+   "last": "2026-12-11"
   },
   "colorado symphony and chorus": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c1/31/9b/c1319be9-8b93-c97c-7221-c2db3f97e804/mzi.ltdhdjhy.jpg/400x400bb.jpg",
@@ -1007,10 +1007,6 @@
    "checked": "2026-11-18",
    "last": "2026-12-11"
   },
-  "gila teen": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "glueman": {
    "none": true,
    "checked": "2026-11-17"
@@ -1310,13 +1306,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "jervis campbell": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1d/e1/f5/1de1f5a5-b9b5-3455-b042-d684218e3c0e/859749645566_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/jervis-campbell/1367246006",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
-  },
   "jess williamson": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/c1/31/74/c1317436-d2af-353d-1880-e8c5955f8d5e/859711881480_cover.tif/400x400bb.jpg",
    "src": "apple",
@@ -1475,10 +1464,6 @@
    "checked": "2026-11-18",
    "last": "2026-12-05"
   },
-  "kings of latin jazz": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "kip moore": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d9/38/c9/d938c9a3-ab1e-5d00-5832-4af00dac6b85/00602577202766.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1492,11 +1477,6 @@
    "link": "https://music.apple.com/us/artist/kream/1082901629",
    "checked": "2026-11-20",
    "last": "2027-02-12"
-  },
-  "ktcl presents": {
-   "none": true,
-   "checked": "2026-11-17",
-   "skip": "event"
   },
   "kygo st jude jam": {
    "none": true,
@@ -1787,10 +1767,6 @@
    "link": "https://music.apple.com/us/artist/neuromorphic/1563494673",
    "checked": "2026-11-19",
    "last": "2026-12-18"
-  },
-  "nick forster s hippy bluegrass church": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "nickelback": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ba/e4/40/bae44075-8cd6-ca2e-7f90-845983f30a70/mzi.tprsucpv.jpg/400x400bb.jpg",
@@ -2213,10 +2189,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "sap": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "satsang": {
    "none": true,
    "checked": "2026-11-21"
@@ -2407,10 +2379,6 @@
    "link": "https://music.apple.com/us/artist/stillhouse-junkies/1318088135",
    "checked": "2026-11-17",
    "last": "2026-11-28"
-  },
-  "strawberry girls": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "strongboi": {
    "none": true,
@@ -2674,10 +2642,6 @@
   "the powell brothers honor coltrane and miles": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "the psych ward punk show": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "the reals": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/8c/ce/338cce02-32d0-3ca0-7796-5d8933c012a8/artwork.jpg/400x400bb.jpg",
@@ -3049,54 +3013,6 @@
   }
  },
  "shows": {
-  "2026-11-22-bluebird-jervis-campbell": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-boettcher-colorado-symphony--elgar-cello-concerto---dvo--k-symphony-no--7-with-peter-oundjian": {
-   "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-6-Elgar-Cello-720x400-1.jpg",
-   "src": "venue"
-  },
-  "2026-11-22-dazzle-kings-of-latin-jazz--tito-puente-jr----nestor-torres": {
-   "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_65e7a2e983e37901716128a3d5d6a89b51bd4ae097b8b49ea95e61e3a3531823.jpg",
-   "src": "venue"
-  },
-  "2026-11-22-etown-nick-forster-s-hippy-bluegrass-church": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-globehall-sap": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-herbs-daddy---company": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-hidive-gila-teen": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-larimer-the-psych-ward-punk-show--hollowforestrecords": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-larumba-salsa-sundays-at-la-rumba": {
-   "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
-   "src": "venue"
-  },
-  "2026-11-22-marquis-strawberry-girls": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-nocturne-the-zach-howarth-quartet-plays-joe-henderson": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-summit-ktcl-presents--the-unlikely-candidates": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-23-herbs-monday-night-jazz-with-vlad-girshevich": {
    "none": true,
    "checked": "2026-11-17"

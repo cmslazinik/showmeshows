@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-22T12:23:07.679Z",
+ "updated": "2026-11-23T10:37:53.395Z",
  "artists": {
   "2hollis": {
    "none": true,
@@ -21,13 +21,6 @@
   "93feetofsmoke": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "adam doleac": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2d/83/70/2d8370db-fb71-7770-09b6-b888a1c5bc3a/196589236067.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/adam-doleac/1161381044",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
   },
   "after the calm": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c1/2e/64/c12e64ba-c870-9c3c-bdef-d307d0d850da/742574064803.jpg/400x400bb.jpg",
@@ -118,13 +111,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "as i lay dying": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a7/fb/bb/a7fbbb26-78d3-498d-34b8-a32c86819b33/mzi.gnrzimtc.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/as-i-lay-dying/54266496",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
   },
   "ashe": {
    "none": true,
@@ -323,13 +309,6 @@
   "chmura": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "chris botti": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/4e/aa/384eaa85-b267-6afe-e4fd-2ffe192cc1d9/mzi.iyazceoj.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/chris-botti/38341",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
   },
   "chris simpson": {
    "none": true,
@@ -2213,18 +2192,6 @@
   }
  },
  "shows": {
-  "2026-11-22-crescentballroom-as-i-lay-dying": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-mimtheater-chris-botti": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-rebellounge-adam-doleac": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-23-mimtheater-steep-canyon-rangers": {
    "none": true,
    "checked": "2026-11-17"

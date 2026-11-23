@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for St. Louis. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-22T12:19:40.545Z",
+ "updated": "2026-11-23T10:37:53.372Z",
  "artists": {
   "1 productions presents": {
    "none": true,
@@ -231,6 +231,13 @@
    "checked": "2026-11-17",
    "last": "2026-12-26"
   },
+  "brendan bayliss": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/23/c7/34/23c734cb-81c3-411a-dc02-41f8c40607f2/859743259806_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/brendan-bayliss/457576819",
+   "checked": "2026-11-23",
+   "last": "2026-12-02"
+  },
   "brett eldredge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b0/45/d2/b045d2b3-77af-13e9-8437-17e87c2f3e32/075679950024.jpg/400x400bb.jpg",
    "src": "apple",
@@ -440,13 +447,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "dweezil zappa": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music41/v4/77/45/89/77458903-da95-b08a-1947-3cb675132b86/mzm.abaioscy.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/dweezil-zappa/2324179",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
-  },
   "dylan gossett": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -560,6 +560,13 @@
   "ghost kitchen": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "glenn jones": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/80/e2/bc80e2bc-cd8b-32ad-98b1-0302caafb65e/mzi.lnqfpbey.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/glenn-jones/2624170",
+   "checked": "2026-11-23",
+   "last": "2026-12-13"
   },
   "grace potter and the trespassers": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9d/76/b0/9d76b00f-f30c-ac3f-e553-986a21f59df6/19CRGIM11892.rgb.jpg/400x400bb.jpg",
@@ -732,11 +739,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "jim manley jazz brunch": {
-   "none": true,
-   "checked": "2026-11-17",
-   "skip": "event"
-  },
   "jody nardone trio": {
    "none": true,
    "checked": "2026-11-18"
@@ -775,6 +777,10 @@
    "link": "https://music.apple.com/us/artist/joslyn-the-sweet-compression/1363810784",
    "checked": "2026-11-18",
    "last": "2026-11-29"
+  },
+  "jubu smith": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "julian lage": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/fc/b7/15fcb740-5744-050e-be00-a6cc265a6669/20UM1IM17831.rgb.jpg/400x400bb.jpg",
@@ -830,6 +836,17 @@
   "kawaii rave": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "king s x": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/fd/6a/mzi.fslyylga.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/kings-x/157250",
+   "checked": "2026-11-23",
+   "last": "2026-12-14"
+  },
+  "koffin kats": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "kpop night": {
    "none": true,
@@ -1104,6 +1121,13 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "october london": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/80/18/42/80184271-4caf-b74d-df3c-b45f58b66b49/888915283172_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/october-london/1125515360",
+   "checked": "2026-11-23",
+   "last": "2026-12-17"
+  },
   "one way traffic": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/5b/cc/f1/5bccf1d5-878f-3d16-bda1-dbae35668a4d/194660430434.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1162,10 +1186,6 @@
    "checked": "2026-11-18"
   },
   "phil n co featuring brian sax": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
-  "phil n co featuring cree rider": {
    "none": true,
    "checked": "2026-11-18"
   },
@@ -1514,6 +1534,13 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "the hirelings": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b7/1c/77/b71c7768-3c88-1f5f-f01a-96af42028bc5/artwork.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/the-hirelings/1602541607",
+   "checked": "2026-11-23",
+   "last": "2026-12-19"
+  },
   "the interrupters": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/ee/56/13ee560f-87ad-87ba-d371-49e7c7f69a18/0045778053308.png/400x400bb.jpg",
    "src": "apple",
@@ -1535,13 +1562,6 @@
   "the mersey beatles": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "the montvales": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6d/77/ff/6d77ffde-ed6a-7422-46d1-dd1b72b29e1f/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/the-montvales/1525128432",
-   "checked": "2026-11-17",
-   "last": "2026-11-22"
   },
   "the muppet christmas carol in concert": {
    "none": true,
@@ -1791,22 +1811,6 @@
   }
  },
  "shows": {
-  "2026-11-22-bob-phil-n-co-featuring-cree-rider": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-22-evangelines-jim-manley-jazz-brunch": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ad41ab1eb1a031338234dc5/1792285377079/image.jpg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-22-pageant-dweezil-zappa": {
-   "img": "https://www.thepageant.com/wp-content/uploads/2026/06/112226_DweezilZappa_website.jpg",
-   "src": "venue"
-  },
-  "2026-11-22-treefrog-the-montvales": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188634220%252F3007785345435%252F1%252Foriginal.20260710-193240%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Df662f5699429dfb1270d6fd3f0bec296&w=940&q=75",
-   "src": "venue"
-  },
   "2026-11-23-bob-soulard-blues-band": {
    "none": true,
    "checked": "2026-11-17"
@@ -2031,6 +2035,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-02-citywinery-brendan-bayliss": {
+   "none": true,
+   "checked": "2026-11-23"
+  },
   "2026-12-02-duck-twen": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/09/120226_twen_Square-1024x1024.jpg",
    "src": "venue"
@@ -2190,6 +2198,10 @@
   "2026-12-06-bob-meat-sweats": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-06-citywinery-jubu-smith": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "2026-12-06-evangelines-miss-jubilee--hot-swing-jazz-brunch-": {
    "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ad41f895c34411e2fe0cf65/1792286621654/image.jpeg?format=1500w",
@@ -2367,6 +2379,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "2026-12-12-redflag-koffin-kats": {
+   "none": true,
+   "checked": "2026-11-23"
+  },
   "2026-12-12-redflag-voodoo-glow-skulls": {
    "none": true,
    "checked": "2026-11-17"
@@ -2374,6 +2390,10 @@
   "2026-12-12-sheldon-pianist-peter-t--noonan--2-big-nights": {
    "img": "https://www.metrotix.com/assets/img/PeterNoonan2026_spotlight-2746d34514.jpg",
    "src": "venue"
+  },
+  "2026-12-13-citywinery-glenn-jones": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "2026-12-13-darkroom-sarah-politte": {
    "img": "https://www.metrotix.com/assets/img/SarahPolitte_spotlight-e6409f4c64.jpg",
@@ -2406,6 +2426,10 @@
   "2026-12-14-bob-soulard-blues-band": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-14-citywinery-king-s-x": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "2026-12-14-duck-guilt-trip": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/08/121426_GuiltTrip_Square.jpg",
@@ -2458,6 +2482,10 @@
   "2026-12-17-bob-drew-lance---friends": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-17-citywinery-october-london": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "2026-12-17-familyarena-the-gatlin-brothers": {
    "none": true,
@@ -2554,6 +2582,10 @@
   "2026-12-19-delmar-funky-butt-brass-band": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "2026-12-19-duck-the-hirelings": {
+   "none": true,
+   "checked": "2026-11-23"
   },
   "2026-12-19-factory-jon-pardi": {
    "none": true,
