@@ -131,7 +131,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 @media (max-width:520px){.show{grid-template-columns:1fr}.side-tags{flex-direction:row;align-items:center;flex-wrap:wrap}}
 .show.has-pic{grid-template-columns:76px minmax(0,1fr) auto}
 .thumb{width:76px;height:76px;border:2px solid var(--ink);background:#2a2925;overflow:hidden;align-self:start;margin-top:2px;position:relative}
-.thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(1) contrast(1.2) brightness(1.02)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;filter:none}
 .show.has-banner{grid-template-columns:minmax(0,1fr) auto}
 .show.has-banner .thumb{grid-column:1/-1;width:100%;height:auto;aspect-ratio:16/9;max-height:230px;margin:0 0 6px;transform:none}
 .show.has-banner .thumb img{object-position:center 30%}
@@ -142,7 +142,7 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .snd:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 .snd-cap{font-family:var(--font-type);font-size:12.5px;color:var(--muted);margin:3px 0 0}
 .photo-prev{display:flex;align-items:center;gap:12px;margin:6px 0 4px}
-.photo-prev img{width:72px;height:72px;object-fit:cover;border:2px solid var(--ink);filter:grayscale(1) contrast(1.2)}
+.photo-prev img{width:72px;height:72px;object-fit:cover;border:2px solid var(--ink)}
 .adm-pic{width:64px;height:64px;object-fit:cover;border:2px solid var(--ink);float:left;margin:0 12px 6px 0}
 @media (max-width:520px){.show.has-pic{grid-template-columns:62px minmax(0,1fr);column-gap:12px}.thumb{width:62px;height:62px}.show.has-pic .side-tags{grid-column:1/-1}.show.has-banner{grid-template-columns:minmax(0,1fr)}.show.has-banner .thumb{width:100%;height:auto}.show.has-pic:not(.has-banner) .acts{margin-left:-74px;width:calc(100% + 74px)}}
 .pill{font-family:var(--font-mono);font-size:11px;text-transform:uppercase;padding:3px 7px;border:1.5px solid var(--ink);white-space:nowrap}
@@ -968,7 +968,7 @@ async function makeFlyer(s){
         g.fillStyle=INK; g.fillRect(-bw/2-8,-bh/2-8,bw+16,bh+16);
         g.beginPath(); g.rect(-bw/2,-bh/2,bw,bh); g.clip();
         const sc=Math.max(bw/img.naturalWidth,bh/img.naturalHeight), iw=img.naturalWidth*sc, ih=img.naturalHeight*sc;
-        try{ g.filter="grayscale(1) contrast(1.25)"; }catch(e){}
+
         g.drawImage(img,-iw/2,-ih/2-(ih-bh)*0.15,iw,ih); g.filter="none"; g.restore();
         for (const [tx,ty,r] of [[bx+bw-130,y-4,0.12],[bx+120,y+bh+4,-0.1]]){ g.save(); g.translate(tx,ty); g.rotate(r); g.globalAlpha=.92; g.fillStyle=TAPE; g.fillRect(-85,-22,170,44); g.restore(); }
       }
