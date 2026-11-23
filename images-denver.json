@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-23T10:37:53.383Z",
+ "updated": "2026-11-23T11:19:46.803Z",
  "artists": {
   "1tbsp": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
@@ -484,6 +484,13 @@
    "link": "https://music.apple.com/us/artist/chris-daniels-the-kings/2575695",
    "checked": "2026-11-18",
    "last": "2026-12-11"
+  },
+  "chris tomlin": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0b/af/9a/0baf9a71-6ffe-bef8-d96e-583477ff429e/20UMGIM52447.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "link": "https://music.apple.com/us/artist/chris-tomlin/569510",
+   "checked": "2026-11-23",
+   "last": "2027-05-24"
   },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
@@ -5512,6 +5519,10 @@
   "2027-05-23-redrocks-matchbox-twenty---30": {
    "none": true,
    "checked": "2026-11-21"
+  },
+  "2027-05-24-redrocks-chris-tomlin-worship-under-the-stars": {
+   "none": true,
+   "checked": "2026-11-23"
   }
  },
  "generic": [
