@@ -135,6 +135,12 @@ main.grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;paddin
 .show.has-banner{grid-template-columns:minmax(0,1fr) auto}
 .show.has-banner .thumb{grid-column:1/-1;width:100%;height:auto;aspect-ratio:16/9;max-height:230px;margin:0 0 6px;transform:none}
 .show.has-banner .thumb img{object-position:center 30%}
+.artist-row{display:flex;align-items:flex-start;gap:10px}
+.snd{flex:none;width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);background:var(--pink);color:#0B0B0B;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;margin-top:-2px;--p:0}
+.snd svg{width:14px;height:14px}
+.snd.on{background:conic-gradient(var(--pink) calc(var(--p)*1%),var(--card) 0);color:var(--ink)}
+.snd:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.snd-cap{font-family:var(--font-type);font-size:12.5px;color:var(--muted);margin:3px 0 0}
 .photo-prev{display:flex;align-items:center;gap:12px;margin:6px 0 4px}
 .photo-prev img{width:72px;height:72px;object-fit:cover;border:2px solid var(--ink);filter:grayscale(1) contrast(1.2)}
 .adm-pic{width:64px;height:64px;object-fit:cover;border:2px solid var(--ink);float:left;margin:0 12px 6px 0}
@@ -896,6 +902,130 @@ async function reportPhoto(s,pic,btn){
   }
   setTimeout(()=>render(),900);
 }
+/* ---------- Sound check: 30-second Apple Music previews ---------- */
+function pvOf(s){
+  const k=picKey(s), a=IMAGES.artists[k], f="a:"+k;
+  if (!a || !a.pv || typeof a.pv.u!=="string" || !/^https:\/\/[a-z0-9.-]*(mzstatic|apple)\.com\//.test(a.pv.u)) return null;
+  if (state.imgBlocked.has(f) || hiddenPics().has(f)) return null;
+  return {u:a.pv.u, t:String(a.pv.t||""), flag:f};
+}
+const SND_PLAY='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 4l14 8-14 8z"/></svg>';
+const SND_STOP='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="5" y="4" width="5" height="16"/><rect x="14" y="4" width="5" height="16"/></svg>';
+var sndNow=null;
+function sndStop(){ if (!sndNow) return; const n=sndNow; sndNow=null; n.audio.pause(); n.btn.classList.remove("on"); n.btn.innerHTML=SND_PLAY; n.btn.style.setProperty("--p",0);
+  n.btn.setAttribute("aria-label",n.label); n.btn.setAttribute("aria-pressed","false"); if (n.cap) n.cap.remove(); }
+function sndBtn(s,pv){
+  const label="Play a 30-second clip of "+listenName(s)+(pv.t?": "+pv.t:"");
+  const b=el("button",{type:"button",class:"snd","aria-label":label,"aria-pressed":"false",title:"Sound check"}); b.innerHTML=SND_PLAY;
+  b.onclick=()=>{
+    if (sndNow && sndNow.btn===b){ sndStop(); return; }
+    sndStop();
+    const audio=new Audio(pv.u); audio.preload="none";
+    const cap=el("p",{class:"snd-cap",text:"♪ "+(pv.t?"“"+pv.t+"” · ":"")+"Apple Music preview"});
+    const row=b.closest(".artist-row"); if (row) row.after(cap);
+    sndNow={btn:b,audio,label,cap};
+    b.classList.add("on"); b.innerHTML=SND_STOP; b.setAttribute("aria-pressed","true"); b.setAttribute("aria-label","Stop the clip of "+listenName(s));
+    audio.addEventListener("timeupdate",()=>{ if (sndNow && sndNow.audio===audio && audio.duration) b.style.setProperty("--p",Math.round(audio.currentTime/audio.duration*100)); });
+    audio.addEventListener("ended",()=>{ if (sndNow && sndNow.audio===audio) sndStop(); });
+    audio.addEventListener("error",()=>{ if (sndNow && sndNow.audio===audio){ sndStop(); } });
+    audio.play().catch(()=>{ if (sndNow && sndNow.audio===audio) sndStop(); });
+  };
+  return b;
+}
+document.addEventListener("visibilitychange",()=>{ if (document.hidden) sndStop(); });
+
+/* ---------- Instagram story flyer (1080x1920 picture of one show) ---------- */
+function loadImg(src){ return new Promise((res,rej)=>{ const i=new Image(); if (!src.startsWith("data:")) i.crossOrigin="anonymous"; i.onload=()=>res(i); i.onerror=rej; i.src=src; }); }
+function fitFont(ctx,text,family,maxW,maxSize,minSize){ let sz=maxSize; while (sz>minSize){ ctx.font=sz+"px "+family; if (ctx.measureText(text).width<=maxW) break; sz-=4; } return sz; }
+function wrapLines(ctx,text,maxW,maxLines){
+  const words=String(text).split(/\s+/); const lines=[]; let cur="";
+  for (const w of words){ const t=cur?cur+" "+w:w; if (ctx.measureText(t).width<=maxW || !cur) cur=t; else { lines.push(cur); cur=w; } }
+  if (cur) lines.push(cur);
+  if (lines.length>maxLines){ const keep=lines.slice(0,maxLines); let last=keep[maxLines-1]; while (last.length>1 && ctx.measureText(last+"…").width>maxW) last=last.slice(0,-1); keep[maxLines-1]=last+"…"; return keep; }
+  return lines;
+}
+async function makeFlyer(s){
+  await Promise.all([document.fonts.load('100px "Anton"'),document.fonts.load('40px "Special Elite"'),document.fonts.load('700 40px "Archivo"')]).catch(()=>{});
+  const W=1080,H=1920, c=document.createElement("canvas"); c.width=W; c.height=H; const g=c.getContext("2d");
+  const INK="#F2EFE6", PINK="#FF3D8B", PAPER="#0B0B0B", MUTED="#A9A497", TAPE="#D9D2B6";
+  const TOP=250, BOTTOM=H-430;   // Instagram covers the top and bottom of a story with its own buttons
+  const cityKey=CITY_OF_AREA[s.v.area]||state.city, cityName=(CITIES[cityKey]||{}).name||"";
+  const pic=picOf(s); let img=null;
+  if (pic){ try{ img=await loadImg(pic.img); }catch(e){ img=null; } }
+  const dateTxt=new Date(s.date+"T12:00:00").toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}).toUpperCase();
+  const timeTxt=s.time?fmtTime(s.time):"";
+  const area=[s.v.hood,s.v.area].filter(Boolean).join(" · ")+(cityName?" · "+cityName:"");
+  // Lay everything out top to bottom; returns where it ended. draw=false only measures.
+  function paint(photoH,nameMax,draw){
+    let y=TOP;
+    if (draw){ g.fillStyle=PINK; g.font='60px "Anton"'; g.fillText("SHOW ME SHOWS",70,y+50);
+      g.fillStyle=MUTED; g.font='34px "Special Elite"'; g.fillText("// live in "+(cityName||"your city").toLowerCase(),74,y+100); }
+    y+=150;
+    if (img && photoH){
+      const bw=940,bh=photoH,bx=70;
+      if (draw){
+        g.save(); g.translate(bx+bw/2,y+bh/2); g.rotate(-0.025);
+        g.fillStyle=INK; g.fillRect(-bw/2-8,-bh/2-8,bw+16,bh+16);
+        g.beginPath(); g.rect(-bw/2,-bh/2,bw,bh); g.clip();
+        const sc=Math.max(bw/img.naturalWidth,bh/img.naturalHeight), iw=img.naturalWidth*sc, ih=img.naturalHeight*sc;
+        try{ g.filter="grayscale(1) contrast(1.25)"; }catch(e){}
+        g.drawImage(img,-iw/2,-ih/2-(ih-bh)*0.15,iw,ih); g.filter="none"; g.restore();
+        for (const [tx,ty,r] of [[bx+bw-130,y-4,0.12],[bx+120,y+bh+4,-0.1]]){ g.save(); g.translate(tx,ty); g.rotate(r); g.globalAlpha=.92; g.fillStyle=TAPE; g.fillRect(-85,-22,170,44); g.restore(); }
+      }
+      y+=bh+60;
+    }
+    const name=s.artist.toUpperCase(); let size=nameMax, maxL=img&&photoH?2:3;
+    g.font=size+'px "Anton"'; let lines=wrapLines(g,name,940,maxL);
+    while (lines.some(l=>g.measureText(l).width>940) && size>64){ size-=6; g.font=size+'px "Anton"'; lines=wrapLines(g,name,940,maxL); }
+    for (const l of lines){ y+=size*0.95; if (draw){ g.fillStyle=INK; g.fillText(l,70,y); } }
+    if (s.support){ g.font='38px "Special Elite"'; for (const l of wrapLines(g,"with "+s.support,940,2)){ y+=50; if (draw){ g.fillStyle=MUTED; g.fillText(l,74,y); } } }
+    y+=50;
+    g.font='88px "Anton"'; const dw=g.measureText(dateTxt).width;
+    if (draw){ g.save(); g.translate(70,y); g.rotate(-0.035); g.fillStyle=PINK; g.fillRect(0,0,dw+56,118); g.fillStyle=PAPER; g.fillText(dateTxt,28,98); g.restore();
+      if (timeTxt){ g.fillStyle=INK; g.font='64px "Anton"'; g.fillText(timeTxt,70+dw+96,y+92); } }
+    y+=180;
+    g.font='700 54px "Archivo"'; for (const l of wrapLines(g,s.v.name,940,2)){ if (draw){ g.fillStyle=INK; g.fillText(l,70,y); } y+=62; }
+    if (draw){ g.fillStyle=MUTED; g.font='34px "Special Elite"'; g.fillText(area,72,y+4); }
+    y+=20;
+    return y;
+  }
+  // Shrink the photo, then the name, until everything fits above Instagram's bottom bar.
+  let pick=[0,150];
+  outer: for (const nm of [170,150,130,110]) for (const ph of (img?[620,540,460,380,300]:[0])){ if (paint(ph,img?nm:nm+60,false)<=BOTTOM-70){ pick=[ph,img?nm:nm+60]; break outer; } }
+  g.fillStyle=PAPER; g.fillRect(0,0,W,H);
+  const endY=paint(pick[0],pick[1],true);
+  if (s.genre && endY+90<=BOTTOM){ g.font='34px "Special Elite"'; const gw=g.measureText(s.genre).width+44, gy=endY+20;
+    g.setLineDash([12,8]); g.strokeStyle=INK; g.lineWidth=4; g.strokeRect(72,gy,gw,64); g.setLineDash([]); g.fillStyle=INK; g.fillText(s.genre,94,gy+44); }
+  // stamp sits just above Instagram's reply bar
+  g.save(); g.translate(W/2,BOTTOM+70); g.rotate(-0.05); g.font='88px "Anton"'; const tw=g.measureText("SHOWMESHOWS.NET").width;
+  g.fillStyle=PINK; g.fillRect(-tw/2-42,-80,tw+84,118); g.fillStyle=PAPER; g.fillText("SHOWMESHOWS.NET",-tw/2,18); g.restore();
+  g.fillStyle=MUTED; g.font='32px "Special Elite"'; const ft="every live show in "+(cityName||"your city").toLowerCase(); g.fillText(ft,(W-g.measureText(ft).width)/2,BOTTOM+160);
+  const n=document.createElement("canvas"); n.width=n.height=256; const ng=n.getContext("2d"); const id=ng.createImageData(256,256);
+  for (let i=0;i<id.data.length;i+=4){ const v=Math.random()*255; id.data[i]=id.data[i+1]=id.data[i+2]=v; id.data[i+3]=Math.random()<.5?18:0; }
+  ng.putImageData(id,0,0); g.fillStyle=g.createPattern(n,"repeat"); g.fillRect(0,0,W,H);
+  return await new Promise((res,rej)=>c.toBlob(b=>b?res(b):rej(new Error("no blob")),"image/png"));
+}
+async function shareFlyer(s,btn){
+  const old="Instagram story flyer";
+  try{
+    let file=btn._flyer;
+    if (!file){
+      btn.textContent="Making your flyer…";
+      const blob=await makeFlyer(s);
+      file=new File([blob],"showmeshows-"+String(s.id||"show").replace(/[^a-z0-9-]/gi,"").slice(0,60)+".png",{type:"image/png"});
+    }
+    if (navigator.canShare && navigator.canShare({files:[file]})){
+      try{ await navigator.share({files:[file],title:s.artist}); btn._flyer=null; btn.textContent=old; return; }
+      catch(e){
+        if (e && e.name==="AbortError"){ btn._flyer=null; btn.textContent=old; return; }
+        if (e && e.name==="NotAllowedError" && !btn._flyer){ btn._flyer=file; btn.textContent="Flyer ready. Tap to share"; return; }
+      }
+    }
+    btn._flyer=null;
+    const url=URL.createObjectURL(file); const a=document.createElement("a"); a.href=url; a.download=file.name; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),4000);
+    btn.textContent="Saved. Post it to your story"; setTimeout(()=>btn.textContent=old,2600);
+  }catch(e){ btn._flyer=null; btn.textContent="Couldn't make it. Try again"; setTimeout(()=>btn.textContent=old,2600); }
+}
 const STATUS={soldout:"Sold out",cancelled:"Cancelled",postponed:"Postponed"};
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
@@ -903,12 +1033,12 @@ function showCard(s){
   const vr = venueRating(s.v.key);
   const st = STATUS[s.status] ? s.status : "";
   const saved = savedIds().has(s.id);
-  const pic = picOf(s);
+  const pic = picOf(s), pv = pvOf(s);
   return el("article",{class:"show"+(s.featured?" featured":"")+(pic?" has-pic":"")+(s.featured&&pic?" has-banner":"")+(st?" st-"+st:""),"data-id":s.id},
     s.featured ? el("div",{class:"feat-badge",text:"★ Featured"}) : null,
     thumbEl(s,pic),
     el("div",{},
-      el("h3",{class:"artist",text:s.artist}),
+      el("div",{class:"artist-row"}, el("h3",{class:"artist",text:s.artist}), pv ? sndBtn(s,pv) : null),
       st ? el("span",{class:"pill status "+st,text:STATUS[st]}) : null,
       s.support ? el("p",{class:"support",text:"with "+s.support}) : null,
       el("div",{class:"meta"},
@@ -931,9 +1061,11 @@ function showCard(s){
         actMenu("listen","Listen","Listen to "+s.artist,[
           el("a",{href:spotifyLink(s.spotify)||listenUrl(s),target:"_blank",rel:"noopener",text:"Spotify ↗"}),
           el("a",{href:appleMusicLink(s.apple)||appleMusicUrl(s),target:"_blank",rel:"noopener",text:"Apple Music ↗"}),
-          (pic && pic.src!=="band") ? el("button",{type:"button",class:"wrongpic",text:"Wrong photo? Tell us",onclick:e=>reportPhoto(s,pic,e.currentTarget)}) : null]),
-        (()=>{ const b=el("button",{type:"button",class:"act","aria-label":"Share "+s.artist}); const lbl=el("span",{text:"Share"});
-          b.append(actIcon("share"),lbl); b.onclick=()=>shareShow(s,lbl); return b; })()
+          (pic && pic.src!=="band") ? el("button",{type:"button",class:"wrongpic",text:pv?"Wrong photo or song? Tell us":"Wrong photo? Tell us",onclick:e=>reportPhoto(s,pic,e.currentTarget)})
+            : pv ? el("button",{type:"button",class:"wrongpic",text:"Wrong song? Tell us",onclick:e=>reportPhoto(s,{img:"",src:"apple",flag:pv.flag},e.currentTarget)}) : null]),
+        actMenu("share","Share","Share "+s.artist,[
+          el("button",{type:"button",text:"Instagram story flyer",onclick:e=>{ e.stopPropagation(); shareFlyer(s,e.currentTarget); }}),
+          el("button",{type:"button",text:"Share link",onclick:e=>{ e.stopPropagation(); shareShow(s,e.currentTarget,"Share link"); }})])
       )
     ),
     el("div",{class:"side-tags"},
@@ -1395,7 +1527,7 @@ function afterRender(v){
     if (card){ card.classList.add("flash"); setTimeout(()=>card.scrollIntoView({block:"center"}),50); } else window.scrollTo(0,0);
   } else if (v==="venue") window.scrollTo(0,0);
 }
-function render(){
+function render(){ sndStop();
   const v=state.view;
   updateSavedCount();
   if (["tonight","week","all","coming","new","saved"].includes(v)) renderList();

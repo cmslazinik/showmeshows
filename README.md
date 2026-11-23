@@ -42,3 +42,9 @@ Each listing card shows a band picture, picked in this order: the band's own upl
 Optional repo secrets (GitHub → Settings → Secrets and variables → Actions): `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` turn on Spotify; `TM_KEY` turns on Ticketmaster. Without them those sources are skipped.
 
 Visitors can tap "Wrong photo? Tell us" in a card's Listen menu. Reports show up in Admin → Photo reports, where Block removes that picture everywhere.
+
+## Sound check and story flyers
+
+The same script also saves a 30-second Apple Music preview (`pv`) for each matched band. Cards with a preview get a pink ▶ button next to the band name. "Wrong song? Tell us" in the Listen menu reports it, and blocking it in Admin removes the band's picture and clip together.
+
+Share ▾ → "Instagram story flyer" draws a 1080×1920 flyer for the show in the visitor's browser (band photo when its host allows it, date, time, venue, showmeshows.net) and opens the phone's share sheet, or downloads it on a computer.

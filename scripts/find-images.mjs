@@ -13,6 +13,7 @@ const addDays = (iso, n) => new Date(Date.parse(iso) + n * 864e5).toISOString().
 const HORIZON = addDays(TODAY, 183);
 const RECHECK_NONE_DAYS = 30;     // look again for bands we found nothing for after this long
 const MAX_LOOKUPS = Number(process.env.MAX_LOOKUPS || 70);
+const MAX_PREVIEWS = Number(process.env.MAX_PREVIEWS || 60); // sound-check clips looked up per city per run
 const MAX_PAGES = Number(process.env.MAX_PAGES || 400); // event pages read per city per run
 const RECHECK_PAGE_DAYS = 10; // new bands looked up per city per run; the rest wait for the next run
 const FIREBASE_PROJECT = "showmeshows-1d87d";
@@ -152,7 +153,8 @@ function nameTries(artist) {
 // Apple allows about 20 requests a minute. A failed request means "try this band again next run", not "no picture".
 class Retry extends Error {}
 let appleDown = 0;
-async function fromApple(name, key, genre) {
+// The one Apple Music artist with exactly this name (and a fitting genre), or null.
+async function appleArtist(name, key, genre) {
   if (appleDown >= 3) throw new Retry();
   const j = await getJSON("https://itunes.apple.com/search?media=music&entity=musicArtist&limit=10&term=" + encodeURIComponent(name));
   if (!j) { appleDown++; throw new Retry(); }
@@ -163,12 +165,27 @@ async function fromApple(name, key, genre) {
   const a = exact[0];
   const distinctive = key.split(" ").length >= 3 || key.length >= 14; // long names are rarely shared by two acts
   if ((!genreFits(genre, [a.primaryGenreName]) && !distinctive) || (riskyName(key) && !a.primaryGenreName)) return null;
+  return a;
+}
+// A 30-second preview clip of the artist's most popular song on Apple Music.
+async function applePreview(artistId, name) {
+  if (appleDown >= 3) throw new Retry();
+  const j = await getJSON("https://itunes.apple.com/search?media=music&entity=song&attribute=artistTerm&limit=25&term=" + encodeURIComponent(name));
+  if (!j) { appleDown++; throw new Retry(); }
+  appleDown = 0;
+  const song = (j.results || []).find(r => String(r.artistId) === String(artistId) && r.previewUrl && /^https:\/\//.test(r.previewUrl) && r.trackExplicitness !== "explicit")
+    || (j.results || []).find(r => String(r.artistId) === String(artistId) && r.previewUrl && /^https:\/\//.test(r.previewUrl));
+  return song ? { u: song.previewUrl, t: song.trackName } : null;
+}
+async function fromApple(name, key, genre) {
+  const a = await appleArtist(name, key, genre);
+  if (!a) return null;
   await sleep(3100);
   const al = await getJSON("https://itunes.apple.com/lookup?entity=album&limit=5&id=" + a.artistId);
   if (!al) { appleDown++; throw new Retry(); }
   const album = ((al && al.results) || []).find(r => r.wrapperType === "collection" && r.artworkUrl100);
   if (!album) return null;
-  return { img: album.artworkUrl100.replace(/\/\d+x\d+bb\./, "/400x400bb."), src: "apple", link: a.artistLinkUrl ? a.artistLinkUrl.split("?")[0] : undefined };
+  return { img: album.artworkUrl100.replace(/\/\d+x\d+bb\./, "/400x400bb."), src: "apple", appleId: a.artistId, link: a.artistLinkUrl ? a.artistLinkUrl.split("?")[0] : undefined };
 }
 
 /* ---------- Firestore (public read: approved submissions + your block list) ---------- */
@@ -179,7 +196,7 @@ async function firestoreShows() {
     const id = d.name.split("/").pop(), f = d.fields || {};
     const s = k => f[k] && f[k].stringValue;
     if (id === "zz-config-imageblocks") { blocked = ((f.blocked && f.blocked.arrayValue && f.blocked.arrayValue.values) || []).map(v => v.stringValue); continue; }
-    if (s("artist") && s("date")) out.push({ id, artist: s("artist"), date: s("date"), genre: s("genre") || "", spotify: s("spotify") || "", venue: s("venue") || "", area: s("area") || "", hasPhoto: !!s("photo") });
+    if (s("artist") && s("date")) out.push({ id, artist: s("artist"), date: s("date"), genre: s("genre") || "", spotify: s("spotify") || "", apple: s("apple") || "", venue: s("venue") || "", area: s("area") || "", hasPhoto: !!s("photo") });
   }
   return { approved: out, blocked: new Set(blocked) };
 }
@@ -261,6 +278,29 @@ export async function main() {
       if (hit) found++;
       await sleep(3100); // Apple's free search allows ~20 requests a minute
     }
+    // 3) Sound check: a 30-second Apple Music preview for each band (looked up once).
+    let previews = 0;
+    const firstShow = new Map(); for (const s of all) { const k = artistKey(s.artist); if (k && !firstShow.has(k)) firstShow.set(k, s); }
+    for (const [key, s] of firstShow) {
+      const e = cache.artists[key];
+      if (!e || e.blocked || e.skip || e.pv || (e.pvNone && addDays(e.pvNone, RECHECK_NONE_DAYS) > TODAY)) continue;
+      if (e.none && !s.apple) continue;           // no confident match for this band at all
+      if (previews >= MAX_PREVIEWS) break;
+      previews++;
+      try {
+        let id = e.appleId || (String(e.link || "").match(/music\.apple\.com\/[a-z]{2}\/artist\/[^/]+\/(\d+)/) || [])[1]
+          || (String(s.apple || "").match(/music\.apple\.com\/[a-z]{2}\/artist\/[^/]+\/(\d+)/) || [])[1];
+        let name = nameTries(s.artist)[0];
+        if (!id) {
+          for (const n of nameTries(s.artist)) { const a = await appleArtist(n, norm(n), s.genre); if (a) { id = a.artistId; name = n; break; } await sleep(3100); }
+          if (id) await sleep(3100);
+        }
+        const pv = id ? await applePreview(id, name) : null;
+        if (pv) { e.pv = pv; delete e.pvNone; } else e.pvNone = TODAY;
+      } catch (err) { if (err instanceof Retry) { await sleep(3100); continue; } throw err; }
+      await sleep(3100);
+    }
+    console.log(`${c.name}: looked for ${previews} sound-check clips.`);
     // Forget bands with no show in the next 6 months (keeps the file small).
     for (const [k, v] of Object.entries(cache.artists)) if (!seen.has(k) && !v.blocked && (!v.last || v.last < TODAY)) delete cache.artists[k];
 
