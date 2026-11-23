@@ -288,6 +288,55 @@ textarea.digest{width:100%;min-height:220px;font-family:var(--font-mono);font-si
 footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:var(--muted);font-family:var(--font-type)}
 .hidden{display:none !important}
 @media (prefers-reduced-motion: reduce){*{transition:none !important}}
+/* ---------- Venue passport ---------- */
+.checkin{display:inline-flex;align-items:center;gap:8px;margin:10px 0 2px;font-family:var(--font-display);text-transform:uppercase;letter-spacing:.5px;font-size:17px;
+  background:transparent;color:var(--pink);border:2px dashed var(--pink);padding:7px 14px;cursor:pointer;transform:rotate(-1deg)}
+.checkin:hover{background:var(--pink);color:#0B0B0B}
+.checkin.done{border-style:solid;color:var(--ink);border-color:var(--ink);text-decoration:none}
+.checkin[aria-busy="true"]{opacity:.7;cursor:progress}
+.ck-msg{font-family:var(--font-type);font-size:13px;color:var(--muted);margin:6px 0 0}
+.pp-cover{border:3px solid var(--ink);background:var(--card);padding:22px 22px 18px;position:relative;margin:0 0 26px;transform:rotate(-.4deg)}
+.pp-cover::before{content:"";position:absolute;top:-14px;left:40px;width:120px;height:28px;background:var(--tape);opacity:.9;transform:rotate(-4deg)}
+.pp-title{font-family:var(--font-display);text-transform:uppercase;font-size:44px;line-height:.95;margin:0;color:var(--pink)}
+.pp-holder{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-family:var(--font-type);color:var(--muted);margin:10px 0 4px}
+.pp-holder input{font-family:var(--font-type);font-size:18px;background:transparent;border:0;border-bottom:2px dashed var(--line);color:var(--ink);padding:2px 4px;min-width:0;width:16ch}
+.pp-rank{display:inline-block;font-family:var(--font-display);text-transform:uppercase;background:var(--pink);color:#0B0B0B;padding:4px 12px;font-size:20px;transform:rotate(-2deg);margin:6px 0 14px}
+.pp-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;border-top:2px dashed var(--line);padding-top:12px}
+.pp-stats b{display:block;font-family:var(--font-display);font-size:38px;line-height:1}
+.pp-stats span{font-family:var(--font-type);font-size:12.5px;color:var(--muted)}
+.pp-next{font-family:var(--font-type);font-size:13.5px;color:var(--muted);margin:12px 0 0}
+.pp-h{font-family:var(--font-display);text-transform:uppercase;font-size:28px;margin:26px 0 12px}
+.badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.badge{text-align:center;padding:10px 6px}
+.badge .seal{width:96px;height:96px;margin:0 auto 8px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;
+  border:4px double var(--pink);color:var(--pink);font-family:var(--font-display);font-size:30px;line-height:1;transform:rotate(var(--r,-8deg));filter:url(#ink)}
+.badge .seal small{font-family:var(--font-type);font-size:10px;letter-spacing:.5px;margin-top:3px}
+.badge.locked .seal{border:3px dashed var(--line);color:var(--line);filter:none;transform:none}
+.badge b{display:block;font-family:var(--font-display);text-transform:uppercase;font-size:17px;letter-spacing:.3px}
+.badge p{font-family:var(--font-type);font-size:12px;color:var(--muted);margin:3px 0 0;line-height:1.35}
+.badge.locked b{color:var(--muted)}
+.stamps{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px 14px;padding:6px 2px}
+.stamp-x{border:3px solid currentColor;padding:10px 12px;transform:rotate(var(--r,-3deg));filter:url(#ink);color:var(--pink);text-transform:uppercase}
+.stamp-x.c1{color:var(--ink)} .stamp-x.c2{color:var(--tape)}
+.stamp-x .sv{font-family:var(--font-display);font-size:22px;line-height:1.05;display:block;border-bottom:2px solid currentColor;padding-bottom:5px;margin-bottom:5px}
+.stamp-x .sd{font-family:var(--font-type);font-size:13px;display:block}
+.stamp-x .sa{font-family:var(--font-type);font-size:12px;display:block;text-transform:none;opacity:.9;margin-top:2px}
+.pp-empty{border:2px dashed var(--line);padding:22px;font-family:var(--font-type);color:var(--muted);text-align:center}
+.pp-tools{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 0}
+.ck-over{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.82);display:flex;align-items:center;justify-content:center;padding:20px}
+.ck-card{background:var(--card);border:3px solid var(--ink);max-width:420px;width:100%;padding:26px 22px 20px;text-align:center;position:relative}
+.ck-big{display:inline-block;border:6px double var(--pink);color:var(--pink);padding:14px 18px;font-family:var(--font-display);text-transform:uppercase;filter:url(#ink);
+  animation:slam .42s cubic-bezier(.2,1.6,.4,1) both;--r:-7deg}
+.ck-big .l1{font-size:46px;line-height:1;display:block}
+.ck-big .l2{font-family:var(--font-type);font-size:15px;display:block;margin-top:6px;text-transform:none}
+@keyframes slam{0%{transform:scale(2.6) rotate(8deg);opacity:0}60%{opacity:1}100%{transform:scale(1) rotate(var(--r))}}
+.ck-new{margin:18px 0 6px;font-family:var(--font-type);font-size:14px;color:var(--muted)}
+.ck-badges{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.ck-badges .badge{animation:pop .5s ease-out both;animation-delay:.55s}
+@keyframes pop{0%{transform:scale(.3);opacity:0}70%{transform:scale(1.12)}100%{transform:scale(1);opacity:1}}
+.ck-acts{display:flex;gap:10px;justify-content:center;margin-top:18px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){.ck-big,.ck-badges .badge{animation:none}}
+@media (max-width:520px){.pp-title{font-size:34px}.pp-stats b{font-size:30px}.stamps{grid-template-columns:repeat(2,minmax(0,1fr))}.stamp-x .sv{font-size:18px}}
 </style>
 </head>
 <body>
@@ -310,6 +359,7 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
       <a href="#venues" data-view="venues">Venues</a>
       <a href="#reviews" data-view="reviews">Reviews</a>
       <a href="#saved" data-view="saved">Saved<span id="saved-n"></span></a>
+      <a href="#passport" data-view="passport">Passport<span id="pp-n"></span></a>
       <a href="#submit" data-view="submit">Submit a Show</a>
       <a href="#admin" data-view="admin" class="admin-tab hidden" id="admin-tab">Admin</a>
     </nav>
@@ -482,6 +532,12 @@ footer{border-top:4px solid var(--ink);padding:18px 0 40px;font-size:13px;color:
     </div>
 
     <!-- Admin -->
+    <div id="view-passport" class="hidden">
+      <h2 class="page-title">Your show passport</h2>
+      <p class="lede">At a show? Find it under Tonight and tap <strong>I'm here</strong>. Your phone checks you're at the venue, and you get a stamp. Collect venues, earn badges, climb the ranks. It lives on this phone, no account needed.</p>
+      <div id="pp-body"></div>
+    </div>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><filter id="ink" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".55" numOctaves="2" seed="7" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.6" result="d"/><feComponentTransfer in="n" result="m"><feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1"/></feComponentTransfer><feComposite in="d" in2="m" operator="in"/></filter></svg>
     <div id="view-admin" class="hidden">
       <h2 class="page-title">Admin</h2>
       <p class="lede">Only you see this tab. Approve submissions to put them on the calendar, feature shows you want at the top, remove reviews that break the rules, and copy the monthly email.</p>
@@ -1026,6 +1082,160 @@ async function shareFlyer(s,btn){
     btn.textContent="Saved. Post it to your story"; setTimeout(()=>btn.textContent=old,2600);
   }catch(e){ btn._flyer=null; btn.textContent="Couldn't make it. Try again"; setTimeout(()=>btn.textContent=old,2600); }
 }
+/* ---------- Venue passport ---------- */
+function ppLoad(){ try{ const j=JSON.parse(localStorage.getItem("sms-passport")||"{}"); return {name:typeof j.name==="string"?j.name.slice(0,40):"", stamps:Array.isArray(j.stamps)?j.stamps.filter(x=>x&&x.id&&x.v&&x.d):[]}; }catch(e){ return {name:"",stamps:[]}; } }
+function ppSave(p){ try{ localStorage.setItem("sms-passport",JSON.stringify(p)); return true; }catch(e){ return false; } }
+function ppCount(){ const n=ppLoad().stamps.length, e=$("#pp-n"); if (e) e.textContent=n?" ("+n+")":""; }
+const SMALL_ROOMS=["Club","Bar/Restaurant"];
+const BADGES=[
+  {id:"first",  name:"First Stamp",      glyph:"1",   hint:"Check in to your first show.",           test:S=>S.length>=1},
+  {id:"double", name:"Double Header",    glyph:"2X",  hint:"Two shows in one night.",                test:S=>maxBy(S,x=>x.d)>=2},
+  {id:"owl",    name:"Night Owl",        glyph:"10P", hint:"A show starting at 10 PM or later.",      test:S=>S.some(x=>x.t && (+x.t.slice(0,2)>=22 || +x.t.slice(0,2)<4))},
+  {id:"regular",name:"The Regular",      glyph:"3X",  hint:"Three shows at the same venue.",          test:S=>maxBy(S,x=>x.c+":"+x.v)>=3, prog:S=>[maxBy(S,x=>x.c+":"+x.v),3]},
+  {id:"school", name:"School Night",     glyph:"M-T", hint:"Three shows on Monday to Thursday nights.",test:S=>S.filter(x=>{const w=parseISO(x.d).getDay(); return w>=1&&w<=4;}).length>=3, prog:S=>[S.filter(x=>{const w=parseISO(x.d).getDay(); return w>=1&&w<=4;}).length,3]},
+  {id:"weekend",name:"Weekend Warrior",  glyph:"F-S", hint:"Three shows in one Friday-to-Sunday weekend.", test:S=>maxBy(S.filter(x=>[5,6,0].includes(parseISO(x.d).getDay())),x=>weekendKey(x.d))>=3},
+  {id:"free",   name:"Free Bird",        glyph:"$0",  hint:"Three free shows.",                       test:S=>S.filter(x=>x.free).length>=3, prog:S=>[S.filter(x=>x.free).length,3]},
+  {id:"hopper", name:"Genre Hopper",     glyph:"5G",  hint:"Shows in five different genres.",         test:S=>uniq(S,x=>x.g).length>=5, prog:S=>[uniq(S,x=>x.g).length,5]},
+  {id:"dive",   name:"Dive Bar Devotee", glyph:"DIVE",hint:"Ten shows at bars and clubs.",            test:S=>S.filter(x=>SMALL_ROOMS.includes(x.ty)).length>=10, prog:S=>[S.filter(x=>SMALL_ROOMS.includes(x.ty)).length,10]},
+  {id:"arena",  name:"Big Room Energy",  glyph:"ARN", hint:"A show at an arena or amphitheater.",     test:S=>S.some(x=>x.ty==="Arena"||/amphitheat/i.test(x.vn||""))},
+  {id:"collect",name:"Venue Collector",  glyph:"10V", hint:"Ten different venues.",                   test:S=>uniq(S,x=>x.c+":"+x.v).length>=10, prog:S=>[uniq(S,x=>x.c+":"+x.v).length,10]},
+  {id:"road",   name:"Road Tripper",     glyph:"2C",  hint:"Shows in two different cities.",          test:S=>uniq(S,x=>x.c).length>=2},
+  {id:"ten",    name:"Ten Toes Down",    glyph:"10",  hint:"Ten shows.",                              test:S=>S.length>=10, prog:S=>[S.length,10]},
+  {id:"lifer",  name:"Lifer",            glyph:"50",  hint:"Fifty shows. Respect.",                   test:S=>S.length>=50, prog:S=>[S.length,50]},
+];
+function uniq(a,f){ return [...new Set(a.map(f).filter(Boolean))]; }
+function maxBy(a,f){ const m={}; let best=0; for (const x of a){ const k=f(x); m[k]=(m[k]||0)+1; if (m[k]>best) best=m[k]; } return best; }
+function weekendKey(iso){ const d=parseISO(iso), w=d.getDay(); const back=w===0?2:w===6?1:0; d.setDate(d.getDate()-back); return localISO(d); }
+const RANKS=[[0,"Rookie"],[3,"Scene Kid"],[10,"Local Legend"],[25,"Front Row Fixture"],[50,"Lifer"]];
+function rankOf(n){ let r=RANKS[0]; for (const x of RANKS) if (n>=x[0]) r=x; const nx=RANKS.find(x=>x[0]>n); return {name:r[1], next:nx?{name:nx[1],need:nx[0]-n}:null}; }
+function earned(S){ return BADGES.filter(b=>b.test(S)).map(b=>b.id); }
+function hashRot(str,span){ let h=0; for (const c of String(str)) h=(h*31+c.charCodeAt(0))>>>0; return ((h%1000)/1000*2-1)*span; }
+// Can you check in to this show right now? (today, from 3 hours before start to 6 hours after; late nights count until 4 AM)
+function checkinOpen(s){
+  if (!s || !s.v || s.status==="cancelled" || s.status==="postponed") return false;
+  const now=new Date(), [y,m,d]=s.date.split("-").map(Number);
+  let start=new Date(y,m-1,d,s.time?+s.time.slice(0,2):19,s.time?+s.time.slice(3,5):0);
+  if (s.time && +s.time.slice(0,2)<5) start=new Date(start.getTime()+864e5); // "1:00" after midnight
+  return now>=new Date(start.getTime()-3*3600e3) && now<=new Date(start.getTime()+(s.time?6:9)*3600e3);
+}
+function hasStamp(id){ return ppLoad().stamps.some(x=>x.id===id); }
+function milesBetween(a,b,c,d){ const R=3958.8, r=x=>x*Math.PI/180; const dl=r(c-a), dn=r(d-b); const h=Math.sin(dl/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(dn/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+function checkinEl(s){
+  if (hasStamp(s.id)) return el("a",{class:"checkin done",href:"#passport",text:"✓ Stamped · see passport"});
+  if (!checkinOpen(s)) return null;
+  const wrap=el("div",{});
+  const b=el("button",{type:"button",class:"checkin",text:"I'm here · get stamped"});
+  const msg=el("p",{class:"ck-msg","aria-live":"polite"});
+  b.onclick=()=>doCheckin(s,b,msg);
+  wrap.append(b,msg); return wrap;
+}
+function doCheckin(s,b,msg){
+  if (!navigator.geolocation){ msg.textContent="This browser can't share your location, so we can't stamp it."; return; }
+  if (typeof s.v.lat!=="number" || typeof s.v.lon!=="number"){ msg.textContent="We don't have this venue's exact spot yet, so it can't be stamped."; return; }
+  b.setAttribute("aria-busy","true"); b.textContent="Checking you're at "+s.v.name+"…"; msg.textContent="";
+  navigator.geolocation.getCurrentPosition(pos=>{
+    b.removeAttribute("aria-busy"); b.textContent="I'm here · get stamped";
+    const mi=milesBetween(pos.coords.latitude,pos.coords.longitude,s.v.lat,s.v.lon);
+    const slack=Math.min(pos.coords.accuracy||0,600)/1609;
+    if (mi>0.25+slack){ msg.textContent="You're about "+(mi<10?mi.toFixed(1):Math.round(mi))+" mi from "+s.v.name+". Get to the venue and try again."; return; }
+    const p=ppLoad(); if (p.stamps.some(x=>x.id===s.id)){ render(); return; }
+    const before=earned(p.stamps);
+    const cityKey=CITY_OF_AREA[s.v.area]||state.city;
+    p.stamps.push({id:s.id,v:s.v.key,vn:s.v.name,a:s.artist,d:s.date,t:s.time||"",c:cityKey,g:s.genre||"",ty:s.v.type||"",free:s.price==="Free",at:new Date().toISOString()});
+    if (!ppSave(p)){ msg.textContent="Couldn't save the stamp on this phone (private browsing?)."; return; }
+    const fresh=earned(p.stamps).filter(x=>!before.includes(x));
+    try{ navigator.vibrate && navigator.vibrate([40,30,90]); }catch(e){}
+    stampOverlay(s,p.stamps,fresh);
+  },err=>{
+    b.removeAttribute("aria-busy"); b.textContent="I'm here · get stamped";
+    msg.textContent = err.code===1 ? "Allow location for showmeshows.net in your browser settings, then tap again." : "Couldn't find your location. Step outside or try again in a minute.";
+  },{enableHighAccuracy:true,timeout:20000,maximumAge:60000});
+}
+function badgeEl(b,on,S){
+  const pr=!on && b.prog ? b.prog(S) : null;
+  return el("div",{class:"badge"+(on?"":" locked")},
+    el("div",{class:"seal",style:"--r:"+hashRot(b.id,9).toFixed(1)+"deg","aria-hidden":"true"}, on?b.glyph:"?", el("small",{text:on?"EARNED":(pr?Math.min(pr[0],pr[1])+"/"+pr[1]:"LOCKED")})),
+    el("b",{text:b.name}), el("p",{text:b.hint}));
+}
+function stampOverlay(s,S,fresh){
+  const prevFocus=document.activeElement;
+  const close=()=>{ over.remove(); document.removeEventListener("keydown",onKey); render(); if (prevFocus && prevFocus.focus) try{ prevFocus.focus(); }catch(e){} };
+  const onKey=e=>{ if (e.key==="Escape") close(); };
+  const r=rankOf(S.length);
+  const card=el("div",{class:"ck-card",role:"dialog","aria-modal":"true","aria-label":"Stamped at "+s.v.name},
+    el("div",{class:"ck-big"}, el("span",{class:"l1",text:s.v.name}), el("span",{class:"l2",text:shortDate(s.date)+" · "+s.artist})),
+    el("p",{class:"ck-new",text:"Stamp #"+S.length+" · "+r.name+(r.next?" · "+r.next.need+" more to "+r.next.name:"")}),
+    fresh.length ? el("p",{class:"ck-new",style:"color:var(--ink);font-size:16px",text:fresh.length>1?"New badges!":"New badge!"}) : null,
+    fresh.length ? el("div",{class:"ck-badges"}, ...BADGES.filter(b=>fresh.includes(b.id)).map(b=>badgeEl(b,true,S))) : null,
+    el("div",{class:"ck-acts"},
+      el("a",{class:"btn small",href:"#passport",text:"See my passport",onclick:()=>{ over.remove(); document.removeEventListener("keydown",onKey); }}),
+      el("button",{type:"button",class:"btn small ghost",text:"Back to the show",onclick:close})));
+  const over=el("div",{class:"ck-over",onclick:e=>{ if (e.target===over) close(); }}, card);
+  document.body.append(over); document.addEventListener("keydown",onKey);
+  setTimeout(()=>{ const f=card.querySelector("a,button"); if (f) f.focus(); },50);
+}
+function renderPassport(){
+  const box=$("#pp-body"); if (!box) return; box.replaceChildren();
+  const p=ppLoad(), S=p.stamps.slice().sort((a,b)=>b.d.localeCompare(a.d)||String(b.at).localeCompare(String(a.at)));
+  const got=earned(S), r=rankOf(S.length);
+  const nameIn=el("input",{type:"text",maxlength:"40",placeholder:"your name",value:p.name,"aria-label":"Name on your passport"});
+  nameIn.addEventListener("change",()=>{ const q=ppLoad(); q.name=nameIn.value.trim().slice(0,40); ppSave(q); });
+  box.append(el("div",{class:"pp-cover"},
+    el("p",{class:"pp-title",text:"Show Me Shows passport"}),
+    el("label",{class:"pp-holder"}, el("span",{text:"Holder:"}), nameIn),
+    el("span",{class:"pp-rank",text:r.name}),
+    el("div",{class:"pp-stats"},
+      el("div",{}, el("b",{text:S.length}), el("span",{text:"shows"})),
+      el("div",{}, el("b",{text:uniq(S,x=>x.c+":"+x.v).length}), el("span",{text:"venues"})),
+      el("div",{}, el("b",{text:got.length}), el("span",{text:"badges"})),
+      el("div",{}, el("b",{text:uniq(S,x=>x.c).length}), el("span",{text:"cities"}))),
+    el("p",{class:"pp-next",text:r.next ? r.next.need+" more show"+(r.next.need===1?"":"s")+" to "+r.next.name+"." : "Top rank. Legend."})));
+  box.append(el("h3",{class:"pp-h",text:"Badges · "+got.length+" of "+BADGES.length}));
+  box.append(el("div",{class:"badges"}, ...BADGES.slice().sort((a,b)=>(got.includes(b.id)?1:0)-(got.includes(a.id)?1:0)).map(b=>badgeEl(b,got.includes(b.id),S))));
+  box.append(el("h3",{class:"pp-h",text:"Stamps"}));
+  if (!S.length) box.append(el("div",{class:"pp-empty"}, "No stamps yet. Tonight's shows have an ", el("strong",{text:"I'm here"}), " button. Go see a band. ", el("a",{href:"#tonight",text:"What's on tonight →"})));
+  else box.append(el("div",{class:"stamps"}, ...S.map((x,i)=>el("div",{class:"stamp-x c"+(i%3),style:"--r:"+hashRot(x.id,5).toFixed(1)+"deg"},
+    el("span",{class:"sv",text:x.vn||x.v}), el("span",{class:"sd",text:shortDate(x.d)+(CITIES[x.c]?" · "+CITIES[x.c].name:"")}), el("span",{class:"sa",text:x.a})))));
+  if (S.length) box.append(el("div",{class:"pp-tools"},
+    el("button",{type:"button",class:"btn small",text:"Share my passport",onclick:e=>sharePassport(e.currentTarget)})));
+}
+async function sharePassport(btn){
+  const old=btn.textContent;
+  try{
+    let file=btn._file;
+    if (!file){
+      btn.textContent="Making it…";
+      await Promise.all([document.fonts.load('100px "Anton"'),document.fonts.load('40px "Special Elite"')]).catch(()=>{});
+      const p=ppLoad(), S=p.stamps.slice().sort((a,b)=>b.d.localeCompare(a.d)), got=earned(S), r=rankOf(S.length);
+      const W=1080,H=1920,c=document.createElement("canvas"); c.width=W; c.height=H; const g=c.getContext("2d");
+      const INK="#F2EFE6",PINK="#FF3D8B",PAPER="#0B0B0B",MUTED="#A9A497",TAPE="#D9D2B6";
+      g.fillStyle=PAPER; g.fillRect(0,0,W,H);
+      g.fillStyle=PINK; g.font='110px "Anton"'; g.fillText("MY SHOW",70,370); g.fillText("PASSPORT",70,480);
+      g.fillStyle=MUTED; g.font='36px "Special Elite"'; g.fillText(p.name?"holder: "+p.name:"// showmeshows.net",74,545);
+      g.save(); g.translate(70,585); g.rotate(-0.03); g.font='64px "Anton"'; const rw=g.measureText(r.name.toUpperCase()).width; g.fillStyle=PINK; g.fillRect(0,0,rw+50,88); g.fillStyle=PAPER; g.fillText(r.name.toUpperCase(),25,72); g.restore();
+      const stats=[[S.length,"shows"],[uniq(S,x=>x.c+":"+x.v).length,"venues"],[got.length,"badges"],[uniq(S,x=>x.c).length,"cities"]];
+      stats.forEach(([n,l],i)=>{ const x=70+i*240; g.fillStyle=INK; g.font='96px "Anton"'; g.fillText(String(n),x,800); g.fillStyle=MUTED; g.font='32px "Special Elite"'; g.fillText(l,x+4,845); });
+      const cols=[PINK,INK,TAPE];
+      S.slice(0,6).forEach((x,i)=>{ const cx=70+(i%2)*480, cy=920+Math.floor(i/2)*190;
+        g.save(); g.translate(cx+210,cy+75); g.rotate(hashRot(x.id,.06)); g.strokeStyle=cols[i%3]; g.fillStyle=cols[i%3]; g.lineWidth=6; g.strokeRect(-210,-75,420,150);
+        g.font='44px "Anton"'; let v=(x.vn||"").toUpperCase(); while (g.measureText(v).width>380 && v.length>3) v=v.slice(0,-2)+"…";
+        g.fillText(v,-190,-14); g.font='28px "Special Elite"'; g.fillText(shortDate(x.d),-190,36); g.restore(); });
+      g.save(); g.translate(W/2,H-360); g.rotate(-0.05); g.font='88px "Anton"'; const tw=g.measureText("SHOWMESHOWS.NET").width;
+      g.fillStyle=PINK; g.fillRect(-tw/2-42,-80,tw+84,118); g.fillStyle=PAPER; g.fillText("SHOWMESHOWS.NET",-tw/2,18); g.restore();
+      const n=document.createElement("canvas"); n.width=n.height=256; const ng=n.getContext("2d"); const id=ng.createImageData(256,256);
+      for (let i=0;i<id.data.length;i+=4){ const v=Math.random()*255; id.data[i]=id.data[i+1]=id.data[i+2]=v; id.data[i+3]=Math.random()<.5?18:0; }
+      ng.putImageData(id,0,0); g.fillStyle=g.createPattern(n,"repeat"); g.fillRect(0,0,W,H);
+      const blob=await new Promise((res,rej)=>c.toBlob(b=>b?res(b):rej(new Error("no blob")),"image/png"));
+      file=new File([blob],"my-show-passport.png",{type:"image/png"});
+    }
+    if (navigator.canShare && navigator.canShare({files:[file]})){
+      try{ await navigator.share({files:[file],title:"My show passport"}); btn._file=null; btn.textContent=old; return; }
+      catch(e){ if (e&&e.name==="AbortError"){ btn._file=null; btn.textContent=old; return; } if (e&&e.name==="NotAllowedError"&&!btn._file){ btn._file=file; btn.textContent="Ready. Tap to share"; return; } }
+    }
+    btn._file=null; const url=URL.createObjectURL(file); const a=document.createElement("a"); a.href=url; a.download=file.name; document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),4000);
+    btn.textContent="Saved to your downloads"; setTimeout(()=>btn.textContent=old,2600);
+  }catch(e){ btn._file=null; btn.textContent="Couldn't make it. Try again"; setTimeout(()=>btn.textContent=old,2600); }
+}
 const STATUS={soldout:"Sold out",cancelled:"Cancelled",postponed:"Postponed"};
 function showCard(s){
   const url = safeUrl(s.tickets || s.url);
@@ -1053,6 +1263,7 @@ function showCard(s){
       (s.ages||s.priceRange) ? el("div",{class:"meta2"},
         s.ages ? el("span",{class:"pill ages",text:s.ages}) : null,
         s.priceRange && s.price!=="Free" ? el("span",{class:"price",text:s.priceRange}) : null) : null,
+      checkinEl(s),
       el("div",{class:"acts"},
         el("button",{type:"button",class:"act","aria-pressed":saved?"true":"false","aria-label":(saved?"Remove ":"Save ")+s.artist+(saved?" from":" to")+" your saved shows",text:saved?"♥ Saved":"♡ Save",onclick:e=>toggleSave(s,e.currentTarget)}),
         st!=="cancelled" ? actMenu("cal","Calendar","Add "+s.artist+" to your calendar",[
@@ -1494,7 +1705,7 @@ function wireSearch(){
 }
 
 /* ---------- Views & routing ---------- */
-const VIEWS=["tonight","week","all","coming","new","saved","map","venues","reviews","submit","admin"];
+const VIEWS=["tonight","week","all","coming","new","saved","passport","map","venues","reviews","submit","admin"];
 function setView(v){
   if (typeof v==="string" && v.includes("?")){ const i=v.indexOf("?"), qs=v.slice(i+1); v=v.slice(0,i); if (CITIES[v]) { useCity(v); v="week"; } if (LIST_VIEWS.includes(v)||v==="") applySearchParams(qs); }
   if (typeof v==="string" && CITIES[v]){ if (v!==state.city){ useCity(v); if(LCLUSTER){ LMAP.removeLayer(LCLUSTER); LCLUSTER=null; } } v="week"; }
@@ -1518,6 +1729,7 @@ function setView(v){
   $("#view-submit").classList.toggle("hidden",v!=="submit");
   $("#view-reviews").classList.toggle("hidden",v!=="reviews");
   $("#view-admin").classList.toggle("hidden",v!=="admin");
+  $("#view-passport").classList.toggle("hidden",v!=="passport");
   const finish=()=>{ render(); afterRender(v); };
   if (state.booted) requestAnimationFrame(()=>setTimeout(finish,0)); else { state.booted=true; finish(); }
 }
@@ -1529,7 +1741,7 @@ function afterRender(v){
 }
 function render(){ sndStop();
   const v=state.view;
-  updateSavedCount();
+  updateSavedCount(); ppCount();
   if (["tonight","week","all","coming","new","saved"].includes(v)) renderList();
   else if (v==="map") renderMap();
   else if (v==="venues") renderVenues();
@@ -1537,6 +1749,7 @@ function render(){ sndStop();
   else if (v==="submit") renderMine();
   else if (v==="reviews") renderReviews();
   else if (v==="admin") renderAdmin();
+  else if (v==="passport") renderPassport();
 }
 window.addEventListener("hashchange",()=>setView(location.hash.slice(1)));
 
