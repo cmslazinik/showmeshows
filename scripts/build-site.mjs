@@ -54,7 +54,7 @@ function splitAddr(addr, fallbackCity) { const parts = String(addr || "").split(
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 for (const f of fs.readdirSync(ROOT)) {
-  if (f === "index.html" || f === "firebase-config.js" || f === "_headers" || f.endsWith(".json")) fs.copyFileSync(f, path.join(OUT, f));
+  if (f === "index.html" || f === "firebase-config.js" || f === "_headers" || f.endsWith(".json") || /^google[0-9a-f]+\.html$/.test(f)) fs.copyFileSync(f, path.join(OUT, f));
 }
 fs.cpSync("fonts", path.join(OUT, "fonts"), { recursive: true });
 
