@@ -114,7 +114,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
 ${body}
 <footer>
 <div class="cities">${CITIES.map(c => `<a href="/${c.slug}/">${esc(c.name)}</a>`).join("")}</div>
-<p>Show Me Shows lists every live show we can find, updated every week from venue calendars. Times and prices can change, so check the ticket link before you go. Is your show missing? <a href="/#submit">Add it free</a>.</p>
+<p>Show Me Shows lists every live show we can find, updated every week from venue calendars. Times and prices can change, so check the ticket link before you go. Is your show missing? <a href="/#submit">Add it free</a>. Bands, venues and sponsors: <a href="mailto:info@showmeshows.net">info@showmeshows.net</a></p>
 </footer>
 </div></body></html>
 `;
