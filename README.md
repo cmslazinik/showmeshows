@@ -52,3 +52,7 @@ Share ▾ → "Instagram story flyer" draws a 1080×1920 flyer for the show in t
 ## Show passport
 
 Tab "Passport" (#passport). On a show's card, from 3 hours before start until 6 hours after, an "I'm here · get stamped" button appears. It checks the phone's location is within about a quarter mile of the venue, then adds a stamp. Stamps, badges (14), ranks and the holder name live in the visitor's browser (localStorage key `sms-passport`), with no account. "Share my passport" makes a 1080×1920 story picture.
+
+## Pages for Google
+
+Cloudflare's build command is `node scripts/build-site.mjs`. It copies the app into dist/ and writes a page for each city (/st-louis/, /denver/, /kansas-city/, /phoenix/) and each venue (/st-louis/off-broadway/ …) with schema.org MusicEvent data, plus /sitemap.xml and /robots.txt. They rebuild on every push, so they stay current with the listings.
