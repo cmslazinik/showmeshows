@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-24T11:58:03.905Z",
+ "updated": "2026-11-25T10:41:26.247Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -902,10 +902,6 @@
     "t": "Jessie's Girl"
    }
   },
-  "road to memphis fundraiser": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "robert earl keen": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c4/81/9a/c4819afc-3d25-87ed-2b51-7abb9893ff77/00015891108056.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1274,32 +1270,9 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/17/8d/f5178ddd-cebf-6bc2-1af4-3822fb6bc92b/mzaf_16964444401739867311.plus.aac.p.m4a",
     "t": "Metamorphosis"
    }
-  },
-  "yung gravy": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/yung-gravy/1165036761",
-   "checked": "2026-11-17",
-   "last": "2026-11-24",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/58/58/e55858b7-4771-b225-fd78-d2506be54d30/mzaf_229674367449994846.plus.aac.p.m4a",
-    "t": "Betty (Get Money)"
-   }
   }
  },
  "shows": {
-  "2026-11-24-kcbbslawnside-road-to-memphis-fundraiser": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-24-kcblackdolphin-reyes-brothers-organ-trio": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-24-libertyhall-yung-gravy": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-25-bottleneck-dorothy---the-dolls-present--hole": {
    "none": true,
    "checked": "2026-11-20"
