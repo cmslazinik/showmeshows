@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:19:25Z",
+ "updated": "2026-11-25T12:19:05Z",
  "note": "Phoenix listings. Refreshed by the Phoenix scheduled update (see updates/RULES.md).",
  "lastDeep": "2026-11-15",
  "shows": [
@@ -774,19 +774,6 @@
    "added": "2026-11-15"
   },
   {
-   "id": "2026-11-25-valleybar-veronica-everheart",
-   "date": "2026-11-25",
-   "time": "",
-   "artist": "Veronica Everheart",
-   "support": "",
-   "venue": "valleybar",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43500320-veronica-everheart-at-valley-bar",
-   "source": "https://www.songkick.com/concerts/43500320-veronica-everheart-at-valley-bar",
-   "added": "2026-11-15"
-  },
-  {
    "id": "2026-11-25-ranchoochoa-los-huracanes-del-norte",
    "date": "2026-11-25",
    "time": "18:00",
@@ -800,6 +787,19 @@
    "timeNote": "doors",
    "added": "2026-11-15",
    "priceRange": "$70–$100"
+  },
+  {
+   "id": "2026-11-25-valleybar-veronica-everheart",
+   "date": "2026-11-25",
+   "time": "18:30",
+   "artist": "Veronica Everheart",
+   "support": "",
+   "venue": "valleybar",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43500320-veronica-everheart-at-valley-bar",
+   "source": "https://www.valleybarphx.com/",
+   "added": "2026-11-15"
   },
   {
    "id": "2026-11-25-walterwherehouse-seth-troxler",
@@ -921,6 +921,19 @@
    "added": "2026-11-22"
   },
   {
+   "id": "2026-11-27-valleybar-quinn-ayres-album-release-show",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "artist": "Quinn Ayres Album Release Show",
+   "support": "Mo Maduro, Mario Why, Ms. Moody",
+   "venue": "valleybar",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.valleybarphx.com/",
+   "source": "https://www.valleybarphx.com/",
+   "added": "2026-11-25"
+  },
+  {
    "id": "2026-11-28-vanburen-r-b-only-live",
    "date": "2026-11-28",
    "time": "",
@@ -944,19 +957,6 @@
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43421902-soul-power-band-at-rhythm-room",
    "source": "https://www.songkick.com/concerts/43421902-soul-power-band-at-rhythm-room",
-   "added": "2026-11-15"
-  },
-  {
-   "id": "2026-11-28-valleybar-gnarwhal-jrz",
-   "date": "2026-11-28",
-   "time": "",
-   "artist": "Gnarwhal JRZ",
-   "support": "",
-   "venue": "valleybar",
-   "genre": "Other",
-   "price": "Ticketed",
-   "tickets": "https://www.songkick.com/concerts/43465738-gnarwhal-jrz-at-valley-bar",
-   "source": "https://www.songkick.com/concerts/43465738-gnarwhal-jrz-at-valley-bar",
    "added": "2026-11-15"
   },
   {
@@ -1010,6 +1010,19 @@
    "tickets": "https://mortgagematchupcenter.com/events/banda-ms-2026/",
    "source": "https://ktar.com/arizona-news/phoenix-concerts-calendar-2026-27",
    "added": "2026-11-22"
+  },
+  {
+   "id": "2026-11-28-valleybar-gnarwhal-jrz",
+   "date": "2026-11-28",
+   "time": "19:00",
+   "artist": "Gnarwhal JRZ",
+   "support": "",
+   "venue": "valleybar",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43465738-gnarwhal-jrz-at-valley-bar",
+   "source": "https://www.valleybarphx.com/",
+   "added": "2026-11-15"
   },
   {
    "id": "2026-11-28-ninthjackson-key-glock",
@@ -1181,6 +1194,19 @@
    "tickets": "https://www.songkick.com/concerts/43480676-klezmatics-at-musical-instrument-museum",
    "source": "https://www.songkick.com/concerts/43480676-klezmatics-at-musical-instrument-museum",
    "added": "2026-11-15"
+  },
+  {
+   "id": "2026-12-02-valleybar-letdown-",
+   "date": "2026-12-02",
+   "time": "19:00",
+   "artist": "Letdown.",
+   "support": "",
+   "venue": "valleybar",
+   "genre": "Indie/Alt",
+   "price": "Ticketed",
+   "tickets": "https://www.valleybarphx.com/",
+   "source": "https://www.valleybarphx.com/",
+   "added": "2026-11-25"
   },
   {
    "id": "2026-12-03-marqueetempe-giovannie-and-the-hired-guns",
