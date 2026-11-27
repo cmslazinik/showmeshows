@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-25T10:41:26.247Z",
+ "updated": "2026-11-27T10:48:49.731Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -292,10 +292,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "dorothy and the dolls present": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
   "drum and dye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/5f/c1/4a5fc1d4-9f6b-d29b-17be-19a79df11b6b/195269421670.png/400x400bb.jpg",
    "src": "apple",
@@ -367,14 +363,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "found a job": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/3f/fe/b63ffe55-3242-e0ba-f778-4ceef3e43a8e/cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/found-a-job/1726669037",
-   "checked": "2026-11-18",
-   "last": "2026-11-25",
-   "pvNone": "2026-11-23"
-  },
   "from ashes to new": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/ea/48/64ea4845-dad0-1cde-0f60-730c55b055b0/888295032698.jpg/400x400bb.jpg",
    "src": "apple",
@@ -412,17 +400,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "ha ha tonka": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/55/67/c9/5567c931-6a31-06c1-e199-d1c934a5c819/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/ha-ha-tonka/263244918",
-   "checked": "2026-11-18",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/f1/e6/8bf1e689-981d-ad5c-3186-473281c4d5d4/mzaf_3505908110315656887.plus.aac.p.m4a",
-    "t": "Lessons"
-   }
-  },
   "heartland men s chorus": {
    "none": true,
    "checked": "2026-11-18"
@@ -441,10 +418,6 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/b4/fe/80b4fe3b-7aae-f9e4-27db-af13b4975ce9/mzaf_16093817629052072437.plus.aac.p.m4a",
     "t": "Sea Shanty Medley"
    }
-  },
-  "howard mahan s turkey eve bash": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "hudson electric": {
    "none": true,
@@ -1234,17 +1207,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "wonkywilla": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/98/62/8f9862b8-d907-33a8-d690-7262e60c3a6c/723277819426.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/wonkywilla/1508461892",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/0f/ae/010fae75-a2ef-5375-91a7-7b0b032c85e7/mzaf_3864864382555149840.plus.aac.p.m4a",
-    "t": "Is U Rollin (VIP)"
-   }
-  },
   "wynonna": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d10/h18/s06.tbjhjtkx.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1273,34 +1235,6 @@
   }
  },
  "shows": {
-  "2026-11-25-bottleneck-dorothy---the-dolls-present--hole": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
-  "2026-11-25-kcbbslawnside-howard-mahan-s-turkey-eve-bash": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-kcblackdolphin-sally-s-tomato": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-kcmadrid-wonkywilla": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-knuckleheads-found-a-job": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-recordbar-ha-ha-tonka": {
-   "img": "https://s3.amazonaws.com/opendate-aws-assets/confirms/main_event_images/000/682/959/compressed/Tonka2025_%281%29.jpg?1787867522",
-   "src": "venue"
-  },
-  "2026-11-26-kcblackdolphin-mark-slimm-duo": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-27-blueroomkc-indigo-hour--the-lori-tucker-quartet": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885384%252F2197883838193%252F1%252Foriginal.20261015-174945%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D17efbd2aff655b0be269b8127540b403&w=940&q=75",
    "src": "venue"
@@ -1315,23 +1249,23 @@
   },
   "2026-11-27-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-kcbbslawnside-stranded-in-the-city": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-kcblackdolphin-mark-slimm-duo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-kcblackdolphin-rss-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-kctruman-reggaeton-rave": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-blueroomkc-jazzy-jazz-miyagi": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885441%252F2197883838193%252F1%252Foriginal.20261015-175021%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D8b437646a4ff3d52de8d496a25ca63b2&w=940&q=75",
@@ -1343,31 +1277,31 @@
   },
   "2026-11-28-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kcbbslawnside-slide-summit-2026": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kcblackdolphin-rss-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kcblackdolphin-sam-platt-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kccoryfranks-stranded-in-the-city": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kcphoenix-big-luke---the-soul-disciples": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-kcuptown-danielle-nicole": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-bottleneck-wishy": {
    "none": true,
@@ -1375,11 +1309,11 @@
   },
   "2026-11-29-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-kcbbslawnside-brody-buster-one-man-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-blueroomkc-monday-night-jam-session": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885469%252F2197883838193%252F1%252Foriginal.20261015-175040%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dec0a966ad1f37799260012d03d9cf82f&w=940&q=75",
@@ -1395,31 +1329,31 @@
   },
   "2026-11-30-kcblackdolphin-mark-slimm-duo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-kcencore-chrissy-chlapecka": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-libertyhall-your-arms-are-my-cocoon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-kcbbslawnside-kelsey-miles": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-kcblackdolphin-reyes-brothers-organ-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-kctruman-matisyahu": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-kcblackdolphin-sally-s-tomato": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-blueroomkc-jazz---noon--kckcc-blue-devil-funk-band": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885509%252F2197883838193%252F1%252Foriginal.20261015-175102%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dd46ebc0d1b7dbe70c7ae85c91abf5867&w=940&q=75",
@@ -1431,15 +1365,15 @@
   },
   "2026-12-03-kcblackdolphin-mark-slimm-duo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-kcmidland-blue-october": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-kcrino-echos": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-blueroomkc-eboni-fondren": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885548%252F2197883838193%252F1%252Foriginal.20261015-175139%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D1ae582e7f0d0d2ba72d6451f341f9470&w=940&q=75",
@@ -1451,19 +1385,19 @@
   },
   "2026-12-04-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-kcblackdolphin-mark-slimm-duo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-kcblackdolphin-rss-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-kccabledahmer-sam-barber": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-kcfolly-heartland-men-s-chorus--don-we-now-": {
    "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
@@ -1474,8 +1408,8 @@
    "src": "venue"
   },
   "2026-12-04-knuckleheads-los-lobos": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.jambase.com/wp-content/uploads/2025/04/los-lobos-2025-press-1200x675.jpg",
+   "src": "venue"
   },
   "2026-12-05-blueroomkc-darryl-white": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885579%252F2197883838193%252F1%252Foriginal.20261015-175158%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D860db27f549d7015238cae4db606d3c8&w=940&q=75",
@@ -1487,15 +1421,15 @@
   },
   "2026-12-05-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-kcblackdolphin-rss-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-kcblackdolphin-sam-platt-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-kcfolly-heartland-men-s-chorus--don-we-now-": {
    "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
@@ -1503,7 +1437,7 @@
   },
   "2026-12-05-kctruman-ahee": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-knuckleheads-los-lobos": {
    "img": "https://www.jambase.com/wp-content/uploads/2025/04/los-lobos-2025-press-1200x675.jpg",
@@ -1515,11 +1449,11 @@
   },
   "2026-12-06-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-kcbbslawnside-drum---dye": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-kcfolly-heartland-men-s-chorus--don-we-now-": {
    "img": "https://follytheater.org/wp-content/uploads/2026/06/Folly-Performance-1-scaled-1.jpg",
@@ -1527,19 +1461,19 @@
   },
   "2026-12-06-kctruman-lupita-infante": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-kcuptown-imminence": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-knuckleheads-david-cook": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-midwesttrust-a-winter-s-evening-with-ryanhood": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-07-blueroomkc-monday-night-jam-session--chris-hazelton": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885626%252F2197883838193%252F1%252Foriginal.20261015-175221%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dc85e07b8b1e99e36f834ab50752412db&w=940&q=75",
@@ -1547,7 +1481,7 @@
   },
   "2026-12-07-minibarkc-rat-tally": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-07-tmobilecenter-amy-grant--michael-w--smith---cece-winans--christmas-together": {
    "img": "https://www.t-mobilecenter.com/assets/img/default-thumb-5a92f0ec11.jpg",
@@ -1559,7 +1493,7 @@
   },
   "2026-12-08-kcmidland-gavin-adcock": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-bottleneck-wade-forster": {
    "none": true,
@@ -1571,7 +1505,7 @@
   },
   "2026-12-09-kcuptown-robert-earl-keen": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-blueroomkc-chris-hazelton": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885704%252F2197883838193%252F1%252Foriginal.20261015-175259%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D09871a1817ced895e40ebd47c77aeb0e&w=940&q=75",
@@ -1583,7 +1517,7 @@
   },
   "2026-12-11-brickkc-hudson-electric": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-kauffman-kansas-city-symphony--cody-fry-christmas": {
    "none": true,
@@ -1607,11 +1541,11 @@
   },
   "2026-12-12-kctruman-king-s-x": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-libertyhall-kansas-city-jazz-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-13-kcfolly-preservation-hall-jazz-band": {
    "img": "https://follytheater.org/wp-content/uploads/2026/09/7817ddbf-b8d5-4ad4-adc7-3fb6446ff58f.jpg",
@@ -1619,7 +1553,7 @@
   },
   "2026-12-13-kcreplay-hudson-electric": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-14-blueroomkc-monday-night-jam-session": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885748%252F2197883838193%252F1%252Foriginal.20261015-175340%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D8aa776bb27fcd40ee983508d33f5bc73&w=940&q=75",
@@ -1631,11 +1565,11 @@
   },
   "2026-12-15-kclied-ashley-davis--winter-solstice-concert--a-midwinter-gathering": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-kcuptown-home-free": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-bottleneck-bayati": {
    "none": true,
@@ -1643,7 +1577,7 @@
   },
   "2026-12-17-kauffman-kansas-city-symphony--christmas-festival": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-kcsk8bar-tantric": {
    "img": "https://images.sk-static.com/images/media/img/col6/20100223-175954-706582.jpg",
@@ -1651,7 +1585,7 @@
   },
   "2026-12-17-kctruman-jackson-dean": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-blueroomkc-indigo-hour--chloe-mcfadden": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196304890%252F2197883838193%252F1%252Foriginal.20261021-190207%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D466108084a88ecd28ea7af71c454fce6&w=940&q=75",
@@ -1667,11 +1601,11 @@
   },
   "2026-12-18-kauffman-kansas-city-symphony--christmas-festival": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-kauffman-kansas-city-symphony--christmas-festival": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-tmobilecenter-for-king---country--a-drummer-boy-christmas": {
    "img": "https://www.t-mobilecenter.com/assets/img/default-thumb-5a92f0ec11.jpg",
@@ -1679,7 +1613,7 @@
   },
   "2026-12-20-kauffman-kansas-city-symphony--christmas-festival": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-21-blueroomkc-monday-night-jam-session--angela-ward---friends": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195886046%252F2197883838193%252F1%252Foriginal.20261015-175705%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D0e3158d33bb864d69784d2fb555cb8d1&w=940&q=75",
@@ -1687,11 +1621,11 @@
   },
   "2026-12-23-kauffman-kansas-city-symphony--the-polar-express-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-24-kauffman-kansas-city-symphony--the-polar-express-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-blueroomkc-tetsuya-nishiyama-trio": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885809%252F2197883838193%252F1%252Foriginal.20261015-175432%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D933bad0e7667d6412877e01e841b4c55&w=940&q=75",
@@ -1707,7 +1641,7 @@
   },
   "2026-12-29-tmobilecenter-trans-siberian-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-bottleneck-new-year-s-eve-with-neon-dance-party": {
    "none": true,
@@ -1715,7 +1649,7 @@
   },
   "2026-12-31-kcmadrid-cyclops": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-kctruman-united-we-dance--nye-rave": {
    "none": true,
@@ -1723,19 +1657,19 @@
   },
   "2026-12-31-voodookc-disco-dick-and-the-mirrorballs": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-08-kauffman-kansas-city-symphony--tchaikovsky-s-fifth-symphony": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-09-kauffman-kansas-city-symphony--tchaikovsky-s-fifth-symphony": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-10-kauffman-kansas-city-symphony--tchaikovsky-s-fifth-symphony": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-14-kauffman-kansas-city-symphony--on-stage-with-blake-pouliot": {
    "none": true,
@@ -1747,15 +1681,15 @@
   },
   "2027-01-15-kauffman-kansas-city-symphony--dvo--k-s-eighth-with-mozart": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-15-voodookc-petey-pablo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-16-kauffman-kansas-city-symphony--dvo--k-s-eighth-with-mozart": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-16-kctruman-the-taylor-party--taylor-swift-night": {
    "none": true,
@@ -1763,15 +1697,15 @@
   },
   "2027-01-17-kauffman-kansas-city-symphony--dvo--k-s-eighth-with-mozart": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-17-kcmidland-kenny-g": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-19-kcuptown-smith---myers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-21-bottleneck-lotus": {
    "none": true,
@@ -1783,7 +1717,7 @@
   },
   "2027-01-22-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-22-kctruman-the-emo-night-tour": {
    "none": true,
@@ -1795,11 +1729,11 @@
   },
   "2027-01-23-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-23-kcreplay-modeling": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-23-tmobilecenter-winter-jam-2027": {
    "img": "https://www.t-mobilecenter.com/assets/img/01.23.27-Winter-Jam-1355x530-48c76aaae1.jpg",
@@ -1807,19 +1741,19 @@
   },
   "2027-01-24-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-24-midwesttrust-skerryvore": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-28-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-29-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-30-bottleneck-crimewave--a-darkwave-party": {
    "none": true,
@@ -1827,7 +1761,7 @@
   },
   "2027-01-30-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-30-kctruman-reggaeton-rave": {
    "none": true,
@@ -1835,63 +1769,63 @@
   },
   "2027-01-30-midwesttrust-mtc-kids-jam--allegra-levy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-30-voodookc-the-rock-gods": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-31-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-31-kclied-basso-vox": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-31-midwesttrust-cantus--simple-gifts": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-03-libertyhall-richard-thompson": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-04-voodookc-atmosphere": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-05-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-05-kcuptown-josh-meloy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-05-voodookc-revisiting-creedence": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-kclied-prairie-winds-festival-with-special-guest-boston-brass": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-knuckleheads-bumpin-uglies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-midwesttrust-cultural-crossroads--dvo--k-in-america": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-07-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-10-kauffman-kansas-city-symphony--baroque-at-7-00---bach-and-vivaldi": {
    "none": true,
@@ -1899,35 +1833,35 @@
   },
   "2027-02-11-kclied-ku-symphony-orchestra-with-liberty-north-high-school": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-11-knuckleheads-lydia-loveless": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-12-kauffman-kansas-city-symphony--clouds-in-my-coffee--the-music-of-joni-mitchell--carole-king-and-carly-simon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-13-kauffman-kansas-city-symphony--clouds-in-my-coffee--the-music-of-joni-mitchell--carole-king-and-carly-simon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-14-kauffman-kansas-city-symphony--clouds-in-my-coffee--the-music-of-joni-mitchell--carole-king-and-carly-simon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-15-kctruman-public-image-ltd--pil-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-16-kclied-rhiannon-giddens": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-16-kcuptown-trombone-shorty---orleans-avenue": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-18-kauffman-monteverdi-choir-and-english-baroque-soloists": {
    "none": true,
@@ -1935,23 +1869,23 @@
   },
   "2027-02-18-kcuptown-wynonna": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-19-kauffman-andrew-mcmahon-with-the-kansas-city-symphony": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-19-libertyhall-conor-oberst": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-19-midwesttrust-black-panther-in-concert--the-north-american-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-20-kcmidland-meshuggah": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-20-kctruman-rumours-atl--a-fleetwood-mac-tribute": {
    "none": true,
@@ -1959,15 +1893,15 @@
   },
   "2027-02-20-voodookc-elton-dan---the-rocket-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-21-kauffman-kansas-city-symphony--peter-and-the-wolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-23-kcmidland-needtobreathe": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-25-kauffman-kansas-city-symphony--happy-hour---the-end-of-romanticism": {
    "none": true,
@@ -1975,67 +1909,67 @@
   },
   "2027-02-25-kctruman-grace-potter": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-25-kcuptown-bethel-music": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-26-kcuptown-wheeler-walker--jr-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-27-midwesttrust-chicken-wire-empire": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-02-kauffman-samara-joy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-02-kctruman-dinosaur-jr-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-04-kauffman-kansas-city-symphony--on-stage-with-emanuel-ax": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-04-kctruman-liquid-stranger": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-05-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-05-kcmidland-flans": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-05-knuckleheads-james-mcmurtry": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-kcameristar-rick-springfield": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-kcuptown-amerifloyd": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-midwesttrust-winterlude-jazz-festival--mardi-gras-mambo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-07-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-09-kauffman-jazz-at-lincoln-center-orchestra-with-wynton-marsalis": {
    "none": true,
@@ -2043,7 +1977,7 @@
   },
   "2027-03-09-kcmadrid-pepper": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-09-kctruman-comehelpglo": {
    "none": true,
@@ -2055,19 +1989,19 @@
   },
   "2027-03-12-kauffman-kansas-city-symphony--tropical-rock-for-five-o-clock-somewhere--jimmy-buffett-and-friends": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-12-kcmidland-dexter-and-the-moonrocks": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-13-kauffman-kansas-city-symphony--tropical-rock-for-five-o-clock-somewhere--jimmy-buffett-and-friends": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-14-kauffman-kansas-city-symphony--tropical-rock-for-five-o-clock-somewhere--jimmy-buffett-and-friends": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-14-kctruman-boundaries": {
    "img": "https://images.sk-static.com/images/media/img/col6/20140119-200127-453485.jpg",
@@ -2079,27 +2013,27 @@
   },
   "2027-03-18-kcmadrid-effin": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-19-kauffman-kansas-city-symphony--skyfall-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-20-kauffman-kansas-city-symphony--skyfall-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-21-kauffman-kansas-city-symphony--skyfall-in-concert": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-22-kcencore-ruby-waters": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-24-kctruman-beach-bunny": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-26-kauffman-kansas-city-jazz-orchestra--songs-in-the-key-of-life---a-tribute-to-stevie-wonder": {
    "none": true,
@@ -2107,43 +2041,43 @@
   },
   "2027-03-27-kcmidland-sullivan-king": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-27-midwesttrust-yamato": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-01-kcmidland-warren-zeiders": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-01-kctruman-elderbrook": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-02-kauffman-kansas-city-symphony--brahms--second-symphony---conrad-tao-plays-matthias-pintscher": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-03-kauffman-kansas-city-symphony--brahms--second-symphony---conrad-tao-plays-matthias-pintscher": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-04-kauffman-kansas-city-symphony--brahms--second-symphony---conrad-tao-plays-matthias-pintscher": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-04-kcencore-alex-sampson": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-04-kcmidland-lsdream": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-04-voodookc-from-ashes-to-new": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-07-knuckleheads-marc-broussard": {
    "img": "https://www.jambase.com/wp-content/uploads/2017/04/marc-broussard-marc-broussard-2571a6dc-fdb7-4db2-978c-02832bd141b7_230271_RETINA_LANDSCAPE_16_9-1200x675.jpg",
@@ -2155,31 +2089,31 @@
   },
   "2027-04-09-kauffman-kansas-city-symphony--wagner-s-valkyrie": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-10-kauffman-kansas-city-symphony--wagner-s-valkyrie": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-10-libertyhall-brakence": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-10-midwesttrust-the-electric-light-orchestra-experience-featuring-evil-woman--the-american-elo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-10-tmobilecenter-staind": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-11-kauffman-kansas-city-symphony--wagner-s-valkyrie": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-12-kcmidland-the-plot-in-you": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-13-kauffman-lang-lang": {
    "none": true,
@@ -2187,31 +2121,31 @@
   },
   "2027-04-14-kcmidland-todd-rundgren": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-16-kauffman-kansas-city-symphony--the-voice-of-whitney--a-symphonic-celebration": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-17-kauffman-kansas-city-symphony--the-voice-of-whitney--a-symphonic-celebration": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-17-midwesttrust-rodney-marsalis-with-bach-aria-soloists--from-bach-to-bernstein": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-18-kauffman-kansas-city-symphony--the-voice-of-whitney--a-symphonic-celebration": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-18-kcmadrid-the-chats": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-18-kcmidland-tinashe": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-23-kauffman-national-symphony-orchestra-with-gianandrea-noseda-and-ray-chen": {
    "none": true,
@@ -2223,11 +2157,11 @@
   },
   "2027-04-24-kcmidland-hum": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-26-tmobilecenter-def-leppard": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-29-kauffman-kansas-city-symphony--happy-hour---steampunk": {
    "none": true,
@@ -2235,11 +2169,11 @@
   },
   "2027-04-29-kcmadrid-twrp": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-30-knuckleheads-max-cooper-iii": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-01-kauffman-kansas-city-symphony--steve-hackman-s-beethoven-x-beyonc-": {
    "none": true,
@@ -2247,39 +2181,39 @@
   },
   "2027-05-02-kcuptown-scott-bradlee-s-postmodern-jukebox": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-04-kcmidland-slash-featuring-myles-kennedy-and-the-conspirators": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-07-kauffman-kansas-city-symphony--songs-of-the-sea--britten---vaughan-williams": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-07-kcuptown-dylan-gossett": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-08-kauffman-kansas-city-symphony--songs-of-the-sea--britten---vaughan-williams": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-08-kcuptown-jesse---joy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-08-midwesttrust-mtc-kids-jam--23-skidoo---the-secret-agency": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-09-kauffman-kansas-city-symphony--songs-of-the-sea--britten---vaughan-williams": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-11-kcmidland-remi-wolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-05-19-kauffman-kansas-city-symphony--baroque-at-7-00---brandenburg-finale": {
    "none": true,

@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-25T12:22:45.850Z",
+ "updated": "2026-11-27T10:46:22.399Z",
  "artists": {
   "1tbsp": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
@@ -16,10 +16,6 @@
   "2000 s rave": {
    "none": true,
    "checked": "2026-11-21"
-  },
-  "22nd annual last waltz revisited feat polytoxic": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "3ballmty": {
    "none": true,
@@ -86,7 +82,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/alex-sampson/1486112083",
    "checked": "2026-11-20",
-   "last": "2027-04-11"
+   "last": "2027-04-11",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/0c/c1/650cc180-93e4-6cbc-d9c5-989ca50283fc/mzaf_2271400400422685507.plus.aac.p.m4a",
+    "t": "Pretty Baby"
+   }
   },
   "alicia villarreal": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/fa/14/c3/fa14c3ef-b37b-ad45-fd0d-f14b74a7fa23/190394980740.jpg/400x400bb.jpg",
@@ -112,7 +112,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/almost-a-m/1603595032",
    "checked": "2026-11-22",
-   "last": "2027-04-01"
+   "last": "2027-04-01",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/88/7a/77887aac-41bd-a4f3-79ce-feb361944128/mzaf_3464734288993771022.plus.aac.p.m4a",
+    "t": "Daydreams"
+   }
   },
   "alphabeat soup 93": {
    "none": true,
@@ -149,7 +153,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/angus-julia-stone/169843517",
    "checked": "2026-11-22",
-   "last": "2027-05-05"
+   "last": "2027-05-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/2a/d8/e62ad83c-ef98-f2c5-f3f1-479f4c79874e/mzaf_17112331967762745068.plus.aac.p.m4a",
+    "t": "Big Jet Plane"
+   }
   },
   "asaf avidan": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/89/ee/5589eea5-b7e3-4ffd-1fd4-951790cac935/886447815052.jpg/400x400bb.jpg",
@@ -299,7 +307,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/bigxthaplug/1482508209",
    "checked": "2026-11-22",
-   "last": "2027-05-01"
+   "last": "2027-05-01",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/dc/7f/d6dc7fb0-55e7-69fd-59b9-3c11b7b4434d/mzaf_1821227612055270665.plus.aac.p.m4a",
+    "t": "Hell At Night"
+   }
   },
   "billy failing s holiday sleigh ride": {
    "none": true,
@@ -310,7 +322,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/bilmuri/1072442999",
    "checked": "2026-11-20",
-   "last": "2027-04-16"
+   "last": "2027-04-16",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/18/35/2e183500-d61a-e77b-93b0-29464cc0e7f4/mzaf_2849414768230481016.plus.aac.p.m4a",
+    "t": "ALWAYS LET YOU DOWN"
+   }
   },
   "bj barham": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/b5/19/cfb51909-64dd-5666-85f0-219a753172d0/888295451024_cover.jpg/400x400bb.jpg",
@@ -417,14 +433,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/boy-throb/1858762551",
    "checked": "2026-11-20",
-   "last": "2027-04-10"
+   "last": "2027-04-10",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/e1/da/37e1da50-f508-554c-4d80-abaa3e3f64d1/mzaf_11846154480325764371.plus.aac.p.m4a",
+    "t": "DJ Turn It Down"
+   }
   },
   "brakence": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/aa/db/1d/aadb1d21-85f1-057a-f308-6f0ac84809dc/196589611031.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/brakence/1345560251",
    "checked": "2026-11-20",
-   "last": "2027-04-12"
+   "last": "2027-04-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/c5/a1/d9c5a17b-7b11-3371-d577-8636446486fe/mzaf_3199487362679519565.plus.aac.p.m4a",
+    "t": "Problem Child"
+   }
   },
   "breathe carolina": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/30/ba/71/30ba71aa-8dc6-c4a7-e42d-f811d7e70908/mzi.jfxswuyj.jpg/400x400bb.jpg",
@@ -440,17 +464,6 @@
   "bresh": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "brian blade and the fellowship band": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6e/33/1c/6e331cdb-1240-0339-ed47-aaf133217022/00724385941757.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/brian-blade-the-fellowship-band/278643307",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/a2/38/55a23892-78c3-f13c-060d-3bfcbe0940de/mzaf_2594308848645175403.plus.aac.p.m4a",
-    "t": "Landmarks"
-   }
   },
   "brimco": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/50/41/4b504112-17f1-d58e-a54b-8e07be6c0eef/artwork.jpg/400x400bb.jpg",
@@ -530,7 +543,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/carly-rae-jepsen/284363062",
    "checked": "2026-11-20",
-   "last": "2027-04-25"
+   "last": "2027-04-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/ef/8c/b5ef8cd0-3d9a-b2e3-e7bd-daeab1a73209/mzaf_14855664445162862293.plus.aac.p.m4a",
+    "t": "Run Away with Me"
+   }
   },
   "caroline rose": {
    "none": true,
@@ -590,7 +607,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/charley-crockett/987849844",
    "checked": "2026-11-22",
-   "last": "2027-04-14"
+   "last": "2027-04-14",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/b3/35/4db335b8-4d24-a5f0-2562-e3a14524dc03/mzaf_2243156170276153501.plus.aac.p.m4a",
+    "t": "Jamestown Ferry"
+   }
   },
   "chelsea cutler": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/09/93/4c/09934cd6-bda8-3bd1-3f0a-3c842b22690d/19UMGIM37948.rgb.jpg/400x400bb.jpg",
@@ -623,7 +644,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/chris-tomlin/569510",
    "checked": "2026-11-23",
-   "last": "2027-05-24"
+   "last": "2027-05-24",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/6f/17/a06f1799-4e94-02d4-db8d-60d10feab495/mzaf_3913032410654580171.plus.aac.p.m4a",
+    "t": "Good News Of Great Joy"
+   }
   },
   "chrissy chlapecka": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/1d/35/541d35a2-dd0d-bbbc-6d99-8e02524586df/656465376848_cover.jpg/400x400bb.jpg",
@@ -691,7 +716,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/cloonee/946851486",
    "checked": "2026-11-20",
-   "last": "2027-05-01"
+   "last": "2027-05-01",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/ae/c6/d5aec627-f6e1-c524-342e-c5f808ff2cbf/mzaf_5750792667774287974.plus.aac.p.m4a",
+    "t": "Good Girl"
+   }
   },
   "clutch": {
    "none": true,
@@ -741,7 +770,8 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/colorado-symphony/29769512",
    "checked": "2026-11-20",
-   "last": "2027-04-02"
+   "last": "2027-04-02",
+   "pvNone": "2026-11-27"
   },
   "comehelpglo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/3b/d6/233bd696-96a3-6255-1a55-a686e216fa6f/808391380721.jpg/400x400bb.jpg",
@@ -777,10 +807,6 @@
   "costa": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "costa and lucky": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "cracked ribs": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/40/84/7c408431-2ab7-0ce6-f2ff-a29b5f9e81c6/artwork.jpg/400x400bb.jpg",
@@ -829,10 +855,6 @@
    "checked": "2026-11-17",
    "skip": "event"
   },
-  "daddy and company": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "dalvin": {
    "none": true,
    "checked": "2026-11-19"
@@ -846,7 +868,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/dan-reeder/3824892",
    "checked": "2026-11-20",
-   "last": "2027-04-01"
+   "last": "2027-04-01",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/6f/98/306f981b-21c0-6ab3-2577-933400c44ffb/mzaf_9410845820445002047.plus.aac.p.m4a",
+    "t": "clean elvis"
+   }
   },
   "danielle ponder": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/3e/3f/f33e3f46-2cc4-255a-8232-36100be7c68b/67440.jpg/400x400bb.jpg",
@@ -884,10 +910,6 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/43/0d/cb430dec-8df8-766b-a8f0-515387f5a47f/mzaf_7065356449426347815.plus.aac.p.m4a",
     "t": "It's Not Over"
    }
-  },
-  "dave hanson quartet celebrates herbie hancock": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "dave watts annual birthday jam": {
    "none": true,
@@ -1069,7 +1091,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/earth-to-eve/1485905098",
    "checked": "2026-11-22",
-   "last": "2027-04-09"
+   "last": "2027-04-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/38/af/bb38aff5-aabc-ec7b-34d3-39e3b48cd340/mzaf_11782023671526728125.plus.aac.p.m4a",
+    "t": "NO KINGS"
+   }
   },
   "easton corbin": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/24/05/94/2405945a-a85c-903e-d507-63abacc01208/10UMGIM00046.rgb.jpg/400x400bb.jpg",
@@ -1117,7 +1143,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/elderbrook/736829657",
    "checked": "2026-11-20",
-   "last": "2027-04-03"
+   "last": "2027-04-03",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/41/ee/55/41ee55ad-d94a-5f90-c6e9-9038afe3f83d/mzaf_3216568180003759975.plus.aac.p.m4a",
+    "t": "Inner Light"
+   }
   },
   "electric avenue": {
    "none": true,
@@ -1210,7 +1240,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/fkj/644688726",
    "checked": "2026-11-20",
-   "last": "2027-04-29"
+   "last": "2027-04-29",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/14/3a/e1143ade-4a80-8d47-051b-f9bac9bc53cc/mzaf_15278664833660573502.plus.aac.p.m4a",
+    "t": "Vibin' Out"
+   }
   },
   "flans": {
    "none": true,
@@ -1221,7 +1255,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/french-79/931540150",
    "checked": "2026-11-20",
-   "last": "2027-04-28"
+   "last": "2027-04-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/d6/cf/36d6cfa4-365d-7e18-829f-362eb7979198/mzaf_12445011930357916186.plus.aac.p.m4a",
+    "t": "Diamond Veins (feat. Sarah Rebecca)"
+   }
   },
   "friends on the hill": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/33/c0/b3/33c0b3cc-0a63-9d21-66d0-0f07f8446c3e/823000383719.png/400x400bb.jpg",
@@ -1343,7 +1381,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/greta-van-fleet/646178956",
    "checked": "2026-11-20",
-   "last": "2027-03-30"
+   "last": "2027-03-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/b3/11/9cb31101-479b-d75f-f00d-2fac945461b3/mzaf_8566768722455711699.plus.aac.p.m4a",
+    "t": "Highway Tune"
+   }
   },
   "grieves": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/63/90/fa639034-8fa6-8290-d993-d0e81ef0303d/cover.jpg/400x400bb.jpg",
@@ -1380,7 +1422,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/haiden-henderson/1553587317",
    "checked": "2026-11-20",
-   "last": "2027-05-08"
+   "last": "2027-05-08",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/d9/72/5dd9725e-5e85-7321-06bb-0ca526e7af54/mzaf_1727802458926887555.plus.aac.p.m4a",
+    "t": "freak for you"
+   }
   },
   "hairball": {
    "none": true,
@@ -1501,7 +1547,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/hotel-fiction/1477007150",
    "checked": "2026-11-22",
-   "last": "2027-04-05"
+   "last": "2027-04-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/38/0f/f1/380ff165-f30c-de89-0692-4db49cacebef/mzaf_7856368872492916207.plus.aac.p.m4a",
+    "t": "Athens GA"
+   }
   },
   "howland vk": {
    "none": true,
@@ -1512,7 +1562,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/hudson-freeman/1067869141",
    "checked": "2026-11-20",
-   "last": "2027-04-07"
+   "last": "2027-04-07",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/5a/3c/175a3cda-187c-d7cf-e248-36ef2ef31419/mzaf_13453115562345061814.plus.aac.p.m4a",
+    "t": "If You Know Me"
+   }
   },
   "ian asher": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/97/bf/4d97bfd1-be16-e55d-80b1-58fba16a243f/198391929540.jpg/400x400bb.jpg",
@@ -1611,7 +1665,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jason-isbell-and-the-400-unit/301599804",
    "checked": "2026-11-20",
-   "last": "2027-05-15"
+   "last": "2027-05-15",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/58/30/0d58307b-513b-4bbe-1ae8-c1c723ce3c86/mzaf_2412657425028741470.plus.aac.p.m4a",
+    "t": "Goddamn Lonely Love (Live)"
+   }
   },
   "jason ross": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/fc/00/3c/fc003cb5-d5d1-a58f-e99d-dd5aa5df7392/5039060277492.png/400x400bb.jpg",
@@ -1629,7 +1687,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jay-wheeler/164376380",
    "checked": "2026-11-20",
-   "last": "2027-04-04"
+   "last": "2027-04-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/2c/8d/172c8da7-54d6-6675-b608-249d99bffbc0/mzaf_6965520470701684748.plus.aac.p.m4a",
+    "t": "La Curiosidad"
+   }
   },
   "jazzetry": {
    "none": true,
@@ -1666,7 +1728,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/jesse-joy/167779502",
    "checked": "2026-11-20",
-   "last": "2027-04-09"
+   "last": "2027-04-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/ac/58/8dac5844-8e57-c323-ec3d-055f08a2f1ca/mzaf_4468545744565461130.plus.aac.p.m4a",
+    "t": "¡Corre!"
+   }
   },
   "jesse cook": {
    "none": true,
@@ -1707,14 +1773,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/john-hollier-the-r%C3%AAverie/1838729649",
    "checked": "2026-11-22",
-   "last": "2027-04-16"
+   "last": "2027-04-16",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/6a/02/1d6a02de-e18f-1363-47cd-0a6d3332f7f7/mzaf_1811739643983357927.plus.aac.p.m4a",
+    "t": "Somewhere Down the Road"
+   }
   },
   "john splithoff": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/21/d8/7e/21d87e69-aeec-6514-d2cd-2d24cc767a1e/075597928440.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/john-splithoff/715959373",
    "checked": "2026-11-22",
-   "last": "2027-05-21"
+   "last": "2027-05-21",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/ae/be/2baebe08-a284-1aa1-16ee-a07116ff1c03/mzaf_907985464141046784.plus.aac.p.m4a",
+    "t": "Raye"
+   }
   },
   "jon bryant": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/a6/26/0aa626ef-221a-392b-f9ff-a51cd89ce481/885767358379.jpg/400x400bb.jpg",
@@ -1742,23 +1816,16 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "josh baker": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/f6/c9/55f6c907-3b85-ed47-bbcf-cbb5fbf44f15/5026854231518.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/josh-baker/150294413",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/da/e7/f7dae7ac-7a06-737a-293e-8bba737d8f95/mzaf_1692087088386965075.plus.aac.p.m4a",
-    "t": "My Place"
-   }
-  },
   "josiah queen": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/50/30/ea5030f4-9832-9ac8-1589-c55d5e370e27/25SYMIM20370.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/josiah-queen/1498117530",
    "checked": "2026-11-20",
-   "last": "2027-05-10"
+   "last": "2027-05-10",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/39/17/24391756-17e8-9304-77ce-3f72facdea73/mzaf_17268381901392131869.plus.aac.p.m4a",
+    "t": "demons"
+   }
   },
   "josie edwards": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/4d/e1/5a4de1de-6148-6432-ad93-72b4b422d02b/199538607376.jpg/400x400bb.jpg",
@@ -1776,7 +1843,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/julian-lage/6937093",
    "checked": "2026-11-20",
-   "last": "2027-03-28"
+   "last": "2027-03-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/8c/75/988c757e-5db0-9032-5fae-8e82f5c9b818/mzaf_4678608820026145537.plus.aac.p.m4a",
+    "t": "Serenade"
+   }
   },
   "julieta venegas": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/a3/93/39a39334-38f0-a7ca-efbf-362cc3ef5a33/886973082126.jpg/400x400bb.jpg",
@@ -1921,7 +1992,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/lambrini-girls/1541291393",
    "checked": "2026-11-20",
-   "last": "2027-04-06"
+   "last": "2027-04-06",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/f8/0e/87f80ec3-6213-3e43-eb59-4c99cd152de0/mzaf_9285877301129781679.plus.aac.p.m4a",
+    "t": "No Homo"
+   }
   },
   "leftover salmon feat sam bush": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m04/d19/h11/s05.ugqmejed.jpg/400x400bb.jpg",
@@ -2023,17 +2098,10 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/maaps/1759215956",
    "checked": "2026-11-22",
-   "last": "2027-05-01"
-  },
-  "mad dubz": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/4f/ab/9a4fabc9-5cfc-4676-5cc6-8f68fb8901d3/cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/mad-dubz/1478113559",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
+   "last": "2027-05-01",
    "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/de/ab/b8deaba3-aaeb-dd62-c115-0e31e8f8ce9e/mzaf_11976928565457470113.plus.aac.p.m4a",
-    "t": "Monster"
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/8f/b4/698fb499-de7f-0678-44da-51d985b0d4ee/mzaf_4414782054248921094.plus.aac.p.m4a",
+    "t": "Spirit In The Sky"
    }
   },
   "madra salach": {
@@ -2041,14 +2109,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/madra-salach/1840194470",
    "checked": "2026-11-22",
-   "last": "2027-05-12"
+   "last": "2027-05-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/c4/2a/f9c42ac9-dbd1-0ad1-ddaa-e149aa6d6603/mzaf_9371074444435920879.plus.aac.p.m4a",
+    "t": "Ribbon Factory"
+   }
   },
   "magenta wave": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/02/47/ea024737-c25b-3816-d792-cc517248e7b7/1225360.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/magenta-wave/1727651174",
    "checked": "2026-11-22",
-   "last": "2027-04-25"
+   "last": "2027-04-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/17/ab/3f17abde-eead-04eb-de25-612e184b5e5b/mzaf_3090088274043413076.plus.aac.p.m4a",
+    "t": "Sex on the Floor"
+   }
   },
   "magoo": {
    "none": true,
@@ -2063,7 +2139,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/marc-broussard/16169749",
    "checked": "2026-11-20",
-   "last": "2027-04-10"
+   "last": "2027-04-10",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/22/67/402267aa-27db-ac83-9d13-61a116985508/mzaf_18312175029349844053.plus.aac.p.m4a",
+    "t": "Home"
+   }
   },
   "marco flores y la 1 banda jerez": {
    "none": true,
@@ -2113,7 +2193,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/meshuggah/17304969",
    "checked": "2026-11-20",
-   "last": "2027-04-21"
+   "last": "2027-04-21",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/25/7e/d1257ec4-6738-c416-5871-e4bace5a56d6/mzaf_2085525048182803770.plus.aac.p.m4a",
+    "t": "Bleed (15th Anniversary Remastered 2023 Edition)"
+   }
   },
   "mike love": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e2/15/3c/e2153c8c-3d54-7e8c-f79c-a669c7ef9025/700371147624_cover.tif/400x400bb.jpg",
@@ -2249,7 +2333,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/nickelback/5280361",
    "checked": "2026-11-20",
-   "last": "2027-04-24"
+   "last": "2027-04-24",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/e2/23/d4e223c1-58e1-8bcf-72c1-c760b3f540db/mzaf_8753858293203555793.plus.aac.p.m4a",
+    "t": "How You Remind Me"
+   }
   },
   "night lovell": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f0/af/a1/f0afa14f-18c6-8088-cbb2-df25f6fd6b82/artwork.jpg/400x400bb.jpg",
@@ -2350,10 +2438,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "open house feat jam": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "open house feat kenyon": {
    "none": true,
    "checked": "2026-11-18"
@@ -2394,14 +2478,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/our-last-night/274552725",
    "checked": "2026-11-22",
-   "last": "2027-05-14"
+   "last": "2027-05-14",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/42/50/d14250c4-cfd7-3337-44d6-93dc801bbfcc/mzaf_17533353797579046603.plus.aac.p.m4a",
+    "t": "The Fate of Ophelia"
+   }
   },
   "panchiko": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/99/fa/4599fa9a-da4c-542b-5663-7d3aa14ba6d2/067003163453.png/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/panchiko/1500025754",
    "checked": "2026-11-20",
-   "last": "2027-05-04"
+   "last": "2027-05-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/43/b9/de43b986-50df-88d0-aa79-0d04d43524e7/mzaf_14366313128379069706.plus.aac.p.m4a",
+    "t": "D>E>A>T>H>M>E>T>A>L"
+   }
   },
   "papajay": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/f0/0c/29f00c58-6ac1-06bd-1c32-50b3d8a50f30/663918958032.jpg/400x400bb.jpg",
@@ -2454,7 +2546,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/peel-dream-magazine/1412170457",
    "checked": "2026-11-22",
-   "last": "2027-04-21"
+   "last": "2027-04-21",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/fe/7f/c5fe7f3e-e963-06d9-048d-78423686df49/mzaf_10434373065387677805.plus.aac.p.m4a",
+    "t": "Blind Faith"
+   }
   },
   "penelope road": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/01/0d/a3010d87-423a-a5a2-a2d1-3839b270a6ae/093624830894.jpg/400x400bb.jpg",
@@ -2476,7 +2572,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/phrva/1742286359",
    "checked": "2026-11-22",
-   "last": "2027-05-15"
+   "last": "2027-05-15",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/5e/68/375e68d1-7062-88a4-d021-e35bf8855a7a/mzaf_8873627777984168086.plus.aac.p.m4a",
+    "t": "Is It All"
+   }
   },
   "phyphr": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/72/c6/2b/72c62b24-a5c1-7a73-0c3c-0aab8c51e70e/196922340918_Cover.jpg/400x400bb.jpg",
@@ -2502,7 +2602,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/poison-the-well/1710155",
    "checked": "2026-11-20",
-   "last": "2027-04-07"
+   "last": "2027-04-07",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/70/73/9670730e-e989-7d7e-40ef-c7318ca09fe2/mzaf_12820668727556375283.plus.aac.p.m4a",
+    "t": "Nerdy"
+   }
   },
   "pokey lafarge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/29/f7/cb/mzi.ejspyyuu.jpg/400x400bb.jpg",
@@ -2587,7 +2691,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/queens-of-the-stone-age/857919",
    "checked": "2026-11-20",
-   "last": "2027-05-12"
+   "last": "2027-05-12",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/64/1c/6b641c37-718e-3e84-0276-ecc75fae290c/mzaf_8133972815978708059.plus.aac.p.m4a",
+    "t": "No One Knows"
+   }
   },
   "rad solstice disco": {
    "none": true,
@@ -2598,7 +2706,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/radio-free-alice/1509790283",
    "checked": "2026-11-22",
-   "last": "2027-03-30"
+   "last": "2027-03-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/09/50/0b095074-94c8-9c55-17cf-c1841f7dec95/mzaf_6516995256292584632.plus.aac.p.m4a",
+    "t": "Crying With You"
+   }
   },
   "railbenders": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/b5/f6/e2/mzi.awbuixiy.tif/400x400bb.jpg",
@@ -2664,14 +2776,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rec-hall/1566147535",
    "checked": "2026-11-22",
-   "last": "2027-04-17"
+   "last": "2027-04-17",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8a/76/3e/8a763ecb-9342-3617-8151-a0299a2afafa/mzaf_15617184662663665039.plus.aac.p.m4a",
+    "t": "Delay"
+   }
   },
   "remi wolf": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/c6/db/9ec6db05-040b-4e63-c099-42406602a4e7/26UMGIM96852.rgb.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/remi-wolf/1223869670",
    "checked": "2026-11-20",
-   "last": "2027-05-16"
+   "last": "2027-05-16",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/b8/8c/e4b88c3a-882c-244f-d2d0-1caec97d06da/mzaf_4261596819870939871.plus.aac.p.m4a",
+    "t": "I Won’t Cry"
+   }
   },
   "reprise": {
    "none": true,
@@ -2693,7 +2813,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/ricky-montgomery/885635994",
    "checked": "2026-11-20",
-   "last": "2027-04-30"
+   "last": "2027-04-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/b7/30/f5b730b0-d435-519a-62a8-01101c99c026/mzaf_6838187573825044447.plus.aac.p.m4a",
+    "t": "Mr Loverman"
+   }
   },
   "ripe": {
    "none": true,
@@ -2790,17 +2914,10 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/saxsquatch-bridge-band/1173567364",
    "checked": "2026-11-20",
-   "last": "2027-04-02"
-  },
-  "seattle kay": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/5c/23/e05c23ce-8a58-e0ff-2bc9-0cd13de9bbd7/859791017717_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/seattle-kay/1531859128",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
+   "last": "2027-04-02",
    "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/57/de/99/57de99f9-6367-7286-a358-6d6585939add/mzaf_16138290240595652199.plus.aac.p.m4a",
-    "t": "Good People"
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4c/9e/8a/4c9e8a6b-48ce-c384-4cac-c82b5d3b03d9/mzaf_18148858916426582981.plus.aac.p.m4a",
+    "t": "Dirty Dan (with the Saxsquatch)"
    }
   },
   "senses fail presents": {
@@ -2863,27 +2980,24 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "shift wednesday ft ghengar": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
-  "shift wednesday ft mindset": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "shygirl": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/53/fd/40/53fd405f-8275-1f06-9295-c938698b7f28/5060766765693_cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/shygirl/456494592",
    "checked": "2026-11-20",
-   "last": "2027-04-07"
+   "last": "2027-04-07",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/ac/ba/4bacba4a-0a76-88a4-1eee-24484f20fa0e/mzaf_17777548827853057504.plus.aac.p.m4a",
+    "t": "Eternal"
+   }
   },
   "sidepiece x ship wrek": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/82/6d/bd/826dbd0c-756b-30c4-140d-4937308cd6da/2784.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/sidepiece/1479083020",
    "checked": "2026-11-20",
-   "last": "2027-03-27"
+   "last": "2027-03-27",
+   "pvNone": "2026-11-27"
   },
   "sidequest": {
    "none": true,
@@ -2921,7 +3035,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/slash/115556",
    "checked": "2026-11-20",
-   "last": "2027-05-02"
+   "last": "2027-05-02",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/6b/b1/a76bb19b-14b4-22e2-88c8-73acae41f339/mzaf_14621558095718010402.plus.aac.p.m4a",
+    "t": "Flying Blind (feat. Myles Kennedy & The Conspirators)"
+   }
   },
   "smith and myers": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c5/6f/bb/c56fbb2a-8da3-3a75-8126-ec1023c4978e/075679944122.jpg/400x400bb.jpg",
@@ -3049,14 +3167,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/susannah-joffe/1497474765",
    "checked": "2026-11-20",
-   "last": "2027-04-03"
+   "last": "2027-04-03",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/8c/ff/078cff27-edb4-7302-6649-60dda1dc7c40/mzaf_17303215960357202210.plus.aac.p.m4a",
+    "t": "Happiness is Just a Myth"
+   }
   },
   "svdden death": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/87/69/b687696c-bc1a-fa7f-23da-1630e601e899/cover.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/svdden-death/1236984166",
    "checked": "2026-11-20",
-   "last": "2027-04-09"
+   "last": "2027-04-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/ab/54/79ab541e-a235-6eb1-cd7c-8c0964ce80c9/mzaf_13731894346765402844.plus.aac.p.m4a",
+    "t": "Blood On Me"
+   }
   },
   "sylvan esso": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bc/a2/f6/bca2f662-9156-3e89-85b9-383ea57da033/20CRGIM23295.rgb.jpg/400x400bb.jpg",
@@ -3249,7 +3375,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-interrupters/886243994",
    "checked": "2026-11-20",
-   "last": "2027-04-23"
+   "last": "2027-04-23",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/51/19/f4511911-9a26-d11b-1ec3-57f46b08999b/mzaf_17479201253202503296.plus.aac.p.m4a",
+    "t": "She's Kerosene"
+   }
   },
   "the jauntee": {
    "none": true,
@@ -3271,7 +3401,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-last-revel/821062125",
    "checked": "2026-11-20",
-   "last": "2027-03-27"
+   "last": "2027-03-27",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/c2/2f/67c22f21-3312-8a07-3dea-ad5bec3fe397/mzaf_1546078836429492975.plus.aac.p.m4a",
+    "t": "Engine Trouble"
+   }
   },
   "the lemonheads": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/80/4a/9a/804a9a8a-e528-0a79-0f23-873dda3f5118/809236162403_cover.jpg/400x400bb.jpg",
@@ -3453,7 +3587,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/the-warning/260719953",
    "checked": "2026-11-20",
-   "last": "2027-04-28"
+   "last": "2027-04-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/ef/7e/9bef7ecb-20e4-73f7-2deb-e530ac5164d7/mzaf_3618536969387093555.plus.aac.p.m4a",
+    "t": "Kerosene"
+   }
   },
   "the wooten brothers feat victor wooten": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2b/d2/25/2bd22531-823b-50bc-849b-7b41ba70e564/859777804294_cover.jpg/400x400bb.jpg",
@@ -3472,7 +3610,8 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/thievery-corporation/2726532",
    "checked": "2026-11-20",
-   "last": "2027-04-09"
+   "last": "2027-04-09",
+   "pvNone": "2026-11-27"
   },
   "thoughts on bowling": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0c/47/d2/0c47d22e-8880-2487-1854-bcec50ad8c4c/artwork.jpg/400x400bb.jpg",
@@ -3490,7 +3629,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/till-lindemann/20851094",
    "checked": "2026-11-22",
-   "last": "2027-05-17"
+   "last": "2027-05-17",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/0c/86/de0c8680-cf34-9e22-9c2c-95c2480c2977/mzaf_13501247117227236788.plus.aac.p.m4a",
+    "t": "Du hast kein Herz"
+   }
   },
   "tiny habits": {
    "none": true,
@@ -3546,7 +3689,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/tove-lo/570136838",
    "checked": "2026-11-20",
-   "last": "2027-05-07"
+   "last": "2027-05-07",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/07/f8/5607f8bf-3449-8ff7-c986-28cfefcffdea/mzaf_7376759320840752900.plus.aac.p.m4a",
+    "t": "Habits (Stay High)"
+   }
   },
   "trace bundy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/43/24/3f/43243f77-c532-e8a3-e214-976b089f5b30/677516546324_cover.jpg/400x400bb.jpg",
@@ -3620,7 +3767,11 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/turnpike-troubadours/271045477",
    "checked": "2026-11-20",
-   "last": "2027-05-13"
+   "last": "2027-05-13",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/e5/b2/23e5b278-259a-ee2f-6b85-53ea84a36df8/mzaf_11135114420160939135.plus.aac.p.m4a",
+    "t": "Heaven Passing Through"
+   }
   },
   "twiddle": {
    "none": true,
@@ -3642,14 +3793,22 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/two-door-cinema-club/291005449",
    "checked": "2026-11-20",
-   "last": "2027-05-11"
+   "last": "2027-05-11",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/3c/ce/ec3cce65-ceaf-9406-adf0-bd5fdc7613f5/mzaf_15785820011577026107.plus.aac.p.m4a",
+    "t": "What You Know"
+   }
   },
   "two friends": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a0/7b/2c/a07b2c90-1ec7-d85b-2670-dabbe552e4c4/dj.qfdasfwr.jpg/400x400bb.jpg",
    "src": "apple",
    "link": "https://music.apple.com/us/artist/two-friends/383451910",
    "checked": "2026-11-20",
-   "last": "2027-04-30"
+   "last": "2027-04-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/8e/0b/e08e0bfb-f41f-b6ef-3efa-0021e87b0dda/mzaf_3667938453469542352.plus.aac.p.m4a",
+    "t": "Save A Little Love"
+   }
   },
   "twrp": {
    "none": true,
@@ -3824,17 +3983,6 @@
     "t": "Straight Up Relaxin' (feat. Cosmo's Midnight)"
    }
   },
-  "yung gravy": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a6/d5/14a6d57b-e6d5-08a3-3a94-3cbb36f7e9a9/19UMGIM37376.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/yung-gravy/1165036761",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/58/58/e55858b7-4771-b225-fd78-d2506be54d30/mzaf_229674367449994846.plus.aac.p.m4a",
-    "t": "Betty (Get Money)"
-   }
-  },
   "zach seabaugh": {
    "none": true,
    "checked": "2026-11-21"
@@ -3852,69 +4000,17 @@
   }
  },
  "shows": {
-  "2026-11-25-bluebird-costa---lucky": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-cervantes-shift-wednesday-ft--ghengar": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-dazzle-brian-blade---the-fellowship-band": {
-   "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_beff28be6467764937911e9d79bf51b0252fcd9b7b12573c35ff41509202e0e0.jpg",
-   "src": "venue"
-  },
-  "2026-11-25-fillmore-22nd-annual-last-waltz-revisited-feat--polytoxic": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-globehall-seattle-kay": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-larimer-open-house-feat--jam-": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-mission-josh-baker": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-nocturne-dave-hanson-quartet-celebrates-herbie-hancock": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-ogden-mad-dubz": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-otherside-shift-wednesday-ft--mindset": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-stampede-ladies-night---noche-sonidera": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-summit-yung-gravy--the-joyrider-tour--moonroom-": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-26-herbs-daddy---company": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "2026-11-27-blackbox-alphabeat-soup--93--j-rose---friends--lounge-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-blackbox-nueq": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-bluebird-costa": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-boettcher-home-alone-in-concert---colorado-symphony": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Home-Alone-Boettcher-720x400-1.jpg",
@@ -3922,87 +4018,87 @@
   },
   "2026-11-27-bouldertheater-leftover-salmon-feat--sam-bush": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-cervantes-steller": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-dairy-blue-violin-s-retro-rock---roll-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-foxboulder-tubby-love": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-globehall-edith": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-gothic-insomnium---amorphis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-grizzlyrose-hayden-coffman": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-herbs-the-munchies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-larimer-open-house-feat--chrispy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-lostlake-tommy-fleece": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-macky-boulder-philharmonic---boulder-ballet--the-nutcracker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-marquis-e-m-e": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-mission-eric-prydz": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-nocturne-gabriel-mervine-quartet": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-oriental-van-zeppelin": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-otherside-kawaii-rave": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-stampede-h-ctor-acosta--el-torito-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-summit-vip-music-presents--reggaet-n-y2k": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-blackbox-dub-den-records-2-year-anniversary-tour--chairless--lounge-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-blackbox-shanghai-doom": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-bluebird-costa": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-boettcher-home-alone-in-concert---colorado-symphony": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Home-Alone-Boettcher-720x400-1.jpg",
@@ -4010,79 +4106,79 @@
   },
   "2026-11-28-bouldertheater-leftover-salmon-feat--sam-bush": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-cervantes-phyphr": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-dairy-hazel-miller-and-the-collective-holiday-spectacular": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-etown-stillhouse-junkies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-fillmore-big-head-todd---the-monsters": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-globehall-color-ache": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-herbs-the-munchies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-larimer-open-house-feat--j-me": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-lostlake-letdown-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-marquis-distant": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-mission-eptic": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-nationalwestern-los-huracanes-del-norte": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-nocturne-jonathan-powell-quintet-plays-chet-baker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-ophelias-jim-e--brown": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-oriental-mr-majestyk-s-8-track-revival--a-musical-tribute-to-the-1970s": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-otherside-neumonic": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-stampede-marco-flores-y-la--1-banda-jerez": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-summit-senses-fail-presents--still-searching": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-boettcher-home-alone-in-concert---colorado-symphony": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Home-Alone-Boettcher-720x400-1.jpg",
@@ -4090,19 +4186,19 @@
   },
   "2026-11-29-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-globehall-the-reals": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-herbs-dumm-friends-league": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-larimer-tori-rose": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-larumba-salsa-sundays-at-la-rumba": {
    "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
@@ -4110,95 +4206,95 @@
   },
   "2026-11-29-macky-boulder-philharmonic---boulder-ballet--the-nutcracker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-nocturne-the-zach-howarth-quartet-plays-joe-henderson": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-paramount-alicia-villarreal": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-stampede-grupo-kachimba-el-poblan-simo-chilangote": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-summit-key-glock--big5-live-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-herbs-monday-night-jazz-with-vlad-girshevich": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-marquis-catie-turner": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-30-mission-alter-bridge": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-blackbox-sub-mission-electronic-tuesdays--n--n-m--j": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-bluebird-the-bad-plus": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-globehall-father-of-peace--the-year-of-madness---the-mystery-century-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-gothic-avery-cochrane": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-larimer-frost-children--dj-set---afterlife-after-party-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-marquis-wishy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-ogden-whitechapel": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-ballarena-gracie-abrams": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-bluebird-chrissy-chlapecka": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-boettcher-celtic-woman--silver-bells-christmas-tour-2026": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://coloradosymphony.org/app/uploads/2022/10/Celtic-Woman-Silver-Bells-Christmas-Tour-2026-720x400-1.webp",
+   "src": "venue"
   },
   "2026-12-02-gothic-aj-mclean": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-ogden-kip-moore": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-oriental-bodysnatcher--hell-is-here--hell-is-home-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-otherside-yaelokre": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-soileddove-mindi-abair--early-show-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-soileddove-mindi-abair--late-show-": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1192062778%252F263069407054%252F1%252Foriginal.20260827-190641%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dbf8187ff63a047431d0b34d033892dcc&w=940&q=75",
@@ -4206,19 +4302,19 @@
   },
   "2026-12-02-stampede-ladies-night---noche-sonidera": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-ballarena-gracie-abrams": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-bluebird-willi-carlisle": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-cervantes-shift-ft--seth-david-s-r-bass-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-dazzle-kat-edmonson--have-your-merry-christmas-with-me": {
    "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_f8fbb188db42874110f5be613a96e20cd27cabbc753c6aa36bbbffd4cfe9ea46.jpg",
@@ -4226,55 +4322,55 @@
   },
   "2026-12-03-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-fillmore-imminence": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-globehall-bryan-andrews": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-gothic-electric-avenue": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-grizzlyrose-kygo-st--jude-jam--chris-young---lee-brice": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-hidive-friends-on-the-hill": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-larimer-hitech-presents-techquavious": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-ogden-kip-moore": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-otherside-the-great-north-special--two-sets--one-all-little-feat----kory-montgomery--album-release-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-summit-the-pineapple-thief": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-blackbox-trash-box--zone-drums--dj-set-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-blackbox-ukg-proper---colours--dumbsteppaz--lounge-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-bluebird-the-olllam": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-cervantes-bertha--grateful-drag": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/bertha-grateful-drag-friday-12-4.jpeg",
@@ -4282,15 +4378,15 @@
   },
   "2026-12-04-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-fillmore-decibel-metal---beer-fest-2026--day-1---suicidal-tendencies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-foxboulder-the-floozies": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-globehall-yung-bae": {
    "img": "https://globehall.com/wp-content/uploads/2026/09/yung-bae.jpeg",
@@ -4298,23 +4394,23 @@
   },
   "2026-12-04-gothic-tiny-habits": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-grizzlyrose-bryan-martin": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-grizzlyrose-trey-lewis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-hidive-glueman": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-larimer-open-house--backroom-records-feat--garrett-dix": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-macky-cu-boulder-college-of-music--holiday-festival": {
    "img": "https://cupresents.org/storage/header_image/cupresents/20d5ab648e9d40d518d9300e814811c662641b16.webp",
@@ -4322,31 +4418,31 @@
   },
   "2026-12-04-marquis-oliver-hazard": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-mission-boogie-t": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-ogden-jai-wolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-otherside-magoo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-soileddove-mary-louise-lee": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-summit-suicide-silence--reminders-of-hell-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-blackbox-wildflower-arts--iyasu--lounge-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-boettcher-colorado-children-s-chorale--merry---bright": {
    "img": "https://images.discovery-prod.axs.com/2026/11/colorado-children-s-chorale-presents-merry-bright-tickets_12-05-26_86_6aee176b67efd.jpg",
@@ -4354,11 +4450,11 @@
   },
   "2026-12-05-boettcher-colorado-symphony---chorus--a-classical-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-bouldertheater-victor-wooten-and-the-wooten-brothers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-cervantes-bertha--grateful-drag": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/bertha-grateful-drag-friday-12-4.jpeg",
@@ -4366,15 +4462,15 @@
   },
   "2026-12-05-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-fillmore-decibel-metal---beer-fest-2026--day-2-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-foxboulder-wookiefoot": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-globehall-thoughts-on-bowling": {
    "img": "https://globehall.com/wp-content/uploads/2026/08/thoughts-on-bowling-w-softly-hummusvacuum-moosecreek-park.jpeg",
@@ -4382,19 +4478,19 @@
   },
   "2026-12-05-gothic-pokey-lafarge": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-hidive-cleaner": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-larimer-open-house-feat--proppa": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-larimer-the-dead-yetis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-littlebear-kind-hearted-strangers": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1196863638%252F2199107031023%252F1%252Foriginal.20261029-155724%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Db232407b6f3e8f7920085b18741cb72c&w=940&q=75",
@@ -4402,7 +4498,7 @@
   },
   "2026-12-05-lostlake-toadstool": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-macky-cu-boulder-college-of-music--holiday-festival": {
    "img": "https://cupresents.org/storage/header_image/cupresents/20d5ab648e9d40d518d9300e814811c662641b16.webp",
@@ -4410,31 +4506,31 @@
   },
   "2026-12-05-marquis-all-out-war": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-mission-mystic-methods---boogie-t": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-nocturne-the-ben-markley-quintet": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-ogden-magoo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-otherside-lil-fish": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-stampede-conjunto-atardecer": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-summit-bresh": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-swallowhill-christy-wessler-s-22nd-annual-holiday-sing-along-concert": {
    "img": "https://swallowhillmusic.org/wp-content/uploads/2026/08/d6dcef53-e1b8-4398-9c0f-e24a93c71152.jpg",
@@ -4446,11 +4542,11 @@
   },
   "2026-12-05-trident-frosh": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-bluebird-the-wooten-brothers-feat--victor-wooten": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-boettcher-colorado-children-s-chorale--merry---bright": {
    "img": "https://www.artscomplex.com/assets/img/default_thumb-dcfd8e96b8.jpg",
@@ -4458,7 +4554,7 @@
   },
   "2026-12-06-boettcher-colorado-symphony---chorus--a-classical-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-crescentgrange-boulder-philharmonic-brass-quintet--brass--beer---cheer": {
    "img": "https://assets.getcuebox.com/cdn-cgi/image/format=jpeg,width=1200,height=630,fit=cover,gravity=auto/https://assets.getcuebox.com/LPSW5JKM/BRASS%20BEER%20&%20CHEER%20%2816%29_20261109T194211Z.png",
@@ -4466,11 +4562,11 @@
   },
   "2026-12-06-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-fillmore-fetty-wap": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-globehall-howland-vk": {
    "img": "https://globehall.com/wp-content/uploads/2026/11/howland-vk-w-gaelen-crowfoot-chaos-contained-1.jpeg",
@@ -4478,11 +4574,11 @@
   },
   "2026-12-06-gothic-matt-hansen": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-larimer-murdock-junior": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-larumba-salsa-sundays-at-la-rumba": {
    "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
@@ -4494,19 +4590,19 @@
   },
   "2026-12-06-marquis-godhandusa": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-nocturne-the-steve-denny-quintet--songs-of-winter": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-otherside-the-annual-spun-out-scratch-showcase-ft--the-gaslamp-killer": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-paramount-home-free": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-07-dazzle-christian-sands-trio--christmas-stories": {
    "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_e65183e438722dc0fb3c490c99849e3520c78ed7cf1394adb7e74e67ad2a73c2.jpg",
@@ -4514,15 +4610,15 @@
   },
   "2026-12-07-fillmore-trippie-redd": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-07-mission-parker-mccollum---gavin-adcock": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-blackbox-sub-mission-electronic-tuesdays--vyla": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-bouldertheater-jim-james--solo-acoustic-": {
    "img": "https://www.jambase.com/wp-content/uploads/2026/06/jim-james-press-june-2026-clinch-1200x675.jpg",
@@ -4530,27 +4626,27 @@
   },
   "2026-12-08-fillmore-dragonforce": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-hidive-robber-robber": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-marquis-the-kilans": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-ballarena-jonas-brothers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-bouldertheater-father-john-misty--solo-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-globehall-josie-edwards": {
    "img": "https://globehall.com/wp-content/uploads/2026/09/josie-edwards.jpeg",
@@ -4558,23 +4654,23 @@
   },
   "2026-12-09-hidive-creekbed-carter-hogan": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-ogden-night-lovell": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-stampede-ladies-night---noche-sonidera": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-blackbox-boredomfighters-benefit--underbelly": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-cervantes-bttrfly-ft--eric--benny--bloom--dominic-lalli--adam-deitch--borahm-lee--hunter-roberts": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-dazzle-the-azar-lawrence-quartet--culminating-coltrane": {
    "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_31f41605a8d92440a6b7bdcf3757ec2e83817bdd4a2020ef2ac9109ea5608205.jpg",
@@ -4582,11 +4678,11 @@
   },
   "2026-12-10-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-foxboulder-reprise--a-phish-experience": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-globehall-tiny-little-tourists": {
    "img": "https://globehall.com/wp-content/uploads/2026/10/tiny-little-tourists-w-wrestling-moves-flow-wolf-1.jpeg",
@@ -4594,43 +4690,43 @@
   },
   "2026-12-10-larimer-wolfie": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-lostlake-sosmula": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-marquis-baby-jane--us-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-otherside-shift-ft--blurrd-vzn": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-paramount-clay-walker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-trident-the-peasantry": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-blackbox-d-tre-ep-release-party": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-blackbox-philo--lounge-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-boettcher-colorado-symphony--a-colorado-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-cervantes-lespecial-presents--lespectacle": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-clubvinyl-3ballmty": {
    "img": "https://images.discotech.me/events/38275580/b8fb7435-655e-4ee4-8408-31a6d1e1f86c.jpg",
@@ -4638,19 +4734,19 @@
   },
   "2026-12-11-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-etown-rapidgrass": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-fillmore-beltran---red-axes": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-foxboulder-steely-dead": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-globehall-genevieve-artadi-ft--louis-cole---chiquita-magic": {
    "img": "https://globehall.com/wp-content/uploads/2026/08/genevieve-artadi-ft-louis-cole-chiquita-magic.jpeg",
@@ -4658,47 +4754,47 @@
   },
   "2026-12-11-grizzlyrose-robert-earl-keen": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-hidive-gifter": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-larimer-open-house-feat--maxinne": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-longmontmuseum-boulder-philharmonic-wind-quintet--winter--wind-erland": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-marquis-blood-of-lilith": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-mission-nimino": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-ogden-dennett": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-ophelias-reprise": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-oriental-the-samples---freddy-jones-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-otherside-cashmere-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-summit-spafford": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-swallowhill-chris-daniels---the-kings": {
    "img": "https://swallowhillmusic.org/wp-content/uploads/2026/07/21bab552-3233-4a95-b44d-8fac23793443.jpg",
@@ -4706,7 +4802,7 @@
   },
   "2026-12-11-trident-kevin-bang": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-blackbox-canvas": {
    "none": true,
@@ -4722,7 +4818,7 @@
   },
   "2026-12-12-boettcher-colorado-symphony--a-colorado-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-bouldertheater-ripe": {
    "img": "https://www.jambase.com/wp-content/uploads/2017/02/boulder-theater-boulder-theater-7007v.jpg",
@@ -4734,15 +4830,15 @@
   },
   "2026-12-12-cervantes-lespecial-presents--lespectacle": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-dairy-compass-resonance--sweeter-than-roses-with-taylor-raven": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-fillmore-don-broco---windwaker": {
    "none": true,
@@ -4770,7 +4866,7 @@
   },
   "2026-12-12-larimer-finn-o-sullivan": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-larimer-open-house-feat--kenyon": {
    "none": true,
@@ -4802,7 +4898,7 @@
   },
   "2026-12-12-oriental-depeche-mode--psychedelic-furs---new-order-tributes--dm101--heaven--low-life": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-otherside-chez": {
    "none": true,
@@ -4822,7 +4918,7 @@
   },
   "2026-12-12-trident-jazzetry": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-13-boettcher-colorado-symphony--a-colorado-christmas": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/FY26-A-Colorado-Christmas-720x400-1.jpg",

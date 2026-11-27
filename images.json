@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for St. Louis. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-25T10:38:04.028Z",
+ "updated": "2026-11-27T10:38:11.802Z",
  "artists": {
   "1 productions presents": {
    "none": true,
@@ -75,10 +75,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "all together now": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "alligator wine": {
    "none": true,
    "checked": "2026-11-18"
@@ -117,10 +113,6 @@
    "none": true,
    "checked": "2026-11-17",
    "skip": "event"
-  },
-  "anthology": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "anthony gomes": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/bd/f8/06bdf853-0fd2-05e4-2420-6cefe2fb27fe/638647817127_cover.jpg/400x400bb.jpg",
@@ -185,10 +177,6 @@
   "ballyhoo": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "bass amp and dano": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "bazooka joe reunion show": {
    "none": true,
@@ -590,10 +578,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "duo classico": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "dylan gossett": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -667,7 +651,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/eric-lysaght/768290888",
    "checked": "2026-11-17",
-   "last": "2026-11-25",
+   "last": "2026-12-15",
    "pvNone": "2026-11-23"
   },
   "erin bode": {
@@ -827,17 +811,6 @@
   "hard promises": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "hawthorne heights": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/36/de/0636dee0-a8f6-a9d6-ca01-8a4b256a21a5/884501585453_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/hawthorne-heights/92149634",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/38/59/93385920-737c-848d-0c0f-a991a0f5c657/mzaf_16429021364076314938.plus.aac.p.m4a",
-    "t": "Ohio Is For Lovers"
-   }
   },
   "hip hop orchestra": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/ed/80/d1ed8001-05fb-6596-aeba-032367bf26e2/7300348766440.jpg/400x400bb.jpg",
@@ -1158,10 +1131,6 @@
     "t": "Ho! Ho! Ho!"
    }
   },
-  "la fiera de ojinaga": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "la securite": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/e2/df/c4e2dfef-6d92-c0de-6117-dbf609d39a5f/199806994047.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1214,6 +1183,10 @@
   "los lobos": {
    "none": true,
    "checked": "2026-11-17"
+  },
+  "love in the club": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "lucky daye": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0a/d4/dd/0ad4dd3c-f559-b23d-456c-7e4608cac78c/886447390184.jpg/400x400bb.jpg",
@@ -1417,10 +1390,6 @@
     "t": "Hoosier Love"
    }
   },
-  "my posse in effect": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "neal sugar caine": {
    "none": true,
    "checked": "2026-11-18"
@@ -1611,17 +1580,6 @@
   "plastic kings": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "playadors": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/03/3d/8a033d3c-042b-8af9-0250-030d03417171/artwork.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/playadors/1713429696",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/a6/0a/d9a60aed-464d-1dfa-ec13-cfbc4f19950a/mzaf_15286088677979189555.plus.aac.p.m4a",
-    "t": "Jealous Guy (feat. Neil Salsich)"
-   }
   },
   "porcelain": {
    "none": true,
@@ -2268,17 +2226,6 @@
    "none": true,
    "checked": "2026-11-18"
   },
-  "trivium": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/14/52/34/145234ba-2cca-ca87-4b82-c13ef5b9236f/mzi.bdcewbho.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/trivium/47123955",
-   "checked": "2026-11-17",
-   "last": "2026-11-25",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/60/39/d4603964-3ac1-8605-efb5-cac1f8b2111c/mzaf_16858074978637676413.plus.aac.p.m4a",
-    "t": "The Haunting Never Ends"
-   }
-  },
   "trombone shorty and orleans avenue": {
    "none": true,
    "checked": "2026-11-18"
@@ -2450,69 +2397,25 @@
   }
  },
  "shows": {
-  "2026-11-25-bob-emily-wallace": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-bob-eric-lysaght": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-delmar-playadors": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-elvolcan-la-fiera-de-ojinaga": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-evangelines-duo-classico--carol-eder---tom-byrne-": {
-   "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6a7fd356110d906f323af072/1792285636884/image.jpeg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-25-factory-trivium": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-hawthorn-hawthorne-heights": {
-   "img": "https://static1.squarespace.com/static/625f7910284ad60552418944/62ff85ab0d655800609d907a/69bb33459ef030282adacc19/1774141597599/Hawthorne+Heights+-+Ticketing.jpg?format=1500w",
-   "src": "venue"
-  },
-  "2026-11-25-orh-all-together-now--beatles-tribute": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-pageant-my-posse-in-effect": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-sinkhole-bass-amp---dano": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
-  "2026-11-25-wildey-anthology--allman-brothers-band-tribute-": {
-   "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/f44122e2-ffd3-4ad8-9bca-aa1ee86908e7_91852798b59be8b28fc00edfe4aec23a.jpg",
-   "src": "venue"
-  },
   "2026-11-27-bluestrawberry-kat-edmonson": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-bob-steve-reeb": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-bob-taylor-steele---the-love-preachers": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://cdn.prod.website-files.com/689a04d756ffc770571109d2/6aa40202a7d55d2929df3ba2_OG%20ticketspice.png",
+   "src": "venue"
   },
   "2026-11-27-citywinery-after-7": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-delmar-windwaker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-evangelines-todd-mosby---the-stingrays": {
    "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ad41d65075f3335ef9b4fa5/1792286480427/unnamed.jpg?format=1500w",
@@ -2520,7 +2423,7 @@
   },
   "2026-11-27-factory-sabaton": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-jazzstl-neal--sugar--caine--thanksgiving-homecoming": {
    "img": "https://www.metrotix.com/assets/img/NealCaine_thanksgivinghomecoming_spotlight-2c38043dce.jpg",
@@ -2532,15 +2435,15 @@
   },
   "2026-11-27-orh-one-way-traffic": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-pageant-the-urge": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-redflag-dj-tab": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-27-redflag-tea-tairovic": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1194057414%252F3007747449004%252F1%252Foriginal.20260921-230816%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.496%26fp-y%3D0.04%26s%3D10d49ae08fa93e65766eb3bc92cadd37&w=940&q=75",
@@ -2548,15 +2451,15 @@
   },
   "2026-11-28-bob-all-roostered-up": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-bob-plastic-kings": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-delmar-sean-canan-s-voodoo-players": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-evangelines-the-larry-johnson-jazz-quartet": {
    "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96d6ab51d1639535658b4/1794718287411/image.jpg?format=1500w",
@@ -2564,15 +2467,15 @@
   },
   "2026-11-28-factory-bill-murray---his-blood-brothers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-golden-the-conformists": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-hihat-ish-ensemble": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-jazzstl-neal--sugar--caine--thanksgiving-homecoming": {
    "img": "https://www.metrotix.com/assets/img/NealCaine_thanksgivinghomecoming_spotlight-2c38043dce.jpg",
@@ -2584,15 +2487,15 @@
   },
   "2026-11-28-orh-somebody-to-love--a-queen-tribute": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-pageant-hard-promises": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-stifel-allman-betts-family-revival": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-28-wildey-grand-allusion--styx-tribute-": {
    "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/5bc90a4c-edc7-420e-8161-427173e3adda_91852798b59be8b28fc00edfe4aec23a.jpg",
@@ -2600,19 +2503,19 @@
   },
   "2026-11-29-atomic-stevie-stone": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-bob-joslyn---the-sweet-compression": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-bob-phil-n-co-featuring-brian-sax": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-delmar-the-pineapple-thief": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-duck-the-reverend-peyton-s-big-damn-band": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/07/112926_RPBDB_Square.jpg",
@@ -2628,7 +2531,7 @@
   },
   "2026-11-29-pops-bazooka-joe-reunion-show": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-11-29-powell-st--louis-symphony-orchestra--pictures-at-an-exhibition": {
    "img": "https://slso.org/wp-content/uploads/2025/01/25-26_homepage_mega-menu_969x768.jpg",
@@ -2636,19 +2539,19 @@
   },
   "2026-11-30-bob-soulard-blues-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-bob-steve-bauer---matt-rudolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-delmar-tiny-habits": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-fubar-the-crimson-armada": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-01-sheldon-andy-waggoner---friends": {
    "img": "https://www.grandcenter.org/wp-content/uploads/2026/11/Andy-791x791-3bd7ed8964.png",
@@ -2656,11 +2559,11 @@
   },
   "2026-12-02-bob-emily-wallace": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-bob-ethan-jones": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-citywinery-brendan-bayliss": {
    "none": true,
@@ -2684,11 +2587,11 @@
   },
   "2026-12-02-pageant-black-smurf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-stifel-leslie-odom-jr---the-christmas-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-02-wildey-grand-allusion--styx-tribute-": {
    "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/ecd3f091-2f58-4c76-b368-f181ff8b8f3d_91852798b59be8b28fc00edfe4aec23a.jpg",
@@ -2696,15 +2599,15 @@
   },
   "2026-12-03-bob-steven-woolley": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-chaifetz-sam-barber": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-delmar-eddie-9v": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-evangelines-big-notes": {
    "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ab96dd6f2704265bb13b878/1793497149697/image.jpeg?format=1500w",
@@ -2720,31 +2623,31 @@
   },
   "2026-12-03-orh-the-gringos": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-03-sheldon-los-lobos": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-avagarden-juos": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-bob-drew-lance---friends": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-bob-taylor-steele---the-love-preachers": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://cdn.prod.website-files.com/689a04d756ffc770571109d2/6aa40202a7d55d2929df3ba2_OG%20ticketspice.png",
+   "src": "venue"
   },
   "2026-12-04-delmar-anthony-gomes": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-duck-shooting": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-evangelines-ptah-williams-jazz-band": {
    "img": "https://static1.squarespace.com/static/5269f435e4b0825dbf5ed968/52b4b1bde4b060add9434aa0/6ad41f330b8c7254f204f31f/1793497336673/image.jpeg?format=1500w",
@@ -2752,11 +2655,11 @@
   },
   "2026-12-04-fox-mannheim-steamroller": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-jazzstl-the-baylor-project": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.metrotix.com/assets/img/BaylorProject_spotlight-0ba6e192c4.jpg",
+   "src": "venue"
   },
   "2026-12-04-offbroadway-evereverever--middle-class-fashion---meatus": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6aeb8a13338811fe2430b6e6_26-12-04_evereverever_FBEvent.jpeg",
@@ -2768,27 +2671,31 @@
   },
   "2026-12-04-pops-bodysnatcher": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-sheldon-janet-evra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-04-stifel-cole-swindell": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-bob-all-roostered-up": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-bob-ghost-kitchen": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-delmar-matisyahu--festival-of-lights": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
+  },
+  "2026-12-05-duck-love-in-the-club": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2026-12-05-fox-distant-worlds--music-from-final-fantasy": {
    "img": "https://www.metrotix.com/assets/img/FF-1024x540-HomePage-3049e1970d.jpg",
@@ -2799,8 +2706,8 @@
    "src": "venue"
   },
   "2026-12-05-jazzstl-the-baylor-project": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.metrotix.com/assets/img/BaylorProject_spotlight-0ba6e192c4.jpg",
+   "src": "venue"
   },
   "2026-12-05-offbroadway-120-minutes-presents--a-tribute-to-the-cure": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ac7f0682f5f4214ebfad4ec_26-12-05_ATributeToTheCure_FBEvent.jpeg",
@@ -2812,7 +2719,7 @@
   },
   "2026-12-05-pops-the-subliminal-verses--a-tribute-to-slipknot": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-05-wildey-edwardsville-municipal-band-holiday-concert": {
    "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/04106b08-421c-4a20-bb34-440191f45f77_91852798b59be8b28fc00edfe4aec23a.jpg",
@@ -2820,11 +2727,11 @@
   },
   "2026-12-06-bob-broken-jukebox": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-bob-meat-sweats": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-citywinery-jubu-smith": {
    "none": true,
@@ -2836,11 +2743,11 @@
   },
   "2026-12-06-golden-rat-tally": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-06-sheldon-christmas-with-the-petersens": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.metrotix.com/assets/img/PetersensChristmas_spotlight-f3433a1109.jpg",
+   "src": "venue"
   },
   "2026-12-06-sinkhole-jeff-the-brotherhood": {
    "img": "https://images.sk-static.com/images/media/img/col6/20091023-011008-898505.jpg",
@@ -2848,11 +2755,11 @@
   },
   "2026-12-07-bob-soulard-blues-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-bob-andrew-dahle": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-08-duck-aurorawave": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/09/120826_AURORAWAVE_Square.jpg",
@@ -2860,15 +2767,15 @@
   },
   "2026-12-09-bob-emily-wallace": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-bob-matt--the-rattlesnake--lesch-trio": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-citywinery-jody-nardone-trio--a-charlie-brown-christmas": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-09-duck-mike-cooley--of-drive-by-truckers-": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/09/120926_MikeCooley_Square.jpg",
@@ -2876,19 +2783,19 @@
   },
   "2026-12-09-evangelines-jazz-troubadours": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-atomic-dj-mahf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-bob-phil---co": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-bob-waffle-house-fight-club": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-duck-babe-haven": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/07/121026_Babe-Haven_Square.jpg",
@@ -2896,15 +2803,15 @@
   },
   "2026-12-10-fox-lindsey-stirling": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-orh-arkansauce": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-powell-in-unison-christmas-with-jenifer-lewis---st--louis-symphony-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-10-sheldon-it-s-a-holly-jazzy-christmas": {
    "img": "https://www.metrotix.com/assets/img/denisethimes_spotlight-e276caffee.jpg",
@@ -2912,15 +2819,15 @@
   },
   "2026-12-11-atomic-armchair-boogie": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-atomic-ish-ensemble": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-bob-the-drew-project": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-delmar-magic-man---the-music-of-heart": {
    "img": "https://www.thepageant.com/wp-content/uploads/2026/02/041126_MagicMan_website.jpg",
@@ -2928,7 +2835,7 @@
   },
   "2026-12-11-factory-mitchell-tenpenny": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-jazzstl-jim-manley--a-very-manley-christmas": {
    "img": "https://www.metrotix.com/assets/img/JSL_JimManley_spotlight-eb678765af.jpg",
@@ -2940,11 +2847,11 @@
   },
   "2026-12-11-orh-rachel-is-kozi": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-pageant-dimefest-2026": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-peremarquette-sean-michaels--christmas-dinner-with-elvis": {
    "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/c414d033-12e3-4650-81ba-a0094465df86_91852798b59be8b28fc00edfe4aec23a.jpg",
@@ -2952,7 +2859,7 @@
   },
   "2026-12-11-powell-in-unison-christmas-with-jenifer-lewis---st--louis-symphony-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-11-sheldon-pianist-peter-t--noonan--2-big-nights": {
    "img": "https://www.metrotix.com/assets/img/PeterNoonan2026_spotlight-2746d34514.jpg",
@@ -2960,15 +2867,15 @@
   },
   "2026-12-11-sinkhole-la-s-curit-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-atomic-holy-posers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-bob-all-roostered-up": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-enterprise-for-king---country--a-drummer-boy-christmas": {
    "img": "https://images.discotech.me/events/None/de6637ef-1012-4cca-afd3-13a4b35b0ec7.jpg",
@@ -2976,11 +2883,11 @@
   },
   "2026-12-12-factory-corey-kent": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-fox-brett-eldredge": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-jazzstl-jim-manley--a-very-manley-christmas": {
    "img": "https://www.metrotix.com/assets/img/JSL_JimManley_spotlight-eb678765af.jpg",
@@ -2988,7 +2895,7 @@
   },
   "2026-12-12-missunderground-deathpact": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-offbroadway-pedestrian-deposit": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ad8fc7e60ed587d55d63219_26-12-12_PedestrianDeposit_FBEvent.jpeg",
@@ -2996,7 +2903,7 @@
   },
   "2026-12-12-orh-nouget---pothead-usa": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-pageant-punk-rock-christmas": {
    "img": "https://www.thepageant.com/wp-content/uploads/2026/09/121226_PRXmas_website.jpg",
@@ -3004,7 +2911,7 @@
   },
   "2026-12-12-powell-the-muppet-christmas-carol-in-concert--st--louis-symphony-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-redflag-koffin-kats": {
    "none": true,
@@ -3012,7 +2919,7 @@
   },
   "2026-12-12-redflag-voodoo-glow-skulls": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-12-sheldon-pianist-peter-t--noonan--2-big-nights": {
    "img": "https://www.metrotix.com/assets/img/PeterNoonan2026_spotlight-2746d34514.jpg",
@@ -3036,15 +2943,15 @@
   },
   "2026-12-13-pageant-dexter-and-the-moonrocks": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-13-pops-ill-ni-o": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-13-powell-the-muppet-christmas-carol-in-concert--st--louis-symphony-orchestra-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-13-sheldon-tribute-masters-live--the-ultimate-tribute-experience": {
    "img": "https://www.metrotix.com/assets/img/TributeMastersLive2_spotlight-3bf6f95871.jpg",
@@ -3052,7 +2959,7 @@
   },
   "2026-12-14-bob-soulard-blues-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-14-citywinery-king-s-x": {
    "none": true,
@@ -3064,15 +2971,15 @@
   },
   "2026-12-14-moshmellow-marbin": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-14-sinkhole-porcelain": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-15-bob-eric-lysaght": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-15-sheldon-lola-kristine--home-for-the-holidays--coffee-concert-": {
    "img": "https://www.metrotix.com/assets/img/LolaKristine_spotlight-9d0ebbda1f.jpg",
@@ -3080,19 +2987,19 @@
   },
   "2026-12-16-bob-emily-wallace": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-bob-steve-bauer---matt-rudolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-factory-rene-vaca---that-mexican-ot": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-fox-straight-no-chaser": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-jazzstl-anita-jackson--holiday-house-party": {
    "img": "https://www.metrotix.com/assets/img/JSL_AnitaJackson_spotlight-1cd9036eb9.jpg",
@@ -3100,7 +3007,7 @@
   },
   "2026-12-16-pops-emo-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-16-sheldon-lola-kristine--home-for-the-holidays": {
    "img": "https://www.metrotix.com/assets/img/LolaKristine_spotlight-9d0ebbda1f.jpg",
@@ -3108,7 +3015,7 @@
   },
   "2026-12-17-bob-drew-lance---friends": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-citywinery-october-london": {
    "none": true,
@@ -3116,7 +3023,7 @@
   },
   "2026-12-17-familyarena-the-gatlin-brothers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-jazzstl-anita-jackson--holiday-house-party": {
    "img": "https://www.metrotix.com/assets/img/JSL_AnitaJackson_spotlight-1cd9036eb9.jpg",
@@ -3124,7 +3031,7 @@
   },
   "2026-12-17-lindenwood-slso-mercy-holiday-celebration-with-norm-lewis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-offbroadway-friendship---charlotte-cornfield": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6a5550a8cb700c25aa23149e_26-12-17_Friendship_FBEvent.jpeg",
@@ -3132,11 +3039,11 @@
   },
   "2026-12-17-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-pops-creed-fisher": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-17-sheldon-jason-robert-brown": {
    "img": "https://www.metrotix.com/assets/img/JasonRobertBrown_spotlight-81dc81d02d.jpg",
@@ -3144,19 +3051,19 @@
   },
   "2026-12-18-atomic-six-foot-blonde": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-bob-taylor-steele": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-bob-tish-period-special-friday-show": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-delmar-funky-butt-brass-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-duck-blackwater--64": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/10/121826_BW64_Website.jpg",
@@ -3164,7 +3071,7 @@
   },
   "2026-12-18-factory-stella-lefty": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-offbroadway-ww3--a-christmas-celebration": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ae23a7c0df158b6560a2c74_26-12-18_WW3_FBEvent.jpeg",
@@ -3172,43 +3079,43 @@
   },
   "2026-12-18-orh-the-taylor-party--taylor-swift-night": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-pops-jump--america-s-van-halen-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-powell-slso-mercy-holiday-celebration-with-norm-lewis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-powercreative-erin-bode": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-sheldon-ricky-skaggs---kentucky-thunder": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-18-sovereign-voodoo-tom-petty": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-bob-all-roostered-up": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-bob-alligator-wine": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-delmar-funky-butt-brass-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-duck-the-hirelings": {
    "none": true,
@@ -3216,7 +3123,7 @@
   },
   "2026-12-19-factory-jon-pardi": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-miners-shinsings-orchestra--sinatra-big-band-christmas-celebration": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1188755548%252F191575892281%252F1%252Foriginal.20260713-150949%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3D920e88418cbaa90db9ff58d87b9b8068&w=940&q=75",
@@ -3228,55 +3135,55 @@
   },
   "2026-12-19-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-pops-tantric": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-powell-slso-mercy-holiday-celebration-with-norm-lewis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-19-sovereign-sir-eddie-c---friends-v": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-bob-broken-jukebox": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-citywinery-the-bad-plus": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-delmar-funky-butt-brass-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-factory-grupo-duelo": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-golden-mu330": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-powell-slso-mercy-holiday-celebration-with-norm-lewis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-20-sheldon-a-holiday-tribute-to-michael-bubl-": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.metrotix.com/assets/img/MichaelRossNugent_spotlight-fccb9731e4.jpg",
+   "src": "venue"
   },
   "2026-12-21-bob-soulard-blues-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-21-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-21-wildey-opera-edwardsville-holiday-concert": {
    "img": "https://www.riversandroutes.com/imager/files_idss_com/C391/1c8dae74-578a-499f-b679-c15f7d9da12b_91852798b59be8b28fc00edfe4aec23a.jpg",
@@ -3284,75 +3191,75 @@
   },
   "2026-12-22-bob-ethan-jones": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-22-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-23-bob-emily-wallace": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-23-bob-eric-lysaght": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-23-delmar-funky-butt-brass-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-23-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-delmar-dr--zhivegas-x-prince---the-revolution-tribute": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-orh-jake-s-leg--twenty-north-reunion": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-pageant-el-monstero": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-sovereign-the-retronerds-present--kick-x--a-tribute-to-inxs--and-one--a-tribute-to-u2-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-26-wildey-breakfast-in-america": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=7866",
+   "src": "venue"
   },
   "2026-12-27-wildey-breakfast-in-america": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=7866",
+   "src": "venue"
   },
   "2026-12-31-citywinery-fred-hammond": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-factory-ninajirachi": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-missunderground-miilk": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-orh-mike-zito": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-powell-slso-new-year-s-eve-celebration-with-aubrey-logan": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2026-12-31-ryse-noizu": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-06-duck-g--love---special-sauce": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/09/010627_G.Love_Square.jpg",
@@ -3368,7 +3275,7 @@
   },
   "2027-01-08-delmar-kawaii-rave": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-08-jazzstl-yellowjackets": {
    "img": "https://www.metrotix.com/assets/img/Yellowjackets_spotlight-37a1c8e98d.jpg",
@@ -3376,15 +3283,15 @@
   },
   "2027-01-08-orh-the-last-stop--a-dave-matthews-tribute-band": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-08-pageant-voodoo-talking-heads": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-08-wildey-mr--blue-sky": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=5903",
+   "src": "venue"
   },
   "2027-01-09-jazzstl-yellowjackets": {
    "img": "https://www.metrotix.com/assets/img/Yellowjackets_spotlight-37a1c8e98d.jpg",
@@ -3392,11 +3299,11 @@
   },
   "2027-01-09-pageant-voodoo-talking-heads": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-09-wildey-mr--blue-sky": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=5903",
+   "src": "venue"
   },
   "2027-01-12-duck-the-retrograde": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/10/011227_TheRetrograde_Squarejpg.jpg",
@@ -3404,11 +3311,11 @@
   },
   "2027-01-15-orh-bootygroove-ft--hazard-to-ya-booty---the-grooveliner": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-16-factory-hip-hop-orchestra": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-16-offbroadway-1--productions-presents--emo-nite": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6af215dc4a20fdeb7e849d64_27-01-16_EmoNite_FBEvent.jpeg",
@@ -3420,11 +3327,11 @@
   },
   "2027-01-16-pageant-the-phil-collins-experience": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-16-redflag-metalfest-10": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-21-sheldon-tommy-emmanuel--cgp": {
    "img": "https://www.metrotix.com/assets/img/TommyEmmanuel_spotlight-e6f424e276.jpg",
@@ -3432,7 +3339,7 @@
   },
   "2027-01-22-orh-ballyhoo-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-22-sheldon-tommy-emmanuel--cgp": {
    "img": "https://www.metrotix.com/assets/img/TommyEmmanuel_spotlight-e6f424e276.jpg",
@@ -3440,7 +3347,7 @@
   },
   "2027-01-23-orh-ghost-kitchen": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-24-duck-s-g--goodman": {
    "img": "https://blueberryhill.com/wp-content/uploads/2026/10/012427_S.G.Goodman_Web.jpg",
@@ -3448,7 +3355,7 @@
   },
   "2027-01-24-factory-kameron-marlowe": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-24-offbroadway-jon-spencer": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6abbd28ca366adf5f52e6896_27-01-24_JonSpencer_FBEvent.jpeg",
@@ -3456,15 +3363,15 @@
   },
   "2027-01-26-factory-alan-walker": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-28-sovereign-aj-mclean-presents-alexander-james--the-better-man-tour": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-29-orh-kpop-night--k-winterland": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-30-delmar-20-years-gone--mississippi-nights-feat--sean-canan-s-voodoo-players": {
    "img": "https://www.thepageant.com/wp-content/uploads/2026/11/013026_Mississippi-Nights_RevisedWebsite.jpg",
@@ -3472,15 +3379,15 @@
   },
   "2027-01-30-pageant-dogs-of-society---the-ultimate-elton-rock-tribute": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-30-redflag-jurassic-party---raze-the-dead": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-31-orh-the-seven-wonders--a-tribute-to-fleetwood-mac": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-01-31-stifel-william-shakespeare-s-romeo---juliet-film-in-concert": {
    "img": "https://www.stifeltheatre.com/assets/img/default_event_thumbnail-e6fd2ec93e.jpg",
@@ -3496,11 +3403,11 @@
   },
   "2027-02-05-atomic-houseplant": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-05-ballpark-niko-moon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-05-offbroadway-youth-fountain": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6abbcef28b3d6e7a05687354_27-02-05_YouthFountain_FBEvent.jpeg",
@@ -3508,27 +3415,27 @@
   },
   "2027-02-05-sinkhole-morgan-garrett": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-factory-taylorville---a-tribute-to-taylor-swift": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-soulardmkt-mardi-gras-bud-light-party-tent-featuring-chris-janson": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-06-wildey-the-mersey-beatles": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=7895",
+   "src": "venue"
   },
   "2027-02-07-orh-tophouse": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-11-factory-vincent-mason": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-11-sheldon-julie-fowlis": {
    "img": "https://www.metrotix.com/assets/img/JulieFowlis_spotlight-f9e014f576.jpg",
@@ -3536,7 +3443,7 @@
   },
   "2027-02-12-pageant-badfish---a-tribute-to-sublime": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-13-offbroadway-camp-bloom-tour": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ad7d9dbebad7b5d7a514589_27-02-13_CampBloom_FBEvent.jpeg",
@@ -3544,11 +3451,11 @@
   },
   "2027-02-13-orh-winona-fighter": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-13-pageant-daughtry": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-13-stifel-the-19th-annual-gateway-blues-festival": {
    "img": "https://www.stifeltheatre.com/assets/img/default_event_thumbnail-e6fd2ec93e.jpg",
@@ -3556,11 +3463,11 @@
   },
   "2027-02-16-duck-riley-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-17-duck-the-back-alley": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-18-offbroadway-hans-williams": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ac7e4b54123910be0279395_27-02-18_HansWilliams_FBEvent.jpeg",
@@ -3568,23 +3475,23 @@
   },
   "2027-02-18-pageant-trombone-shorty---orleans-avenue": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-19-ryse-bryce-alakai": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-20-enterprise-nickelback": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.enterprisecenter.com/assets/img/Static_VENUE-Digital_1440x480_Nickleback_2027_Regional_EnterpriseCenter_0220-6feb96b370.jpg",
+   "src": "venue"
   },
   "2027-02-20-hawthorn-the-fab-four--the-ultimate-tribute": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-20-powell-andrew-mcmahon": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-20-sheldon-paul-brown---the-killing-devils": {
    "img": "https://www.metrotix.com/assets/img/PaulBrownKillingDevils_spotlight-8f741fdecc.jpg",
@@ -3592,11 +3499,11 @@
   },
   "2027-02-21-orh-that-1-guy": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-23-factory-meshuggah": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-23-sheldon-new-arts-jazztet": {
    "img": "https://www.metrotix.com/assets/img/NewArtsJazztet_spotlight-b28d32143f.jpg",
@@ -3604,7 +3511,7 @@
   },
   "2027-02-24-orh-penelope-road": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-24-sheldon-new-arts-jazztet": {
    "img": "https://www.metrotix.com/assets/img/NewArtsJazztet_spotlight-b28d32143f.jpg",
@@ -3612,7 +3519,7 @@
   },
   "2027-02-25-factory-wheeler-walker-jr-": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-25-offbroadway-strongboi": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6aa97abf983c706cfb92262b_27-02-25_Strongboi_FBEvent.jpeg",
@@ -3624,11 +3531,11 @@
   },
   "2027-02-25-sovereign-49-winchester": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-26-factory-welcome-back-my-friends---an-evening-with-emerson--lake---palmer": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-26-orh-kaitlin-butts": {
    "none": true,
@@ -3640,7 +3547,7 @@
   },
   "2027-02-27-pops-corey-smith": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-27-redflag-the-queers": {
    "img": "https://cdn.prod.website-files.com/693700aa5de9acc414bf624a/6a6169ebd814b219142fd935_Screenshot_2026-07-22_at_8.08.41%25E2%2580%25AFPM.jpeg",
@@ -3648,15 +3555,15 @@
   },
   "2027-02-27-redflag-trapt": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-02-28-factory-lake-street-dive": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-01-factory-bethel-music": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-02-offbroadway-carissa-s-wierd": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6af253f679fadb79c672a422_27-03-02_CarissasWierd_FBEvent.jpeg",
@@ -3668,19 +3575,19 @@
   },
   "2027-03-05-sovereign-pigeons-playing-ping-pong": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-citywinery-nick-heyward": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-familyarena-blue--yster-cult": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-pageant-cory-wong": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-06-sheldon-emmet-cohen-trio": {
    "img": "https://www.metrotix.com/assets/img/EmmetCohen_spotlight-70a293ec0e.jpg",
@@ -3696,27 +3603,27 @@
   },
   "2027-03-08-hawthorn-mico": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-09-delmar-valley": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-09-fubar-ventana": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-10-delmar-pepper": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-10-powell-jazz-at-lincoln-center-orchestra-with-wynton-marsalis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-12-delmar-beast-in-black": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-12-offbroadway-james-mcmurtry": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6aea39c3d0aaed33f88d30fe_27-03-12_JamesMcMurtry_FBEVent.jpeg",
@@ -3724,39 +3631,39 @@
   },
   "2027-03-12-powell-wynton-marsalis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-13-elvolcan-zacar-as-ferreira": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-13-factory-blue-october": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-13-powell-wynton-marsalis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-13-wildey-brooklyn-charmers--steely-dan-tribute-": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.cityofedwardsville.com/ImageRepository/Document?documentID=5929",
+   "src": "venue"
   },
   "2027-03-14-orh-pink-talking-fish--animals-50": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-14-powell-wynton-marsalis": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-16-factory-remi-wolf": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-16-hawthorn-babyfxce-e": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-16-offbroadway-dogpark": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6adbb10b6c246997f95ecefa_27-03-16_Dogpark_FBEvent.jpeg",
@@ -3764,55 +3671,55 @@
   },
   "2027-03-18-delmar-dylan-marlowe": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-18-orh-death-from-above-1979": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-18-pageant-greensky-bluegrass": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-18-sinkhole-truck-violence": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-19-delmar-denny-love": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-19-ethical-avi-avital": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-19-pageant-michelle-branch": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-19-sovereign-public-image-ltd": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-20-chaifetz-tobymac": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-20-rivercity-tesla": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-20-sovereign-red-not-chili-peppers": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-23-orh-ruby-waters": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-23-sheldon-denise-thimes": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-24-offbroadway-the-dollyrots": {
    "img": "https://cdn.prod.website-files.com/6980d8a38bcfd54d2ba0eacd/6ad665388070407c83a8bb84_27-03-24_TheDollyrots_FBEvent.jpeg",
@@ -3820,43 +3727,43 @@
   },
   "2027-03-24-sheldon-denise-thimes": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-25-orh-j--roddy-walston---the-automatic-band": {
    "none": true,
    "checked": "2026-11-20"
   },
   "2027-03-25-sheldon-modi": {
-   "none": true,
-   "checked": "2026-11-17"
+   "img": "https://www.metrotix.com/assets/img/Modi_spotlight-d6cd23a05c.jpg",
+   "src": "venue"
   },
   "2027-03-26-stifel-8ball---mjg": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-27-enterprise-niall-horan": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-30-factory-dylan-gossett": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-30-factory-the-psychedelic-furs": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-30-orh-vincent-lima": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-03-30-pageant-lucky-daye": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-02-parkwayucc-billy-lockett": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-02-sheldon-livingston-taylor": {
    "img": "https://www.metrotix.com/assets/img/LivingstonTaylor_ChicagoFarmer_spotlight-9d24cbfce2.jpg",
@@ -3868,7 +3775,7 @@
   },
   "2027-04-03-orh-jack---jack": {
    "none": true,
-   "checked": "2026-11-17"
+   "checked": "2026-11-27"
   },
   "2027-04-06-delmar-marc-broussard": {
    "none": true,
