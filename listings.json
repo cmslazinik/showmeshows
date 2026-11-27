@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:34:43Z",
+ "updated": "2026-11-27T10:34:52Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -2925,6 +2925,19 @@
    "price": "Ticketed",
    "tickets": "https://www.ticketweb.com/event/subliminal-verses-a-tribute-to-pops-concert-venue-tickets/14225474?pl=pops",
    "source": "https://www.popsrocks.com/"
+  },
+  {
+   "id": "2026-12-05-duck-love-in-the-club",
+   "date": "2026-12-05",
+   "time": "",
+   "artist": "Love In The Club",
+   "support": "",
+   "venue": "duck",
+   "genre": "Hip-Hop/Rap",
+   "price": "Ticketed",
+   "tickets": "https://www.etix.com/ticket/p/86261659/",
+   "source": "https://www.thepageant.com/calendar",
+   "added": "2026-11-27"
   },
   {
    "id": "2026-12-05-bob-all-roostered-up",
