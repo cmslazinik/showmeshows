@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-27T10:48:49.731Z",
+ "updated": "2026-11-27T11:55:07.721Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -144,6 +144,18 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "casey donahew": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/15/ba/0015ba17-5d33-d943-e774-c67f9973bd82/859731574355_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 324323680,
+   "link": "https://music.apple.com/us/artist/casey-donahew/324323680",
+   "checked": "2026-11-27",
+   "last": "2027-01-28",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/ca/eb/95caeb86-96fb-57e0-128a-f7f6f9831f6f/mzaf_13377167979001135378.plus.aac.p.m4a",
+    "t": "White Trash Story"
+   }
+  },
   "celebrating meat loaf": {
    "none": true,
    "checked": "2026-11-20"
@@ -184,6 +196,10 @@
   "christmas with zuzu": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "classic albums live": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "comehelpglo": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/23/3b/d6/233bd696-96a3-6255-1a55-a686e216fa6f/808391380721.jpg/400x400bb.jpg",
@@ -255,6 +271,18 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "dead original": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9d/bd/1c/9dbd1cb2-4508-8ea3-1db5-b4f16778758d/019213106010.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 493828036,
+   "link": "https://music.apple.com/us/artist/dead-original/493828036",
+   "checked": "2026-11-27",
+   "last": "2027-01-09",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7d/ee/5b/7dee5b3f-1e68-14db-638e-5882616887ce/mzaf_4180852873516674722.plus.aac.p.m4a",
+    "t": "Bored Again"
+   }
+  },
   "def leppard": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0f/76/fa/0f76fa8d-8341-c0af-84d8-543b9193c728/17UM1IM41552.rgb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -302,6 +330,10 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/e9/75/2ce97566-ec14-ebf0-2398-4a684555f6cd/mzaf_9450645700107848878.plus.aac.p.m4a",
     "t": "Who’s Gonna Chop My Baby’s Kindling?"
    }
+  },
+  "dumb nathan fielder rave": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "dylan gossett": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d8/99/0c/d8990cd5-20ae-f4fa-4fc9-884013af5a6c/23UM1IM15450.rgb.jpg/400x400bb.jpg",
@@ -355,6 +387,18 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "eric johanson": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/ca/33/0c/ca330c91-696b-c1f5-511a-4ff3dbe96d7d/040232590184.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 1292082026,
+   "link": "https://music.apple.com/us/artist/eric-johanson/1292082026",
+   "checked": "2026-11-27",
+   "last": "2027-01-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/21/40/9d/21409d65-4945-64b3-5e39-40976bfaa458/mzaf_14226846091368548032.plus.aac.p.m4a",
+    "t": "Mercy and Madness"
+   }
+  },
   "flans": {
    "none": true,
    "checked": "2026-11-17"
@@ -400,9 +444,17 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "hanukkah rocks": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "heartland men s chorus": {
    "none": true,
    "checked": "2026-11-18"
+  },
+  "heavy petty": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "holiday harmonies 2026": {
    "none": true,
@@ -427,6 +479,10 @@
    "none": true,
    "checked": "2026-11-17"
   },
+  "i heart r and b": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "imminence": {
    "none": true,
    "checked": "2026-11-17"
@@ -448,6 +504,18 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/08/38/b00838f9-3de5-3171-eac5-427aa842fda4/mzaf_467424671658928478.plus.aac.p.m4a",
     "t": "We Can't Make It Here"
+   }
+  },
+  "jason isbell and the 400 unit": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/bc/bd/75bcbd6d-02a8-251c-9548-38c3b9c5672a/886446416328.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 301599804,
+   "link": "https://music.apple.com/us/artist/jason-isbell-and-the-400-unit/301599804",
+   "checked": "2026-11-27",
+   "last": "2027-05-16",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/94/08/7a9408b7-0f86-6d6b-72f5-d72d510d5e30/mzaf_16344201409919743038.plus.aac.p.m4a",
+    "t": "If We Were Vampires"
    }
   },
   "jazz at lincoln center orchestra with wynton marsalis": {
@@ -504,6 +572,18 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/a5/a8/40a5a8af-9a5e-d3a1-bc80-8af4c4b76c09/mzaf_17438786170051663745.plus.aac.p.m4a",
     "t": "Met the Devil in Oklahoma"
+   }
+  },
+  "kaitlin butts": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/a7/cb/2ea7cb01-2218-c19a-5cbd-10bb470af886/859714045247_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 650660366,
+   "link": "https://music.apple.com/us/artist/kaitlin-butts/650660366",
+   "checked": "2026-11-27",
+   "last": "2027-03-25",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/5b/a7/225ba7d6-2b2b-0b0a-6dbf-19aeeb2b4571/mzaf_6671807299211988633.plus.aac.p.m4a",
+    "t": "You Ain't Gotta Die (To Be Dead To Me)"
    }
   },
   "kansas city jazz orchestra": {
@@ -580,6 +660,10 @@
     "t": "Beauty and the Beast (From \"Beauty and the Beast\")"
    }
   },
+  "latino landia pa la calle": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "leftover stuffing": {
    "none": true,
    "checked": "2026-11-20"
@@ -593,6 +677,18 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/fc/41/75fc41cf-b22c-c503-fc2d-26ce3f6980bd/mzaf_17419461686366392936.plus.aac.p.m4a",
     "t": "Dissolve"
+   }
+  },
+  "lizzy mcalpine": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/11/6a/64/116a64ee-0db3-4e59-bd86-f44008e47f85/5056167170006.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 1350245112,
+   "link": "https://music.apple.com/us/artist/lizzy-mcalpine/1350245112",
+   "checked": "2026-11-27",
+   "last": "2027-05-17",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/52/b7/7b52b754-157a-6946-1a7f-3885d0d4b45f/mzaf_11031506980503485356.plus.aac.p.m4a",
+    "t": "ceilings"
    }
   },
   "los lobos": {
@@ -652,6 +748,18 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "marty stuart and his fabulous superlatives": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/57/e4/e4/57e4e429-22c6-5a14-268b-1cba9e05d85b/857223004670.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 6599409,
+   "link": "https://music.apple.com/us/artist/marty-stuart-and-his-fabulous-superlatives/6599409",
+   "checked": "2026-11-27",
+   "last": "2027-01-29",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/3a/08/5e3a0825-18e5-2443-cc39-99476c4a33bb/mzaf_9579353718861118888.plus.aac.p.m4a",
+    "t": "If There Ain't There Ought'a Be"
+   }
+  },
   "matisyahu": {
    "none": true,
    "checked": "2026-11-17"
@@ -677,6 +785,14 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/25/7e/d1257ec4-6738-c416-5871-e4bace5a56d6/mzaf_2085525048182803770.plus.aac.p.m4a",
     "t": "Bleed (15th Anniversary Remastered 2023 Edition)"
    }
+  },
+  "mico": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "mike farris": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "mikole kaar and the kaar club": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/56/ff/3b/56ff3b3d-94e9-6150-9fa4-a01b4214418d/006197612743_Cover.jpg/400x400bb.jpg",
@@ -733,6 +849,18 @@
    "checked": "2026-11-20",
    "last": "2027-04-24",
    "pvNone": "2026-11-24"
+  },
+  "nathaniel rateliff and the night sweats": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fa/7b/8f/fa7b8f66-da81-7cb4-a1a8-38ebb38f5c7b/21CRGIM28140.rgb.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 992852146,
+   "link": "https://music.apple.com/us/artist/nathaniel-rateliff-the-night-sweats/992852146",
+   "checked": "2026-11-27",
+   "last": "2027-03-30",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/86/3f/bc/863fbc3b-e988-7598-a9e4-62773ce36633/mzaf_18033577311348823094.plus.aac.p.m4a",
+    "t": "You Worry Me"
+   }
   },
   "national symphony orchestra with gianandrea noseda and ray chen": {
    "none": true,
@@ -811,6 +939,10 @@
     "t": "When the Saints Go Marching In"
    }
   },
+  "prof": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "public image ltd": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/36/eb/9136eb83-208c-f9a5-37d0-1cff4672913f/dj.mbmyeirs.jpg/400x400bb.jpg",
    "src": "apple",
@@ -820,6 +952,18 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/6e/ce/b76eced6-a87c-4869-cb33-7829db5564fa/mzaf_12619237161289082596.plus.aac.p.m4a",
     "t": "Public Image"
+   }
+  },
+  "randy rogers band": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m08/d10/h15/mzi.mftdvpqi.tif/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 27459080,
+   "link": "https://music.apple.com/us/artist/randy-rogers-band/27459080",
+   "checked": "2026-11-27",
+   "last": "2027-02-03",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/02/66/ea02666e-2809-1882-b832-abd82ca94884/mzaf_17386059434550431258.plus.aac.p.m4a",
+    "t": "In My Arms Instead"
    }
   },
   "rat tally": {
@@ -886,6 +1030,10 @@
     "t": "The Road Goes On Forever"
    }
   },
+  "rock the halls": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "rodney marsalis with bach aria soloists": {
    "none": true,
    "checked": "2026-11-18"
@@ -950,6 +1098,30 @@
     "t": "Creep (feat. Haley Reinhart)"
    }
   },
+  "scott h biram": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ee/ac/ef/eeacef0f-5c7a-85d0-5693-14a80af1d327/dj.qcduxpcy.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 48827004,
+   "link": "https://music.apple.com/us/artist/scott-h-biram/48827004",
+   "checked": "2026-11-27",
+   "last": "2026-12-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/9f/e6/4e9fe64f-cf42-bf91-93a6-dc1d71a52da5/mzaf_13741605978493989920.plus.aac.p.m4a",
+    "t": "Blood Sweat & Murder"
+   }
+  },
+  "sevendust": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/12/3e/8c/123e8c02-2bbd-55af-f99a-d7ebb437f63f/mzi.ipflswco.tif/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 13125174,
+   "link": "https://music.apple.com/us/artist/sevendust/13125174",
+   "checked": "2026-11-27",
+   "last": "2027-03-26",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/6c/c2/db6cc284-0384-38a3-0a6c-88c6ab2d9814/mzaf_9105124563116581811.plus.aac.p.m4a",
+    "t": "Denial"
+   }
+  },
   "skerryvore": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d0/12/24/d01224d2-5b6a-1cb1-e1d6-06732a3f260d/mzi.uclwnoqc.jpg/400x400bb.jpg",
    "src": "apple",
@@ -985,6 +1157,22 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/9d/b1/1a9db19c-bda7-555b-d94d-8a0bd11423c5/mzaf_15984074185715943689.plus.aac.p.m4a",
     "t": "NOT MAD ENOUGH"
+   }
+  },
+  "sonic live in concert": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "split lip rayfield": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/fa/38/mzi.xqfsmgsy.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 4606597,
+   "link": "https://music.apple.com/us/artist/split-lip-rayfield/4606597",
+   "checked": "2026-11-27",
+   "last": "2026-12-31",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/22/3b/65223b4d-ddc5-552d-415d-1ecca87ff045/mzaf_11214082472349215628.plus.aac.p.m4a",
+    "t": "Never Make It Home"
    }
   },
   "staind": {
@@ -1035,6 +1223,23 @@
    "none": true,
    "checked": "2026-11-18"
   },
+  "the 2026 pedal steel festival": {
+   "none": true,
+   "checked": "2026-11-27",
+   "skip": "event"
+  },
+  "the brothers comatose": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/04/99/2d/04992d46-6ea4-cf43-54a3-53c832cfd708/196700238420_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 351492807,
+   "link": "https://music.apple.com/us/artist/the-brothers-comatose/351492807",
+   "checked": "2026-11-27",
+   "last": "2027-04-14",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/d8/c7/81d8c720-bf00-5da6-3eaa-5a86706513c9/mzaf_2457704874397624384.plus.aac.p.m4a",
+    "t": "Harvest Moon (feat. AJ Lee & Blue Summit)"
+   }
+  },
   "the chats": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/63/be/09/63be0925-4c14-cc7d-db27-c0a36778f254/dj.clrfvlwp.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1046,6 +1251,10 @@
     "t": "Smoko"
    }
   },
+  "the elders": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "the electric light orchestra experience featuring evil woman the american elo": {
    "none": true,
    "checked": "2026-11-18"
@@ -1053,6 +1262,14 @@
   "the emo night tour": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "the hip hop nutcracker": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "the legend of korra in concert": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "the plot in you": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/7f/a7/ec/7fa7ec70-c31b-1eba-7f59-bdb2a9bc363e/886445450606.jpg/400x400bb.jpg",
@@ -1100,6 +1317,18 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "the wooten brothers": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/2b/d2/25/2bd22531-823b-50bc-849b-7b41ba70e564/859777804294_cover.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 1705506057,
+   "link": "https://music.apple.com/us/artist/the-wooten-brothers/1705506057",
+   "checked": "2026-11-27",
+   "last": "2026-12-04",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/75/f8/8575f865-60d6-fadd-afd8-8c17e292f387/mzaf_8096845444443200486.plus.aac.p.m4a",
+    "t": "Sweat (Version A)"
+   }
+  },
   "tinashe": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/43/1c/5e/431c5e0f-140b-bf2f-9678-8790c369987a/886444673228.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1120,6 +1349,18 @@
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/bb/96/72bb967d-a5f4-32fe-edd0-a54452054e84/mzaf_1498246141660809922.plus.aac.p.m4a",
     "t": "Hello It's Me"
+   }
+  },
+  "tori kelly": {
+   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e7/55/4c/e7554cd8-5d8c-081b-e252-14bb27fcfa83/EP_artwork2.jpg/400x400bb.jpg",
+   "src": "apple",
+   "appleId": 437581991,
+   "link": "https://music.apple.com/us/artist/tori-kelly/437581991",
+   "checked": "2026-11-27",
+   "last": "2027-05-05",
+   "pv": {
+    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/c3/83/1ac383d4-3b5e-c404-c826-c18b69fd703d/mzaf_2800772171553474466.plus.aac.p.m4a",
+    "t": "Should've Been Us"
    }
   },
   "trans siberian orchestra": {
@@ -1232,6 +1473,10 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/17/8d/f5178ddd-cebf-6bc2-1af4-3822fb6bc92b/mzaf_16964444401739867311.plus.aac.p.m4a",
     "t": "Metamorphosis"
    }
+  },
+  "zoso": {
+   "none": true,
+   "checked": "2026-11-27"
   }
  },
  "shows": {
@@ -1375,6 +1620,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2026-12-03-knuckleheads-mike-farris": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-04-blueroomkc-eboni-fondren": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885548%252F2197883838193%252F1%252Foriginal.20261015-175139%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D1ae582e7f0d0d2ba72d6451f341f9470&w=940&q=75",
    "src": "venue"
@@ -1382,6 +1631,10 @@
   "2026-12-04-blueroomkc-indigo-hour--pure-sweetness": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885523%252F2197883838193%252F1%252Foriginal.20261015-175122%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D2c16bccd29f5bdea9ad8691f215e5022&w=940&q=75",
    "src": "venue"
+  },
+  "2026-12-04-granadalawrence-the-wooten-brothers": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2026-12-04-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
@@ -1419,6 +1672,10 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "2026-12-05-granadalawrence-hanukkah-rocks": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-05-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
    "checked": "2026-11-27"
@@ -1443,9 +1700,17 @@
    "img": "https://www.jambase.com/wp-content/uploads/2025/04/los-lobos-2025-press-1200x675.jpg",
    "src": "venue"
   },
+  "2026-12-05-knuckleheads-scott-h--biram": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-06-bottleneck-two-steppin-": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "2026-12-06-granadalawrence-the-2026-pedal-steel-festival": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2026-12-06-kauffman-kansas-city-symphony--handel-s-messiah": {
    "none": true,
@@ -1519,6 +1784,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2026-12-11-granadalawrence-dumb-nathan-fielder-rave": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-11-kauffman-kansas-city-symphony--cody-fry-christmas": {
    "none": true,
    "checked": "2026-11-20"
@@ -1567,6 +1836,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2026-12-16-kcmidland-the-hip-hop-nutcracker": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-16-kcuptown-home-free": {
    "none": true,
    "checked": "2026-11-27"
@@ -1599,7 +1872,15 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "2026-12-18-granadalawrence-rock-the-halls": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-18-kauffman-kansas-city-symphony--christmas-festival": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2026-12-19-granadalawrence-heavy-petty": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1647,6 +1928,10 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "2026-12-31-granadalawrence-split-lip-rayfield": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2026-12-31-kcmadrid-cyclops": {
    "none": true,
    "checked": "2026-11-27"
@@ -1654,6 +1939,10 @@
   "2026-12-31-kctruman-united-we-dance--nye-rave": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "2026-12-31-kcuptown-the-elders": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2026-12-31-voodookc-disco-dick-and-the-mirrorballs": {
    "none": true,
@@ -1664,6 +1953,10 @@
    "checked": "2026-11-27"
   },
   "2027-01-09-kauffman-kansas-city-symphony--tchaikovsky-s-fifth-symphony": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-01-09-kctruman-dead-original": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1684,6 +1977,10 @@
    "checked": "2026-11-27"
   },
   "2027-01-15-voodookc-petey-pablo": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-01-16-granadalawrence-latino-landia---pa-la-calle": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1727,6 +2024,10 @@
    "none": true,
    "checked": "2026-11-20"
   },
+  "2027-01-23-granadalawrence-i-heart-r-b": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-01-23-kauffman-kansas-city-symphony--classical-celebration--mozart---haydn": {
    "none": true,
    "checked": "2026-11-27"
@@ -1747,11 +2048,19 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2027-01-28-granadalawrence-casey-donahew": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-01-28-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
    "none": true,
    "checked": "2026-11-27"
   },
   "2027-01-29-kauffman-kansas-city-symphony--harry-potter-and-the-prisoner-of-azkaban-in-concert": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-01-29-kauffman-marty-stuart-and-his-fabulous-superlatives": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1766,6 +2075,10 @@
   "2027-01-30-kctruman-reggaeton-rave": {
    "none": true,
    "checked": "2026-11-24"
+  },
+  "2027-01-30-knuckleheads-eric-johanson": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2027-01-30-midwesttrust-mtc-kids-jam--allegra-levy": {
    "none": true,
@@ -1784,6 +2097,10 @@
    "checked": "2026-11-27"
   },
   "2027-01-31-midwesttrust-cantus--simple-gifts": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-02-03-granadalawrence-randy-rogers-band": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1807,6 +2124,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2027-02-06-kauffman-classic-albums-live--the-eagles---hotel-california": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-02-06-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4": {
    "none": true,
    "checked": "2026-11-27"
@@ -1824,6 +2145,10 @@
    "checked": "2026-11-27"
   },
   "2027-02-07-kauffman-kansas-city-symphony--beethoven---beyond--piano-concerto-no--4": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-02-07-kauffman-the-legend-of-korra-in-concert": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -1951,6 +2276,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2027-03-06-granadalawrence-mico": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-03-06-kauffman-kansas-city-symphony--emanuel-ax-plays-mozart---strauss--a-hero-s-life": {
    "none": true,
    "checked": "2026-11-27"
@@ -1986,6 +2315,10 @@
   "2027-03-10-kauffman-pink-martini": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "2027-03-12-granadalawrence-zoso": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2027-03-12-kauffman-kansas-city-symphony--tropical-rock-for-five-o-clock-somewhere--jimmy-buffett-and-friends": {
    "none": true,
@@ -2035,15 +2368,31 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2027-03-25-knuckleheads-kaitlin-butts": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-03-26-kauffman-kansas-city-jazz-orchestra--songs-in-the-key-of-life---a-tribute-to-stevie-wonder": {
    "none": true,
    "checked": "2026-11-20"
+  },
+  "2027-03-26-kcmidland-sonic-live-in-concert": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-03-26-kctruman-sevendust": {
+   "none": true,
+   "checked": "2026-11-27"
   },
   "2027-03-27-kcmidland-sullivan-king": {
    "none": true,
    "checked": "2026-11-27"
   },
   "2027-03-27-midwesttrust-yamato": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-03-30-kcuptown-nathaniel-rateliff---the-night-sweats": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -2076,6 +2425,10 @@
    "checked": "2026-11-27"
   },
   "2027-04-04-voodookc-from-ashes-to-new": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-04-05-kcuptown-prof": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -2120,6 +2473,10 @@
    "checked": "2026-11-20"
   },
   "2027-04-14-kcmidland-todd-rundgren": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-04-14-knuckleheads-the-brothers-comatose": {
    "none": true,
    "checked": "2026-11-27"
   },
@@ -2187,6 +2544,10 @@
    "none": true,
    "checked": "2026-11-27"
   },
+  "2027-05-05-kctruman-tori-kelly": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
   "2027-05-07-kauffman-kansas-city-symphony--songs-of-the-sea--britten---vaughan-williams": {
    "none": true,
    "checked": "2026-11-27"
@@ -2212,6 +2573,14 @@
    "checked": "2026-11-27"
   },
   "2027-05-11-kcmidland-remi-wolf": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-05-16-kcmidland-jason-isbell-and-the-400-unit": {
+   "none": true,
+   "checked": "2026-11-27"
+  },
+  "2027-05-17-kcmidland-lizzy-mcalpine": {
    "none": true,
    "checked": "2026-11-27"
   },
