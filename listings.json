@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T10:34:52Z",
+ "updated": "2026-11-28T10:35:27Z",
  "note": "Updated daily by a scheduled task. Past shows are kept 60 days so people can review them.",
  "shows": [
   {
@@ -2293,6 +2293,20 @@
    "source": "https://app.discotech.me/st-louis/stifel-theatre"
   },
   {
+   "id": "2026-11-28-citywinery-the-walls-group",
+   "date": "2026-11-28",
+   "time": "19:30",
+   "artist": "the walls group",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43528747-walls-group-at-city-winery-st-louis",
+   "source": "https://www.songkick.com/concerts/43528747-walls-group-at-city-winery-st-louis",
+   "added": "2026-11-28",
+   "timeNote": "doors"
+  },
+  {
    "id": "2026-11-28-offbroadway-harbour",
    "date": "2026-11-28",
    "time": "20:00",
@@ -2328,6 +2342,20 @@
    "price": "Ticketed",
    "tickets": "https://broadwayoysterbar.ticketspice.com/plastic-kings",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-28-missunderground-know-good",
+   "date": "2026-11-28",
+   "time": "21:00",
+   "artist": "Know Good",
+   "support": "",
+   "venue": "missunderground",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43542237-know-good-at-mississippi-underground-hall",
+   "source": "https://www.songkick.com/concerts/43542237-know-good-at-mississippi-underground-hall",
+   "added": "2026-11-28",
+   "timeNote": "doors"
   },
   {
    "id": "2026-11-29-pops-bazooka-joe-reunion-show",
@@ -2402,6 +2430,20 @@
    "price": "Ticketed",
    "tickets": "https://broadwayoysterbar.ticketspice.com/joslyn-and-the-sweet-compression",
    "source": "https://www.broadwayoysterbar.com/musicsched.html"
+  },
+  {
+   "id": "2026-11-29-citywinery-the-living",
+   "date": "2026-11-29",
+   "time": "19:00",
+   "artist": "The Living",
+   "support": "",
+   "venue": "citywinery",
+   "genre": "Other",
+   "price": "Ticketed",
+   "tickets": "https://www.songkick.com/concerts/43528804-living-at-city-winery-st-louis",
+   "source": "https://www.songkick.com/concerts/43528804-living-at-city-winery-st-louis",
+   "added": "2026-11-28",
+   "timeNote": "doors"
   },
   {
    "id": "2026-11-29-duck-the-reverend-peyton-s-big-damn-band",
@@ -2637,8 +2679,7 @@
    "genre": "Blues",
    "price": "Ticketed",
    "tickets": "https://www.songkick.com/concerts/43330983-eddie-9v-at-delmar-hall",
-   "source": "https://www.songkick.com/concerts/43330983-eddie-9v-at-delmar-hall",
-   "status": "soldout"
+   "source": "https://www.songkick.com/concerts/43330983-eddie-9v-at-delmar-hall"
   },
   {
    "id": "2026-12-03-sheldon-los-lobos",
