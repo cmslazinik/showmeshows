@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Kansas City. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-27T11:55:07.721Z",
+ "updated": "2026-11-28T10:41:58.081Z",
  "artists": {
   "a winter s evening with ryanhood": {
    "none": true,
@@ -602,7 +602,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/kansas-city-symphony/215824247",
    "checked": "2026-11-18",
-   "last": "2026-11-27",
+   "last": "2026-11-28",
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/60/21/0d6021c0-6021-096a-50e7-12bb0b8951ec/mzaf_11541663737041635755.plus.aac.p.m4a",
     "t": "American Symphony: III. Rondo"
@@ -663,10 +663,6 @@
   "latino landia pa la calle": {
    "none": true,
    "checked": "2026-11-27"
-  },
-  "leftover stuffing": {
-   "none": true,
-   "checked": "2026-11-20"
   },
   "liquid stranger": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/e2/c2/37/mzi.ychqjrxu.jpg/400x400bb.jpg",
@@ -793,14 +789,6 @@
   "mike farris": {
    "none": true,
    "checked": "2026-11-27"
-  },
-  "mikole kaar and the kaar club": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/56/ff/3b/56ff3b3d-94e9-6150-9fa4-a01b4214418d/006197612743_Cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/mikole-kaar/1154015942",
-   "checked": "2026-11-18",
-   "last": "2026-11-27",
-   "pvNone": "2026-11-23"
   },
   "millennial choirs and orchestras": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/74/48/75/744875cf-6198-c79b-19b1-9d6a525eb611/millennialchoirsorchestr.jpg/400x400bb.jpg",
@@ -975,7 +963,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/reggaeton-rave/1802074420",
    "checked": "2026-11-18",
-   "last": "2026-11-27",
+   "last": "2027-01-30",
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/4d/f8/d94df899-e35b-e8b2-1557-fd8b12f82594/mzaf_2132259819416148952.plus.aac.p.m4a",
     "t": "Circoloco"
@@ -1043,7 +1031,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/rss-trio/1480618718",
    "checked": "2026-11-17",
-   "last": "2026-11-27",
+   "last": "2026-11-28",
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f8/e2/34/f8e234ff-95ab-59a8-ed4b-73c063f6c9d9/mzaf_14204617799293332764.plus.aac.p.m4a",
     "t": "Allison Sucks"
@@ -1191,7 +1179,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/stranded-in-the-city/1474793940",
    "checked": "2026-11-18",
-   "last": "2026-11-27",
+   "last": "2026-11-28",
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/44/22/46/44224691-987c-2605-ed55-3a06e927711f/mzaf_2673409973703989837.plus.aac.p.m4a",
     "t": "Cruise"
@@ -1480,38 +1468,6 @@
   }
  },
  "shows": {
-  "2026-11-27-blueroomkc-indigo-hour--the-lori-tucker-quartet": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885384%252F2197883838193%252F1%252Foriginal.20261015-174945%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D17efbd2aff655b0be269b8127540b403&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-27-blueroomkc-mikole-kaar---the-kaar-club": {
-   "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1197932785%252F2197883838193%252F1%252Foriginal.20261113-173036%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3Dc7ffcb42f0a7da68783ed26b0327a32e&w=940&q=75",
-   "src": "venue"
-  },
-  "2026-11-27-bottleneck-leftover-stuffing--lucas-parker-band": {
-   "none": true,
-   "checked": "2026-11-20"
-  },
-  "2026-11-27-kauffman-kansas-city-symphony--the-muppet-christmas-carol-in-concert": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-kcbbslawnside-stranded-in-the-city": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-kcblackdolphin-mark-slimm-duo": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-kcblackdolphin-rss-trio": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-kctruman-reggaeton-rave": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
   "2026-11-28-blueroomkc-jazzy-jazz-miyagi": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1195885441%252F2197883838193%252F1%252Foriginal.20261015-175021%3Fw%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26rect%3D0%252C0%252C2160%252C1080%26s%3D8b437646a4ff3d52de8d496a25ca63b2&w=940&q=75",
    "src": "venue"

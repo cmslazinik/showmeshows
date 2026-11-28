@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Phoenix. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-27T10:56:13.247Z",
+ "updated": "2026-11-28T10:41:58.088Z",
  "artists": {
   "2hollis": {
    "none": true,
@@ -62,14 +62,6 @@
   "alice cooper s christmas pudding": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "all your friends": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cd/a2/22/cda2221a-859c-7a4f-7083-b16fa4eec3af/752470425080_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/all-your-friends/1502062989",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pvNone": "2026-11-23"
   },
   "alleycvt": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bd/63/35/bd63359b-256d-2855-b6c7-91fd15cde292/artwork.jpg/400x400bb.jpg",
@@ -402,10 +394,6 @@
   "cel genesis": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "celica": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "chasing abbey": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/7c/cf/417ccfcb-eb5f-5d9e-3c9c-bb444bedff94/859720413313_cover.jpg/400x400bb.jpg",
@@ -1171,10 +1159,6 @@
    "none": true,
    "checked": "2026-11-19"
   },
-  "imminence": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "indian school": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music41/v4/99/44/94/994494b0-f89c-210d-6e38-21d68afee142/mzm.cxfskwxb.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1331,17 +1315,6 @@
     "t": "Raye"
    }
   },
-  "jonas brothers": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/bd/16/12/bd161229-f5c7-d21d-caed-ed9302d52168/19UMGIM38391.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/jonas-brothers/114342891",
-   "checked": "2026-11-22",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/46/e2/2f46e248-1fe3-f800-f86f-73c5547cb75c/mzaf_2378209038865005817.plus.aac.p.m4a",
-    "t": "Burnin' Up"
-   }
-  },
   "kaylee rose": {
    "none": true,
    "checked": "2026-11-19"
@@ -1494,17 +1467,6 @@
   "luh kel": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "lumasi": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/1a/57/e11a5737-3acf-1353-54d6-5aceb44cadef/723277936475.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/lumasi/1273259258",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/82/fc/8f/82fc8fc9-647f-d8d8-2c36-43d880e46082/mzaf_8876916449860549033.plus.aac.p.m4a",
-    "t": "Lower (feat. ProbCause)"
-   }
   },
   "m3f festival": {
    "none": true,
@@ -1680,10 +1642,6 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/cc/cd/52cccd97-05d9-4464-bac6-80766f82afbc/mzaf_12334453167360780358.plus.aac.p.m4a",
     "t": "Like or Like Like"
    }
-  },
-  "monroe": {
-   "none": true,
-   "checked": "2026-11-17"
   },
   "moontricks": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/58/be/42/58be427a-77f5-70af-ea13-ad7271d7bce4/WWR017.jpg/400x400bb.jpg",
@@ -1956,10 +1914,6 @@
     "t": "LET THERE BE LIGHT"
    }
   },
-  "quinn ayres album release show": {
-   "none": true,
-   "checked": "2026-11-25"
-  },
   "r and b only live": {
    "none": true,
    "checked": "2026-11-18"
@@ -2034,17 +1988,6 @@
   "roberto tapia": {
    "none": true,
    "checked": "2026-11-18"
-  },
-  "roger clyne and the peacemakers": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7f/63/bc/7f63bca3-88fe-74b1-b040-53695e30219b/s05.gclfybqh.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/roger-clyne-the-peacemakers/427035967",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/43/c0/4443c017-d72e-019e-675b-176a3a9b361b/mzaf_13032100132807583192.plus.aac.p.m4a",
-    "t": "Green & Dumb (Remastered)"
-   }
   },
   "rose colored eyes": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/10/cc/ef/10ccef13-a56a-18ca-a600-21d592009145/859715066753_cover.jpg/400x400bb.jpg",
@@ -2659,17 +2602,6 @@
     "t": "Dozen Roses"
    }
   },
-  "three bad jacks": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/67/1e/42671e0a-cfc0-ca85-748c-c89ca3bc2501/mzi.rfzbyqqz.tif/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/three-bad-jacks/189636763",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/ab/74/7cab742a-6d40-143f-8d34-2f28cd04adaf/mzaf_5822016271716629841.plus.aac.p.m4a",
-    "t": "Gone Gone Goodbye"
-   }
-  },
   "thunderpuss": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e7/3a/76/e73a762e-0ecc-aa46-3441-44a9b6ba1c08/196589802378.jpg/400x400bb.jpg",
    "src": "apple",
@@ -3063,42 +2995,6 @@
   }
  },
  "shows": {
-  "2026-11-27-celebrityphx-roger-clyne---the-peacemakers": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-desertdiamond-jonas-brothers": {
-   "img": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/asm-glendale/Static_Social-X_800x419_JonasBrothers_2026_Regional_DesertDiamondArena_1127_A5DB1EEF-C80E-C9E0-209DEBB259477C85_a5db6983-04c8-52ed-9f68537f5aa0caf9.jpg",
-   "src": "venue"
-  },
-  "2026-11-27-rebellounge-all-your-friends": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-rhythmroom-three-bad-jacks": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-sunbartempe-lumasi": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-valleybar-quinn-ayres-album-release-show": {
-   "none": true,
-   "checked": "2026-11-25"
-  },
-  "2026-11-27-vanburen-imminence": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-walterstudios-celica": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-walterwherehouse-monroe": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
   "2026-11-28-footprint-banda-ms": {
    "img": "https://v36lr0x7.media.zestyio.com/09.18.27-_-Banda-MS_Admat_1200x675.jpg?width=1200",
    "src": "venue"

@@ -1,6 +1,6 @@
 {
  "note": "Band pictures for Denver. Filled in automatically by scripts/find-images.mjs; don't edit by hand.",
- "updated": "2026-11-27T10:46:22.399Z",
+ "updated": "2026-11-28T10:41:58.074Z",
  "artists": {
   "1tbsp": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1b/b7/69/1bb76924-af1f-c002-eb2d-ed86a6eb51c9/cover.jpg/400x400bb.jpg",
@@ -117,10 +117,6 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/88/7a/77887aac-41bd-a4f3-79ce-feb361944128/mzaf_3464734288993771022.plus.aac.p.m4a",
     "t": "Daydreams"
    }
-  },
-  "alphabeat soup 93": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "alter bridge": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/c1/12/2ec11256-ed80-17fb-ddf2-cf8eb850078c/840588171507.jpg/400x400bb.jpg",
@@ -379,10 +375,6 @@
   "blue oyster cult and uriah heep": {
    "none": true,
    "checked": "2026-11-20"
-  },
-  "blue violin s retro rock and roll christmas": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "bo staloch": {
    "none": true,
@@ -1082,10 +1074,6 @@
     "t": "Can't Have Mine (Find You a Girl)"
    }
   },
-  "e m e": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
   "earth to eve": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c4/51/20/c4512096-1c8e-869f-41fc-bf59776beece/199538281613.jpg/400x400bb.jpg",
    "src": "apple",
@@ -1123,10 +1111,6 @@
     "t": "Blowin’ Up"
    }
   },
-  "edith": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "effin": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6e/a7/f5/6ea7f5c0-2325-1777-691d-0d5d43e044f4/5056017302939.png/400x400bb.jpg",
    "src": "apple",
@@ -1160,17 +1144,6 @@
   "eptic": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "eric prydz": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/19/cc/b9/19ccb90a-9b79-2a5b-410f-8c35d06c763b/13UABIM53338.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/eric-prydz/27065447",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/c9/50/8dc95072-c92f-0a77-4918-b96a08991a78/mzaf_8268982496623901113.plus.aac.p.m4a",
-    "t": "Call on Me (Radio Mix)"
-   }
   },
   "face vocal band": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/67/67/a667678c-e1e9-d62a-70a5-abdf4d10c4b2/191061408376.jpg/400x400bb.jpg",
@@ -1284,10 +1257,6 @@
   "fruition": {
    "none": true,
    "checked": "2026-11-19"
-  },
-  "gabriel mervine quartet": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "gabriel mervine quintet": {
    "none": true,
@@ -1462,22 +1431,7 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "hayden coffman": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8b/a4/1c/8ba41c78-3d34-6eb8-73b6-58478ba4403c/659459926777.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/hayden-coffman/1423331960",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/b6/84/f8b68447-1d92-a79b-868e-698cfec8ed13/mzaf_17324792043645165953.plus.aac.p.m4a",
-    "t": "Better Off"
-   }
-  },
   "hazel miller and the collective holiday spectacular": {
-   "none": true,
-   "checked": "2026-11-18"
-  },
-  "hector acosta el torito": {
    "none": true,
    "checked": "2026-11-18"
   },
@@ -1597,14 +1551,6 @@
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/64/d3/fd64d3b2-0cfc-ed29-6bfb-04791dac4a30/mzaf_8071702542827025598.plus.aac.p.m4a",
     "t": "God Fearing Man"
    }
-  },
-  "insomnium and amorphis": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/a5/0d/61/a50d6197-b008-a9dc-e911-6bbe8a621c9d/886446073415.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/insomnium/78949757",
-   "checked": "2026-11-18",
-   "last": "2026-11-27",
-   "pvNone": "2026-11-23"
   },
   "interplanetary criminal": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f3/df/5b/f3df5b83-5e1a-0fff-b05d-91eae8b071e8/5054197307126.jpg/400x400bb.jpg",
@@ -1886,10 +1832,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "kawaii rave": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "keenan trevon": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0d/21/ef/0d21ef95-61e1-583f-9efe-0dbac65c9828/artwork.jpg/400x400bb.jpg",
    "src": "apple",
@@ -2003,7 +1945,7 @@
    "src": "apple",
    "link": "https://music.apple.com/us/artist/leftover-salmon/5380045",
    "checked": "2026-11-18",
-   "last": "2026-11-27",
+   "last": "2026-11-28",
    "pv": {
     "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/f3/34/a3f3343c-6406-72fe-295f-c366c0fce878/mzaf_11530681247204173275.plus.aac.p.m4a",
     "t": "Pasta on the Mountain"
@@ -2404,17 +2346,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "nueq": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/95/f1/72/95f17278-87cd-7235-ee74-23359cb5b3f9/197190908664.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/nueq/1559824914",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/52/aa/e552aa81-a4f8-bfa2-ee4a-f380fb119939/mzaf_2837744831419890228.plus.aac.p.m4a",
-    "t": "Mutate"
-   }
-  },
   "oliver hazard": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ac/e5/6e/ace56e96-53f8-a45b-05ce-eaf968a884ea/OLIVER_HAZARD_ALBUM_COVER_FINAL_1.jpg/400x400bb.jpg",
    "src": "apple",
@@ -2429,10 +2360,6 @@
   "open house": {
    "none": true,
    "checked": "2026-11-17"
-  },
-  "open house feat chrispy": {
-   "none": true,
-   "checked": "2026-11-18"
   },
   "open house feat j me": {
    "none": true,
@@ -3109,10 +3036,6 @@
    "none": true,
    "checked": "2026-11-20"
   },
-  "steller": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "stillhouse junkies": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3d/e8/d0/3de8d082-3cef-78f2-fdbd-ff76044194ca/194660900340.jpg/400x400bb.jpg",
    "src": "apple",
@@ -3647,17 +3570,6 @@
    "none": true,
    "checked": "2026-11-17"
   },
-  "tommy fleece": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4a/7e/c0/4a7ec02d-e9bb-2a12-e607-8ed7fbd30839/26UMGIM76789.rgb.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/tommy-fleece/1481290154",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/25/a9/f925a9df-2d7f-bb08-dd32-6967fa59da67/mzaf_16466082860471672817.plus.aac.p.m4a",
-    "t": "We Get Paper"
-   }
-  },
   "tommy lefroy": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/db/aa/9e/dbaa9e0d-0f00-ceb0-6a8c-b67d64106754/197338904091.jpg/400x400bb.jpg",
    "src": "apple",
@@ -3751,17 +3663,6 @@
     "t": "The Haunting Never Ends"
    }
   },
-  "tubby love": {
-   "img": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/95/85/8b958560-964b-3844-60ce-62bc905e464e/824296591482_cover.jpg/400x400bb.jpg",
-   "src": "apple",
-   "link": "https://music.apple.com/us/artist/tubby-love/296588652",
-   "checked": "2026-11-17",
-   "last": "2026-11-27",
-   "pv": {
-    "u": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/c8/46/1fc84696-59a3-390c-c0be-ecb26d924abe/mzaf_4128430053037707591.plus.aac.p.m4a",
-    "t": "More Than Enough"
-   }
-  },
   "turnpike troubadours": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/85/ff/ba/85ffbab3-54c6-58fd-1420-ec2bdcf8d006/Cover.jpg/400x400bb.jpg",
    "src": "apple",
@@ -3845,10 +3746,6 @@
     "t": "Always"
    }
   },
-  "van zeppelin": {
-   "none": true,
-   "checked": "2026-11-17"
-  },
   "veaux": {
    "none": true,
    "checked": "2026-11-22"
@@ -3860,11 +3757,6 @@
   "vincent lima": {
    "none": true,
    "checked": "2026-11-20"
-  },
-  "vip music presents": {
-   "none": true,
-   "checked": "2026-11-17",
-   "skip": "event"
   },
   "waiting for dani": {
    "img": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/9a/f9/a89af9a1-1f87-d123-9ae5-1f3b3e0196a0/artwork.jpg/400x400bb.jpg",
@@ -4000,94 +3892,6 @@
   }
  },
  "shows": {
-  "2026-11-27-blackbox-alphabeat-soup--93--j-rose---friends--lounge-": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-blackbox-nueq": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-bluebird-costa": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-boettcher-home-alone-in-concert---colorado-symphony": {
-   "img": "https://coloradosymphony.org/app/uploads/2022/10/Home-Alone-Boettcher-720x400-1.jpg",
-   "src": "venue"
-  },
-  "2026-11-27-bouldertheater-leftover-salmon-feat--sam-bush": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-cervantes-steller": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-dairy-blue-violin-s-retro-rock---roll-christmas": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-foxboulder-tubby-love": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-globehall-edith": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-gothic-insomnium---amorphis": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-grizzlyrose-hayden-coffman": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-herbs-the-munchies": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-larimer-open-house-feat--chrispy": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-lostlake-tommy-fleece": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-macky-boulder-philharmonic---boulder-ballet--the-nutcracker": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-marquis-e-m-e": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-mission-eric-prydz": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-nocturne-gabriel-mervine-quartet": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-oriental-van-zeppelin": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-otherside-kawaii-rave": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-stampede-h-ctor-acosta--el-torito-": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
-  "2026-11-27-summit-vip-music-presents--reggaet-n-y2k": {
-   "none": true,
-   "checked": "2026-11-27"
-  },
   "2026-11-28-blackbox-dub-den-records-2-year-anniversary-tour--chairless--lounge-": {
    "none": true,
    "checked": "2026-11-27"
@@ -4806,15 +4610,15 @@
   },
   "2026-12-12-blackbox-canvas": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-blackbox-darkoe--bassik-x-willyb--lounge-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-bluebird-the-rock-and-roll-playhouse": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-boettcher-colorado-symphony--a-colorado-christmas": {
    "none": true,
@@ -4842,11 +4646,11 @@
   },
   "2026-12-12-fillmore-don-broco---windwaker": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-foxboulder-big-richard": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-fumcboulder-boulder-philharmonic--the-new-four-seasons---vivaldi-recomposed": {
    "img": "https://assets.getcuebox.com/cdn-cgi/image/format=jpeg,width=1200,height=630,fit=cover,gravity=auto/https://assets.getcuebox.com/LPSW5JKM/33_20261105T212152Z.jpg",
@@ -4858,11 +4662,11 @@
   },
   "2026-12-12-gothic-railbenders": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-hidive-deathchant": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-larimer-finn-o-sullivan": {
    "none": true,
@@ -4870,31 +4674,31 @@
   },
   "2026-12-12-larimer-open-house-feat--kenyon": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-lostlake-clementine": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-marquis-naethan-apollo": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-mission-lyny": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-nocturne-gabriel-mervine-quintet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-ogden-zulan": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-ophelias-reprise": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-oriental-depeche-mode--psychedelic-furs---new-order-tributes--dm101--heaven--low-life": {
    "none": true,
@@ -4902,11 +4706,11 @@
   },
   "2026-12-12-otherside-chez": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-summit-drop-dead-gorgeous": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-12-swallowhill-the-okee-dokee-brothers": {
    "img": "https://swallowhillmusic.org/wp-content/uploads/2026/09/16339425-b8a4-4901-bc60-8993d11705bd.jpg",
@@ -4930,15 +4734,15 @@
   },
   "2026-12-13-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-globehall-big-ol--pig": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-larimer-mercy-club": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-larumba-salsa-sundays-at-la-rumba": {
    "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
@@ -4946,35 +4750,35 @@
   },
   "2026-12-13-mission-trivium": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-nocturne-the-steve-denny-quintet--songs-of-winter": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-ogden-dead-poet-society": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-13-summit-miss-may-i-x-born-of-osiris": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-14-dairy-boco-flamenco-presents-flamenco-jazz-with-alicia-cami-a": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-15-blackbox-sub-mission-electronic-tuesdays--sprouted": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-15-larimer-milk---bone": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-15-lostlake-mother-soki": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-16-boettcher-john-denver---a-rocky-mountain-christmas-with-the-colorado-symphony": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/John-Denver-Holiday-720x400-1.jpg",
@@ -4982,15 +4786,15 @@
   },
   "2026-12-16-bouldertheater-face-vocal-band": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-16-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-16-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-16-stampede-ladies-night---noche-sonidera": {
    "img": "https://i.ticketweb.com/i/00/12/87/25/04_Edp.jpg?v=4",
@@ -4998,7 +4802,7 @@
   },
   "2026-12-17-blackbox-purple-mammoth-sound-takeover--ghast--lounge-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-boettcher-colorado-symphony--holiday-brass": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Holiday-Brass-720x400-3.jpg",
@@ -5006,15 +4810,15 @@
   },
   "2026-12-17-cervantes-the-grouch---eligh-ft--amp-live": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-etown-jason-carter-band": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-globehall-an-evening-with-patterson-hood--of-drive-by-truckers-": {
    "img": "https://globehall.com/wp-content/uploads/2026/09/an-evening-with-patterson-hood-of-drive-by-truckers.jpeg",
@@ -5022,39 +4826,39 @@
   },
   "2026-12-17-larimer-sry4u": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-mission-dexter-and-the-moonrocks": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-17-otherside-shift-ft--lucid-vision---midicinal": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-blackbox-ferdadubz-collective--ferda---friends--lounge-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-blackbox-the-black-box---recon-present--dlr---mc-gusto": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-bluebird-atomga": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-cervantes-billy-failing-s-holiday-sleigh-ride": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-foxboulder-the-grouch": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-globehall-the-sonic-souls": {
    "img": "https://globehall.com/wp-content/uploads/2026/10/the-sonic-souls-w-fresh-fruit-after-lilith.jpeg",
@@ -5066,7 +4870,7 @@
   },
   "2026-12-18-larimer-open-house-feat--oliver-blank": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-littlebear-young---dead": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1171559298%252F2163506328413%252F1%252Foriginal.20251122-180426%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Dbcc80d87c947d799330d9b782801d2ff&w=940&q=75",
@@ -5074,27 +4878,27 @@
   },
   "2026-12-18-lostlake-low-key-genius": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-marquis-public-opinion": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-ogden-canabliss": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-oriental-neuromorphic---let-them-burn": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-summit-blade-rave": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-18-swallowhill-max-gomez": {
    "img": "https://swallowhillmusic.org/wp-content/uploads/2026/06/78e11083-275f-4324-9ca1-6ed429889377.jpg",
@@ -5102,15 +4906,15 @@
   },
   "2026-12-18-trident-rad-solstice-disco": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-blackbox-submorphics": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-bluebird-bleakheart": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-boettcher-colorado-symphony--too-hot-to-handel---a-gospel-messiah": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Too-Hot-to-Handel-720x400-1.jpg",
@@ -5118,27 +4922,27 @@
   },
   "2026-12-19-bouldertheater-dead-floyd": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-cervantes-billy-failing-s-holiday-sleigh-ride": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-dairy-rocky-mountain-revels--a-scottish-christmas-revels": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-etown-6th-annual-winter-s-eve-holiday-show": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-fillmore-tech-n9ne": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-globehall-autumn-lies": {
    "img": "https://globehall.com/wp-content/uploads/2026/09/autumn-lies-w-barre-chord-bangers-last-nerve-death-save-1.jpeg",
@@ -5146,43 +4950,43 @@
   },
   "2026-12-19-marquis-drag-the-river": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-mission-ahee": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-ogden-buffalo-traffic-jam": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-ophelias-izcalli": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-oriental-denver-rock-orchestra--holiday-rock-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-paramount-face-vocal-band": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-summit-breathe-carolina": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-19-trident-cassidy-s-hammer": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-bluebird-jd-mcpherson": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-boettcher-colorado-symphony--too-hot-to-handel---a-gospel-messiah": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/Too-Hot-to-Handel-720x400-1.jpg",
@@ -5190,15 +4994,15 @@
   },
   "2026-12-20-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-globehall-karly-s-basement": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-larimer-brimco": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-larumba-salsa-sundays-at-la-rumba": {
    "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
@@ -5206,11 +5010,11 @@
   },
   "2026-12-20-nocturne-nocturne-holiday-sessions--peter-sommer-septet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-ogden-buffalo-traffic-jam": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-20-stampede-dalvin": {
    "img": "https://i.ticketweb.com/i/00/13/09/77/34_Edp.jpg?v=7",
@@ -5222,27 +5026,27 @@
   },
   "2026-12-22-boettcher-disney-s-the-muppet-christmas-carol-in-concert---colorado-symphony": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-22-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-22-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-23-boettcher-disney-s-the-muppet-christmas-carol-in-concert---colorado-symphony": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-23-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-23-nocturne-nocturne-holiday-sessions--the-david-mesquitic-quintet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-23-stampede-ladies-night---noche-sonidera": {
    "img": "https://i.ticketweb.com/i/00/12/87/25/04_Edp.jpg?v=4",
@@ -5250,11 +5054,11 @@
   },
   "2026-12-24-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-26-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-26-littlebear-jakarta-feat--isaac-points": {
    "img": "https://www.eventbrite.com/_next/image?url=https%3A%2F%2Fimg.evbuc.com%2Fhttps%253A%252F%252Fcdn.evbuc.com%252Fimages%252F1189925385%252F2163506328413%252F1%252Foriginal.20260730-004613%3Fcrop%3Dfocalpoint%26fit%3Dcrop%26w%3D940%26auto%3Dformat%252Ccompress%26q%3D75%26sharp%3D10%26fp-x%3D0.5%26fp-y%3D0.5%26s%3Da57af5bce05caa31c49b222f304165c3&w=940&q=75",
@@ -5262,15 +5066,15 @@
   },
   "2026-12-26-nocturne-the-powell-brothers-honor-coltrane-and-miles--jonathan-powell-quintet-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-26-ogden-sidequest": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-27-ellie-colorado-ballet--the-nutcracker--live-colorado-ballet-orchestra-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-27-larumba-salsa-sundays-at-la-rumba": {
    "img": "https://images.sk-static.com/images/media/img/col6/20110415-105333-492202.jpg",
@@ -5278,11 +5082,11 @@
   },
   "2026-12-27-nocturne-drew-s-blues-and-boogaloos-feat--derek-banach": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-30-bouldertheater-the-infamous-stringdusters": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-30-dazzle-otis-taylor": {
    "img": "https://s3.amazonaws.com/files.venuepilot.com/attachments/cover_small_8eb7cf8eb29590919d5e7b536788852299aaf249e75ec7dbae9b76da7fae9875.jpg",
@@ -5290,7 +5094,7 @@
   },
   "2026-12-30-ogden-umphrey-s-mcgee": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-30-otherside-deadphish-orchestra": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/deadphish-orchestra-w-rado-wednesday-12-30.jpeg",
@@ -5302,7 +5106,7 @@
   },
   "2026-12-31-bouldertheater-the-infamous-stringdusters": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-31-cervantes-neal-francis": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/neal-francis-w-gold-leader-san-leandro.jpeg",
@@ -5310,7 +5114,7 @@
   },
   "2026-12-31-fillmore-the-polish-ambassador": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-31-globehall-silas-herman---the-tone-unit": {
    "img": "https://globehall.com/wp-content/uploads/2026/11/silas-herman-the-tone-unit-w-high-country-hustle.jpeg",
@@ -5322,11 +5126,11 @@
   },
   "2026-12-31-mission-pretty-lights": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-31-ogden-umphrey-s-mcgee": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2026-12-31-otherside-deadphish-orchestra": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/deadphish-orchestra-w-rado-wednesday-12-30.jpeg",
@@ -5334,11 +5138,11 @@
   },
   "2027-01-01-mission-pretty-lights": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-01-ogden-umphrey-s-mcgee": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-02-cervantes-itchy-o": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/itchy-o-w-legs-the-band.jpeg",
@@ -5350,7 +5154,7 @@
   },
   "2027-01-02-mission-pretty-lights": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-03-boettcher-colorado-symphony--an-evening-of-mozart--christopher-dragon--cond---yumi-hwang-williams--basil-vendryes-": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/2627-an-afternoon-of-mozart-720x400-1.jpg",
@@ -5362,7 +5166,7 @@
   },
   "2027-01-07-ogden-the-disco-biscuits": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-07-otherside-shift-ft--barnacle-boi": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/shift-ft-barnacle-boi-w-von-storm-kalibvr-b2b-lil-rocketman-enokalypse-b2b-imperivm-wrcktngl-hoodiemane.jpeg",
@@ -5370,7 +5174,7 @@
   },
   "2027-01-08-bluebird-patema": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-08-cervantes-denver-comes-alive--late-set--ft--eric-krasno--george-porter-jr--ivan-neville---more": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/denver-comes-alive-ft-eric-krasno-george-porter-jr-ivan-neville-more-w-mtn-lion-dj-logic-late-set-friday-1-8.jpeg",
@@ -5378,7 +5182,7 @@
   },
   "2027-01-08-ogden-the-disco-biscuits": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-08-otherside-2000-s-rave": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/2000s-rave.jpeg",
@@ -5390,7 +5194,7 @@
   },
   "2027-01-09-ogden-the-disco-biscuits": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-09-otherside-easy-jim--grateful-dead-tribute-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/easy-jim-grateful-dead-tribute-w-breadbox-jerry-garcia-band-tribute.jpeg",
@@ -5402,7 +5206,7 @@
   },
   "2027-01-13-paramount-the-temptations": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-14-cervantes-shift-ft--savej": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/shift-ft-savej-w-lily-fangz-morillo-saucy-feather.jpeg",
@@ -5418,11 +5222,11 @@
   },
   "2027-01-14-paramount-hairball": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-15-boettcher-colorado-symphony": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-15-cervantes-yonder-mountain-string-band": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/yonder-mountain-string-band-w-remedy-tree-friday-1-15-1.jpeg",
@@ -5430,15 +5234,15 @@
   },
   "2027-01-15-fillmore-railroad-earth": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-15-mission--aszewo": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-15-ogden-motifv": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-15-otherside-other-brothers--allman-brothers-band-tribute-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/other-brothers-allman-brothers-band-tribute-w-taylor-scott-band-vinyl-release-show.jpeg",
@@ -5454,15 +5258,15 @@
   },
   "2027-01-16-gothic-mustard-plug": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-16-mission-effin": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-16-ogden-fruition": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-16-otherside-squash": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/squash-w-huck-n-pray-bluehouse.jpeg",
@@ -5470,11 +5274,11 @@
   },
   "2027-01-17-mission-ian-asher": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-17-ogden-portugal--the-man": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-21-larimer-dev": {
    "img": "https://larimerlounge.com/wp-content/uploads/2026/11/dev.jpeg",
@@ -5482,7 +5286,7 @@
   },
   "2027-01-22-bluebird-the-lone-bellow": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-22-cervantes-lotus": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/lotus-w-michael-wilbur-of-moon-hooch-mike-greenfield-late-set-friday-1-22.jpeg",
@@ -5490,15 +5294,15 @@
   },
   "2027-01-22-mission-wonkywilla": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-22-paramount-patty-griffin-and-rickie-lee-jones": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-23-bluebird-a-brother-s-fountain": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-23-cervantes-lotus": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/lotus-w-michael-wilbur-of-moon-hooch-mike-greenfield-late-set-friday-1-22.jpeg",
@@ -5510,11 +5314,11 @@
   },
   "2027-01-23-mission-greensky-bluegrass": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-23-ogden-skysia": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-23-otherside-rally--round-the-family--ratm-tribute----amnesiacs--radiohead-tribute-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/rally-round-the-family-rage-against-the-machine-tribute-amnesiacs-radiohead-tribute-w-apostles-of-fire-black-sabbath-1.jpeg",
@@ -5526,7 +5330,7 @@
   },
   "2027-01-24-ogden-smith---myers": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-28-otherside-shift-ft--black-wolf---oomah": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/shift-ft-black-wolf-oomah-w-wes-empress.jpeg",
@@ -5534,7 +5338,7 @@
   },
   "2027-01-29-bellco-cristian-castro": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-29-cervantes-paul-wall": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/06/paul-wall-w-special-guests.jpg",
@@ -5542,7 +5346,7 @@
   },
   "2027-01-29-fillmore-dark-star-orchestra": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-29-larimer-robby-east": {
    "img": "https://larimerlounge.com/wp-content/uploads/2026/11/robby-east-w-hayyoo-elysium.jpeg",
@@ -5550,11 +5354,11 @@
   },
   "2027-01-29-mission-sts9": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-29-ogden-jason-ross": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-29-otherside-dave-watts--annual-birthday-jam": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/dave-watts-annual-birthday-jam-ft-wattsananda-league-of-sound-disciples-w-ethno-dj-sleepy.jpeg",
@@ -5562,11 +5366,11 @@
   },
   "2027-01-30-fillmore-dark-star-orchestra": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-30-mission-sts9": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-01-30-otherside-papajay": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/papajay.jpeg",
@@ -5582,15 +5386,15 @@
   },
   "2027-02-03-ballarena-don-omar": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-03-paramount-jesse-cook": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-04-bluebird-jess-williamson": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-04-otherside-shift-ft--gunpoint": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/shift-ft-gunpoint-w-zondo.jpeg",
@@ -5602,7 +5406,7 @@
   },
   "2027-02-05-mission-lumasi-and-chmura": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-05-otherside-satsang": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/satsang.jpeg",
@@ -5610,11 +5414,11 @@
   },
   "2027-02-06-bluebird-aj-lee-and-blue-summit": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-06-bouldertheater-richard-thompson": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-06-cervantes-crawdad-sniper": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/08/crawdad-sniper-w-flintwick-fika-manfish-crawdad-trip-hop.jpeg",
@@ -5622,11 +5426,11 @@
   },
   "2027-02-06-mission-the-hip-abduction---johnny-cosmic": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-06-ogden-mike-love": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-06-otherside-untz-is-dead--15th-annual-bob-marley-birthday-celebration-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/untz-is-dead-ft-allen-aucoin-dylan-teifer-elie-herzog-fleeb-thomas-and-wake-up-live-a-bob-marley-tribute.jpeg",
@@ -5634,7 +5438,7 @@
   },
   "2027-02-10-paramount-daughtry": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-11-cervantes-shift-ft--atyya": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/shift-ft-atyya-w-furtha-radiate-love-surprise-special-guest.jpeg",
@@ -5646,7 +5450,7 @@
   },
   "2027-02-12-bouldertheater-little-stranger": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-12-cervantes-duffrey": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/duffrey-w-russ-liquid-kuhlin-dj-rewild-duffrey-opening-beats-set-friday-2-12.jpeg",
@@ -5654,27 +5458,27 @@
   },
   "2027-02-12-gothic-la-roux": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-12-mission-kream": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-12-ogden-shakedown-street": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-12-otherside-ballyhoo-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-bellco-la-fiera-de-ojinaga": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-bluebird-the-sheepdogs": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-cervantes-duffrey": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/duffrey-w-russ-liquid-kuhlin-dj-rewild-duffrey-opening-beats-set-friday-2-12.jpeg",
@@ -5682,7 +5486,7 @@
   },
   "2027-02-13-fillmore-stella-lefty": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-globehall-not-a-toy": {
    "img": "https://globehall.com/wp-content/uploads/2026/11/not-a-toy.jpeg",
@@ -5690,15 +5494,15 @@
   },
   "2027-02-13-gothic-rare-americans": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-mission-sodown": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-13-ogden-cid": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-15-larimer-paris-jackson": {
    "img": "https://larimerlounge.com/wp-content/uploads/2026/11/paris-jackson-w-identity-crisis.jpeg",
@@ -5710,7 +5514,7 @@
   },
   "2027-02-18-bluebird-north-mississippi-allstars": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-18-cervantes-shift-ft--black-carl-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/shift-ft-black-carl.jpeg",
@@ -5718,15 +5522,15 @@
   },
   "2027-02-18-gothic-public-image-ltd--pil-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-18-mission-dylan-scott": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-19-bluebird-l-a-b": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-19-cervantes-squeaky-feet---dizgo": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/squeaky-feet-dizgo-w-big-shrimp.jpeg",
@@ -5734,11 +5538,11 @@
   },
   "2027-02-19-mission-interplanetary-criminal": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-20-bluebird-teenage-wrist": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-20-cervantes-high-step-society": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/06/high-step-society-w-special-guests.jpg",
@@ -5746,7 +5550,7 @@
   },
   "2027-02-20-fillmore-polyphia": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-20-globehall-baileyrp": {
    "img": "https://globehall.com/wp-content/uploads/2026/11/baileyrp-w-ashmoor.jpeg",
@@ -5754,47 +5558,47 @@
   },
   "2027-02-20-gothic-sam-bush": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-20-mission-caspa": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-20-ogden-tophouse": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-21-boettcher-colorado-symphony--peter-and-the-wolf": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-21-ogden-twin-temple": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-22-bluebird-marian-hill": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-23-bluebird-asaf-avidan": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-23-bouldertheater-the-high-kings": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-24-mission-bethel-music": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-24-moesenglewood-big-d-and-the-kids-table": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-25-bluebird-1tbsp": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-25-cervantes-sam-burchfield": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/sam-burchfield.jpeg",
@@ -5806,27 +5610,27 @@
   },
   "2027-02-26-mission-the-movement---collie-buddz": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-26-ogden-sippy": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-27-bellco-los-tigres-del-norte": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-27-bluebird-eddie-9v": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-27-fillmore-grace-potter": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-27-mission-clay-street-unit---49-winchester": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-27-otherside-casey-club": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/casey-club.jpeg",
@@ -5834,11 +5638,11 @@
   },
   "2027-02-28-bouldertheater-los-lobos": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-28-mission-chelsea-cutler": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-02-28-otherside-comehelpglo": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/comehelpglo-1.jpeg",
@@ -5846,15 +5650,15 @@
   },
   "2027-03-01-bluebird-strongboi": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-02-paramount-blue--yster-cult-and-uriah-heep": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-03-fillmore-ashe": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-03-globehall-hot-freaks": {
    "img": "https://globehall.com/wp-content/uploads/2026/09/hot-freaks.jpeg",
@@ -5866,7 +5670,7 @@
   },
   "2027-03-04-paramount-flans": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-05-cervantes-oteil---friends-ft--steve-kimock--jason-crosby--lamar-williams-jr---johnny-kimock---tom-guarna": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/oteil-friends-ft-steve-kimock-jason-crosby-lamar-williams-jr-johnny-kimock-tom-guarna-friday-3-5.jpeg",
@@ -5874,7 +5678,7 @@
   },
   "2027-03-05-ogden-sylvan-esso": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-05-otherside-damn-right----ben-silver": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/damn-right-ben-silver-1.jpeg",
@@ -5882,7 +5686,7 @@
   },
   "2027-03-06-bluebird-valley": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-06-cervantes-oteil---friends-ft--steve-kimock--jason-crosby--lamar-williams-jr---johnny-kimock---tom-guarna": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/oteil-friends-ft-steve-kimock-jason-crosby-lamar-williams-jr-johnny-kimock-tom-guarna-friday-3-5.jpeg",
@@ -5890,19 +5694,19 @@
   },
   "2027-03-06-gothic-mc4d": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-06-mission-blue-october": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-06-ogden-sylvan-esso": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-09-fillmore-clutch": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-09-globehall-tommy-lefroy": {
    "img": "https://globehall.com/wp-content/uploads/2026/10/tommy-lefroy-w-horsepower.jpeg",
@@ -5910,7 +5714,7 @@
   },
   "2027-03-09-gothic-noah-rinker": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-09-larimer-trever-m--keith---lilly-hiatt": {
    "img": "https://larimerlounge.com/wp-content/uploads/2026/11/lilly-hiatt-trever-m-keith.jpeg",
@@ -5918,19 +5722,19 @@
   },
   "2027-03-10-gothic-caroline-rose": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-11-bluebird-bo-staloch": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-11-paramount-julieta-venegas": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-12-bluebird-hans-williams": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-12-boettcher-colorado-symphony--beethoven-s-fifth---emperor-concerto-with-kahane---oundjian": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-11-Beethoven-5-720x400-2.jpg",
@@ -5938,7 +5742,7 @@
   },
   "2027-03-12-mission-hamdi": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-12-otherside-habitaat": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/habitaat-w-nyrus-shanila-breathwork-dj-set.jpeg",
@@ -5950,15 +5754,15 @@
   },
   "2027-03-13-gothic-rayland-baxter": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-13-mission-heyz": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-14-bluebird-vincent-lima": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-14-boettcher-colorado-symphony--beethoven-s-fifth---emperor-concerto-with-kahane---oundjian": {
    "img": "https://coloradosymphony.org/app/uploads/2022/10/FY27-11-Beethoven-5-720x400-2.jpg",
@@ -5966,23 +5770,23 @@
   },
   "2027-03-14-gothic-the-lemonheads": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-15-bluebird-danielle-ponder": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-15-gothic-death-from-above-1979": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-16-mission-the-plot-in-you": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-17-bluebird-pivot-gang": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-17-cervantes-m-a": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/mya.jpeg",
@@ -5990,7 +5794,7 @@
   },
   "2027-03-17-gothic-haken": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-19-otherside-grieves": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/grieves-w-horrorshow-the-street-sweepers.jpeg",
@@ -5998,7 +5802,7 @@
   },
   "2027-03-20-bluebird-temper-city": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-20-globehall-joe-pug": {
    "img": "https://globehall.com/wp-content/uploads/2026/10/joe-pug.jpeg",
@@ -6006,19 +5810,19 @@
   },
   "2027-03-20-gothic-ruby-waters": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-20-ogden-grateful-shred": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-22-ballarena-staind": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-24-paramount-akira-yamaoka": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-24-redrocks-porter-robinson-b2b-ninajirachi": {
    "img": "https://assets.redrocksonline.com/wp-content/uploads/2026/11/11184009/uploadedimage_6af503f131b87.jpg",
@@ -6026,7 +5830,7 @@
   },
   "2027-03-25-ballarena-hans-zimmer": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-25-cervantes-keenan-trevon": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/09/keenan-trevon.jpeg",
@@ -6038,7 +5842,7 @@
   },
   "2027-03-26-bouldertheater-moe-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-26-redrocks-kai-wachi": {
    "img": "https://assets.redrocksonline.com/wp-content/uploads/2026/11/09101209/kai-wachi-tickets_03-26-27_18_6af10f9c350d4.png",
@@ -6046,11 +5850,11 @@
   },
   "2027-03-27-bluebird-the-last-revel": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-27-bouldertheater-moe-": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-27-cervantes-yheti-b2b-toadface": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/10/yheti-b2b-toadface-w-ooga-dank-frank-quartzzion-1.jpeg",
@@ -6062,11 +5866,11 @@
   },
   "2027-03-28-bouldertheater-julian-lage": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-30-ballarena-greta-van-fleet": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-30-globehall-radio-free-alice": {
    "img": "https://globehall.com/wp-content/uploads/2026/11/radio-free-alice.jpeg",
@@ -6074,7 +5878,7 @@
   },
   "2027-03-31-ballarena-feid": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-03-31-globehall-sadurn": {
    "img": "https://globehall.com/wp-content/uploads/2026/10/sadurn.jpeg",
@@ -6082,7 +5886,7 @@
   },
   "2027-04-01-bluebird-dan-reeder": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-04-01-otherside-almost-a-m-": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/almost-a-m-w-moony.jpeg",
@@ -6090,11 +5894,11 @@
   },
   "2027-04-02-boettcher-colorado-symphony-with-yumi-hwang-williams": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-04-02-ogden-saxsquatch---bridge-band": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-04-02-redrocks-nora-en-pure-presents-purified-red-rocks": {
    "img": "https://assets.redrocksonline.com/wp-content/uploads/2026/10/27100619/nora-en-pure-tickets_04-02-27_18_6adf836a3ea57.jpg",
@@ -6110,7 +5914,7 @@
   },
   "2027-04-03-gothic-jersey": {
    "none": true,
-   "checked": "2026-11-18"
+   "checked": "2026-11-28"
   },
   "2027-04-03-otherside-islandman": {
    "img": "https://cervantesmasterpiece.com/wp-content/uploads/2026/11/islandman.jpeg",
